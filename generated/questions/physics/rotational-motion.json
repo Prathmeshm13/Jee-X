@@ -128,6 +128,102 @@
         "max": 15.0
       },
       "solution": "Using conservation of energy for rolling without slipping from height $h$:\n$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2 = \\frac{1}{2}mv^2\\left(1 + \\frac{k^2}{R^2}\\right)$.\nFor solid cylinder, $1 + k^2/R^2 = 1 + 1/2 = 3/2 \\implies v_1 = \\sqrt{\\frac{4gh}{3}}$.\nFor solid sphere, $1 + k^2/R^2 = 1 + 2/5 = 7/5 \\implies v_2 = \\sqrt{\\frac{10gh}{7}}$.\nThus, $\\frac{v_1}{v_2} = \\sqrt{\\frac{4}{3} \\cdot \\frac{7}{10}} = \\sqrt{\\frac{14}{15}} = \\sqrt{\\frac{x}{14}}$? Wait, $\\frac{v_1}{v_2} = \\sqrt{\\frac{28}{30}} = \\sqrt{\\frac{14}{15}}$, so if the ratio is written as $\\sqrt{\\frac{x}{14}}$ then $x$ is 12 (since $\\frac{v_1}{v_2} = \\sqrt{\\frac{28}{30}} = \\sqrt{\\frac{1.4 \\times 20}{15 \\times 2}}$... wait, $\\frac{v_1}{v_2} = \\sqrt{\\frac{4/3}{10/7}} = \\sqrt{\\frac{28}{30}} = \\sqrt{\\frac{14}{15}} = \\sqrt{\\frac{13.06}{14}}$. Let's recheck the ratio as $\\sqrt{\\frac{14}{15}}$: if the expression is $\\sqrt{\\frac{14}{x}}$, then $x = 15$. If it is $\\sqrt{\\frac{x}{14}}$, then $\\frac{14}{15} = \\frac{x}{14} \\implies x = 13.06$. The standard question is 'The ratio of velocity of the solid cylinder to that of the solid sphere is $\\sqrt{\\frac{14}{x}}$' where $x=15$. Let's present the question with ratio of velocities as $\\sqrt{\\frac{14}{x}}$ to make $x=15$."
+    },
+    {
+      "ref": "PHY-ROT-005",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two uniform thin rods of length $L$ and mass $M$ each are joined at right angles to form a T-shape. The moment of inertia of this system about an axis passing through the free end of the vertical rod and perpendicular to the plane of the T-shape is:",
+      "image": {
+        "url": null,
+        "alt": "A T-shaped assembly of two identical rods of length L and mass M. One rod is horizontal at the top, and the second rod is vertical, connected at its top end to the midpoint of the horizontal rod. The axis of rotation passes through the bottom (free end) of the vertical rod, oriented perpendicular to the plane of the T."
+      },
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{17}{12}ML^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{13}{12}ML^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{7}{12}ML^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{5}{12}ML^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For the vertical rod (of mass $M$, length $L$), the axis passes through one end: $I_1 = \\frac{1}{3}ML^2$.\nFor the horizontal rod (of mass $M$, length $L$), the distance from the axis to its center of mass is $L$.\nUsing parallel axis theorem, $I_2 = I_{\\text{cm}} + Md^2 = \\frac{1}{12}ML^2 + ML^2 = \\frac{13}{12}ML^2$.\nTotal moment of inertia $I = I_1 + I_2 = \\frac{1}{3}ML^2 + \\frac{13}{12}ML^2 = \\frac{17}{12}ML^2$."
+    },
+    {
+      "ref": "PHY-ROT-006",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Four identical solid spheres, each of mass $M$ and radius $R$, are placed with their centres on the four corners of a square of side $b$. The moment of inertia of this system about one of the sides of the square as axis is:\n\nIf the moment of inertia is $\frac{x}{5} M R^2 + y M b^2$, then the value of $x + y$ is:",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "Let the square be in the $xy$-plane with vertices at $(0,0)$, $(b,0)$, $(b,b)$, and $(0,b)$. Let the axis be along the side joining $(0,0)$ and $(b,0)$ (the x-axis).\nFor spheres 1 and 2 centered on the axis: $I_1 = I_2 = \frac{2}{5}MR^2$.\nFor spheres 3 and 4 centered at distance $b$ from the axis: $I_3 = I_4 = \frac{2}{5}MR^2 + Mb^2$.\nTotal moment of inertia $I = 4 \times \frac{2}{5}MR^2 + 2Mb^2 = \frac{8}{5}MR^2 + 2Mb^2$.\nComparing with $\frac{x}{5}MR^2 + yMb^2$, we get $x=8$ and $y=2$.\nThus, $x + y = 8 + 2 = 10$."
+    },
+    {
+      "ref": "PHY-ROT-007",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Four particles each of mass $m$ are placed at the corners of a square of side $a$. The moment of inertia of this system about an axis passing through one corner and parallel to the diagonal not passing through this corner is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2 m a^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$3 m a^2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$4 m a^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{5}{2} m a^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the square be in the $xy$-plane with corners at $A(0,0)$, $B(a,0)$, $C(a,a)$, and $D(0,a)$.\nLet the axis pass through $A(0,0)$ and be parallel to diagonal $BD$.\nThe line $BD$ is $x + y = a$, so its direction is along $(-1, 1)$.\nThe axis parallel to $BD$ passing through origin $(0,0)$ is $x + y = 0$.\nDistance of a point $(x_0, y_0)$ from the line $x + y = 0$ is $d = \\frac{|x_0 + y_0|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$.\nFor $B(a,0)$: $d_B = a / \\sqrt{2}$.\nFor $C(a,a)$: $d_C = 2a / \\sqrt{2} = a\\sqrt{2}$.\nFor $D(0,a)$: $d_D = a / \\sqrt{2}$.\n$I = m (d_A^2 + d_B^2 + d_C^2 + d_D^2) = m [0 + \\frac{a^2}{2} + 2a^2 + \\frac{a^2}{2}] = 3 m a^2$."
     }
   ]
 }

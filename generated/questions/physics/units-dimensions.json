@@ -109,6 +109,43 @@
         }
       ],
       "solution": "Velocity gradient $= \\frac{dv}{dx} \\rightarrow [\\mathrm{T}^{-1}]$.\nDecay constant $\\lambda \\rightarrow [\\mathrm{T}^{-1}]$.\nBoth have the same dimensions $[\\mathrm{T}^{-1}]$."
+    },
+    {
+      "ref": "PHY-UND-004",
+      "subtopic": "dimensions-of-physical-quantities",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Identify the pair of physical quantities that have the same dimensional formula.",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Velocity gradient and decay constant",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Wavelength and Rydberg constant",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Stress and coefficient of friction",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Torque and Planck's constant",
+          "is_correct": false
+        }
+      ],
+      "solution": "Velocity gradient has dimensions $\\frac{\\mathrm{d}v}{\\mathrm{d}x} \\Rightarrow \\frac{\\mathrm{L}\\mathrm{T}^{-1}}{\\mathrm{L}} = \\mathrm{T}^{-1}$.\nDecay constant $\\lambda$ has dimensions $\\mathrm{T}^{-1}$ since $N(t) = N_0 e^{-\\lambda t}$.\nTherefore, both have the same dimensional formula $[\\mathrm{T}^{-1}]$."
     }
   ]
 }

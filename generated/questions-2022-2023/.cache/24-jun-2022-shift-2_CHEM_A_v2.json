@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in the $n^{\\mathrm{th}}$ orbit of a hydrogen atom is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$n^2$",
+   "$n^3$",
+   "$n$",
+   "\\frac{1}{n^2}"
+  ],
+  "sol": "The time period of an electron in a Bohr orbit is given by $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto n^2$ and velocity $v \\propto \\frac{1}{n}$, we have $T \\propto \\frac{n^2}{1/n} = n^3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "Which of the following alkali metal halides has the lowest melting point?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "LiF",
+   "LiCl",
+   "LiBr",
+   "LiI"
+  ],
+  "sol": "According to Fajan's rules, larger anions are more easily polarized by the small $\\mathrm{Li}^+$ cation, leading to maximum covalent character in $\\mathrm{LiI}$. Greater covalent character results in a lower melting point. Thus, $\\mathrm{LiI}$ has the lowest melting point.",
+  "key": "D",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Amongst $\\mathrm{O}_2$, $\\mathrm{O}_2^+$, $\\mathrm{O}_2^-$ and $\\mathrm{O}_2^{2-}$, the correct order of bond energy is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O}_2^+ > \\mathrm{O}_2 > \\mathrm{O}_2^- > \\mathrm{O}_2^{2-}$",
+   "$\\mathrm{O}_2^{2-} > \\mathrm{O}_2^- > \\mathrm{O}_2 > \\mathrm{O}_2^+$",
+   "$\\mathrm{O}_2 > \\mathrm{O}_2^+ > \\mathrm{O}_2^- > \\mathrm{O}_2^{2-}$",
+   "$\\mathrm{O}_2^- > \\mathrm{O}_2^{2-} > \\mathrm{O}_2^+ > \\mathrm{O}_2$"
+  ],
+  "sol": "Bond energy is directly proportional to bond order. Calculating molecular orbital bond orders:\n$\\mathrm{O}_2^+$ (15 electrons): bond order = 2.5\n$\\mathrm{O}_2$ (16 electrons): bond order = 2.0\n$\\mathrm{O}_2^-$ (17 electrons): bond order = 1.5\n$\\mathrm{O}_2^{2-}$ (18 electrons): bond order = 1.0\nTherefore, the order of bond energy is $\\mathrm{O}_2^+ > \\mathrm{O}_2 > \\mathrm{O}_2^- > \\mathrm{O}_2^{2-}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "The incorrect statement among the following is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{N}_2$ has higher bond dissociation enthalpy than $\\mathrm{P}_2$.",
+   "$\\mathrm{N}-\\mathrm{N}$ single bond is stronger than $\\mathrm{P}-\\mathrm{P}$ single bond.",
+   "Nitrogen does not form pentahalides due to non-availability of d-orbitals.",
+   "Nitrogen is inert at room temperature due to high bond enthalpy of $\\mathrm{N}\\equiv\\mathrm{N}$."
+  ],
+  "sol": "The $\\mathrm{N}-\\mathrm{N}$ single bond is weaker than the $\\mathrm{P}-\\mathrm{P}$ single bond due to high inter-electronic repulsion between the non-bonding valence electrons of small nitrogen atoms. Thus, statement B is incorrect.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The electronic configuration of $\\mathrm{Gd}^{3+}$ (Atomic number of $\\mathrm{Gd} = 64$) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[\\mathrm{Xe}]\\,4f^7$",
+   "$[\\mathrm{Xe}]\\,4f^8$",
+   "$[\\mathrm{Xe}]\\,4f^7 5d^1$",
+   "$[\\mathrm{Xe}]\\,4f^6 5d^1$"
+  ],
+  "sol": "The electronic configuration of gadolinium ($\\mathrm{Gd}$, $Z = 64$) is $[\\mathrm{Xe}]\\,4f^7 5d^1 6s^2$. When three electrons are removed to form $\\mathrm{Gd}^{3+}$, they are lost from the $6s$ and $5d$ subshells, leaving the stable half-filled configuration: $[\\mathrm{Xe}]\\,4f^7$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The formula of the complex ion which can show both optical and geometrical isomerism is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[\\mathrm{Co}(\\mathrm{en})_3]^{3+}$",
+   "$\\textit{cis-}[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$",
+   "$\\textit{trans-}[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$",
+   "$[\\mathrm{Cr}(\\mathrm{NH}_3)_4\\mathrm{Cl}_2]^+$"
+  ],
+  "sol": "For $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$, the *cis*-isomer is chiral (non-superimposable on its mirror image) and hence shows optical isomerism, whereas the *trans*-isomer has a plane of symmetry and is optically inactive. Both *cis* and *trans* together represent geometrical isomerism. Hence, the complex ion shown as a pair that displays both is represented by the *cis*-form of $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 75
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is a primary contributor to photochemically induced smog?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Sulfur dioxide",
+   "Nitrogen oxides",
+   "Carbon dioxide",
+   "Carbon monoxide"
+  ],
+  "sol": "Photochemical smog is formed in warm, dry and sunny climates. The main components result from the action of sunlight on unsaturated hydrocarbons and nitrogen oxides produced by automobiles and factories.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis",
+  "conf": "exact",
+  "stem": "In Lassaigne's test, the organic compound is fused with sodium metal. The Prussian blue colour obtained during the test for nitrogen is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Na}_4[\\mathrm{Fe}(\\mathrm{CN})_6]$",
+   "$\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$",
+   "$\\mathrm{Fe}_3[\\mathrm{Fe}(\\mathrm{CN})_6]_2$",
+   "$\\mathrm{Na}_3[\\mathrm{Fe}(\\mathrm{CN})_6]$"
+  ],
+  "sol": "The Prussian blue complex formed during the test for nitrogen is iron(III) hexacyanoferrate(II), which has the formula $\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3 \\cdot x\\mathrm{H}_2\\mathrm{O}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct decreasing order of basic strength of the following amines in aqueous solution is:\n\n(I) $\\mathrm{(CH_3)_2NH}$\n(II) $\\mathrm{CH_3NH_2}$\n(III) $\\mathrm{(CH_3)_3N}$\n(IV) $\\mathrm{NH_3}$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "(I) > (II) > (III) > (IV)",
+   "(I) > (III) > (II) > (IV)",
+   "(III) > (I) > (II) > (IV)",
+   "(II) > (I) > (III) > (IV)"
+  ],
+  "sol": "For methyl-substituted amines in aqueous medium, the basic strength order is determined by inductive effect, steric hindrance, and solvation. The experimentally observed order of basic strength is: secondary > primary > tertiary > ammonia, which corresponds to $\\mathrm{(CH_3)_2NH} > \\mathrm{CH_3NH_2} > \\mathrm{(CH_3)_3N} > \\mathrm{NH_3}$ (i.e., I > II > III > IV).",
+  "key": "A",
+  "diff": 4,
+  "secs": 50
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "The major product formed in the following reaction is:\n$$\\mathrm{CH_3-C\\equiv C-CH_3} \\xrightarrow{\\mathrm{Na / \\text{liquid } NH_3}} \\text{Product}$$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "\\textit{cis}-But-2-ene",
+   "\\textit{trans}-But-2-ene",
+   "Butane",
+   "But-1-yne"
+  ],
+  "sol": "The reduction of an internal alkyne with sodium in liquid ammonia (Birch reduction) selectively yields the corresponding \\textit{trans}-alkene. Thus, but-2-yne is reduced to \\textit{trans}-but-2-ene.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution",
+  "conf": "exact",
+  "stem": "Which of the following compounds will undergo nucleophilic substitution ($S_N2$) reaction fastest?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CH_3-CH_2-CH_2-CH_2-Cl}$",
+   "$\\mathrm{CH_3-CH_2-CH(Cl)-CH_3}$",
+   "$\\mathrm{(CH_3)_3C-Cl}$",
+   "$\\mathrm{(CH_3)_2CH-CH_2-Cl}$"
+  ],
+  "sol": "$S_N2$ substitution kinetics are highly sensitive to steric hindrance. Primary alkyl halides without branching on the adjacent carbon atom react the fastest. Thus, 1-chlorobutane ($\\mathrm{CH_3CH_2CH_2CH_2Cl}$) is less hindered than isobutyl chloride ($\\mathrm{(CH_3)_2CHCH_2Cl}$), secondary, or tertiary chlorides, and undergoes the fastest $S_N2$ reaction.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Which of the following compounds does not give iodoform test?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Acetophenone",
+   "Pentan-2-one",
+   "Pentan-3-one",
+   "Ethanol"
+  ],
+  "sol": "The iodoform test is given by compounds containing a methyl ketone group ($\\mathrm{CH_3-CO-}$) or a methyl carbinol group ($\\mathrm{CH_3-CH(OH)-}$). Pentan-3-one ($\\mathrm{CH_3-CH_2-CO-CH_2-CH_3}$) does not contain either of these groups, so it does not give the iodoform test.",
+  "key": "C",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following polymers is prepared by condensation polymerization?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Teflon",
+   "Nylon 6,6",
+   "Buna-S",
+   "Neoprene"
+  ],
+  "sol": "Nylon 6,6 is a condensation polymer synthesized by the condensation reaction of hexamethylenediamine and adipic acid with the elimination of water molecules. Teflon, Buna-S, and Neoprene are addition polymers.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of which vitamin causes cheilosis (fissuring at corners of mouth and lips)?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin $B_1$",
+   "Vitamin $B_2$",
+   "Vitamin $B_6$",
+   "Vitamin $B_{12}$"
+  ],
+  "sol": "Cheilosis, localized inflammation and cracking at the corners of the mouth, is caused by deficiency of Riboflavin (Vitamin $B_2$).",
+  "key": "B",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Terfenadine is commonly used as a/an:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Tranquilizer",
+   "Antihistamine",
+   "Antibiotic",
+   "Analgesic"
+  ],
+  "sol": "Terfenadine (Seldane) is a synthetic drug that acts as an antihistamine, used to treat allergic symptoms by competing with histamine at $H_1$ receptor sites.",
+  "key": "B",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The elevation of boiling point of $0.10\\ \\mathrm{m}$ aqueous solution of $\\mathrm{K_4[Fe(CN)_6]}$ (assuming $100\\%$ ionization) is ($K_b$ for water $= 0.52\\ \\mathrm{K\\ kg\\ mol^{-1}}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.052\\ \\mathrm{K}$",
+   "$0.104\\ \\mathrm{K}$",
+   "$0.260\\ \\mathrm{K}$",
+   "$0.520\\ \\mathrm{K}$"
+  ],
+  "sol": "For $\\mathrm{K_4[Fe(CN)_6]}$, $100\\%$ ionization gives $\\mathrm{K_4[Fe(CN)_6]} \\rightarrow 4\\mathrm{K}^+ + [\\mathrm{Fe(CN)_6}]^{4-}$, so the van 't Hoff factor $i = 5$.\nUsing $\\Delta T_b = i \\cdot K_b \\cdot m$:\n$\\Delta T_b = 5 \\times 0.52\\ \\mathrm{K\\ kg\\ mol^{-1}} \\times 0.10\\ \\mathrm{mol\\ kg^{-1}} = 0.260\\ \\mathrm{K}$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 55
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-life",
+  "conf": "exact",
+  "stem": "A first-order reaction has a rate constant $k = 4.606 \\times 10^{-3}\\ \\mathrm{s}^{-1}$. The time required for the concentration of reactant to decrease from $2.0\\ \\mathrm{g}$ to $0.2\\ \\mathrm{g}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$200\\ \\mathrm{s}$",
+   "$500\\ \\mathrm{s}$",
+   "$1000\\ \\mathrm{s}$",
+   "$100\\ \\mathrm{s}$"
+  ],
+  "sol": "For a first-order reaction:\n$t = \\frac{2.303}{k} \\log\\left(\\frac{[A]_0}{[A]_t}\\right)$\n$t = \\frac{2.303}{4.606 \\times 10^{-3}} \\log\\left(\\frac{2.0}{0.2}\\right) = 0.5 \\times 10^3 \\log(10) = 500\\ \\mathrm{s}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction of Metals",
+  "conf": "exact",
+  "stem": "Which of the following options represents the correct match for the extraction process of metals?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Cyanide process : Au",
+   "Froth floatation process : Al",
+   "Electrolytic reduction : Fe",
+   "Zone refining : Cu"
+  ],
+  "sol": "Gold (Au) is extracted by the cyanide process (MacArthur-Forrest cyanide process) via leaching. Aluminium is extracted by electrolysis (Hall-Heroult process), iron by reduction in a blast furnace, and zone refining is used for high purity semiconductors like Si and Ge, while Cu is refined electrolytically.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)},\\quad \\Delta H > 0$$\nWhich of the following conditions will shift the equilibrium in the forward direction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing the pressure",
+   "Increasing the temperature",
+   "Adding $\\mathrm{Cl_2}$ gas at constant volume",
+   "Decreasing the volume of the container"
+  ],
+  "sol": "The reaction is endothermic ($\\Delta H > 0$). According to Le Chatelier's principle, increasing the temperature shifts the equilibrium of an endothermic reaction in the forward direction. Increasing pressure/decreasing volume shifts it towards fewer moles (backward), and adding $\\mathrm{Cl_2}$ shifts it backward.",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "If the conductivity of $0.001\\ \\mathrm{M}$ acetic acid is $4 \\times 10^{-5}\\ \\mathrm{S\\ cm^{-1}}$, and the limiting molar conductivity of acetic acid is $400\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$, the degree of dissociation ($\\alpha$) of the acid is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.1$",
+   "$0.01$",
+   "$0.001$",
+   "$0.2$"
+  ],
+  "sol": "Molar conductivity $\\Lambda_m = \\frac{\\kappa \\times 1000}{M} = \\frac{4 \\times 10^{-5} \\times 1000}{0.001} = 40\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.\nDegree of dissociation $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ} = \\frac{40}{400} = 0.1$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ }
+]

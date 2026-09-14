@@ -109,6 +109,99 @@
         }
       ],
       "solution": "Elongation is $l = \\frac{FL}{A Y} = \\frac{FL}{\\pi r^2 Y}$.\nFor the second wire, $l' = \\frac{F(2L)}{\\pi (2r)^2 Y} = \\frac{2 FL}{4 \\pi r^2 Y} = \\frac{l}{2}$."
+    },
+    {
+      "ref": "PHY-MPS-004",
+      "subtopic": "elastic-moduli",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A wire of length $L$ and cross-sectional area $A$ is made of a material of Young's modulus $Y$. If the wire is stretched by an amount $x$, the work done in stretching the wire is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{YAx^2}{2L}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{YAx^2}{L}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{2YAx^2}{L}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{YAx}{2L^2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The work done in stretching a wire is stored as elastic potential energy: $W = \\frac{1}{2} F x$.\nSince $F = \\frac{Y A x}{L}$,\n$W = \\frac{1}{2} \\left(\\frac{Y A x}{L}\\right) x = \\frac{YAx^2}{2L}$."
+    },
+    {
+      "ref": "PHY-MPS-005",
+      "subtopic": "elastic-moduli",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The bulk modulus of a liquid is $3 \\times 10^9\\ \\mathrm{N/m^2}$. To reduce the volume of the liquid by $1\\%$, the fractional pressure change needed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$3 \\times 10^7\\ \\mathrm{N/m^2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$3 \\times 10^5\\ \\mathrm{N/m^2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$3 \\times 10^9\\ \\mathrm{N/m^2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$3 \\times 10^6\\ \\mathrm{N/m^2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Bulk modulus $B = -\\frac{\\Delta P}{\\Delta V/V}$.\nGiven $\\frac{\\Delta V}{V} = -1\\% = -0.01$.\n$\\Delta P = B \\left( -\\frac{\\Delta V}{V} \\right) = 3 \\times 10^9 \\times 0.01 = 3 \\times 10^7\\ \\mathrm{N/m^2}$."
+    },
+    {
+      "ref": "PHY-MPS-006",
+      "subtopic": "elastic-moduli",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A steel wire of length $2 \\mathrm{m}$ and cross-sectional area $10^{-6} \\mathrm{m^2}$ is stretched by a force of $100 \\mathrm{N}$. If Young's modulus of steel is $2 \\times 10^{11} \\mathrm{N/m^2}$, the elastic potential energy density of the stretched wire is $x \\times 10^{3} \\mathrm{J/m^3}$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 25.0,
+        "max": 25.0
+      },
+      "solution": "Energy density $u = \\frac{1}{2} \\times \\text{Stress} \\times \\text{Strain} = \\frac{1}{2} \\frac{\\text{Stress}^2}{Y}$.\nStress $S = \\frac{F}{A} = \\frac{100}{10^{-6}} = 10^8 \\mathrm{N/m^2}$.\n$u = \\frac{1}{2} \\times \\frac{(10^8)^2}{2 \\times 10^{11}} = \\frac{10^{16}}{4 \\times 10^{11}} = 2.5 \\times 10^4 = 25 \\times 10^3 \\mathrm{J/m^3}$.\nThus, $x = 25$."
     }
   ]
 }

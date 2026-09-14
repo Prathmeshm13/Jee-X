@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
-import { AnalysisDashboard, useCrackJeeStyles } from '../crackjee/screens.jsx'
+import { AnalysisDashboard } from '../crackjee/screens.jsx'
+import AppHeader from '../components/AppHeader.jsx'
 import { api } from '../lib/api.js'
 import { savePendingFreeTest } from '../lib/pendingFreeTest.js'
 
@@ -29,7 +30,6 @@ function toAttemptPayload(result) {
 }
 
 export default function Analysis() {
-  useCrackJeeStyles()
   const navigate = useNavigate()
   const { state } = useLocation()
   const { isAuthenticated, getAccessTokenSilently } = useAuth0()
@@ -56,6 +56,7 @@ export default function Analysis() {
 
   return (
     <div className="crackjee-root">
+      <AppHeader />
       <AnalysisDashboard
         result={result}
         onHome={() => navigate('/dashboard')}

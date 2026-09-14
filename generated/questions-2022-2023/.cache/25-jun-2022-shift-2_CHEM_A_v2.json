@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model of the Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in the hydrogen atom in the $n^{\\text{th}}$ orbit is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$n^2$",
+   "$n^3$",
+   "$n$",
+   "$n^{1/2}$"
+  ],
+  "sol": "The velocity of an electron in Bohr's orbit is $v \\propto \\frac{Z}{n}$ and the radius of orbit is $r \\propto \\frac{n^2}{Z}$.\nThe time period is given by $T = \\frac{2\\pi r}{v}$.\nTherefore, $T \\propto \\frac{r}{v} \\propto \\frac{n^2}{1/n} = n^3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Amongst the following, the species that contains the maximum number of unpaired electrons is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2}$",
+   "$\\mathrm{O_2^+}$",
+   "$\\mathrm{O_2^-}$",
+   "$\\mathrm{O_2^{2-}}$"
+  ],
+  "sol": "Using Molecular Orbital Theory:\n- $\\mathrm{O_2}$ (16 $e^-$): configuration ends in $(\\pi^*_{2p_x})^1 (\\pi^*_{2p_y})^1 \\implies 2$ unpaired $e^-$.\n- $\\mathrm{O_2^+}$ (15 $e^-$): configuration ends in $(\\pi^*_{2p_x})^1 (\\pi^*_{2p_y})^0 \\implies 1$ unpaired $e^-$.\n- $\\mathrm{O_2^-}$ (17 $e^-$): configuration ends in $(\\pi^*_{2p_x})^2 (\\pi^*_{2p_y})^1 \\implies 1$ unpaired $e^-$.\n- $\\mathrm{O_2^{2-}}$ (18 $e^-$): configuration ends in $(\\pi^*_{2p_x})^2 (\\pi^*_{2p_y})^2 \\implies 0$ unpaired $e^-$.\nThus, $\\mathrm{O_2}$ has the maximum number of unpaired electrons (2).",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties and Determination of Molar Mass",
+  "conf": "exact",
+  "stem": "At $25^\\circ\\mathrm{C}$, the osmotic pressure of a solution containing $0.10\\ \\mathrm{g}$ of a non-electrolyte solute in $100\\ \\mathrm{mL}$ of solution is $2.46\\ \\mathrm{atm}$. The molar mass of the solute is:\n(Given: $R = 0.0821\\ \\mathrm{L\\ atm\\ K^{-1}\\ mol^{-1}}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$10\\ \\mathrm{g\\ mol^{-1}}$",
+   "$100\\ \\mathrm{g\\ mol^{-1}}$",
+   "$20\\ \\mathrm{g\\ mol^{-1}}$",
+   "$50\\ \\mathrm{g\\ mol^{-1}}$"
+  ],
+  "sol": "Using the osmotic pressure equation: $\\pi = CRT = \\frac{w}{M \\cdot V} RT$\n$2.46 = \\frac{0.10}{M \\times 0.1} \\times 0.0821 \\times 298$\n$2.46 = \\frac{1}{M} \\times 24.46 \\implies M \\approx \\frac{24.46}{2.46} \\approx 10\\ \\mathrm{g\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "Which of the following electrolyte solutions has the maximum value of molar conductivity ($\\Lambda_m$) at $298\\ \\mathrm{K}$?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.01\\ \\mathrm{M}\\ \\mathrm{KCl}$",
+   "$0.1\\ \\mathrm{M}\\ \\mathrm{KCl}$",
+   "$0.5\\ \\mathrm{M}\\ \\mathrm{KCl}$",
+   "$1.0\\ \\mathrm{M}\\ \\mathrm{KCl}$"
+  ],
+  "sol": "Molar conductivity ($\\Lambda_m$) increases with dilution (i.e., decrease in concentration) due to decrease in inter-ionic interactions for strong electrolytes. Therefore, the lowest concentration ($0.01\\ \\mathrm{M}$) has the maximum molar conductivity.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$$\nthe forward reaction is favored by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "increasing the pressure",
+   "decreasing the volume of the container",
+   "introducing an inert gas at constant pressure",
+   "introducing an inert gas at constant volume"
+  ],
+  "sol": "Here, $\\Delta n_g = 1 + 1 - 1 = 1 > 0$.\nAccording to Le Chatelier's principle:\n- Adding inert gas at constant pressure increases the volume, favoring the side with more moles of gas (forward).\n- Adding inert gas at constant volume has no effect.\n- Increasing pressure or decreasing volume shifts the equilibrium backward.",
+  "key": "C",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-Lives",
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99\\%$ completion is about $x$ times the time required for $90\\%$ completion. The value of $x$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "2",
+   "3",
+   "4",
+   "10"
+  ],
+  "sol": "For a first-order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100 - p}\\right)$.\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{10}\\right) = \\frac{2.303}{k} \\times 1$\nTherefore, $t_{99\\%} = 2 \\times t_{90\\%} \\implies x = 2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals and Their Properties",
+  "conf": "exact",
+  "stem": "The sequence of ionic mobility of alkali metal ions in aqueous solution is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{K^+ > Rb^+ > Cs^+ > Na^+}$",
+   "$\\mathrm{Cs^+ > Rb^+ > K^+ > Na^+}$",
+   "$\\mathrm{Na^+ > K^+ > Rb^+ > Cs^+}$",
+   "$\\mathrm{Rb^+ > Cs^+ > Na^+ > K^+}$"
+  ],
+  "sol": "Smaller ions have high charge density and are heavily hydrated in aqueous solutions. Highly hydrated ions have large effective size and lowest mobility. Thus, the hydration size order is $\\mathrm{Na^+ > K^+ > Rb^+ > Cs^+}$, making the ionic mobility order $\\mathrm{Cs^+ > Rb^+ > K^+ > Na^+}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P-P}$ bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$)",
+   "Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$)",
+   "Metaphosphoric acid ($\\mathrm{(HPO_3)_n}$)",
+   "Orthophosphoric acid ($\\mathrm{H_3PO_4}$)"
+  ],
+  "sol": "Hypophosphoric acid, $\\mathrm{H_4P_2O_6}$, contains two $\\mathrm{P}$ atoms connected directly to each other, forming a $\\mathrm{P-P}$ bond where both phosphorus atoms are in the $+4$ oxidation state. Pyrophosphoric acid contains a $\\mathrm{P-O-P}$ bond.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "The Lanthanoids",
+  "conf": "exact",
+  "stem": "The lanthanoid ion that is commonly used as an oxidizing agent is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce^{4+}}$",
+   "$\\mathrm{Yb^{2+}}$",
+   "$\\mathrm{Eu^{2+}}$",
+   "$\\mathrm{Lu^{3+}}$"
+  ],
+  "sol": "The most stable oxidation state of lanthanoids is $+3$. $\\mathrm{Ce^{4+}}$ is a strong oxidizing agent because it easily reduces to the stable $+3$ state ($\\mathrm{Ce^{3+}}$).",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The compound $\\mathrm{[Co(NH_3)_5(SO_4)]Br}$ and $\\mathrm{[Co(NH_3)_5Br]SO_4}$ are examples of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Linkage isomerism",
+   "Ionization isomerism",
+   "Coordination isomerism",
+   "Solvate isomerism"
+  ],
+  "sol": "These complexes yield different ions in solution ($\\mathrm{Br^-}$ vs $\\mathrm{SO_4^{2-}}$) upon ionization, making them ionization isomers.",
+  "key": "B",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The pollutant that causes photochemical smog and is also a major constituent of industrial smog is/are:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Oxides of nitrogen",
+   "Oxides of sulfur",
+   "Chlorofluorocarbons",
+   "Carbon monoxide"
+  ],
+  "sol": "Classic (industrial) smog is a reducing mixture containing high concentration of $\\mathrm{SO_2}$ (oxides of sulfur), whereas photochemical smog is oxidizing and is formed by action of sunlight on unsaturated hydrocarbons and nitrogen oxides. However, the question asks for the primary constituent of classical/industrial smog: oxides of sulfur.",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "Lassaigne's test for the detection of nitrogen fails in the case of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{NH_2-NH_2 \\cdot HCl}$",
+   "$\\mathrm{C_6H_5NH_2}$",
+   "$\\mathrm{CH_3CONH_2}$",
+   "$\\mathrm{C_6H_5NO_2}$"
+  ],
+  "sol": "Lassaigne's test requires the presence of both carbon and nitrogen in the organic compound to form $\\mathrm{NaCN}$. Hydrazine ($\\mathrm{NH_2-NH_2}$) does not contain carbon, so even in the presence of its salt, it cannot form $\\mathrm{CN^-}$ and thus fails the test.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "The correct increasing order of basic strength for the following compounds is:\n(I) Aniline  \n(II) $p$-Nitroaniline  \n(III) $p$-Methylaniline  \n(IV) $p$-Methoxyaniline",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "II < I < III < IV",
+   "I < II < III < IV",
+   "IV < III < I < II",
+   "II < I < IV < III"
+  ],
+  "sol": "Electron-donating groups increase the basic strength of aniline, while electron-withdrawing groups decrease it.\n- $-\\mathrm{OCH_3}$ (in IV) is strongly activating via $+M$.\n- $-\\mathrm{CH_3}$ (in III) is activating via $+I$ and hyperconjugation.\n- $-\\mathrm{NO_2}$ (in II) is strongly deactivating via $-M$.\nTherefore, the basic strength order is: II < I < III < IV.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes: Preparation and Properties",
+  "conf": "exact",
+  "stem": "Which of the following compounds reacts with $\\mathrm{NaNH_2}$ to give a sodium salt?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "But-1-yne",
+   "But-2-yne",
+   "But-2-ene",
+   "Butane"
+  ],
+  "sol": "Terminal alkynes like but-1-yne have acidic acetylenic hydrogens ($\\mathrm{sp}$ hybridized carbon) which can react with a strong base like $\\mathrm{NaNH_2}$ to form sodium acetylide.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "The correct order of reactivity towards $\\mathrm{S_N2}$ displacement reaction is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1-Bromobutane > 2-Bromobutane > 2-Bromo-2-methylpropane",
+   "2-Bromo-2-methylpropane > 2-Bromobutane > 1-Bromobutane",
+   "2-Bromobutane > 1-Bromobutane > 2-Bromo-2-methylpropane",
+   "1-Bromobutane > 2-Bromo-2-methylpropane > 2-Bromobutane"
+  ],
+  "sol": "$\\mathrm{S_N2}$ reactivity is highly sensitive to steric hindrance around the carbon bearing the leaving group. The order of reactivity is $1^\\circ > 2^\\circ > 3^\\circ$ alkyl halides. Hence, 1-bromobutane ($1^\\circ$) > 2-bromobutane ($2^\\circ$) > 2-bromo-2-methylpropane ($3^\\circ$).",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Carbonyl Compounds",
+  "conf": "exact",
+  "stem": "Which of the following will not give the iodoform test?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Benzophenone",
+   "Acetophenone",
+   "Ethanol",
+   "Acetone"
+  ],
+  "sol": "The iodoform test is given by compounds having a $\\mathrm{CH_3-CO-}$ group or a $\\mathrm{CH_3-CH(OH)-}$ group. Benzophenone ($\\mathrm{C_6H_5-CO-C_6H_5}$) does not contain a methyl ketone group, so it does not give the iodoform test.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins: Classification and Deficiency Diseases",
+  "conf": "exact",
+  "stem": "Which of the following vitamins is water-soluble?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin C",
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin E"
+  ],
+  "sol": "Vitamins B and C are water-soluble, while vitamins A, D, E, and K are fat-soluble.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a condensation polymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Nylon-6,6",
+   "Teflon",
+   "Neoprene",
+   "Buna-S"
+  ],
+  "sol": "Nylon-6,6 is a condensation polymer made by the condensation of hexamethylenediamine and adipic acid with the elimination of water molecules. Teflon, Neoprene, and Buna-S are addition polymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Therapeutic Action of Different Classes of Drugs",
+  "conf": "exact",
+  "stem": "Which of the following is an artificial sweetener?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Alitame",
+   "Bithional",
+   "Salvarsan",
+   "Prontosil"
+  ],
+  "sol": "Alitame is a high-potency artificial sweetener. Bithional is added to soaps as an antiseptic. Salvarsan and Prontosil are antimicrobial drugs.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "General Principles of Extraction of Metals",
+  "conf": "exact",
+  "stem": "During the extraction of iron in the blast furnace, the flux used and the slag formed are respectively:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CaCO_3}$ and $\\mathrm{CaSiO_3}$",
+   "$\\mathrm{SiO_2}$ and $\\mathrm{FeSiO_3}$",
+   "$\\mathrm{CaO}$ and $\\mathrm{CaSiO_3}$",
+   "$\\mathrm{CaCO_3}$ and $\\mathrm{FeSiO_3}$"
+  ],
+  "sol": "Limestone ($\\mathrm{CaCO_3}$) is added as a flux, which decomposes to $\\mathrm{CaO}$. $\\mathrm{CaO}$ reacts with silica impurity ($\\mathrm{SiO_2}$) to form slag, calcium silicate ($\\mathrm{CaSiO_3}$):  \n$\\mathrm{CaO + SiO_2 \\rightarrow CaSiO_3}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ }
+]

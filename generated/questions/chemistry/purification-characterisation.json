@@ -128,6 +128,99 @@
         "max": 10.0
       },
       "solution": "Initial milliequivalents of $\\text{H}_2\\text{SO}_4 = 20 \\times 0.1 \\times 2 = 4\\text{ meq}$.\nMilliequivalents of $\\text{NaOH} = 20 \\times 0.1 \\times 1 = 2\\text{ meq}$.\nMilliequivalents of acid reacted with $\\text{NH}_3 = 4 - 2 = 2\\text{ meq} = 2\\text{ mmol}$ of nitrogen.\nMass of nitrogen $= 2 \\times 10^{-3} \\times 14 = 0.028\\text{ g}$.\nPercentage of nitrogen $= \\frac{0.028}{0.28} \\times 100 = 10\\%$."
+    },
+    {
+      "ref": "CHEM-POC-005",
+      "subtopic": "organic-characterisation",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the sodium fusion test for the detection of nitrogen in an organic compound, the blue color is due to the formation of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Na_4[Fe(CN)_6]}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Na_3[Fe(CN)_5NOS]}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The Prussian blue color obtained in the Lassaigne's test for nitrogen is due to the formation of iron(III) hexacyanoferrate(II), which is represented as Prussian blue, $\\mathrm{Fe_4[Fe(CN)_6]_3}$."
+    },
+    {
+      "ref": "CHEM-POC-006",
+      "subtopic": "organic-characterisation",
+      "type": "numerical",
+      "difficulty": 6,
+      "expected_time_sec": 210,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In Dumas method for the estimation of nitrogen, $0.25\\ \\mathrm{g}$ of an organic compound gave $40\\ \\mathrm{mL}$ of nitrogen collected at $300\\ \\mathrm{K}$ and $725\\ \\mathrm{mm\\ Hg}$ pressure. If the aqueous tension at $300\\ \\mathrm{K}$ is $25\\ \\mathrm{mm\\ Hg}$, the percentage of nitrogen in the compound is ____________. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 17.0,
+        "max": 17.0
+      },
+      "solution": "Pressure of dry $\\mathrm{N_2}$ gas, $P = 725 - 25 = 700\\ \\mathrm{mm\\ Hg}$.\nVolume $V = 40\\ \\mathrm{mL}$, $T = 300\\ \\mathrm{K}$.\nUsing $PV = nRT \\implies n = \\frac{(700/760) \\times (40/1000)}{0.0821 \\times 300} = 1.496 \\times 10^{-3}\\ \\mathrm{mol}$.\nMass of $\\mathrm{N_2} = 1.496 \\times 10^{-3} \\times 28 = 0.0419\\ \\mathrm{g}$.\nPercentage of $\\mathrm{N} = \\frac{0.0419}{0.25} \\times 100 \\approx 16.76\\% \\approx 17\\%$."
+    },
+    {
+      "ref": "CHEM-POC-007",
+      "subtopic": "organic-characterisation",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In Lassaigne's test for the detection of nitrogen in an organic compound, the Prussian blue colour is due to the formation of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Fe}_3[\\mathrm{Fe}(\\mathrm{CN})_6]_4$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Fe}_3[\\mathrm{Fe}(\\mathrm{CN})_6]_2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "In Lassaigne's test, the sodium extract is treated with $\\mathrm{FeSO}_4$ and then acidified with $\\mathrm{HCl}$. Prussian blue colour is due to ferric ferrocyanide (Iron(III) hexacyanoferrate(II)), which is represented as $\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$."
     }
   ]
 }

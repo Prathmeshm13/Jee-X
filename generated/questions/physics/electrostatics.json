@@ -128,6 +128,80 @@
         "max": 2.0
       },
       "solution": "Let the point of zero electric field be at a distance $d$ from $q_2$ on the outer side.\nThe electric fields must cancel out:\n$\\frac{k|q_1|}{(1 + d)^2} = \\frac{k|q_2|}{d^2} \\implies \\frac{4}{(1 + d)^2} = \\frac{2}{d^2}$.\nTaking square root on both sides:\n$\\frac{2}{1 + d} = \\frac{\\sqrt{2}}{d} \\implies 2d = \\sqrt{2} + \\sqrt{2}d \\implies d(2 - \\sqrt{2}) = \\sqrt{2}$.\n$d = \\frac{\\sqrt{2}}{2 - \\sqrt{2}} = \\frac{1}{\\sqrt{2} - 1}$.\nComparing with $d = \\frac{1}{\\sqrt{x} - 1}$, we get $x = 2$."
+    },
+    {
+      "ref": "PHY-ELS-005",
+      "subtopic": "electric-field-intensity",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Three point charges $q$, $-2q$, and $q$ are placed at points $(0, a, 0)$, $(0, 0, 0)$, and $(a, 0, 0)$ respectively. The magnitude of the electric dipole moment of this charge system is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\sqrt{2} q a$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2 q a$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$q a$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\sqrt{3} q a$",
+          "is_correct": false
+        }
+      ],
+      "solution": "We can split the $-2q$ charge at $(0,0,0)$ into two charges of $-q$ each.\nOne dipole is formed between $-q$ at origin and $+q$ at $(0,a,0)$ with dipole moment vector $\\vec{p}_1 = qa \\hat{j}$.\nThe second dipole is between $-q$ at origin and $+q$ at $(a,0,0)$ with dipole moment vector $\\vec{p}_2 = qa \\hat{i}$.\nThe net dipole moment is $\\vec{p} = qa \\hat{i} + qa \\hat{j}$.\nMagnitude $p = \\sqrt{(qa)^2 + (qa)^2} = \\sqrt{2} qa$."
+    },
+    {
+      "ref": "PHY-ELS-006",
+      "subtopic": "electric-field-intensity",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A charge $q$ is placed at the center of the open end of a cylindrical vessel of radius $R$ and length $L$. The electric flux through the surface of the vessel is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{q}{\\varepsilon_0}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{q}{2\\varepsilon_0}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{q}{4\\varepsilon_0}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Zero",
+          "is_correct": false
+        }
+      ],
+      "solution": "By symmetry, we can place an identical cylinder on the open side to enclose the charge fully.\nTotal flux from the enclosed system is $\\Phi_{\\text{total}} = \\frac{q}{\\varepsilon_0}$.\nTherefore, the flux through the original half-vessel is $\\frac{1}{2} \\Phi_{\\text{total}} = \\frac{q}{2\\varepsilon_0}$."
     }
   ]
 }

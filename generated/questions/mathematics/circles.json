@@ -109,6 +109,80 @@
         }
       ],
       "solution": "Tangent to $C_1$ at $(1, 1)$ is $x + y = 2$.\nThis line is the chord of contact of the point $P(x_1, y_1)$ with respect to $C_2$.\nChord of contact of $P$ with respect to $C_2$ is $x x_1 + y y_1 = 4$.\nComparing $x+y=2$ and $x x_1 + y y_1 = 4$:\n$\\frac{x_1}{1} = \\frac{y_1}{1} = \\frac{4}{2} = 2 \\implies x_1 = 2, y_1 = 2$.\nThus the point of intersection is $(2, 2)$."
+    },
+    {
+      "ref": "MATH-CIR-004",
+      "subtopic": "tangents-and-normals",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The length of the tangent from the point $(5, 7)$ to the circle $x^2 + y^2 - 4x - 6y + 9 = 0$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$4$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$5$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\sqrt{21}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\sqrt{23}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The length of the tangent $L = \\sqrt{S_1}$.\n$S_1 = 5^2 + 7^2 - 4(5) - 6(7) + 9 = 25 + 49 - 20 - 42 + 9 = 21$.\nThus, $L = \\sqrt{21}$."
+    },
+    {
+      "ref": "MATH-CIR-005",
+      "subtopic": "tangents-and-normals",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let the tangent at any point $P$ on the circle $x^2 + y^2 = 4$ meet the coordinate axes at $A$ and $B$. Then the locus of the midpoint of $AB$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$x^2 + y^2 = x^2 y^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$x^2 + y^2 = 4x^2 y^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$4(x^2 + y^2) = x^2 y^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$x^2 + y^2 = 2x^2 y^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $P$ be $(2\\cos\\theta, 2\\sin\\theta)$.\nEquation of tangent: $x\\cos\\theta + y\\sin\\theta = 2$.\n$A = \\left(\\frac{2}{\\cos\\theta}, 0\\right)$, $B = \\left(0, \\frac{2}{\\sin\\theta}\\right)$.\nMidpoint $M(h, k) \\implies h = \\frac{1}{\\cos\\theta}, k = \\frac{1}{\\sin\\theta}$.\n$\\cos\\theta = \\frac{1}{h}$, $\\sin\\theta = \\frac{1}{k}$.\nSince $\\cos^2\\theta + \\sin^2\\theta = 1 \\implies \\frac{1}{h^2} + \\frac{1}{k^2} = 1 \\implies h^2 + k^2 = h^2 k^2$.\nLocus is $x^2 + y^2 = x^2 y^2$."
     }
   ]
 }

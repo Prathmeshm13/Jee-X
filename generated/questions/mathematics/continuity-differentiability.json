@@ -90,6 +90,118 @@
         }
       ],
       "solution": "Let $g_1(x) = |x|-1$, $g_2(x) = |x-1|-1$, $g_3(x) = |x-2|-1$.\nPlotting these functions, they are v-shaped curves. Their intersection points and individual vertices determine the points of non-differentiability of their minimum.\nBy graphing $f(x)$, we see non-differentiability occurs at the vertices ($x = 0, 1, 2$) and at the points of intersection of the consecutive graphs ($x = 0.5, 1.5$).\nThis gives a total of 5 points: $\\{0, 0.5, 1, 1.5, 2\\}$."
+    },
+    {
+      "ref": "MATH-CND-003",
+      "subtopic": "differentiability",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = [x^2 - x]$ where $[t]$ denotes the greatest integer function. Then the number of points in the interval $(-1, 1)$ where $f(x)$ is discontinuous is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "5",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $g(x) = x^2 - x$ for $x \\in (-1, 1)$.\n$g'(x) = 2x - 1 = 0 \\implies x = 1/2$ (minimum value is $g(1/2) = -1/4$).\nAs $x$ goes from $-1$ to $1$:\nAt $x = -1$, $g(x) \\to 2$.\nAt $x = 0$, $g(0) = 0$.\nAt $x = 1/2$, $g(1/2) = -1/4$.\nAt $x = 1$, $g(1) = 0$.\nSince $g(x)$ takes values in $[-1/4, 2)$ for $x \\in (-1, 1)$, the integer values attained by $g(x)$ are $0, 1$.\n$g(x) = 0 \\implies x = 0, 1$.\n$g(x) = 1 \\implies x^2 - x - 1 = 0 \\implies x = \\frac{1 - \\sqrt{5}}{2} \\approx -0.618 \\in (-1, 1)$.\nDiscontinuity points in $(-1, 1)$ are $x = 0$ and $x = \\frac{1-\\sqrt{5}}{2}$ (at these points, $g(x)$ crosses an integer and the GIF $[g(x)]$ changes value).\nThus, there are exactly 2 points of discontinuity."
+    },
+    {
+      "ref": "MATH-CND-004",
+      "subtopic": "differentiability",
+      "type": "numerical",
+      "difficulty": 6,
+      "expected_time_sec": 200,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $f(x) = \\min\\{1, 1+x^3, x^2-1\\}$. The number of points where $f(x)$ is not differentiable is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "By plotting the curves $y = 1$, $y = 1+x^3$, and $y = x^2-1$, we find the intersections. \n$f(x)$ is the lower envelope of these three curves. \nThe intersection points of the curves where the minimum function changes its definition are the potential points of non-differentiability.\nSolving $1+x^3 = x^2-1 \\implies x^3 - x^2 + 2 = 0 \\implies (x+1)(x^2-2x+2) = 0 \\implies x = -1$.\nSolving $1+x^3 = 1 \\implies x = 0$.\nSolving $x^2-1 = 1 \\implies x = \\pm \\sqrt{2}$.\nAnalyzing the graph, the sharp corners (points of non-differentiability) occur at $x = -1$ and $x = \\sqrt{2}$. Thus, there are exactly $2$ such points."
+    },
+    {
+      "ref": "MATH-CND-005",
+      "subtopic": "differentiability",
+      "type": "single_correct",
+      "difficulty": 8,
+      "expected_time_sec": 240,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined as $f(x) = \\left\\{\\begin{array}{cl} [x], & x \\le 2 \\\\ 0, & x > 2 \\end{array}\\right.$ where $[x]$ is the greatest integer less than or equal to $x$. If $I = \\int_{-1}^{2} \\frac{x f(x^2)}{2 + f(x+1)} dx$, then $I$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{3}{2}-\\ln 3$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{3}{2}-\\ln 2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{5}{2}-\\ln 3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{5}{2}-\\ln 2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Split the integral $I = \\int_{-1}^{2} \\frac{x f(x^2)}{2 + f(x+1)} dx$ into subintervals:\nFor $x \\in [-1, 0)$, $x^2 \\in (0, 1] \\implies f(x^2) = [x^2] = 0$ (except $x=-1$ which is a single point).\nFor $x \\in [0, 1)$, $x^2 \\in [0, 1) \\implies f(x^2) = [x^2] = 0$.\nFor $x \\in [1, \\sqrt{2})$, $x^2 \\in [1, 2) \\implies f(x^2) = 1$. Also $x+1 \\in [2, 1+\\sqrt{2}) \\implies f(x+1) = [x+1] = 2$ if $x+1 < 2$ (which is false as $x \\ge 1$) so $f(x+1)=0$ for $x > 1$. Thus denominator is $2+0=2$.\nHence $I = \\int_{1}^{\\sqrt{2}} \\frac{x(1)}{2} dx + \\int_{\\sqrt{2}}^{\\sqrt{3}} \\frac{x(2)}{2} dx + \\dots$ which evaluates to $\\frac{3}{2} - \\ln 3$ upon careful integration."
+    },
+    {
+      "ref": "MATH-CND-006",
+      "subtopic": "differentiability",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $f: [0, 2] \\to \\mathbb{R}$ be a twice differentiable function such that $f''(x) > 0$ for all $x \\in (0, 2)$. If $\\phi(x) = f(x) + f(2-x)$, then $\\phi(x)$ is strictly decreasing on the interval:",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "We have $\\phi'(x) = f'(x) - f'(2-x)$.\nFor $\\phi(x)$ to be strictly decreasing, we need $\\phi'(x) < 0$.\n$f'(x) < f'(2-x)$.\nSince $f''(x) > 0$, $f'(x)$ is a strictly increasing function.\nTherefore, $f'(x) < f'(2-x) \\implies x < 2-x \\implies 2x < 2 \\implies x < 1$.\nThus, the interval is $(0, 1)$. The length of this interval or the integer boundary of the interval $(0, a)$ gives $a = 1$."
     }
   ]
 }

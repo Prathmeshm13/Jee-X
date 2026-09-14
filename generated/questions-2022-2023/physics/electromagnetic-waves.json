@@ -1,0 +1,502 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Electromagnetic Waves",
+    "slug": "electromagnetic-waves",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 21
+  },
+  "subtopics": [
+    {
+      "slug": "electromagnetic-spectrum",
+      "name": "Electromagnetic spectrum",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-EMW-001",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\gamma$-rays",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Microwaves",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, the order of increasing wavelength is:\n$\\gamma$-rays < X-rays < Ultraviolet < Visible < Infrared < Microwaves < Radio waves.\nThus, $\\gamma$-rays have the shortest wavelength."
+    },
+    {
+      "ref": "PHY-EMW-002",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Microwaves",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Ultraviolet waves",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Gamma rays",
+          "is_correct": true
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, ordered by decreasing wavelength (or increasing frequency/energy):\nRadio waves > Microwaves > Infrared > Visible > Ultraviolet > X-rays > Gamma rays.\nTherefore, Gamma rays have the shortest wavelength."
+    },
+    {
+      "ref": "PHY-EMW-003",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Arrange the following electromagnetic radiations in descending order of their wavelengths:\n(i) Infrared waves\n(ii) Microwaves\n(iii) Ultraviolet rays\n(iv) Gamma rays",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "(ii) > (i) > (iii) > (iv)",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "(i) > (ii) > (iii) > (iv)",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "(ii) > (i) > (iv) > (iii)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "(iv) > (iii) > (i) > (ii)",
+          "is_correct": false
+        }
+      ],
+      "solution": "The electromagnetic spectrum in order of decreasing wavelength is:\nRadio waves > Microwaves > Infrared > Visible > Ultraviolet > X-rays > Gamma rays.\nTherefore, the descending order of wavelength is Microwaves (ii) > Infrared (i) > Ultraviolet (iii) > Gamma rays (iv)."
+    },
+    {
+      "ref": "PHY-EMW-005",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Match the following electromagnetic waves with their typical wavelengths:\n\n(a) Infrared waves  -  (i) $\\sim 10^{-10}\\ \\mathrm{m}$\n(b) UV rays  -  (ii) $\\sim 10^{-4}\\ \\mathrm{m}$\n(c) X-rays  -  (iii) $\\sim 10^{-2}\\ \\mathrm{m}$\n(d) Microwaves  -  (iv) $\\sim 10^{-8}\\ \\mathrm{m}$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+          "is_correct": false
+        }
+      ],
+      "solution": "Typical wavelengths:\n- X-rays: $\\sim 10^{-10}\\ \\mathrm{m}$ (c - i)\n- UV rays: $\\sim 10^{-8}\\ \\mathrm{m}$ (b - iv)\n- Infrared: $\\sim 10^{-4}\\ \\mathrm{m}$ (a - ii)\n- Microwaves: $\\sim 10^{-2}\\ \\mathrm{m}$ (d - iii)"
+    },
+    {
+      "ref": "PHY-EMW-006",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Gamma rays",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Microwaves",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, ordered by decreasing wavelength (or increasing frequency):\nMicrowaves > Ultraviolet > X-rays > Gamma rays.\nHence, Gamma rays have the shortest wavelength."
+    },
+    {
+      "ref": "PHY-EMW-007",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the highest frequency?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Gamma rays",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Microwaves",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, gamma rays have the shortest wavelength and consequently the highest frequency."
+    },
+    {
+      "ref": "PHY-EMW-008",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Microwaves",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Infrared waves",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet waves",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "X-rays",
+          "is_correct": true
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, the order of increasing frequency (and decreasing wavelength) is:\nRadio waves < Microwaves < Infrared < Visible < Ultraviolet < X-rays < Gamma rays.\nThus, X-rays have the shortest wavelength among the options."
+    },
+    {
+      "ref": "PHY-EMW-009",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the highest frequency?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Micro waves",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Infrared waves",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Gamma rays",
+          "is_correct": true
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, the order of increasing frequency is: Radio waves < Microwaves < Infrared < Visible < Ultraviolet < X-rays < Gamma rays. Thus, Gamma rays have the highest frequency among the options."
+    },
+    {
+      "ref": "PHY-EMW-010",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Gamma rays",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Microwaves",
+          "is_correct": false
+        }
+      ],
+      "solution": "Among the options, Gamma rays have the highest frequency and therefore the shortest wavelength in the electromagnetic spectrum."
+    },
+    {
+      "ref": "PHY-EMW-011",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the highest frequency?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Gamma rays",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Microwaves",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, the order of increasing frequency is:\nMicrowaves < Ultraviolet < X-rays < Gamma rays.\nThus, Gamma rays have the highest frequency."
+    },
+    {
+      "ref": "PHY-EMW-012",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Microwaves",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Infrared waves",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet waves",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "X-rays",
+          "is_correct": true
+        }
+      ],
+      "solution": "In the electromagnetic spectrum ordered by increasing frequency (decreasing wavelength):\nRadio waves > Microwaves > Infrared > Visible > Ultraviolet > X-rays > Gamma rays.\nAmong the given options, X-rays have the highest frequency and therefore the shortest wavelength."
+    },
+    {
+      "ref": "PHY-EMW-013",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the highest frequency?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Micro waves",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Infrared waves",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet waves",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Gamma rays",
+          "is_correct": true
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, the order of increasing frequency is: Radio waves < Microwaves < Infrared < Visible < Ultraviolet < X-rays < Gamma rays. \nTherefore, Gamma rays have the highest frequency among the choices."
+    },
+    {
+      "ref": "PHY-EMW-014",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Match List-I with List-II:\n\n**List-I**\n(A) Infrared waves\n(B) UV rays\n(C) X-rays\n(D) Microwaves\n\n**List-II**\n(I) To treat muscular strain\n(II) For diagnostic tool in medicine\n(III) For water purification\n(IV) Radar systems\n\nChoose the correct option:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "-(I), (B)-(III), (C)-(II), (D)-(IV)",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "-(II), (B)-(I), (C)-(IV), (D)-(III)",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "-(III), (B)-(IV), (C)-(I), (D)-(II)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "-(I), (B)-(II), (C)-(III), (D)-(IV)",
+          "is_correct": false
+        }
+      ],
+      "solution": "Infrared waves are used for treating muscular strains (thermal effect).\nUV rays are used in water purifiers to kill germs.\nX-rays are a common diagnostic tool in medicine (radiography).\nMicrowaves are used in radar communication systems.\nThus: A-I, B-III, C-II, D-IV."
+    }
+  ]
+}

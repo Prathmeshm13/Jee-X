@@ -5,6 +5,8 @@ import { api } from '../lib/api.js'
 import { readPendingFreeTest, clearPendingFreeTest } from '../lib/pendingFreeTest.js'
 import { DashboardOverview, useCrackJeeStyles } from '../crackjee/screens.jsx'
 import { PHYSICS, CHEM, MATHS, AMBER, SLATE } from '../crackjee/ui.js'
+import AppHeader from '../components/AppHeader.jsx'
+import { Loader } from '../components/Brand.jsx'
 
 function accuracyPct(sub) {
   return sub && sub.total > 0 ? Math.round((sub.correct / sub.total) * 100) : 0
@@ -99,10 +101,11 @@ export default function Dashboard() {
     [attempts],
   )
 
-  if (loading) return <div className="centered-screen">Loading your dashboard…</div>
+  if (loading) return <Loader fullScreen label="Loading your dashboard" />
 
   return (
     <div className="crackjee-root">
+      <AppHeader />
       <DashboardOverview
         profile={profile}
         statCards={statCards}
@@ -111,6 +114,7 @@ export default function Dashboard() {
         onStart={() => navigate('/test')}
         onBuddy={() => navigate('/buddy')}
         onFreeTest={() => navigate('/free-test')}
+        onSubjectTest={() => navigate('/subject-test')}
         onProfile={() => navigate('/profile')}
         onLogout={() => logout({ logoutParams: { returnTo: window.location.origin } })}
         onHome={() => navigate('/')}

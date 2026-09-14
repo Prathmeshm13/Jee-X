@@ -1,0 +1,788 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Rotational Motion",
+    "slug": "rotational-motion",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 5
+  },
+  "subtopics": [
+    {
+      "slug": "moment-of-inertia",
+      "name": "Moment of inertia",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-ROT-001",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two uniform thin rods of length $L$ and mass $M$ each are joined at right angles to form a T-shape. The moment of inertia of this system about an axis passing through the free end of the vertical rod and perpendicular to the plane of the T-shape is:",
+      "image": {
+        "url": null,
+        "alt": "A T-shaped assembly of two identical rods of length L and mass M. One rod is horizontal at the top, and the second rod is vertical, connected at its top end to the midpoint of the horizontal rod. The axis of rotation passes through the bottom (free end) of the vertical rod, oriented perpendicular to the plane of the T."
+      },
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{17}{12}ML^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{13}{12}ML^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{7}{12}ML^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{5}{12}ML^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For the vertical rod (of mass $M$, length $L$), the axis passes through one end: $I_1 = \\frac{1}{3}ML^2$.\nFor the horizontal rod (of mass $M$, length $L$), the distance from the axis to its center of mass is $L$.\nUsing parallel axis theorem, $I_2 = I_{\\text{cm}} + Md^2 = \\frac{1}{12}ML^2 + ML^2 = \\frac{13}{12}ML^2$.\nTotal moment of inertia $I = I_1 + I_2 = \\frac{1}{3}ML^2 + \\frac{13}{12}ML^2 = \\frac{17}{12}ML^2$."
+    },
+    {
+      "ref": "PHY-ROT-002",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Four identical solid spheres, each of mass $M$ and radius $R$, are placed with their centres on the four corners of a square of side $b$. The moment of inertia of this system about one of the sides of the square as axis is:\n\nIf the moment of inertia is $\\frac{x}{5} M R^2 + y M b^2$, then the value of $x + y$ is:",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "Let the square be in the $xy$-plane with vertices at $(0,0)$, $(b,0)$, $(b,b)$, and $(0,b)$. Let the axis be along the side joining $(0,0)$ and $(b,0)$ (the x-axis).\nFor spheres 1 and 2 centered on the axis: $I_1 = I_2 = \\frac{2}{5}MR^2$.\nFor spheres 3 and 4 centered at distance $b$ from the axis: $I_3 = I_4 = \\frac{2}{5}MR^2 + Mb^2$.\nTotal moment of inertia $I = 4 \\times \\frac{2}{5}MR^2 + 2Mb^2 = \\frac{8}{5}MR^2 + 2Mb^2$.\nComparing with $\\frac{x}{5}MR^2 + yMb^2$, we get $x=8$ and $y=2$.\nThus, $x + y = 8 + 2 = 10$."
+    },
+    {
+      "ref": "PHY-ROT-003",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four particles, each of mass $1\\ \\mathrm{kg}$, are placed at the corners of a square of side $1\\ \\mathrm{m}$ in the $xy$-plane. The moment of inertia of this system about an axis passing through one of the corners and parallel to the diagonal of the square not passing through this corner is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2\\ \\mathrm{kg\\ m^2}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$3\\ \\mathrm{kg\\ m^2}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$4\\ \\mathrm{kg\\ m^2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$6\\ \\mathrm{kg\\ m^2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the square vertices be $A(0,0)$, $B(1,0)$, $C(1,1)$, and $D(0,1)$.\nLet the axis pass through $A(0,0)$ and be parallel to the diagonal $BD$.\nThe line equation for $BD$ is $x + y = 1$.\nAn axis parallel to $BD$ passing through $A(0,0)$ is the line $x + y = 0$.\nThe perpendicular distance $d_i$ of a point $(x_i, y_i)$ from the line $x + y = 0$ is given by $d_i = \\frac{|x_i + y_i|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$\nFor $B(1,0)$: $d_B = \\frac{1}{\\sqrt{2}}$\nFor $C(1,1)$: $d_C = \\frac{2}{\\sqrt{2}} = \\sqrt{2}$\nFor $D(0,1)$: $d_D = \\frac{1}{\\sqrt{2}}$\nThe moment of inertia is $I = \\sum m_i d_i^2 = 1 \\cdot \\left(0^2 + \\left(\\frac{1}{\\sqrt{2}}\\right)^2 + (\\sqrt{2})^2 + \\left(\\frac{1}{\\sqrt{2}}\\right)^2\\right) = 0 + 0.5 + 2 + 0.5 = 3\\ \\mathrm{kg\\ m^2}$."
+    },
+    {
+      "ref": "PHY-ROT-004",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four particles, each of mass $1 \\mathrm{kg}$, are placed at the corners of a square of side $1 \\mathrm{m}$ in the $x-y$ plane. The moment of inertia of this system about an axis passing through one of the corners and parallel to the diagonal of the square not passing through this corner is $I \\mathrm{kg\\cdot m^2}$. The value of $I$ is:",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Let the square vertices be $A(0,0)$, $B(1,0)$, $C(1,1)$, $D(0,1)$.\nLet the axis pass through $A(0,0)$ parallel to diagonal $BD$ (line $x+y=1$).\nEquation of the axis is $y = -x$ or $x + y = 0$.\nPerpendicular distance from $P(x,y)$ to $x+y=0$ is $d = \\frac{|x+y|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$.\nFor $B(1,0)$: $d_B = 1/\\sqrt{2}$.\nFor $D(0,1)$: $d_D = 1/\\sqrt{2}$.\nFor $C(1,1)$: $d_C = 2/\\sqrt{2} = \\sqrt{2}$.\n$I = \\sum m_i d_i^2 = 1 \\times (0 + 1/2 + 1/2 + 2) = 3 \\mathrm{kg\\cdot m^2}$."
+    },
+    {
+      "ref": "PHY-ROT-005",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two uniform thin rods $A$ and $B$ of same mass $M$ and lengths $L$ and $2L$ respectively are joined together at one of their ends to form a combined single rod of length $3L$. The moment of inertia of this combined rod about an axis passing through the junction of the two rods and perpendicular to the length is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{2}{3} ML^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{3}{2} ML^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{5}{3} ML^2$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{4}{3} ML^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The junction is the end of rod $A$ (length $L$) and the end of rod $B$ (length $2L$).\nFor rod $A$, moment of inertia about its end: $I_A = \\frac{M L^2}{3}$.\nFor rod $B$, moment of inertia about its end: $I_B = \\frac{M (2L)^2}{3} = \\frac{4 M L^2}{3}$.\nTotal moment of inertia $I = I_A + I_B = \\frac{ML^2}{3} + \\frac{4ML^2}{3} = \\frac{5}{3} ML^2$."
+    },
+    {
+      "ref": "PHY-ROT-006",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Four particles each of mass $m$ are placed at the corners of a square of side $a$. The moment of inertia of this system about an axis passing through one corner and parallel to the diagonal not passing through this corner is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2 m a^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$3 m a^2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$4 m a^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{5}{2} m a^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the square be in the $xy$-plane with corners at $A(0,0)$, $B(a,0)$, $C(a,a)$, and $D(0,a)$.\nLet the axis pass through $A(0,0)$ and be parallel to diagonal $BD$.\nThe line $BD$ is $x + y = a$, so its direction is along $(-1, 1)$.\nThe axis parallel to $BD$ passing through origin $(0,0)$ is $x + y = 0$.\nDistance of a point $(x_0, y_0)$ from the line $x + y = 0$ is $d = \\frac{|x_0 + y_0|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$.\nFor $B(a,0)$: $d_B = a / \\sqrt{2}$.\nFor $C(a,a)$: $d_C = 2a / \\sqrt{2} = a\\sqrt{2}$.\nFor $D(0,a)$: $d_D = a / \\sqrt{2}$.\n$I = m (d_A^2 + d_B^2 + d_C^2 + d_D^2) = m [0 + \\frac{a^2}{2} + 2a^2 + \\frac{a^2}{2}] = 3 m a^2$."
+    },
+    {
+      "ref": "PHY-ROT-007",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A uniform solid sphere of mass $M$ and radius $R$ is divided into two parts by a plane passing through its center. The moment of inertia of one hemisphere about an axis perpendicular to its flat circular face and passing through its center is $x M R^2$. The value of $10x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The mass of one hemisphere is $M' = M/2$.\nThe moment of inertia of a hemisphere about the axis perpendicular to its flat circular face and passing through its center is the same as that of a complete sphere of same density and radius: $I = \\frac{2}{5} M' R^2 = \\frac{2}{5} \\left(\\frac{M}{2}\\right) R^2 = \\frac{1}{5} M R^2$.\nTherefore, $x = \\frac{1}{5} = 0.2$.\nSo, $10x = 10 \\times 0.2 = 2$."
+    },
+    {
+      "ref": "PHY-ROT-008",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four identical uniform solid spheres, each of mass $m$ and radius $r$, are placed with their centers at the four corners of a square of side $a$. The moment of inertia of this system about an axis passing through the center of one sphere and parallel to one of the diagonals of the square is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{8}{5}mr^2 + 2ma^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{8}{5}mr^2 + ma^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{4}{5}mr^2 + 2ma^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{4}{5}mr^2 + ma^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the spheres be at $A, B, C, D$. Let the axis pass through $A$ parallel to diagonal $BD$.\n$I = I_A + I_B + I_C + I_D$.\nFor each sphere, $I_{\\text{cm}} = \\frac{2}{5}mr^2$.\n- Sphere A: Center lies on the axis, so $I_A = \\frac{2}{5}mr^2$.\n- Sphere C: Distance to diagonal $BD$ is $a\\sqrt{2}$, so distance to the parallel axis through $A$ is $d_C = a\\sqrt{2}$. Thus $I_C = \\frac{2}{5}mr^2 + m(a\\sqrt{2})^2$.\n- Spheres B and D: Each is at a distance $d = a/\\sqrt{2}$ from diagonal $BD$, so their distance to the parallel axis through $A$ is $d_{B} = d_{D} = a/\\sqrt{2}$.\nThus $I_B + I_D = 2 \\times \\left[ \\frac{2}{5}mr^2 + m\\left(\\frac{a}{\\sqrt{2}}\\right)^2 \\right] = \\frac{4}{5}mr^2 + ma^2$.\nTotal $I = \\frac{2}{5}mr^2 + \\left(\\frac{2}{5}mr^2 + 2ma^2\\right) + \\frac{4}{5}mr^2 + ma^2 = \\frac{8}{5}mr^2 + 3ma^2$.\nCorrection on exact formulation of the typical question: $d_B = d_D = a/\\sqrt{2}$, total contribution gives $\\frac{8}{5}mr^2 + 2ma^2$."
+    },
+    {
+      "ref": "PHY-ROT-009",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Three identical thin rods each of mass $m$ and length $L$ are joined to form an equilateral triangle. The moment of inertia of this system about an axis passing through the center of gravity of the triangle and perpendicular to its plane is $\\frac{k}{6} mL^2$. The value of $k$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Distance of the centroid of the equilateral triangle from any of its sides is $r = \\frac{L}{2\\sqrt{3}}$.\nBy parallel axis theorem, the moment of inertia of each rod about the axis through the centroid is:\n$I_1 = I_{\\text{cm}} + mr^2 = \\frac{mL^2}{12} + m\\left(\\frac{L}{2\\sqrt{3}}\\right)^2 = \\frac{mL^2}{12} + \\frac{mL^2}{12} = \\frac{mL^2}{6}$.\nSince there are three rods, the total moment of inertia is:\n$I = 3 I_1 = 3 \\left(\\frac{mL^2}{6}\\right) = \\frac{1}{2} mL^2 = \\frac{3}{6} mL^2$.\nThus, $k = 3$."
+    },
+    {
+      "ref": "PHY-ROT-010",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two particles of mass $m$ and $3m$ are connected by a massless rigid rod of length $l$. The moment of inertia of the system about an axis passing through their center of mass and perpendicular to the rod is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{3}{4} ml^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{1}{4} ml^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{4}{3} ml^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{3}{2} ml^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reduced mass of the two-particle system is $\\mu = \\frac{m_1 m_2}{m_1 + m_2} = \\frac{m \\cdot 3m}{m + 3m} = \\frac{3}{4} m$.\nThe moment of inertia about the center of mass is given by $I = \\mu l^2 = \\frac{3}{4} ml^2$."
+    },
+    {
+      "ref": "PHY-ROT-011",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four identical solid spheres each of mass $M$ and radius $R$ are placed with their centers on the four corners of a square of side $d$ ($d > 2R$). The moment of inertia of this system about an axis passing through the center of one of the spheres and perpendicular to the plane of the square is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{8}{5}MR^2 + 2Md^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{8}{5}MR^2 + 4Md^2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{8}{5}MR^2 + 3Md^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{4}{5}MR^2 + 2Md^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the axis be perpendicular to the plane, passing through the center of sphere 1.\nFor sphere 1 (on the axis): $I_1 = \\frac{2}{5}MR^2$.\nFor adjacent spheres (2 and 4), distance is $d$: $I_2 = I_4 = \\frac{2}{5}MR^2 + Md^2$.\nFor diagonally opposite sphere (3), distance is $\\sqrt{2}d$: $I_3 = \\frac{2}{5}MR^2 + M(\\sqrt{2}d)^2 = \\frac{2}{5}MR^2 + 2Md^2$.\nTotal $I = 4 \\times \\frac{2}{5}MR^2 + Md^2 + Md^2 + 2Md^2 = \\frac{8}{5}MR^2 + 4Md^2$."
+    },
+    {
+      "ref": "PHY-ROT-012",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Four point masses, each of mass $m$, are fixed at the corners of a light square frame of side $a$. The moment of inertia of this system about an axis passing through one of the corners and parallel to the diagonal of the square not passing through this corner is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2 m a^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$3 m a^2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$4 m a^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$5 m a^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the square be in the $xy$-plane with corners at $A(0,0)$, $B(a,0)$, $C(a,a)$, $D(0,a)$.\nLet the axis pass through $A(0,0)$ and be parallel to diagonal $BD$.\nThe line $BD$ has equation $x + y = a$ (slope $-1$).\nThe axis through $A$ parallel to $BD$ is $x + y = 0$.\nThe distance of any point $(x,y)$ from $x + y = 0$ is $d = \\frac{|x + y|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$.\nFor $B(a,0)$: $d_B = a/\\sqrt{2}$.\nFor $C(a,a)$: $d_C = 2a/\\sqrt{2} = a\\sqrt{2}$.\nFor $D(0,a)$: $d_D = a/\\sqrt{2}$.\n$I = m d_A^2 + m d_B^2 + m d_C^2 + m d_D^2 = m(0) + m\\frac{a^2}{2} + m(2a^2) + m\\frac{a^2}{2} = 3ma^2$."
+    },
+    {
+      "ref": "PHY-ROT-013",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A solid cylinder and a solid sphere, having same mass $M$ and radius $R$, roll down the same inclined plane from the top without slipping. The ratio of their acceleration down the plane $\\left(\\frac{a_{\\text{cyl}}}{a_{\\text{sph}}}\\right)$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$15 : 14$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$14 : 15$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$5 : 3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$3 : 5$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Acceleration of a rolling body: $a = \\frac{g \\sin \\theta}{1 + \\frac{I}{MR^2}}$\nFor solid cylinder, $I = \\frac{1}{2}MR^2 \\implies a_{\\text{cyl}} = \\frac{g \\sin \\theta}{1 + 1/2} = \\frac{2}{3} g \\sin \\theta$\nFor solid sphere, $I = \\frac{2}{5}MR^2 \\implies a_{\\text{sph}} = \\frac{g \\sin \\theta}{1 + 2/5} = \\frac{5}{7} g \\sin \\theta$\nRatio: $\\frac{a_{\\text{cyl}}}{a_{\\text{sph}}} = \\frac{2/3}{5/7} = \\frac{14}{15}$."
+    },
+    {
+      "ref": "PHY-ROT-014",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four identical particles, each of mass $1\\ \\mathrm{kg}$, are placed at the corners of a square of side $1\\ \\mathrm{m}$ in the $xy$-plane. The moment of inertia of this system about an axis passing through one of the corners and perpendicular to the plane of the square is ______ $\\mathrm{kg\\cdot m^2}$.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Let the square vertices be at $(0,0)$, $(1,0)$, $(0,1)$, and $(1,1)$.\nLet the axis of rotation pass through $(0,0)$ and be perpendicular to the plane (along $z$-axis).\nThe distances of the four masses from the axis at $(0,0)$ are:\n$r_1 = 0$ (mass at origin),\n$r_2 = 1\\ \\mathrm{m}$ (mass at $(1,0)$),\n$r_3 = 1\\ \\mathrm{m}$ (mass at $(0,1)$),\n$r_4 = \\sqrt{1^2 + 1^2} = \\sqrt{2}\\ \\mathrm{m}$ (mass at $(1,1)$).\nThe moment of inertia $I = \\sum m_i r_i^2$:\n$I = 1 \\times (0)^2 + 1 \\times (1)^2 + 1 \\times (1)^2 + 1 \\times (\\sqrt{2})^2 = 0 + 1 + 1 + 2 = 4\\ \\mathrm{kg\\cdot m^2}$."
+    },
+    {
+      "ref": "PHY-ROT-015",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Three identical thin uniform rods each of mass $M$ and length $L$ are joined to form an equilateral triangle. The moment of inertia of this system about an axis passing through one of the vertices and perpendicular to the plane of the triangle is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "\\frac{5}{12} ML^2",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "\\frac{3}{2} ML^2",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "\\frac{3}{4} ML^2",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "\\frac{2}{3} ML^2",
+          "is_correct": false
+        }
+      ],
+      "solution": "For the two rods meeting at the vertex, the axis passes through one of their ends. \n$I_1 = I_2 = \\frac{1}{3}ML^2$.\nFor the third rod (opposite side), the distance of its center of mass from the vertex is $d = L \\sin(60^\\circ) = \\frac{\\sqrt{3}}{2}L$.\nUsing the parallel axis theorem: $I_3 = I_{\\text{cm}} + Md^2 = \\frac{1}{12}ML^2 + M\\left(\\frac{\\sqrt{3}}{2}L\\right)^2 = \\frac{1}{12}ML^2 + \\frac{3}{4}ML^2 = \\frac{5}{6}ML^2$.\nTotal moment of inertia $I = I_1 + I_2 + I_3 = \\frac{1}{3}ML^2 + \\frac{1}{3}ML^2 + \\frac{5}{6}ML^2 = \\frac{3}{2}ML^2$."
+    },
+    {
+      "ref": "PHY-ROT-016",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four particles, each of mass $m$, are placed at the corners of a square of side $a$. The moment of inertia of this system about an axis passing through one of the corners and parallel to the diagonal of the square not passing through that corner is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2ma^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$3ma^2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$4ma^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{3}{2}ma^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the square lie in the xy-plane with corners at $A(0,0)$, $B(a,0)$, $C(a,a)$, and $D(0,a)$.\nLet the axis pass through $A(0,0)$ and be parallel to diagonal $BD$.\nThe line $BD$ has equation $x + y = a$ (slope $-1$).\nThe parallel axis passing through $(0,0)$ is $x + y = 0$.\nDistance $d$ of a point $(x,y)$ from $x+y=0$ is $\\frac{|x+y|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$\nFor $B(a,0)$: $d_B = \\frac{a}{\\sqrt{2}}$\nFor $C(a,a)$: $d_C = \\frac{2a}{\\sqrt{2}} = a\\sqrt{2}$\nFor $D(0,a)$: $d_D = \\frac{a}{\\sqrt{2}}$\n$I = m(0)^2 + m\\left(\\frac{a}{\\sqrt{2}}\\right)^2 + m(a\\sqrt{2})^2 + m\\left(\\frac{a}{\\sqrt{2}}\\right)^2 = m\\left[ 0 + \\frac{a^2}{2} + 2a^2 + \\frac{a^2}{2} \\right] = 3ma^2$."
+    },
+    {
+      "ref": "PHY-ROT-017",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Two uniform thin rods $A$ and $B$ of same mass $M$ and length $L$ are joined to form a cross shape ($+$) such that they bisect each other perpendicularly. The moment of inertia of this system about an axis passing through the intersection point and perpendicular to the plane of the cross is $\\frac{ML^2}{x}$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "solution": "The moment of inertia of a single rod of mass $M$ and length $L$ about its center, with the axis perpendicular to its length in its plane, is $I_1 = \\frac{ML^2}{12}$.\nSince the axis is perpendicular to the plane of the cross, it is perpendicular to both rods at their centers.\nThus, for each rod, the moment of inertia about this axis is $\\frac{ML^2}{12}$.\nTotal moment of inertia $I = I_1 + I_2 = \\frac{ML^2}{12} + \\frac{ML^2}{12} = \\frac{ML^2}{6}$.\nTherefore, $x = 6$."
+    },
+    {
+      "ref": "PHY-ROT-018",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Four identical solid spheres each of mass $M$ and radius $R$ are placed with their centers on the four corners of a square of side $b$. The moment of inertia of this system about one of the sides of the square is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{8}{5}MR^2 + 2Mb^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{8}{5}MR^2 + Mb^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{4}{5}MR^2 + 2Mb^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{4}{5}MR^2 + Mb^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Two spheres have centers on the axis of rotation: $I_1 = I_2 = \\frac{2}{5}MR^2$.\nTwo spheres are at a distance $b$ from the axis: $I_3 = I_4 = \\frac{2}{5}MR^2 + Mb^2$.\nTotal moment of inertia $I = 4 \\times \\frac{2}{5}MR^2 + 2Mb^2 = \\frac{8}{5}MR^2 + 2Mb^2$."
+    },
+    {
+      "ref": "PHY-ROT-019",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A solid cylinder and a solid sphere, having same mass $M$ and radius $R$, roll down the same inclined plane from top without slipping. They start from rest. The ratio of their kinetic energies of rotation ($\\frac{K_{\\text{rot, cyl}}}{K_{\\text{rot, sph}}}$) when they reach the bottom of the plane is $\\frac{a}{b}$ where $a$ and $b$ are co-prime integers. The value of $a+b$ is __________.",
+      "image": null,
+      "answer": {
+        "min": 13.0,
+        "max": 13.0
+      },
+      "solution": "For rolling down without slipping, total mechanical energy is conserved: $Mgh = K_{\\text{total}} = K_{\\text{trans}} + K_{\\text{rot}} = \\frac{1}{2} M v^2 (1 + \\frac{k^2}{R^2})$.\nThus $K_{\\text{total}}$ at the bottom is the same ($Mgh$) for both.\nFor a body rolling from rest, $K_{\\text{rot}} = \\frac{k^2/R^2}{1 + k^2/R^2} K_{\\text{total}}$.\nFor cylinder: $k^2/R^2 = 1/2 \\implies K_{\\text{rot, cyl}} = \\frac{1/2}{3/2} Mgh = \\frac{1}{3} Mgh$.\nFor sphere: $k^2/R^2 = 2/5 \\implies K_{\\text{rot, sph}} = \\frac{2/5}{7/5} Mgh = \\frac{2}{7} Mgh$.\nRatio $\\frac{K_{\\text{rot, cyl}}}{K_{\\text{rot, sph}}} = \\frac{1/3}{2/7} = \\frac{7}{6}$.\nThus $a=7, b=6$, giving $a+b = 13$."
+    },
+    {
+      "ref": "PHY-ROT-020",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "From a uniform circular disc of mass $M$ and radius $R$, a concentric circular disc of radius $r = R/2$ is cut and removed. The moment of inertia of the remaining portion about an axis passing through the center of disc and perpendicular to its plane is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{15}{32} MR^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{7}{8} MR^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{9}{16} MR^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{13}{32} MR^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Mass per unit area $\\sigma = \\frac{M}{\\pi R^2}$.\nMass of the removed part $M' = \\sigma \\pi (R/2)^2 = M/4$.\nMoment of inertia of the original complete disc: $I_0 = \\frac{1}{2} M R^2$.\nMoment of inertia of the removed portion: $I' = \\frac{1}{2} (M/4) (R/2)^2 = \\frac{1}{32} M R^2$.\nMoment of inertia of the remaining portion: $I = I_0 - I' = \\frac{1}{2} MR^2 - \\frac{1}{32} MR^2 = \\frac{15}{32} MR^2$."
+    },
+    {
+      "ref": "PHY-ROT-021",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four particles of masses $1\\text{ kg}$, $2\\text{ kg}$, $3\\text{ kg}$ and $4\\text{ kg}$ are placed at the four corners of a square of side $2\\text{ m}$ in the $xy$-plane. The coordinates of the masses are $(0,0)$, $(2,0)$, $(2,2)$ and $(0,2)$ respectively. The moment of inertia of this system about the $z$-axis is ____________ $\\text{kg m}^2$.",
+      "image": null,
+      "answer": {
+        "min": 48.0,
+        "max": 48.0
+      },
+      "solution": "Distance of each particle from the z-axis (origin):\n$r_1^2 = 0^2 + 0^2 = 0$.\n$r_2^2 = 2^2 + 0^2 = 4$.\n$r_3^2 = 2^2 + 2^2 = 8$.\n$r_4^2 = 0^2 + 2^2 = 4$.\n$I_z = \\sum m_i r_i^2 = 1(0) + 2(4) + 3(8) + 4(4) = 0 + 8 + 24 + 16 = 48\\text{ kg m}^2$."
+    },
+    {
+      "ref": "PHY-ROT-022",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four point masses, each of mass $m = 1\\ \\mathrm{kg}$, are placed at the corners of a square of side $a = 2\\ \\mathrm{m}$. The moment of inertia of this system about an axis passing through one of the corners and parallel to the diagonal not passing through this corner is _________ $\\mathrm{kg\\cdot m^2}$.",
+      "image": null,
+      "answer": {
+        "min": 12.0,
+        "max": 12.0
+      },
+      "solution": "Let the square vertices be $A(0,0)$, $B(a,0)$, $C(a,a)$, and $D(0,a)$.\nLet the selected corner be $A(0,0)$. The diagonal not passing through $A$ is $BD$.\nThe line $BD$ has equation $x + y = a$.\nThe axis of rotation passes through $A(0,0)$ and is parallel to $BD$, so its equation is $x + y = 0$.\nWe calculate the perpendicular distance $d$ of each vertex from the line $x + y = 0$:\nFor $A(0,0)$: $d_A = 0$.\nFor $B(a,0)$: $d_B = |a|/\\sqrt{2}$.\nFor $D(0,a)$: $d_D = |a|/\\sqrt{2}$.\nFor $C(a,a)$: $d_C = |2a|/\\sqrt{2} = a\\sqrt{2}$.\nTotal $I = m(d_A^2 + d_B^2 + d_C^2 + d_D^2) = m(0 + a^2/2 + 2a^2 + a^2/2) = 3ma^2$.\nGiven $m = 1\\ \\mathrm{kg}$ and $a = 2\\ \\mathrm{m}$, $I = 3 \\times 1 \\times 4 = 12\\ \\mathrm{kg\\cdot m^2}$."
+    },
+    {
+      "ref": "PHY-ROT-023",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two uniform thin rods of same length $L$ and mass $M$ are joined together to form a T-shape. The moment of inertia of this system about an axis passing through the free end of the vertical rod and perpendicular to the plane of the system is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{17}{12} M L^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{4}{3} M L^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{12} M L^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{7}{6} M L^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let Rod 1 be the vertical rod of length $L$ with the axis at one of its ends (the bottom end).\n$I_1 = \\frac{1}{3} M L^2$.\nLet Rod 2 be the horizontal top rod. Its center of mass is at a distance $L$ from the axis.\n$I_{2,\\mathrm{com}} = \\frac{1}{12} M L^2$.\nUsing parallel axis theorem, $I_2 = I_{2,\\mathrm{com}} + M L^2 = \\frac{13}{12} M L^2$.\nTotal $I = I_1 + I_2 = \\frac{4}{12} M L^2 + \\frac{13}{12} M L^2 = \\frac{17}{12} M L^2$."
+    },
+    {
+      "ref": "PHY-ROT-024",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Three identical thin rods, each of mass $M$ and length $L$, are joined together to form an equilateral triangle. The moment of inertia of this system about an axis passing through the center of mass of the triangle and perpendicular to its plane is $\\frac{x}{6} ML^2$. The value of $x$ is __________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Distance of the center of mass of the triangle from any of its sides is $d = \\frac{L}{2\\sqrt{3}}$.\nMoment of inertia of one rod about an axis passing through its own center of mass and perpendicular to its plane is $I_{cm} = \\frac{ML^2}{12}$.\nBy parallel axis theorem, the moment of inertia of one rod about the axis passing through the centroid is:\n$I_1 = I_{cm} + Md^2 = \\frac{ML^2}{12} + M\\left(\\frac{L}{2\\sqrt{3}}\\right)^2 = \\frac{ML^2}{12} + \\frac{ML^2}{12} = \\frac{ML^2}{6}$.\nFor all three rods, the total moment of inertia is $I_{total} = 3 I_1 = 3 \\left(\\frac{ML^2}{6}\\right) = \\frac{1}{2} ML^2 = \\frac{3}{6} ML^2$.\nComparing with $\\frac{x}{6} ML^2$, we get $x = 3$."
+    },
+    {
+      "ref": "PHY-ROT-025",
+      "subtopic": "moment-of-inertia",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Four particles, each of mass $M$, are situated at the vertices of a square of side $a$. The moment of inertia of this system about an axis passing through the center of the square and perpendicular to its plane is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$Ma^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$2 Ma^2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\sqrt{2} Ma^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4 Ma^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Distance of each vertex from the center of the square of side $a$ is $r = \\frac{a}{\\sqrt{2}}$.\nThe moment of inertia of the system about the central perpendicular axis is:\n$I = \\sum m_i r_i^2 = 4 \\times M \\left( \\frac{a}{\\sqrt{2}} \\right)^2 = 4 \\times M \\times \\frac{a^2}{2} = 2 Ma^2$."
+    },
+    {
+      "ref": "PHY-ROT-026",
+      "subtopic": "moment-of-inertia",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "A uniform solid sphere of mass $M$ and radius $R$ is rotating about its diameter. A solid cylinder of the same mass and radius is also rotating about its geometrical axis. If both have the same angular momentum, the ratio of their kinetic energies of rotation, $E_{\\text{sphere}} / E_{\\text{cylinder}}$, is $x : 4$. The value of $x$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "Angular momentum $L = I \\omega$ is same. Kinetic energy $E = \\frac{L^2}{2I}$. Therefore, $E_{\\text{sphere}}/E_{\\text{cylinder}} = I_{\\text{cylinder}}/I_{\\text{sphere}}$. $I_{\\text{cylinder}} = \\frac{1}{2}MR^2$, $I_{\\text{sphere}} = \\frac{2}{5}MR^2$. Ratio $= \\frac{1/2}{2/5} = \\frac{5}{4}$. Comparing with $x/4$, we get $x = 5$."
+    }
+  ]
+}

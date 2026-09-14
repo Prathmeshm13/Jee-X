@@ -1,6 +1,6 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
-async function request(path, { token, method = 'GET', body } = {}) {
+export async function request(path, { token, method = 'GET', body } = {}) {
   const headers = { 'Content-Type': 'application/json' }
   if (token) headers.Authorization = `Bearer ${token}`
 

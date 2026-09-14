@@ -1,0 +1,58 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Quadratic Equations",
+    "slug": "quadratic-equations",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 4
+  },
+  "subtopics": [
+    {
+      "slug": "nature-of-roots",
+      "name": "Nature of Roots",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-QEQ-001",
+      "subtopic": "nature-of-roots",
+      "type": "single_correct",
+      "difficulty": 8,
+      "expected_time_sec": 240,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $\\alpha, \\beta$ be the roots of the equation $x^2 - p x + q = 0$ and $\\alpha^4, \\beta^4$ be the roots of $x^2 - r x + s = 0$. If $x^2 - 4q x + 2q^2 - r = 0$ has always real roots, then the roots of $x^2 - 4p^2x + 2p^4 - r = 0$ are :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "both positive",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "both negative",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "one positive and one negative",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "not necessarily real",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $D_1$ be discriminant of $x^2 - 4qx + 2q^2 - r = 0 \\implies 16q^2 - 4(2q^2 - r) = 8q^2 + 4r \\ge 0$.\nSince $\\alpha, \\beta$ are roots of $x^2-px+q=0$, we have $q = \\alpha\\beta$ and $p = \\alpha+\\beta$.\nWe have $r = \\alpha^4 + \\beta^4$.\nLet $D_2$ be the discriminant of $x^2 - 4p^2x + 2p^4 - r = 0$.\n$D_2 = 16p^4 - 4(2p^4 - r) = 8p^4 + 4r = 8(\\alpha+\\beta)^4 + 4(\\alpha^4+\\beta^4) > 0$ as $r > 0$ for non-zero real/complex roots.\nAlso, product of roots is $2p^4 - r = 2(\\alpha+\\beta)^4 - (\\alpha^4+\\beta^4)$.\nSince $(\\alpha+\\beta)^4 \\ge 0$, and $2p^4 - r$ can be negative, we check root signs. For real $\\alpha, \\beta$, $D_2 > 0$ showing roots are real. Product of roots is $2(\\alpha+\\beta)^4 - (\\alpha^4+\\beta^4) < 0$ is possible, but carefully analyzing $2p^4 - r$ shows it is positive when $2(\\alpha+\\beta)^4 > \\alpha^4+\\beta^4$, which is true by power mean inequality. Thus, product $>0$ and sum $= 4p^2 > 0$, so roots are both positive."
+    }
+  ]
+}

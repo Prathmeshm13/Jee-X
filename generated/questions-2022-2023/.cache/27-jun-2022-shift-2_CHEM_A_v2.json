@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The dark blue colour of the lake is due to the presence of phytoplanktons. Which of the following conditions is most likely to cause excessive growth of these phytoplanktons (eutrophication)?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Lack of nutrients and dissolved oxygen",
+   "Presence of high amounts of phosphates and nitrates",
+   "High concentration of toxic heavy metals",
+   "Low temperature and acidic pH of water"
+  ],
+  "sol": "Eutrophication is the process of nutrient enrichment of water bodies, primarily by nitrates and phosphates (from fertilizers and detergents). This excessive nutrient supply leads to rapid, dense growth of algae and phytoplanktons (algal blooms).",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of revolution of an electron in the $n$-th orbit of a hydrogen-like atom is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{n^2}{Z^2}$",
+   "$\\frac{n^3}{Z}$",
+   "$\\frac{n^3}{Z^2}$",
+   "$\\frac{n^2}{Z}$"
+  ],
+  "sol": "The time period of revolution is given by $T = \\frac{2\\pi r}{v}$.\nSince $r \\propto \\frac{n^2}{Z}$ and $v \\propto \\frac{Z}{n}$, we have:\n$T \\propto \\frac{n^2/Z}{Z/n} = \\frac{n^3}{Z^2}$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "A $1.2\\%\\ (\\text{w/v})$ solution of NaCl is isotonic with a $7.2\\%\\ (\\text{w/v})$ solution of glucose. The degree of dissociation of NaCl is: (Molar mass of NaCl = $58.5\\ \\mathrm{g\\ mol^{-1}}$, Molar mass of glucose = $180\\ \\mathrm{g\\ mol^{-1}}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "0.95",
+   "0.97",
+   "0.85",
+   "0.90"
+  ],
+  "sol": "For isotonic solutions, $i_{\\text{NaCl}} \\cdot C_{\\text{NaCl}} = C_{\\text{glucose}}$.\n$C_{\\text{NaCl}} = \\frac{1.2 \\times 10}{58.5} = \\frac{12}{58.5} \\approx 0.205\\ \\mathrm{M}$.\n$C_{\\text{glucose}} = \\frac{7.2 \\times 10}{180} = 0.4\\ \\mathrm{M}$.\n$i \\times 0.205 = 0.4 \\implies i \\approx 1.95$.\nSince NaCl dissociates into 2 ions, $i = 1 + \\alpha \\implies \\alpha = i - 1 = 0.95$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Which of the following molecules/species is expected to be diamagnetic and have the shortest bond length?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2^{2-}}$",
+   "$\\mathrm{O_2}$",
+   "$\\mathrm{O_2^+}$",
+   "$\\mathrm{O_2^{2+}}$"
+  ],
+  "sol": "$\\mathrm{O_2^{2+}}$ has $14$ electrons, similar to $\\mathrm{N_2}$.\nIts MO configuration has all electrons paired, making it diamagnetic.\nIts bond order is $3$, which is the highest among the given species, resulting in the shortest bond length.",
+  "key": "D",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "The enthalpy of combustion of carbon, hydrogen, and sucrose at $298\\ \\mathrm{K}$ are $-393.5\\ \\mathrm{kJ\\ mol^{-1}}$, $-285.8\\ \\mathrm{kJ\\ mol^{-1}}$, and $-5644.0\\ \\mathrm{kJ\\ mol^{-1}}$ respectively. The enthalpy of formation of sucrose $(\\mathrm{C_{12}H_{22}O_{11}})$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-2221.8\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$+2221.8\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$-1110.9\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$-3122.4\\ \\mathrm{kJ\\ mol^{-1}}$"
+  ],
+  "sol": "Reaction: $12\\mathrm{C(s)} + 11\\mathrm{H_2(g)} + 5.5\\mathrm{O_2(g)} \\rightarrow \\mathrm{C_{12}H_{22}O_{11}(s)}$.\n$\\Delta_f H^{\\circ} = 12\\Delta_c H^{\\circ}(\\mathrm{C}) + 11\\Delta_c H^{\\circ}(\\mathrm{H_2}) - \\Delta_c H^{\\circ}(\\text{sucrose})$\n$= 12(-393.5) + 11(-285.8) - (-5644.0)$\n$= -4722.0 - 3143.8 + 5644.0 = -2221.8\\ \\mathrm{kJ\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 100
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$, the forward reaction at constant temperature is favored by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Introducing an inert gas at constant volume",
+   "Introducing chlorine gas at constant volume",
+   "Introducing an inert gas at constant pressure",
+   "Increasing the total pressure of the system"
+  ],
+  "sol": "The total number of gaseous moles increases in the forward direction ($\\Delta n_g = 1 > 0$).\nAdding an inert gas at constant pressure increases the volume, which shifts the equilibrium towards the side with more moles of gas (forward direction).",
+  "key": "C",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The molar conductances of $\\mathrm{NaCl}$, $\\mathrm{HCl}$, and $\\mathrm{CH_3COONa}$ at infinite dilution are $126.4$, $425.9$, and $91.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. The molar conductance of $\\mathrm{CH_3COOH}$ at infinite dilution is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-208.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$390.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$291.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$542.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$"
+  ],
+  "sol": "By Kohlrausch's Law:\n$\\Lambda_m^{\\infty}(\\mathrm{CH_3COOH}) = \\Lambda_m^{\\infty}(\\mathrm{CH_3COONa}) + \\Lambda_m^{\\infty}(\\mathrm{HCl}) - \\Lambda_m^{\\infty}(\\mathrm{NaCl})$\n$= 91.0 + 425.9 - 126.4 = 390.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-Lives",
+  "conf": "exact",
+  "stem": "A first-order reaction has a rate constant $k = 1.15 \times 10^{-3}\\ \\mathrm{s^{-1}}$. How long will $5\\ \\mathrm{g}$ of this reactant take to reduce to $3\\ \\mathrm{g}$? (Given: $\\log_{10} 5 = 0.6990$, $\\log_{10} 3 = 0.4771$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$444\\ \\mathrm{s}$",
+   "$400\\ \\mathrm{s}$",
+   "$222\\ \\mathrm{s}$",
+   "$666\\ \\mathrm{s}$"
+  ],
+  "sol": "For first order reaction, $t = \\frac{2.303}{k} \\log_{10}\\left(\\frac{a}{a-x}\\right)$.\n$t = \\frac{2.303}{1.15 \\times 10^{-3}} \\log_{10}\\left(\\frac{5}{3}\\right) \\approx 2000 \\times (0.6990 - 0.4771)$\n$= 2000 \\times 0.2219 = 443.8\\ \\mathrm{s} \\approx 444\\ \\mathrm{s}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction and Refining Processes",
+  "conf": "exact",
+  "stem": "The metal that cannot be obtained by self-reduction of its sulphide ore is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Cu}$",
+   "$\\mathrm{Pb}$",
+   "$\\mathrm{Hg}$",
+   "$\\mathrm{Fe}$"
+  ],
+  "sol": "Metals like $\\mathrm{Cu}$, $\\mathrm{Pb}$, and $\\mathrm{Hg}$ can be extracted from their sulphide ores by self-reduction (auto-reduction).\nIron ($\\mathrm{Fe}$) is extracted from its oxide ore using carbon monoxide as a reducing agent in a blast furnace.",
+  "key": "D",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals and Their Compounds",
+  "conf": "exact",
+  "stem": "Which of the following alkali metal carbonates is thermally unstable and decomposes on heating?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Li_2CO_3}$",
+   "$\\mathrm{Na_2CO_3}$",
+   "$\\mathrm{K_2CO_3}$",
+   "$\\mathrm{Rb_2CO_3}$"
+  ],
+  "sol": "Due to the small size of the $\\mathrm{Li^+}$ ion, it has high polarizing power, which polarizes the carbonate ion leading to thermal instability. Thus, $\\mathrm{Li_2CO_3}$ decomposes on heating to give $\\mathrm{Li_2O}$ and $\\mathrm{CO_2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a $P-P$ bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Metaphosphoric acid",
+   "Orthophosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) contains a direct $\\mathrm{P-P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P-O-P}$ linkage.",
+  "key": "A",
+  "diff": 3,
+  "secs": 35
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids and Actinoids",
+  "conf": "exact",
+  "stem": "The lanthanoid element which exhibits the $+4$ oxidation state most readily is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce}$",
+   "$\\mathrm{Eu}$",
+   "$\\mathrm{Yb}$",
+   "$\\mathrm{Lu}$"
+  ],
+  "sol": "Cerium ($\\mathrm{Ce}$) forms stable $\\mathrm{Ce^{4+}}$ because it achieves the stable noble gas configuration $[\\mathrm{Xe}]\\ 4f^0$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The type of isomerism shown by the complex pair $[\\mathrm{Co(NH_3)_5(SO_4)}]\\mathrm{Br}$ and $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Linkage isomerism",
+   "Coordination isomerism",
+   "Ionisation isomerism",
+   "Solvate isomerism"
+  ],
+  "sol": "These complexes give different ions in solution ($\\mathrm{Br^-}$ vs $\\mathrm{SO_4^{2-}}$) upon ionization. Therefore, they are ionisation isomers.",
+  "key": "C",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for the detection of nitrogen, the blue colouration is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+   "$\\mathrm{Na_4[Fe(CN)_6]}$",
+   "$\\mathrm{Na_3[Fe(CN)_5NOS]}$"
+  ],
+  "sol": "The Prussian blue colour in Lassaigne's test for nitrogen is due to the formation of ferriferrocyanide, which is chemically iron(III) hexacyanoferrate(II), written as $\\mathrm{Fe_4[Fe(CN)_6]_3}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "Which of the following molecules has the highest basic strength in aqueous solution?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{(CH_3)_2NH}$",
+   "$\\mathrm{CH_3NH_2}$",
+   "$\\mathrm{(CH_3)_3N}$",
+   "$\\mathrm{NH_3}$"
+  ],
+  "sol": "In aqueous solution, the order of basic strength of methyl substituted amines is: $\\mathrm{(CH_3)_2NH > CH_3NH_2 > (CH_3)_3N > NH_3}$. Thus, dimethylamine is the strongest base.",
+  "key": "A",
+  "diff": 3,
+  "secs": 35
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Preparation and Properties of Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanal",
+   "Propanone",
+   "Propan-1-ol",
+   "Propan-2-ol"
+  ],
+  "sol": "Hydration of propyne via Kucherov's reaction:\n$\\mathrm{CH_3-C\\equiv CH + H_2O \\xrightarrow{Hg^{2+}/H^+} [CH_3-C(OH)=CH_2] \\xrightarrow{tautomerism} CH_3-CO-CH_3}$ (Propanone).",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes $\\mathrm{S_N1}$ reaction most rapidly?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{(CH_3)_3C-F}$",
+   "$\\mathrm{(CH_3)_3C-Cl}$",
+   "$\\mathrm{(CH_3)_3C-Br}$",
+   "$\\mathrm{(CH_3)_3C-I}$"
+  ],
+  "sol": "For a given alkyl group, the rate of nucleophilic substitution (both $\\mathrm{S_N1}$ and $\\mathrm{S_N2}$) depends on the leaving group ability: $\\mathrm{I^- > Br^- > Cl^- > F^-}$. Thus, tert-butyl iodide reacts most rapidly.",
+  "key": "D",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Benzaldehyde on reaction with concentrated $\\mathrm{NaOH}$ solution gives Benzyl alcohol and Sodium benzoate. This reaction is known as:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Aldol condensation",
+   "Cannizzaro reaction",
+   "Clemmensen reduction",
+   "Rosenmund reduction"
+  ],
+  "sol": "Aldehydes with no $\\alpha$-hydrogen atoms, such as benzaldehyde, undergo self-oxidation and reduction (disproportionation) on treatment with concentrated alkali to yield alcohol and salt of carboxylic acid. This is the Cannizzaro reaction.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of which of the following vitamins causes Cheilosis (fissuring at corners of mouth and lips)?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin $\\mathrm{B_1}$",
+   "Vitamin $\\mathrm{B_2}$",
+   "Vitamin $\\mathrm{B_6}$",
+   "Vitamin $\\mathrm{B_{12}}$"
+  ],
+  "sol": "Deficiency of Vitamin $\\mathrm{B_2}$ (Riboflavin) causes Cheilosis, digestive disorders, and burning sensation of the skin.",
+  "key": "B",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Therapeutic Action of Different Classes of Drugs",
+  "conf": "exact",
+  "stem": "Terfenadine (Seldane) is commonly used as an:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Antihistamine",
+   "Antacid",
+   "Analgesic",
+   "Antiseptic"
+  ],
+  "sol": "Terfenadine (Seldane) is a well-known synthetic drug used as an antihistamine.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ }
+]

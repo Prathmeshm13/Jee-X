@@ -109,6 +109,118 @@
         }
       ],
       "solution": "Since $\\vec{c}$ is coplanar with $\\vec{a}$ and $\\vec{b}$, the three vectors $\\vec{a}, \\vec{b}, \\vec{c}$ lie in the same plane.\nBy definition, the scalar triple product of three coplanar vectors is always zero.\nTherefore, $[\\vec{a}\\ \\vec{b}\\ \\vec{c}] = 0$."
+    },
+    {
+      "ref": "MATH-VEC-004",
+      "subtopic": "scalar-triple-product",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "If the vectors $\\vec{a} = \\hat{i} - \\hat{j} + 2\\hat{k}$, $\\vec{b} = 2\\hat{i} + 4\\hat{j} + \\hat{k}$ and $\\vec{c} = \\lambda \\hat{i} + \\hat{j} + \\mu \\hat{k}$ are mutually orthogonal, then $(\\lambda, \\mu)$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$(-3, 2)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(3, -2)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$(-3, -2)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$(3, 2)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Since the vectors are mutually orthogonal:\n1) $\\vec{a} \\cdot \\vec{b} = 1(2) - 1(4) + 2(1) = 2 - 4 + 2 = 0$ (holds true).\n2) $\\vec{a} \\cdot \\vec{c} = 0 \\implies \\lambda - 1 + 2\\mu = 0 \\implies \\lambda + 2\\mu = 1$.\n3) $\\vec{b} \\cdot \\vec{c} = 0 \\implies 2\\lambda + 4 + \\mu = 0 \\implies 2\\lambda + \\mu = -4$.\nMultiply the second eq by 2: $4\\lambda + 2\\mu = -8$.\nSubtract first eq: $3\\lambda = -9 \\implies \\lambda = -3$.\nThen $2(-3) + \\mu = -4 \\implies \\mu = 2$.\nSo $(\\lambda, \\mu) = (-3, 2)$."
+    },
+    {
+      "ref": "MATH-VEC-005",
+      "subtopic": "scalar-triple-product",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "If $\\vec{a}, \\vec{b}, \\vec{c}$ are three non-coplanar unit vectors such that the angle between any two of them is $\\frac{\\pi}{3}$, then the volume of the parallelopiped whose coterminous edges are represented by $\\vec{a}, \\vec{b}, \\vec{c}$ is $\\frac{1}{\\sqrt{k}}$. The value of $k$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The volume of the parallelopiped $V = [\\vec{a}\\ \\vec{b}\\ \\vec{c}]$.\nWe know $[\\vec{a}\\ \\vec{b}\\ \\vec{c}]^2 = \\begin{vmatrix} \\vec{a}\\cdot\\vec{a} & \\vec{a}\\cdot\\vec{b} & \\vec{a}\\cdot\\vec{c} \\\\ \\vec{b}\\cdot\\vec{a} & \\vec{b}\\cdot\\vec{b} & \\vec{b}\\cdot\\vec{c} \\\\ \\vec{c}\\cdot\\vec{a} & \\vec{c}\\cdot\\vec{b} & \\vec{c}\\cdot\\vec{c} \\end{vmatrix}$.\nSince $|\\vec{a}| = |\\vec{b}| = |\\vec{c}| = 1$ and the angle between any two is $60^\\circ$, we have $\\vec{a}\\cdot\\vec{b} = \\vec{b}\\cdot\\vec{c} = \\vec{c}\\cdot\\vec{a} = \\cos 60^\\circ = \\frac{1}{2}$.\n$V^2 = \\begin{vmatrix} 1 & 1/2 & 1/2 \\\\ 1/2 & 1 & 1/2 \\\\ 1/2 & 1/2 & 1 \u0001\\end{vmatrix} = 1(1 - 1/4) - 1/2(1/2 - 1/4) + 1/2(1/4 - 1/2) = \\frac{3}{4} - \\frac{1}{8} - \\frac{1}{8} = \\frac{1}{2}$.\nThus, $V = \\frac{1}{\\sqrt{2}}$. Comparing with $\\frac{1}{\\sqrt{k}}$, we get $k = 2$."
+    },
+    {
+      "ref": "MATH-VEC-006",
+      "subtopic": "scalar-triple-product",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $\\vec{a} = 2\\hat{i} + \\hat{j} - 2\\hat{k}$ and $\\vec{b} = \\hat{i} + \\hat{j}$. If $\\vec{c}$ is a vector such that $\\vec{a} \\cdot \\vec{c} = |\\vec{c}|$, $|\\vec{c} - \\vec{a}| = 2\\sqrt{2}$ and the angle between $\\vec{a} \\times \\vec{b}$ and $\\vec{c}$ is $\\frac{\\pi}{6}$, then $|(\\vec{a} \\times \\vec{b}) \\times \\vec{c}|$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{2}{3}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{3}{2}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{5}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{3}{4}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$|\\vec{c}-\\vec{a}|^2 = 8 \\implies |\\vec{c}|^2 + |\\vec{a}|^2 - 2\\vec{a}\\cdot\\vec{c} = 8$.\nSince $|\\vec{a}| = 3$, we have $|\\vec{c}|^2 + 9 - 2|\\vec{c}| = 8 \\implies (|\\vec{c}| - 1)^2 = 0 \\implies |\\vec{c}| = 1$.\n$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 1 & -2 \\\\ 1 & 1 & 0 \\end{vmatrix} = 2\\hat{i} - 2\\hat{j} + \\hat{k} \\implies |\\vec{a}\\times\\vec{b}| = 3$.\nThus, $|(\\vec{a} \\times \\vec{b}) \\times \\vec{c}| = |\\vec{a}\\times\\vec{b}| |\\vec{c}| \\sin(\\pi/6) = 3 \\cdot 1 \\cdot \\frac{1}{2} = \\frac{3}{2}$."
+    },
+    {
+      "ref": "MATH-VEC-007",
+      "subtopic": "scalar-triple-product",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three coplanar unit vectors such that $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$. If the vector $\\vec{d} = 3\\vec{a} + 4\\vec{b} + 5\\vec{c}$, then $3|\\vec{d}|^2$ is equal to:",
+      "image": null,
+      "answer": {
+        "min": 9.0,
+        "max": 9.0
+      },
+      "solution": "Since $\\vec{a} + \\vec{b} + \\vec{c} = 0$ and they are unit vectors, they form an equilateral triangle with $120^\\circ$ angles between them.\nThus $\\vec{a}\\cdot\\vec{b} = \\vec{b}\\cdot\\vec{c} = \\vec{c}\\cdot\\vec{a} = -1/2$.\n$\\vec{d} = 3\\vec{a} + 4\\vec{b} + 5\\vec{c}$.\n$|\\vec{d}|^2 = 9|\\vec{a}|^2 + 16|\\vec{b}|^2 + 25|\\vec{c}|^2 + 24(\\vec{a}\\cdot\\vec{b}) + 40(\\vec{b}\\cdot\\vec{c}) + 30(\\vec{c}\\cdot\\vec{a})$\n$= 9 + 16 + 25 + (24 + 40 + 30)(-1/2)$\n$= 50 - 94/2 = 50 - 47 = 3$.\nTherefore, $3|\\vec{d}|^2 = 3 \\times 3 = 9$."
     }
   ]
 }

@@ -1,0 +1,576 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Magnetism and Matter",
+    "slug": "magnetism-matter",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 18
+  },
+  "subtopics": [
+    {
+      "slug": "magnetic-properties-of-materials",
+      "name": "Magnetic properties of materials",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-MGM-001",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The susceptibility of a magnetic material is $-0.085$. The type of magnetic material is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Diamagnetic",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Paramagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ferromagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Non-magnetic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Diamagnetic substances have a small, negative magnetic susceptibility ($\\chi < 0$).\nHere, $\\chi = -0.085$, which is small and negative. Thus, it is a diamagnetic material."
+    },
+    {
+      "ref": "PHY-MGM-002",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi_m$ of a paramagnetic material is related to its absolute temperature $T$ according to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\chi_m \\propto T$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\chi_m \\propto T^{-1}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\chi_m \\propto T^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\chi_m$ is independent of $T$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's Law for paramagnetic materials, the magnetic susceptibility $\\chi_m$ is inversely proportional to the absolute temperature $T$.\nThus, $\\chi_m \\propto \\frac{1}{T}$ or $\\chi_m \\propto T^{-1}$."
+    },
+    {
+      "ref": "PHY-MGM-003",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following magnetic materials has a negative and very small magnetic susceptibility $\\chi$?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Ferromagnetic material",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Paramagnetic material",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Diamagnetic material",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Ferrimagnetic material",
+          "is_correct": false
+        }
+      ],
+      "solution": "Diamagnetic materials have a negative magnetic susceptibility (typically $-10^{-5}$ to $-10^{-9}$), which is independent of temperature."
+    },
+    {
+      "ref": "PHY-MGM-004",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi$ of a paramagnetic material is related to its absolute temperature $T$ as:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\chi \\propto T$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\chi \\propto \\frac{1}{T}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\chi \\propto T^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\chi$ is independent of $T$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's Law for paramagnetic materials, magnetic susceptibility is inversely proportional to absolute temperature: $\\chi = \\frac{C}{T}$.\nTherefore, $\\chi \\propto \\frac{1}{T}$."
+    },
+    {
+      "ref": "PHY-MGM-005",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi$ of a material is negative for:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "diamagnetic materials only",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "paramagnetic materials only",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "ferromagnetic materials only",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "both paramagnetic and ferromagnetic materials",
+          "is_correct": false
+        }
+      ],
+      "solution": "Diamagnetic materials have negative magnetic susceptibility ($\\chi < 0$). For paramagnetic and ferromagnetic materials, $\\chi$ is positive."
+    },
+    {
+      "ref": "PHY-MGM-006",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The magnetic susceptibility ($\\chi_m$) of a paramagnetic material is related to its absolute temperature ($T$) according to Curie's law as:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\chi_m \\propto \\frac{1}{T}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\chi_m \\propto T$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\chi_m \\propto \\frac{1}{T^2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\chi_m \\propto T^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's law, the magnetic susceptibility of a paramagnetic material is inversely proportional to its absolute temperature: $\\chi_m = \\frac{C}{T}$.\nTherefore, $\\chi_m \\propto \\frac{1}{T}$."
+    },
+    {
+      "ref": "PHY-MGM-007",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "If the magnetic susceptibility of a material is $\\chi = -0.5 \\times 10^{-5}$, the material is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Diamagnetic",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Paramagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ferromagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Non-magnetic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Magnetic susceptibility $\\chi$ is negative and small for diamagnetic substances.\nSince $\\chi = -0.5 \\times 10^{-5} < 0$, the material is diamagnetic."
+    },
+    {
+      "ref": "PHY-MGM-008",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following materials has a negative value of magnetic susceptibility ($\\chi$)?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Ferromagnetic material",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Paramagnetic material",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Diamagnetic material",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Both paramagnetic and ferromagnetic materials",
+          "is_correct": false
+        }
+      ],
+      "solution": "Diamagnetic materials have magnetic susceptibility $\\chi < 0$ (negative). Paramagnetic and ferromagnetic materials have positive magnetic susceptibility."
+    },
+    {
+      "ref": "PHY-MGM-009",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The susceptibility of a magnetic material is $-1 \\times 10^{-5}$. The material is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Diamagnetic",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Paramagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ferromagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Non-magnetic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Diamagnetic substances have small, negative magnetic susceptibility ($\\chi < 0$). Since $\\chi = -1 \\times 10^{-5}$ is negative, the material is diamagnetic."
+    },
+    {
+      "ref": "PHY-MGM-010",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi_m$ of a paramagnetic material is related to its absolute temperature $T$ according to Curie's law as:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "\\chi_m \\propto \\frac{1}{T}",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "\\chi_m \\propto T",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "\\chi_m \\propto \\frac{1}{T^2}",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "\\chi_m \\text{ is independent of } T",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's law for paramagnetic materials, the magnetic susceptibility is inversely proportional to the absolute temperature, i.e., $\\chi_m \\propto \\frac{1}{T}$."
+    },
+    {
+      "ref": "PHY-MGM-011",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi$ of a material is $-0.5 \\times 10^{-5}$. The material is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "diamagnetic",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "paramagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "ferromagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "non-magnetic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Magnetic susceptibility $\\chi$ is small and negative for diamagnetic materials.\nSince $\\chi = -0.5 \\times 10^{-5}$ is negative, the material is diamagnetic."
+    },
+    {
+      "ref": "PHY-MGM-012",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A susceptibility of a paramagnetic material at $27^\\circ\\mathrm{C}$ is $\\chi$. At what temperature will its susceptibility become $\\frac{\\chi}{3}$?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$627^\\circ\\mathrm{C}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$900^\\circ\\mathrm{C}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$300^\\circ\\mathrm{C}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$81^\\circ\\mathrm{C}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's Law, susceptibility $\\chi \\propto \\frac{1}{T}$ where $T$ is absolute temperature.\n$T_1 = 27^\\circ\\mathrm{C} = 300\\ \\mathrm{K}$.\n$\\chi_2 = \\frac{\\chi_1}{3} \\implies T_2 = 3T_1 = 3 \\times 300\\ \\mathrm{K} = 900\\ \\mathrm{K}$.\nIn Celsius, $T_2 = 900 - 273 = 627^\\circ\\mathrm{C}$."
+    },
+    {
+      "ref": "PHY-MGM-013",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi_m$ of a paramagnetic material is related to the absolute temperature $T$ as:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\chi_m \\propto T$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\chi_m \\propto T^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\chi_m \\propto \\frac{1}{T}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\chi_m \\propto \\frac{1}{T^2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's Law for paramagnetic materials,\nthe magnetic susceptibility $\\chi_m$ is inversely proportional to the absolute temperature $T$.\nHence, $\\chi_m \\propto \\frac{1}{T}$."
+    },
+    {
+      "ref": "PHY-MGM-014",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following statements is correct for ferromagnetic materials?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "They have large positive susceptibility.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "They have small positive susceptibility.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "They have small negative susceptibility.",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Their susceptibility is independent of temperature.",
+          "is_correct": false
+        }
+      ],
+      "solution": "Ferromagnetic materials have very large positive magnetic susceptibility (typically $\\chi \\gg 1$) and high permeability."
+    },
+    {
+      "ref": "PHY-MGM-015",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The magnetic susceptibility of a paramagnetic material is $\\chi$ at temperature $27^\\circ\\mathrm{C}$. At what temperature (in $^\\circ\\mathrm{C}$) will its magnetic susceptibility become $\\frac{\\chi}{2}$?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$54^\\circ\\mathrm{C}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$327^\\circ\\mathrm{C}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$600^\\circ\\mathrm{C}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$127^\\circ\\mathrm{C}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "By Curie's Law, $\\chi \\propto \\frac{1}{T}$ where $T$ is in Kelvin.\n$T_1 = 27 + 273 = 300\\ \\mathrm{K}$.\nSince $\\chi_2 = \\frac{\\chi_1}{2}$, we must have $T_2 = 2 T_1 = 600\\ \\mathrm{K}$.\nIn Celsius, $T_2 = 600 - 273 = 327^\\circ\\mathrm{C}$."
+    }
+  ]
+}

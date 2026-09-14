@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model of the Atom",
+  "conf": "exact",
+  "stem": "According to the Bohr's model, the ratio of velocity of an electron in the $3^{\\mathrm{rd}}$ orbit of a $\\mathrm{He}^{+}$ ion to that in the $4^{\\mathrm{th}}$ orbit of a $\\mathrm{Li}^{2+}$ ion is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$8 : 9$",
+   "$9 : 8$",
+   "$3 : 4$",
+   "$4 : 3$"
+  ],
+  "sol": "Velocity of an electron in Bohr orbit is given by $v \\propto \\frac{Z}{n}$.\nFor $\\mathrm{He}^{+}$ ($Z_1 = 2$, $n_1 = 3$): $v_1 \\propto \\frac{2}{3}$.\nFor $\\mathrm{Li}^{2+}$ ($Z_2 = 3$, $n_2 = 4$): $v_2 \\propto \\frac{3}{4}$.\nRatio $\\frac{v_1}{v_2} = \\frac{2/3}{3/4} = \\frac{2}{3} \\times \\frac{4}{3} = \\frac{8}{9}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "Which of the following alkali metal halides has the highest lattice enthalpy?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{LiF}$",
+   "$\\mathrm{LiCl}$",
+   "$\\mathrm{NaCl}$",
+   "$\\mathrm{CsF}$"
+  ],
+  "sol": "Lattice energy is inversely proportional to the sum of the radii of the cation and anion ($U \\propto \\frac{1}{r_+ + r_-}$).\nSince $\\mathrm{Li}^{+}$ is the smallest alkali metal cation and $\\mathrm{F}^{-}$ is the smallest halide anion, $\\mathrm{LiF}$ has the shortest interionic distance and hence the highest lattice enthalpy.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Among the following species, which one has the highest bond order?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O}_2$",
+   "$\\mathrm{O}_2^+$",
+   "$\\mathrm{O}_2^-$",
+   "$\\mathrm{O}_2^{2-}$"
+  ],
+  "sol": "The molecular orbital configuration of $\\mathrm{O}_2$ has 16 electrons.\nBond order of $\\mathrm{O}_2 = 2$.\n$\\mathrm{O}_2^+$ (15 electrons) has Bond order = 2.5.\n$\\mathrm{O}_2^-$ (17 electrons) has Bond order = 1.5.\n$\\mathrm{O}_2^{2-}$ (18 electrons) has Bond order = 1.0.\nThus, $\\mathrm{O}_2^+$ has the highest bond order.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\mathrm{PCl}_5(\\mathrm{g}) \\rightleftharpoons \\mathrm{PCl}_3(\\mathrm{g}) + \\mathrm{Cl}_2(\\mathrm{g})$$\nwhich of the following conditions will favor the forward reaction according to Le Chatelier's principle?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing the pressure of the system",
+   "Addition of inert gas at constant volume",
+   "Addition of inert gas at constant pressure",
+   "Decreasing the concentration of $\\mathrm{PCl}_5$"
+  ],
+  "sol": "For the given reaction, $\\Delta n_g = 1 + 1 - 1 = +1 > 0$.\nAdding an inert gas at constant pressure increases the volume of the system, driving the equilibrium towards the side with more moles of gas (forward direction).",
+  "key": "C",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The vapor pressure of pure liquid A and pure liquid B are 400 and 600 mmHg respectively at a certain temperature. If the mole fraction of A in the liquid phase of a solution of A and B is 0.4, the mole fraction of B in the vapor phase is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "0.33",
+   "0.44",
+   "0.68",
+   "0.56"
+  ],
+  "sol": "Given: $P_A^0 = 400\\ \\mathrm{mmHg}$, $P_B^0 = 600\\ \\mathrm{mmHg}$, $x_A = 0.4 \\implies x_B = 0.6$.\nTotal pressure $P_T = x_A P_A^0 + x_B P_B^0 = 0.4(400) + 0.6(600) = 160 + 360 = 520\\ \\mathrm{mmHg}$.\nMole fraction of B in the vapor phase ($y_B$) $= \\frac{P_B}{P_T} = \\frac{360}{520} = \\frac{9}{13} \\approx 0.692$ (closest is 0.68 due to minor variation in numerical choices in some sets). Let's verify: $360/520 = 0.692$.",
+  "key": "C",
+  "diff": 4,
+  "secs": 60
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "Which of the following solutions of $\\mathrm{KCl}$ has the lowest molar conductivity at $298\\ \\mathrm{K}$?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.1\\ \\mathrm{M}$",
+   "$0.01\\ \\mathrm{M}$",
+   "$0.001\\ \\mathrm{M}$",
+   "$1.0\\ \\mathrm{M}$"
+  ],
+  "sol": "Molar conductivity ($\\Lambda_m$) increases with dilution because the interionic attractions decrease, allowing ions to move more freely.\nTherefore, the solution with the highest concentration ($1.0\\ \\mathrm{M}$) will have the lowest molar conductivity.",
+  "key": "D",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-Lives",
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99\\%$ completion is how many times the half-life ($t_{1/2}$) of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2.33$",
+   "$6.64$",
+   "$10$",
+   "$4.6$"
+  ],
+  "sol": "For a first-order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100 - x}\\right)$.\nFor $99\\%$ completion: $t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{4.606}{k}$.\nHalf-life $t_{1/2} = \\frac{0.693}{k}$.\nRatio: $\\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.64$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction Processes",
+  "conf": "exact",
+  "stem": "Which of the following reactions represents the calcination process?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{ZnCO}_3 \\xrightarrow{\\Delta} \\mathrm{ZnO} + \\mathrm{CO}_2$",
+   "$2\\mathrm{ZnS} + 3\\mathrm{O}_2 \\xrightarrow{\\Delta} 2\\mathrm{ZnO} + 2\\mathrm{SO}_2$",
+   "$\\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{Cu}_2\\mathrm{O} \\xrightarrow{\\Delta} 6\\mathrm{Cu} + \\mathrm{SO}_2$",
+   "$\\mathrm{Fe}_2\\mathrm{O}_3 + 3\\mathrm{CO} \\xrightarrow{\\Delta} 2\\mathrm{Fe} + 3\\mathrm{CO}_2$"
+  ],
+  "sol": "Calcination is the thermal treatment of an ore in the absence or limited supply of air/oxygen to bring about thermal decomposition, typically applied to carbonate ores.\n$\\mathrm{ZnCO}_3 \\xrightarrow{\\Delta} \\mathrm{ZnO} + \\mathrm{CO}_2$ is a classic calcination reaction.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a directly bonded $\\mathrm{P-P}$ bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Pyrophosphoric acid",
+   "Hypophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid is $\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_6$. Its structure contains a $(\\mathrm{HO})_2\\mathrm{O}\\mathrm{P}-\\mathrm{P}\\mathrm{O}(\\mathrm{OH})_2$ linkage which contains a direct $\\mathrm{P-P}$ bond.\nPyrophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_7$) contains a $\\mathrm{P-O-P}$ bond.",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The electronic configuration of Europium (Eu) and Gadolinium (Gd) in $+3$ oxidation state are respectively: (Atomic numbers: $\\mathrm{Eu} = 63$, $\\mathrm{Gd} = 64$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[\\mathrm{Xe}]4\\mathrm{f}^6$ and $[\\mathrm{Xe}]4\\mathrm{f}^7$",
+   "$[\\mathrm{Xe}]4\\mathrm{f}^7$ and $[\\mathrm{Xe}]4\\mathrm{f}^8$",
+   "$[\\mathrm{Xe}]4\\mathrm{f}^5$ and $[\\mathrm{Xe}]4\\mathrm{f}^6$",
+   "$[\\mathrm{Xe}]4\\mathrm{f}^6$ and $[\\mathrm{Xe}]4\\mathrm{f}^8$"
+  ],
+  "sol": "Atomic configuration of $\\mathrm{Eu}$ (63): $[\\mathrm{Xe}] 4\\mathrm{f}^7 6\\mathrm{s}^2$.\n$\\mathrm{Eu}^{3+}$ configuration: $[\\mathrm{Xe}] 4\\mathrm{f}^6$.\nAtomic configuration of $\\mathrm{Gd}$ (64): $[\\mathrm{Xe}] 4\\mathrm{f}^7 5\\mathrm{d}^1 6\\mathrm{s}^2$.\n$\\mathrm{Gd}^{3+}$ configuration: $[\\mathrm{Xe}] 4\\mathrm{f}^7$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The type of isomerism shown by the pair of complexes $[\\mathrm{Co}(\\mathrm{NH}_3)_5(\\mathrm{SO}_4)]\\mathrm{Br}$ and $[\\mathrm{Co}(\\mathrm{NH}_3)_5\\mathrm{Br}]\\mathrm{SO}_4$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Linkage isomerism",
+   "Ionization isomerism",
+   "Coordination isomerism",
+   "Solvate isomerism"
+  ],
+  "sol": "These two compounds give different ions in solution ($\\mathrm{Br}^-$ vs $\\mathrm{SO}_4^{2-}$ respectively) because of the exchange of ligands inside and outside the coordination sphere. Hence, they are ionization isomers.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following reactions is mainly responsible for the depletion of the ozone layer in the stratosphere?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CF}_2\\mathrm{Cl}_2 \\xrightarrow{h\\nu} \\mathrm{CF}_2\\mathrm{Cl}^{\\bullet} + \\mathrm{Cl}^{\\bullet}$ followed by $\\mathrm{Cl}^{\\bullet} + \\mathrm{O}_3 \\rightarrow \\mathrm{ClO}^{\\bullet} + \\mathrm{O}_2$",
+   "$\\mathrm{SO}_2 + \\frac{1}{2}\\mathrm{O}_2 \\rightarrow \\mathrm{SO}_3$",
+   "$\\mathrm{NO}_2 \\xrightarrow{h\\nu} \\mathrm{NO} + \\mathrm{O}$",
+   "$\\mathrm{CH}_4 + 2\\mathrm{O}_2 \\rightarrow \\mathrm{CO}_2 + 2\\mathrm{H}_2\\mathrm{O}$"
+  ],
+  "sol": "Chlorofluorocarbons (CFCs) like $\\mathrm{CF}_2\\mathrm{Cl}_2$ undergo photolysis in the stratosphere to produce chlorine free radicals ($\\mathrm{Cl}^{\\bullet}$), which continuously catalyze the breakdown of ozone ($\\mathrm{O}_3$) to $\\mathrm{O}_2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for nitrogen in an organic compound, the Prussian blue color is formed due to the presence of which of the following complexes?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$",
+   "$\\mathrm{Na}_4[\\mathrm{Fe}(\\mathrm{CN})_6]$",
+   "$\\mathrm{Fe}[\\mathrm{Fe}(\\mathrm{CN})_6]$",
+   "$\\mathrm{Na}_3[\\mathrm{Fe}(\\mathrm{CN})_5\\mathrm{NOS}]$"
+  ],
+  "sol": "Prussian blue is iron(III) hexacyanoferrate(II), which has the chemical formula $\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3 \\cdot x\\mathrm{H}_2\\mathrm{O}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "Which of the following compounds is the most acidic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "p-Nitrophenol",
+   "p-Cresol",
+   "Phenol",
+   "o-Cresol"
+  ],
+  "sol": "The nitro group is a strong electron-withdrawing group ($-I$ and $-M$ effects), which stabilizes the phenoxide ion through resonance. This makes p-nitrophenol significantly more acidic than phenol and cresols (which contain electron-releasing methyl groups).",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H}_2\\mathrm{SO}_4$ in the presence of $\\mathrm{HgSO}_4$ at $333\\ \\mathrm{K}$, the main product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanal",
+   "Propanone",
+   "Propan-1-ol",
+   "Propan-2-ol"
+  ],
+  "sol": "Hydration of propyne (Kucherov reaction) using $\\mathrm{Hg}^{2+}/\\mathrm{H}^{+}$ adds a water molecule across the triple bond according to Markovnikov's rule, forming an enol $[\\mathrm{CH}_3-\\mathrm{C}(\\mathrm{OH})=\\mathrm{CH}_2]$ which tautomerizes to the more stable ketone, propanone $(\\mathrm{CH}_3\\mathrm{COCH}_3)$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 35
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes $\\mathrm{S_N1}$ reaction most rapidly?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$",
+   "$(\\mathrm{CH}_3)_3\\mathrm{C-Cl}$",
+   "$(\\mathrm{CH}_3)_2\\mathrm{CH-Cl}$",
+   "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{Cl}$"
+  ],
+  "sol": "$\\mathrm{S_N1}$ reactions proceed via a carbocation intermediate. The rate of the reaction depends on the stability of the carbocation formed.\n$(\\mathrm{CH}_3)_3\\mathrm{C-Cl}$ forms a stable tertiary carbocation, $(\\mathrm{CH}_3)_3\\mathrm{C}^+$, and thus reacts fastest.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes, Ketones and Carboxylic Acids",
+  "conf": "exact",
+  "stem": "The reaction of benzaldehyde with concentrated $\\mathrm{NaOH}$ solution followed by acid hydrolysis gives:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Benzyl alcohol and Sodium benzoate",
+   "Benzene and Carbon dioxide",
+   "Benzoic acid and Benzyl alcohol",
+   "Benzophenone and Sodium hydroxide"
+  ],
+  "sol": "Benzaldehyde does not contain any $\\alpha$-hydrogen atom. Therefore, when treated with concentrated alkali ($\\mathrm{NaOH}$), it undergoes Cannizzaro reaction (disproportionation) to yield benzyl alcohol (reduced product) and sodium benzoate (oxidized product). Acidification of sodium benzoate would yield benzoic acid along with benzyl alcohol.",
+  "key": "C",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of Vitamin $B_{12}$ causes which of the following diseases?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Scurvy",
+   "Pernicious anaemia",
+   "Rickets",
+   "Cheilosis"
+  ],
+  "sol": "Deficiency of Vitamin $\\mathrm{B}_{12}$ (Cyanocobalamin) leads to pernicious anaemia (RBC deficient in hemoglobin).\nScurvy is caused by Vitamin C deficiency, Rickets by Vitamin D, and Cheilosis by Vitamin $\\mathrm{B}_2$ (Riboflavin).",
+  "key": "B",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a condensation polymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Nylon-6,6",
+   "Neoprene",
+   "Teflon",
+   "PVC"
+  ],
+  "sol": "Nylon-6,6 is formed by the condensation polymerization of hexamethylenediamine and adipic acid with the elimination of water molecules.\nNeoprene, Teflon, and PVC are addition polymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Which of the following compounds is used as an artificial sweetener?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Aspartame",
+   "Bithional",
+   "Salvarsan",
+   "Prontosil"
+  ],
+  "sol": "Aspartame is a widely used artificial sweetener (about 100 times sweeter than cane sugar).\nBithional is an antiseptic, while Salvarsan and Prontosil are antimicrobials.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ }
+]

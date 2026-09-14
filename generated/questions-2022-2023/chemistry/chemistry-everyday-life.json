@@ -1,0 +1,576 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Chemistry in Everyday Life",
+    "slug": "chemistry-everyday-life",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 32
+  },
+  "subtopics": [
+    {
+      "slug": "drugs-medicines",
+      "name": "Drugs and Their Classification",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-CEL-001",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Terfenadine is commonly used as a/an:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antihistamine",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Analgesic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Antimicrobial",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Antacid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terfenadine (Seldane) is a synthetic drug commonly used as an antihistamine (to treat allergies)."
+    },
+    {
+      "ref": "CHEM-CEL-002",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Terfenadine is commonly used as a/an:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Tranquilizer",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Antihistamine",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Antibiotic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Analgesic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terfenadine (Seldane) is a synthetic drug that acts as an antihistamine, used to treat allergic symptoms by competing with histamine at $H_1$ receptor sites."
+    },
+    {
+      "ref": "CHEM-CEL-003",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Terfenadine is commonly used as a/an:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antidepressant",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Antihistamine",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Analgesic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Antiseptic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terfenadine (Seldane) is a synthetic drug commonly used as an antihistamine (anti-allergy drug) because it competes with histamine for binding at the receptor sites."
+    },
+    {
+      "ref": "CHEM-CEL-004",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following classes of drugs is used to reduce or abolish pain without causing impairment of consciousness?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antipyretics",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Analgesics",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Antihistamines",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Tranquilizers",
+          "is_correct": false
+        }
+      ],
+      "solution": "Analgesics are neurological active drugs that reduce or abolish pain without causing impairment of consciousness, mental confusion, incoordination or paralysis."
+    },
+    {
+      "ref": "CHEM-CEL-005",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is an artificial sweetener?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Alitame",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Bithional",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Salvarsan",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Prontosil",
+          "is_correct": false
+        }
+      ],
+      "solution": "Alitame is a high-potency artificial sweetener. Bithional is added to soaps as an antiseptic. Salvarsan and Prontosil are antimicrobial drugs."
+    },
+    {
+      "ref": "CHEM-CEL-006",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which among the following is a tranquilizer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Valium",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Prontosil",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Terfenadine",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Salvarsan",
+          "is_correct": false
+        }
+      ],
+      "solution": "- Valium (Diazepam) is a widely used tranquilizer (neurologically active drug used for anxiety).\n- Prontosil and Salvarsan are antimicrobials.\n- Terfenadine is an antihistamine."
+    },
+    {
+      "ref": "CHEM-CEL-007",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Terfenadine is commonly used as an:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antihistamine",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Analgesic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Antiseptic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Antibiotic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terfenadine (commonly known as Seldane) is a synthetic drug used as an antihistamine to treat allergic symptoms."
+    },
+    {
+      "ref": "CHEM-CEL-008",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is an artificial sweetener that is stable at cooking temperatures and does not provide calories?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Sucralose",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Aspartame",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Alitame",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Saccharin",
+          "is_correct": false
+        }
+      ],
+      "solution": "Sucralose is a trichloro derivative of sucrose. Its appearance and taste are like sugar. It is stable at cooking temperature and does not provide calories."
+    },
+    {
+      "ref": "CHEM-CEL-009",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Terfenadine (Seldane) is commonly used as an:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antihistamine",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Antacid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Analgesic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Antiseptic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terfenadine (Seldane) is a well-known synthetic drug used as an antihistamine."
+    },
+    {
+      "ref": "CHEM-CEL-010",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a broad-spectrum antibiotic?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Penicillin G",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Chloramphenicol",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Prontosil",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Salvarsan",
+          "is_correct": false
+        }
+      ],
+      "solution": "Chloramphenicol is a well-known broad-spectrum antibiotic, effective against a wide range of Gram-positive and Gram-negative bacteria."
+    },
+    {
+      "ref": "CHEM-CEL-011",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is used as an antihistamine?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Seldane",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Prontosil",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Salvarsan",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chloramphenicol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Seldane (terfenadine) is a well-known antihistamine drug. Prontosil and Salvarsan are antimicrobials, and Chloramphenicol is a broad-spectrum antibiotic."
+    },
+    {
+      "ref": "CHEM-CEL-012",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a broad spectrum antibiotic?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Chloramphenicol",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Penicillin G",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Aniline",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Aspirin",
+          "is_correct": false
+        }
+      ],
+      "solution": "Chloramphenicol is a well-known broad-spectrum antibiotic that is effective against a wide range of Gram-positive and Gram-negative bacteria. Penicillin G is a narrow-spectrum antibiotic."
+    },
+    {
+      "ref": "CHEM-CEL-013",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following compounds is used as an artificial sweetener?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Aspartame",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Bithional",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Salvarsan",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Prontosil",
+          "is_correct": false
+        }
+      ],
+      "solution": "Aspartame is a widely used artificial sweetener (about 100 times sweeter than cane sugar).\nBithional is an antiseptic, while Salvarsan and Prontosil are antimicrobials."
+    },
+    {
+      "ref": "CHEM-CEL-014",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following compounds is used as an antiseptic?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Bithionol",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Prontosil",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Meprobamate",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Valium",
+          "is_correct": false
+        }
+      ],
+      "solution": "Bithionol is added to soaps to impart antiseptic properties."
+    },
+    {
+      "ref": "CHEM-CEL-015",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following class of drugs is used to reduce anxiety and induce calm?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Analgesics",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Tranquilizers",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Antihistamines",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Antipyretics",
+          "is_correct": false
+        }
+      ],
+      "solution": "Tranquilizers are neurologically active drugs used for the treatment of stress, mild or severe mental diseases, and to reduce anxiety."
+    }
+  ]
+}

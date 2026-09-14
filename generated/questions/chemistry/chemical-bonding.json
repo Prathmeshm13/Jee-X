@@ -109,6 +109,118 @@
         }
       ],
       "solution": "Using Molecular Orbital Theory, the bond orders are:\n$\\mathrm{O_2}$ (16 $e^-$): 2.0\n$\\mathrm{O_2^+}$ (15 $e^-$): 2.5\n$\\mathrm{O_2^-}$ (17 $e^-$): 1.5\n$\\mathrm{O_2^{2-}}$ (18 $e^-$): 1.0\nThus, $\\mathrm{O_2^+}$ has the highest bond order of 2.5."
+    },
+    {
+      "ref": "CHEM-BND-004",
+      "subtopic": "molecular-orbital-theory",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following, the species that is paramagnetic in nature is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{O_2^{2-}}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{N_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{B_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{C_2^{2-}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Molecular Orbital Theory, $\\mathrm{B_2}$ has 10 electrons. Its configuration is $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} (\\pi_{2p_x}^1 = \\pi_{2p_y}^1)$. It contains 2 unpaired electrons and is therefore paramagnetic."
+    },
+    {
+      "ref": "CHEM-BND-005",
+      "subtopic": "molecular-orbital-theory",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the species $\\mathrm{N_2}$, $\\mathrm{N_2^+}$, $\\mathrm{O_2}$, and $\\mathrm{O_2^+}$, the number of species having a fractional bond order is ____________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "Bond orders calculated using molecular orbital theory:\n- $\\mathrm{N_2}$: $3.0$ (integral)\n- $\\mathrm{N_2^+}$: $2.5$ (fractional)\n- $\\mathrm{O_2}$: $2.0$ (integral)\n- $\\mathrm{O_2^+}$: $2.5$ (fractional)\nTherefore, the number of species with fractional bond order is 2."
+    },
+    {
+      "ref": "CHEM-BND-006",
+      "subtopic": "molecular-orbital-theory",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following, the species that is paramagnetic and has a bond order of 1.5 is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{O}_2^+$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{O}_2^-$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{N}_2^+$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{O}_2^{2-}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{O}_2^-$ has $17$ electrons.\nConfiguration: $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1})$.\nIt contains $1$ unpaired electron (hence paramagnetic).\nBond Order = $\\frac{N_b - N_a}{2} = \\frac{10 - 7}{2} = 1.5$."
+    },
+    {
+      "ref": "CHEM-BND-007",
+      "subtopic": "molecular-orbital-theory",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following species, the total number of diamagnetic species is _________.\n$\\mathrm{N_2}$, $\\mathrm{N_2^+}$, $\\mathrm{N_2^{2-}}$, $\\mathrm{O_2}$, $\\mathrm{O_2^+}$, $\\mathrm{O_2^{2-}}$, $\\mathrm{O_2^{2+}}$, $\\mathrm{F_2}$",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Analyzing magnetic nature using Molecular Orbital Theory:\n- $\\mathrm{N_2}$ ($14\\ e^-$): Diamagnetic\n- $\\mathrm{N_2^+}$ ($13\\ e^-$): Paramagnetic (1 unpaired $e^-$)\n- $\\mathrm{N_2^{2-}}$ ($16\\ e^-$): Paramagnetic (2 unpaired $e^-$ in $\\pi^* 2p$)\n- $\\mathrm{O_2}$ ($16\\ e^-$): Paramagnetic (2 unpaired $e^-$)\n- $\\mathrm{O_2^+}$ ($15\\ e^-$): Paramagnetic (1 unpaired $e^-$)\n- $\\mathrm{O_2^{2-}}$ ($18\\ e^-$): Diamagnetic\n- $\\mathrm{O_2^{2+}}$ ($14\\ e^-$): Diamagnetic\n- $\\mathrm{F_2}$ ($18\\ e^-$): Diamagnetic\nDiamagnetic species are $\\mathrm{N_2}$, $\\mathrm{O_2^{2-}}$, $\\mathrm{O_2^{2+}}$, and $\\mathrm{F_2}$. Total number = 4."
     }
   ]
 }

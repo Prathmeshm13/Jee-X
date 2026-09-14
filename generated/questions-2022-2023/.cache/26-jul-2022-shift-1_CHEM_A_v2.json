@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The atmospheric layer which is closest to the Earth's surface and contains water vapour and clouds is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Troposphere",
+   "Stratosphere",
+   "Mesosphere",
+   "Thermosphere"
+  ],
+  "sol": "The troposphere is the lowest layer of Earth's atmosphere, extending from the surface up to about 10 km. It contains the majority of the atmosphere's water vapour, clouds, and weather systems.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the radius of the fourth orbit of a hydrogen atom is how many times the radius of its first orbit?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "4",
+   "8",
+   "16",
+   "12"
+  ],
+  "sol": "The radius of the $n$-th orbit of a hydrogen atom is given by $r_n = r_1 \\times n^2$. For the fourth orbit ($n = 4$), $r_4 = r_1 \\times 4^2 = 16\\, r_1$. Thus, it is 16 times the radius of the first orbit.",
+  "key": "C",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "Which of the following alkali metal halides has the highest lattice enthalpy?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{LiF}$",
+   "$\\mathrm{NaCl}$",
+   "$\\mathrm{KBr}$",
+   "$\\mathrm{CsI}$"
+  ],
+  "sol": "Lattice enthalpy is inversely proportional to the sum of the ionic radii of the cation and anion ($r_+ + r_-$). Since $\\mathrm{Li^+}$ and $\\mathrm{F^-}$ are the smallest ions among the given options, $\\mathrm{LiF}$ has the smallest inter-ionic distance and hence the highest lattice enthalpy.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Which of the following species is diamagnetic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2}$",
+   "$\\mathrm{O_2^{2-}}$",
+   "$\\mathrm{O_2^-}$",
+   "$\\mathrm{O_2^+}$"
+  ],
+  "sol": "$\\mathrm{O_2^{2-}}$ has 18 electrons. Its molecular orbital configuration is: $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*2})$. All electrons are paired, making it diamagnetic. In contrast, $\\mathrm{O_2}$ (2 unpaired electrons), $\\mathrm{O_2^-}$ (1 unpaired electron), and $\\mathrm{O_2^+}$ (1 unpaired electron) are paramagnetic.",
+  "key": "B",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "For the combustion of one mole of liquid ethanol ($\\mathrm{C_2H_5OH}$) at $298\\ \\mathrm{K}$ to form gaseous carbon dioxide and liquid water, the difference between the enthalpy of reaction ($\\Delta H$) and the change in internal energy ($\\Delta U$) (i.e., $\\Delta H - \\Delta U$) in $\\mathrm{kJ\\ mol^{-1}}$ is (Take $R = 8.314\\ \\mathrm{J\\ K^{-1}\\,mol^{-1}}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-2.48$",
+   "$-7.43$",
+   "$+2.48$",
+   "$-4.96$"
+  ],
+  "sol": "The balanced chemical equation is:\n$\\mathrm{C_2H_5OH(l) + 3O_2(g) \\rightarrow 2CO_2(g) + 3H_2O(l)}$\n$\\Delta n_g = n_g(\\text{products}) - n_g(\\text{reactants}) = 2 - 3 = -1$.\nSince $\\Delta H - \\Delta U = \\Delta n_g RT$,\n$\\Delta H - \\Delta U = (-1) \\times 8.314 \\times 10^{-3}\\ \\mathrm{kJ\\ K^{-1}\\,mol^{-1}} \\times 298\\ \\mathrm{K} = -2.48\\ \\mathrm{kJ\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 100
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the following equilibrium reaction:\n$$\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)} \\quad \\Delta H < 0$$\nWhich of the following conditions will shift the equilibrium in the forward direction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing the temperature",
+   "Decreasing the pressure",
+   "Increasing the volume of the container",
+   "Increasing the concentration of $\\mathrm{N_2}$"
+  ],
+  "sol": "According to Le Chatelier's principle:\n1. Since the forward reaction is exothermic ($\\Delta H < 0$), decreasing the temperature shifts it forward.\n2. Increasing the concentration of reactants ($\\mathrm{N_2}$ or $\\mathrm{H_2}$) shifts the equilibrium to the right (forward direction).\n3. Increasing pressure (or decreasing volume) shifts the equilibrium towards the side with fewer gaseous moles (forward).",
+  "key": "D",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "ionic-equilibrium",
+  "sub": "solubility-product",
+  "sub_name": "Solubility Product",
+  "conf": "exact",
+  "stem": "The solubility product ($K_{sp}$) of $\\mathrm{Bi_2S_3}$ is expressed in terms of its solubility $S$ (in $\\mathrm{mol\\ L^{-1}}$) by the relation:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$K_{sp} = 4S^3$",
+   "$K_{sp} = 27S^4$",
+   "$K_{sp} = 108S^5$",
+   "$K_{sp} = 256S^6$"
+  ],
+  "sol": "The dissociation equation is:\n$\\mathrm{Bi_2S_3(s) \\rightleftharpoons 2Bi^{3+}(aq) + 3S^{2-}(aq)}$\nConcentrations at equilibrium: $[\\mathrm{Bi^{3+}}] = 2S$, $[\\mathrm{S^{2-}}] = 3S$.\n$K_{sp} = [\\mathrm{Bi^{3+}}]^2 [\\mathrm{S^{2-}}]^3 = (2S)^2 (3S)^3 = 4S^2 \\times 27S^3 = 108S^5$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The vapor pressure of pure liquid A at $298\\ \\mathrm{K}$ is $100\\ \\mathrm{mm\\ Hg}$ and that of pure liquid B is $150\\ \\mathrm{mm\\ Hg}$. An ideal solution is prepared by mixing A and B. If the mole fraction of A in the liquid phase is $0.4$, the mole fraction of B in the vapour phase at equilibrium is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.60$",
+   "$0.69$",
+   "$0.31$",
+   "$0.50$"
+  ],
+  "sol": "Given $p_A^0 = 100$, $p_B^0 = 150$, $x_A = 0.4$, so $x_B = 0.6$.\nTotal pressure $P_T = x_A p_A^0 + x_B p_B^0 = (0.4 \\times 100) + (0.6 \\times 150) = 40 + 90 = 130\\ \\mathrm{mm\\ Hg}$.\nMole fraction of B in vapour phase ($y_B$) is:\n$y_B = \\frac{p_B}{P_T} = \\frac{x_B p_B^0}{P_T} = \\frac{90}{130} \\approx 0.692$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivity of weak electrolyte $\\mathrm{CH_3COOH}$ can be calculated by using Kohlrausch's law from the limiting molar conductivities of which set of electrolytes?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CH_3COONa, HCl, NaCl}$",
+   "$\\mathrm{CH_3COOK, KCl, NaOH}$",
+   "$\\mathrm{CH_3COONa, NaOH, HCl}$",
+   "$\\mathrm{CH_3COOH, NaCl, HCl}$"
+  ],
+  "sol": "According to Kohlrausch's law:\n$\\Lambda_m^0(\\mathrm{CH_3COOH}) = \\Lambda_m^0(\\mathrm{CH_3COONa}) + \\Lambda_m^0(\\mathrm{HCl}) - \\Lambda_m^0(\\mathrm{NaCl})$\nThus, the set of electrolytes used is $\\mathrm{CH_3COONa}$, $\\mathrm{HCl}$, and $\\mathrm{NaCl}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws",
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99.9\\%$ completion is approximately how many times the half-life ($t_{1/2}$) of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "2 times",
+   "5 times",
+   "10 times",
+   "20 times"
+  ],
+  "sol": "For a first-order reaction, $t = \\frac{2.303}{k} \\log \\left( \\frac{100}{100 - x} \\right)$.\nFor $99.9\\%$ completion:\n$t_{99.9\\%} = \\frac{2.303}{k} \\log \\left( \\frac{100}{0.1} \\right) = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k}$.\nSince $t_{1/2} = \\frac{0.693}{k} \\approx \\frac{2.303 \\log 2}{k} \\approx 0.301 \\times \\frac{2.303}{k}$,\n$t_{99.9\\%} \\approx \\frac{3}{0.301} \\times t_{1/2} \\approx 10\\, t_{1/2}$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction Processes",
+  "conf": "exact",
+  "stem": "The electrolyte used in the Hall-Heroult process for the extraction of aluminium is a molten mixture of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Al_2O_3 + Na_3AlF_6 + CaF_2}$",
+   "$\\mathrm{Al_2O_3 + KF + Cryolite}$",
+   "$\\mathrm{Al_2O_3 + CaF_2 + NaCl}$",
+   "$\\mathrm{Al_2O_3 + Na_3AlF_6 + NaCl}$"
+  ],
+  "sol": "In the Hall-Heroult process, purified alumina ($\\mathrm{Al_2O_3}$) is dissolved in molten cryolite ($\\mathrm{Na_3AlF_6}$) and fluorspar ($\\mathrm{CaF_2}$) to lower its melting point and increase electrical conductivity.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "The correct increasing order of basic strength of the hydrides of Group 15 elements is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{BiH_3 < SbH_3 < AsH_3 < PH_3 < NH_3}$",
+   "$\\mathrm{NH_3 < PH_3 < AsH_3 < SbH_3 < BiH_3}$",
+   "$\\mathrm{PH_3 < NH_3 < AsH_3 < SbH_3 < BiH_3}$",
+   "$\\mathrm{BiH_3 < AsH_3 < SbH_3 < PH_3 < NH_3}$"
+  ],
+  "sol": "As we move down Group 15, the atomic size increases. The electron density of the lone pair is distributed over a larger volume, making it less available for donation. Thus, the basic strength decreases down the group:\n$\\mathrm{NH_3 > PH_3 > AsH_3 > SbH_3 > BiH_3}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "Which of the following lanthanoid ions is/are common and stable in the $+4$ oxidation state?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce^{4+}}$ only",
+   "$\\mathrm{Ce^{4+}}$ and $\\mathrm{Tb^{4+}}$",
+   "$\\mathrm{Yb^{4+}}$ and $\\mathrm{Lu^{4+}}$",
+   "$\\mathrm{Eu^{4+}}$ and $\\mathrm{Gd^{4+}}$"
+  ],
+  "sol": "Cerium exhibits $+4$ state ($\\mathrm{Ce^{4+}}$) because it achieves a stable noble gas configuration ($[\text{Xe}]$). Terbium also shows a stable $+4$ state ($\\mathrm{Tb^{4+}}$) because it achieves a stable half-filled $f^7$ configuration ($[\text{Xe}]\\, 4f^7$). Therefore, $\\mathrm{Ce^{4+}}$ and $\\mathrm{Tb^{4+}}$ are stable $+4$ ions.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The complex ionic species which does not exhibit optical isomerism is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{[Co(en)_3]^{3+}}$",
+   "$\\text{cis-}\\mathrm{[Co(en)_2Cl_2]^+}$",
+   "$\\text{trans-}\\mathrm{[Co(en)_2Cl_2]^+}$",
+   "$\\mathrm{[Co(en)(pn)(NO_2)_2]^+}$"
+  ],
+  "sol": "The $\\text{trans-}\\mathrm{[Co(en)_2Cl_2]^+}$ isomer has a plane of symmetry (and a center of symmetry) and is therefore optically inactive (achiral) and does not show optical isomerism. The cis-isomer, as well as the tris-chelate complexes, lack a plane of symmetry and show optical isomerism.",
+  "key": "C",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct increasing order of acidic strength for the following phenols is:\n\n(I) Phenol \n(II) o-Nitrophenol \n(III) m-Nitrophenol \n(IV) p-Nitrophenol",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "I < III < II < IV",
+   "I < II < III < IV",
+   "IV < II < III < I",
+   "III < I < II < IV"
+  ],
+  "sol": "The electron-withdrawing $-\\mathrm{NO_2}$ group increases the acidity of phenols. \nAt meta-position, only $-I$ effect works. At ortho and para positions, both $-I$ and $-R$ effects operate, making them significantly more acidic than m-nitrophenol.\nBetween o-nitrophenol and p-nitrophenol, intramolecular hydrogen bonding in o-nitrophenol reduces its proton-donating ability slightly compared to p-nitrophenol.\nThus, the correct sequence is: Phenol (I) < m-Nitrophenol (III) < o-Nitrophenol (II) < p-Nitrophenol (IV).",
+  "key": "A",
+  "diff": 3,
+  "secs": 80
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Characterisation of Organic Compounds",
+  "conf": "exact",
+  "stem": "In the Lassaigne's test for the detection of nitrogen in an organic compound, the blue colouration is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Na_4[Fe(CN)_6]}$",
+   "$\\mathrm{Fe[Fe(CN)_6]}$",
+   "$\\mathrm{Fe_3[Fe(CN)_6]_2}$"
+  ],
+  "sol": "During Lassaigne's test for nitrogen, sodium fusion extract containing $\\mathrm{NaCN}$ is reacted with $\\mathrm{FeSO_4}$ and acidified with $\\mathrm{HCl}$ in the presence of $\\mathrm{Fe^{3+}}$ ions to form Prussian blue, which is ferriferrocyanide, $\\mathrm{Fe_4[Fe(CN)_6]_3}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanal",
+   "Propanone",
+   "Propan-1-ol",
+   "Propan-2-ol"
+  ],
+  "sol": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) with $\\mathrm{H_2SO_4/Hg^{2+}}$ occurs via Kucherov's reaction. It undergoes Markovnikov addition of water to form an unstable enol: $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to the stable ketone, propanone (acetone, $\\mathrm{CH_3-CO-CH_3}$).",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution",
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes nucleophilic substitution reaction by $\\mathrm{S_N1}$ mechanism most rapidly?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Methyl chloride",
+   "Ethyl chloride",
+   "Isopropyl chloride",
+   "tert-Butyl chloride"
+  ],
+  "sol": "The rate of $\\mathrm{S_N1}$ reactions is determined by the stability of the intermediate carbocation. The order of carbocation stability is $3^\\circ > 2^\\circ > 1^\\circ > \\text{methyl}$. tert-Butyl chloride forms a highly stable tertiary carbocation, so it reacts most rapidly via $\\mathrm{S_N1}$.",
+  "key": "D",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Carbonyl Compounds",
+  "conf": "exact",
+  "stem": "The reaction of benzaldehyde with concentrated $\\mathrm{NaOH}$ solution gives a mixture of benzaldehyde's reduction and oxidation products. This reaction is known as:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Cannizzaro reaction",
+   "Aldol condensation",
+   "Clemmensen reduction",
+   "Rosenmund reduction"
+  ],
+  "sol": "Aldehydes lacking $\\alpha$-hydrogen atoms (such as benzaldehyde, $\\mathrm{C_6H_5CHO}$) undergo self-oxidation and reduction (disproportionation) on treatment with concentrated alkali to yield alcohol (benzyl alcohol) and the salt of the carboxylic acid (sodium benzoate). This is the Cannizzaro reaction.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of which of the following vitamins causes the disease 'Scurvy'?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin A",
+   "Vitamin B1",
+   "Vitamin C",
+   "Vitamin D"
+  ],
+  "sol": "Scurvy is a disease resulting from a lack of Vitamin C (ascorbic acid). Symptoms include weakness, feeling tired, and sore arms and legs, along with bleeding gums.",
+  "key": "C",
+  "diff": 1,
+  "secs": 20
+ }
+]

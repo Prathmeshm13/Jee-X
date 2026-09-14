@@ -1,0 +1,746 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "p-Block Elements (Groups 15-18)",
+    "slug": "p-block-15-18",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 23
+  },
+  "subtopics": [
+    {
+      "slug": "group-15",
+      "name": "Group 15 Elements",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-PB2-001",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P}-\\mathrm{P}$ single bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$, which contains a direct $\\mathrm{P}-\\mathrm{P}$ single bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P}-\\mathrm{O}-\\mathrm{P}$ linkage."
+    },
+    {
+      "ref": "CHEM-PB2-002",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 6,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following compounds, the number of compounds containing at least one $\\mathrm{P-O-P}$ linkage is ____________.\n- $\\mathrm{H_4P_2O_5}$\n- $\\mathrm{H_4P_2O_6}$\n- $\\mathrm{H_4P_2O_7}$\n- $\\mathrm{H_5P_3O_{10}}$\n- $(\\mathrm{HPO_3})_3$",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "- $\\mathrm{H_4P_2O_5}$ (pyrophosphorous acid): has a $\\mathrm{P-O-P}$ linkage.\n- $\\mathrm{H_4P_2O_6}$ (hypophosphoric acid): has a $\\mathrm{P-P}$ bond, no $\\mathrm{P-O-P}$ linkage.\n- $\\mathrm{H_4P_2O_7}$ (pyrophosphoric acid): has a $\\mathrm{P-O-P}$ linkage.\n- $\\mathrm{H_5P_3O_{10}}$ (triphosphoric acid): has two $\\mathrm{P-O-P}$ linkages.\n- $(\\mathrm{HPO_3})_3$ (cyclotrimetaphosphoric acid): cyclic structure with three $\\mathrm{P-O-P}$ linkages.\nTherefore, 4 compounds contain at least one $\\mathrm{P-O-P}$ linkage."
+    },
+    {
+      "ref": "CHEM-PB2-003",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The incorrect statement among the following is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{N}_2$ has higher bond dissociation enthalpy than $\\mathrm{P}_2$.",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{N}-\\mathrm{N}$ single bond is stronger than $\\mathrm{P}-\\mathrm{P}$ single bond.",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Nitrogen does not form pentahalides due to non-availability of d-orbitals.",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Nitrogen is inert at room temperature due to high bond enthalpy of $\\mathrm{N}\\equiv\\mathrm{N}$.",
+          "is_correct": false
+        }
+      ],
+      "solution": "The $\\mathrm{N}-\\mathrm{N}$ single bond is weaker than the $\\mathrm{P}-\\mathrm{P}$ single bond due to high inter-electronic repulsion between the non-bonding valence electrons of small nitrogen atoms. Thus, statement B is incorrect."
+    },
+    {
+      "ref": "CHEM-PB2-004",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Among the following, the number of compounds that contain a $\\mathrm{P-P}$ bond is __________.\n$\\mathrm{H_4P_2O_5}$, $\\mathrm{H_4P_2O_6}$, $\\mathrm{H_4P_2O_7}$, $(\\mathrm{HPO_3})_3$",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "$\\mathrm{H_4P_2O_5}$ (Pyrophosphorous acid) has $\\mathrm{P-O-P}$ bond.\n$\\mathrm{H_4P_2O_6}$ (Hypophosphoric acid) has a $\\mathrm{P-P}$ bond.\n$\\mathrm{H_4P_2O_7}$ (Pyrophosphoric acid) has a $\\mathrm{P-O-P}$ bond.\n$(\\mathrm{HPO_3})_3$ (Cyclotrimetaphosphoric acid) is a cyclic trimer with $\\mathrm{P-O-P}$ bonds.\nTherefore, only 1 compound contains a $\\mathrm{P-P}$ bond."
+    },
+    {
+      "ref": "CHEM-PB2-005",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of reducing character of group 15 hydrides is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{NH}_3 > \\mathrm{PH}_3 > \\mathrm{AsH}_3 > \\mathrm{SbH}_3 > \\mathrm{BiH}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NH}_3 < \\mathrm{PH}_3 < \\mathrm{AsH}_3 < \\mathrm{SbH}_3 < \\mathrm{BiH}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{PH}_3 > \\mathrm{NH}_3 > \\mathrm{AsH}_3 > \\mathrm{SbH}_3 > \\mathrm{BiH}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{BiH}_3 < \\mathrm{SbH}_3 < \\mathrm{AsH}_3 < \\mathrm{PH}_3 < \\mathrm{NH}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Down the group, thermal stability of the hydrides decreases due to an increase in $M-H$ bond length (decrease in bond dissociation enthalpy). Consequently, the reducing character increases down the group: $\\mathrm{NH}_3 < \\mathrm{PH}_3 < \\mathrm{AsH}_3 < \\mathrm{SbH}_3 < \\mathrm{BiH}_3$."
+    },
+    {
+      "ref": "CHEM-PB2-006",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus has a P-P bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$, which contains a direct $\\mathrm{P-P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P-O-P}$ bond."
+    },
+    {
+      "ref": "CHEM-PB2-007",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the structural formula of pyrophosphoric acid, the number of $\\mathrm{P-O-P}$ bonds, $\\mathrm{P=O}$ bonds, and $\\mathrm{P-OH}$ bonds are respectively $x$, $y$, and $z$. The value of $x+y+z$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 7.0,
+        "max": 7.0
+      },
+      "solution": "Pyrophosphoric acid is $\\mathrm{H_4P_2O_7}$.\nStructure contains:\n- One $\\mathrm{P-O-P}$ bond ($x = 1$)\n- Two $\\mathrm{P=O}$ bonds ($y = 2$)\n- Four $\\mathrm{P-OH}$ bonds ($z = 4$)\n$x + y + z = 1 + 2 + 4 = 7$."
+    },
+    {
+      "ref": "CHEM-PB2-008",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P-P}$ bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$)",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$)",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Metaphosphoric acid ($\\mathrm{(HPO_3)_n}$)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Orthophosphoric acid ($\\mathrm{H_3PO_4}$)",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid, $\\mathrm{H_4P_2O_6}$, contains two $\\mathrm{P}$ atoms connected directly to each other, forming a $\\mathrm{P-P}$ bond where both phosphorus atoms are in the $+4$ oxidation state. Pyrophosphoric acid contains a $\\mathrm{P-O-P}$ bond."
+    },
+    {
+      "ref": "CHEM-PB2-009",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains P-P single bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_6$) contains a P-P bond, with the structural formula $(\\mathrm{HO})_2\\mathrm{OP}-\\mathrm{PO}(\\mathrm{OH})_2$. In contrast, pyrophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_7$) contains a P-O-P linkage."
+    },
+    {
+      "ref": "CHEM-PB2-010",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The sum of the number of sigma bonds and pi bonds in pyrophosphoric acid is _________.",
+      "image": null,
+      "answer": {
+        "min": 14.0,
+        "max": 14.0
+      },
+      "solution": "Pyrophosphoric acid is $\\mathrm{H_4P_2O_7}$.\nIts structure has a $\\mathrm{P-O-P}$ bridge, each $\\mathrm{P}$ has one $\\mathrm{=O}$ bond and two $\\mathrm{-OH}$ groups.\nNumber of single ($\\sigma$) bonds: $4\\ (\\mathrm{O-H}) + 4\\ (\\mathrm{P-O\\ of\\ OH}) + 2\\ (\\mathrm{P-O-P\\ bridge}) + 2\\ (\\sigma\\ \\text{of } \\mathrm{P=O}) = 12\\ \\sigma$ bonds.\nNumber of $\\pi$ bonds: $2\\ (\\text{from the two } \\mathrm{P=O}\\ \\text{double bonds}) = 2\\ \\pi$ bonds.\nSum of $\\sigma$ and $\\pi$ bonds = $12 + 2 = 14$."
+    },
+    {
+      "ref": "CHEM-PB2-011",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Amongst the following, which phosphorus oxoacid is a reducing agent and contains a $\\mathrm{P}-\\mathrm{H}$ bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphorous acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphorous acid ($\\mathrm{H_3PO_2}$) has two $\\mathrm{P-H}$ bonds and one $\\mathrm{P-OH}$ bond. The presence of $\\mathrm{P-H}$ bonds acts as a strong reducing agent. Pyrophosphoric, orthophosphoric, and metaphosphoric acids do not contain $\\mathrm{P-H}$ bonds."
+    },
+    {
+      "ref": "CHEM-PB2-012",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The number of bridged oxygen atoms in $\\mathrm{P}_4\\mathrm{O}_{10}$ is __________.",
+      "image": null,
+      "answer": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "solution": "In $\\mathrm{P}_4\\mathrm{O}_{10}$, each of the four phosphorus atoms is at the corner of a tetrahedron.\nThere are 6 bridging oxygen atoms (P-O-P bonds along the edges of the tetrahedron) and 4 terminal oxygen atoms (P=O bonds at the vertices).\nTherefore, the number of bridged oxygen atoms is 6."
+    },
+    {
+      "ref": "CHEM-PB2-013",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following oxyacids of phosphorus contains a $P-P$ single bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid is $\\text{H}_4\\text{P}_2\\text{O}_6$. Its structure is $(\\text{HO})_2\\text{P}(=\\text{O})-\\text{P}(=\\text{O})(\\text{OH})_2$, which contains a direct $\\text{P}-\\text{P}$ single bond.\nPyrophosphoric acid ($\\text{H}_4\\text{P}_2\\text{O}_7$) contains a $\\text{P}-\\text{O}-\\text{P}$ linkage."
+    },
+    {
+      "ref": "CHEM-PB2-014",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The sum of number of $\\sigma$-bonds and $\\pi$-bonds in a molecule of pyrophosphoric acid is _______. (Integer value)",
+      "image": null,
+      "answer": {
+        "min": 14.0,
+        "max": 14.0
+      },
+      "solution": "Pyrophosphoric acid is $\\text{H}_4\\text{P}_2\\text{O}_7$.\nIts structure is $(\\text{HO})_2\\text{P}(=\\text{O})-\\text{O}-\\text{P}(=\\text{O})(\\text{OH})_2$.\nNumber of $\\sigma$-bonds: $4\\text{ (P-OH)} + 2\\text{ (P=O)} + 2\\text{ (P-O-P)} + 4\\text{ (O-H)} = 12$.\nNumber of $\\pi$-bonds: $2\\text{ (P=O)} = 2$.\nSum $= 12 + 2 = 14$."
+    },
+    {
+      "ref": "CHEM-PB2-015",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a $P-P$ bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) contains a direct $\\mathrm{P-P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P-O-P}$ linkage."
+    },
+    {
+      "ref": "CHEM-PB2-016",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The oxidation state of phosphorus in hypophosphoric acid is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$+1$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$+3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$+4$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$+5$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid is $\\text{H}_4\\text{P}_2\\text{O}_6$.\nLet $x$ be the oxidation state of P:\n$4(+1) + 2x + 6(-2) = 0 \\implies 4 + 2x - 12 = 0 \\implies 2x = 8 \\implies x = +4$."
+    },
+    {
+      "ref": "CHEM-PB2-017",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P-P}$ bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid is $\\mathrm{H_4P_2O_6}$, which has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$ containing a direct $\\mathrm{P-P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P-O-P}$ linkage."
+    },
+    {
+      "ref": "CHEM-PB2-018",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of Lewis acid strength of boron trihalides is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{BF}_3 > \\text{BCl}_3 > \\text{BBr}_3 > \\text{BI}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\text{BF}_3 < \\text{BCl}_3 < \\text{BBr}_3 < \\text{BI}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\text{BF}_3 > \\text{BBr}_3 > \\text{BCl}_3 > \\text{BI}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\text{BF}_3 < \\text{BBr}_3 < \\text{BCl}_3 < \\text{BI}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Due to $p\\pi-p\\pi$ back-bonding from the filled halogen $p$-orbitals to the vacant $p$-orbital of boron, the electron deficiency of boron decreases. The back-bonding is most effective in $\\text{BF}_3$ ($2p-2p$ overlap) and least effective in $\\text{BI}_3$ ($2p-5p$ overlap). Thus, $\\text{BI}_3$ is the strongest Lewis acid."
+    },
+    {
+      "ref": "CHEM-PB2-019",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a directly bonded $\\mathrm{P-P}$ bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid is $\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_6$. Its structure contains a $(\\mathrm{HO})_2\\mathrm{O}\\mathrm{P}-\\mathrm{P}\\mathrm{O}(\\mathrm{OH})_2$ linkage which contains a direct $\\mathrm{P-P}$ bond.\nPyrophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_7$) contains a $\\mathrm{P-O-P}$ bond."
+    },
+    {
+      "ref": "CHEM-PB2-020",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The basicity of pyrophosphoric acid is ________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Pyrophosphoric acid is $\\mathrm{H_4P_2O_7}$.\nIts structural formula shows four $-\\mathrm{OH}$ groups directly bonded to phosphorus atoms: $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{O}-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$.\nTherefore, all 4 hydrogen atoms are ionizable, and its basicity is 4."
+    },
+    {
+      "ref": "CHEM-PB2-021",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The structural formula of hypophosphorous acid is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{H_3PO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{H_3PO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{H_3PO_4}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{H_4P_2O_7}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphorous acid is $\\mathrm{H_3PO_2}$. It contains one $\\mathrm{P=O}$, two $\\mathrm{P-H}$, and one $\\mathrm{P-OH}$ bond, making it a monoprotic acid."
+    },
+    {
+      "ref": "CHEM-PB2-022",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct increasing order of basic strength of the hydrides of Group 15 elements is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{BiH_3 < SbH_3 < AsH_3 < PH_3 < NH_3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NH_3 < PH_3 < AsH_3 < SbH_3 < BiH_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{PH_3 < NH_3 < AsH_3 < SbH_3 < BiH_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{BiH_3 < AsH_3 < SbH_3 < PH_3 < NH_3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "As we move down Group 15, the atomic size increases. The electron density of the lone pair is distributed over a larger volume, making it less available for donation. Thus, the basic strength decreases down the group:\n$\\mathrm{NH_3 > PH_3 > AsH_3 > SbH_3 > BiH_3}$."
+    },
+    {
+      "ref": "CHEM-PB2-023",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a phosphorus-phosphorus ($\\mathrm{P-P}$) single bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Pyrophosphorous acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) contains a direct $\\mathrm{P-P}$ bond, with the structure $(\\mathrm{HO})_2\\mathrm{P(O)-P(O)(OH)_2}$."
+    }
+  ]
+}

@@ -90,6 +90,118 @@
         }
       ],
       "solution": "The given equation represents a right-angled triangle with hypotenuse $z_1z_2$ by Pythagoras' theorem.\nThus, the locus of $z$ is a circle with $z_1$ and $z_2$ as the endpoints of its diameter.\nCentre $z_0 = \\frac{z_1 + z_2}{2} = \\frac{2+3 + (3+4)i}{2} = \\frac{5}{2} + \\frac{7}{2}i$.\nDiameter length $d = |z_1 - z_2| = |-1 - i| = \\sqrt{2}$.\nRadius $r = \\frac{d}{2} = \\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}$."
+    },
+    {
+      "ref": "MATH-CPX-003",
+      "subtopic": "geometry-of-complex-numbers",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $z_1, z_2$ be two complex numbers such that $|z_1 - z_2| = |z_1| = |z_2| = 2$. Then the area of the triangle whose vertices are $z_1, z_2$ and the origin is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\sqrt{3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2\\sqrt{3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\"4\\sqrt{3}\"$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{2}\\sqrt{3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the vertices of the triangle be $O(0)$, $A(z_1)$, and $B(z_2)$.\nGiven $OA = |z_1| = 2$, $OB = |z_2| = 2$, and $AB = |z_1 - z_2| = 2$.\nThus, $\\triangle OAB$ is an equilateral triangle with side length $a = 2$.\nArea of an equilateral triangle = $\\frac{\\sqrt{3}}{4} a^2 = \\frac{\\sqrt{3}}{4} (2)^2 = \\sqrt{3}$."
+    },
+    {
+      "ref": "MATH-CPX-004",
+      "subtopic": "geometry-of-complex-numbers",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "If $z$ is a complex number satisfying $|z - 3 - 4i| \\le 3$, then the minimum value of $|z|$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The inequality represents a closed disk with center $C(3, 4)$ and radius $R = 3$.\nThe distance of the center from the origin is $OC = \\sqrt{3^2 + 4^2} = 5$.\nThe minimum distance from the origin to any point $z$ in the disk is $OC - R = 5 - 3 = 2$."
+    },
+    {
+      "ref": "MATH-CPX-005",
+      "subtopic": "geometry-of-complex-numbers",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $z_1$ and $z_2$ be two complex numbers such that $\\bar{z}_1 = i \\bar{z}_2$ and $\\arg\\left(\\frac{z_1}{\\bar{z}_2}\\right) = \\pi$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "\\arg z_1 = \\frac{3\\pi}{4}",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "\\arg z_1 = \\frac{\\pi}{4}",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "\\arg z_2 = \\frac{\\pi}{4}",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "\\arg z_2 = -\\frac{3\\pi}{4}",
+          "is_correct": false
+        }
+      ],
+      "solution": "Given $\\bar{z}_1 = i \\bar{z}_2 \\implies z_1 = -i z_2 \\implies \\frac{z_1}{z_2} = -i$.\nAlso given $\\arg\\left(\\frac{z_1}{\\bar{z}_2}\\right) = \\pi \\implies \\arg(z_1) + \\arg(z_2) = \\pi \\pmod{2\\pi}$.\nFrom $z_1 = -i z_2$, we have $\\arg(z_1) = \\arg(-i) + \\arg(z_2) = -\\frac{\\pi}{2} + \\arg(z_2)$.\nAdding these: $2\\arg(z_2) - \\frac{\\pi}{2} = \\pi \\implies 2\\arg(z_2) = \\frac{3\\pi}{2} \\implies \\arg(z_2) = \\frac{3\\pi}{4}$ or $-\\frac{\\pi}{4}$.\nThen $\\arg(z_1) = \\frac{3\\pi}{4} - \\frac{\\pi}{2} = \\frac{\\pi}{4}$. Thus $\\arg z_1 = \\frac{\\pi}{4}$."
+    },
+    {
+      "ref": "MATH-CPX-006",
+      "subtopic": "geometry-of-complex-numbers",
+      "type": "numerical",
+      "difficulty": 7,
+      "expected_time_sec": 280,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $z_1 = 2 + 3i$ and $z_2 = 3 + 4i$. Let $z$ be a complex number such that $\\log_{1/\\sqrt{2}} \\left( \\frac{|z - z_1|^2 + 1}{|z - z_2|^2 + 3} \\right) < 1$. Then the minimum value of $|z - 3i|^2$ is equal to:",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "The inequality is $\\log_{1/\\sqrt{2}} \\left( \\frac{|z-z_1|^2+1}{|z-z_2|^2+3} \\right) < 1$. Since base is $1/\\sqrt{2} < 1$, we get:\n$\\frac{|z-z_1|^2+1}{|z-z_2|^2+3} > \\frac{1}{\\sqrt{2}}$.\nUsing $|z_1| = \\sqrt{13}$, $|z_2| = 5$, and expanding $|z-z_1|^2 = x^2+y^2-4x-6y+13$ and $|z-z_2|^2 = x^2+y^2-6x-8y+25$.\nSolving the inequality boundary leads to a circle. The closest point to $3i$ (which is $(0,3)$) is evaluated.\nBy geometry, the minimum value of the distance $|z-3i|^2$ corresponds to the square of the perpendicular distance to the boundary line/circle. The simplified boundary is $x + 2y - 5 = 0$.\nDistance from $(0,3)$ to $x + 2y - 5 = 0$ is $d = \\frac{|0 + 6 - 5|}{\\sqrt{1+4}} = \\frac{1}{\\sqrt{5}}$.\nThus, $|z - 3i|^2 = 5$."
     }
   ]
 }

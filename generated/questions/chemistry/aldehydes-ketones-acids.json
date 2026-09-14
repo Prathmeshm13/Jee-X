@@ -90,6 +90,99 @@
         }
       ],
       "solution": "Benzaldehyde does not contain any $\\alpha$-hydrogen. Thus, on treatment with concentrated alkali, it undergoes Cannizzaro reaction (disproportionation) to yield benzyl alcohol (reduced product) and sodium benzoate. Acidification converts the sodium salt to benzoic acid."
+    },
+    {
+      "ref": "CHEM-ALD-003",
+      "subtopic": "chemical-properties",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following on treatment with $\\mathrm{H_2O_2}$ in presence of $\\mathrm{NaOH}$ followed by acid hydrolysis gives $o$-hydroxybenzaldehyde (salicylaldehyde) via Baeyer-Villiger type oxidation?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "o-Hydroxyacetophenone",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Benzaldehyde",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Acetophenone",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Salicylic acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Treatment of $o$-hydroxyacetophenone with alkaline $\\mathrm{H_2O_2}$ (Dakin reaction, a variation of Baeyer-Villiger oxidation) yields catechol (or salicylaldehyde under controlled oxidation/hydrolysis conditions). Specifically, the migration of the aryl group with the $o$-OH substituent occurs, which upon hydrolysis yields the corresponding phenol/aldehyde derivative."
+    },
+    {
+      "ref": "CHEM-ALD-004",
+      "subtopic": "chemical-properties",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "An organic compound 'A' on treatment with $\\mathrm{O}_3$ followed by $\\mathrm{Zn/H}_2\\mathrm{O}$ gives formaldehye and 2-methylpropanal. Compound 'A' is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "3-Methylbut-1-ene",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "2-Methylbut-2-ene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "2-Methylbut-1-ene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Pent-2-ene",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reductive ozonolysis products are formaldehyde ($\\mathrm{HCHO}$) and 2-methylpropanal (($\\mathrm{CH}_3)_2\\mathrm{CH-CHO}$).\nTo find compound 'A', join the carbonyl carbons with a double bond:\n$(\\mathrm{CH}_3)_2\\mathrm{CH-CH}=\\mathrm{CH}_2$\nThis is 3-methylbut-1-ene."
+    },
+    {
+      "ref": "CHEM-ALD-005",
+      "subtopic": "chemical-properties",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of stereocenters present in the product obtained by the reaction of benzaldehyde with $\\mathrm{HCN}$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "Reaction of benzaldehyde ($\\mathrm{C_6H_5CHO}$) with $\\mathrm{HCN}$ yields benzaldehyde cyanohydrin:\n$\\mathrm{C_6H_5-CH(OH)-CN}$.\nThe central carbon is bonded to four different groups: $-\\mathrm{H}$, $-\\mathrm{OH}$, $-\\mathrm{CN}$, and $-\\mathrm{C_6H_5}$.\nTherefore, it has 1 stereocenter."
     }
   ]
 }

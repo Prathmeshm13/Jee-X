@@ -90,6 +90,80 @@
         }
       ],
       "solution": "$S_{\\text{N}}1$ reactions proceed via carbocation intermediates. The tertiary carbocation $(CH_3)_3C^+$ is highly stable due to $+I$ and hyperconjugation effects. Hence, tertiary butyl chloride $(CH_3)_3C-Cl$ undergoes $S_{\\text{N}}1$ substitution most readily."
+    },
+    {
+      "ref": "CHEM-HAL-003",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds will undergo nucleophilic substitution ( $\\mathrm{S_N1}$ ) fastest?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Allyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Benzyl chloride",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Isopropyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chlorobenzene",
+          "is_correct": false
+        }
+      ],
+      "solution": "The rate of $\\mathrm{S_N1}$ depends on the stability of the carbocation intermediate. Benzyl carbocation ($\\mathrm{C_6H_5CH_2^+}$) is highly stabilized by resonance over the benzene ring, which is more effective than the allylic system and secondary alkyl systems, making benzyl chloride undergo $\\mathrm{S_N1}$ faster than the others listed. Chlorobenzene does not undergo nucleophilic substitution under standard conditions."
+    },
+    {
+      "ref": "CHEM-HAL-004",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following, the one which is most reactive towards nucleophilic substitution ($\\mathrm{S_N2}$) reaction is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(\\mathrm{CH}_3)_3\\mathrm{C-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$(\\mathrm{CH}_3)_2\\mathrm{CH-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH(Cl)CH}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reactivity of alkyl halides towards $\\mathrm{S_N2}$ mechanism decreases with increasing steric hindrance: Primary ($1^\\circ$) > Secondary ($2^\\circ$) > Tertiary ($3^\\circ$).\n$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$ is a straight-chain $1^\\circ$ alkyl halide, hence it is the most reactive towards $\\mathrm{S_N2}$ substitution."
     }
   ]
 }

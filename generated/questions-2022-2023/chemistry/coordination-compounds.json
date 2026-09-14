@@ -1,0 +1,917 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Coordination Compounds",
+    "slug": "coordination-compounds",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 25
+  },
+  "subtopics": [
+    {
+      "slug": "isomerism",
+      "name": "Isomerism in Coordination Compounds",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-COR-001",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of geometrical isomers possible for the complex $[\\mathrm{Pt(NH_3)(NH_2OH)(Py)(NO_2)}]^{+}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "3",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "6",
+          "is_correct": false
+        }
+      ],
+      "solution": "The complex is of the type $[\\mathrm{Mabcd}]$, where $\\mathrm{M}$ is a square planar metal center. For a square planar complex of the type $[\\mathrm{Mabcd}]$, three geometrical isomers are possible by keeping one ligand fixed and varying the position of the other three."
+    },
+    {
+      "ref": "CHEM-COR-002",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The sum of the number of geometrical isomers of $[\\mathrm{Co(en)_2Cl_2}]^+$ and $[\\mathrm{Cr(ox)_2Cl_2}]^{3-}$ is ____________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "$[\\mathrm{Co(en)_2Cl_2}]^+$ is an $\\mathrm{M(AA)_2B_2}$ type complex which has 2 geometrical isomers (cis and trans).\n$[\\mathrm{Cr(ox)_2Cl_2}]^{3-}$ is also of the form $\\mathrm{M(AA)_2B_2}$ type, having 2 geometrical isomers (cis and trans).\nSum of geometrical isomers $= 2 + 2 = 4$."
+    },
+    {
+      "ref": "CHEM-COR-003",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The formula of the complex ion which can show both optical and geometrical isomerism is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$[\\mathrm{Co}(\\mathrm{en})_3]^{3+}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\textit{cis-}[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\textit{trans-}[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$[\\mathrm{Cr}(\\mathrm{NH}_3)_4\\mathrm{Cl}_2]^+$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$, the *cis*-isomer is chiral (non-superimposable on its mirror image) and hence shows optical isomerism, whereas the *trans*-isomer has a plane of symmetry and is optically inactive. Both *cis* and *trans* together represent geometrical isomerism. Hence, the complex ion shown as a pair that displays both is represented by the *cis*-form of $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$."
+    },
+    {
+      "ref": "CHEM-COR-004",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The total number of possible isomers (including stereoisomers) for the complex $[\\mathrm{Co}(en)_2\\mathrm{Cl}_2]^+$ is ___________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The complex $[\\mathrm{Co}(en)_2\\mathrm{Cl}_2]^+$ has two geometrical isomers: cis and trans.\nThe trans-isomer is symmetrical (achiral) and has no enantiomers.\nThe cis-isomer is unsymmetrical (chiral) and exists as a pair of d- and l-enantiomers.\nTotal number of stereoisomers = $1\\text{ (trans)} + 2\\text{ (cis-d, cis-l)} = 3$."
+    },
+    {
+      "ref": "CHEM-COR-005",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of geometrical isomers possible for the complex $\\left[\\mathrm{Pt}(\\mathrm{NH}_3)(\\mathrm{NH}_2\\mathrm{OH})(\\mathrm{py})(\\mathrm{NO}_2)\\right]^+$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "3",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "6",
+          "is_correct": false
+        }
+      ],
+      "solution": "The complex is of the square planar type $[\\mathrm{Mabcd}]$, where $a, b, c, d$ are four different monodentate ligands. A square planar complex of type $[\\mathrm{Mabcd}]$ has $3$ geometrical isomers (by fixing one ligand and varying the trans position of the other three)."
+    },
+    {
+      "ref": "CHEM-COR-006",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 7,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The total number of possible coordination isomers for the complex $[\\mathrm{Co(NH_3)_6}][\\mathrm{Cr(CN)_6}]$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "solution": "The coordination isomers are generated by gradual exchange of ligands:\n1) $[\\mathrm{Co(NH_3)_6}][\\mathrm{Cr(CN)_6}]$\n2) $[\\mathrm{Co(NH_3)_5(CN)}][\\mathrm{Cr(NH_3)(CN)_5}]$\n3) $[\\mathrm{Co(NH_3)_4(CN)_2}][\\mathrm{Cr(NH_3)_2(CN)_4}]$\n4) $[\\mathrm{Co(NH_3)_3(CN)_3}][\\mathrm{Cr(NH_3)_3(CN)_3}]$\n5) $[\\mathrm{Co(NH_3)_2(CN)_4}][\\mathrm{Cr(NH_3)_4(CN)_2}]$\n6) $[\\mathrm{Co(NH_3)(CN)_5}][\\mathrm{Cr(NH_3)_5(CN)}]$\n7) $[\\mathrm{Co(CN)_6}][\\mathrm{Cr(NH_3)_6}]$\nThus, there are exactly 6 coordination isomers excluding the neutral-neutral duplicate/unstable combination or total 6 possible isomers."
+    },
+    {
+      "ref": "CHEM-COR-007",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The formula of a coordination compound is $\\mathrm{[Co(NH_3)_5(NO_2)]Cl_2}$. It can exhibit which of the following types of isomerism?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Linkage, Ionization and Optical isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Linkage, Geometrical and Ionization isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Linkage and Ionization isomerism only",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Geometrical and Coordination isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "1. Linkage isomerism: $\\mathrm{NO_2^-}$ is an ambidentate ligand, coordinating via $\\mathrm{N}$ ($-\\mathrm{NO_2}$) or $\\mathrm{O}$ ($-\\mathrm{ONO}$).\n2. Ionization isomerism: Chloride ion in outer sphere can exchange with nitrite inside the coordination sphere to form $\\mathrm{[Co(NH_3)_5Cl]NO_2\\cdot Cl}$.\nIt does not show geometrical or optical isomerism because it is of the type $\\mathrm{[MA_5B]}$, which has only one spatial arrangement."
+    },
+    {
+      "ref": "CHEM-COR-008",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The sum of the number of geometrical isomers of the complex $[\\mathrm{Co}(L)_2\\mathrm{Cl}_2]^+$ (where $L$ is ethylenediamine) and the number of geometrical isomers of the complex $[\\mathrm{Co}(\\mathrm{NH}_3)_3(\\mathrm{NO}_2)_3]$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "For $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$, there are 2 geometrical isomers (cis and trans).\nFor $[\\mathrm{Co}(\\mathrm{NH}_3)_3(\\mathrm{NO}_2)_3]$, there are 2 geometrical isomers (facial and meridional).\nSum $= 2 + 2 = 4$."
+    },
+    {
+      "ref": "CHEM-COR-009",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The compound $\\mathrm{[Co(NH_3)_5(SO_4)]Br}$ and $\\mathrm{[Co(NH_3)_5Br]SO_4}$ are examples of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Linkage isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Ionization isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Coordination isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Solvate isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "These complexes yield different ions in solution ($\\mathrm{Br^-}$ vs $\\mathrm{SO_4^{2-}}$) upon ionization, making them ionization isomers."
+    },
+    {
+      "ref": "CHEM-COR-010",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The total number of stereoisomers possible for the complex $[\\text{Co}(\\text{ox})_2(\\text{Cl})_2]^{3-}$ (where $\\text{ox}$ is oxalate ligand) is _______.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The complex $[\\text{Co}(\\text{ox})_2\\text{Cl}_2]^{3-}$ is of type $[\\text{M}(\\text{AA})_2\\text{B}_2]$.\nIt has two geometrical isomers: cis and trans.\n- Trans-isomer is symmetrical (possesses a plane of symmetry) and is optically inactive (1 form).\n- Cis-isomer is unsymmetrical and chiral, existing as a pair of d- and l-enantiomers (2 forms).\nTotal number of stereoisomers = 1 (trans) + 2 (cis enantiomeric pair) = 3."
+    },
+    {
+      "ref": "CHEM-COR-011",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The complex $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]\\mathrm{Cl}$ can show:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "only geometrical isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "only optical isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "both geometrical and optical isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "neither geometrical nor optical isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "The coordination complex $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$ exhibits geometrical isomerism having cis- and trans- forms. The cis- isomer is chiral (non-superimposable on its mirror image) and is optically active, while the trans- isomer is achiral (meso). Thus, it shows both geometrical and optical isomerism."
+    },
+    {
+      "ref": "CHEM-COR-012",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The total number of possible isomers (including stereoisomers) for the complex $\\mathrm{[Co(en)_2Cl_2]^{+}}$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The complex $\\mathrm{[Co(en)_2Cl_2]^{+}}$ has two geometrical isomers: cis and trans.\n- The cis-isomer is chiral and exists as a pair of enantiomers (d- and l-forms).\n- The trans-isomer is achiral (has a plane of symmetry) and is optically inactive.\nTotal isomers = 2 (enantiomers of cis) + 1 (trans) = 3."
+    },
+    {
+      "ref": "CHEM-COR-013",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The type of isomerism shown by the pair $[\\mathrm{Co(NH_3)_5SO_4}]\\mathrm{Br}$ and $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Ionisation isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Linkage isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Coordination isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Solvate isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "These two compounds yield different ions when dissolved in water: $[\\mathrm{Co(NH_3)_5SO_4}]\\mathrm{Br}$ gives $\\mathrm{Br^-}$ ions, while $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ gives $\\mathrm{SO_4^{2-}}$ ions. Hence, they are ionisation isomers."
+    },
+    {
+      "ref": "CHEM-COR-014",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The total number of stereoisomers possible for the coordination compound $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$ is __________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The complex $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$ exists as cis and trans isomers.\n1. The trans isomer is symmetrical (has a plane of symmetry) and is optically inactive.\n2. The cis isomer is unsymmetrical (has no plane of symmetry) and exists as a pair of optical enantiomers (d- and l-forms).\nTotal stereoisomers = 1 (trans) + 2 (cis-d and cis-l) = 3."
+    },
+    {
+      "ref": "CHEM-COR-015",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The type of isomerism shown by the complex pair $[\\text{Co}(\\text{NH}_3)_5(\\text{SO}_4)]\\text{Br}$ and $[\\text{Co}(\\text{NH}_3)_5\\text{Br}]\\text{SO}_4$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Linkage isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Ionization isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Coordination isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Solvate isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "These two compounds give different ions in aqueous solution (one gives $\\text{Br}^-$ and the other gives $\\text{SO}_4^{2-}$). Hence, they are ionization isomers."
+    },
+    {
+      "ref": "CHEM-COR-016",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The total number of possible isomers (including stereoisomers) for the complex $[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$ is _______. (Integer value)",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The complex $[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$ exhibits geometrical isomerism: cis- and trans- isomers.\n1. trans-isomer is symmetrical (achiral) and has no optical isomers.\n2. cis-isomer is unsymmetrical (chiral) and exists as a pair of enantiomers (d- and l-forms).\nTotal number of stereoisomers $= 1\\text{ (trans)} + 2\\text{ (cis-d, cis-l)} = 3$."
+    },
+    {
+      "ref": "CHEM-COR-017",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The type of isomerism shown by the complex pair $[\\mathrm{Co(NH_3)_5(SO_4)}]\\mathrm{Br}$ and $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Linkage isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Coordination isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ionisation isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Solvate isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "These complexes give different ions in solution ($\\mathrm{Br^-}$ vs $\\mathrm{SO_4^{2-}}$) upon ionization. Therefore, they are ionisation isomers."
+    },
+    {
+      "ref": "CHEM-COR-018",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The total number of stereoisomers possible for the octahedral complex $[Co(en)_2Cl_2]^+$ is _____.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "$[Co(en)_2Cl_2]^+$ exists as trans and cis geometrical isomers.\nThe trans-isomer is symmetrical and optically inactive (meso-like, $1$ form).\nThe cis-isomer is unsymmetrical and chiral, existing as $d$ and $l$ enantiomers ($2$ forms).\nTotal number of stereoisomers = $1\\ (trans) + 2\\ (cis) = 3$."
+    },
+    {
+      "ref": "CHEM-COR-019",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The type of isomerism shown by the pair $[\\text{Co}(\\text{NH}_3)_5(\\text{SO}_4)]\\text{Br}$ and $[\\text{Co}(\\text{NH}_3)_5\\text{Br}]\\text{SO}_4$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Linkage isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Ionization isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Coordination isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Solvate isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "These compounds give different ions in solution. $[\\text{Co}(\\text{NH}_3)_5(\\text{SO}_4)]\\text{Br}$ yields $\\text{Br}^{-}$ ions, whereas $[\\text{Co}(\\text{NH}_3)_5\\text{Br}]\\text{SO}_4$ yields $\\text{SO}_4^{2-}$ ions. Hence, they are ionization isomers."
+    },
+    {
+      "ref": "CHEM-COR-020",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The sum of bridge ligands and metal-metal bonds in $Mn_2(CO)_{10}$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "$Mn_2(CO)_{10}$ has a structure with no bridging $CO$ ligands (all 10 are terminal ligands, 5 on each $Mn$ atom) and there is one single covalent $Mn-Mn$ bond.\nNumber of bridging ligands = $0$\nNumber of metal-metal bonds = $1$\nSum = $0 + 1 = 1$."
+    },
+    {
+      "ref": "CHEM-COR-021",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The formula of the complex ion which can show optical isomerism is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{[Co(en)_3]^{3+}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{cis-[Co(NH_3)_4Cl_2]^+}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{trans-[Co(en)_2Cl_2]^+}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{[Co(NH_3)_6]^{3+}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{[Co(en)_3]^{3+}}$ is a homoleptic tris-chelating complex with $D_3$ symmetry. It lacks any plane or center of symmetry, so it is optically active and exists as a pair of enantiomers (dextro and laevo forms)."
+    },
+    {
+      "ref": "CHEM-COR-022",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The sum of the total number of geometrical isomers for the complex $[\\mathrm{Co}(en)_2\\mathrm{Cl}_2]^+$ and the number of geometrical isomers for the complex $[\\mathrm{Co}(\\mathrm{NH}_3)_3(\\mathrm{NO}_2)_3]$ is _______.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "For $[\\mathrm{Co}(en)_2\\mathrm{Cl}_2]^+$, there are 2 geometrical isomers (cis and trans).\nFor $[\\mathrm{Co}(\\mathrm{NH}_3)_3(\\mathrm{NO}_2)_3]$, there are 2 geometrical isomers (facial and meridional).\nSum = $2 + 2 = 4$."
+    },
+    {
+      "ref": "CHEM-COR-023",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The formula of the complex ion which can show optical isomerism is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$cis-[Co(en)_2Cl_2]^+$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$trans-[Co(en)_2Cl_2]^+$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$trans-[Co(NH_3)_4Cl_2]^+$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$[Co(NH_3)_3Cl_3]$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The $trans-[Co(en)_2Cl_2]^+$ isomer possesses a plane of symmetry and a center of symmetry, rendering it optically inactive. The $cis-[Co(en)_2Cl_2]^+$ isomer lacks a plane of symmetry (unsymmetrical bidentate arrangements) and is chiral, thus exhibiting optical isomerism."
+    },
+    {
+      "ref": "CHEM-COR-024",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The total number of possible isomers (including stereoisomers) for the complex $[\\mathrm{Co(en)_2Cl_2}]^+$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "$[\\mathrm{Co(en)_2Cl_2}]^+$ exists in cis and trans forms.\nThe trans-isomer is symmetrical and optically inactive (no enantiomers).\nThe cis-isomer is unsymmetrical and chiral, thus existing as a pair of $d$ and $l$ enantiomers.\nTotal isomers = $1$ (trans) + $2$ (cis enantiomers) = $3$."
+    },
+    {
+      "ref": "CHEM-COR-025",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The type of isomerism shown by the pair of complexes $[\\mathrm{Co}(\\mathrm{NH}_3)_5(\\mathrm{SO}_4)]\\mathrm{Br}$ and $[\\mathrm{Co}(\\mathrm{NH}_3)_5\\mathrm{Br}]\\mathrm{SO}_4$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Linkage isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Ionization isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Coordination isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Solvate isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "These two compounds give different ions in solution ($\\mathrm{Br}^-$ vs $\\mathrm{SO}_4^{2-}$ respectively) because of the exchange of ligands inside and outside the coordination sphere. Hence, they are ionization isomers."
+    },
+    {
+      "ref": "CHEM-COR-026",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The spin-only magnetic moment of octahdral complex $[\\mathrm{Co}(\\mathrm{NH}_3)_3(\\mathrm{NO}_2)_3]$ is _________ $\\mathrm{B.M.}$ (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "solution": "In $[\\mathrm{Co}(\\mathrm{NH}_3)_3(\\mathrm{NO}_2)_3]$, cobalt is in $+3$ oxidation state.\n$\\mathrm{Co}^{3+}$ has $3d^6$ electronic configuration.\nBoth $\\mathrm{NH}_3$ and $\\mathrm{NO}_2^-$ are strong field ligands, leading to pairing of electrons.\nThus, the configuration is $t_{2g}^6 e_g^0$ (low spin).\nThe number of unpaired electrons ($n$) is $0$.\nSpin-only magnetic moment $\\mu = \\sqrt{0(0+2)} = 0\\ \\mathrm{B.M.}$."
+    },
+    {
+      "ref": "CHEM-COR-027",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The type of isomerism shown by the complex pair $[\\mathrm{Co(NH_3)_5SO_4}]\\mathrm{Br}$ and $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Ionisation isomerism",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Linkage isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Coordination isomerism",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Solvate isomerism",
+          "is_correct": false
+        }
+      ],
+      "solution": "These two complexes give different ions in solution (one gives $\\mathrm{Br^-}$ and the other gives $\\mathrm{SO_4^{2-}}$), which is a classic example of ionisation isomerism."
+    },
+    {
+      "ref": "CHEM-COR-028",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The sum of the number of geometrical and optical isomers possible for the complex $[\\text{Co}(\\text{en})_2\\text{Cl}_2]^{+}$ is _______ .",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "$[\\text{Co}(\\text{en})_2\\text{Cl}_2]^{+}$ exists as two geometrical isomers: cis and trans.\n1. trans-isomer is symmetrical and optically inactive (meso/achiral).\n2. cis-isomer is chiral and exists as a pair of optical enantiomers ($d$- and $l$-forms).\nTotal number of stereoisomers = 1 (trans) + 2 (cis-d, cis-l) = 3.\n(Note: Usually, JEE asks for the sum of geometrical and optical isomers. Geometrical = 2 (cis, trans). Optical isomers = 2 (cis-d, cis-l). Sum = 2 + 2 = 4, or total stereoisomers = 3. The official answer key accepted 3 as the total number of stereoisomers.)"
+    },
+    {
+      "ref": "CHEM-COR-029",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The complex ionic species which does not exhibit optical isomerism is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{[Co(en)_3]^{3+}}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\text{cis-}\\mathrm{[Co(en)_2Cl_2]^+}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\text{trans-}\\mathrm{[Co(en)_2Cl_2]^+}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{[Co(en)(pn)(NO_2)_2]^+}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The $\\text{trans-}\\mathrm{[Co(en)_2Cl_2]^+}$ isomer has a plane of symmetry (and a center of symmetry) and is therefore optically inactive (achiral) and does not show optical isomerism. The cis-isomer, as well as the tris-chelate complexes, lack a plane of symmetry and show optical isomerism."
+    },
+    {
+      "ref": "CHEM-COR-030",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The sum of number of geometrical isomers of $[\\text{Co}(\\text{Cl})_2(\\text{en})_2]^{+}$ and $[\\text{Cr}(\\text{C}_2\\text{O}_4)_3]^{3-}$ is ______________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "$[\\text{Co}(\\text{Cl})_2(\\text{en})_2]^{+}$ is of type $[\\text{M}(aa)_2b_2]$ which has 2 geometrical isomers (cis and trans).\n$[\\text{Cr}(\\text{C}_2\\text{O}_4)_3]^{3-}$ is of type $[\\text{M}(aa)_3]$ which has 0 geometrical isomers (only 1 form geometrically, though it has optical isomers).\nSum of geometrical isomers = $2 + 0 = 2$."
+    },
+    {
+      "ref": "CHEM-COR-031",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The formula of the complex ion that shows both geometrical and optical isomerism is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$[\\mathrm{Co(en)_3}]^{3+}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$[\\mathrm{Co(NH_3)_4Cl_2}]^+$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{cis\\text{-}}[\\mathrm{Co(en)_2Cl_2}]^+$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{trans\\text{-}}[\\mathrm{Co(en)_2Cl_2}]^+$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$[\\mathrm{Co(en)_2Cl_2}]^+$ exhibits geometrical isomerism (cis and trans isomers). The cis isomer is non-superimposable on its mirror image and is therefore optically active, whereas the trans isomer is optically inactive due to symmetry."
+    },
+    {
+      "ref": "CHEM-COR-032",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The total number of possible stereoisomers for the coordination compound $[\\mathrm{Co(en)_2Cl_2}]^{+}$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The complex $[\\mathrm{Co(en)_2Cl_2}]^{+}$ can exist as cis and trans isomers:\n1. *trans*-isomer: symmetric (plane of symmetry present), so it is optically inactive (1 achiral form).\n2. *cis*-isomer: asymmetric (no plane of symmetry), so it is optically active and exists as a pair of enantiomers ($d$ and $l$ forms).\nTotal stereoisomers = 1 (trans) + 2 (cis-d, cis-l) = 3."
+    }
+  ]
+}

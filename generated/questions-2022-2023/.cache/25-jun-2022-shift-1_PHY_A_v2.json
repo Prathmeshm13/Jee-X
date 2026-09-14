@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensions:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and Rydberg constant",
+   "Force constant and moment of inertia",
+   "Planck's constant and torque"
+  ],
+  "sol": "Velocity gradient has dimension $[v/x] = [\\mathrm{LT^{-1}/L}] = [\\mathrm{T^{-1}}]$.\nDecay constant $\\lambda$ has dimension $[\\mathrm{T^{-1}}]$.\nBoth have the same dimensions $[\\mathrm{M^0 L^0 T^{-1}}]$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with the horizontal. If the horizontal range is equal to the maximum height attained by the projectile, then the value of $\\tan \\theta$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "sol": "Horizontal range $R = \\frac{u^2 \\sin 2\\theta}{g} = \\frac{2 u^2 \\sin\\theta \\cos\\theta}{g}$.\nMaximum height $H = \\frac{u^2 \\sin^2 \\theta}{2g}$.\nGiven $R = H \\Rightarrow \\frac{2 u^2 \\sin\\theta \\cos\\theta}{g} = \\frac{u^2 \\sin^2 \\theta}{2g}$.\nDividing both sides by $u^2 \\sin\\theta / g$ gives $2 \\cos\\theta = \\frac{\\sin\\theta}{2} \\Rightarrow \\tan\\theta = 4$.",
+  "key": "D",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $M$ is placed on a rough horizontal surface with coefficient of friction $\\mu$. A force $F$ is applied on the block at an angle $\\theta$ with the horizontal. The minimum force required to slide the block along the surface is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{\\mu Mg}{\\cos \\theta + \\mu \\sin \\theta}$",
+   "$\\frac{\\mu Mg}{\\sin \\theta + \\mu \\cos \\theta}$",
+   "$\\frac{\\mu Mg}{\\cos \\theta - \\mu \\sin \\theta}$",
+   "$\\frac{\\mu Mg}{\\sin \\theta - \\mu \\cos \\theta}$"
+  ],
+  "sol": "For the block to slide, the horizontal component of $F$ must overcome friction:\n$F \\cos\\theta = f_L = \\mu N$.\nVertical equilibrium: $N + F \\sin\\theta = Mg \\Rightarrow N = Mg - F \\sin\\theta$.\n$F \\cos\\theta = \\mu (Mg - F \\sin\\theta) \\Rightarrow F (\\cos\\theta + \\mu \\sin\\theta) = \\mu Mg$.\n$F = \\frac{\\mu Mg}{\\cos\\theta + \\mu \\sin\\theta}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential Energy and Conservation of Energy",
+  "conf": "exact",
+  "stem": "A block of mass $0.5\\ \\mathrm{kg}$ is moving with a velocity of $v = a x^{3/2}$ where $a = 5\\ \\mathrm{m^{-1/2} s^{-1}}$. The work done by the net force during its displacement from $x = 0$ to $x = 2\\ \\mathrm{m}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$50\\ \\mathrm{J}$",
+   "$10\\ \\mathrm{J}$",
+   "$100\\ \\mathrm{J}$",
+   "$40\\ \\mathrm{J}$"
+  ],
+  "sol": "Work done $W = \\Delta K = \\frac{1}{2} m (v_f^2 - v_i^2)$.\nAt $x = 0$, $v_i = 0$.\nAt $x = 2\\ \\mathrm{m}$, $v_f = 5 \\times (2)^{3/2} = 5 \\sqrt{8}\\ \\mathrm{m/s}$.\n$v_f^2 = 25 \\times 8 = 200\\ \\mathrm{m^2/s^2}$.\n$W = \\frac{1}{2} \\times 0.5 \\times 200 = 50\\ \\mathrm{J}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "Two uniform thin rods $A$ and $B$ of same mass $M$ and lengths $L$ and $2L$ respectively are joined together at one of their ends to form a combined single rod of length $3L$. The moment of inertia of this combined rod about an axis passing through the junction of the two rods and perpendicular to the length is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{2}{3} ML^2$",
+   "$\\frac{3}{2} ML^2$",
+   "$\\frac{5}{3} ML^2$",
+   "$\\frac{4}{3} ML^2$"
+  ],
+  "sol": "The junction is the end of rod $A$ (length $L$) and the end of rod $B$ (length $2L$).\nFor rod $A$, moment of inertia about its end: $I_A = \\frac{M L^2}{3}$.\nFor rod $B$, moment of inertia about its end: $I_B = \\frac{M (2L)^2}{3} = \\frac{4 M L^2}{3}$.\nTotal moment of inertia $I = I_A + I_B = \\frac{ML^2}{3} + \\frac{4ML^2}{3} = \\frac{5}{3} ML^2$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 80
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration Due to Gravity",
+  "conf": "exact",
+  "stem": "Let $g_h$ and $g_d$ be the acceleration due to gravity at a height $h$ and depth $d$ above and below the surface of the earth respectively. If $h = d$ and both are very small compared to the radius of Earth $R$, then the ratio $g_h / g_d$ is approximate to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 - \\frac{h}{R}$",
+   "$1 - \\frac{2h}{R}$",
+   "$1 + \\frac{h}{R}$",
+   "$1 + \\frac{2h}{R}$"
+  ],
+  "sol": "For $h \\ll R$, $g_h = g \\left(1 - \\frac{2h}{R}\\right)$.\nFor depth $d = h$, $g_d = g \\left(1 - \\frac{h}{R}\\right)$.\n$\\frac{g_h}{g_d} = \\frac{1 - 2h/R}{1 - h/R} \\approx (1 - 2h/R)(1 + h/R) \\approx 1 - \\frac{h}{R}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "A steel wire of length $L$ and cross-sectional area $A$ is stretched by a force $F$ within its elastic limit. If the Young's modulus of material is $Y$, the energy density stored in the wire is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{F^2}{2AY}$",
+   "$\\frac{F^2}{2A^2Y}$",
+   "$\\frac{F^2}{AY}$",
+   "$\\frac{F^2}{2A^2Y^2}$"
+  ],
+  "sol": "Energy density $u = \\frac{1}{2} \\times \\text{Stress} \\times \\text{Strain}$.\nStress $S = F/A$ and Strain $= S/Y = F/(AY)$.\n$u = \\frac{1}{2} \\left(\\frac{F}{A}\\right) \\left(\\frac{F}{AY}\\right) = \\frac{F^2}{2A^2Y}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "conf": "exact",
+  "stem": "Two spherical raindrops of equal size are falling vertically through air with a terminal velocity of $1\\ \\mathrm{m/s}$. What will be the terminal velocity if they coalesce to form a single larger drop?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2\\ \\mathrm{m/s}$",
+   "$4^{1/3}\\ \\mathrm{m/s}$",
+   "$2^{2/3}\\ \\mathrm{m/s}$",
+   "$2^{1/3}\\ \\mathrm{m/s}$"
+  ],
+  "sol": "Terminal velocity $v_t \\propto r^2$.\nWhen two drops coalesce, volume is conserved: $2 \\times \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi R^3 \\Rightarrow R = 2^{1/3} r$.\nTherefore, $v_t' / v_t = (R/r)^2 = (2^{1/3})^2 = 2^{2/3}$.\nSince $v_t = 1\\ \\mathrm{m/s}$, $v_t' = 2^{2/3}\\ \\mathrm{m/s}$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoing a thermodynamic cycle consists of three processes: an isothermal expansion, an isobaric compression, and an isochoric process. The correct representation of this cycle on a $P-V$ diagram is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "A loop with a hyperbola, a horizontal line, and a vertical line",
+   "A loop with a hyperbola, a vertical line, and an inclined straight line through origin",
+   "A loop with two isothermal curves and one isobaric curve",
+   "A loop with two isobaric curves and one isochoric curve"
+  ],
+  "sol": "1. Isothermal process on a $P-V$ diagram is a hyperbola ($PV = \\text{const}$).\n2. Isobaric process is a horizontal line ($P = \\text{const}$).\n3. Isochoric process is a vertical line ($V = \\text{const}$).\nTogether they form a closed cycle represented by a hyperbola, a horizontal line, and a vertical line.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "The average kinetic energy of a molecule of a diatomic gas having $5$ degrees of freedom at temperature $T$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{3}{2} k_B T$",
+   "$\\frac{5}{2} k_B T$",
+   "$5 k_B T$",
+   "$\\frac{7}{2} k_B T$"
+  ],
+  "sol": "According to the law of equipartition of energy, the average kinetic energy per molecule per degree of freedom is $\\frac{1}{2} k_B T$.\nFor $5$ degrees of freedom, the total average kinetic energy of a molecule is $5 \\times \\frac{1}{2} k_B T = \\frac{5}{2} k_B T$.",
+  "key": "B",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "A particle executes simple harmonic motion with an amplitude $A$. The ratio of its kinetic energy to potential energy at a displacement $x = A/2$ from the mean position is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 3$",
+   "$3 : 1$",
+   "$2 : 1$",
+   "$1 : 2$"
+  ],
+  "sol": "Potential energy $U = \\frac{1}{2} k x^2 = \\frac{1}{2} k \\frac{A^2}{4}$.\nKinetic energy $K = \\frac{1}{2} k (A^2 - x^2) = \\frac{1}{2} k \\frac{3A^2}{4}$.\nRatio $K / U = 3 / 1 = 3 : 1$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "An electric dipole of dipole moment $p$ is aligned parallel to a uniform electric field $E$. The energy required to rotate the dipole by $180^\\circ$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$pE$",
+   "$2pE$",
+   "$-2pE$",
+   "Zero"
+  ],
+  "sol": "Potential energy of a dipole: $U(\\theta) = -pE \\cos\\theta$.\nInitial state: $\\theta_1 = 0^\\circ \\Rightarrow U_i = -pE$.\nFinal state: $\\theta_2 = 180^\\circ \\Rightarrow U_f = -pE\\cos(180^\\circ) = pE$.\nWork done $W = U_f - U_i = pE - (-pE) = 2pE$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "Three resistors $2\\ \\Omega$, $3\\ \\Omega$, and $6\\ \\Omega$ are connected in parallel. This combination is connected in series with a $4\\ \\Omega$ resistor and a $6\\ \\mathrm{V}$ battery. The current drawn from the battery is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1.0\\ \\mathrm{A}$",
+   "$1.5\\ \\mathrm{A}$",
+   "$1.2\\ \\mathrm{A}$",
+   "$2.0\\ \\mathrm{A}$"
+  ],
+  "sol": "Equivalent resistance of parallel combination $R_p$:\n$1/R_p = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 1 \\Rightarrow R_p = 1\\ \\Omega$.\nTotal resistance $R_{eq} = R_p + 4\\ \\Omega = 5\\ \\Omega$.\nCurrent $I = V / R_{eq} = 6 / 5 = 1.2\\ \\mathrm{A}$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "A charged particle of mass $m$ and charge $q$ enters a uniform magnetic field $B$ perpendicularly with a speed $v$. The time period of its circular motion is independent of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "charge $q$",
+   "magnetic field $B$",
+   "mass $m$",
+   "speed $v$"
+  ],
+  "sol": "The radius of the circular path is $r = mv / (qB)$.\nThe time period $T = \\frac{2\\pi r}{v} = \\frac{2\\pi m}{qB}$.\nThis expression is independent of the speed $v$.",
+  "key": "D",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "Which of the following magnetic materials has a negative and very small magnetic susceptibility $\\chi$?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Ferromagnetic material",
+   "Paramagnetic material",
+   "Diamagnetic material",
+   "Ferrimagnetic material"
+  ],
+  "sol": "Diamagnetic materials have a negative magnetic susceptibility (typically $-10^{-5}$ to $-10^{-9}$), which is independent of temperature.",
+  "key": "C",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $L$ is rotated with a constant angular velocity $\\omega$ about one of its ends in a uniform magnetic field $B$ acting perpendicular to the plane of rotation. The induced electromotive force (emf) between the two ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$BL\\omega$",
+   "$\\frac{1}{2} B L^2 \\omega$",
+   "$B L^2 \\omega$",
+   "$\\frac{1}{2} B^2 L \\omega$"
+  ],
+  "sol": "Induced emf for a rotating rod is $e = \\int_0^L B v \\, dr = \\int_0^L B (r\\omega) \\, dr = B\\omega \\left[\\frac{r^2}{2}\\right]_0^L = \\frac{1}{2} B L^2 \\omega$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR Series Circuit",
+  "conf": "exact",
+  "stem": "In a series LCR resonance circuit, if the value of inductance $L$ is doubled and capacitance $C$ is halved, the resonant frequency will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "become double",
+   "become half",
+   "remain unchanged",
+   "become four times"
+  ],
+  "sol": "Resonant frequency is $\\omega_0 = \\frac{1}{\\sqrt{LC}}$.\nNew frequency $\\omega_0' = \\frac{1}{\\sqrt{(2L)(C/2)}} = \\frac{1}{\\sqrt{LC}} = \\omega_0$.\nThus, the resonant frequency remains unchanged.",
+  "key": "C",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Arrange the following electromagnetic radiations in descending order of their wavelengths:\n(i) Infrared waves\n(ii) Microwaves\n(iii) Ultraviolet rays\n(iv) Gamma rays",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "(ii) > (i) > (iii) > (iv)",
+   "(i) > (ii) > (iii) > (iv)",
+   "(ii) > (i) > (iv) > (iii)",
+   "(iv) > (iii) > (i) > (ii)"
+  ],
+  "sol": "The electromagnetic spectrum in order of decreasing wavelength is:\nRadio waves > Microwaves > Infrared > Visible > Ultraviolet > X-rays > Gamma rays.\nTherefore, the descending order of wavelength is Microwaves (ii) > Infrared (i) > Ultraviolet (iii) > Gamma rays (iv).",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the separation between the slits is halved and the distance between the slits and screen is doubled, the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "half",
+   "double",
+   "four times",
+   "one-fourth"
+  ],
+  "sol": "Fringe width is given by $\\beta = \\frac{\\lambda D}{d}$.\nNew fringe width $\\beta' = \\frac{\\lambda (2D)}{(d/2)} = 4 \\frac{\\lambda D}{d} = 4\\beta$.\nThus, the fringe width becomes four times.",
+  "key": "C",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric Effect",
+  "conf": "exact",
+  "stem": "The work function of a metal is $2.5\\ \\mathrm{eV}$. If radiation of wavelength $4000\\ \\text{Å}$ is incident on the metal surface, the maximum kinetic energy of the emitted photoelectrons is:\n(Take $hc = 12400\\ \\mathrm{eV\\,\\text{Å}}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.6\\ \\mathrm{eV}$",
+   "$1.2\\ \\mathrm{eV}$",
+   "$1.5\\ \\mathrm{eV}$",
+   "No photoelectrons are emitted"
+  ],
+  "sol": "Energy of incident photon $E = \\frac{hc}{\\lambda} = \\frac{12400}{4000} = 3.1\\ \\mathrm{eV}$.\nMaximum kinetic energy $K_{\\max} = E - \\phi = 3.1 - 2.5 = 0.6\\ \\mathrm{eV}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ }
+]

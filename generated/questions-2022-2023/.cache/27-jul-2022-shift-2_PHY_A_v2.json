@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "If momentum ($P$), area ($A$) and time ($T$) are taken as fundamental quantities, then the dimensional formula for coefficient of viscosity is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[P A^{-1} T^0]$",
+   "$[P A^{-1/2} T^0]$",
+   "$[P A^{-1} T^{-1}]$",
+   "$[P A^{-3/2} T^0]$"
+  ],
+  "sol": "Let $[\\eta] = [P]^a [A]^b [T]^c$. \nDimensions of $[\\eta] = [M L^{-1} T^{-1}]$. \nDimensions of momentum $[P] = [M L T^{-1}]$, $[A] = [L^2]$, $[T] = [T]$. \nEquating dimensions: $[M L^{-1} T^{-1}] = [M L T^{-1}]^a [L^2]^b [T]^c = M^a L^{a+2b} T^{-a+c}$. \nComparing powers: $a = 1$, $1+2b = -1 \\implies 2b = -2 \\implies b = -1$, and $-1+c = -1 \\implies c = 0$. \nThus, $[\\eta] = [P^1 A^{-1} T^0]$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 80
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $v$ making an angle $\\theta$ with horizontal. If the horizontal range is equal to the maximum height reached by the projectile, then $\\tan \\theta$ is equal to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "sol": "Horizontal range $R = \\frac{v^2 \\sin(2\\theta)}{g} = \\frac{2 v^2 \\sin\\theta \\cos\\theta}{g}$. \nMaximum height $H = \\frac{v^2 \\sin^2\\theta}{2g}$. \nSince $R = H$, we have $\\frac{2 v^2 \\sin\\theta \\cos\\theta}{g} = \\frac{v^2 \\sin^2\\theta}{2g}$. \nSimplifying, $2 \\cos\\theta = \\frac{\\sin\\theta}{2} \\implies \\tan\\theta = 4$.",
+  "key": "D",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $M$ slides down an inclined plane of inclination $\\theta$ with a constant velocity. The coefficient of kinetic friction between the block and the inclined plane is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\sin \\theta$",
+   "$\\cos \\theta$",
+   "$\\tan \\theta$",
+   "$\\cot \\theta$"
+  ],
+  "sol": "Since the block moves with a constant velocity, the net force along the incline is zero. \n$M g \\sin\\theta - f_k = 0 \\implies M g \\sin\\theta = \\mu_k N$. \nSince $N = M g \\cos\\theta$, we have $M g \\sin\\theta = \\mu_k M g \\cos\\theta$. \nTherefore, $\\mu_k = \\tan \\theta$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential energy and conservation of energy",
+  "conf": "exact",
+  "stem": "A potential energy function is given by $U(x) = \\frac{a}{x^{12}} - \\frac{b}{x^6}$ for a diatomic molecule. The stable equilibrium distance between the two atoms is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\left(\\frac{2a}{b}\\right)^{1/6}$",
+   "$\\left(\\frac{a}{b}\\right)^{1/6}$",
+   "$\\left(\\frac{b}{2a}\\right)^{1/6}$",
+   "$\\left(\\frac{a}{2b}\\right)^{1/6}$"
+  ],
+  "sol": "For equilibrium, $F = -\\frac{dU}{dx} = 0$. \n$\\frac{dU}{dx} = -12 a x^{-13} + 6 b x^{-7} = 0$. \n$\\frac{12a}{x^{13}} = \\frac{6b}{x^7} \\implies x^6 = \\frac{12a}{6b} = \\frac{2a}{b}$. \nThus, $x = \\left(\\frac{2a}{b}\\right)^{1/6}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "Two uniform solid spheres of equal mass $M$ but radii $R_1$ and $R_2$ are connected by a light rod of length $L$ ($L > R_1 + R_2$) such that their centers are at a distance $L$ apart. The moment of inertia of the system about an axis passing through the center of mass of the system and perpendicular to the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{2}{5}M(R_1^2 + R_2^2) + \\frac{1}{2}ML^2$",
+   "$\\frac{2}{5}M(R_1^2 + R_2^2) + \\frac{1}{4}ML^2$",
+   "$\\frac{2}{5}M(R_1^2 + R_2^2) + ML^2$",
+   "$\\frac{2}{5}M(R_1^2 + R_2^2) + 2ML^2$"
+  ],
+  "sol": "The center of mass of two equal masses $M$ lies at the midpoint of the rod of length $L$, so the distance from each sphere's center to the COM axis is $d = L/2$. \nUsing parallel axis theorem for each solid sphere: \n$I = \\left(\\frac{2}{5} M R_1^2 + M (L/2)^2\\right) + \\left(\\frac{2}{5} M R_2^2 + M (L/2)^2\\right)$ \n$I = \\frac{2}{5} M (R_1^2 + R_2^2) + \\frac{1}{2} M L^2$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 110
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to Gravity",
+  "conf": "exact",
+  "stem": "If the acceleration due to gravity at the surface of earth is $g$, then the acceleration due to gravity at a depth $d = R/2$ (where $R$ is the radius of earth) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{g}{2}$",
+   "$\\frac{g}{4}$",
+   "$2g$",
+   "$\\frac{3g}{4}$"
+  ],
+  "sol": "The variation of acceleration due to gravity with depth is given by $g' = g \\left(1 - \\frac{d}{R}\\right)$. \nGiven $d = R/2$: \n$g' = g \\left(1 - \\frac{R/2}{R}\\right) = g \\left(1 - \\frac{1}{2}\\right) = \\frac{g}{2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "A wire of length $L$ and area of cross-section $A$ is made of a material of Young's modulus $Y$. If the wire is stretched by an amount $x$, the work done is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{Y A x^2}{2 L}$",
+   "$\\frac{Y A x^2}{L}$",
+   "$\\frac{2 Y A x^2}{L}$",
+   "$\\frac{Y A x}{2 L^2}$"
+  ],
+  "sol": "The elastic potential energy stored (which is equal to the work done) is: \n$W = \\frac{1}{2} \\times \\text{Force} \\times \\text{extension} = \\frac{1}{2} \\left( \\frac{YA}{L} x \\right) x = \\frac{YA x^2}{2L}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "conf": "exact",
+  "stem": "Two spherical rain drops of equal size falling through air have a terminal velocity of $8\\ \\mathrm{cm/s}$. If they coalesce to form a single drop, the terminal velocity of the new drop will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$8 \\cdot 2^{1/3}\\ \\mathrm{cm/s}$",
+   "$8 \\cdot 4^{1/3}\\ \\mathrm{cm/s}$",
+   "$16\\ \\mathrm{cm/s}$",
+   "$32\\ \\mathrm{cm/s}$"
+  ],
+  "sol": "Terminal velocity $v_T \\propto r^2$. \nWhen two drops of radius $r$ coalesce to form a single drop of radius $R$: \n$\\frac{4}{3} \\pi R^3 = 2 \\times \\frac{4}{3} \\pi r^3 \\implies R = 2^{1/3} r$. \nTherefore, $v'_T = v_T \\left( \\frac{R}{r} \\right)^2 = 8 \\times (2^{1/3})^2 = 8 \\cdot 4^{1/3}\\ \\mathrm{cm/s}$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoes a thermodynamic process in which internal energy $U$ depends on volume $V$ as $U = a V^{1/2}$, where $a$ is a constant. The molar heat capacity of the gas in this process is (given $C_V$ is the molar heat capacity at constant volume):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$C_V + R$",
+   "$C_V + 2R$",
+   "$C_V + 3R$",
+   "$C_V + 4R$"
+  ],
+  "sol": "We know $dU = n C_V dT$. Also $U = a V^{1/2}$. \nTaking differentials: $dU = \\frac{a}{2} V^{-1/2} dV = \\frac{U}{2V} dV$. \nSince $U = n C_V T$ (for an ideal gas, $U$ is a function of $T$), we have $\\frac{dU}{dT} = n C_V \\implies dU = n C_V dT$. \nAlso from $U = a V^{1/2}$ and $dU = \\frac{U}{2V} dV$, we get $n C_V dT = \\frac{n C_V T}{2V} dV \\implies \\frac{dT}{T} = \\frac{dV}{2V} \\implies T \\propto V^{1/2} \\implies T V^{-1/2} = \\text{constant}$. \nUsing ideal gas law $P V = n R T \\implies T \\propto P V$, we get $P V^{1/2} = \\text{constant}$ (polytropic process with $x = 1/2$). \nFor a polytropic process $P V^x = \\text{constant}$, the molar heat capacity is $C = C_V + \\frac{R}{1-x}$. \nHere $x = 1/2 \\implies C = C_V + \\frac{R}{1 - 1/2} = C_V + 2R$.",
+  "key": "B",
+  "diff": 6,
+  "secs": 180
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "If the degree of freedom of a gas molecule is $f$, then the ratio of specific heats $\\gamma = C_P/C_V$ is given by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 + \\frac{2}{f}$",
+   "$1 + \\frac{f}{2}$",
+   "$\\frac{f}{2}$",
+   "$\\frac{2}{f}$"
+  ],
+  "sol": "$C_V = \\frac{f}{2}R$ and $C_P = C_V + R = \\left(\\frac{f}{2} + 1\\right)R$. \nRatio $\\gamma = \\frac{C_P}{C_V} = \\frac{(f/2 + 1)R}{(f/2)R} = 1 + \\frac{2}{f}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "A particle executing simple harmonic motion has amplitude $A$ and time period $T$. The minimum time taken by the particle to travel from $x = A$ to $x = A/2$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{T}{6}$",
+   "$\\frac{T}{12}$",
+   "$\\frac{T}{8}$",
+   "$\\frac{T}{4}$"
+  ],
+  "sol": "Using $x(t) = A \\cos(\\omega t)$ starting from the extreme position $x = A$ at $t = 0$: \nAt $x = A/2 \\implies A/2 = A \\cos(\\omega t) \\implies \\cos(\\omega t) = 1/2$. \nThus, $\\omega t = \\frac{\\pi}{3} \\implies \\frac{2\\pi}{T} t = \\frac{\\pi}{3} \\implies t = \\frac{T}{6}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "waves",
+  "sub": "speed-of-wave",
+  "sub_name": "Speed of Wave",
+  "conf": "exact",
+  "stem": "The tension in a string is increased by $69\\%$. The percentage increase in the speed of the transverse wave in the string is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$30\\%$",
+   "$34.5\\%$",
+   "$69\\%$",
+   "$13\\%$"
+  ],
+  "sol": "The speed of a transverse wave in a string is given by $v = \\sqrt{\\frac{T}{\\mu}}$. \nNew tension $T' = 1.69 T$. \nNew velocity $v' = \\sqrt{\\frac{1.69 T}{\\mu}} = 1.3 v$. \nPercentage increase in velocity $= (1.3 - 1) \\times 100\\% = 30\\%$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "An electric dipole of dipole moment $\\vec{p}$ is aligned parallel to a uniform electric field $\\vec{E}$. The energy required to rotate the dipole by $180^\\circ$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$pE$",
+   "$2pE$",
+   "$-2pE$",
+   "Zero"
+  ],
+  "sol": "Potential energy of a dipole in an electric field is $U = -pE \\cos\\theta$. \nInitially $\\theta_1 = 0^\\circ \\implies U_i = -pE \\cos 0^\\circ = -pE$. \nFinally $\\theta_2 = 180^\\circ \\implies U_f = -pE \\cos 180^\\circ = pE$. \nWork done $W = U_f - U_i = pE - (-pE) = 2pE$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "capacitance",
+  "sub": "combination-of-capacitors",
+  "sub_name": "Combination of Capacitors",
+  "conf": "exact",
+  "stem": "Three identical capacitors each of capacitance $C$ are connected in series. This combination is connected in parallel with another series combination of two identical capacitors of capacitance $C$. The equivalent capacitance of the whole network is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{5}{6} C$",
+   "$\\frac{6}{5} C$",
+   "$\\frac{5}{2} C$",
+   "$\\frac{2}{5} C$"
+  ],
+  "sol": "Equivalent capacitance of 3 series capacitors: $C_1 = C/3$. \nEquivalent capacitance of 2 series capacitors: $C_2 = C/2$. \nSince these two combinations are connected in parallel, the total equivalent capacitance is: \n$C_{eq} = C_1 + C_2 = \\frac{C}{3} + \\frac{C}{2} = \\frac{5}{6} C$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "Ten identical resistors each of resistance $R$ are connected in first series and then in parallel to a source of constant voltage. The ratio of power dissipated in the series combination to that in the parallel combination is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 100$",
+   "$100 : 1$",
+   "$1 : 10$",
+   "$10 : 1$"
+  ],
+  "sol": "For series: $R_s = 10R$. Power $P_s = \\frac{V^2}{R_s} = \\frac{V^2}{10R}$. \nFor parallel: $R_p = \\frac{R}{10}$. Power $P_p = \\frac{V^2}{R_p} = \\frac{10 V^2}{R}$. \nRatio $\\frac{P_s}{P_p} = \\frac{V^2 / 10R}{10 V^2 / R} = \\frac{1}{100}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "A charged particle of mass $m$ and charge $q$ enters a uniform magnetic field $B$ perpendicularly with a velocity $v$. The radius of the circular path described by the particle is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{mv}{qB}$",
+   "$\\frac{qB}{mv}$",
+   "$\\frac{mB}{qv}$",
+   "$\\frac{qv}{mB}$"
+  ],
+  "sol": "The magnetic force provides the necessary centripetal force: \n$q v B = \\frac{m v^2}{r} \\implies r = \\frac{m v}{q B}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "The susceptibility of a magnetic material is $-0.085 \\times 10^{-4}$. The type of magnetic material is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Diamagnetic",
+   "Paramagnetic",
+   "Ferromagnetic",
+   "Non-magnetic"
+  ],
+  "sol": "Diamagnetic substances have small, negative magnetic susceptibility ($\\chi < 0$). \nSince $\\chi = -0.085 \\times 10^{-4}$ is negative, the material is diamagnetic.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $l$ is rotated with a constant angular speed $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced emf between the two ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$B \\omega l^2$",
+   "$2 B \\omega l^2$",
+   "$\\frac{1}{4} B \\omega l^2$"
+  ],
+  "sol": "The induced emf in a rotating rod is: \n$e = \\int_0^l B v \\, dx = \\int_0^l B (\\omega x) \\, dx = B \\omega \\left[ \\frac{x^2}{2} \\right]_0^l = \\frac{1}{2} B \\omega l^2$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR Series Circuit",
+  "conf": "exact",
+  "stem": "In a series LCR resonance circuit, if the value of resistance is doubled, then the quality factor $Q$ becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Half",
+   "Double",
+   "Four times",
+   "Unchanged"
+  ],
+  "sol": "The Quality factor is given by $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$. \nIf $R$ is doubled, $Q' = \\frac{1}{2R}\\sqrt{\\frac{L}{C}} = \\frac{Q}{2}$. \nThus, the quality factor is halved.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the highest frequency?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$Γ\\text{-rays}$ (Gamma rays)",
+   "X-rays",
+   "Ultraviolet rays",
+   "Microwaves"
+  ],
+  "sol": "In the electromagnetic spectrum, the order of increasing frequency is: \nMicrowaves < Ultraviolet < X-rays < Gamma-rays. \nHence, Gamma rays (Γ-rays) have the highest frequency.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ }
+]

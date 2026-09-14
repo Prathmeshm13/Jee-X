@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is not a common component of photochemical smog?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Ozone",
+   "Acrolein",
+   "Formaldehyde",
+   "Chlorofluorocarbons"
+  ],
+  "sol": "Photochemical smog is formed by the action of sunlight on unsaturated hydrocarbons and nitrogen oxides. Its primary components are ozone, nitric oxide, acrolein, formaldehyde, and peroxyacetyl nitrate (PAN). Chlorofluorocarbons (CFCs) are responsible for ozone depletion in the stratosphere, but are not components of photochemical smog.",
+  "key": "D",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in the $n^{\\text{th}}$ orbit of $\\text{He}^{+}$ ion is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$n^2$",
+   "$\\frac{n^3}{Z^2}$",
+   "$\\frac{n^2}{Z}$",
+   "$\\frac{n^3}{Z}$"
+  ],
+  "sol": "The time period of an electron in a Bohr orbit is $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto \\frac{n^2}{Z}$ and velocity $v \\propto \\frac{Z}{n}$, the time period $T \\propto \\frac{n^2/Z}{Z/n} = \\frac{n^3}{Z^2}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Amongst $\\text{O}_2$, $\\text{O}_2^{+}$, $\\text{O}_2^{-}$ and $\\text{O}_2^{2-}$, the species which is paramagnetic and has the shortest bond length is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{O}_2^{+}$",
+   "$\\text{O}_2^{-}$",
+   "$\\text{O}_2$",
+   "$\\text{O}_2^{2-}$"
+  ],
+  "sol": "Let's calculate the bond orders and find paramagnetic species:\n- $\\text{O}_2$ (16 electrons): Bond order = 2.0, Paramagnetic (2 unpaired electrons).\n- $\\text{O}_2^{+}$ (15 electrons): Bond order = 2.5, Paramagnetic (1 unpaired electron).\n- $\\text{O}_2^{-}$ (17 electrons): Bond order = 1.5, Paramagnetic (1 unpaired electron).\n- $\\text{O}_2^{2-}$ (18 electrons): Bond order = 1.0, Diamagnetic.\nShortest bond length corresponds to the highest bond order, which is 2.5 for the paramagnetic species $\\text{O}_2^{+}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "For a reaction, $\\text{A}(g) \\rightarrow \\text{B}(g)$, the value of equilibrium constant at $300\\ \\text{K}$ is $100$. The value of $\\Delta G^{\\circ}$ for the reaction at the same temperature is:\n(Given: $R = 8.314\\ \\text{J K}^{-1}\\ \\text{mol}^{-1}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-11.5\\ \\text{kJ mol}^{-1}$",
+   "$-1.15\\ \\text{kJ mol}^{-1}$",
+   "$-115\\ \\text{kJ mol}^{-1}$",
+   "$-2.303\\ \\text{kJ mol}^{-1}$"
+  ],
+  "sol": "Using the relation:\n$\\Delta G^{\\circ} = -2.303 RT \\log_{10} K$\n$\\Delta G^{\\circ} = -2.303 \\times 8.314 \\times 300 \\times \\log_{10}(100)$\n$\\Delta G^{\\circ} = -2.303 \\times 8.314 \\times 300 \\times 2 = -11488.2\\ \\text{J mol}^{-1} \\approx -11.5\\ \\text{kJ mol}^{-1}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The vapor pressure of pure liquid A and pure liquid B are $400\\ \\text{mm Hg}$ and $600\\ \\text{mm Hg}$ respectively at $298\\ \\text{K}$. On mixing the two liquids, the sum of their volumes remains constant. If the mole fraction of B in the mixture is $0.5$, then the mole fraction of A in the vapor phase is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.50$",
+   "$0.40$",
+   "$0.60$",
+   "$0.33$"
+  ],
+  "sol": "Mole fractions in liquid phase: $x_B = 0.5$, $x_A = 1 - 0.5 = 0.5$.\nTotal pressure $P_T = P_A^{\\circ}x_A + P_B^{\\circ}x_B = 400(0.5) + 600(0.5) = 200 + 300 = 500\\ \\text{mm Hg}$.\nMole fraction of A in vapor phase $y_A = \\frac{P_A}{P_T} = \\frac{P_A^{\\circ}x_A}{P_T} = \\frac{200}{500} = 0.40$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivity of $\\text{NaCl}$, $\\text{HCl}$ and $\\text{CH}_3\\text{COONa}$ are $126.4$, $425.9$ and $91.0\\ \\text{S cm}^2\\ \\text{mol}^{-1}$ respectively. The limiting molar conductivity of $\\text{CH}_3\\text{COOH}$ in $\\text{S cm}^2\\ \\text{mol}^{-1}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$290.5$",
+   "$390.5$",
+   "$425.9$",
+   "$542.4$"
+  ],
+  "sol": "Using Kohlrausch's Law:\n$\\Lambda^{\\circ}_{\\text{CH}_3\\text{COOH}} = \\Lambda^{\\circ}_{\\text{CH}_3\\text{COONa}} + \\Lambda^{\\circ}_{\\text{HCl}} - \\Lambda^{\\circ}_{\\text{NaCl}}$\n$\\Lambda^{\\circ}_{\\text{CH}_3\\text{COOH}} = 91.0 + 425.9 - 126.4 = 390.5\\ \\text{S cm}^2\\ \\text{mol}^{-1}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-Lives",
+  "conf": "exact",
+  "stem": "For a first order reaction, the time required for $99.9\\%$ completion is about how many times the half-life ($t_{1/2}$) of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "10",
+   "2",
+   "5",
+   "20"
+  ],
+  "sol": "For a first order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{a}{a-x}\\right)$.\nFor $99.9\\%$ completion, $t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99.9}\\right) = \\frac{2.303}{k} \\log(1000) = \\frac{3 \\times 2.303}{k}$.\nHalf-life $t_{1/2} = \\frac{0.693}{k} = \\frac{2.303 \\log(2)}{k} \\approx \\frac{0.301 \\times 2.303}{k}$.\nDividing the two equations gives $\\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{3}{0.301} \\approx 10$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "The metal that produces red-violet (lilac) color in flame test is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Sodium",
+   "Potassium",
+   "Rubidium",
+   "Cesium"
+  ],
+  "sol": "Among alkali metals, sodium gives golden yellow, potassium gives lilac/violet, rubidium gives reddish violet, and cesium gives blue color. Thus, potassium (Lilac/Red-violet) is the correct match.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction of Metals",
+  "conf": "exact",
+  "stem": "In the metallurgy of copper, the slag formed during smelting process is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{FeSiO}_3$",
+   "$\\text{CaSiO}_3$",
+   "$\\text{CuSiO}_3$",
+   "$\\text{MgSiO}_3$"
+  ],
+  "sol": "During the smelting of copper pyrites, iron oxide ($\\text{FeO}$) acts as a basic impurity and is removed by adding silica (flux, $\\text{SiO}_2$) to form iron silicate slag:\n$\\text{FeO} + \\text{SiO}_2 \\rightarrow \\text{FeSiO}_3$ (slag).",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "The oxidation state of phosphorus in hypophosphoric acid is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$+1$",
+   "$+3$",
+   "$+4$",
+   "$+5$"
+  ],
+  "sol": "Hypophosphoric acid is $\\text{H}_4\\text{P}_2\\text{O}_6$.\nLet $x$ be the oxidation state of P:\n$4(+1) + 2x + 6(-2) = 0 \\implies 4 + 2x - 12 = 0 \\implies 2x = 8 \\implies x = +4$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The outer electronic configuration of Gadolinium (atomic number 64) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[\\text{Xe}] 4f^7 5d^1 6s^2$",
+   "$[\\text{Xe}] 4f^8 6s^2$",
+   "$[\\text{Xe}] 4f^7 5d^2 6s^1$",
+   "$[\\text{Xe}] 4f^8 5d^1 6s^1$"
+  ],
+  "sol": "Gadolinium ($Z=64$) has an exceptional electronic configuration due to the extra stability of half-filled $f$-orbitals ($4f^7$). Its configuration is $[\\text{Xe}] 4f^7 5d^1 6s^2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The type of isomerism shown by the pair $[\\text{Co}(\\text{NH}_3)_5(\\text{SO}_4)]\\text{Br}$ and $[\\text{Co}(\\text{NH}_3)_5\\text{Br}]\\text{SO}_4$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Linkage isomerism",
+   "Ionization isomerism",
+   "Coordination isomerism",
+   "Solvate isomerism"
+  ],
+  "sol": "These compounds give different ions in solution. $[\\text{Co}(\\text{NH}_3)_5(\\text{SO}_4)]\\text{Br}$ yields $\\text{Br}^{-}$ ions, whereas $[\\text{Co}(\\text{NH}_3)_5\\text{Br}]\\text{SO}_4$ yields $\\text{SO}_4^{2-}$ ions. Hence, they are ionization isomers.",
+  "key": "B",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct order of acidic strength of the following compounds is:\nI. Phenol\nII. $p$-Nitrophenol\nIII. $m$-Nitrophenol\nIV. $p$-Methylphenol",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "II > III > I > IV",
+   "II > I > III > IV",
+   "IV > I > III > II",
+   "IV > III > I > II"
+  ],
+  "sol": "Electron withdrawing groups ($-\\text{NO}_2$) increase the acidity, while electron donating groups ($-\\text{CH}_3$) decrease it. $-\\text{NO}_2$ at $p$-position has both $-I$ and $-R$ effects (most acidic), at $m$-position it has only $-I$ effect. Thus, acidity order: $p$-Nitrophenol (II) > $m$-Nitrophenol (III) > Phenol (I) > $p$-Methylphenol (IV).",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution",
+  "conf": "exact",
+  "stem": "Which of the following compounds will undergo $S_{\\text{N}}1$ reaction most readily?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$(CH_3)_3C-Cl$",
+   "$(CH_3)_2CH-Cl$",
+   "$CH_3CH_2-Cl$",
+   "$CH_3-Cl$"
+  ],
+  "sol": "The rate of $S_{\\text{N}}1$ reaction depends on the stability of the carbocation intermediate. Since the tertiary carbocation $(CH_3)_3C^+$ is highly stable due to hyperconjugation and inductive effect, $(CH_3)_3C-Cl$ undergoes $S_{\\text{N}}1$ most readily.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\text{H}_2\\text{SO}_4$ in the presence of $\\text{HgSO}_4$, the major product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanal",
+   "Propanone",
+   "Propan-1-ol",
+   "Propan-2-ol"
+  ],
+  "sol": "Hydration of propyne (Kucherov reaction) goes via Markovnikov's addition of water to form an enol intermediate:\n$\\text{CH}_3\\text{-C}\\equiv\\text{CH} \\xrightarrow{\\text{H}_2\\text{O}, \\text{H}^+, \\text{Hg}^{2+}} [\\text{CH}_3\\text{-C(OH)=CH}_2] \\xrightarrow{\\text{tautomerism}} \\text{CH}_3\\text{-CO-CH}_3$ (Propanone).",
+  "key": "B",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Cannizzaro reaction is not given by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Formaldehyde",
+   "Benzaldehyde",
+   "Acetaldehyde",
+   "Trimethylacetaldehyde"
+  ],
+  "sol": "The Cannizzaro reaction is given by aldehydes which do not have an $\\alpha$-hydrogen atom. Formaldehyde, benzaldehyde, and trimethylacetaldehyde lack $\\alpha$-hydrogens. Acetaldehyde ($CH_3CHO$) contains three $\\alpha$-hydrogens and undergoes aldol condensation instead.",
+  "key": "C",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of which vitamin causes cheilosis?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin $B_1$",
+   "Vitamin $B_2$",
+   "Vitamin $B_6$",
+   "Vitamin $B_{12}$"
+  ],
+  "sol": "Deficiency of Vitamin $B_2$ (Riboflavin) causes cheilosis (localized fissuring at the corners of the mouth).",
+  "key": "B",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a copolymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Buna-S",
+   "Nylon-6",
+   "Polythene",
+   "PVC"
+  ],
+  "sol": "A copolymer is formed by the polymerization of more than one monomer species. Buna-S is synthesized from 1,3-butadiene and styrene, whereas Nylon-6 (caprolactam), Polythene (ethene), and PVC (vinyl chloride) are homopolymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Which of the following is a broad-spectrum antibiotic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Penicillin G",
+   "Chloramphenicol",
+   "Prontosil",
+   "Salvarsan"
+  ],
+  "sol": "Chloramphenicol is a well-known broad-spectrum antibiotic, effective against a wide range of Gram-positive and Gram-negative bacteria.",
+  "key": "B",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis",
+  "conf": "exact",
+  "stem": "Lassaigne's test for nitrogen is not given by which of the following compounds?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Aniline",
+   "Hydrazine",
+   "Urea",
+   "Glycine"
+  ],
+  "sol": "Lassaigne's test for nitrogen requires both carbon and nitrogen to be present in the compound so they can fuse with sodium metal to form $\\text{NaCN}$. Hydrazine ($\\text{NH}_2\\text{NH}_2$) does not contain carbon, hence it does not respond to Lassaigne's test for nitrogen.",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ }
+]

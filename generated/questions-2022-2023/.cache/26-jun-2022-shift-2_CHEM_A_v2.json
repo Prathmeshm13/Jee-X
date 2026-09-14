@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model of the Hydrogen Atom",
+  "conf": "exact",
+  "stem": "The minimum energy that must be given to a $H$ atom in ground state so that it can emit an $H_{\beta}$ line in the Balmer series is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "12.75 eV",
+   "12.09 eV",
+   "10.20 eV",
+   "13.60 eV"
+  ],
+  "sol": "To emit an $H_{\\beta}$ line of the Balmer series, the transition is from $n = 4$ to $n = 2$. Thus, the electron must first be excited from the ground state ($n = 1$) to at least the $n = 4$ state.\nEnergy required for excitation from $n=1$ to $n=4$ is:\n$\\Delta E = 13.6 \\left(1 - \\frac{1}{4^2}\\right) = 13.6 \\left(\\frac{15}{16}\\right) = 12.75\\ \\mathrm{eV}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Among the following, the pair of parameter and species which has the maximum bond order is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O}_2^{2+}$",
+   "$\\mathrm{O}_2^+$",
+   "$\\mathrm{N}_2^{2-}$",
+   "$\\mathrm{O}_2^-$"
+  ],
+  "sol": "The electron count and bond orders are:\n- $\\mathrm{O}_2^{2+}$: 14 electrons, Bond order = 3.0\n- $\\mathrm{O}_2^+$: 15 electrons, Bond order = 2.5\n- $\\mathrm{N}_2^{2-}$: 16 electrons, Bond order = 2.0\n- $\\mathrm{O}_2^-$: 17 electrons, Bond order = 1.5\nThus, $\\mathrm{O}_2^{2+}$ has the highest bond order.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry and Enthalpy",
+  "conf": "exact",
+  "stem": "Identify the reaction for which $\\Delta H = \\Delta U$ at constant temperature:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{C(s)} + \\mathrm{O}_2\\mathrm{(g)} \\rightarrow \\mathrm{CO}_2\\mathrm{(g)}$",
+   "\\mathrm{PCl}_5\\mathrm{(g)} \\rightarrow \\mathrm{PCl}_3\\mathrm{(g)} + \\mathrm{Cl}_2\\mathrm{(g)}",
+   "\\mathrm{N}_2\\mathrm{(g)} + 3\\mathrm{H}_2\\mathrm{(g)} \\rightarrow 2\\mathrm{NH}_3\\mathrm{(g)}",
+   "2\\mathrm{CO(g)} + \\mathrm{O}_2\\mathrm{(g)} \\rightarrow 2\\mathrm{CO}_2\\mathrm{(g)}"
+  ],
+  "sol": "We know $\\Delta H = \\Delta U + \\Delta n_g R T$. For $\\Delta H = \\Delta U$, we must have $\\Delta n_g = 0$.\nFor $\\mathrm{C(s)} + \\mathrm{O}_2\\mathrm{(g)} \\rightarrow \\mathrm{CO}_2\\mathrm{(g)}$, $\\Delta n_g = 1 - 1 = 0$. Since carbon is in solid form, only gaseous reactants and products are counted.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The osmotic pressure of a dilute solution of an ionic compound $\\mathrm{XY}$ is found to be four times that of $0.01\\ \\mathrm{M}$ glucose solution at the same temperature. The association/dissociation behavior of the salt in the solution is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "complete dissociation if the concentration of $\\mathrm{XY}$ is $0.02\\mathrm{M}$",
+   "complete dissociation if the concentration of $\\mathrm{XY}$ is $0.01\\mathrm{M}$",
+   "partial dissociation if the concentration of $\\mathrm{XY}$ is $0.02\\mathrm{M}$",
+   "partial association if the concentration of $\\mathrm{XY}$ is $0.04\\mathrm{M}$"
+  ],
+  "sol": "$\\pi = i C R T$. For $0.01\\ \\mathrm{M}$ glucose, $\\pi_{\\text{gluc}} = 1 \\times 0.01 \\times RT = 0.01 RT$.\nGiven $\\pi_{\\mathrm{XY}} = 4 \\pi_{\\text{gluc}} = 0.04 RT$.\nTherefore, $i \\times C = 0.04$.\nIf $C = 0.02\\ \\mathrm{M}$, then $i \\times 0.02 = 0.04 \\implies i = 2$. Since $i = 1 + (n-1)\\alpha = 1 + \\alpha = 2 \\implies \\alpha = 1$ (complete dissociation).",
+  "key": "A",
+  "diff": 4,
+  "secs": 75
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance in Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The resistance of a conductivity cell filled with $0.1\\ \\mathrm{mol\\ L^{-1}}$ $\\mathrm{KCl}$ solution is $100\\ \\Omega$. If the resistance of the same cell when filled with $0.02\\ \\mathrm{mol\\ L^{-1}}$ $\\mathrm{KCl}$ solution is $520\\ \\Omega$, calculate the conductivity of $0.02\\ \\mathrm{mol\\ L^{-1}}$ $\\mathrm{KCl}$ solution. (Given: Conductivity of $0.1\\ \\mathrm{mol\\ L^{-1}}$ $\\mathrm{KCl}$ solution is $1.29\\ \\mathrm{S\\ m^{-1}}$).",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.248\\ \\mathrm{S\\ m^{-1}}$",
+   "$1.29\\ \\mathrm{S\\ m^{-1}}$",
+   "$0.124\\ \\mathrm{S\\ m^{-1}}$",
+   "$2.48\\ \\mathrm{S\\ m^{-1}}$"
+  ],
+  "sol": "We have $\\kappa = \\frac{1}{R} \\left(\\frac{l}{A}\\right) \\implies G^* = \\frac{l}{A} = \\kappa \\times R$.\nUsing first solution: $G^* = 1.29 \\times 100 = 129\\ \\mathrm{m^{-1}}$.\nFor second solution: $\\kappa = \\frac{G^*}{R_2} = \\frac{129}{520} \\approx 0.248\\ \\mathrm{S\\ m^{-1}}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-Lives",
+  "conf": "exact",
+  "stem": "For a first order reaction, the time required for completion of $99.9\\%$ is approximately how many times the half-life ($t_{1/2}$) of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "10",
+   "100",
+   "5",
+   "2"
+  ],
+  "sol": "$t_{99.9\\%} = \\frac{2.303}{k} \\log \\frac{100}{100 - 99.9} = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k} \\approx \\frac{6.909}{k}$.\n$t_{1/2} = \\frac{0.693}{k}$.\nDividing the two: $\\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{6.909}{0.693} \\approx 10$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Methods of Extraction and Metallurgy",
+  "conf": "exact",
+  "stem": "The metal that can be purified by distillation is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Zinc",
+   "Tin",
+   "Lead",
+   "Nickel"
+  ],
+  "sol": "Distillation is used for the purification of volatile metals with low boiling points like Zinc ($Zn$), Mercury ($Hg$), and Cadmium ($Cd$). Tin and Lead are purified by liquation.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Group 1: Alkali Metals and Their Compounds",
+  "conf": "exact",
+  "stem": "The hydration enthalpies of alkali metal ions decrease in the order:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Li}^+ > \\mathrm{Na}^+ > \\mathrm{K}^+ > \\mathrm{Rb}^+ > \\mathrm{Cs}^+$",
+   "$\\mathrm{Cs}^+ > \\mathrm{Rb}^+ > \\mathrm{K}^+ > \\mathrm{Na}^+ > \\mathrm{Li}^+$",
+   "$\\mathrm{Li}^+ > \\mathrm{Na}^+ > \\mathrm{K}^+ > \\mathrm{Cs}^+ > \\mathrm{Rb}^+$",
+   "$\\mathrm{Na}^+ > \\mathrm{Li}^+ > \\mathrm{K}^+ > \\mathrm{Rb}^+ > \\mathrm{Cs}^+$"
+  ],
+  "sol": "Hydration enthalpy is inversely proportional to the ionic size of the cation. Because the size of alkali metal ions increases down the group as $\\mathrm{Li}^+ < \\mathrm{Na}^+ < \\mathrm{K}^+ < \\mathrm{Rb}^+ < \\mathrm{Cs}^+$, the hydration enthalpy order is $\\mathrm{Li}^+ > \\mathrm{Na}^+ > \\mathrm{K}^+ > \\mathrm{Rb}^+ > \\mathrm{Cs}^+$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Amongst the following, which phosphorus oxoacid is a reducing agent and contains a $\\mathrm{P}-\\mathrm{H}$ bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphorous acid",
+   "Pyrophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphorous acid ($\\mathrm{H_3PO_2}$) has two $\\mathrm{P-H}$ bonds and one $\\mathrm{P-OH}$ bond. The presence of $\\mathrm{P-H}$ bonds acts as a strong reducing agent. Pyrophosphoric, orthophosphoric, and metaphosphoric acids do not contain $\\mathrm{P-H}$ bonds.",
+  "key": "A",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "The Lanthanoids",
+  "conf": "exact",
+  "stem": "Which of the following lanthanoid ions is diamagnetic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Yb}^{2+}$",
+   "$\\mathrm{Ce}^{3+}$",
+   "$\\mathrm{Sm}^{3+}$",
+   "$\\mathrm{Eu}^{3+}$"
+  ],
+  "sol": "Electronic configuration of $\\mathrm{Yb}$ is $[\\mathrm{Xe}] 4f^{14} 6s^2$. For $\\mathrm{Yb}^{2+}$, it is $[\\mathrm{Xe}] 4f^{14}$. Since the $4f$ subshell is fully filled ($4f^{14}$), there are no unpaired electrons, making it diamagnetic.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The gas that causes the greenhouse effect and is also responsible for the damage to the ozone layer is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Nitrous oxide ($\\mathrm{N_2O}$)",
+   "Sulfur dioxide ($\\mathrm{SO_2}$)",
+   "Carbon dioxide ($\\mathrm{CO_2}$)",
+   "Nitrogen dioxide ($\\mathrm{NO_2}$)"
+  ],
+  "sol": "Nitrous oxide ($\\mathrm{N_2O}$) is a potent greenhouse gas that also plays a major role in ozone layer depletion in the stratosphere.",
+  "key": "A",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "During Lassaigne's test, the organic compound is fused with sodium metal to convert covalent bonds into ionic bonds. Which of the following sodium salts is NOT formed during this process?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{NaOCN}$",
+   "$\\mathrm{NaCN}$",
+   "$\\mathrm{Na_2S}$",
+   "$\\mathrm{NaX}$"
+  ],
+  "sol": "During sodium fusion, elements like Nitrogen, Sulfur, and Halogens are converted to ionic salts: $\\mathrm{Na} + \\mathrm{C} + \\mathrm{N} \\rightarrow \\mathrm{NaCN}$, $2\\mathrm{Na} + \\mathrm{S} \\rightarrow \\mathrm{Na_2S}$, and $\\mathrm{Na} + \\mathrm{X} \\rightarrow \\mathrm{NaX}$. $\\mathrm{NaOCN}$ is not typical as oxygen isn't tested this way, and if both S and N are present $\\mathrm{NaSCN}$ is formed.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "Arrange the following compounds in decreasing order of their acidic strength:\n(I) Phenol\n(II) o-Nitrophenol\n(III) m-Nitrophenol\n(IV) p-Nitrophenol",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "IV > II > III > I",
+   "IV > III > II > I",
+   "II > IV > III > I",
+   "I > III > II > IV"
+  ],
+  "sol": "- Nitro group is electron-withdrawing via $-I$ and $-M$ effects at ortho and para positions, while showing only $-I$ at the meta position.\n- In o-nitrophenol, intermolecular hydrogen bonding somewhat decreases acidity compared to p-nitrophenol.\n- Thus, the order of acidic strength is: p-nitrophenol (IV) > o-nitrophenol (II) > m-nitrophenol (III) > phenol (I).",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes: Preparation and Properties",
+  "conf": "exact",
+  "stem": "Which of the following alkynes on hydration with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$ gives a ketone as the only major product?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propyne",
+   "Ethyne",
+   "But-1-ene",
+   "Hex-1-ene"
+  ],
+  "sol": "Hydration of ethyne ($\\mathrm{HC\\equiv CH}$) yields acetaldehyde (an aldehyde). Any other terminal alkyne, such as propyne ($\\mathrm{CH_3-C\\equiv CH}$), undergoes Markovnikov addition of water followed by tautomerisation to yield a ketone (acetone).",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution (SN1 and SN2)",
+  "conf": "exact",
+  "stem": "The rate of $S_N1$ reaction is fastest for which of the following halides?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Allyl chloride",
+   "Isopropyl chloride",
+   "n-Propyl chloride",
+   "Chlorobenzene"
+  ],
+  "sol": "The rate of $S_N1$ reaction depends on the stability of the carbocation formed in the rate-determining step. Allyl chloride forms the allyl carbocation ($\\mathrm{CH_2=CH-CH_2^+}$), which is resonance stabilized and much more stable than the isopropyl carbocation (secondary) or n-propyl carbocation (primary). Chlorobenzene does not undergo $S_N1$ readily.",
+  "key": "A",
+  "diff": 3,
+  "secs": 35
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Reactions of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Which of the following compounds will not give Fehling's test?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Benzaldehyde",
+   "Acetaldehyde",
+   "Formaldehyde",
+   "Propanal"
+  ],
+  "sol": "Fehling's solution oxidizes aliphatic aldehydes but does not oxidize aromatic aldehydes like benzaldehyde because aromatic aldehydes are less reactive and lack $\\alpha$-hydrogens participating in the tautomeric enol form required for reduction of the complexed $\\mathrm{Cu^{2+}}$ in alkaline media.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Which of the following is a water-soluble vitamin?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin B",
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin E"
+  ],
+  "sol": "Vitamins A, D, E, and K are fat-soluble. Vitamins B-complex and C are water-soluble.",
+  "key": "A",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "The polymer 'Buna-N' is a copolymer of 1,3-butadiene and:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Acrylonitrile",
+   "Styrene",
+   "Adipic acid",
+   "Vinyl chloride"
+  ],
+  "sol": "Buna-N is a copolymer of 1,3-butadiene and acrylonitrile ($\\mathrm{CH_2=CH-CN}$). Buna-S is a copolymer of 1,3-butadiene and styrene.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Terfenadine is commonly used as an:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Antihistamine",
+   "Analgesic",
+   "Antiseptic",
+   "Antibiotic"
+  ],
+  "sol": "Terfenadine (commonly known as Seldane) is a synthetic drug used as an antihistamine to treat allergic symptoms.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The type of isomerism shown by the pair $[\\mathrm{Co(NH_3)_5SO_4}]\\mathrm{Br}$ and $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Ionisation isomerism",
+   "Linkage isomerism",
+   "Coordination isomerism",
+   "Solvate isomerism"
+  ],
+  "sol": "These two compounds yield different ions when dissolved in water: $[\\mathrm{Co(NH_3)_5SO_4}]\\mathrm{Br}$ gives $\\mathrm{Br^-}$ ions, while $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ gives $\\mathrm{SO_4^{2-}}$ ions. Hence, they are ionisation isomers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ }
+]

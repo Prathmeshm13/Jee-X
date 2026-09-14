@@ -7,6 +7,7 @@ import FreeTest from './pages/FreeTest.jsx'
 import Onboarding from './pages/Onboarding.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Profile from './pages/Profile.jsx'
+import SubjectTest from './pages/SubjectTest.jsx'
 import ProtectedRoute from './components/ProtectedRoute.jsx'
 
 export default function App() {
@@ -59,6 +60,14 @@ export default function App() {
         element={
           <ProtectedRoute>
             <Profile />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/subject-test"
+        element={
+          <ProtectedRoute>
+            <SubjectTest />
           </ProtectedRoute>
         }
       />

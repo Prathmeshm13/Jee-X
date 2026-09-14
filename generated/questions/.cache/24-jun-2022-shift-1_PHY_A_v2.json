@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of physical quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensional formula.",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and Rydberg constant",
+   "Stress and coefficient of friction",
+   "Torque and Planck's constant"
+  ],
+  "sol": "Velocity gradient has dimensions $\\frac{\\mathrm{d}v}{\\mathrm{d}x} \\Rightarrow \\frac{\\mathrm{L}\\mathrm{T}^{-1}}{\\mathrm{L}} = \\mathrm{T}^{-1}$.\nDecay constant $\\lambda$ has dimensions $\\mathrm{T}^{-1}$ since $N(t) = N_0 e^{-\\lambda t}$.\nTherefore, both have the same dimensional formula $[\\mathrm{T}^{-1}]$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with the horizontal. After what time from projection will the velocity vector be perpendicular to the initial velocity vector?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{u}{g \\sin \\theta}$",
+   "$\\frac{u}{g \\cos \\theta}$",
+   "$\\frac{u \\sin \\theta}{g}$",
+   "$\\frac{2u \\sin \\theta}{g}$"
+  ],
+  "sol": "Let $\\vec{u} = u \\cos\\theta \\hat{i} + u \\sin\\theta \\hat{j}$ and $\\vec{v} = u \\cos\\theta \\hat{i} + (u \\sin\\theta - gt) \\hat{j}$.\nSince $\\vec{u} \\cdot \\vec{v} = 0$,\n$u^2 \\cos^2\\theta + u \\sin\\theta (u \\sin\\theta - gt) = 0$\n$u^2 (\\cos^2\\theta + \\sin^2\\theta) = u g t \\sin\\theta \\Rightarrow u^2 = u g t \\sin\\theta \\Rightarrow t = \\frac{u}{g \\sin \\theta}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $M$ is pressed against a vertical wall by a horizontal force $F$ such that it does not slide. If the coefficient of static friction between the block and the wall is $\\mu_s$, then the minimum force $F$ required to keep the block stationary is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{Mg}{\\mu_s}$",
+   "$\\mu_s Mg$",
+   "$\\frac{Mg}{1 + \\mu_s}$",
+   "$\\frac{\\mu_s Mg}{1 - \\mu_s}$"
+  ],
+  "sol": "For equilibrium vertically: $f_s = Mg$.\nAlso, normal force is $N = F$.\nFor no sliding, the static friction must satisfy $f_s \\le \\mu_s N \\Rightarrow Mg \\le \\mu_s F$.\nTherefore, $F \\ge \\frac{Mg}{\\mu_s}$.\nSo the minimum force is $F_{\\text{min}} = \\frac{Mg}{\\mu_s}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential energy and conservation of energy",
+  "conf": "exact",
+  "stem": "A body of mass $0.5\\ \\mathrm{kg}$ is moving along the $x$-axis under a conservative force field. Its potential energy $U$ varies with position $x$ as $U(x) = (x^3 - 3x)\\ \\mathrm{J}$ (where $x$ is in meters). The stable equilibrium position of the body is at $x$ equal to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1\\ \\mathrm{m}$",
+   "$-1\\ \\mathrm{m}$",
+   "$0\\ \\mathrm{m}$",
+   "$\\sqrt{3}\\ \\mathrm{m}$"
+  ],
+  "sol": "For equilibrium, $F = -\\frac{\\mathrm{d}U}{\\mathrm{d}x} = 0 \\Rightarrow 3x^2 - 3 = 0 \\Rightarrow x = \\pm 1\\ \\mathrm{m}$.\nFor stable equilibrium, $\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} > 0$.\n$\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} = 6x$.\nAt $x = 1\\ \\mathrm{m}$, $\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} = 6 > 0$ (Stable equilibrium).\nAt $x = -1\\ \\mathrm{m}$, $\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} = -6 < 0$ (Unstable equilibrium).",
+  "key": "A",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of inertia",
+  "conf": "exact",
+  "stem": "Two uniform thin rods of length $L$ and mass $M$ each are joined at right angles to form a T-shape. The moment of inertia of this system about an axis passing through the free end of the vertical rod and perpendicular to the plane of the T-shape is:",
+  "img": true,
+  "img_desc": "A T-shaped assembly of two identical rods of length L and mass M. One rod is horizontal at the top, and the second rod is vertical, connected at its top end to the midpoint of the horizontal rod. The axis of rotation passes through the bottom (free end) of the vertical rod, oriented perpendicular to the plane of the T.",
+  "img_url": "",
+  "opts": [
+   "$\\frac{17}{12}ML^2$",
+   "$\\frac{13}{12}ML^2$",
+   "$\\frac{7}{12}ML^2$",
+   "$\\frac{5}{12}ML^2$"
+  ],
+  "sol": "For the vertical rod (of mass $M$, length $L$), the axis passes through one end: $I_1 = \\frac{1}{3}ML^2$.\nFor the horizontal rod (of mass $M$, length $L$), the distance from the axis to its center of mass is $L$.\nUsing parallel axis theorem, $I_2 = I_{\\text{cm}} + Md^2 = \\frac{1}{12}ML^2 + ML^2 = \\frac{13}{12}ML^2$.\nTotal moment of inertia $I = I_1 + I_2 = \\frac{1}{3}ML^2 + \\frac{13}{12}ML^2 = \\frac{17}{12}ML^2$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 110
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to gravity",
+  "conf": "exact",
+  "stem": "The value of acceleration due to gravity at a depth $d$ below the surface of the Earth is equal to that at an altitude $h$ above the surface ($h \\ll R$, where $R$ is the radius of the Earth). The relation between $d$ and $h$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$d = 2h$",
+   "$d = h$",
+   "$d = \\frac{h}{2}$",
+   "$d = 4h$"
+  ],
+  "sol": "At depth $d$: $g_d = g\\left(1 - \\frac{d}{R}\\right)$.\nAt height $h$ (where $h \\ll R$): $g_h = g\\left(1 - \\frac{2h}{R}\\right)$.\nGiven $g_d = g_h \\Rightarrow 1 - \\frac{d}{R} = 1 - \\frac{2h}{R} \\Rightarrow d = 2h$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "A wire of length $L$ and cross-sectional area $A$ is made of a material of Young's modulus $Y$. If the wire is stretched by an amount $x$, the work done in stretching the wire is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{YAx^2}{2L}$",
+   "$\\frac{YAx^2}{L}$",
+   "$\\frac{2YAx^2}{L}$",
+   "$\\frac{YAx}{2L^2}$"
+  ],
+  "sol": "The work done in stretching a wire is stored as elastic potential energy: $W = \\frac{1}{2} F x$.\nSince $F = \\frac{Y A x}{L}$,\n$W = \\frac{1}{2} \\left(\\frac{Y A x}{L}\\right) x = \\frac{YAx^2}{2L}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and terminal velocity",
+  "conf": "exact",
+  "stem": "A small spherical ball of radius $r$ falls from rest in a viscous liquid. Due to friction, heat is produced. The rate of production of heat when the ball attains terminal velocity is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$r^5$",
+   "$r^4$",
+   "$r^3$",
+   "$r^2$"
+  ],
+  "sol": "Rate of heat production (power) is $P = F_v \\cdot v_t = (6\\pi\\eta r v_t) v_t = 6\\pi\\eta r v_t^2$.\nSince terminal velocity $v_t \\propto r^2$,\n$P \\propto r \\cdot (r^2)^2 = r^5$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoes a cyclic process as shown in the $P-V$ diagram. The net work done by the gas in the cycle is:",
+  "img": true,
+  "img_desc": "A closed loop in a P-V diagram. It is an ellipse with the horizontal semi-axis parallel to the V-axis spanning from V_1 to V_2, and the vertical semi-axis parallel to the P-axis spanning from P_1 to P_2. The loop goes in a clockwise direction.",
+  "img_url": "",
+  "opts": [
+   "$\\frac{\\pi}{4}(P_2 - P_1)(V_2 - V_1)$",
+   "$\\pi(P_2 - P_1)(V_2 - V_1)$",
+   "$\\frac{\\pi}{2}(P_2 - P_1)(V_2 - V_1)$",
+   "$\\frac{\\pi}{8}(P_2 - P_1)(V_2 - V_1)$"
+  ],
+  "sol": "The work done in a cyclic process represented by an ellipse is equal to the area of the ellipse.\nArea of ellipse $= \\pi a b$, where $a$ and $b$ are the semi-axes.\nHere, $a = \\frac{V_2 - V_1}{2}$ and $b = \\frac{P_2 - P_1}{2}$.\nWork done $= \\pi \\left(\\frac{V_2 - V_1}{2}\\right) \\left(\\frac{P_2 - P_1}{2}\\right) = \\frac{\\pi}{4}(P_2 - P_1)(V_2 - V_1)$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of freedom and law of equipartition of energy",
+  "conf": "exact",
+  "stem": "A mixture of 2 moles of helium (monatomic, $C_V = \\frac{3}{2}R$) and 1 mole of argon (monatomic, $C_V = \\frac{3}{2}R$) is kept at temperature $T$. The equivalent specific heat capacity at constant volume ($C_{V\\text{, mix}}$) of the mixture is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{3}{2}R$",
+   "$\\frac{5}{2}R$",
+   "$\\frac{5}{3}R$",
+   "$\\frac{9}{4}R$"
+  ],
+  "sol": "For a mixture of gases:\n$C_{V\\text{, mix}} = \\frac{n_1 C_{V1} + n_2 C_{V2}}{n_1 + n_2} = \\frac{2 \\left(\\frac{3}{2}R\\right) + 1 \\left(\\frac{3}{2}R\\right)}{2 + 1} = \\frac{3}{2}R$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple harmonic motion",
+  "conf": "exact",
+  "stem": "A particle executes simple harmonic motion with an amplitude $A$. The ratio of its kinetic energy to its potential energy when it is at a distance of $\\frac{A}{2}$ from the mean position is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$3 : 1$",
+   "$1 : 3$",
+   "$4 : 1$",
+   "$1 : 4$"
+  ],
+  "sol": "Kinetic energy: $K = \\frac{1}{2}m\\omega^2(A^2 - x^2)$.\nPotential energy: $U = \\frac{1}{2}m\\omega^2 x^2$.\nAt $x = \\frac{A}{2}$:\n$K = \\frac{1}{2}m\\omega^2\\left(A^2 - \\frac{A^2}{4}\\right) = \\frac{3}{4}\\left(\\frac{1}{2}m\\omega^2 A^2\\right)$.\n$U = \\frac{1}{2}m\\omega^2\\left(\\frac{A^2}{4}\\right) = \\frac{1}{4}\\left(\\frac{1}{2}m\\omega^2 A^2\\right)$.\nRatio $\\frac{K}{U} = \\frac{3/4}{1/4} = 3 : 1$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric field intensity",
+  "conf": "exact",
+  "stem": "Three point charges $q$, $-2q$, and $q$ are placed at points $(0, a, 0)$, $(0, 0, 0)$, and $(a, 0, 0)$ respectively. The magnitude of the electric dipole moment of this charge system is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\sqrt{2} q a$",
+   "$2 q a$",
+   "$q a$",
+   "$\\sqrt{3} q a$"
+  ],
+  "sol": "We can split the $-2q$ charge at $(0,0,0)$ into two charges of $-q$ each.\nOne dipole is formed between $-q$ at origin and $+q$ at $(0,a,0)$ with dipole moment vector $\\vec{p}_1 = qa \\hat{j}$.\nThe second dipole is between $-q$ at origin and $+q$ at $(a,0,0)$ with dipole moment vector $\\vec{p}_2 = qa \\hat{i}$.\nThe net dipole moment is $\\vec{p} = qa \\hat{i} + qa \\hat{j}$.\nMagnitude $p = \\sqrt{(qa)^2 + (qa)^2} = \\sqrt{2} qa$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of resistors",
+  "conf": "exact",
+  "stem": "Three identical resistors each of resistance $R$ are connected in parallel. When this combination is connected across a battery, the total power dissipated is $P$. If these resistors are now connected in series across the same battery, the total power dissipated will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{P}{9}$",
+   "$\\frac{P}{3}$",
+   "$3P$",
+   "$9P$"
+  ],
+  "sol": "In parallel, equivalent resistance $R_p = \\frac{R}{3}$. Power $P = \\frac{V^2}{R_p} = \\frac{3V^2}{R}$.\nIn series, equivalent resistance $R_s = 3R$. Power $P_s = \\frac{V^2}{R_s} = \\frac{V^2}{3R}$.\nRatio $\\frac{P_s}{P} = \\frac{V^2 / 3R}{3V^2 / R} = \\frac{1}{9} \\Rightarrow P_s = \\frac{P}{9}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a magnetic field",
+  "conf": "exact",
+  "stem": "An electron and a proton having the same kinetic energy enter a uniform magnetic field perpendicular to its direction. The ratio of the radius of the circular path of the electron to that of the proton ($r_e / r_p$) is (given $m_e$ and $m_p$ are the masses of electron and proton respectively):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\sqrt{\\frac{m_e}{m_p}}$",
+   "$\\sqrt{\\frac{m_p}{m_e}}$",
+   "$\\frac{m_e}{m_p}$",
+   "$\\frac{m_p}{m_e}$"
+  ],
+  "sol": "The radius of curvature in a magnetic field is $r = \\frac{p}{qB} = \\frac{\\sqrt{2mK}}{qB}$.\nSince both have the same kinetic energy $K$, charge magnitude $q = e$, and magnetic field $B$:\n$r \\propto \\sqrt{m}$.\nTherefore, $\\frac{r_e}{r_p} = \\sqrt{\\frac{m_e}{m_p}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic properties of materials",
+  "conf": "exact",
+  "stem": "The susceptibility of a magnetic material is $-0.085$. The type of magnetic material is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Diamagnetic",
+   "Paramagnetic",
+   "Ferromagnetic",
+   "Non-magnetic"
+  ],
+  "sol": "Diamagnetic substances have a small, negative magnetic susceptibility ($\\chi < 0$).\nHere, $\\chi = -0.085$, which is small and negative. Thus, it is a diamagnetic material.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $l$ is rotated with a constant angular velocity $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced electromotive force between the ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$B \\omega l^2$",
+   "$\\frac{1}{2} B \\omega^2 l$",
+   "$\\frac{3}{2} B \\omega l^2$"
+  ],
+  "sol": "The induced emf in a rotating rod of length $l$ about one end is:\n$e = \\int_0^l v B \\, \\mathrm{d}r = \\int_0^l (\\omega r) B \\, \\mathrm{d}r = B \\omega \\left[ \\frac{r^2}{2} \\right]_0^l = \\frac{1}{2} B \\omega l^2$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR series circuit",
+  "conf": "exact",
+  "stem": "In a series LCR resonance circuit, if the value of inductance $L$ is doubled and capacitance $C$ is halved, the resonant frequency will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "remain unchanged",
+   "become double",
+   "become half",
+   "become four times"
+  ],
+  "sol": "The resonant frequency of a series LCR circuit is given by $\\omega_0 = \\frac{1}{\\sqrt{LC}}$.\nIf $L' = 2L$ and $C' = C/2$, then the new resonant frequency is:\n$\\omega_0' = \\frac{1}{\\sqrt{(2L)(C/2)}} = \\frac{1}{\\sqrt{LC}} = \\omega_0$.\nThus, the resonant frequency remains unchanged.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\gamma$-rays",
+   "X-rays",
+   "Ultraviolet rays",
+   "Microwaves"
+  ],
+  "sol": "In the electromagnetic spectrum, the order of increasing wavelength is:\n$\\gamma$-rays < X-rays < Ultraviolet < Visible < Infrared < Microwaves < Radio waves.\nThus, $\\gamma$-rays have the shortest wavelength.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's double slit experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the separation between the slits is halved and the distance between the slits and screen is doubled, the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "four times",
+   "half",
+   "doubled",
+   "one-fourth"
+  ],
+  "sol": "Fringe width is given by $\\beta = \\frac{\\lambda D}{d}$.\nGiven $d' = d/2$ and $D' = 2D$.\nNew fringe width $\\beta' = \\frac{\\lambda (2D)}{d/2} = 4 \\left(\\frac{\\lambda D}{d}\\right) = 4\\beta$.\nThus, it becomes four times.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric effect",
+  "conf": "exact",
+  "stem": "The work function of a photosensitive metal is $2.1\\ \\mathrm{eV}$. When light of frequency $6 \\times 10^{14}\\ \\mathrm{Hz}$ is incident on the metal surface, the maximum kinetic energy of emitted photoelectrons is:\n(Take $h = 4.14 \\times 10^{-15}\\ \\mathrm{eV\\cdot s}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.384\\ \\mathrm{eV}$",
+   "$2.48\\ \\mathrm{eV}$",
+   "$0.48\\ \\mathrm{eV}$",
+   "$1.12\\ \\mathrm{eV}$"
+  ],
+  "sol": "According to Einstein's photoelectric equation:\n$K_{\\text{max}} = h\\nu - \\phi$\n$h\\nu = (4.14 \\times 10^{-15}\\ \\mathrm{eV\\cdot s}) \\times (6 \\times 10^{14}\\ \\mathrm{s}^{-1}) = 2.484\\ \\mathrm{eV}$.\n$K_{\\text{max}} = 2.484\\ \\mathrm{eV} - 2.1\\ \\mathrm{eV} = 0.384\\ \\mathrm{eV}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ }
+]

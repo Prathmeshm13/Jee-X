@@ -1,4 +1,4 @@
-"""Generate JEE Main 2022 questions with Gemini and dump them as JeeX question files.
+"""Generate JEE Main 2022 and 2023 questions with Gemini and dump them as JeeX question files.
 
 Output follows docs/database-schema.md section 15: one file per chapter at
 <out>/<subject>/<chapter-slug>.json. Files already there are merged into, never replaced.
@@ -29,6 +29,7 @@ Setup:
 
 Usage:
   python scripts/generate_pyqs.py
+  python scripts/generate_pyqs.py --year 2022 --year 2023
   python scripts/generate_pyqs.py --shift "26 Jun 2022, Shift 1" --shift "28 Jul 2022, Shift 2"
   python scripts/generate_pyqs.py --subjects PHY --dry-run
   python scripts/generate_pyqs.py --out backend/data/questions
@@ -49,16 +50,34 @@ ROOT = Path(__file__).resolve().parent.parent
 ENV_FILE = Path(__file__).resolve().parent / ".env"
 
 DEFAULT_MODEL = "gemini-3.5-flash"
-DEFAULT_FALLBACK_MODEL = "gemini-2.5-flash"  # used when the main model stays overloaded
+DEFAULT_FALLBACK_MODEL = "gemini-3.6-flash"  # used when the main model stays overloaded
 DEFAULT_SHIFTS = ["24 Jun 2022, Shift 1", "25 Jul 2022, Shift 1"]
 MAX_OUTPUT_TOKENS = 16384
 RETRIES = 5
 RETRYABLE = (429, 500, 502, 503, 504)
+# Errors that would fail every remaining section too (bad key, missing model, quota used up after
+# retries): stop the run instead of burning through the list.
+STOP_RUN = (401, 403, 404, 429)
 THINKING_LEVELS = ("minimal", "low", "medium", "high")
 CACHE_VERSION = 2  # bump when the compact response format changes, so old cached responses aren't reused
 IMAGE_CHECK_TIMEOUT = 10
 
-EXAM, YEAR = "jee_main", 2022
+EXAM = "jee_main"
+
+
+def two_shifts(*days):
+    return [f"{day}, Shift {n}" for day in days for n in (1, 2)]
+
+
+# Paper 1 (B.E./B.Tech) shifts per year. 2022 and 2023 share the paper pattern (SECTIONS) and the
+# syllabus (SYLLABUS) below; JEE Main 2024 cut the syllabus, so it needs its own tables before it's added.
+SHIFTS = {
+    2022: two_shifts("24 Jun 2022", "25 Jun 2022", "26 Jun 2022", "27 Jun 2022", "28 Jun 2022", "29 Jun 2022",
+                     "25 Jul 2022", "26 Jul 2022", "27 Jul 2022", "28 Jul 2022", "29 Jul 2022"),
+    2023: two_shifts("24 Jan 2023", "25 Jan 2023", "29 Jan 2023", "30 Jan 2023", "31 Jan 2023", "1 Feb 2023",
+                     "6 Apr 2023", "8 Apr 2023", "10 Apr 2023", "11 Apr 2023")
+          + ["12 Apr 2023, Shift 1", "13 Apr 2023, Shift 1", "13 Apr 2023, Shift 2", "15 Apr 2023, Shift 1"],
+}
 
 # code -> (folder, display name, first question number in the paper)
 SUBJECTS = {
@@ -67,14 +86,14 @@ SUBJECTS = {
     "MATH": ("mathematics", "Mathematics", 61),
 }
 
-# JEE Main 2022 paper: per subject, Section A = 20 single-correct MCQs,
+# JEE Main 2022 and 2023 paper: per subject, Section A = 20 single-correct MCQs,
 # Section B = 10 numerical questions (integer answers, attempt any 5).
 SECTIONS = {
     "A": (20, "single-correct MCQs", False),
     "B": (10, "numerical-answer questions with integer answers", True),
 }
 
-# JEE Main 2022 syllabus. slug | ref code | name | class_level | in_advanced
+# JEE Main 2022 and 2023 syllabus. slug | ref code | name | class_level | in_advanced
 SYLLABUS = {
     "PHY": """
 units-dimensions|UND|Units, Dimensions and Errors|11|1
@@ -190,6 +209,7 @@ CHAPTERS = parse_syllabus()
 SYSTEM = """You reproduce past JEE Main papers from memory for a question bank. Recall the actual questions of the requested shift, in paper order.
 - conf: "exact" if you recall the real question; otherwise "approx" with the closest faithful reconstruction (same concept and style).
 - Markdown text. Every mathematical expression in LaTeX inside $...$; units like $5\\ \\mathrm{m/s}$.
+- In the JSON output escape every backslash: LaTeX \\frac is written "\\\\frac", never "\\frac".
 - opts: the four option texts in order A-D, without "(A)" labels.
 - sol: brief worked solution, at most 6 short lines, reaching the answer.
 - key: the correct option letter, or the numerical answer.
@@ -200,6 +220,28 @@ SYSTEM = """You reproduce past JEE Main papers from memory for a question bank. 
 DIFFICULTY_MIN, DIFFICULTY_MAX = 1, 10
 OPTION_LABEL = re.compile(r"^\s*(?:\([A-D]\)\s*|[A-D][.)]\s+)")
 
+# Gemini sometimes leaves a LaTeX backslash unescaped inside its JSON, so "\frac" arrives as a form
+# feed followed by "rac", "\beta" as a backspace + "eta", "\times" as a tab + "imes", and so on.
+# These characters never belong in question text, so the backslash can be put back.
+ESCAPE_REPAIRS = [
+    (re.compile("\x0c"), r"\\f"),
+    (re.compile("\x08"), r"\\b"),
+    (re.compile(r"\r(?=[A-Za-z])"), r"\\r"),
+    (re.compile(r"\t(?=[A-Za-z])"), r"\\t"),
+    (re.compile(r"\n(?=(?:abla|eq|e|eg|ot|u|i|ewline)(?![A-Za-z]))"), r"\\n"),
+    (re.compile("\x00"), r"\\ "),  # only ever seen where "\ " (the space before a unit) was meant
+]
+LEFTOVER_CONTROL = re.compile("[\x00-\x08\x0b-\x1f]")
+
+
+def repair_latex(text):
+    """Undo JSON-escape damage to LaTeX (see ESCAPE_REPAIRS). Raises ValueError if some remains."""
+    for pattern, replacement in ESCAPE_REPAIRS:
+        text = pattern.sub(replacement, text)
+    if m := LEFTOVER_CONTROL.search(text):
+        raise ValueError(f"unrepairable control character {m.group(0)!r} in {text[max(0, m.start() - 30):m.end() + 10]!r}")
+    return text
+
 
 def default_secs(difficulty):
     """60 s at difficulty 1 up to 180 s at 10 (the old easy and hard defaults)."""
@@ -208,6 +250,14 @@ def default_secs(difficulty):
 
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", str(text).lower()).strip("-")
+
+
+def shift_year(shift):
+    """The year in a shift label like '24 Jun 2022, Shift 1'. Raises ValueError for an unsupported year."""
+    m = re.search(r"\b(20\d\d)\b", shift)
+    if not m or int(m.group(1)) not in SHIFTS:
+        raise ValueError(f"shift {shift!r} is not in a supported year ({', '.join(map(str, SHIFTS))})")
+    return int(m.group(1))
 
 
 def stem_key(shift, stem):
@@ -244,7 +294,7 @@ def build_prompt(shift, subj, section, known_subtopics):
     count, kind, _ = SECTIONS[section]
     _, name, first = SUBJECTS[subj]
     start = first + (0 if section == "A" else SECTIONS["A"][0])
-    prompt = f"JEE Main {YEAR}, {shift}, {name}, Section {section}: {count} {kind} (Q{start}-{start + count - 1})."
+    prompt = f"JEE Main {shift_year(shift)}, {shift}, {name}, Section {section}: {count} {kind} (Q{start}-{start + count - 1})."
     if known_subtopics:
         lines = "\n".join(f"{ch}: {', '.join(subs)}" for ch, subs in known_subtopics.items())
         prompt += f"\nExisting subtopics:\n{lines}"
@@ -276,14 +326,14 @@ def build_image(item):
     """The question's `image` entry, or None when the original has no figure."""
     if not item.get("img"):
         return None
-    alt = str(item.get("img_desc") or "").strip() or "Figure referred to in the question; not described."
+    alt = repair_latex(str(item.get("img_desc") or "").strip()) or "Figure referred to in the question; not described."
     return {"url": verified_image_url(str(item.get("img_url") or "").strip()), "alt": alt}
 
 
 def build_question(item, numerical, shift):
     """Expand one compact model item into a question-file entry (schema section 15). Raises ValueError."""
-    stem = str(item.get("stem") or "").strip()
-    solution = str(item.get("sol") or "").strip()
+    stem = repair_latex(str(item.get("stem") or "").strip())
+    solution = repair_latex(str(item.get("sol") or "").strip())
     if not stem or not solution:
         raise ValueError("empty stem or solution")
     try:
@@ -305,7 +355,7 @@ def build_question(item, numerical, shift):
         # 'adapted' marks questions the model could only reconstruct, not recall.
         "source_type": "pyq" if item.get("conf") == "exact" else "adapted",
         "exam": EXAM,
-        "year": YEAR,
+        "year": shift_year(shift),
         "shift": shift,
         "status": "draft",
         "stem": stem,
@@ -325,7 +375,7 @@ def build_question(item, numerical, shift):
         if key not in ("A", "B", "C", "D"):
             raise ValueError(f"bad answer key {key!r}")
         question["options"] = [
-            {"label": label, "content": OPTION_LABEL.sub("", str(text), count=1).strip(), "is_correct": label == key}
+            {"label": label, "content": repair_latex(OPTION_LABEL.sub("", str(text), count=1).strip()), "is_correct": label == key}
             for label, text in zip("ABCD", opts)
         ]
         if not all(o["content"] for o in question["options"]):
@@ -420,10 +470,13 @@ def thinking_config(types, model, setting):
 
 class Gemini:
     def __init__(self, model, keys, thinking, fallback):
+        import httpx
         from google import genai
         from google.genai import errors, types
 
         self.genai, self.errors, self.types = genai, errors, types
+        # Connection drops and DNS failures: retried like overload, and stop the run if they persist.
+        self.network_errors = (httpx.TransportError, OSError)
         self.model, self.keys, self.thinking, self.fallback = model, keys, thinking, fallback
         self.key_index = 0
         self.client = genai.Client(api_key=keys[0])
@@ -483,6 +536,10 @@ class Gemini:
                 if attempt >= 2:  # a second bad answer rarely turns into a good one; stop paying
                     raise
                 reason = str(e)
+            except self.network_errors as e:
+                if attempt == RETRIES:
+                    raise
+                reason = f"network error: {e}"
             wait = 5 * 2 ** (attempt - 1)
             print(f"    {reason}; retrying in {wait}s")
             time.sleep(wait)
@@ -508,9 +565,11 @@ def api_keys():
 
 def main():
     load_env()  # before argparse, so GEMINI_MODEL from .env is the --model default
-    parser = argparse.ArgumentParser(description="Generate JEE Main 2022 questions with Gemini (no web search).")
+    parser = argparse.ArgumentParser(description="Generate JEE Main 2022 and 2023 questions with Gemini (no web search).")
     parser.add_argument("--shift", action="append", dest="shifts",
                         help=f"shift label, repeatable (default: {' and '.join(DEFAULT_SHIFTS)})")
+    parser.add_argument("--year", action="append", dest="years", type=int, choices=list(SHIFTS),
+                        help="add every Paper 1 shift of this year, repeatable")
     parser.add_argument("--subjects", nargs="+", choices=list(SUBJECTS), default=list(SUBJECTS))
     parser.add_argument("--out", type=Path, default=ROOT / "generated" / "questions")
     parser.add_argument("--model", default=os.environ.get("GEMINI_MODEL", DEFAULT_MODEL))
@@ -528,49 +587,64 @@ def main():
             parser.error(f"--thinking must be a number or one of {', '.join(THINKING_LEVELS)}")
     fallback = None if args.fallback_model.strip().lower() in ("", "none") else args.fallback_model.strip()
 
-    shifts = args.shifts or DEFAULT_SHIFTS
+    shifts = list(args.shifts or [])
+    for year in args.years or []:
+        shifts += [s for s in SHIFTS[year] if s not in shifts]
+    shifts = shifts or DEFAULT_SHIFTS
+    for shift in shifts:
+        try:
+            shift_year(shift)
+        except ValueError as e:
+            parser.error(str(e))
     cache_dir = args.out / ".cache"
     files = ChapterFiles(args.out)
     gemini = None
     failed = []
     totals = {"added": 0, "duplicate": 0, "invalid": 0}
 
-    for shift in shifts:
-        for subj in args.subjects:
-            for section, (_, _, numerical) in SECTIONS.items():
-                label = f"{shift} | {subj} | Section {section}"
-                cache = cache_dir / f"{slugify(shift)}_{subj}_{section}_v{CACHE_VERSION}.json"
-                prompt = build_prompt(shift, subj, section, files.known_subtopics(subj))
+    sections = [(shift, subj, section, numerical)
+                for shift in shifts for subj in args.subjects
+                for section, (_, _, numerical) in SECTIONS.items()]
+    not_attempted = 0
 
-                if cache.exists() and not args.refresh:
-                    items = json.loads(cache.read_text(encoding="utf-8"))
-                    print(f"{label}: {len(items)} items (cached)")
-                elif args.dry_run:
-                    print(f"--- {label}\n{prompt}\n")
-                    continue
-                else:
-                    if gemini is None:
-                        keys = api_keys()
-                        if not keys:
-                            sys.exit(f"Set GEMINI_API_KEY in {ENV_FILE} (or the environment).")
-                        gemini = Gemini(args.model, keys, args.thinking, fallback)
-                    print(f"{label}: calling {gemini.model} ...")
-                    try:
-                        items = gemini.generate(prompt, response_schema(subj, numerical))
-                    except Exception as e:
-                        print(f"    failed: {e}")
-                        failed.append(label)
-                        continue
-                    cache.parent.mkdir(parents=True, exist_ok=True)
-                    cache.write_text(json.dumps(items, indent=1, ensure_ascii=False), encoding="utf-8")
-                    print(f"    {len(items)} items")
+    for done, (shift, subj, section, numerical) in enumerate(sections):
+        label = f"{shift} | {subj} | Section {section}"
+        cache = cache_dir / f"{slugify(shift)}_{subj}_{section}_v{CACHE_VERSION}.json"
+        prompt = build_prompt(shift, subj, section, files.known_subtopics(subj))
 
-                for n, item in enumerate(items, start=1):
-                    try:
-                        totals[files.add(subj, item, numerical, shift)] += 1
-                    except (ValueError, AttributeError) as e:
-                        totals["invalid"] += 1
-                        print(f"    skipped item {n}: {e}")
+        if cache.exists() and not args.refresh:
+            items = json.loads(cache.read_text(encoding="utf-8"))
+            print(f"{label}: {len(items)} items (cached)")
+        elif args.dry_run:
+            print(f"--- {label}\n{prompt}\n")
+            continue
+        else:
+            if gemini is None:
+                keys = api_keys()
+                if not keys:
+                    sys.exit(f"Set GEMINI_API_KEY in {ENV_FILE} (or the environment).")
+                gemini = Gemini(args.model, keys, args.thinking, fallback)
+            print(f"{label}: calling {gemini.model} ...")
+            try:
+                items = gemini.generate(prompt, response_schema(subj, numerical))
+            except Exception as e:
+                print(f"    failed: {e}")
+                failed.append(label)
+                if getattr(e, "code", None) in STOP_RUN or isinstance(e, gemini.network_errors):
+                    not_attempted = len(sections) - done - 1
+                    print(f"    stopping: this error would fail the remaining {not_attempted} sections too")
+                    break
+                continue
+            cache.parent.mkdir(parents=True, exist_ok=True)
+            cache.write_text(json.dumps(items, indent=1, ensure_ascii=False), encoding="utf-8")
+            print(f"    {len(items)} items")
+
+        for n, item in enumerate(items, start=1):
+            try:
+                totals[files.add(subj, item, numerical, shift)] += 1
+            except (ValueError, AttributeError) as e:
+                totals["invalid"] += 1
+                print(f"    skipped item {n}: {e}")
 
     if args.dry_run:
         return
@@ -585,6 +659,10 @@ def main():
         print(f"Tokens: {u['input']} input, {u['output']} output, {u['thinking']} thinking.")
     if failed:
         print("Failed (re-run to retry just these):\n  " + "\n  ".join(failed))
+    if not_attempted:
+        print(f"Stopped early; {not_attempted} sections not attempted. Re-run the same command to continue "
+              "(finished sections come from the cache).")
+    if failed or not_attempted:
         sys.exit(1)
 
 

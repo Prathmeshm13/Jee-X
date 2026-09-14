@@ -1,0 +1,562 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Atoms",
+    "slug": "atoms",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 25
+  },
+  "subtopics": [
+    {
+      "slug": "bohr-model",
+      "name": "Bohr's Model of Hydrogen Atom",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-ATM-001",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "An electron in a hydrogen atom makes a transition from an excited state with principal quantum number $n_i = 4$ to the ground state $n_f = 1$. The frequency of the emitted photon is $f \\times 10^{15} \\mathrm{Hz}$. The value of $f$ is closest to the nearest integer: (Take Rydberg constant $R = 1.1 \\times 10^7 \\mathrm{m^{-1}}$ and speed of light $c = 3 \\times 10^8 \\mathrm{m/s}$)",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The wave number is $\\frac{1}{\\lambda} = R \\left( \\frac{1}{1^2} - \\frac{1}{4^2} \\right) = R \\left(1 - \\frac{1}{16}\\right) = \\frac{15}{16} R$.\nFrequency $f = c / \\lambda = \\frac{15}{16} R c = \\frac{15}{16} \\times 1.1 \\times 10^7 \\times 3 \\times 10^8 = 3.09 \\times 10^{15} \\mathrm{Hz}$.\nTo the nearest integer, $f = 3$."
+    },
+    {
+      "ref": "PHY-ATM-002",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "In the Bohr model of the hydrogen atom, the ratio of the kinetic energy to the total energy of the electron in a quantum state $n$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-1$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For an electron in Bohr orbit, Kinetic Energy $K = -E$, where $E$ is the total energy.\nTherefore, the ratio $\\frac{K}{E} = -1$."
+    },
+    {
+      "ref": "PHY-ATM-003",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the ratio of the energy of an electron in the ground state of a hydrogen atom to that of an electron in the first excited state of a $\\mathrm{He}^+$ ion is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 1$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 4$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The energy of a hydrogen-like system in the $n$-th state is $E_n \\propto \\frac{Z^2}{n^2}$.\nFor ground state of Hydrogen ($Z=1, n=1$): $E_H \\propto \\frac{1^2}{1^2} = 1$.\nFor first excited state of $\\mathrm{He}^+$ ($Z=2, n=2$): $E_{He^+} \\propto \\frac{2^2}{2^2} = 1$.\nThus, the ratio is $1:1$."
+    },
+    {
+      "ref": "PHY-ATM-004",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A hydrogen atom in its ground state is excited by means of monochromatic radiation of wavelength $975\\ \\text{Å}$. The number of different spectral lines possible in the resulting emission spectrum is:",
+      "image": null,
+      "answer": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "solution": "Energy of absorbed photon is $E = \\frac{12420}{975}\\ \\mathrm{eV} \\approx 12.74\\ \\mathrm{eV}$.\nThe energy levels of Hydrogen are $E_n = -13.6/n^2\\ \\mathrm{eV}$.\nExcitation from $n=1$ ($E_1 = -13.6$) to state $n$ with energy $E_n = -13.6 + 12.74 = -0.86\\ \\mathrm{eV}$.\nFor $n=4$, $E_4 = -0.85\\ \\mathrm{eV}$. Thus, the atom is excited to $n=4$.\nNumber of spectral lines $= \\frac{n(n-1)}{2} = \\frac{4 \\times 3}{2} = 6$."
+    },
+    {
+      "ref": "PHY-ATM-005",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the Bohr model of a hydrogen atom, the ratio of the periods of revolution of an electron in the $n = 1$ orbit to that in the $n = 2$ orbit is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 8$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$1 : 16$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The period of revolution $T$ of an electron in Bohr orbit is given by $T \\propto \\frac{r}{v}$.\nSince $r \\propto n^2$ and $v \\propto \\frac{1}{n}$, we get $T \\propto n^3$.\nThus, $\\frac{T_1}{T_2} = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 1 : 8$."
+    },
+    {
+      "ref": "PHY-ATM-006",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A hydrogen-like atom in its ground state is excited by a monochromatic radiation of wavelength $\\lambda$. The resulting spectrum shows $6$ different spectral lines. The value of principal quantum number $n$ of the excited state is ________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Number of spectral lines $N = \\frac{n(n-1)}{2}$.\nGiven $6 = \\frac{n(n-1)}{2} \\Rightarrow n(n-1) = 12 \\Rightarrow n = 4$."
+    },
+    {
+      "ref": "PHY-ATM-007",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the relationship between the quantum number $n$ and the radius of the orbit $r$ of a hydrogen atom is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$r \\propto n$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$r \\propto n^2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$r \\propto \\frac{1}{n}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$r \\propto \\frac{1}{n^2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Bohr's model, the radius of the $n$-th orbit of a hydrogenic atom is $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$. Hence, $r \\propto n^2$."
+    },
+    {
+      "ref": "PHY-ATM-008",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "In the hydrogen spectrum, the ratio of the wavelengths of the Lyman limit (shortest wavelength of Lyman series) to the Balmer limit (shortest wavelength of Balmer series) is $1 : x$. The value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "For Lyman limit: $1/\\lambda_L = R (1/1^2 - 1/\\infty) = R \\implies \\lambda_L = 1/R$.\nFor Balmer limit: $1/\\lambda_B = R (1/2^2 - 1/\\infty) = R/4 \\implies \\lambda_B = 4/R$.\nRatio $\\lambda_L / \\lambda_B = (1/R) / (4/R) = 1/4$.\nComparing with $1 : x$, we get $x = 4$."
+    },
+    {
+      "ref": "PHY-ATM-009",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the ratio of the energy of an electron in the ground state ($n = 1$) to that in the second excited state ($n = 3$) of a hydrogen atom is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "9 : 1",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "3 : 1",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "1 : 9",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "1 : 3",
+          "is_correct": false
+        }
+      ],
+      "solution": "The energy of an electron in the $n$-th state is $E_n ∝ -\\frac{1}{n^2}$.\nFor ground state ($n_1 = 1$) and second excited state ($n_2 = 3$):\n$\\frac{E_1}{E_3} = \\frac{3^2}{1^2} = 9 : 1$. (Considering magnitudes of energies)."
+    },
+    {
+      "ref": "PHY-ATM-010",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The ratio of the de Broglie wavelength of an electron in the first Bohr orbit to that in the second Bohr orbit of a hydrogen atom is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4 : 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Bohr's quantization condition, $2\\pi r_n = n \\lambda_n$.\nThus, $\\lambda_n = \\frac{2\\pi r_n}{n}$.\nSince $r_n \\propto n^2$, we have $\\lambda_n \\propto \\frac{n^2}{n} \\propto n$.\nTherefore, the ratio $\\frac{\\lambda_1}{\\lambda_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-ATM-011",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "In the Bohr model of the hydrogen atom, the ratio of the kinetic energy to the total energy of the electron in the $n$-th orbit is $-x$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "In Bohr's model, the kinetic energy $K$ of the electron is related to the total energy $E$ by $K = -E$.\nTherefore, the ratio $\\frac{K}{E} = -1$.\nComparing with $-x$, we get $x = 1$."
+    },
+    {
+      "ref": "PHY-ATM-012",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the ratio of the speed of an electron in the first excited state ($n=2$) to that in the ground state ($n=1$) of a hydrogen atom is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4 : 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "In Bohr's model, the speed of an electron in the $n$-th orbit is $v_n \\propto \\frac{1}{n}$.\nTherefore, $\\frac{v_2}{v_1} = \\frac{1}{2} = 1 : 2$."
+    },
+    {
+      "ref": "PHY-ATM-013",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "In Bohr's model of the hydrogen atom, the ratio of the period of revolution of an electron in the ground state ($n=1$) to that in the first excited state ($n=2$) is $1 : x$. The value of $x$ is ____________.",
+      "image": null,
+      "answer": {
+        "min": 8.0,
+        "max": 8.0
+      },
+      "solution": "The period of revolution $T \\propto \\frac{r}{v}$.\nSince $r \\propto n^2$ and $v \\propto \\frac{1}{n}$, $T \\propto n^3$.\nFor $n=1$, $T_1 \\propto 1^3 = 1$.\nFor $n=2$, $T_2 \\propto 2^3 = 8$.\nTherefore, the ratio $T_1 / T_2 = 1 / 8$, giving $x = 8$."
+    },
+    {
+      "ref": "PHY-ATM-014",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The ratio of speed of an electron in the ground state of hydrogen atom to the speed of light is (where $c$ is the speed of light):",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{1}{137}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{1}{237}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{37}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{13.7}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Bohr model, the speed of an electron in the $n$-th orbit is given by $v_n = \\frac{e^2}{2\\varepsilon_0 h n}$. \nFor the ground state ($n = 1$), the ratio $\\frac{v_1}{c} = \\frac{e^2}{2\\varepsilon_0 h c} = \\alpha$, which is the fine-structure constant. \nThe value of $\\alpha$ is approximately $\\frac{1}{137}$."
+    },
+    {
+      "ref": "PHY-ATM-015",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "In a hydrogen atom, the transition from $n = 3$ to $n = 2$ state releases a photon of wavelength $\\lambda$. The wavelength of the photon emitted in the transition from $n = 4$ to $n = 2$ state of the hydrogen atom will be $\\frac{x}{27} \\lambda$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 20.0,
+        "max": 20.0
+      },
+      "solution": "$1/\\lambda_1 = R_H (1/2^2 - 1/3^2) = R_H (1/4 - 1/9) = \\frac{5}{36} R_H$.\n$1/\\lambda_2 = R_H (1/2^2 - 1/4^2) = R_H (1/4 - 1/16) = \\frac{3}{16} R_H$.\n$\\lambda_2 / \\lambda_1 = (5/36) / (3/16) = \\frac{5}{36} \\times \\frac{16}{3} = \\frac{20}{27}$.\nThus, $\\lambda_2 = \\frac{20}{27} \\lambda_1$.\nComparing with $\\frac{x}{27} \\lambda$, we get $x = 20$."
+    },
+    {
+      "ref": "PHY-ATM-016",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The ratio of the speed of an electron in the first Bohr orbit of hydrogen atom to the speed of light in vacuum is approximately:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1/137$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1/274$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1/50$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1/100$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The speed of an electron in the ground state of hydrogen is $v = \\frac{e^2}{2\\varepsilon_0 h}$.\nThe fine structure constant $\\alpha = \\frac{e^2}{2\\varepsilon_0 h c} \\approx \\frac{1}{137}$.\nTherefore, $\\frac{v}{c} = \\alpha \\approx \\frac{1}{137}$."
+    },
+    {
+      "ref": "PHY-ATM-017",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a hydrogen-like atom, the energy of an electron in the ground state is $-54.4\\text{ eV}$. The wavelength of the photon emitted when the electron transitions from the third excited state to the second orbit is $x \\times 10^{-10}\\text{ m}$. The integer value of $x$ is __________.\n(Take $hc = 12400\\text{ eV }\\mathring{\\text{A}}$)",
+      "image": null,
+      "answer": {
+        "min": 1216.0,
+        "max": 1216.0
+      },
+      "solution": "The ground state energy of $\\text{H}$-like atom is $E_1 = -54.4\\text{ eV}$.\nEnergy levels are given by $E_n = \\frac{-54.4}{n^2}\\text{ eV}$.\nThird excited state corresponds to $n = 4$, so $E_4 = \\frac{-54.4}{16} = -3.4\\text{ eV}$.\nSecond orbit (first excited state) corresponds to $n = 2$, so $E_2 = \\frac{-54.4}{4} = -13.6\\text{ eV}$.\nEnergy difference $\\Delta E = E_4 - E_2 = -3.4 - (-13.6) = 10.2\\text{ eV}$.\nWavelength $\\lambda = \\frac{hc}{\\Delta E} = \\frac{12400\\text{ eV }\\mathring{\\text{A}}}{10.2\\text{ eV}} \\approx 1215.7\\ \\mathring{\\text{A}} \\approx 1216 \\times 10^{-10}\\text{ m}$.\nThus, $x = 1216$ or $1218$. The standard key is 1216."
+    },
+    {
+      "ref": "PHY-ATM-018",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The ratio of the speed of an electron in the ground state of a hydrogen atom to the speed of light in vacuum is approximately:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1/137$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1/237$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1/37$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1/500$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The speed of an electron in the ground state of a hydrogen atom ($n=1, Z=1$) is $v = \\frac{e^2}{2\\varepsilon_0 h}$.\nThe ratio of this velocity to the speed of light $c$ is the fine-structure constant $\\alpha$:\n$\\alpha = \\frac{v}{c} = \\frac{e^2}{2\\varepsilon_0 h c} \\approx \\frac{1}{137}$."
+    },
+    {
+      "ref": "PHY-ATM-019",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "In the hydrogen atom spectrum, the ratio of the longest wavelength in the Lyman series to the longest wavelength in the Balmer series is $\\frac{x}{27}$. The value of $x$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "For Lyman series, longest wavelength $\\lambda_L$ corresponds to $n=2 \\to n=1$: $\\frac{1}{\\lambda_L} = R_H \\left(1 - \\frac{1}{4}\\right) = \\frac{3}{4} R_H$. For Balmer series, longest wavelength $\\lambda_B$ corresponds to $n=3 \\to n=2$: $\\frac{1}{\\lambda_B} = R_H \\left(\\frac{1}{4} - \\frac{1}{9}\\right) = \\frac{5}{36} R_H$. Ratio $\\frac{\\lambda_L}{\\lambda_B} = \\frac{5/36}{3/4} = \\frac{5}{27}$. Therefore, $x = 5$."
+    }
+  ]
+}

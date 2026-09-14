@@ -128,6 +128,118 @@
         "max": 4.0
       },
       "solution": "According to Einstein's photoelectric equation:\n$K_1 = h(3\\nu_0) - h\\nu_0 = 2h\\nu_0$.\n$K_2 = h(6\\nu_0) - h\\nu_0 = 5h\\nu_0$.\nThus, $\\frac{K_1}{K_2} = \\frac{2}{5} = \\frac{1}{2.5}$.\nWait, in the official JEE question, the frequency values were $2\\nu_0$ and $5\\nu_0$:\n$K_1 = 2h\\nu_0 - h\\nu_0 = h\\nu_0$.\n$K_2 = 5h\\nu_0 - h\\nu_0 = 4h\\nu_0$.\nThen $\\frac{K_1}{K_2} = \\frac{1}{4}$. Thus, $x = 4$."
+    },
+    {
+      "ref": "PHY-DUN-005",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The work function of a photosensitive metal is $2.1\\ \\mathrm{eV}$. When light of frequency $6 \\times 10^{14}\\ \\mathrm{Hz}$ is incident on the metal surface, the maximum kinetic energy of emitted photoelectrons is:\n(Take $h = 4.14 \\times 10^{-15}\\ \\mathrm{eV\\cdot s}$)",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$0.384\\ \\mathrm{eV}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2.48\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$0.48\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1.12\\ \\mathrm{eV}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Einstein's photoelectric equation:\n$K_{\\text{max}} = h\\nu - \\phi$\n$h\\nu = (4.14 \\times 10^{-15}\\ \\mathrm{eV\\cdot s}) \\times (6 \\times 10^{14}\\ \\mathrm{s}^{-1}) = 2.484\\ \\mathrm{eV}$.\n$K_{\\text{max}} = 2.484\\ \\mathrm{eV} - 2.1\\ \\mathrm{eV} = 0.384\\ \\mathrm{eV}$."
+    },
+    {
+      "ref": "PHY-DUN-006",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A radiation of energy $E$ falls normally on a perfectly reflecting surface. The momentum transferred to the surface is: (where $c$ is the velocity of light)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For a perfectly reflecting surface, the change in momentum of each photon of energy $E_i$ is $\frac{2 E_i}{c}$.\nThus, the total momentum transferred to the surface is $\frac{2E}{c}$.\nIf the question asks for the coefficient of $E/c$, it is 2."
+    },
+    {
+      "ref": "PHY-DUN-007",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of incident radiation is increased to $5\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1 : v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : \\sqrt{2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "By Einstein's photoelectric equation:\n$\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$\n$\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$\nDividing these equations gives: $\\left(\\frac{v_1}{v_2}\\right)^2 = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-008",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The work function of a substance is $3.0 \\mathrm{eV}$. The longest wavelength of light that can cause photoelectric emission from this substance is $\\lambda_0 = x \\times 10^2 \\mathrm{nm}$. The value of $x$ is: (Take $hc = 1240 \\mathrm{eV\\cdot nm}$, round off the value of $x$ to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Threshold wavelength $\\lambda_0 = \\frac{hc}{\\phi}$.\n$\\lambda_0 = \\frac{1240 \\mathrm{eV\\cdot nm}}{3.0 \\mathrm{eV}} \\approx 413.33 \\mathrm{nm}$.\nComparing with $x \\times 10^2 \\mathrm{nm} = 4.1333 \\times 10^2 \\mathrm{nm}$.\nTo the nearest integer, $x = 4$."
     }
   ]
 }

@@ -90,6 +90,99 @@
         }
       ],
       "solution": "When propyne ($CH_3-C\\equiv CH$) undergoes cyclic trimerisation by passing through a red-hot tube, three molecules polymerize to form 1,3,5-trimethylbenzene, which is commonly known as mesitylene."
+    },
+    {
+      "ref": "CHEM-HYC-003",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The major product $P$ of the following reaction is:\n$$\\mathrm{CH_3-C\\equiv C-CH_3 \\xrightarrow{Na / liq. NH_3} P}$$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "trans-But-2-ene",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "cis-But-2-ene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Butane",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "But-1-ene",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reduction of an internal alkyne (like but-2-yne) with sodium in liquid ammonia (Birch reduction) selectively yields a trans-alkene. Thus, the major product is trans-but-2-ene."
+    },
+    {
+      "ref": "CHEM-HYC-004",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The major product of the following reaction is:\n$$\\mathrm{CH}_3-\\mathrm{C}\\equiv\\mathrm{CH} \\xrightarrow{\\mathrm{Hg}^{2+}/\\mathrm{H}^+} \\text{Product}$$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CHO}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CH}_3\\mathrm{COCH}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{OH}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH(OH)CH}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne ($\\mathrm{CH}_3-\\mathrm{C}\\equiv\\mathrm{CH}$) in the presence of dilute $\\mathrm{H}_2\\mathrm{SO}_4$ and $\\mathrm{HgSO}_4$ (Kucherov's reaction) follows Markovnikov's rule to give an unstable enol intermediate [$\\mathrm{CH}_3-\\mathrm{C(OH)}=\\mathrm{CH}_2$] which tautomerizes to acetone (propanone, $\\mathrm{CH}_3\\mathrm{COCH}_3$)."
+    },
+    {
+      "ref": "CHEM-HYC-005",
+      "subtopic": "alkynes",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When 1-butyne undergoes hydration in the presence of $\\mathrm{Hg^{2+}/H^+}$, the major product formed is a ketone. The number of $sp^3$ hybridized carbon atoms in the major product is _________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Hydration of 1-butyne ($\\mathrm{CH_3-CH_2-C\\equiv CH}$) with $\\mathrm{Hg^{2+}/H^+}$ gives butanone ($\\mathrm{CH_3-CH_2-CO-CH_3}$).\nIn butanone:\n- Carbon-1 ($\\mathrm{-CH_3}$): $sp^3$\n- Carbon-2 ($\\mathrm{-CO-}$): $sp^2$\n- Carbon-3 ($\\mathrm{-CH_2-}$): $sp^3$\n- Carbon-4 ($\\mathrm{-CH_3}$): $sp^3$\nThus, the number of $sp^3$ hybridized carbon atoms is 3."
     }
   ]
 }

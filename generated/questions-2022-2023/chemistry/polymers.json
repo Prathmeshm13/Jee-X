@@ -1,0 +1,521 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Polymers",
+    "slug": "polymers",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 30
+  },
+  "subtopics": [
+    {
+      "slug": "classification-properties",
+      "name": "Classification and Properties of Polymers",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-POL-001",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a condensation polymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Dacron",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Neoprene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Teflon",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Buna-S",
+          "is_correct": false
+        }
+      ],
+      "solution": "Dacron (Terylene) is a polyester formed by the condensation polymerization of ethylene glycol and terephthalic acid with the elimination of water molecules. Neoprene, Teflon, and Buna-S are addition polymers."
+    },
+    {
+      "ref": "CHEM-POL-002",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following polymers is prepared by condensation polymerization?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Teflon",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Nylon 6,6",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Buna-S",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Neoprene",
+          "is_correct": false
+        }
+      ],
+      "solution": "Nylon 6,6 is a condensation polymer synthesized by the condensation reaction of hexamethylenediamine and adipic acid with the elimination of water molecules. Teflon, Buna-S, and Neoprene are addition polymers."
+    },
+    {
+      "ref": "CHEM-POL-003",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a copolymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Buna-S",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Nylon 6",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Polythene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Neoprene",
+          "is_correct": false
+        }
+      ],
+      "solution": "A copolymer is formed from more than one monomer species. Buna-S is prepared by the copolymerization of 1,3-butadiene and styrene. Polythene (ethene), Nylon-6 (caprolactam), and Neoprene (chloroprene) are homopolymers."
+    },
+    {
+      "ref": "CHEM-POL-004",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a condensation polymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Dacron",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Neoprene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Teflon",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Buna-S",
+          "is_correct": false
+        }
+      ],
+      "solution": "Dacron (Terylene) is a polyester formed by condensation polymerization of ethylene glycol and terephthalic acid with elimination of water molecules. Neoprene, Teflon, and Buna-S are addition polymers."
+    },
+    {
+      "ref": "CHEM-POL-005",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is a condensation polymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Nylon-6,6",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Teflon",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Neoprene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Buna-S",
+          "is_correct": false
+        }
+      ],
+      "solution": "Nylon-6,6 is a condensation polymer made by the condensation of hexamethylenediamine and adipic acid with the elimination of water molecules. Teflon, Neoprene, and Buna-S are addition polymers."
+    },
+    {
+      "ref": "CHEM-POL-006",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a copolymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Buna-S",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Polythene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "PVC",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Teflon",
+          "is_correct": false
+        }
+      ],
+      "solution": "Copolymers are polymers derived from more than one species of monomer.\n- Buna-S is prepared from 1,3-butadiene and styrene monomers.\n- Polythene, PVC, and Teflon are homopolymers containing only one type of monomer."
+    },
+    {
+      "ref": "CHEM-POL-007",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The polymer 'Buna-N' is a copolymer of 1,3-butadiene and:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Acrylonitrile",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Styrene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Adipic acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vinyl chloride",
+          "is_correct": false
+        }
+      ],
+      "solution": "Buna-N is a copolymer of 1,3-butadiene and acrylonitrile ($\\mathrm{CH_2=CH-CN}$). Buna-S is a copolymer of 1,3-butadiene and styrene."
+    },
+    {
+      "ref": "CHEM-POL-008",
+      "subtopic": "classification-properties",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The total number of condensation polymers among the following is _______. (Integer value)\nNylon-6,6, Teflon, Glyptal, Bun-S, Neoprene, Dacron, Novolac",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "- Nylon-6,6 (condensation polymer)\n- Teflon (addition polymer)\n- Glyptal (condensation polymer)\n- Buna-S (addition polymer)\n- Neoprene (addition polymer)\n- Dacron (condensation polymer)\n- Novolac (condensation polymer)\nTotal condensation polymers $= 4$."
+    },
+    {
+      "ref": "CHEM-POL-009",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a copolymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Buna-S",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Nylon-6",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Polythene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "PVC",
+          "is_correct": false
+        }
+      ],
+      "solution": "A copolymer is formed by the polymerization of more than one monomer species. Buna-S is synthesized from 1,3-butadiene and styrene, whereas Nylon-6 (caprolactam), Polythene (ethene), and PVC (vinyl chloride) are homopolymers."
+    },
+    {
+      "ref": "CHEM-POL-010",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is a copolymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Buna-S",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Nylon 6",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Polythene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "PVC",
+          "is_correct": false
+        }
+      ],
+      "solution": "Buna-S is a copolymer of 1,3-butadiene and styrene. The others (Nylon 6, Polythene, PVC) are homopolymers."
+    },
+    {
+      "ref": "CHEM-POL-011",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a biodegradable polymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Nylon 6,6",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "PHBV",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Terylene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Buna-S",
+          "is_correct": false
+        }
+      ],
+      "solution": "PHBV (Poly- $\\beta$-hydroxybutyrate-co-$\\beta$-hydroxyvalerate) is a biodegradable copolymer used in specialty packaging, orthopedic devices, and controlled drug release."
+    },
+    {
+      "ref": "CHEM-POL-012",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is a condensation polymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Nylon-6,6",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Neoprene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Teflon",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "PVC",
+          "is_correct": false
+        }
+      ],
+      "solution": "Nylon-6,6 is formed by the condensation polymerization of hexamethylenediamine and adipic acid with the elimination of water molecules.\nNeoprene, Teflon, and PVC are addition polymers."
+    },
+    {
+      "ref": "CHEM-POL-013",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The monomer of Neoprene is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Chloroprene",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Isoprene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Acrylonitrile",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Caprolactam",
+          "is_correct": false
+        }
+      ],
+      "solution": "Neoprene is a synthetic rubber polymerised from the monomer chloroprene (2-chloro-1,3-butadiene)."
+    },
+    {
+      "ref": "CHEM-POL-014",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The polymer Dacron is an example of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Polyamide",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Polyurethane",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Polyester",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Polypropylene",
+          "is_correct": false
+        }
+      ],
+      "solution": "Dacron (also known as Terylene) is formed by the condensation polymerization of ethylene glycol and terephthalic acid, creating ester linkages."
+    }
+  ]
+}

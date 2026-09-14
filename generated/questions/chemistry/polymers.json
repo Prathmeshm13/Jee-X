@@ -109,6 +109,43 @@
         }
       ],
       "solution": "Buna-S is formed by the copolymerization of 1,3-butadiene and styrene (two different monomers). Polythene, PVC, and Neoprene are homopolymers formed from a single type of monomer."
+    },
+    {
+      "ref": "CHEM-POL-004",
+      "subtopic": "classification-properties",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is a condensation polymer?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Dacron",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Neoprene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Teflon",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Buna-S",
+          "is_correct": false
+        }
+      ],
+      "solution": "Dacron (Terylene) is a polyester formed by the condensation polymerization of ethylene glycol and terephthalic acid with the elimination of water molecules. Neoprene, Teflon, and Buna-S are addition polymers."
     }
   ]
 }

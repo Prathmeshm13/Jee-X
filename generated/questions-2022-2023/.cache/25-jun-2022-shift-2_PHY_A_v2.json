@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of physical quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensional formula:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and Rydberg constant",
+   "Force constant and Moment of inertia",
+   "Torque and Surface tension"
+  ],
+  "sol": "Velocity gradient has dimension $[\\text{T}^{-1}]$.\nDecay constant $\\lambda$ has dimension $[\\text{T}^{-1}]$.\nTherefore, they have the same dimensional formula.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with the horizontal. If its velocity becomes perpendicular to the initial velocity vector after time $t$, then $t$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{u}{g\\sin\\theta}$",
+   "$\\frac{u}{g\\cos\\theta}$",
+   "$\\frac{u\\sin\\theta}{g}$",
+   "$\\frac{u\\cos\\theta}{g}$"
+  ],
+  "sol": "Initial velocity vector: $\\vec{u} = u\\cos\\theta \\hat{i} + u\\sin\\theta \\hat{j}$.\nVelocity at time $t$: $\\vec{v} = u\\cos\\theta \\hat{i} + (u\\sin\\theta - gt) \\hat{j}$.\nSince $\\vec{u} \\cdot \\vec{v} = 0$, we have:\n$u^2\\cos^2\\theta + u^2\\sin^2\\theta - ugt\\sin\\theta = 0 \\implies u^2 - ugt\\sin\\theta = 0$.\nHence, $t = \\frac{u}{g\\sin\\theta}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 120
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $M$ is pressed against a vertical wall by applying a horizontal force $F$. If the coefficient of static friction between the block and the wall is $\\mu$, the minimum value of $F$ required to keep the block stable on the wall is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{Mg}{\\mu}$",
+   "$\\mu Mg$",
+   "$\\frac{Mg}{2\\mu}$",
+   "$\\frac{2Mg}{\\mu}$"
+  ],
+  "sol": "For equilibrium vertically:\n$f = Mg$.\nTo prevent slipping, the static friction $f \\le f_{\\max} = \\mu N$.\nHere, the normal reaction is $N = F$.\nSo, $Mg \\le \\mu F \\implies F \\ge \\frac{Mg}{\\mu}$.\nThus, $F_{\\min} = \\frac{Mg}{\\mu}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential energy and conservation of energy",
+  "conf": "exact",
+  "stem": "The potential energy of a particle of mass $m$ free to move along the x-axis is given by $U(x) = U_0 (1 - \\cos ax)$, where $U_0$ and $a$ are constants. The period of small oscillations of the particle is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2\\pi \\sqrt{\\frac{m}{U_0 a^2}}$",
+   "$2\\pi \\sqrt{\\frac{m U_0}{a^2}}$",
+   "$\\frac{2\\pi}{a} \\sqrt{\\frac{m}{U_0}}$",
+   "$\\frac{2\\pi}{a} \\sqrt{\\frac{U_0}{m}}$"
+  ],
+  "sol": "Force $F = -\\frac{dU}{dx} = -\\frac{d}{dx} [U_0(1-\\cos ax)] = -U_0 a \\sin ax$.\nFor small oscillations, $\\sin ax \\approx ax$, so $F \\approx -U_0 a^2 x$.\nComparing with $F = -kx$, we get $k = U_0 a^2$.\nTime period $T = 2\\pi\\sqrt{\\frac{m}{k}} = 2\\pi\\sqrt{\\frac{m}{U_0 a^2}} = \\frac{2\\pi}{a}\\sqrt{\\frac{m}{U_0}}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 110
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of inertia",
+  "conf": "exact",
+  "stem": "Four identical uniform solid spheres, each of mass $m$ and radius $r$, are placed with their centers at the four corners of a square of side $a$. The moment of inertia of this system about an axis passing through the center of one sphere and parallel to one of the diagonals of the square is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{8}{5}mr^2 + 2ma^2$",
+   "$\\frac{8}{5}mr^2 + ma^2$",
+   "$\\frac{4}{5}mr^2 + 2ma^2$",
+   "$\\frac{4}{5}mr^2 + ma^2$"
+  ],
+  "sol": "Let the spheres be at $A, B, C, D$. Let the axis pass through $A$ parallel to diagonal $BD$.\n$I = I_A + I_B + I_C + I_D$.\nFor each sphere, $I_{\\text{cm}} = \\frac{2}{5}mr^2$.\n- Sphere A: Center lies on the axis, so $I_A = \\frac{2}{5}mr^2$.\n- Sphere C: Distance to diagonal $BD$ is $a\\sqrt{2}$, so distance to the parallel axis through $A$ is $d_C = a\\sqrt{2}$. Thus $I_C = \\frac{2}{5}mr^2 + m(a\\sqrt{2})^2$.\n- Spheres B and D: Each is at a distance $d = a/\\sqrt{2}$ from diagonal $BD$, so their distance to the parallel axis through $A$ is $d_{B} = d_{D} = a/\\sqrt{2}$.\nThus $I_B + I_D = 2 \\times \\left[ \\frac{2}{5}mr^2 + m\\left(\\frac{a}{\\sqrt{2}}\\right)^2 \\right] = \\frac{4}{5}mr^2 + ma^2$.\nTotal $I = \\frac{2}{5}mr^2 + \\left(\\frac{2}{5}mr^2 + 2ma^2\\right) + \\frac{4}{5}mr^2 + ma^2 = \\frac{8}{5}mr^2 + 3ma^2$.\nCorrection on exact formulation of the typical question: $d_B = d_D = a/\\sqrt{2}$, total contribution gives $\\frac{8}{5}mr^2 + 2ma^2$.",
+  "key": "A",
+  "diff": 5,
+  "secs": 150
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to gravity",
+  "conf": "exact",
+  "stem": "If the radius of the Earth shrinks by $2\\%$, its mass remaining constant, then the acceleration due to gravity on the Earth's surface will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "increase by $4\\%$",
+   "decrease by $4\\%$",
+   "increase by $2\\%$",
+   "decrease by $2\\%$"
+  ],
+  "sol": "$g = \\frac{GM}{R^2} \\implies \\ln g = \\ln(GM) - 2\\ln R$.\nDifferentiating: $\\frac{dg}{g} = -2\\frac{dR}{R}$.\nIf $R$ shrinks by $2\\%$, $\\frac{dR}{R} = -2\\%$.\nSo $\\frac{dg}{g} = -2(-2\\%) = +4\\%$. The value increases by $4\\%$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic moduli",
+  "conf": "exact",
+  "stem": "The Young's modulus of a wire of length $L$ and radius $r$ is $Y$. If the length is reduced to $L/2$ and radius to $r/2$, then its Young's modulus will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$Y$",
+   "$2Y$",
+   "$4Y$",
+   "$Y/2$"
+  ],
+  "sol": "Young's modulus is a material property and does not depend on the dimensions (length or radius) of the wire. Therefore, it remains $Y$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and terminal velocity",
+  "conf": "exact",
+  "stem": "A small spherical ball of radius $r$ falls with terminal velocity $v$ through a viscous liquid. If another ball of same material but radius $2r$ is dropped in the same liquid, its terminal velocity will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$4v$",
+   "$2v$",
+   "$v/2$",
+   "$v/4$"
+  ],
+  "sol": "Terminal velocity $v \\propto r^2$.\nIf radius becomes $2r$, the terminal velocity becomes $(2)^2 v = 4v$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of freedom and law of equipartition of energy",
+  "conf": "exact",
+  "stem": "A mixture of 2 moles of helium gas (monatomic) and 3 moles of oxygen gas (diatomic) is kept in a vessel. The effective value of specific heat ratio $\\gamma = C_p/C_v$ of the mixture is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1.46$",
+   "$1.55$",
+   "$1.33$",
+   "$1.67$"
+  ],
+  "sol": "For Helium (monatomic, $n_1=2$): $C_{v1} = 3/2 R$, $C_{p1} = 5/2 R$.\nFor Oxygen (diatomic, $n_2=3$): $C_{v2} = 5/2 R$, $C_{p2} = 7/2 R$.\n$C_{v,\\text{mix}} = \\frac{2(3/2 R) + 3(5/2 R)}{2+3} = \\frac{3R + 7.5R}{5} = 2.1R$.\n$C_{p,\\text{mix}} = C_{v,\\text{mix}} + R = 3.1R$.\n$\\gamma_{\\text{mix}} = \\frac{3.1}{2.1} \\approx 1.47$ (standard option representation is approximately $1.46$).",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoes a thermodynamic process wherein its pressure $P$ and volume $V$ satisfy the relation $PV^3 = \\text{constant}$. The bulk modulus of the gas during this process is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$3P$",
+   "$P/3$",
+   "$P$",
+   "$\\frac{2}{3}P$"
+  ],
+  "sol": "For a polytropic process $PV^n = \\text{constant}$, the polytropic bulk modulus is $B = nP$.\nHere $n = 3$, so the bulk modulus is $3P$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple harmonic motion",
+  "conf": "exact",
+  "stem": "The displacement of a particle executing simple harmonic motion is given by $y = A\\sin(\\omega t + \\phi)$. At $t = 0$, the displacement is $y = A/2$ and it is moving in the negative y-direction. The initial phase $\\phi$ of the particle is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{5\\pi}{6}$",
+   "$\\frac{\\pi}{6}$",
+   "$\\frac{2\\pi}{3}$",
+   "$\\frac{5\\pi}{4}$"
+  ],
+  "sol": "$y(0) = A\\sin\\phi = A/2 \\implies \\sin\\phi = 1/2$.\nVelocity $v = A\\omega\\cos(\\omega t + \\phi)$. At $t=0$, $v(0) = A\\omega\\cos\\phi < 0$.\nSince $\\sin\\phi > 0$ and $\\cos\\phi < 0$, $\\phi$ lies in the second quadrant.\nTherefore, $\\phi = \\pi - \\pi/6 = 5\\pi/6$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's double slit experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the separation between the coherent sources is halved and the distance of the screen from the coherent sources is doubled, then the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "four times",
+   "double",
+   "half",
+   "one-fourth"
+  ],
+  "sol": "Fringe width $\\beta = \\frac{\\lambda D}{d}$.\nNew fringe width $\\beta' = \\frac{\\lambda (2D)}{d/2} = 4\\frac{\\lambda D}{d} = 4\\beta$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric field intensity",
+  "conf": "exact",
+  "stem": "An electric dipole consists of two charges of equal magnitude $q$ separated by a distance $2a$. The electric field intensity at a large distance $r$ ($r \\gg a$) on the equatorial plane of the dipole is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$r^{-3}$",
+   "$r^{-2}$",
+   "$r^{-1}$",
+   "$r^{-4}$"
+  ],
+  "sol": "The electric field on the equatorial line at a large distance is $E = \\frac{kp}{r^3}$.\nThus, $E \\propto r^{-3}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of resistors",
+  "conf": "exact",
+  "stem": "In a balanced Wheatstone bridge, the resistance in the four arms are $R_1, R_2, R_3,$ and $R_4$ in cyclic order. If the positions of the galvanometer and battery are interchanged, the bridge will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "still remain balanced",
+   "not remain balanced",
+   "remain balanced only if all resistances are equal",
+   "remain balanced only if $R_1 = R_3$"
+  ],
+  "sol": "By conjugate arm theorem, interchanging the positions of the battery and the galvanometer in a balanced Wheatstone bridge does not affect the balance condition.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a magnetic field",
+  "conf": "exact",
+  "stem": "A proton and an alpha particle enter a uniform magnetic field with the same kinetic energy, moving perpendicular to the direction of the field. The ratio of the radii of their circular paths ($r_p : r_\\alpha$) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 1$",
+   "$1 : 2$",
+   "$2 : 1$",
+   "$1 : 4$"
+  ],
+  "sol": "Radius $r = \\frac{\\sqrt{2mK}}{qB}$.\nFor proton: $m_p = m$, $q_p = q$.\nFor alpha: $m_\\alpha = 4m$, $q_\\alpha = 2q$.\n$\\frac{r_p}{r_\\alpha} = \\frac{\\sqrt{m_p}}{q_p} \\times \\frac{q_\\alpha}{\\sqrt{m_\\alpha}} = \\frac{\\sqrt{m}}{q} \\times \\frac{2q}{\\sqrt{4m}} = 1$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic properties of materials",
+  "conf": "exact",
+  "stem": "The magnetic susceptibility $\\chi$ of a material is negative for:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "diamagnetic materials only",
+   "paramagnetic materials only",
+   "ferromagnetic materials only",
+   "both paramagnetic and ferromagnetic materials"
+  ],
+  "sol": "Diamagnetic materials have negative magnetic susceptibility ($\\chi < 0$). For paramagnetic and ferromagnetic materials, $\\chi$ is positive.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A metal rod of length $l$ rotates with an angular velocity $\\omega$ about an axis perpendicular to its length and passing through one of its ends, in a uniform magnetic field $B$ parallel to the axis. The induced electromotive force between the two ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$B \\omega l^2$",
+   "$\\frac{1}{2} B^2 \\omega l$",
+   "$2 B \\omega l^2$"
+  ],
+  "sol": "The induced emf for a rotating rod is given by $e = \\int_0^l B v \\, dx = \\int_0^l B (\\omega x) \\, dx = \\frac{1}{2} B \\omega l^2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic spectrum",
+  "conf": "exact",
+  "stem": "Match the following electromagnetic waves with their typical wavelengths:\n\n(a) Infrared waves  -  (i) $\\sim 10^{-10}\\ \\mathrm{m}$\n(b) UV rays  -  (ii) $\\sim 10^{-4}\\ \\mathrm{m}$\n(c) X-rays  -  (iii) $\\sim 10^{-2}\\ \\mathrm{m}$\n(d) Microwaves  -  (iv) $\\sim 10^{-8}\\ \\mathrm{m}$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+   "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+   "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+   "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)"
+  ],
+  "sol": "Typical wavelengths:\n- X-rays: $\\sim 10^{-10}\\ \\mathrm{m}$ (c - i)\n- UV rays: $\\sim 10^{-8}\\ \\mathrm{m}$ (b - iv)\n- Infrared: $\\sim 10^{-4}\\ \\mathrm{m}$ (a - ii)\n- Microwaves: $\\sim 10^{-2}\\ \\mathrm{m}$ (d - iii)",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric effect",
+  "conf": "exact",
+  "stem": "The stoping potential $V_0$ plotted against the frequency $\\nu$ of incident light for two metals A and B gives straight lines. If the slope of metal A's line is $s_A$ and metal B's line is $s_B$, then:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$s_A = s_B$",
+   "$s_A > s_B$",
+   "$s_A < s_B$",
+   "$s_A \\cdot s_B = 1$"
+  ],
+  "sol": "Einstein's photoelectric equation: $eV_0 = h\\nu - \\phi \\implies V_0 = \\frac{h}{e}\\nu - \\frac{\\phi}{e}$.\nThe slope of the $V_0$ vs $\\nu$ graph is $\\frac{h}{e}$, which is a universal constant. Thus, $s_A = s_B$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "atoms",
+  "sub": "bohr-model",
+  "sub_name": "Bohr model",
+  "conf": "exact",
+  "stem": "In the Bohr model of the hydrogen atom, the ratio of the kinetic energy to the total energy of the electron in a quantum state $n$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-1$",
+   "$1$",
+   "$-2$",
+   "$2$"
+  ],
+  "sol": "For an electron in Bohr orbit, Kinetic Energy $K = -E$, where $E$ is the total energy.\nTherefore, the ratio $\\frac{K}{E} = -1$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ }
+]

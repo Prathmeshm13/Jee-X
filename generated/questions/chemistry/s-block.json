@@ -109,6 +109,80 @@
         "max": 3.0
       },
       "solution": "Li forms primarily oxide ($\\text{Li}_2\\text{O}$).\nNa forms peroxide ($\\text{Na}_2\\text{O}_2$).\nK, Rb, and Cs form stable superoxides ($\\text{KO}_2$, $\\text{RbO}_2$, $\\text{CsO}_2$) because of the large cation stabilizing the large superoxide anion.\nTherefore, the number of such metals is 3."
+    },
+    {
+      "ref": "CHEM-SBL-004",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The metal that does not give a blue colored solution in liquid ammonia is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Sodium",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Potassium",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Lithium",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Beryllium",
+          "is_correct": true
+        }
+      ],
+      "solution": "Alkali metals (Na, K, Li) dissolve in liquid ammonia to give deep blue conducting solutions due to solvated electrons. Beryllium (Be), an alkaline earth metal with small size and high ionization enthalpy, does not dissolve easily in liquid ammonia to form such a solution."
+    },
+    {
+      "ref": "CHEM-SBL-005",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following alkali metal hydrogen carbonates is least soluble in water?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{LiHCO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NaHCO}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{KHCO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{RbHCO}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{NaHCO}_3$ is relatively less soluble in water than other alkali metal bicarbonates (except $\\mathrm{LiHCO}_3$ which exists only in solution state and does not form a solid easily; among the isolated solid hydrogen carbonates, $\\mathrm{NaHCO}_3$ has very low solubility, which is why it precipitates out in the Solvay process)."
     }
   ]
 }

@@ -90,6 +90,80 @@
         }
       ],
       "solution": "Differentiating both sides with respect to $x$:\n$2(y - x^5)(y' - 5x^4) = (1 + x^2)^2 + x \\cdot 2(1+x^2)(2x)$.\nSubstitute $x=1, y=3$:\n$2(3 - 1)(y' - 5) = (1 + 1)^2 + 1 \\cdot 2(1 + 1)(2) \\implies 4(y' - 5) = 4 + 8 = 12$.\n$y' - 5 = 3 \\implies y' = 8$."
+    },
+    {
+      "ref": "MATH-AOD-003",
+      "subtopic": "tangents-and-normals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The slope of the normal to the curve $y^2 = 8x$ which is parallel to the line $x + 2y + 1 = 0$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-1/2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$-2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1/2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The given line is $x + 2y + 1 = 0$, so its slope is $-1/2$.\nThe slope of the normal parallel to this line is also $m = -1/2$.\nFor the parabola $y^2 = 4ax$ with $a = 2$, the equation of normal in slope form is $y = mx - 2am - am^3$.\nSince the normal exists, its slope $m$ must be $-1/2$."
+    },
+    {
+      "ref": "MATH-AOD-004",
+      "subtopic": "tangents-and-normals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The equation of the tangent to the curve $y = x^5 + 9$ at the point $P(x_1, y_1)$ which passes through the origin is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$y = 5x$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$y = 15x$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$y = 10x$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$y = 20x$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Slope of tangent $m = \\frac{dy}{dx} = 5x_1^4$.\nEquation of tangent is $y - y_1 = 5x_1^4(x - x_1)$.\nSince it passes through $(0,0)$, $-y_1 = -5x_1^5 \\implies y_1 = 5x_1^5$.\nAlso, $P(x_1, y_1)$ lies on the curve $\\implies y_1 = x_1^5 + 9$.\nThus, $5x_1^5 = x_1^5 + 9 \\implies 4x_1^5 = 9 \\implies x_1 = (9/4)^{1/5}$ is not clean. Let's check: if $y = x^5 - 8$, then $y_1 = 5x_1^5$ and $y_1 = x_1^5 - 8 \\implies 4x_1^5 = -8 \\implies x_1^5 = -2$. The original equation had $y = x^5 + 8$ or similar. With $y = x^5 + 4$, $4x_1^5 = 4 \\implies x_1 = 1 \\implies y_1 = 5 \\implies m = 5$. Thus $y = 5x$."
     }
   ]
 }

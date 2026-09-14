@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The primary cause of ozone depletion in the stratosphere is the release of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Carbon dioxide",
+   "Chlorofluorocarbon compounds",
+   "Nitrogen dioxide",
+   "Sulfur dioxide"
+  ],
+  "sol": "Chlorofluorocarbons (CFCs) release chlorine free radicals in the stratosphere upon UV photolysis, which catalytically destroy the ozone layer.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "An aqueous solution of a non-volatile solute boiling at $100.15^\\circ\\mathrm{C}$ is diluted with an equal volume of water. The boiling point of the resulting solution will be: \n(Given: Boiling point of pure water $= 100^\\circ\\mathrm{C}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "100.075 °C",
+   "100.30 °C",
+   "100.15 °C",
+   "100.50 °C"
+  ],
+  "sol": "$\\Delta T_b = T_b - T_b^0 = 100.15 - 100 = 0.15^\\circ\\mathrm{C}$.\nSince $\\Delta T_b \\propto m$, and diluting with equal volume of water halves the molality (approximately),\nnew $\\Delta T_b' = \\frac{0.15}{2} = 0.075^\\circ\\mathrm{C}$.\nNew boiling point $= 100 + 0.075 = 100.075^\\circ\\mathrm{C}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Which of the following vitamins is water-soluble?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin C",
+   "Vitamin K"
+  ],
+  "sol": "Vitamins B and C are soluble in water, whereas vitamins A, D, E and K are fat-soluble.",
+  "key": "C",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Which of the following class of drugs is used to reduce anxiety and induce calm?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Analgesics",
+   "Tranquilizers",
+   "Antihistamines",
+   "Antipyretics"
+  ],
+  "sol": "Tranquilizers are neurologically active drugs used for the treatment of stress, mild or severe mental diseases, and to reduce anxiety.",
+  "key": "B",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "The polymer Dacron is an example of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Polyamide",
+   "Polyurethane",
+   "Polyester",
+   "Polypropylene"
+  ],
+  "sol": "Dacron (also known as Terylene) is formed by the condensation polymerization of ethylene glycol and terephthalic acid, creating ester linkages.",
+  "key": "C",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct order of basic strength of the following amines in aqueous solution is:\n(I) $\\mathrm{CH_3NH_2}$\n(II) $\\mathrm{(CH_3)_2NH}$\n(III) $\\mathrm{(CH_3)_3N}$\n(IV) $\\mathrm{NH_3}$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "II > I > III > IV",
+   "III > II > I > IV",
+   "II > III > I > IV",
+   "I > II > III > IV"
+  ],
+  "sol": "In aqueous medium, the inductive, steric hindrance, and solvation effects collectively decide the basic strength of methyl substituted amines. The correct order is: $\\mathrm{(CH_3)_2NH > CH_3NH_2 > (CH_3)_3N > NH_3}$. Thus, II > I > III > IV.",
+  "key": "A",
+  "diff": 4,
+  "secs": 45
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "Which of the following lanthanoid ions is diamagnetic in nature? (Atomic numbers: $\\mathrm{Ce} = 58$, $\\mathrm{Nd} = 60$, $\\mathrm{Eu} = 63$, $\\mathrm{Yb} = 70$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce}^{3+}$",
+   "$\\mathrm{Nd}^{3+}$",
+   "$\\mathrm{Eu}^{3+}$",
+   "$\\mathrm{Yb}^{2+}$"
+  ],
+  "sol": "$\\mathrm{Yb}$ has electronic configuration $[\\mathrm{Xe}] 4f^{14} 6s^2$. Therefore, $\\mathrm{Yb}^{2+}$ has $[\\mathrm{Xe}] 4f^{14}$ configuration, which contains no unpaired electrons and is diamagnetic.",
+  "key": "D",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The formula of the complex ion that shows both geometrical and optical isomerism is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[\\mathrm{Co(en)_3}]^{3+}$",
+   "$[\\mathrm{Co(NH_3)_4Cl_2}]^+$",
+   "$\\mathrm{cis\\text{-}}[\\mathrm{Co(en)_2Cl_2}]^+$",
+   "$\\mathrm{trans\\text{-}}[\\mathrm{Co(en)_2Cl_2}]^+$"
+  ],
+  "sol": "$[\\mathrm{Co(en)_2Cl_2}]^+$ exhibits geometrical isomerism (cis and trans isomers). The cis isomer is non-superimposable on its mirror image and is therefore optically active, whereas the trans isomer is optically inactive due to symmetry.",
+  "key": "C",
+  "diff": 4,
+  "secs": 50
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a phosphorus-phosphorus ($\\mathrm{P-P}$) single bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Pyrophosphoric acid",
+   "Hypophosphoric acid",
+   "Orthophosphoric acid",
+   "Pyrophosphorous acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) contains a direct $\\mathrm{P-P}$ bond, with the structure $(\\mathrm{HO})_2\\mathrm{P(O)-P(O)(OH)_2}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 35
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction Processes",
+  "conf": "exact",
+  "stem": "The metal that is purified by Mond's process is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Zr}$",
+   "$\\mathrm{Ni}$",
+   "$\\mathrm{Ti}$",
+   "$\\mathrm{Fe}$"
+  ],
+  "sol": "Mond's process is used for the refining of nickel ($\\mathrm{Ni}$) by forming volatile nickel tetracarbonyl, $\\mathrm{Ni(CO)_4}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 15
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "Which of the following alkali metal carbonates is thermally least stable and decomposes on heating?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Li_2CO_3}$",
+   "$\\mathrm{Na_2CO_3}$",
+   "$\\mathrm{K_2CO_3}$",
+   "$\\mathrm{Cs_2CO_3}$"
+  ],
+  "sol": "$\\mathrm{Li^+}$ is very small and polarizes the large $\\mathrm{CO_3^{2-}}$ ion to a high extent, making $\\mathrm{Li_2CO_3}$ thermally unstable. It decomposes easily to $\\mathrm{Li_2O}$ and $\\mathrm{CO_2}$ on heating.",
+  "key": "A",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance in Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "On dilution, the specific conductance (conductivity, $\\kappa$) and molar conductivity ($\\Lambda_m$) of an electrolytic solution behave as follows:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Both specific conductance and molar conductivity increase",
+   "Both specific conductance and molar conductivity decrease",
+   "Specific conductance increases but molar conductivity decreases",
+   "Specific conductance decreases but molar conductivity increases"
+  ],
+  "sol": "On dilution, the number of ions per unit volume decreases, hence specific conductance ($\\kappa$) decreases. However, the total volume of solution containing 1 mole of electrolyte increases greatly, so molar conductivity ($\\Lambda_m = \\kappa \\cdot V$) increases.",
+  "key": "D",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws",
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99.9\\%$ completion of the reaction is approximately how many times the half-life ($t_{1/2}$) of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "2 times",
+   "5 times",
+   "10 times",
+   "100 times"
+  ],
+  "sol": "$t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99.9}\\right) = \\frac{2.303}{k} \\log(10^3) = 3 \\cdot \\frac{2.303}{k}$.\n$t_{1/2} = \\frac{0.693}{k} = \\frac{2.303 \\log(2)}{k} \\approx 0.301 \\cdot \\frac{2.303}{k}$.\n$\\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{3}{0.301} \\approx 10$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le-Chatelier Principle",
+  "conf": "exact",
+  "stem": "For the exothermic reaction:\n$$\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}$$\nwhich of the following conditions will shift the equilibrium to the right (towards product formation)?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing temperature and increasing pressure",
+   "Decreasing temperature and decreasing pressure",
+   "Decreasing temperature and increasing pressure",
+   "Increasing temperature and decreasing pressure"
+  ],
+  "sol": "Since the forward reaction is exothermic, decreasing the temperature shifts equilibrium to the right. Also, since $\\Delta n_g = 2 - 4 = -2 < 0$, increasing the pressure shifts the equilibrium to the side with fewer moles of gas (the right).",
+  "key": "C",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "The ratio of the radius of the third Bohr orbit to that of the second Bohr orbit in a hydrogen atom is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$3 : 2$",
+   "$9 : 4$",
+   "$4 : 9$",
+   "$2 : 3$"
+  ],
+  "sol": "According to Bohr's model, the radius of the $n$-th orbit is given by $r_n \\propto n^2$. \nThus, $\\frac{r_3}{r_2} = \\frac{3^2}{2^2} = \\frac{9}{4}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "According to molecular orbital theory, which of the following species is paramagnetic and has a bond order of $1.5$?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2}$",
+   "$\\mathrm{O_2^-}$",
+   "$\\mathrm{O_2^{2-}}$",
+   "$\\mathrm{N_2^+}$"
+  ],
+  "sol": "For $\\mathrm{O_2^-}$ (17 electrons):\n$\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1})$.\nBond order $= \\frac{10 - 7}{2} = 1.5$. It has one unpaired electron, so it is paramagnetic.",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Which of the following compounds undergoes nucleophilic substitution ($S_N1$) fastest?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Methyl chloride",
+   "Ethyl chloride",
+   "Isopropyl chloride",
+   "tert-Butyl chloride"
+  ],
+  "sol": "$S_N1$ reactions proceed via a carbocation intermediate. The order of stability of carbocations is $3^\\circ > 2^\\circ > 1^\\circ > \\text{methyl}$. Therefore, tert-butyl chloride forms the highly stable tert-butyl carbocation and undergoes $S_N1$ fastest.",
+  "key": "D",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major organic product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanal",
+   "Propanone",
+   "Propan-1-ol",
+   "Propan-2-ol"
+  ],
+  "sol": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) using Kucherov's reaction conditions ($\\mathrm{Hg^{2+}/H^+}$) gives an unstable enol intermediate $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to propanone (acetone, $\\mathrm{CH_3-CO-CH_3}$).",
+  "key": "B",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Which of the following compounds will not give a yellow precipitate of iodoform when treated with iodine and sodium hydroxide?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Acetophenone",
+   "Pentan-3-one",
+   "Ethanol",
+   "Pentan-2-one"
+  ],
+  "sol": "The iodoform test is given by compounds containing the $\\mathrm{CH_3CO-}$ group or $\\mathrm{CH_3CH(OH)-}$ group. Pentan-3-one ($\\mathrm{CH_3CH_2-CO-CH_2CH_3}$) lacks a methyl carbonyl group, so it does not give the iodoform test.",
+  "key": "B",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Characterisation of Organic Compounds",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for the detection of nitrogen in an organic compound, the blue/Prussian blue color is due to the formation of which of the following complexes?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{K_4[Fe(CN)_6]}$",
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Na_3[Fe(CN)_5NOS]}$",
+   "$\\mathrm{Fe(CNS)_3}$"
+  ],
+  "sol": "During Lassaigne's test, sodium fusion extract containing $\\mathrm{CN^-}$ is treated with $\\mathrm{FeSO_4}$ and then acidified with $\\mathrm{FeCl_3}$. The Prussian blue color is due to the formation of ferriferrocyanide, $\\mathrm{Fe_4[Fe(CN)_6]_3}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 35
+ }
+]

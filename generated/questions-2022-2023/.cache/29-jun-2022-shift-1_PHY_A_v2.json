@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensions:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and Rydberg constant",
+   "Stress and Coefficient of friction",
+   "Torque and Coefficient of viscosity"
+  ],
+  "sol": "Velocity gradient has unit $s^{-1}$ and dimension $[T^{-1}]$.\nDecay constant $\\lambda$ has unit $s^{-1}$ and dimension $[T^{-1}]$.\nTherefore, they have the same dimensions.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with a velocity $v$ at an angle $\\theta$ with the horizontal. If the maximum height is equal to the horizontal range, then the value of $\\tan \\theta$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "sol": "Maximum height $H = \\frac{v^2 \\sin^2\\theta}{2g}$.\nHorizontal range $R = \\frac{v^2 \\sin(2\\theta)}{g} = \\frac{2v^2 \\sin\\theta \\cos\\theta}{g}$.\nGiven $H = R \\implies \\frac{v^2 \\sin^2\\theta}{2g} = \\frac{2v^2 \\sin\\theta \\cos\\theta}{g} \\implies \\tan\\theta = 4$.",
+  "key": "D",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $M$ is placed on a rough horizontal surface with coefficient of static friction $\\mu$. A force $F$ acts on the block at an angle $\\theta$ with the horizontal as shown. The minimum force $F$ required to just move the block is:",
+  "img": true,
+  "img_desc": "A block of mass M resting on a flat horizontal floor. A pull force F is applied to the upper right corner of the block at an angle theta above the horizontal.",
+  "img_url": "",
+  "opts": [
+   "$\\frac{\\mu Mg}{\\cos\\theta + \\mu\\sin\\theta}$",
+   "$\\frac{\\mu Mg}{\\cos\\theta - \\mu\\sin\\theta}$",
+   "$\\frac{\\mu Mg}{\\sin\\theta + \\mu\\cos\\theta}$",
+   "$\\frac{\\mu Mg}{\\sin\\theta - \\mu\\cos\\theta}$"
+  ],
+  "sol": "Resolving forces:\nNormal reaction $N = Mg - F\\sin\\theta$.\nHorizontal driving force is $F\\cos\\theta$.\nTo move, $F\\cos\\theta \\ge \\mu N = \\mu(Mg - F\\sin\\theta)$.\n$F(\\cos\\theta + \\mu\\sin\\theta) \\ge \\mu Mg \\implies F \\ge \\frac{\\mu Mg}{\\cos\\theta + \\mu\\sin\\theta}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 80
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential Energy and Conservation of Energy",
+  "conf": "exact",
+  "stem": "A particle of mass $m$ is moving in a circular path of constant radius $r$ such that its centripetal acceleration $a_c$ is varying with time $t$ as $a_c = k^2 r t^2$, where $k$ is a constant. The power delivered to the particle by the forces acting on it is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$m k^2 r^2 t$",
+   "$m k r^2 t^2$",
+   "$m k^2 r t$",
+   "$\\frac{1}{2} m k^2 r^2 t$"
+  ],
+  "sol": "Centripetal acceleration $a_c = \\frac{v^2}{r} = k^2 r t^2 \\implies v = k r t$.\nTangential acceleration $a_t = \\frac{dv}{dt} = k r$.\nTangential force $F_t = m a_t = m k r$.\nPower delivered $P = F_t v = (m k r)(k r t) = m k^2 r^2 t$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "Four identical solid spheres each of mass $M$ and radius $R$ are placed with their centers on the four corners of a square of side $b$. The moment of inertia of this system about one of the sides of the square is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{8}{5}MR^2 + 2Mb^2$",
+   "$\\frac{8}{5}MR^2 + Mb^2$",
+   "$\\frac{4}{5}MR^2 + 2Mb^2$",
+   "$\\frac{4}{5}MR^2 + Mb^2$"
+  ],
+  "sol": "Two spheres have centers on the axis of rotation: $I_1 = I_2 = \\frac{2}{5}MR^2$.\nTwo spheres are at a distance $b$ from the axis: $I_3 = I_4 = \\frac{2}{5}MR^2 + Mb^2$.\nTotal moment of inertia $I = 4 \\times \\frac{2}{5}MR^2 + 2Mb^2 = \\frac{8}{5}MR^2 + 2Mb^2$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to Gravity",
+  "conf": "exact",
+  "stem": "The acceleration due to gravity at a depth $d$ below the surface of the Earth is equal to that at an altitude $h$ above the surface of the Earth. If both $d$ and $h$ are much smaller than the radius of the Earth $R$, then:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$d = 2h$",
+   "$d = h$",
+   "$d = \\frac{h}{2}$",
+   "$d = \\frac{h}{4}$"
+  ],
+  "sol": "For $d \\ll R$, $g_d = g\\left(1 - \\frac{d}{R}\\right)$.\nFor $h \\ll R$, $g_h \\approx g\\left(1 - \\frac{2h}{R}\\right)$.\nEquating both: $1 - \\frac{d}{R} = 1 - \\frac{2h}{R} \\implies d = 2h$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "A wire of length $L$ and radius $r$ is clamped rigidly at one end. When a pulling force $F$ is applied at the other end, its elongation is $l$. If another wire of the same material but of length $2L$ and radius $2r$ is stretched by the same force $F$, its elongation will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$l$",
+   "$\\frac{l}{2}$",
+   "$2l$",
+   "$\\frac{l}{4}$"
+  ],
+  "sol": "Elongation $l = \\frac{FL}{A Y} = \\frac{FL}{\\pi r^2 Y}$.\nFor the second wire, $l' = \\frac{F(2L)}{\\pi (2r)^2 Y} = \\frac{2}{4} \\frac{FL}{\\pi r^2 Y} = \\frac{l}{2}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "conf": "exact",
+  "stem": "A small spherical ball of radius $r$ falls from rest through a viscous liquid. As a result, heat is produced due to viscous forces. The rate of production of heat when the ball attains its terminal velocity is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$r^2$",
+   "$r^3$",
+   "$r^5$",
+   "$r^4$"
+  ],
+  "sol": "Rate of heat production (power) $P = F_v \\cdot v_t = (6\\pi \\eta r v_t) v_t = 6\\pi \\eta r v_t^2$.\nSince terminal velocity $v_t \\propto r^2$, we have:\n$P \\propto r \\cdot (r^2)^2 \\propto r^5$.",
+  "key": "C",
+  "diff": 4,
+  "secs": 75
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoes a cyclic process $ABCA$ as shown in the $V-T$ diagram. The corresponding $P-V$ diagram for the process is:",
+  "img": true,
+  "img_desc": "A V-T diagram showing process A to B as a straight line passing through the origin (meaning constant pressure), process B to C as a horizontal line (constant volume, decreasing temperature), and process C to A as a vertical line (constant temperature, increasing volume).",
+  "img_url": "",
+  "opts": [
+   "A P-V diagram: A to B is a horizontal line (constant pressure), B to C is a vertical line (constant volume), C to A is an isothermal curve.",
+   "A P-V diagram: A to B is a vertical line (constant volume), B to C is a horizontal line, C to A is an isothermal curve.",
+   "A P-V diagram: A to B is an isothermal curve, B to C is constant volume, C to A is constant pressure.",
+   "A P-V diagram: A to B is constant pressure, B to C is isothermal, C to A is constant volume."
+  ],
+  "sol": "In the $V-T$ diagram:\n1. $A \\to B$ is a straight line through the origin $\\implies V \\propto T \\implies P$ is constant. (Isobaric expansion as $V$ increases).\n2. $B \\to C$ is constant volume ($V$ constant), with decreasing $T \\implies P$ decreases.\n3. $C \\to A$ is constant temperature ($T$ constant) with increasing $V \\implies P$ decreases isothermally.\nThis perfectly matches Option A.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "If one mole of a monoatomic gas is mixed with one mole of a diatomic gas, the equivalent value of ratio of specific heats $\\gamma$ of the mixture is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1.40",
+   "1.50",
+   "1.67",
+   "1.33"
+  ],
+  "sol": "For monoatomic gas: $C_{v1} = \\frac{3}{2}R$, $n_1 = 1$.\nFor diatomic gas: $C_{v2} = \\frac{5}{2}R$, $n_2 = 1$.\n$C_{v,\\text{mix}} = \\frac{n_1 C_{v1} + n_2 C_{v2}}{n_1 + n_2} = \\frac{\\frac{3}{2}R + \\frac{5}{2}R}{2} = 2R$.\n$C_{p,\\text{mix}} = C_{v,\\text{mix}} + R = 3R$.\n$\\gamma_{\\text{mix}} = \\frac{C_p}{C_v} = \\frac{3}{2} = 1.50$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "A particle performs simple harmonic motion with amplitude $A$. At what distance from the mean position is its kinetic energy equal to its potential energy?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{A}{\\sqrt{2}}$",
+   "$\\frac{A}{2}$",
+   "$\\frac{A}{2\\sqrt{2}}$",
+   "$\\frac{\\sqrt{3}A}{2}$"
+  ],
+  "sol": "Kinetic energy $K = \\frac{1}{2}m\\omega^2(A^2 - x^2)$.\nPotential energy $U = \\frac{1}{2}m\\omega^2 x^2$.\nGiven $K = U \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "Two point charges $q$ and $-3q$ are placed at a distance $r$ apart. The electromagnetic field at a point where the electric potential is zero has an electric field of magnitude:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Non-zero at all such points",
+   "Zero at a point between the charges",
+   "Zero at a point outside the charges",
+   "Zero at all such points"
+  ],
+  "sol": "Potential is zero at points where $\\frac{q}{x} + \\frac{-3q}{r-x} = 0$ (inside) or $\\frac{q}{y} + \\frac{-3q}{r+y} = 0$ (outside on the side of $q$).\nAt these points, the electric field contributions from both charges are in opposite directions or same direction but their magnitudes never cancel out because the charge of larger magnitude is further away but not by the exact ratio to yield $E=0$ except at infinity. Thus, the electric field is non-zero at all these finite points.",
+  "key": "A",
+  "diff": 4,
+  "secs": 100
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "In the given circuit, the equivalent resistance between terminals $A$ and $B$ is:",
+  "img": true,
+  "img_desc": "A bridge network of five resistors each of value R connected between terminals A and B, forming a balanced Wheatstone bridge.",
+  "img_url": "",
+  "opts": [
+   "$R$",
+   "$2R$",
+   "$\\frac{R}{2}$",
+   "$\\frac{2R}{3}$"
+  ],
+  "sol": "The circuit is a balanced Wheatstone bridge with five resistors each of value $R$.\nThe central resistor has no current flowing through it.\nThe equivalent resistance of the remaining two parallel branches (each containing two $R$ in series) is $(2R \\parallel 2R) = R$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "A proton and an alpha particle enter a uniform magnetic field perpendicular to their direction of motion with the same kinetic energy. The ratio of the radii of their circular paths $r_p : r_\\alpha$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 1$",
+   "$1 : 2$",
+   "$2 : 1$",
+   "$1 : 4$"
+  ],
+  "sol": "Radius of path in a magnetic field is given by $r = \\frac{\\sqrt{2mK}}{qB}$.\nFor proton: $m_p = m, q_p = q$.\nFor alpha particle: $m_\\alpha = 4m, q_\\alpha = 2q$.\nRatio $\\frac{r_p}{r_\\alpha} = \\frac{\\sqrt{m}/q}{\\sqrt{4m}/(2q)} = \\frac{\\sqrt{m}/q}{2\\sqrt{m}/2q} = 1:1$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "A susceptibility of a paramagnetic material at $27^\\circ\\mathrm{C}$ is $\\chi$. At what temperature will its susceptibility become $\\frac{\\chi}{3}$?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$627^\\circ\\mathrm{C}$",
+   "$900^\\circ\\mathrm{C}$",
+   "$300^\\circ\\mathrm{C}$",
+   "$81^\\circ\\mathrm{C}$"
+  ],
+  "sol": "According to Curie's Law, susceptibility $\\chi \\propto \\frac{1}{T}$ where $T$ is absolute temperature.\n$T_1 = 27^\\circ\\mathrm{C} = 300\\ \\mathrm{K}$.\n$\\chi_2 = \\frac{\\chi_1}{3} \\implies T_2 = 3T_1 = 3 \\times 300\\ \\mathrm{K} = 900\\ \\mathrm{K}$.\nIn Celsius, $T_2 = 900 - 273 = 627^\\circ\\mathrm{C}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 55
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $l$ is rotated with a constant angular velocity $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced emf between the two ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$B \\omega l^2$",
+   "$2 B \\omega l^2$",
+   "$\\frac{1}{4} B \\omega l^2$"
+  ],
+  "sol": "The induced emf in a rotating rod is given by $e = \\int_0^l B v \\, dx = \\int_0^l B (\\omega x) \\, dx = \\frac{1}{2} B \\omega l^2$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR Series Circuit",
+  "conf": "exact",
+  "stem": "In a series LCR resonance circuit, if the value of resistance $R$ is halved, then the bandwidth of the resonance curve will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "be halved",
+   "be doubled",
+   "remain unchanged",
+   "become four times"
+  ],
+  "sol": "Bandwidth of a series LCR circuit is given by $\\Delta \\omega = \\frac{R}{L}$.\nIf $R$ is halved, the bandwidth $\\Delta \\omega$ is also halved.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the highest frequency?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Gamma rays",
+   "X-rays",
+   "Ultraviolet rays",
+   "Microwaves"
+  ],
+  "sol": "In the electromagnetic spectrum, the order of increasing frequency is:\nMicrowaves < Ultraviolet < X-rays < Gamma rays.\nThus, Gamma rays have the highest frequency.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "conf": "exact",
+  "stem": "In a Young's double slit experiment, the fringe width is found to be $\\beta$. If the entire apparatus is immersed in a liquid of refractive index $\\mu$, the new fringe width will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{\\beta}{\\mu}$",
+   "$\\mu \\beta$",
+   "$\\frac{\\beta}{\\mu^2}$",
+   "$\\mu^2 \\beta$"
+  ],
+  "sol": "Fringe width $\\beta = \\frac{\\lambda D}{d}$.\nWhen immersed in a liquid of refractive index $\\mu$, the wavelength becomes $\\lambda' = \\frac{\\lambda}{\\mu}$.\nHence, the new fringe width $\\beta' = \\frac{\\beta}{\\mu}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric Effect",
+  "conf": "exact",
+  "stem": "The stopping potential for photoelectrons emitted from a surface when light of wavelength $\\lambda$ is incident on it is $V_0$. When light of wavelength $2\\lambda$ is incident on the same surface, the stopping potential is $V_0 / 3$. The threshold wavelength for the surface is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$4\\lambda$",
+   "$3\\lambda$",
+   "$\\frac{4}{3}\\lambda$",
+   "$2\\lambda$"
+  ],
+  "sol": "From Einstein's equation:\n$eV_0 = \\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_0}$ (1)\n$e\\frac{V_0}{3} = \\frac{hc}{2\\lambda} - \\frac{hc}{\\lambda_0}$ (2)\nMultiplying (2) by 3:\n$eV_0 = \\frac{3hc}{2\\lambda} - \\frac{3hc}{\\lambda_0}$ (3)\nEquating (1) and (3):\n$\\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_0} = \\frac{3hc}{2\\lambda} - \\frac{3hc}{\\lambda_0} \\implies \\frac{2hc}{\\lambda_0} = \\frac{hc}{2\\lambda} \\implies \\lambda_0 = 4\\lambda$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 70
+ }
+]

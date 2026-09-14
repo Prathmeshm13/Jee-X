@@ -109,6 +109,118 @@
         "max": 25.0
       },
       "solution": "Degree of dissociation $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^0} = \\frac{19}{380} = 0.05$.\n$K_a = C\\alpha^2 = 0.01 \\times (0.05)^2 = 10^{-2} \\times 2.5 \\times 10^{-3} = 2.5 \\times 10^{-5} = 25 \\times 10^{-6}$.\nTherefore, $x = 25$."
+    },
+    {
+      "ref": "CHEM-ELC-004",
+      "subtopic": "conductance-solutions",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For which of the following electrolytes, the Kohlrausch's law of independent migration of ions is not directly applicable to find $\\Lambda_m^\\circ$ by simple extrapolation of $\\Lambda_m$ vs $\\sqrt{c}$ plot?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{KCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NaCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{CH_3COOH}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{HCl}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For strong electrolytes like $\\mathrm{KCl}$, $\\mathrm{NaCl}$, and $\\mathrm{HCl}$, $\\Lambda_m$ increases linearly with $\\sqrt{c}$ at low concentrations and can be extrapolated to zero concentration to find $\\Lambda_m^\\circ$. For weak electrolytes like $\\mathrm{CH_3COOH}$, the plot is not linear and cannot be directly extrapolated, making the direct application of Kohlrausch's independent migration of ions necessary."
+    },
+    {
+      "ref": "CHEM-ELC-005",
+      "subtopic": "conductance-solutions",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A weak acid $\\mathrm{HA}$ has a $K_a$ of $1.0 \\times 10^{-5}$. If a $0.100\\ \\mathrm{mol\\ dm^{-3}}$ solution of this acid has a conductivity of $0.0015\\ \\mathrm{S\\ cm^{-1}}$, the molar conductivity (in $\\mathrm{S\\ cm^2\\ mol^{-1}}$) of this solution at infinite dilution is ____________.",
+      "image": null,
+      "answer": {
+        "min": 1500.0,
+        "max": 1500.0
+      },
+      "solution": "Concentration $C = 0.100\\ \\mathrm{M}$.\nConductivity $\\kappa = 0.0015\\ \\mathrm{S\\ cm^{-1}}$.\nMolar conductivity $\\Lambda_m = \\frac{1000 \\times \\kappa}{C} = \\frac{1000 \\times 0.0015}{0.1} = 15\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.\nSince $\\alpha = \\sqrt{\\frac{K_a}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-5}}{0.1}} = 0.01$.\nUsing $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^0}$, we get $\\Lambda_m^0 = \\frac{\\Lambda_m}{\\alpha} = \\frac{15}{0.01} = 1500\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$."
+    },
+    {
+      "ref": "CHEM-ELC-006",
+      "subtopic": "conductance-solutions",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The limiting molar conductivities of $\\mathrm{KCl}$, $\\mathrm{KNO}_3$, and $\\mathrm{AgNO}_3$ are $149.9$, $145.0$, and $133.4\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$ respectively at $298\\ \\mathrm{K}$. The limiting molar conductivity of $\\mathrm{AgCl}$ at this temperature is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$138.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$118.5\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$238.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$328.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "By Kohlrausch's law:\n$\\Lambda_m^\\circ(\\mathrm{AgCl}) = \\Lambda_m^\\circ(\\mathrm{AgNO}_3) + \\Lambda_m^\\circ(\\mathrm{KCl}) - \\Lambda_m^\\circ(\\mathrm{KNO}_3)$\n$\\Lambda_m^\\circ(\\mathrm{AgCl}) = 133.4 + 149.9 - 145.0 = 138.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$."
+    },
+    {
+      "ref": "CHEM-ELC-007",
+      "subtopic": "conductance-solutions",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The conductivity of $0.01\\ \\mathrm{M}$ acetic acid solution is $1.65 \\times 10^{-4}\\ \\mathrm{S\\ cm^{-1}}$. If the molar conductivity of acetic acid at infinite dilution is $390\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$, the degree of dissociation of acetic acid is _________ $\\times 10^{-2}$. (Round off to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Molar conductivity $\\Lambda_m = \\frac{\\kappa \\times 1000}{C} = \\frac{1.65 \\times 10^{-4} \\times 1000}{0.01} = 16.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$\nDegree of dissociation $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\infty} = \\frac{16.5}{390} \\approx 0.0423$\n$\\alpha = 4.23 \\times 10^{-2} \\approx 4 \\times 10^{-2}$."
     }
   ]
 }

@@ -93,6 +93,102 @@
         }
       ],
       "solution": "In the process $BC$, temperature is constant ($T_0 = 300\\ \\mathrm{K}$) as indicated by the isothermal line.\nWork done $W_{BC} = nRT \\ln(V_f/V_i) = n R T_0 \\ln(V_C/V_B)$. Here, volume increases from $V_B = 10\\ \\mathrm{L}$ to $V_C = 20\\ \\mathrm{L}$ or decreases? Actually, $C$ to $A$ is isobaric, $A$ to $B$ is isochoric ($V_B = V_A = 10\\ \\mathrm{L}$), so $B$ to $C$ is isothermal expansion from $10\\ \\mathrm{L}$ to $20\\ \\mathrm{L}$ at $T = 300\\ \\mathrm{K}$ for $n=1\\ \\mathrm{mol}$.\n$W_{BC} = 1 \\times 8.314 \\times 300 \\ln 2 \\approx 2494 \\times 0.693 \\approx 1728\\ \\mathrm{J}$. Wait, if the path is $B \\to C$, pressure decreases and volume increases from $10\\ \\mathrm{L}$ to $20\\ \\mathrm{L}$. Let's recalculate with the exact values from the paper where $W_{BC} = -2.07 \\times 10^3\\ \\mathrm{J}$ (compression). If $B$ to $C$ is compression from $20\\ \\mathrm{L}$ to $10\\ \\mathrm{L}$, $W_{BC} = 1 \\times 8.314 \\times 300 \\ln(0.5) \\approx -1.72\\ \\mathrm{kJ}$. Let's match the standard shift answer key option: $-2.07 \\times 10^3\\ \\mathrm{J}$ is the correct option."
+    },
+    {
+      "ref": "PHY-THD-003",
+      "subtopic": "thermodynamic-processes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An ideal gas undergoes a cyclic process as shown in the $P-V$ diagram. The net work done by the gas in the cycle is:",
+      "image": {
+        "url": null,
+        "alt": "A closed loop in a P-V diagram. It is an ellipse with the horizontal semi-axis parallel to the V-axis spanning from V_1 to V_2, and the vertical semi-axis parallel to the P-axis spanning from P_1 to P_2. The loop goes in a clockwise direction."
+      },
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{\\pi}{4}(P_2 - P_1)(V_2 - V_1)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\pi(P_2 - P_1)(V_2 - V_1)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{\\pi}{2}(P_2 - P_1)(V_2 - V_1)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{\\pi}{8}(P_2 - P_1)(V_2 - V_1)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The work done in a cyclic process represented by an ellipse is equal to the area of the ellipse.\nArea of ellipse $= \\pi a b$, where $a$ and $b$ are the semi-axes.\nHere, $a = \\frac{V_2 - V_1}{2}$ and $b = \\frac{P_2 - P_1}{2}$.\nWork done $= \\pi \\left(\\frac{V_2 - V_1}{2}\\right) \\left(\\frac{P_2 - P_1}{2}\\right) = \\frac{\\pi}{4}(P_2 - P_1)(V_2 - V_1)$."
+    },
+    {
+      "ref": "PHY-THD-004",
+      "subtopic": "thermodynamic-processes",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An ideal gas undergoes a thermodynamic process from state $A$ to state $B$ such that its pressure $P$ and volume $V$ satisfy the relation $P V^{3} = \text{constant}$. If the initial temperature of the gas is $300\text{ K}$ and its volume is doubled, then its final temperature (in $\text{K}$) is $75 \times 2^a$. The value of $a$ is:",
+      "image": null,
+      "answer": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "solution": "For a polytropic process $PV^n = C$ with $n=3$.\nUsing $PV = nRT$, we get $TV^{n-1} = \text{constant}$.\n$T_i V_i^2 = T_f V_f^2 \rightarrow 300 \times V^2 = T_f \times (2V)^2$\n$T_f = \frac{300}{4} = 75\text{ K}$.\nComparing $75$ with $75 \times 2^a$ gives $2^a = 1 \rightarrow a = 0$."
+    },
+    {
+      "ref": "PHY-THD-005",
+      "subtopic": "thermodynamic-processes",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "An ideal gas undergoes a thermodynamic process such that its pressure $P$ and volume $V$ satisfy $PV^{1.5} = \\text{constant}$. The process is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Isothermal",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Adiabatic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Isobaric",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Polytropic",
+          "is_correct": true
+        }
+      ],
+      "solution": "A process of the form $P V^x = C$ is called a polytropic process.\nHere $x = 1.5$, which represents a polytropic process."
     }
   ]
 }

@@ -1,0 +1,917 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Chemical Kinetics",
+    "slug": "chemical-kinetics",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 20
+  },
+  "subtopics": [
+    {
+      "slug": "integrated-rate-laws",
+      "name": "Integrated Rate Laws and Half-life",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-CKN-001",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first-order reaction, the time required for $99.9\\%$ completion is how many times the half-life ($t_{1/2}$) of the reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "5",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "10",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "20",
+          "is_correct": false
+        }
+      ],
+      "solution": "For first order reaction:\n$t = \\frac{2.303}{k} \\log\\frac{100}{100 - x}$\n$t_{99.9} = \\frac{2.303}{k} \\log\\frac{100}{0.1} = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k}$.\nSince $t_{1/2} = \\frac{0.693}{k} \\approx \\frac{2.303 \\log 2}{k} \\approx 0.3 \\times \\frac{2.303}{k}$.\nTherefore, $\\frac{t_{99.9}}{t_{1/2}} = \\frac{3}{0.3} = 10$."
+    },
+    {
+      "ref": "CHEM-CKN-002",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The rate constant of a first order reaction is $2.0 \\times 10^{-4}\\ \\mathrm{s^{-1}}$. If the initial concentration of the reactant is $0.10\\ \\mathrm{mol\\ L^{-1}}$, the concentration of the reactant remaining after $100\\ \\mathrm{minutes}$ is $x \\times 10^{-2}\\ \\mathrm{mol\\ L^{-1}}$. The value of $x$ is ____________. (Nearest integer)\n(Given: $e^{-1.2} = 0.301$)",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "For first order reaction, $[A]_t = [A]_0 e^{-kt}$.\n$k = 2.0 \\times 10^{-4}\\ \\mathrm{s^{-1}}$, $t = 100\\ \\mathrm{min} = 6000\\ \\mathrm{s}$.\n$kt = 2.0 \\times 10^{-4} \\times 6000 = 1.2$.\n$[A]_t = 0.10 \\times e^{-1.2} = 0.10 \\times 0.301 = 0.0301\\ \\mathrm{mol\\ L^{-1}} = 3.01 \\times 10^{-2}\\ \\mathrm{mol\\ L^{-1}}$.\nThus, $x \\approx 3$."
+    },
+    {
+      "ref": "CHEM-CKN-003",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A first-order reaction has a rate constant $k = 4.606 \\times 10^{-3}\\ \\mathrm{s}^{-1}$. The time required for the concentration of reactant to decrease from $2.0\\ \\mathrm{g}$ to $0.2\\ \\mathrm{g}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$200\\ \\mathrm{s}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$500\\ \\mathrm{s}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$1000\\ \\mathrm{s}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$100\\ \\mathrm{s}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a first-order reaction:\n$t = \\frac{2.303}{k} \\log\\left(\\frac{[A]_0}{[A]_t}\\right)$\n$t = \\frac{2.303}{4.606 \\times 10^{-3}} \\log\\left(\\frac{2.0}{0.2}\\right) = 0.5 \\times 10^3 \\log(10) = 500\\ \\mathrm{s}$."
+    },
+    {
+      "ref": "CHEM-CKN-004",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $50\\%$ completion is $30\\ \\mathrm{min}$ at $300\\ \\mathrm{K}$ and $10\\ \\mathrm{min}$ at $320\\ \\mathrm{K}$. The activation energy $E_a$ for the reaction is ___________ $\\mathrm{kJ\\ mol^{-1}}$. (Nearest integer)\n[Use: $R = 8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$, $\\ln 3 = 1.0986$]",
+      "image": null,
+      "answer": {
+        "min": 44.0,
+        "max": 44.0
+      },
+      "solution": "$k = \\frac{\\ln 2}{t_{1/2}} \\implies \\frac{k_2}{k_1} = \\frac{(t_{1/2})_1}{(t_{1/2})_2} = \\frac{30}{10} = 3$\nUsing Arrhenius equation: $\\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)$\n$1.0986 = \\frac{E_a}{8.314} \\left(\\frac{320-300}{300 \\times 320}\\right) = \\frac{E_a}{8.314} \\left(\\frac{20}{96000}\\right) = \\frac{E_a}{8.314 \\times 4800}$\n$E_a = 1.0986 \\times 8.314 \\times 4800 \\approx 43842.6\\ \\mathrm{J\\ mol^{-1}} \\approx 44\\ Cortical\\ \\mathrm{kJ\\ mol^{-1}}$."
+    },
+    {
+      "ref": "CHEM-CKN-005",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the time required for $90\\%$ completion of the reaction. The value of $x$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "3",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "4",
+          "is_correct": false
+        }
+      ],
+      "solution": "For first order reaction:\n$t_{99\\%} = \\frac{2.303}{k} \\log \\frac{100}{100-99} = \\frac{2.303}{k} \\log 100 = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log \\frac{100}{100-90} = \\frac{2.303}{k} \\log 10 = \\frac{2.303}{k} \\times 1$\nThus, $t_{99\\%} = 2 \\times t_{90\\%}$, so $x = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-006",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A first order reaction has a rate constant of $1.5 \\times 10^{-3}\\ \\mathrm{s^{-1}}$. The time required for $5\\ \\mathrm{g}$ of this reactant to reduce to $3\\ \\mathrm{g}$ is _________ $\\mathrm{s}$. (Round off to the nearest integer) [Given: $\\log_{10} 3 = 0.4771$, $\\log_{10} 5 = 0.6990$]",
+      "image": null,
+      "answer": {
+        "min": 341.0,
+        "max": 341.0
+      },
+      "solution": "For a first order reaction:\n$t = \\frac{2.303}{k} \\log \\left(\\frac{a_0}{a}\\right)$\n$t = \\frac{2.303}{1.5 \\times 10^{-3}} \\log \\left(\\frac{5}{3}\\right)$\n$t = \\frac{2303}{1.5} (0.6990 - 0.4771) = 1535.33 \\times 0.2219 \\approx 340.69 \\approx 341\\ \\mathrm{s}$."
+    },
+    {
+      "ref": "CHEM-CKN-007",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the half-life ($t_{1/2}$) of the reaction. The value of $x$ is approximately:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$10$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$6.6$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$4.6$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$3.3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For first order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-y}\\right)$.\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{4.606}{k}$.\n$t_{1/2} = \\frac{0.693}{k}$.\n$\\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.6$."
+    },
+    {
+      "ref": "CHEM-CKN-008",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first-order chemical reaction, the rate constant is $y\\ \\mathrm{s^{-1}}$. The time taken for the reactant concentration to decrease to $\\frac{1}{10}$th of its initial concentration is $\\frac{x}{y}$. The value of $x$ is _________ (Nearest integer).\n(Given: $\\ln 10 = 2.303$)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For a first-order reaction, $t = \\frac{1}{k} \\ln\\left(\\frac{A_0}{A_t}\\right)$.\nHere, $A_t = \\frac{A_0}{10}$ and $k = y\\ \\mathrm{s^{-1}}$.\n$t = \\frac{1}{y} \\ln(10) = \\frac{2.303}{y}$.\nGiven $t = \\frac{x}{y}$, we have $x = 2.303 \\approx 2$ (Nearest integer)."
+    },
+    {
+      "ref": "CHEM-CKN-009",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first-order reaction, the time required for $99\\%$ completion is about $x$ times the time required for $90\\%$ completion. The value of $x$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "10",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a first-order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100 - p}\\right)$.\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{10}\\right) = \\frac{2.303}{k} \\times 1$\nTherefore, $t_{99\\%} = 2 \\times t_{90\\%} \\implies x = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-010",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion is $x$ times the time required for $90\\%$ completion of the reaction. The value of $x$ is _______. (Nearest Integer)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For a first order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{a}{a-x}\\right)$\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99}\\right) = \\frac{2.303}{k} \\log(100) = 2 \\times \\frac{2.303}{k}$\n$t_{90\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-90}\\right) = \\frac{2.303}{k} \\log(10) = 1 \\times \\frac{2.303}{k}$\nTherefore, $t_{99\\%} / t_{90\\%} = 2$.\nThus, $x = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-011",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the half-life ($t_{1/2}$) of the reaction. The value of $x$ is (nearest integer):",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$5$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$7$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$10$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For first order kinetics:\n$t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-y}\\right)$\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{4.606}{k}$\n$t_{1/2} = \\frac{0.693}{k}$\n$x = \\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.65 \\approx 7$."
+    },
+    {
+      "ref": "CHEM-CKN-012",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the time taken for $50\\%$ completion is $30\\ \\mathrm{min}$ at $300\\ \\mathrm{K}$. If the activation energy of the reaction is $5.4\\ \\mathrm{kJ\\ mol^{-1}}$, the time taken for $50\\%$ completion at $350\\ \\mathrm{K}$ is _________ $\\mathrm{min}$. (Nearest integer)\n[Given: $R = 8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$, $\\ln 2 = 0.693$]",
+      "image": null,
+      "answer": {
+        "min": 22.0,
+        "max": 22.0
+      },
+      "solution": "For first order, $t_{1/2} = \\frac{\\ln 2}{k} \\implies \\frac{t_{1/2}(300\\ \\mathrm{K})}{t_{1/2}(350\\ \\mathrm{K})} = \\frac{k_{350}}{k_{300}}$.\nUsing Arrhenius equation: $\\ln\\left(\\frac{k_{350}}{k_{300}}\\right) = \\frac{E_a}{R}\\left(\\frac{1}{300} - \\frac{1}{350}\\right) = \\frac{5400}{8.314} \\times \\frac{50}{105000} \\approx 649.5\\ \\times 0.000476 = 0.3093$.\nTherefore, $\\frac{k_{350}}{k_{300}} = e^{0.3093} \\approx 1.3625$.\nThus, $t_{1/2}(350\\ \\mathrm{K}) = \\frac{30}{1.3625} \\approx 22.02\\ \\mathrm{min}$.\nRounding to the nearest integer gives 22."
+    },
+    {
+      "ref": "CHEM-CKN-013",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for completion of $99.9\\%$ is approximately how many times the half-life ($t_{1/2}$) of the reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "10",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "100",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "5",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "2",
+          "is_correct": false
+        }
+      ],
+      "solution": "$t_{99.9\\%} = \\frac{2.303}{k} \\log \\frac{100}{100 - 99.9} = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k} \\approx \\frac{6.909}{k}$.\n$t_{1/2} = \\frac{0.693}{k}$.\nDividing the two: $\\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{6.909}{0.693} \\approx 10$."
+    },
+    {
+      "ref": "CHEM-CKN-014",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A first order reaction has a rate constant $k = 3.38 \\times 10^{-2}\\ \\mathrm{s^{-1}}$ at $350\\ \\mathrm{K}$. The time required for $90\\%$ completion of this reaction is __________ seconds. (Nearest integer)\n(Given: $\\log_{10}(10) = 1.0$)",
+      "image": null,
+      "answer": {
+        "min": 68.0,
+        "max": 68.0
+      },
+      "solution": "For a first order reaction:\n$t = \\frac{2.303}{k} \\log_{10}\\left(\\frac{100}{100-90}\\right) = \\frac{2.303}{3.38 \\times 10^{-2}} \\log_{10}(10)$\n$t = \\frac{2.303}{0.0338} \\approx 68.13\\ \\mathrm{s}$\nRounding to the nearest integer, we get 68."
+    },
+    {
+      "ref": "CHEM-CKN-015",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first-order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the half-life ($t_{1/2}$) of the reaction. The value of $x$ is approximately :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$6.6$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$3.3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$10$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4.6$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$t_{99\\%} = \\frac{2.303}{k} \\log \\left(\\frac{100}{100-99}\\right) = \\frac{2.303}{k} \\log(100) = \\frac{4.606}{k}$.\n$t_{1/2} = \\frac{0.693}{k}$.\n$x = \\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.6$."
+    },
+    {
+      "ref": "CHEM-CKN-016",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99.9\\%$ completion is $x$ times the half-life ($t_{1/2}$) of the reaction. The value of $x$ is ________. (Nearest integer)\n[Given: $\\ln 2 = 0.693$, $\\ln 10 = 2.303$]",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "$t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100 - 99.9}\\right) = \\frac{2.303}{k} \\log(1000) = \\frac{2.303 \\times 3}{k} = \\frac{6.909}{k}$.\n$t_{1/2} = \\frac{0.693}{k}$.\n$x = \\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{6.909}{0.693} \\approx 10$."
+    },
+    {
+      "ref": "CHEM-CKN-017",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A first-order reaction has a rate constant $k = 1.15 \\times 10^{-3}\\ \\mathrm{s^{-1}}$. How long will $5\\ \\mathrm{g}$ of this reactant take to reduce to $3\\ \\mathrm{g}$? (Given: $\\log_{10} 5 = 0.6990$, $\\log_{10} 3 = 0.4771$)",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$444\\ \\mathrm{s}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$400\\ \\mathrm{s}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$222\\ \\mathrm{s}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$666\\ \\mathrm{s}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For first order reaction, $t = \\frac{2.303}{k} \\log_{10}\\left(\\frac{a}{a-x}\\right)$.\n$t = \\frac{2.303}{1.15 \\times 10^{-3}} \\log_{10}\\left(\\frac{5}{3}\\right) \\approx 2000 \\times (0.6990 - 0.4771)$\n$= 2000 \\times 0.2219 = 443.8\\ \\mathrm{s} \\approx 444\\ \\mathrm{s}$."
+    },
+    {
+      "ref": "CHEM-CKN-018",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99.9\\%$ completion of the reaction is _____ times the time required for $50\\%$ completion of the reaction. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "$t_{99.9\\%} = \\frac{2.303}{k} \\log \\left( \\frac{100}{100 - 99.9} \\right) = \\frac{2.303}{k} \\log(1000) = \\frac{3 \\times 2.303}{k}$.\n$t_{50\\%} = \\frac{2.303}{k} \\log(2) = \\frac{0.301 \\times 2.303}{k}$.\n$\\frac{t_{99.9\\%}}{t_{50\\%}} = \\frac{3}{0.301} \\approx 9.96 \\approx 10$."
+    },
+    {
+      "ref": "CHEM-CKN-019",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99.9\\%$ completion is about how many times the half-life ($t_{1/2}$) of the reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "10",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "5",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "20",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a first order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{a}{a-x}\\right)$.\nFor $99.9\\%$ completion, $t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99.9}\\right) = \\frac{2.303}{k} \\log(1000) = \\frac{3 \\times 2.303}{k}$.\nHalf-life $t_{1/2} = \\frac{0.693}{k} = \\frac{2.303 \\log(2)}{k} \\approx \\frac{0.301 \\times 2.303}{k}$.\nDividing the two equations gives $\\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{3}{0.301} \\approx 10$."
+    },
+    {
+      "ref": "CHEM-CKN-020",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The half-life for the decomposition of gaseous compound $A$ is $240\\ \\mathrm{s}$ when the gaseous pressure is $500\\ \\mathrm{Torr}$. When the pressure is $250\\ \\mathrm{Torr}$, the half-life is $4.0\\ \\mathrm{min}$. The order of the reaction is _________.",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "We know $t_{1/2} \\propto P_0^{1-n}$.\n$t_{1/2}^{(1)} = 240\\ \\mathrm{s}$ at $P_0^{(1)} = 500\\ \\mathrm{Torr}$.\n$t_{1/2}^{(2)} = 4.0\\ \\mathrm{min} = 240\\ \\mathrm{s}$ at $P_0^{(2)} = 250\\ \\mathrm{Torr}$.\nSince the half-life remains unchanged ($240\\ \\mathrm{s}$) when the initial pressure is halved, $t_{1/2}$ is independent of initial pressure.\nThus, $1-n = 0 \\implies n = 1$."
+    },
+    {
+      "ref": "CHEM-CKN-021",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first-order reaction, the time required for $99\\%$ completion is about how many times the time required for $90\\%$ completion of the reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$4$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$10$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For first-order kinetics:\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99}\\right) = \\frac{2.303}{k} \\log(100) = 2 \\times \\frac{2.303}{k}$\n$t_{90\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-90}\\right) = \\frac{2.303}{k} \\log(10) = 1 \\times \\frac{2.303}{k}$\nThus, $t_{99\\%} / t_{90\\%} = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-022",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion is _________ times the time required for $90\\%$ completion of the reaction. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "$t_{99\\%} = \\frac{2.303}{k}\\log\\left(\\frac{100}{100-99}\\right) = \\frac{2.303}{k}\\log(100) = 2 \\times \\frac{2.303}{k}$\n$t_{90\\%} = \\frac{2.303}{k}\\log\\left(\\frac{100}{100-90}\\right) = \\frac{2.303}{k}\\log(10) = 1 \\times \\frac{2.303}{k}$\nThus, $t_{99\\%} / t_{90\\%} = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-023",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion is about $x$ times the time required for $90\\%$ completion. The value of $x$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "10",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "5",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "2",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "3",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a first-order reaction:\n$t = \\frac{2.303}{k} \\log \\frac{100}{100-a}$\n$t_{99\\%} = \\frac{2.303}{k} \\log \\frac{100}{1} = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log \\frac{100}{10} = \\frac{2.303}{k} \\times 1$\nTherefore, $t_{99\\%} = 2 \\times t_{90\\%}$, so $x = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-024",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first order reaction, the ratio of the time taken for $75\\%$ completion to the time taken for $25\\%$ completion of the reaction is $x \\times 10^{-1}$. The value of $x$ is _________. (Nearest integer) [Use: $\\log_{10} 2 = 0.30$, $\\log_{10} 3 = 0.48$]",
+      "image": null,
+      "answer": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "solution": "For first order kinetics: $t = \\frac{2.303}{k} \\log_{10}\\left(\\frac{100}{100-y}\\right)$\n$t_{75\\%} = \\frac{2.303}{k} \\log_{10}\\left(\\frac{100}{25}\\right) = \\frac{2.303}{k} \\log_{10}(4)$\n$t_{25\\%} = \\frac{2.303}{k} \\log_{10}\\left(\\frac{100}{75}\\right) = \\frac{2.303}{k} \\log_{10}(1.33)$\nRatio $\\frac{t_{75\\%}}{t_{25\\%}} = \\frac{\\log 4}{\\log (4/3)} = \\frac{2\\log 2}{2\\log 2 - \\log 3} = \\frac{0.60}{0.60 - 0.48} = \\frac{0.60}{0.12} = 5$.\nGiven ratio $= x \\times 10^{-1} = 5 \\implies x = 50$."
+    },
+    {
+      "ref": "CHEM-CKN-025",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first-order reaction, the time required for $99\\%$ completion is how many times the half-life ($t_{1/2}$) of the reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2.33$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$6.64$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$10$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4.6$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a first-order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100 - x}\\right)$.\nFor $99\\%$ completion: $t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{4.606}{k}$.\nHalf-life $t_{1/2} = \\frac{0.693}{k}$.\nRatio: $\\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.64$."
+    },
+    {
+      "ref": "CHEM-CKN-026",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion is $x$ times the time required for $90\\%$ completion of the reaction. The value of $x$ is ________. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For a first-order reaction, $t = \\frac{2.303}{k} \\log\\frac{100}{100 - p}$.\nFor $99\\%$ completion: $t_{99\\%} = \\frac{2.303}{k} \\log\\frac{100}{1} = \\frac{2.303}{k} \\times 2$.\nFor $90\\%$ completion: $t_{90\\%} = \\frac{2.303}{k} \\log\\frac{100}{10} = \\frac{2.303}{k} \\times 1$.\nTherefore, $t_{99\\%} / t_{90\\%} = 2$, so $x = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-027",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the ratio of time required for $99.9\\%$ completion to the time required for $50\\%$ completion of the reaction is approximately:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "10",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "5",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "4",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a first order reaction:\n$t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99.9}\\right) = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k}$\n$t_{50\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{50}\\right) = \\frac{2.303}{k} \\log(2) \\approx 0.3 \\times \\frac{2.303}{k}$\n$\\frac{t_{99.9\\%}}{t_{50\\%}} = \\frac{3}{0.301} \\approx 10$."
+    },
+    {
+      "ref": "CHEM-CKN-028",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the ratio of time taken for $75\\%$ completion to that of $50\\%$ completion is _______ . (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For a first order reaction, the half-life $t_{50\\%} = \\frac{\\ln 2}{k}$.\nThe time for $75\\%$ completion $t_{75\\%}$ is equivalent to two half-lives because $100\\% \\to 50\\% \\to 25\\%$.\nThus, $t_{75\\%} = 2 \\times t_{50\\%}$.\nThe ratio $\\frac{t_{75\\%}}{t_{50\\%}} = 2$."
+    },
+    {
+      "ref": "CHEM-CKN-029",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a first-order reaction, the time required for $99.9\\%$ completion is approximately how many times the half-life ($t_{1/2}$) of the reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2 times",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "5 times",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "10 times",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "20 times",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a first-order reaction, $t = \\frac{2.303}{k} \\log \\left( \\frac{100}{100 - x} \\right)$.\nFor $99.9\\%$ completion:\n$t_{99.9\\%} = \\frac{2.303}{k} \\log \\left( \\frac{100}{0.1} \\right) = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k}$.\nSince $t_{1/2} = \\frac{0.693}{k} \\approx \\frac{2.303 \\log 2}{k} \\approx 0.301 \\times \\frac{2.303}{k}$,\n$t_{99.9\\%} \\approx \\frac{3}{0.301} \\times t_{1/2} \\approx 10\\, t_{1/2}$."
+    },
+    {
+      "ref": "CHEM-CKN-030",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A first order reaction has a rate constant $1.15 \\times 10^{-3}\\text{ s}^{-1}$. How many seconds will it take for $5\\text{ g}$ of this reactant to reduce to $3\\text{ g}$? [Given: $\\log_{10} 5 = 0.699$, $\\log_{10} 3 = 0.4771$]",
+      "image": null,
+      "answer": {
+        "min": 444.0,
+        "max": 444.0
+      },
+      "solution": "For first order kinetics: $t = \\frac{2.303}{k} \\log_{10}\\left(\\frac{a}{a-x}\\right)$.\n$t = \\frac{2.303}{1.15 \\times 10^{-3}} \\log_{10}\\left(\\frac{5}{3}\\right) = 2002.6 \\times (0.6990 - 0.4771) = 2002.6 \\times 0.2219 = 444.38\\text{ s}$.\nRounding to the nearest integer, we get 444."
+    },
+    {
+      "ref": "CHEM-CKN-031",
+      "subtopic": "integrated-rate-laws",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first-order reaction, the time required for $99.9\\%$ completion of the reaction is approximately how many times the half-life ($t_{1/2}$) of the reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2 times",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "5 times",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "10 times",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "100 times",
+          "is_correct": false
+        }
+      ],
+      "solution": "$t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99.9}\\right) = \\frac{2.303}{k} \\log(10^3) = 3 \\cdot \\frac{2.303}{k}$.\n$t_{1/2} = \\frac{0.693}{k} = \\frac{2.303 \\log(2)}{k} \\approx 0.301 \\cdot \\frac{2.303}{k}$.\n$\\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{3}{0.301} \\approx 10$."
+    },
+    {
+      "ref": "CHEM-CKN-032",
+      "subtopic": "integrated-rate-laws",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "For a first order reaction, the time required for $99\\%$ completion is $x$ times the time required for the completion of $90\\%$ of the reaction. The value of $x$ is _________. (Round off to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For first order kinetics: $t = \\frac{2.303}{k} \\log\\frac{100}{100 - a\\%}$.\n$t_{99\\%} = \\frac{2.303}{k} \\log\\frac{100}{1} = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log\\frac{100}{10} = \\frac{2.303}{k} \\times 1$\nTherefore, $t_{99\\%} = 2 \\times t_{90\\%}$.\nThus, $x = 2$."
+    }
+  ]
+}

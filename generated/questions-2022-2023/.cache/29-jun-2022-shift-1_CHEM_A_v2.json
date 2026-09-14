@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is not a common component of photochemical smog?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Ozone",
+   "Acrolein",
+   "Peroxyacetyl nitrate",
+   "Chlorofluorocarbons"
+  ],
+  "sol": "Photochemical smog consists of oxidizing agents like ozone ($O_3$), acrolein ($CH_2=CHCHO$), formaldehyde, and peroxyacetyl nitrate (PAN). Chlorofluorocarbons (CFCs) are primary pollutants responsible for ozone depletion in the stratosphere, not components of photochemical smog in the troposphere.",
+  "key": "D",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The formula of the complex ion which can show optical isomerism is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$cis-[Co(en)_2Cl_2]^+$",
+   "$trans-[Co(en)_2Cl_2]^+$",
+   "$trans-[Co(NH_3)_4Cl_2]^+$",
+   "$[Co(NH_3)_3Cl_3]$"
+  ],
+  "sol": "The $trans-[Co(en)_2Cl_2]^+$ isomer possesses a plane of symmetry and a center of symmetry, rendering it optically inactive. The $cis-[Co(en)_2Cl_2]^+$ isomer lacks a plane of symmetry (unsymmetrical bidentate arrangements) and is chiral, thus exhibiting optical isomerism.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The elevation of boiling point of $0.10\text{ m}$ aqueous solution of two urea solutions $A$ and $B$ were found to be in the ratio $1 : 1.8$. If $A$ is a non-electrolyte and $B$ is a weak electrolyte, the degree of dissociation ($\\alpha$) of $B$ which dissociates into two ions is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "0.18",
+   "0.80",
+   "0.50",
+   "0.08"
+  ],
+  "sol": "For solution A (non-electrolyte, $i_A = 1$): $\\Delta T_{b,A} = K_b \\times m$. \nFor solution B (electrolyte dissociating into 2 ions, $i_B = 1 + \\alpha$): $\\Delta T_{b,B} = i_B \\times K_b \\times m$. \nGiven $\\frac{\\Delta T_{b,A}}{\\Delta T_{b,B}} = \\frac{1}{1.8} = \\frac{1}{1 + \\alpha}$. \nThus, $1 + \\alpha = 1.8 \\implies \\alpha = 0.80$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "The energy of an electron in the first Bohr orbit of hydrogen atom is $-2.18 \\times 10^{-18}\\text{ J}$. The energy of an electron in the third Bohr orbit of $\\text{He}^+$ ion is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-1.21 \\times 10^{-18}\\text{ J}$",
+   "$-9.69 \\times 10^{-19}\\text{ J}$",
+   "$-1.94 \\times 10^{-18}\\text{ J}$",
+   "$-4.84 \\times 10^{-19}\\text{ J}$"
+  ],
+  "sol": "Energy of an electron in hydrogen-like species is given by $E_n = E_1 \\times \\frac{Z^2}{n^2}$.\nFor $\\text{He}^+$, $Z = 2$ and the orbit is $n = 3$.\n$E_3 = -2.18 \\times 10^{-18} \\times \\frac{2^2}{3^2} = -2.18 \\times 10^{-18} \\times \\frac{4}{9} \\approx -9.69 \\times 10^{-19}\\text{ J}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Amongst $\\text{Be}_2$, $\\text{B}_2$, $\\text{C}_2$, and $\\text{N}_2$, the paramagnetic species is/are:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{Be}_2$ and $\\text{B}_2$ only",
+   "$\\text{B}_2$ only",
+   "$\\text{B}_2$ and $\\text{C}_2$ only",
+   "$\\text{C}_2$ and $\\text{N}_2$ only"
+  ],
+  "sol": "According to Molecular Orbital Theory:\n- $\\text{Be}_2$ ($8\\text{ e}^-$): $\\sigma1s^2 \\sigma^*1s^2 \\sigma2s^2 \\sigma^*2s^2$ (diamagnetic).\n- $\\text{B}_2$ ($10\\text{ e}^-$): $\\sigma1s^2 \\sigma^*1s^2 \\sigma2s^2 \\sigma^*2s^2 (\\pi2p_x^1 = \\pi2p_y^1)$ (paramagnetic with two unpaired electrons).\n- $\\text{C}_2$ ($12\\text{ e}^-$): $\\dots (\\pi2p_x^2 = \\pi2p_y^2)$ (diamagnetic).\n- $\\text{N}_2$ ($14\\text{ e}^-$): $\\dots (\\pi2p_x^2 = \\pi2p_y^2) \\sigma2p_z^2$ (diamagnetic).",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "The metal that produces hydrogen gas upon treatment with both acid as well as base is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Iron (Fe)",
+   "Copper (Cu)",
+   "Zinc (Zn)",
+   "Magnesium (Mg)"
+  ],
+  "sol": "Zinc is an amphoteric metal. It reacts with dilute non-oxidizing acids (like $\\text{HCl}$) to form $\\text{Zn}^{2+}$ and $\\text{H}_2$ gas, and also reacts with strong alkalis (like $\\text{NaOH}$) to form sodium zincate ($\\text{Na}_2\\text{ZnO}_2$) and $\\text{H}_2$ gas.",
+  "key": "C",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction of Metals",
+  "conf": "exact",
+  "stem": "Which of the following reaction is used in the preparation of 'Bubble-free copper' or 'Blister copper'?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2$",
+   "$\\text{CuO} + \\text{CO} \\rightarrow \\text{Cu} + \\text{CO}_2$",
+   "$\\text{Cu}^{2+} + \\text{Fe} \\rightarrow \\text{Cu} + \\text{Fe}^{2+}$",
+   "$2\\text{CuFeS}_2 + 4\\text{O}_2 \\rightarrow \\text{Cu}_2\\text{S} + 2\\text{FeO} + 3\\text{SO}_2$"
+  ],
+  "sol": "Blister copper is produced during the self-reduction of copper sulfide with copper oxide in the Bessemer converter: \n$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2\\uparrow$. \nThe escaping bubbles of $\\text{SO}_2$ gas leave blisters on the surface of the solidified copper.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "The correct order of Lewis acid strength of boron trihalides is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{BF}_3 > \\text{BCl}_3 > \\text{BBr}_3 > \\text{BI}_3$",
+   "$\\text{BF}_3 < \\text{BCl}_3 < \\text{BBr}_3 < \\text{BI}_3$",
+   "$\\text{BF}_3 > \\text{BBr}_3 > \\text{BCl}_3 > \\text{BI}_3$",
+   "$\\text{BF}_3 < \\text{BBr}_3 < \\text{BCl}_3 < \\text{BI}_3$"
+  ],
+  "sol": "Due to $p\\pi-p\\pi$ back-bonding from the filled halogen $p$-orbitals to the vacant $p$-orbital of boron, the electron deficiency of boron decreases. The back-bonding is most effective in $\\text{BF}_3$ ($2p-2p$ overlap) and least effective in $\\text{BI}_3$ ($2p-5p$ overlap). Thus, $\\text{BI}_3$ is the strongest Lewis acid.",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The molar conductances of $\\text{NaCl}$, $\\text{HCl}$ and $\\text{CH}_3\\text{COONa}$ at infinite dilution are $126.4$, $425.9$ and $91.0\\text{ S cm}^2\\text{ mol}^{-1}$ respectively. The molar conductance of $\\text{CH}_3\\text{COOH}$ at infinite dilution is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$390.5\\text{ S cm}^2\\text{ mol}^{-1}$",
+   "$461.3\\text{ S cm}^2\\text{ mol}^{-1}$",
+   "$208.5\\text{ S cm}^2\\text{ mol}^{-1}$",
+   "$291.8\\text{ S cm}^2\\text{ mol}^{-1}$"
+  ],
+  "sol": "Using Kohlrausch's law:\n$\\Lambda_m^\\circ(\\text{CH}_3\\text{COOH}) = \\Lambda_m^\\circ(\\text{CH}_3\\text{COONa}) + \\Lambda_m^\\circ(\\text{HCl}) - \\Lambda_m^\\circ(\\text{NaCl})$\n$\\Lambda_m^\\circ(\\text{CH}_3\\text{COOH}) = 91.0 + 425.9 - 126.4 = 390.5\\text{ S cm}^2\\text{ mol}^{-1}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws",
+  "conf": "exact",
+  "stem": "For a first order reaction, the time required for $99\\%$ completion is about $x$ times the time required for $90\\%$ completion. The value of $x$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "10",
+   "5",
+   "2",
+   "3"
+  ],
+  "sol": "For a first-order reaction:\n$t = \\frac{2.303}{k} \\log \\frac{100}{100-a}$\n$t_{99\\%} = \\frac{2.303}{k} \\log \\frac{100}{1} = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log \\frac{100}{10} = \\frac{2.303}{k} \\times 1$\nTherefore, $t_{99\\%} = 2 \\times t_{90\\%}$, so $x = 2$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "The Lanthanoids",
+  "conf": "exact",
+  "stem": "Which of the following Lanthanoid ions is diamagnetic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{Ce}^{2+}$",
+   "$\\text{Sm}^{2+}$",
+   "$\\text{Yb}^{2+}$",
+   "$\\text{Eu}^{2+}$"
+  ],
+  "sol": "The electronic configurations of the given divalent ions are:\n- $\\text{Ce}^{2+} (Z=58)$: $[\\text{Xe}] 4f^2$\n- $\\text{Sm}^{2+} (Z=62)$: $[\\text{Xe}] 4f^6$\n- $\\text{Eu}^{2+} (Z=63)$: $[\\text{Xe}] 4f^7$\n- $\\text{Yb}^{2+} (Z=70)$: $[\\text{Xe}] 4f^{14}$ (fully filled $f$-orbital, no unpaired electrons, diamagnetic).",
+  "key": "C",
+  "diff": 4,
+  "secs": 50
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Their Classification",
+  "conf": "exact",
+  "stem": "Which of the following is a broad spectrum antibiotic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Chloramphenicol",
+   "Penicillin G",
+   "Aniline",
+   "Aspirin"
+  ],
+  "sol": "Chloramphenicol is a well-known broad-spectrum antibiotic that is effective against a wide range of Gram-positive and Gram-negative bacteria. Penicillin G is a narrow-spectrum antibiotic.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of which vitamin causes increased fragility of red blood cells and muscular weakness?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin E",
+   "Vitamin K"
+  ],
+  "sol": "Vitamin E deficiency leads to increased fragility of RBCs and muscular weakness, and it acts as an important antioxidant in cell membranes.",
+  "key": "C",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a biodegradable polymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Nylon 6,6",
+   "PHBV",
+   "Terylene",
+   "Buna-S"
+  ],
+  "sol": "PHBV (Poly- $\\beta$-hydroxybutyrate-co-$\\beta$-hydroxyvalerate) is a biodegradable copolymer used in specialty packaging, orthopedic devices, and controlled drug release.",
+  "key": "B",
+  "diff": 2,
+  "secs": 20
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "The correct order of increasing basic strength of the following compounds is:\n\n(I) Aniline\n(II) $p$-Nitroaniline\n(III) $p$-Toluidine",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "II < I < III",
+   "I < II < III",
+   "III < I < II",
+   "II < III < I"
+  ],
+  "sol": "Electron-donating groups like $-\\text{CH}_3$ in $p$-toluidine (III) increase the electron density on nitrogen, making it more basic than aniline (I). Electron-withdrawing groups like $-\\text{NO}_2$ in $p$-nitroaniline (II) decrease the basicity via resonance and inductive effects. Thus, the order is II < I < III.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "The correct order of reactivity of the following alkyl halides towards $S_N2$ reaction is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1-Bromobutane > 2-Bromobutane > 2-Bromo-2-methylpropane",
+   "2-Bromo-2-methylpropane > 2-Bromobutane > 1-Bromobutane",
+   "1-Bromobutane > 2-Bromo-2-methylpropane > 2-Bromobutane",
+   "2-Bromobutane > 1-Bromobutane > 2-Bromo-2-methylpropane"
+  ],
+  "sol": "$S_N2$ reactivity depends primarily on steric hindrance around the carbon bearing the leaving group. The order of steric hindrance is Primary ($1^\\circ$) < Secondary ($2^\\circ$) < Tertiary ($3^\\circ$). Therefore, the reactivity order is: 1-bromobutane ($1^\\circ$) > 2-bromobutane ($2^\\circ$) > 2-bromo-2-methylpropane ($3^\\circ$).",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "In the Lassaigne's test for detection of nitrogen in an organic compound, the appearance of Prussian blue color is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{Fe}_4[\\text{Fe(CN)}_6]_3$",
+   "$\\text{Na}_4[\\text{Fe(CN)}_6]$",
+   "$\\text{Fe}[\\text{Fe(CN)}_6]$",
+   "$\\text{Na}_3[\\text{Fe(CN)}_5\\text{NOS}]$"
+  ],
+  "sol": "During the Lassaigne's test, sodium fusion extract containing $\\text{NaCN}$ is treated with $\\text{FeSO}_4$ and acidified with $\\text{HCl}$. The resulting ferric ions react with ferrocyanide to form Prussian blue coloured complex, Ferriferrocyanide: $\\text{Fe}_4[\\text{Fe(CN)}_6]_3$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 35
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Which of the following compounds will not give a yellow precipitate with iodine and sodium hydroxide?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Pentanoic acid",
+   "Pentan-2-one",
+   "Ethanol",
+   "Acetophenone"
+  ],
+  "sol": "The iodoform test (treatment with $\\text{I}_2/\\text{NaOH}$) is positive for compounds containing a $\\text{CH}_3\\text{CO}-$ group or a $\\text{CH}_3\\text{CH(OH)}-$ group. Pentan-2-one, ethanol (oxidized to acetaldehyde), and acetophenone contain these units and give a yellow precipitate of $\\text{CHI}_3$. Pentanoic acid does not undergo the iodoform reaction.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "Propyne on hydration in the presence of $1\\%\\ \\text{HgSO}_4$ and dilute $\\text{H}_2\\text{SO}_4$ gives:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propan-2-one",
+   "Propanal",
+   "Propanol",
+   "Propanoic acid"
+  ],
+  "sol": "Hydration of propyne ($\\text{CH}_3\\text{C}\\equiv\\text{CH}$) follows Markovnikov's rule to give an unstable enol intermediate: $\\text{CH}_3-\\text{C(OH)}=\\text{CH}_2$, which tautomerizes to the more stable keto form, propan-2-one (acetone).",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\text{PCl}_5(g) \\rightleftharpoons \\text{PCl}_3(g) + \\text{Cl}_2(g)$$\nthe forward reaction is favored by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing the pressure",
+   "Adding inert gas at constant volume",
+   "Adding inert gas at constant pressure",
+   "Decreasing the temperature (assuming endothermic)"
+  ],
+  "sol": "The dissociation of $\\text{PCl}_5$ is endothermic and involves an increase in the number of moles of gas ($\\Delta n_g = 1 > 0$). Under constant pressure conditions, adding an inert gas increases the total volume, shifting the equilibrium towards the side with more moles of gas (forward direction).",
+  "key": "C",
+  "diff": 4,
+  "secs": 50
+ }
+]

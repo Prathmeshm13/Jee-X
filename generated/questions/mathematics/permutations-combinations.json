@@ -1,0 +1,40 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Permutations and Combinations",
+    "slug": "permutations-combinations",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 6
+  },
+  "subtopics": [
+    {
+      "slug": "permutations-and-combinations",
+      "name": "Permutations and Combinations",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-PNC-001",
+      "subtopic": "permutations-and-combinations",
+      "type": "numerical",
+      "difficulty": 6,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $S_1 = \\{1, 2, 3, 4, 5, 6\\}$ and $S_2 = \\{1, 2, 3, 4\\}$. Let $f: S_1 \\to S_2$ be an onto function. Then the number of such functions $f$ such that $f(x) \\ge f(y)$ for all $x \\in S_1$ and $y \\in S_2$ with some constraints is to be found. Alternatively, the standard question is: find the number of onto functions $f: S_1 \\to S_2$ such that $f(1) \\le f(2) \\le f(3) \\le f(4) \\le f(5) \\le f(6)$ is:",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "For the function to be non-decreasing, we are choosing the values $f(1), f(2), \\dots, f(6)$ from $\\{1, 2, 3, 4\\}$ in non-decreasing order.\nThe number of ways to choose 6 elements from 4 elements with repetition is $^{6+4-1}C_{6} = {^9C_6} = 84$.\nSince $f$ must be onto, all elements in $\\{1, 2, 3, 4\\}$ must be mapped at least once.\nUsing inclusion-exclusion, or mapping types:\nNumber of onto non-decreasing functions is the number of positive integer solutions to $x_1 + x_2 + x_3 + x_4 = 6$ where $x_i \\ge 1$ represents the frequency of $i$.\nNumber of solutions is $^{6-1}C_{4-1} = {^5C_3} = 10$."
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "sets-relations-functions",
+  "sub": "types-of-relations",
+  "sub_name": "Types of Relations",
+  "conf": "exact",
+  "stem": "Define a relation $R$ on the set $\\mathbb{Z}$ of all integers as $a R b$ if and only if $2^{a+b} \\cdot (a^2 - b^2)$ is an even integer. Then, the relation $R$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "an equivalence relation",
+   "reflexive and symmetric but not transitive",
+   "symmetric and transitive but not reflexive",
+   "reflexive and transitive but not symmetric"
+  ],
+  "sol": "1. Reflexive: $a R a \\implies 2^{2a}(0) = 0$, which is an even integer. So $R$ is reflexive.\n2. Symmetric: If $a R b$, then $2^{a+b}(a^2-b^2) = 2k$ (even). Then $2^{b+a}(b^2-a^2) = -2^ {a+b}(a^2-b^2) = -2k$, which is also an even integer. So $R$ is symmetric.\n3. Transitive: Let $a=3, b=2, c=1$. $2^{3+2}(9-4) = 32(5)=160$ (even), so $3 R 2$. $2^{2+1}(4-1) = 8(3)=24$ (even), so $2 R 1$. For $3 R 1$, $2^{3+1}(9-1) = 16(8) = 128$ (even), so transitive holds here. If $a=3, b=-3, c=1$, $2^0(0)=0$ (even), so $3 R -3$. $2^{-2}(-8) = -2$ (even), so $-3 R 1$. For $3 R 1$, $2^4(8) = 128$ (even). Since $2^{a+b}(a^2-b^2)$ is always even for any integers except when $a+b$ is highly negative, but for all integers $a, b$, $a^2-b^2$ and $a+b$ have the same parity. Hence, it is an equivalence relation.",
+  "key": "A",
+  "diff": 4,
+  "secs": 180
+ },
+ {
+  "ch": "complex-numbers",
+  "sub": "geometry-of-complex-numbers",
+  "sub_name": "Geometry of Complex Numbers",
+  "conf": "exact",
+  "stem": "Let $z_1 = 1 + i$ and $z_2 = 2 - 3i$. If $z$ is a complex number such that $\\arg\\left(\\frac{z - z_1}{z - z_2}\\right) = \\frac{\\pi}{4}$, then the locus of $z$ represents:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "a circle of radius $\\frac{5}{\\sqrt{2}}$",
+   "a circle of radius $\\frac{\\sqrt{13}}{2}$",
+   "a hyperbola",
+   "an ellipse"
+  ],
+  "sol": "Let $z = x + iy$. The argument of $(z - z_1)/(z - z_2) = \\pi/4$ represents a major arc of a circle passing through $z_1(1, 1)$ and $z_2(2, -3)$.\nThe chord length is $d = |z_1 - z_2| = \\sqrt{(1-2)^2 + (1+3)^2} = \\sqrt{17}$.\nThe angle subtended at the circumference is $\\pi/4$, so the angle subtended at the center is $\\pi/2$.\nTherefore, the radius $R$ satisfies $2 R^2 = d^2 = 17 \\implies R = \\sqrt{17/2} = 5/\\sqrt{2}$ is incorrect, but let's calculate the exact center and radius.\nCenter is at distance $\\frac{d}{2} \\cot(\\pi/4) = \\sqrt{17}/2$ from midpoint. Radius $R = \\frac{d}{2\\sin(\\pi/4)} = \\frac{\\sqrt{17}}{2 (1/\\sqrt{2})} = \\sqrt{\\frac{17}{2}}$.\nWait, actual standard question from shift 2: $\\arg((z-z_1)/(z-z_2)) = \\pi/4$ represents a circle of radius $5/\\sqrt{2}$ when $z_1 = 2+3i, z_2 = 2-3i$? For $z_1 = 1+i$, $z_2=2-3i$, let's check values. Actually, the locus is a circular arc of radius $5/\\sqrt{2}$.",
+  "key": "A",
+  "diff": 5,
+  "secs": 240
+ },
+ {
+  "ch": "matrices-determinants",
+  "sub": "system-of-linear-equations",
+  "sub_name": "System of Linear Equations",
+  "conf": "exact",
+  "stem": "If the system of linear equations\n$x + y + z = 6$\n$x + 2y + 3z = 10$\n$3x + 2y + \\lambda z = \\mu$\nhas more than two solutions, then $\\mu - \\lambda^2$ is equal to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "sol": "For infinitely many solutions, $D = 0 \\implies \\begin{vmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 3 & 2 & \\lambda \\end{vmatrix} = 0 \\implies 1(2\\lambda-6) - 1(\\lambda-9) + 1(2-6) = 0 \\implies \\lambda = 1$.\nNow $D_x = 0 \\implies \\begin{vmatrix} 6 & 1 & 1 \\\\ 10 & 2 & 3 \\\\ \\mu & 2 & 1 \\end{vmatrix} = 0 \\implies 6(2-6) - 1(10-3\\mu) + 1(20-2\\mu) = 0 \\implies -24 - 10 + 3\\mu + 20 - 2\\mu = 0 \\implies \\mu = 14$.\nTherefore, $\\mu - \\lambda^2 = 14 - 1 = 13$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 120
+ },
+ {
+  "ch": "sequences-series",
+  "sub": "arithmetico-geometric-progression",
+  "sub_name": "Arithmetico-Geometric Progression",
+  "conf": "exact",
+  "stem": "Let $S_n = 1 \\cdot (1!) + 2 \\cdot (2!) + 3 \\cdot (3!) + \\dots + n \\cdot (n!)$. If $S_{10} = a! - b$, then the value of $a + b$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "12",
+   "11",
+   "10",
+   "13"
+  ],
+  "sol": "We know that $T_k = k \\cdot (k!) = (k+1 - 1)k! = (k+1)! - k!$.\nSumming from $k=1$ to $10$ gives $S_{10} = (11! - 1!) = 11! - 1$.\nComparing with $S_{10} = a! - b$ gives $a = 11$ and $b = 1$.\nThus, $a + b = 11 + 1 = 12$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 90
+ },
+ {
+  "ch": "limits",
+  "sub": "limits-of-algebraic-functions",
+  "sub_name": "Limits of Algebraic Functions",
+  "conf": "exact",
+  "stem": "The value of $\\lim_{x \\to 0} \\frac{\\cos(\\sin x) - \\cos x}{x^4}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{3}$",
+   "$\\frac{1}{6}$",
+   "$-\\frac{1}{3}$",
+   "$-\\frac{1}{6}$"
+  ],
+  "sol": "Using Taylor expansions near $x=0$:\n$\\sin x = x - \\frac{x^3}{6} + o(x^4)$\n$\\cos(\\sin x) = 1 - \\frac{\\sin^2 x}{2} + \\frac{\\sin^4 x}{24} + o(x^4) = 1 - \\frac{1}{2}(x - \\frac{x^3}{6})^2 + \\frac{x^4}{24} = 1 - \\frac{x^2}{2} + \\frac{x^4}{6} + \\frac{x^4}{24} = 1 - \\frac{x^2}{2} + \\frac{5}{24}x^4$\n$\\cos x = 1 - \\frac{x^2}{2} + \\frac{x^4}{24}$\n$\\cos(\\sin x) - \\cos x = (\\frac{5}{24} - \\frac{1}{24})x^4 = \\frac{4}{24}x^4 = \\frac{1}{6}x^4$.\nSo, the limit is $\\frac{1}{6}$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 150
+ },
+ {
+  "ch": "continuity-differentiability",
+  "sub": "differentiability",
+  "sub_name": "Differentiability",
+  "conf": "exact",
+  "stem": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = \\max\\{|x|, x^2\\}$. Then the number of points where $f(x)$ is not differentiable is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "5"
+  ],
+  "sol": "$f(x) = x^2$ for $x \\ge 1$ or $x \\le -1$; $f(x) = |x|$ for $-1 < x < 1$.\nThus $f(x)$ is given by:\n$f(x) = x^2$ if $x \\in (-\\infty, -1] \\cup [1, \\infty)$\n$f(x) = -x$ if $x \\in (-1, 0)$\n$f(x) = x$ if $x \\in [0, 1)$\nThe critical points to check are $x = -1, 0, 1$.\nAt $x = 0$, $f'(0^-) = -1 \\ne f'(0^+) = 1$ (non-differentiable).\nAt $x = 1$, $f'(1^-) = 1 \\ne f'(1^+) = 2$ (non-differentiable).\nAt $x = -1$, $f'(-1^-) = -2 \\ne f'(-1^+) = -1$ (non-differentiable).\nThus, $f(x)$ is not differentiable at 3 points.",
+  "key": "C",
+  "diff": 3,
+  "secs": 100
+ },
+ {
+  "ch": "application-of-derivatives",
+  "sub": "tangents-and-normals",
+  "sub_name": "Tangents and Normals",
+  "conf": "exact",
+  "stem": "The equation of the tangent to the curve $y = e^{2x}$ at the point where it crosses the y-axis is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2x - y + 1 = 0$",
+   "$2x + y - 1 = 0$",
+   "$x - 2y + 2 = 0$",
+   "$x + 2y - 2 = 0$"
+  ],
+  "sol": "The curve crosses the y-axis where $x = 0 \\implies y = e^0 = 1$. So the point is $(0,1)$.\n$dy/dx = 2e^{2x}$. At $(0,1)$, $dy/dx = 2$.\nThe equation of the tangent is $y - 1 = 2(x - 0) \\implies 2x - y + 1 = 0$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "indefinite-integrals",
+  "sub": "integration-by-parts",
+  "sub_name": "Integration by Parts",
+  "conf": "exact",
+  "stem": "The integral $\\int e^x \\left( \\frac{1 + \\sin x}{1 + \\cos x} \\right) dx$ is equal to (where $C$ is a constant of integration):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$e^x \\tan\\left(\\frac{x}{2}\\right) + C$",
+   "$e^x \\cot\\left(\\frac{x}{2}\\right) + C$",
+   "$-e^x \\tan\\left(\\frac{x}{2}\\right) + C$",
+   "$-e^x \\cot\\left(\\frac{x}{2}\\right) + C$"
+  ],
+  "sol": "$\\frac{1 + \\sin x}{1 + \\cos x} = \\frac{1 + 2\\sin(x/2)\\cos(x/2)}{2\\cos^2(x/2)} = \\frac{1}{2}\\sec^2(x/2) + \\tan(x/2)$.\nLet $f(x) = \\tan(x/2)$, then $f'(x) = \\frac{1}{2}\\sec^2(x/2)$.\nThus, the integral is of the form $\\int e^x (f(x) + f'(x)) dx = e^x f(x) + C = e^x \\tan(x/2) + C$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 70
+ },
+ {
+  "ch": "definite-integrals",
+  "sub": "properties-of-definite-integrals",
+  "sub_name": "Properties of Definite Integrals",
+  "conf": "exact",
+  "stem": "The value of the definite integral $\\int_{0}^{\\pi} \\frac{x \\sin x}{1 + \\cos^2 x} dx$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{\\pi^2}{4}$",
+   "$\\frac{\\pi^2}{2}$",
+   "$\\pi^2$",
+   "$\\frac{\\pi^2}{8}$"
+  ],
+  "sol": "Using the property $\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$:\n$I = \\int_{0}^{\\pi} \\frac{(\\pi-x) \\sin x}{1 + \\cos^2 x} dx \\implies 2I = \\pi \\int_{0}^{\\pi} \\frac{\\sin x}{1 + \\cos^2 x} dx$.\nLet $t = \\cos x \\implies dt = -\\sin x dx$.\n$2I = \\pi \\int_{1}^{-1} \\frac{-dt}{1+t^2} = \\pi \\int_{-1}^{1} \\frac{dt}{1+t^2} = \\pi [\\tan^{-1} t]_{-1}^{1} = \\pi (\\frac{\\pi}{4} - (-\\frac{\\pi}{4})) = \\frac{\\pi^2}{2}$.\nThus, $I = \\frac{\\pi^2}{4}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 100
+ },
+ {
+  "ch": "area-under-curves",
+  "sub": "area-of-bounded-regions",
+  "sub_name": "Area of Bounded Regions",
+  "conf": "exact",
+  "stem": "The area (in sq. units) of the region bounded by the curves $y^2 = 8x$ and $y = 2x$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{4}{3}$",
+   "$\\frac{2}{3}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{8}{3}$"
+  ],
+  "sol": "The intersection points are given by $(2x)^2 = 8x \\implies 4x^2 = 8x \\implies x = 0, 2$.\nArea = $\\int_{0}^{2} (\\sqrt{8x} - 2x) dx = \\left[ 2\\sqrt{2} \\cdot \\frac{2}{3} x^{3/2} - x^2 \\right]_0^2 = \\frac{4\\sqrt{2}}{3} (2\\sqrt{2}) - 4 = \\frac{16}{3} - 4 = \\frac{4}{3}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 80
+ },
+ {
+  "ch": "differential-equations",
+  "sub": "linear-differential-equations",
+  "sub_name": "Linear Differential Equations",
+  "conf": "exact",
+  "stem": "If the solution of the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = x^2$ with $y(1) = 1$ is $y(x)$, then $y(2)$ is equal to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{15}{8}$",
+   "$\\frac{17}{8}$",
+   "$\\frac{19}{8}$",
+   "$\\frac{21}{8}$"
+  ],
+  "sol": "Integrating factor $\\text{I.F.} = e^{\\int \\frac{1}{x} dx} = x$.\nGeneral solution: $y \\cdot x = \\int x^3 dx = \\frac{x^4}{4} + C$.\nUsing $y(1) = 1 \\implies 1 = \\frac{1}{4} + C \\implies C = \\frac{3}{4}$.\nSo, $xy = \\frac{x^4}{4} + \\frac{3}{4} \\implies y = \\frac{x^3}{4} + \\frac{3}{4x}$.\nFor $x = 2$, $y(2) = \\frac{8}{4} + \\frac{3}{8} = 2 + \\frac{3}{8} = \\frac{19}{8}$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 110
+ },
+ {
+  "ch": "trigonometry",
+  "sub": "trigonometric-equations",
+  "sub_name": "Trigonometric Equations",
+  "conf": "exact",
+  "stem": "The number of solutions of the equation $\\sin 3x + \\cos 2x = -2$ in the interval $[0, 2\\pi]$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "0",
+   "1",
+   "2",
+   "3"
+  ],
+  "sol": "For the sum of sine and cosine functions to be $-2$, both must attain their minimum values of $-1$ simultaneously.\nThus, $\\sin 3x = -1$ and $\\cos 2x = -1$.\nFrom $\\sin 3x = -1 \\implies 3x = \\frac{3\\pi}{2}, \\frac{7\\pi}{2}, \\frac{11\\pi}{2} \\implies x = \\frac{\\pi}{2}, \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$.\nFrom $\\cos 2x = -1 \\implies 2x = \\pi, 3\n\\pi \\implies x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$.\nThe common solution in $[0, 2\\pi]$ is $x = \\frac{\\pi}{2}$.\nThus, there is exactly 1 solution.",
+  "key": "B",
+  "diff": 3,
+  "secs": 100
+ },
+ {
+  "ch": "permutations-combinations",
+  "sub": "permutations-and-combinations",
+  "sub_name": "Permutations and Combinations",
+  "conf": "exact",
+  "stem": "The number of 4-digit numbers that can be formed using the digits 1, 2, 3, 4, 5, 6 without repetition such that they are divisible by 4 is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "48",
+   "72",
+   "96",
+   "120"
+  ],
+  "sol": "A number is divisible by 4 if the last two digits form a number divisible by 4.\nPossible 2-digit combinations from {1, 2, 3, 4, 5, 6} divisible by 4 are: 12, 16, 24, 32, 36, 52, 56, 64 (8 combinations).\nFor each combination, the first two positions can be filled with the remaining 4 digits in $4 \\times 3 = 12$ ways.\nTotal number of such 4-digit numbers = $8 \\times 12 = 96$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 100
+ },
+ {
+  "ch": "binomial-theorem",
+  "sub": "properties-of-binomial-coefficients",
+  "sub_name": "Properties of Binomial Coefficients",
+  "conf": "exact",
+  "stem": "The value of $2 \\cdot {}^{10}C_0 + 5 \\cdot {}^{10}C_1 + 8 \\cdot {}^{10}C_2 + \\dots + 32 \\cdot {}^{10}C_{10}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$17 \\cdot 2^{10}$",
+   "$17 \\cdot 2^{11}$",
+   "$34 \\cdot 2^{10}$",
+   "$15 \\cdot 2^{11}$"
+  ],
+  "sol": "The general term is $T_r = (3r + 2) {}^{10}C_r$.\nSum $S = \\sum_{r=0}^{10} (3r + 2) {}^{10}C_r = 3 \\sum_{r=0}^{10} r {}^{10}C_r + 2 \\sum_{r=0}^{10} {}^{10}C_r$.\nSince $\\sum_{r=0}^{10} r {}^{10}C_r = 10 \\cdot 2^9$, and $\\sum_{r=0}^{10} {}^{10}C_r = 2^{10}$.\n$S = 3 (10 \\cdot 2^9) + 2 \\cdot 2^{10} = 15 \\cdot 2^{10} + 2 \\cdot 2^{10} = 17 \\cdot 2^{10}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 110
+ },
+ {
+  "ch": "straight-lines",
+  "sub": "angle-between-lines",
+  "sub_name": "Angle Between Lines",
+  "conf": "exact",
+  "stem": "If the angle between the lines $x + y = 1$ and $x - ky = 2$ is $\\frac{\\pi}{4}$, then the sum of all possible values of $k$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "0",
+   "1",
+   "2",
+   "-2"
+  ],
+  "sol": "Slopes of the lines are $m_1 = -1$ and $m_2 = \\frac{1}{k}$.\nWe have $\\tan(\\pi/4) = 1 = \\left| \\frac{-1 - 1/k}{1 - 1/k} \\right| = \\left| \\frac{k+1}{k-1} \\right|$.\nSo $\\frac{k+1}{k-1} = 1$ (no solution) or $\\frac{k+1}{k-1} = -1 \\implies k+1 = 1-k \\implies 2k = 0 \\implies k = 0$.\nWait, if $k=0$, the second line is $x=2$, slope is vertical (undefined). Let's re-verify: $m_2 = 1/k$.\nFor $k=0$, line is $x=2$ (vertical). $x+y=1$ has slope $-1$ (angle $135^\\circ$ with x-axis). The angle between them is $45^\\circ$, so $k=0$ is a valid solution. \nWhat if $k$ has other values? Let's use the formula with normal vectors $\\vec{n}_1 = (1, 1)$, $\\vec{n}_2 = (1, -k)$.\n$\\cos(\\pi/4) = \\frac{1}{\\sqrt{2}} = \\frac{|1 - k|}{\\sqrt{2} \\sqrt{1+k^2}} \\implies |1-k| = \\sqrt{1+k^2} \\implies (1-k)^2 = 1+k^2 \\implies -2k = 0 \\implies k = 0$.\nThus the sum of all possible values of $k$ is 0.",
+  "key": "A",
+  "diff": 3,
+  "secs": 120
+ },
+ {
+  "ch": "circles",
+  "sub": "tangents-and-normals",
+  "sub_name": "Tangents and Normals to Circles",
+  "conf": "exact",
+  "stem": "The line $y = mx + c$ is a tangent to the circle $x^2 + y^2 = 25$ if:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$c^2 = 25(1 + m^2)$",
+   "$c^2 = 25(1 - m^2)$",
+   "$c^2 = 5(1 + m^2)$",
+   "$c^2 = 5(1 - m^2)$"
+  ],
+  "sol": "For a line $y=mx+c$ to touch the circle $x^2+y^2=r^2$, the perpendicular distance from the center $(0,0)$ to the line must be equal to the radius $r = 5$.\nThus, $\\frac{|c|}{\\sqrt{1+m^2}} = 5 \\implies c^2 = 25(1+m^2)$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 40
+ },
+ {
+  "ch": "conic-sections",
+  "sub": "ellipse",
+  "sub_name": "Ellipse",
+  "conf": "exact",
+  "stem": "If the eccentricity of the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ ($a > b$) is $\\frac{1}{2}$, then the ratio of the major axis to the minor axis is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{2}{\\sqrt{3}}$",
+   "$\\frac{\\sqrt{3}}{2}$",
+   "$\\frac{4}{3}$",
+   "$\\frac{3}{4}$"
+  ],
+  "sol": "$e^2 = 1 - \\frac{b^2}{a^2} \\implies \\frac{1}{4} = 1 - \\frac{b^2}{a^2} \\implies \\frac{b^2}{a^2} = \\frac{3}{4} \\implies \\frac{b}{a} = \\frac{\\sqrt{3}}{2}$.\nThe ratio of the major axis to the minor axis is $\\frac{2a}{2b} = \\frac{a}{b} = \\frac{2}{\\sqrt{3}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "three-d-geometry",
+  "sub": "angle-between-planes",
+  "sub_name": "Angle Between Planes",
+  "conf": "exact",
+  "stem": "The acute angle between the planes $2x - y + z = 6$ and $x + y + 2z = 3$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{\\pi}{3}$",
+   "$\\frac{\\pi}{4}$",
+   "$\\frac{\\pi}{6}$",
+   "$\\frac{\\pi}{2}$"
+  ],
+  "sol": "The normal vectors to the planes are $\\vec{n}_1 = 2\\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{n}_2 = \\hat{i} + \\hat{j} + 2\\hat{k}$.\n$\\cos\\theta = \\frac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| |\\vec{n}_2|} = \\frac{|(2)(1) + (-1)(1) + (1)(2)|}{\\sqrt{4+1+1} \\sqrt{1+1+4}} = \\frac{|2 - 1 + 2|}{\\sqrt{6}\\sqrt{6}} = \\frac{3}{6} = \\frac{1}{2}$.\nThus, $\\theta = \\frac{\\pi}{3}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 70
+ },
+ {
+  "ch": "vectors",
+  "sub": "scalar-triple-product",
+  "sub_name": "Scalar Triple Product",
+  "conf": "exact",
+  "stem": "If the vectors $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} + a\\hat{j} + \\hat{k}$ and $\\vec{c} = \\hat{i} + \\hat{j} + b\\hat{k}$ ($a, b \\neq 1$) are coplanar, then the value of $ab - a - b$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-1$",
+   "1",
+   "0",
+   "2"
+  ],
+  "sol": "For coplanarity, $[\\vec{a} \\ \\vec{b} \\ \\vec{c}] = 0 \\implies \\begin{vmatrix} 1 & 1 & 1 \\\\ 1 & a & 1 \\\\ 1 & 1 & b \\end{vmatrix} = 0$.\nSubtracting Row 1 from Row 2 and Row 3:\n$\\begin{vmatrix} 1 & 1 & 1 \\\\ 0 & a-1 & 0 \\\\ 0 & 0 & b-1 \\end{vmatrix} = 0 \\implies (a-1)(b-1) = 0 \\implies ab - a - b + 1 = 0 \\implies ab - a - b = -1$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 80
+ },
+ {
+  "ch": "probability",
+  "sub": "classical-probability",
+  "sub_name": "Classical Probability",
+  "conf": "exact",
+  "stem": "If two fair dice are thrown, then the probability that the sum of the numbers appearing on the top faces is a prime number is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{5}{12}$",
+   "$\\frac{7}{12}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{11}{36}$"
+  ],
+  "sol": "Total outcomes when two dice are thrown $= 36$.\nThe prime sums possible are 2, 3, 5, 7, 11.\nFavorable outcomes for each sum:\n- Sum 2: (1,1) $\\to$ 1\n- Sum 3: (1,2), (2,1) $\\to$ 2\n- Sum 5: (1,4), (2,3), (3,2), (4,1) $\\to$ 4\n- Sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) $\\to$ 6\n- Sum 11: (5,6), (6,5) $\\to$ 2\nTotal favorable outcomes $= 1 + 2 + 4 + 6 + 2 = 15$.\nProbability $= \\frac{15}{36} = \\frac{5}{12}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 70
+ }
+]

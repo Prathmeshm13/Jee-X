@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of physical quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensional formula:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and focal length",
+   "Force constant and surface tension",
+   "All of the above"
+  ],
+  "sol": "1. Velocity gradient $= \\frac{dv}{dx} \\implies [T^{-1}]$, decay constant $\\lambda \\implies [T^{-1}]$.\n2. Wavelength $\\lambda \\implies [L]$, focal length $f \\implies [L]$.\n3. Force constant $k = F/x \\implies [MT^{-2}]$, surface tension $T = F/l \\implies [MT^{-2}]$.\nAll three pairs have matching dimensions.",
+  "key": "D",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with horizontal. What is the ratio of its velocity at the maximum height to its initial velocity of projection?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\cos \\theta$",
+   "$\\sin \\theta$",
+   "$\\tan \\theta$",
+   "$\\cot \\theta$"
+  ],
+  "sol": "At the maximum height, the vertical component of velocity becomes zero ($v_y = 0$).\nThe horizontal component remains constant: $v_x = u \\cos \\theta$.\nTherefore, the velocity at maximum height is $v = u \\cos \\theta$.\nThe ratio is $\\frac{v}{u} = \\cos \\theta$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $M = 5\\ \\mathrm{kg}$ is resting on a rough horizontal surface. A horizontal force $F$ is applied on the block. If the coefficient of static friction between the block and the surface is $0.4$, the minimum force required to move the block is: (Take $g = 10\\ \\mathrm{m/s^2}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$20\\ \\mathrm{N}$",
+   "$10\\ \\mathrm{N}$",
+   "$15\\ \\mathrm{N}$",
+   "$25\\ \\mathrm{N}$"
+  ],
+  "sol": "The maximum static frictional force (limiting friction) is given by $f_s = \\mu_s N = \\mu_s Mg$.\nSubstituting the given values:\n$f_s = 0.4 \\times 5\\ \\mathrm{kg} \\times 10\\ \\mathrm{m/s^2} = 20\\ \\mathrm{N}$.\nTo slide the block, the minimum applied force must exceed this limiting friction.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of inertia",
+  "conf": "exact",
+  "stem": "Two particles of mass $m$ and $3m$ are connected by a massless rigid rod of length $l$. The moment of inertia of the system about an axis passing through their center of mass and perpendicular to the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{3}{4} ml^2$",
+   "$\\frac{1}{4} ml^2$",
+   "$\\frac{4}{3} ml^2$",
+   "$\\frac{3}{2} ml^2$"
+  ],
+  "sol": "The reduced mass of the two-particle system is $\\mu = \\frac{m_1 m_2}{m_1 + m_2} = \\frac{m \\cdot 3m}{m + 3m} = \\frac{3}{4} m$.\nThe moment of inertia about the center of mass is given by $I = \\mu l^2 = \\frac{3}{4} ml^2$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to gravity",
+  "conf": "exact",
+  "stem": "The acceleration due to gravity at a height $h$ above the Earth's surface is $9\\%$ less than its value at the surface of Earth. If $R$ is the radius of Earth, then the height $h$ is approximately: (Assume $h \\ll R$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.045 R$",
+   "$0.09 R$",
+   "$0.0225 R$",
+   "$0.18 R$"
+  ],
+  "sol": "For $h \\ll R$, the variation of $g$ with height is $g_h \\approx g \\left(1 - \\frac{2h}{R}\\right)$.\nGiven $\\frac{g - g_h}{g} = 0.09$, we have:\n$\\frac{2h}{R} = 0.09 \\implies h = 0.045 R$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic moduli",
+  "conf": "exact",
+  "stem": "A wire of length $L$ and area of cross-section $A$ is made of a material of Young's modulus $Y$. If the wire is stretched by an amount $x$, the work done is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{YAx^2}{2L}$",
+   "$\\frac{YAx^2}{L}$",
+   "$\\frac{2YAx^2}{L}$",
+   "$\\frac{YAx}{2L^2}$"
+  ],
+  "sol": "The work done in stretching a wire is given by $W = \\frac{1}{2} \\times \\text{Force} \\times \\text{extension}$.\nSince $F = \\frac{YAx}{L}$, we get:\n$W = \\frac{1}{2} \\left(\\frac{YAx}{L}\\right) x = \\frac{YAx^2}{2L}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and terminal velocity",
+  "conf": "exact",
+  "stem": "Two spherical rain drops of equal size are falling vertically through air with a terminal velocity of $1\\ \\mathrm{m/s}$. If the two drops coalesce to form a single larger drop, its terminal velocity will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2^{2/3}\\ \\mathrm{m/s}$",
+   "$2^{1/3}\\ \\mathrm{m/s}$",
+   "$2\\ \\mathrm{m/s}$",
+   "$4\\ \\mathrm{m/s}$"
+  ],
+  "sol": "Terminal velocity $v_t \\propto r^2$.\nWhen two drops of radius $r$ coalesce to form a drop of radius $R$, volume conservation gives:\n$\\frac{4}{3}\\pi R^3 = 2 \\times \\frac{4}{3}\\pi r^3 \\implies R = 2^{1/3}r$.\nThus, $v'_t = v_t \\left(\\frac{R}{r}\\right)^2 = 1 \\times (2^{1/3})^2 = 2^{2/3}\\ \\mathrm{m/s}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of freedom and law of equipartition of energy",
+  "conf": "exact",
+  "stem": "For a rigid diatomic gas molecule, the ratio of specific heat at constant pressure to specific heat at constant volume ($\\gamma = C_p / C_v$) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{7}{5}$",
+   "$\\frac{5}{3}$",
+   "$\\frac{9}{7}$",
+   "$\\frac{4}{3}$"
+  ],
+  "sol": "A rigid diatomic gas has 5 degrees of freedom ($f = 5$).\n$C_v = \\frac{f}{2}R = \\frac{5}{2}R$.\n$C_p = C_v + R = \\frac{7}{2}R$.\nRatio $\\gamma = \\frac{C_p}{C_v} = \\frac{7}{5}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic processes",
+  "conf": "approx",
+  "stem": "During an adiabatic expansion of an ideal gas, its volume increases by $24\\%$. If $\\gamma = 1.5$, the percentage decrease in its pressure is closest to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$31\\%$",
+   "$24\\%$",
+   "$12\\%$",
+   "$48\\%$"
+  ],
+  "sol": "In an adiabatic process, $PV^{\\gamma} = C$.\nFor small changes, $\\frac{dP}{P} + \\gamma \\frac{dV}{V} = 0$.\nHere, volume increase is $24\\%$, which is relatively large, so we use $P_1 V_1^{\\gamma} = P_2 V_2^{\\gamma}$.\n$P_2 = P_1 \\left(\\frac{V_1}{1.24 V_1}\\right)^{1.5} = P_1 (1.24)^{-1.5} \\approx P_1 (1.38)^{-1} \\approx 0.72 P_1$.\nThus, the percentage decrease in pressure is approximately $1 - 0.69 \\approx 31\\%$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple harmonic motion",
+  "conf": "exact",
+  "stem": "A particle executes simple harmonic motion with an amplitude $A$. At what distance from the mean position are the kinetic energy and potential energy of the particle equal?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{A}{\\sqrt{2}}$",
+   "$\\frac{A}{2}$",
+   "$\\frac{\\sqrt{3}A}{2}$",
+   "$\\frac{A}{2\\sqrt{2}}$"
+  ],
+  "sol": "Total energy is $E = \\frac{1}{2}kA^2$.\nPotential energy at displacement $x$ is $U = \\frac{1}{2}kx^2$.\nGiven $KE = PE \\implies U = \\frac{E}{2} \\implies \\frac{1}{2}kx^2 = \\frac{1}{2} \\left(\\frac{1}{2}kA^2\\right)$.\nSolving for $x$, we get $x = \\frac{A}{\\sqrt{2}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric field intensity",
+  "conf": "exact",
+  "stem": "Two point charges $q$ and $-3q$ are placed at a distance $d$ apart. The electric field intensity is zero at a point on the line joining them. This point is located at a distance of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{d}{\\sqrt{3}-1}$ from $q$ on the side away from $-3q$",
+   "$\\frac{d}{\\sqrt{3}+1}$ from $q$ on the side away from $-3q$",
+   "$\\frac{d}{\\sqrt{3}-1}$ from $-3q$ on the side away from $q$",
+   "$\\frac{d}{\\sqrt{3}+1}$ from $-3q$ on the side away from $q$"
+  ],
+  "sol": "Since the charges are of opposite signs, the neutral point lies outside the segment, closer to the smaller magnitude charge ($q$).\nLet the point be at distance $x$ from $q$ (away from $-3q$).\n$\\frac{kq}{x^2} = \\frac{3kq}{(d+x)^2} \\implies \\frac{d+x}{x} = \\sqrt{3} \\implies d+x = \\sqrt{3}x \\implies x(\\sqrt{3}-1) = d \\implies x = \\frac{d}{\\sqrt{3}-1}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 80
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of resistors",
+  "conf": "exact",
+  "stem": "Three resistors of resistances $R_1 = 4\\ \\Omega$, $R_2 = 6\\ \\Omega$ and $R_3 = 12\\ \\Omega$ are connected in parallel. This combination is connected in series with a resistor of resistance $R_4 = 3\\ \\Omega$ across a battery of emf $9\\ \\mathrm{V}$. The total current drawn from the battery is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1.8\\ \\mathrm{A}$",
+   "$1.5\\ \\mathrm{A}$",
+   "$2.0\\ \\mathrm{A}$",
+   "$1.0\\ \\mathrm{A}$"
+  ],
+  "sol": "Equivalent resistance of the parallel combination ($R_p$):\n$\\frac{1}{R_p} = \\frac{1}{4} + \\frac{1}{6} + \\frac{1}{12} = \\frac{3+2+1}{12} = \\frac{6}{12} = \\frac{1}{2} \\implies R_p = 2\\ \\Omega$.\nTotal resistance of the circuit: $R_{eq} = R_p + R_4 = 2 + 3 = 5\\ \\Omega$.\nTotal current drawn: $I = \\frac{V}{R_{eq}} = \\frac{9\\ \\mathrm{V}}{5\\ \\Omega} = 1.8\\ \\mathrm{A}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a magnetic field",
+  "conf": "exact",
+  "stem": "An electron and a proton having the same kinetic energy enter perpendicularly into a uniform magnetic field. If $r_e$ and $r_p$ are the radii of their circular paths respectively, then: (Take mass of proton $m_p \\approx 1840 m_e$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$r_p > r_e$",
+   "$r_e > r_p$",
+   "$r_e = r_p$",
+   "None of these"
+  ],
+  "sol": "The radius of curvature in a magnetic field is $r = \\frac{\\sqrt{2mK}}{qB}$.\nSince both have the same kinetic energy ($K$) and magnitude of charge ($q = e$), and are in the same field $B$, we have:\n$r \\propto \\sqrt{m}$.\nSince $m_p > m_e$, it follows that $r_p > r_e$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic properties of materials",
+  "conf": "exact",
+  "stem": "The magnetic susceptibility ($\\chi_m$) of a paramagnetic material is related to its absolute temperature ($T$) according to Curie's law as:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\chi_m \\propto \\frac{1}{T}$",
+   "$\\chi_m \\propto T$",
+   "$\\chi_m \\propto \\frac{1}{T^2}$",
+   "$\\chi_m \\propto T^2$"
+  ],
+  "sol": "According to Curie's law, the magnetic susceptibility of a paramagnetic material is inversely proportional to its absolute temperature: $\\chi_m = \\frac{C}{T}$.\nTherefore, $\\chi_m \\propto \\frac{1}{T}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $l$ is rotated with a constant angular velocity $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced emf between the ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$B \\omega l^2$",
+   "$2 B \\omega l^2$",
+   "$\\frac{1}{4} B \\omega l^2$"
+  ],
+  "sol": "The induced motional emf in a rotating rod is obtained by integrating $de = B v dr = B (\\omega r) dr$ from $0$ to $l$:\n$e = \\int_0^l B \\omega r dr = \\frac{1}{2} B \\omega l^2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR series circuit",
+  "conf": "exact",
+  "stem": "In a series LCR resonance circuit, which of the following relations is correct regarding the resonant frequency $\\omega_0$?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\omega_0 = \\frac{1}{\\sqrt{LC}}$",
+   "$\\omega_0 = \\sqrt{LC}$",
+   "$\\omega_0 = \\frac{L}{C}$",
+   "$\\omega_0 = \\frac{C}{L}$"
+  ],
+  "sol": "At resonance, the inductive reactance equals the capacitive reactance:\n$\\omega_0 L = \\frac{1}{\\omega_0 C} \\implies \\omega_0^2 = \\frac{1}{LC} \\implies \\omega_0 = \\frac{1}{\\sqrt{LC}}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Gamma rays",
+   "X-rays",
+   "Ultraviolet rays",
+   "Microwaves"
+  ],
+  "sol": "In the electromagnetic spectrum, ordered by decreasing wavelength (or increasing frequency):\nMicrowaves > Ultraviolet > X-rays > Gamma rays.\nHence, Gamma rays have the shortest wavelength.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's double slit experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the distance between the slits is halved and the distance between the slits and the screen is doubled, then the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Four times",
+   "Double",
+   "Half",
+   "Unchanged"
+  ],
+  "sol": "The fringe width is given by $\\beta = \\frac{\\lambda D}{d}$.\nNew slit separation is $d' = d/2$ and new screen distance is $D' = 2D$.\nNew fringe width $\\beta' = \\frac{\\lambda D'}{d'} = \\frac{\\lambda (2D)}{d/2} = 4 \\left(\\frac{\\lambda D}{d}\\right) = 4\\beta$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric effect",
+  "conf": "exact",
+  "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is the threshold frequency) is incident on a metal plate, the maximum velocity of emitted electrons is $v_1$. When the frequency of incident radiation is increased to $5\\nu_0$, the maximum velocity of emitted electrons becomes $v_2$. The ratio $v_1 / v_2$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 2$",
+   "$1 : 4$",
+   "$1 : 1$",
+   "$1 : 3$"
+  ],
+  "sol": "From Einstein's photoelectric equation: $K_{max} = \\frac{1}{2}mv^2 = h\\nu - h\\nu_0$.\nFor frequency $2\\nu_0$: $\\frac{1}{2}mv_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nFor frequency $5\\nu_0$: $\\frac{1}{2}mv_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations gives: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 55
+ },
+ {
+  "ch": "atoms",
+  "sub": "bohr-model",
+  "sub_name": "Bohr model",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the ratio of the energy of an electron in the ground state of a hydrogen atom to that of an electron in the first excited state of a $\\mathrm{He}^+$ ion is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 1$",
+   "$1 : 2$",
+   "$2 : 1$",
+   "$1 : 4$"
+  ],
+  "sol": "The energy of a hydrogen-like system in the $n$-th state is $E_n \\propto \\frac{Z^2}{n^2}$.\nFor ground state of Hydrogen ($Z=1, n=1$): $E_H \\propto \\frac{1^2}{1^2} = 1$.\nFor first excited state of $\\mathrm{He}^+$ ($Z=2, n=2$): $E_{He^+} \\propto \\frac{2^2}{2^2} = 1$.\nThus, the ratio is $1:1$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ }
+]

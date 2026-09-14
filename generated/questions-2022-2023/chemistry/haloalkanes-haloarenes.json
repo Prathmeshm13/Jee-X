@@ -1,0 +1,632 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Haloalkanes and Haloarenes",
+    "slug": "haloalkanes-haloarenes",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 26
+  },
+  "subtopics": [
+    {
+      "slug": "nucleophilic-substitution",
+      "name": "Nucleophilic Substitution Reactions",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-HAL-001",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds will undergo nucleophilic substitution ( $\\mathrm{S_N1}$ ) fastest?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Allyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Benzyl chloride",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Isopropyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chlorobenzene",
+          "is_correct": false
+        }
+      ],
+      "solution": "The rate of $\\mathrm{S_N1}$ depends on the stability of the carbocation intermediate. Benzyl carbocation ($\\mathrm{C_6H_5CH_2^+}$) is highly stabilized by resonance over the benzene ring, which is more effective than the allylic system and secondary alkyl systems, making benzyl chloride undergo $\\mathrm{S_N1}$ faster than the others listed. Chlorobenzene does not undergo nucleophilic substitution under standard conditions."
+    },
+    {
+      "ref": "CHEM-HAL-002",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following compounds will undergo nucleophilic substitution ($S_N2$) reaction fastest?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CH_3-CH_2-CH_2-CH_2-Cl}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CH_3-CH_2-CH(Cl)-CH_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{(CH_3)_3C-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{(CH_3)_2CH-CH_2-Cl}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$S_N2$ substitution kinetics are highly sensitive to steric hindrance. Primary alkyl halides without branching on the adjacent carbon atom react the fastest. Thus, 1-chlorobutane ($\\mathrm{CH_3CH_2CH_2CH_2Cl}$) is less hindered than isobutyl chloride ($\\mathrm{(CH_3)_2CHCH_2Cl}$), secondary, or tertiary chlorides, and undergoes the fastest $S_N2$ reaction."
+    },
+    {
+      "ref": "CHEM-HAL-003",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following, the one which is most reactive towards nucleophilic substitution ($\\mathrm{S_N2}$) reaction is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(\\mathrm{CH}_3)_3\\mathrm{C-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$(\\mathrm{CH}_3)_2\\mathrm{CH-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH(Cl)CH}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reactivity of alkyl halides towards $\\mathrm{S_N2}$ mechanism decreases with increasing steric hindrance: Primary ($1^\\circ$) > Secondary ($2^\\circ$) > Tertiary ($3^\\circ$).\n$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$ is a straight-chain $1^\\circ$ alkyl halide, hence it is the most reactive towards $\\mathrm{S_N2}$ substitution."
+    },
+    {
+      "ref": "CHEM-HAL-004",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds will undergo nucleophilic substitution ($S_{\\mathrm{N}}1$) fastest?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Allyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Benzyl chloride",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Isopropyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Ethyl chloride",
+          "is_correct": false
+        }
+      ],
+      "solution": "$S_{\\mathrm{N}}1$ reactions proceed via a carbocation intermediate. The order of stability of carbocations formed is: Benzyl carbocation ($\\mathrm{C_6H_5CH_2^+}$) is highly stabilized by resonance over the benzene ring, more so than the allyl carbocation ($\\mathrm{CH_2=CH-CH_2^+}$) which has only one double bond for resonance. Hence, benzyl chloride reacts fastest."
+    },
+    {
+      "ref": "CHEM-HAL-005",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The correct order of reactivity towards $\\mathrm{S_N2}$ displacement reaction is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "1-Bromobutane > 2-Bromobutane > 2-Bromo-2-methylpropane",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "2-Bromo-2-methylpropane > 2-Bromobutane > 1-Bromobutane",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "2-Bromobutane > 1-Bromobutane > 2-Bromo-2-methylpropane",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "1-Bromobutane > 2-Bromo-2-methylpropane > 2-Bromobutane",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{S_N2}$ reactivity is highly sensitive to steric hindrance around the carbon bearing the leaving group. The order of reactivity is $1^\\circ > 2^\\circ > 3^\\circ$ alkyl halides. Hence, 1-bromobutane ($1^\\circ$) > 2-bromobutane ($2^\\circ$) > 2-bromo-2-methylpropane ($3^\\circ$)."
+    },
+    {
+      "ref": "CHEM-HAL-006",
+      "subtopic": "nucleophilic-substitution",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction: $R-\\text{X} + \\text{OH}^- \\rightarrow R-\\text{OH} + \\text{X}^-$, the rate of reaction of alkyl halides in $S_N2$ reaction decreases in the order:\n$\\text{CH}_3\\text{X} > \\text{CH}_3\\text{CH}_2\\text{X} > (\\text{CH}_3)_2\\text{CHX} > (\\text{CH}_3)_3\\text{CX}$\nIf the rate of reaction of $R-\\text{X}$ with $\\text{OH}^-$ in $S_N2$ mechanism is represented as $\\text{Rate} = k[R-\\text{X}][\\text{OH}^-]$, then the relative rate of reaction of $(\\text{CH}_3)_3\\text{C-CH}_2\\text{Cl}$ with $\\text{OH}^-$ compared to $\\text{CH}_3\\text{CH}_2\\text{Cl}$ under identical $S_N2$ conditions is found to be exceptionally low (nearly $10^{-5}$ times). The factor of 10 with a power $-x$ represents this ratio. The value of $x$ is _______. (Nearest Integer)",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "Neopentyl chloride, $(\\text{CH}_3)_3\\text{CCH}_2\\text{Cl}$, is a primary alkyl halide but has extremely high steric hindrance due to the bulky tert-butyl group adjacent to the reaction center.\nIts relative rate compared to ethyl chloride is approximately $10^{-5}$ times.\nComparing with $10^{-x}$, we get $x = 5$."
+    },
+    {
+      "ref": "CHEM-HAL-007",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of reactivity of the following alkyl halides towards $\\mathrm{S_N2}$ reaction is:\n(I) $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Br}$\n(II) $(\\mathrm{CH}_3)_2\\mathrm{CHCH}_2\\mathrm{Br}$\n(III) $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}(\\mathrm{CH}_3)\\mathrm{Br}$\n(IV) $(\\mathrm{CH}_3)_3\\mathrm{CBr}$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "I > II > III > IV",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "IV > III > II > I",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "I > III > II > IV",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "II > I > III > IV",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{S_N2}$ reactivity depends heavily on steric hindrance around the leaving group carbon:\n- (I) $1^\\circ$ unbranched: least hindered, fastest.\n- (II) $1^\\circ$ with branch at $\\beta$-carbon: more hindered than (I).\n- (III) $2^\\circ$ halide: highly hindered.\n- (IV) $3^\\circ$ halide: extremely hindered, negligible rate.\nThus, reactivity order: I > II > III > IV."
+    },
+    {
+      "ref": "CHEM-HAL-008",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The rate of $S_N1$ reaction is fastest for which of the following halides?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Allyl chloride",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Isopropyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "n-Propyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chlorobenzene",
+          "is_correct": false
+        }
+      ],
+      "solution": "The rate of $S_N1$ reaction depends on the stability of the carbocation formed in the rate-determining step. Allyl chloride forms the allyl carbocation ($\\mathrm{CH_2=CH-CH_2^+}$), which is resonance stabilized and much more stable than the isopropyl carbocation (secondary) or n-propyl carbocation (primary). Chlorobenzene does not undergo $S_N1$ readily."
+    },
+    {
+      "ref": "CHEM-HAL-009",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of reactivity of the following alkyl halides towards $\\text{S}_{\\text{N}}2$ reaction is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > (\\text{CH}_3)_3\\text{CCl}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(\\text{CH}_3)_3\\text{CCl} > (\\text{CH}_3)_2\\text{CHCl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > \\text{CH}_3\\text{Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\text{CH}_3\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > (\\text{CH}_3)_3\\text{CCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\text{CH}_3\\text{CH}_2\\text{Cl} > \\text{CH}_3\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > (\\text{CH}_3)_3\\text{CCl}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\text{S}_{\\text{N}}2$ reaction rate is governed by steric hindrance at the reaction center. The less steric hindrance, the faster the reaction. The order is:\n$\\text{Methyl halide} > 1^{\\circ} \\text{ halide} > 2^{\\circ} \\text{ halide} > 3^{\\circ} \\text{ halide}$.\nHence: $\\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > (\\text{CH}_3)_3\\text{CCl}$."
+    },
+    {
+      "ref": "CHEM-HAL-010",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkyl halides undergoes $\\mathrm{S_N1}$ reaction most rapidly?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{(CH_3)_3C-F}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{(CH_3)_3C-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{(CH_3)_3C-Br}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{(CH_3)_3C-I}$",
+          "is_correct": true
+        }
+      ],
+      "solution": "For a given alkyl group, the rate of nucleophilic substitution (both $\\mathrm{S_N1}$ and $\\mathrm{S_N2}$) depends on the leaving group ability: $\\mathrm{I^- > Br^- > Cl^- > F^-}$. Thus, tert-butyl iodide reacts most rapidly."
+    },
+    {
+      "ref": "CHEM-HAL-011",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds will undergo $S_{\\text{N}}1$ reaction most readily?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$(CH_3)_3C-Cl$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(CH_3)_2CH-Cl$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$CH_3CH_2-Cl$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$CH_3-Cl$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The rate of $S_{\\text{N}}1$ reaction depends on the stability of the carbocation intermediate. Since the tertiary carbocation $(CH_3)_3C^+$ is highly stable due to hyperconjugation and inductive effect, $(CH_3)_3C-Cl$ undergoes $S_{\\text{N}}1$ most readily."
+    },
+    {
+      "ref": "CHEM-HAL-012",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkyl halides undergoes nucleophilic substitution by $\\mathrm{S_N1}$ mechanism fastest?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{(CH_3)_3C-I}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{(CH_3)_3C-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{(CH_3)_2CH-I}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH_3CH_2-I}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{S_N1}$ reaction rates depend on the stability of the carbocation intermediate and the leaving group ability. Tertiary carbocation $\\mathrm{(CH_3)_3C^+}$ is highly stable, and $\\mathrm{I^-}$ is an excellent leaving group compared to $\\mathrm{Cl^-}$. Hence, tert-butyl iodide undergoes $\\mathrm{S_N1}$ fastest."
+    },
+    {
+      "ref": "CHEM-HAL-013",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of reactivity of the following alkyl halides towards $S_N2$ reaction is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "1-Bromobutane > 2-Bromobutane > 2-Bromo-2-methylpropane",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "2-Bromo-2-methylpropane > 2-Bromobutane > 1-Bromobutane",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "1-Bromobutane > 2-Bromo-2-methylpropane > 2-Bromobutane",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "2-Bromobutane > 1-Bromobutane > 2-Bromo-2-methylpropane",
+          "is_correct": false
+        }
+      ],
+      "solution": "$S_N2$ reactivity depends primarily on steric hindrance around the carbon bearing the leaving group. The order of steric hindrance is Primary ($1^\\circ$) < Secondary ($2^\\circ$) < Tertiary ($3^\\circ$). Therefore, the reactivity order is: 1-bromobutane ($1^\\circ$) > 2-bromobutane ($2^\\circ$) > 2-bromo-2-methylpropane ($3^\\circ$)."
+    },
+    {
+      "ref": "CHEM-HAL-014",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkyl halides undergoes $\\mathrm{S_N1}$ reaction most rapidly?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$(\\mathrm{CH}_3)_3\\mathrm{C-Cl}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$(\\mathrm{CH}_3)_2\\mathrm{CH-Cl}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{Cl}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{S_N1}$ reactions proceed via a carbocation intermediate. The rate of the reaction depends on the stability of the carbocation formed.\n$(\\mathrm{CH}_3)_3\\mathrm{C-Cl}$ forms a stable tertiary carbocation, $(\\mathrm{CH}_3)_3\\mathrm{C}^+$, and thus reacts fastest."
+    },
+    {
+      "ref": "CHEM-HAL-015",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkyl halides undergoes nucleophilic substitution by $\\mathrm{S_N1}$ mechanism at the fastest rate?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Allyl chloride",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Ethyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Isopropyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chlorobenzene",
+          "is_correct": false
+        }
+      ],
+      "solution": "The rate of $\\mathrm{S_N1}$ depends on the stability of the carbocation formed. Allyl chloride forms the allyl carbocation ($\\mathrm{CH_2=CH-CH_2^+}$), which is resonance stabilized, making it undergo $\\mathrm{S_N1}$ much faster than ethyl or isopropyl chlorides."
+    },
+    {
+      "ref": "CHEM-HAL-016",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following alkyl halides undergoes nucleophilic substitution reaction by $\\mathrm{S_N1}$ mechanism most rapidly?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Methyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Ethyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Isopropyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "tert-Butyl chloride",
+          "is_correct": true
+        }
+      ],
+      "solution": "The rate of $\\mathrm{S_N1}$ reactions is determined by the stability of the intermediate carbocation. The order of carbocation stability is $3^\\circ > 2^\\circ > 1^\\circ > \\text{methyl}$. tert-Butyl chloride forms a highly stable tertiary carbocation, so it reacts most rapidly via $\\mathrm{S_N1}$."
+    },
+    {
+      "ref": "CHEM-HAL-017",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following compounds undergoes nucleophilic substitution ($S_N1$) fastest?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Methyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Ethyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Isopropyl chloride",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "tert-Butyl chloride",
+          "is_correct": true
+        }
+      ],
+      "solution": "$S_N1$ reactions proceed via a carbocation intermediate. The order of stability of carbocations is $3^\\circ > 2^\\circ > 1^\\circ > \\text{methyl}$. Therefore, tert-butyl chloride forms the highly stable tert-butyl carbocation and undergoes $S_N1$ fastest."
+    }
+  ]
+}

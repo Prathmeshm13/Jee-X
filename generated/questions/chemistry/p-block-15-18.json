@@ -128,6 +128,99 @@
         "max": 6.0
       },
       "solution": "The structure of $\\text{P}_4\\text{O}_{10}$ is based on a tetrahedron of phosphorus atoms.\nThere are 6 edge-bridging P-O-P oxygen atoms.\nAdditionally, there are 4 terminal P=O double bonds.\nThus, the number of bridged oxygen atoms is 6."
+    },
+    {
+      "ref": "CHEM-PB2-005",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P}-\\mathrm{P}$ single bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$, which contains a direct $\\mathrm{P}-\\mathrm{P}$ single bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P}-\\mathrm{O}-\\mathrm{P}$ linkage."
+    },
+    {
+      "ref": "CHEM-PB2-006",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 6,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following compounds, the number of compounds containing at least one $\\mathrm{P-O-P}$ linkage is ____________.\n- $\\mathrm{H_4P_2O_5}$\n- $\\mathrm{H_4P_2O_6}$\n- $\\mathrm{H_4P_2O_7}$\n- $\\mathrm{H_5P_3O_{10}}$\n- $(\\mathrm{HPO_3})_3$",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "- $\\mathrm{H_4P_2O_5}$ (pyrophosphorous acid): has a $\\mathrm{P-O-P}$ linkage.\n- $\\mathrm{H_4P_2O_6}$ (hypophosphoric acid): has a $\\mathrm{P-P}$ bond, no $\\mathrm{P-O-P}$ linkage.\n- $\\mathrm{H_4P_2O_7}$ (pyrophosphoric acid): has a $\\mathrm{P-O-P}$ linkage.\n- $\\mathrm{H_5P_3O_{10}}$ (triphosphoric acid): has two $\\mathrm{P-O-P}$ linkages.\n- $(\\mathrm{HPO_3})_3$ (cyclotrimetaphosphoric acid): cyclic structure with three $\\mathrm{P-O-P}$ linkages.\nTherefore, 4 compounds contain at least one $\\mathrm{P-O-P}$ linkage."
+    },
+    {
+      "ref": "CHEM-PB2-007",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of reducing character of group 15 hydrides is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{NH}_3 > \\mathrm{PH}_3 > \\mathrm{AsH}_3 > \\mathrm{SbH}_3 > \\mathrm{BiH}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NH}_3 < \\mathrm{PH}_3 < \\mathrm{AsH}_3 < \\mathrm{SbH}_3 < \\mathrm{BiH}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{PH}_3 > \\mathrm{NH}_3 > \\mathrm{AsH}_3 > \\mathrm{SbH}_3 > \\mathrm{BiH}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{BiH}_3 < \\mathrm{SbH}_3 < \\mathrm{AsH}_3 < \\mathrm{PH}_3 < \\mathrm{NH}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Down the group, thermal stability of the hydrides decreases due to an increase in $M-H$ bond length (decrease in bond dissociation enthalpy). Consequently, the reducing character increases down the group: $\\mathrm{NH}_3 < \\mathrm{PH}_3 < \\mathrm{AsH}_3 < \\mathrm{SbH}_3 < \\mathrm{BiH}_3$."
     }
   ]
 }

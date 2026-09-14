@@ -109,6 +109,118 @@
         }
       ],
       "solution": "Basic strength depends on electron density on the nitrogen. \n- $-\\mathrm{OCH_3}$ group (in $p$-anisidine) is highly electron donating via $+M$ effect (strongest base).\n- $-\\mathrm{CH_3}$ group (in $p$-toluidine) is electron donating via $+I$ and hyperconjugation.\n- Aniline is unsubstituted.\n- $-\\mathrm{NO_2}$ group (in $p$-nitroaniline) is strongly electron-withdrawing via $-M$ and $-I$ (weakest base).\nThus, the correct order is IV > III > I > II."
+    },
+    {
+      "ref": "CHEM-GOC-004",
+      "subtopic": "acidic-basic-strength",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Arrange the following compounds in decreasing order of their basic strength:\n(I) Aniline  \n(II) $p$-Nitroaniline  \n(III) $p$-Methylaniline  \n(IV) $p$-Methoxyaniline  \n\nChoose the correct option:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "IV > III > I > II",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "III > IV > I > II",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "IV > I > III > II",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "II > I > III > IV",
+          "is_correct": false
+        }
+      ],
+      "solution": "Electron-donating groups increase the basic strength of aniline, while electron-withdrawing groups decrease it.  \n- $-\\mathrm{OCH_3}$ (in IV) is a strong $+M$ group (highest basic strength).  \n- $-\\mathrm{CH_3}$ (in III) is $+I$ and hyperconjugative (higher than aniline).  \n- Aniline (I) has no substituents.  \n- $-\\mathrm{NO_2}$ (in II) is a strong $-M$ group (lowest basic strength).  \nHence, order is IV > III > I > II."
+    },
+    {
+      "ref": "CHEM-GOC-005",
+      "subtopic": "acidic-basic-strength",
+      "type": "numerical",
+      "difficulty": 6,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following compounds, the total number of compounds which are more acidic than benzoic acid is ____________.\n- $o$-Nitrobenzoic acid\n- $p$-Nitrobenzoic acid\n- $p$-Methoxybenzoic acid\n- $o$-Toluic acid\n- $p$-Toluic acid\n- $o$-Bromobenzoic acid",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Due to ortho-effect, ortho-substituted benzoic acids ($o$-nitrobenzoic acid, $o$-toluic acid, $o$-bromobenzoic acid) are more acidic than benzoic acid.\nFor para-substituted:\n- $p$-Nitrobenzoic acid has strong electron-withdrawing $-M$ and $-I$ effects, making it more acidic than benzoic acid.\n- $p$-Methoxybenzoic acid is less acidic than benzoic acid due to $+M$ effect of $-\\mathrm{OCH_3}$.\n- $p$-Toluic acid is less acidic than benzoic acid due to $+I$ and hyperconjugation of $-\\mathrm{CH_3}$.\nThus, $o$-nitrobenzoic acid, $p$-nitrobenzoic acid, $o$-toluic acid, and $o$-bromobenzoic acid (total 4) are more acidic than benzoic acid."
+    },
+    {
+      "ref": "CHEM-GOC-006",
+      "subtopic": "acidic-basic-strength",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds has the highest acidic strength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Phenol",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "p-Nitrophenol",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "m-Nitrophenol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "p-Cresol",
+          "is_correct": false
+        }
+      ],
+      "solution": "The nitro group ($-NO_2$) is a strong electron-withdrawing group showing $-M$ and $-I$ effects. In $p$-nitrophenol, the $-M$ effect of the $-NO_2$ group strongly stabilizes the phenoxide ion formed after deprotonation. In $m$-nitrophenol, only the $-I$ effect is active. $p$-Cresol has an electron-donating methyl group ($+I$, hyperconjugation) which destabilizes the conjugate base. Thus, $p$-nitrophenol is the most acidic."
+    },
+    {
+      "ref": "CHEM-GOC-007",
+      "subtopic": "acidic-basic-strength",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following compounds, the total number of compounds containing at least one $sp^3$ hybridized carbon atom is _________.\nBenzene, Cyclohexane, Toluene, Acetylene, Ethane, Nitrobenzene, Acetone, Phenol",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "- Benzene: all $sp^2$\n- Cyclohexane: all $sp^3$ (contains $sp^3$)\n- Toluene: methyl carbon is $sp^3$ (contains $sp^3$)\n- Acetylene: all $sp$\n- Ethane: all $sp^3$ (contains $sp^3$)\n- Nitrobenzene: all $sp^2$\n- Acetone: two methyl carbons are $sp^3$ (contains $sp^3$)\n- Phenol: all $sp^2$\nTotal compounds containing $sp^3$ hybridized carbons = 4 (Cyclohexane, Toluene, Ethane, Acetone)."
     }
   ]
 }

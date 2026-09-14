@@ -1,0 +1,708 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Biomolecules",
+    "slug": "biomolecules",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 31
+  },
+  "subtopics": [
+    {
+      "slug": "vitamins",
+      "name": "Vitamins",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-BIO-001",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following vitamins is water-soluble?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin C",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Vitamin E",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamins B and C are water-soluble vitamins, while vitamins A, D, E, and K are fat-soluble vitamins."
+    },
+    {
+      "ref": "CHEM-BIO-002",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Deficiency of which vitamin causes cheilosis (fissuring at corners of mouth and lips)?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin $B_1$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Vitamin $B_2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Vitamin $B_6$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin $B_{12}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Cheilosis, localized inflammation and cracking at the corners of the mouth, is caused by deficiency of Riboflavin (Vitamin $B_2$)."
+    },
+    {
+      "ref": "CHEM-BIO-003",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The deficiency of vitamin $B_1$ causes which of the following diseases?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Scurvy",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Cheilosis",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Beri-beri",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Rickets",
+          "is_correct": false
+        }
+      ],
+      "solution": "Deficiency of vitamin $\\mathrm{B}_1$ (thiamine) causes Beri-beri. Vitamin C deficiency causes scurvy, vitamin $\\mathrm{B}_2$ causes cheilosis, and vitamin D causes rickets."
+    },
+    {
+      "ref": "CHEM-BIO-004",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Deficiency of Vitamin $B_{12}$ causes which of the following diseases?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Scurvy",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Pernicious anaemia",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Rickets",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Beri-beri",
+          "is_correct": false
+        }
+      ],
+      "solution": "Deficiency of Vitamin $\\mathrm{B_{12}}$ (cyanocobalamin) leads to pernicious anaemia. Deficiency of Vitamin C causes scurvy, Vitamin D causes rickets, and Vitamin $\\mathrm{B_1}$ causes beri-beri."
+    },
+    {
+      "ref": "CHEM-BIO-005",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following vitamins is water-soluble?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin C",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin E",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamins B and C are water-soluble, while vitamins A, D, E, and K are fat-soluble."
+    },
+    {
+      "ref": "CHEM-BIO-006",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Deficiency of Vitamin $B_{12}$ causes which of the following diseases?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Pernicious anaemia",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Scurvy",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Rickets",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Cheilosis",
+          "is_correct": false
+        }
+      ],
+      "solution": "- Vitamin $\\mathrm{B}_{12}$ deficiency causes Pernicious anaemia (RBC deficiency).\n- Vitamin C deficiency causes Scurvy.\n- Vitamin D deficiency causes Rickets.\n- Vitamin $\\mathrm{B}_2$ (Riboflavin) deficiency causes Cheilosis."
+    },
+    {
+      "ref": "CHEM-BIO-007",
+      "subtopic": "vitamins",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the vitamins $\\mathrm{A, B_1, B_6, B_{12}, C, D, E}$ and $\\mathrm{K}$, the number of vitamins that can be stored in our body is _________.",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "Fat-soluble vitamins ($\\mathrm{A, D, E, K}$) are stored in liver and adipose tissues.\nWater-soluble vitamins (B-complex and C) are excreted in urine and not stored, with the exception of Vitamin $\\mathrm{B_{12}}$.\nThus, the vitamins stored are $\\mathrm{A, D, E, K}$ and $\\mathrm{B_{12}}$.\nTotal number of such vitamins = 5."
+    },
+    {
+      "ref": "CHEM-BIO-008",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is a water-soluble vitamin?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin B",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin E",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamins A, D, E, and K are fat-soluble. Vitamins B-complex and C are water-soluble."
+    },
+    {
+      "ref": "CHEM-BIO-009",
+      "subtopic": "vitamins",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Among the vitamins $\\mathrm{A}$, $\\mathrm{B}_1$, $\\mathrm{B}_6$, $\\mathrm{B}_{12}$, $\\mathrm{C}$, $\\mathrm{D}$, $\\mathrm{E}$, and $\\mathrm{K}$, the number of water-soluble vitamins is __________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Vitamins are classified as:\n- Fat-soluble: A, D, E, K\n- Water-soluble: B-group (including $\\mathrm{B}_1$, $\\mathrm{B}_6$, $\\mathrm{B}_{12}$) and Vitamin C.\nSo, the water-soluble vitamins in the list are $\\mathrm{B}_1$, $\\mathrm{B}_6$, $\\mathrm{B}_{12}$, and $\\mathrm{C}$.\nTotal number is 4."
+    },
+    {
+      "ref": "CHEM-BIO-010",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following vitamins is fat-soluble and its deficiency causes Xerophthalmia?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin A",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Vitamin B",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin C",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin K",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamins A, D, E, and K are fat-soluble. Deficiency of Vitamin A (Retinol) causes Xerophthalmia (hardening of cornea in eyes) and night blindness."
+    },
+    {
+      "ref": "CHEM-BIO-011",
+      "subtopic": "vitamins",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Amongst the following, the number of vitamins which are water-soluble is _______. (Integer value)\nVitamin A, Vitamin B, Vitamin C, Vitamin D, Vitamin E, Vitamin K",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "Vitamins are classified into fat-soluble (A, D, E, K) and water-soluble (B-complex and C).\nWater-soluble vitamins listed here are: Vitamin B and Vitamin C.\nTotal number $= 2$."
+    },
+    {
+      "ref": "CHEM-BIO-012",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Deficiency of which of the following vitamins causes Cheilosis (fissuring at corners of mouth and lips)?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin $\\mathrm{B_1}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Vitamin $\\mathrm{B_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Vitamin $\\mathrm{B_6}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin $\\mathrm{B_{12}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Deficiency of Vitamin $\\mathrm{B_2}$ (Riboflavin) causes Cheilosis, digestive disorders, and burning sensation of the skin."
+    },
+    {
+      "ref": "CHEM-BIO-013",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Deficiency of which vitamin causes cheilosis?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin $B_1$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Vitamin $B_2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Vitamin $B_6$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin $B_{12}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Deficiency of Vitamin $B_2$ (Riboflavin) causes cheilosis (localized fissuring at the corners of the mouth)."
+    },
+    {
+      "ref": "CHEM-BIO-014",
+      "subtopic": "vitamins",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the vitamins A, B1, B6, B12, C, D, E, and K, the number of vitamins that are fat-soluble is _________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Water-soluble vitamins: B-complex (B1, B6, B12) and Vitamin C.\nFat-soluble vitamins: A, D, E, and K.\nTotal fat-soluble vitamins = 4."
+    },
+    {
+      "ref": "CHEM-BIO-015",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Deficiency of which of the following vitamins causes scurvy?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin C",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin B1",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin K",
+          "is_correct": false
+        }
+      ],
+      "solution": "Scurvy is a disease resulting from a deficiency of vitamin C (ascorbic acid)."
+    },
+    {
+      "ref": "CHEM-BIO-016",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Deficiency of which vitamin causes increased fragility of red blood cells and muscular weakness?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin E",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Vitamin K",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamin E deficiency leads to increased fragility of RBCs and muscular weakness, and it acts as an important antioxidant in cell membranes."
+    },
+    {
+      "ref": "CHEM-BIO-017",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Deficiency of Vitamin $B_{12}$ causes which of the following diseases?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Scurvy",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Pernicious anaemia",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Rickets",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Cheilosis",
+          "is_correct": false
+        }
+      ],
+      "solution": "Deficiency of Vitamin $\\mathrm{B}_{12}$ (Cyanocobalamin) leads to pernicious anaemia (RBC deficient in hemoglobin).\nScurvy is caused by Vitamin C deficiency, Rickets by Vitamin D, and Cheilosis by Vitamin $\\mathrm{B}_2$ (Riboflavin)."
+    },
+    {
+      "ref": "CHEM-BIO-018",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is a water-soluble vitamin?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin B",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin E",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamins are classified into fat-soluble (A, D, E, K) and water-soluble (B-group vitamins and Vitamin C) categories."
+    },
+    {
+      "ref": "CHEM-BIO-019",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Deficiency of which of the following vitamins causes the disease 'Scurvy'?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Vitamin B1",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin C",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Vitamin D",
+          "is_correct": false
+        }
+      ],
+      "solution": "Scurvy is a disease resulting from a lack of Vitamin C (ascorbic acid). Symptoms include weakness, feeling tired, and sore arms and legs, along with bleeding gums."
+    },
+    {
+      "ref": "CHEM-BIO-020",
+      "subtopic": "vitamins",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following, the number of vitamins that are fat soluble is ______________.\n$\\text{Vitamin A}, \\text{Vitamin B}_1, \\text{Vitamin B}_6, \\text{Vitamin B}_{12}, \\text{Vitamin C}, \\text{Vitamin D}, \\text{Vitamin E}, \\text{Vitamin K}$",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Fat soluble vitamins are A, D, E, and K.\nWater soluble vitamins are B-complex vitamins (including $\\text{B}_1$, $\\text{B}_6$, $\\text{B}_{12}$) and Vitamin C.\nThus, there are 4 fat-soluble vitamins."
+    },
+    {
+      "ref": "CHEM-BIO-021",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following vitamins is water-soluble?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin C",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Vitamin K",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamins B and C are soluble in water, whereas vitamins A, D, E and K are fat-soluble."
+    }
+  ]
+}

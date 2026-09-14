@@ -93,6 +93,99 @@
         }
       ],
       "solution": "To complete the vertical circle of radius $R$, the minimum velocity required at the lowest point of the loop is $v = \\sqrt{5gR}$.\nBy conservation of energy from point $A$ to the lowest point: $mgh = \\frac{1}{2}mv^2 \\implies mgh = \\frac{1}{2}m(5gR) \\implies h = \\frac{5}{2}R$."
+    },
+    {
+      "ref": "PHY-WEP-003",
+      "subtopic": "potential-energy-and-conservation-of-energy",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A body of mass $0.5\\ \\mathrm{kg}$ is moving along the $x$-axis under a conservative force field. Its potential energy $U$ varies with position $x$ as $U(x) = (x^3 - 3x)\\ \\mathrm{J}$ (where $x$ is in meters). The stable equilibrium position of the body is at $x$ equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1\\ \\mathrm{m}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$-1\\ \\mathrm{m}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$0\\ \\mathrm{m}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\sqrt{3}\\ \\mathrm{m}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For equilibrium, $F = -\\frac{\\mathrm{d}U}{\\mathrm{d}x} = 0 \\Rightarrow 3x^2 - 3 = 0 \\Rightarrow x = \\pm 1\\ \\mathrm{m}$.\nFor stable equilibrium, $\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} > 0$.\n$\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} = 6x$.\nAt $x = 1\\ \\mathrm{m}$, $\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} = 6 > 0$ (Stable equilibrium).\nAt $x = -1\\ \\mathrm{m}$, $\\frac{\\mathrm{d}^2U}{\\mathrm{d}x^2} = -6 < 0$ (Unstable equilibrium)."
+    },
+    {
+      "ref": "PHY-WEP-004",
+      "subtopic": "potential-energy-and-conservation-of-energy",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A body of mass $1\text{ kg}$ is projected vertically upwards with a speed of $20\text{ m/s}$. It rises to a maximum height of $18\text{ m}$. The energy lost (in $\text{J}$) due to air resistance is: (Take $g = 10\text{ m/s}^2$)",
+      "image": null,
+      "answer": {
+        "min": 20.0,
+        "max": 20.0
+      },
+      "solution": "Initial kinetic energy $K_i = \frac{1}{2} m u^2 = \frac{1}{2} \times 1 \times 20^2 = 200\text{ J}$.\nFinal potential energy at maximum height $U_f = mgh = 1 \times 10 \times 18 = 180\text{ J}$.\nEnergy lost due to air resistance $E_{\text{lost}} = K_i - U_f = 200 - 180 = 20\text{ J}$."
+    },
+    {
+      "ref": "PHY-WEP-005",
+      "subtopic": "potential-energy-and-conservation-of-energy",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A particle of mass $m$ is moving in a circular path of constant radius $r$ such that its centripetal acceleration $a_c$ is varying with time $t$ as $a_c = k^2 r t^2$, where $k$ is a constant. The power delivered to the particle by the force acting on it is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$m k^2 r^2 t$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$m k^2 r^2 t^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2} m k^2 r^2 t$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Zero",
+          "is_correct": false
+        }
+      ],
+      "solution": "Centripetal acceleration $a_c = \\frac{v^2}{r} = k^2 r t^2 \\implies v = k r t$.\nTangential acceleration $a_t = \\frac{dv}{dt} = k r$.\nTangential force $F_t = m a_t = m k r$.\nPower delivered $P = F_t v = (m k r)(k r t) = m k^2 r^2 t$."
     }
   ]
 }

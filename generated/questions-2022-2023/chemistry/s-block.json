@@ -1,0 +1,632 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "s-Block Elements",
+    "slug": "s-block",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 11
+  },
+  "subtopics": [
+    {
+      "slug": "alkali-metals",
+      "name": "Alkali Metals and Their Properties",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-SBL-001",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The metal that does not give a blue colored solution in liquid ammonia is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Sodium",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Potassium",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Lithium",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Beryllium",
+          "is_correct": true
+        }
+      ],
+      "solution": "Alkali metals (Na, K, Li) dissolve in liquid ammonia to give deep blue conducting solutions due to solvated electrons. Beryllium (Be), an alkaline earth metal with small size and high ionization enthalpy, does not dissolve easily in liquid ammonia to form such a solution."
+    },
+    {
+      "ref": "CHEM-SBL-002",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkali metal halides has the lowest melting point?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "LiF",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "LiCl",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "LiBr",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "LiI",
+          "is_correct": true
+        }
+      ],
+      "solution": "According to Fajan's rules, larger anions are more easily polarized by the small $\\mathrm{Li}^+$ cation, leading to maximum covalent character in $\\mathrm{LiI}$. Greater covalent character results in a lower melting point. Thus, $\\mathrm{LiI}$ has the lowest melting point."
+    },
+    {
+      "ref": "CHEM-SBL-003",
+      "subtopic": "alkali-metals",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "On complete combustion, $0.492\\ \\mathrm{g}$ of an organic compound gave $0.792\\ \\mathrm{g}$ of $\\mathrm{CO_2}$. The % of carbon in the organic compound is ___________.",
+      "image": null,
+      "answer": {
+        "min": 44.0,
+        "max": 44.0
+      },
+      "solution": "Moles of $\\mathrm{CO_2}$ = $\\frac{0.792}{44} = 0.018\\ \\mathrm{mol}$\nMass of Carbon = $0.018 \\times 12 = 0.216\\ \\mathrm{g}$\nPercentage of Carbon = $\\frac{0.216}{0.492} \\times 100 = 43.9\\% \\approx 44$."
+    },
+    {
+      "ref": "CHEM-SBL-004",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following alkali metal hydrogen carbonates is least soluble in water?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{LiHCO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NaHCO}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{KHCO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{RbHCO}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{NaHCO}_3$ is relatively less soluble in water than other alkali metal bicarbonates (except $\\mathrm{LiHCO}_3$ which exists only in solution state and does not form a solid easily; among the isolated solid hydrogen carbonates, $\\mathrm{NaHCO}_3$ has very low solubility, which is why it precipitates out in the Solvay process)."
+    },
+    {
+      "ref": "CHEM-SBL-005",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of density of the alkali metals is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Li < Na < K < Rb < Cs}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Li < K < Na < Rb < Cs}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Cs < Rb < K < Na < Li}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Li < Na < K < Cs < Rb}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Generally, density increases down the group from Li to Cs due to a larger increase in atomic mass compared to atomic volume. However, Potassium (K) is lighter/less dense than Sodium (Na) due to the presence of vacant $3d$ orbitals leading to an unusual increase in volume. Therefore, the correct density order is $\\mathrm{Li < K < Na < Rb < Cs}$."
+    },
+    {
+      "ref": "CHEM-SBL-006",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The sequence of ionic mobility of alkali metal ions in aqueous solution is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{K^+ > Rb^+ > Cs^+ > Na^+}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Cs^+ > Rb^+ > K^+ > Na^+}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Na^+ > K^+ > Rb^+ > Cs^+}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Rb^+ > Cs^+ > Na^+ > K^+}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Smaller ions have high charge density and are heavily hydrated in aqueous solutions. Highly hydrated ions have large effective size and lowest mobility. Thus, the hydration size order is $\\mathrm{Na^+ > K^+ > Rb^+ > Cs^+}$, making the ionic mobility order $\\mathrm{Cs^+ > Rb^+ > K^+ > Na^+}$."
+    },
+    {
+      "ref": "CHEM-SBL-007",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The metal that produces a bright crimson red colour in flame emission spectroscopy is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Lithium",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Sodium",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Potassium",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Rubidium",
+          "is_correct": false
+        }
+      ],
+      "solution": "During the flame test, alkali metal salts impart characteristic colours to the flame:\n- Lithium ($\\mathrm{Li}$): Crimson red\n- Sodium ($\\mathrm{Na}$): Golden yellow\n- Potassium ($\\mathrm{K}$): Pale violet/Lilac\n- Rubidium ($\\mathrm{Rb}$): Red-violet"
+    },
+    {
+      "ref": "CHEM-SBL-008",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The hydration enthalpies of alkali metal ions decrease in the order:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Li}^+ > \\mathrm{Na}^+ > \\mathrm{K}^+ > \\mathrm{Rb}^+ > \\mathrm{Cs}^+$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Cs}^+ > \\mathrm{Rb}^+ > \\mathrm{K}^+ > \\mathrm{Na}^+ > \\mathrm{Li}^+$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Li}^+ > \\mathrm{Na}^+ > \\mathrm{K}^+ > \\mathrm{Cs}^+ > \\mathrm{Rb}^+$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Na}^+ > \\mathrm{Li}^+ > \\mathrm{K}^+ > \\mathrm{Rb}^+ > \\mathrm{Cs}^+$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration enthalpy is inversely proportional to the ionic size of the cation. Because the size of alkali metal ions increases down the group as $\\mathrm{Li}^+ < \\mathrm{Na}^+ < \\mathrm{K}^+ < \\mathrm{Rb}^+ < \\mathrm{Cs}^+$, the hydration enthalpy order is $\\mathrm{Li}^+ > \\mathrm{Na}^+ > \\mathrm{K}^+ > \\mathrm{Rb}^+ > \\mathrm{Cs}^+$."
+    },
+    {
+      "ref": "CHEM-SBL-009",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of density of alkali metals is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\text{Li} < \\text{K} < \\text{Na} < \\text{Rb} < \\text{Cs}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\text{Cs} < \\text{Rb} < \\text{K} < \\text{Na} < \\text{Li}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\text{Li} < \\text{Na} < \\text{Rb} < \\text{K} < \\text{Cs}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Density increases down the group, but potassium is lighter than sodium due to an abnormal increase in volume (presence of empty $d$-orbitals in potassium).\nTherefore, the correct order is: $\\text{Li} < \\text{K} < \\text{Na} < \\text{Rb} < \\text{Cs}$."
+    },
+    {
+      "ref": "CHEM-SBL-010",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkali metal carbonates is thermally unstable and decomposes on heating?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Li_2CO_3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Na_2CO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{K_2CO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Rb_2CO_3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Due to the small size of the $\\mathrm{Li^+}$ ion, it has high polarizing power, which polarizes the carbonate ion leading to thermal instability. Thus, $\\mathrm{Li_2CO_3}$ decomposes on heating to give $\\mathrm{Li_2O}$ and $\\mathrm{CO_2}$."
+    },
+    {
+      "ref": "CHEM-SBL-011",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The metal that produces red-violet (lilac) color in flame test is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Sodium",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Potassium",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Rubidium",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Cesium",
+          "is_correct": false
+        }
+      ],
+      "solution": "Among alkali metals, sodium gives golden yellow, potassium gives lilac/violet, rubidium gives reddish violet, and cesium gives blue color. Thus, potassium (Lilac/Red-violet) is the correct match."
+    },
+    {
+      "ref": "CHEM-SBL-012",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The correct order of density of alkali metals is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Li < K < Na < Rb < Cs}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Li < Na < K < Rb < Cs}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Cs < Rb < K < Na < Li}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Li < Na < K < Cs < Rb}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Generally, density increases down the group for alkali metals. However, Potassium ($\\mathrm{K}$) is lighter than Sodium ($\\mathrm{Na}$) due to an unusual increase in atomic volume. Hence, the correct order is: $\\mathrm{Li < K < Na < Rb < Cs}$."
+    },
+    {
+      "ref": "CHEM-SBL-013",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The metal that produces hydrogen gas upon treatment with both acid as well as base is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Iron (Fe)",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Copper (Cu)",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Zinc (Zn)",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Magnesium (Mg)",
+          "is_correct": false
+        }
+      ],
+      "solution": "Zinc is an amphoteric metal. It reacts with dilute non-oxidizing acids (like $\\text{HCl}$) to form $\\text{Zn}^{2+}$ and $\\text{H}_2$ gas, and also reacts with strong alkalis (like $\\text{NaOH}$) to form sodium zincate ($\\text{Na}_2\\text{ZnO}_2$) and $\\text{H}_2$ gas."
+    },
+    {
+      "ref": "CHEM-SBL-014",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkali metal halides has the highest lattice enthalpy?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{LiF}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{LiCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NaCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CsF}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Lattice energy is inversely proportional to the sum of the radii of the cation and anion ($U \\propto \\frac{1}{r_+ + r_-}$).\nSince $\\mathrm{Li}^{+}$ is the smallest alkali metal cation and $\\mathrm{F}^{-}$ is the smallest halide anion, $\\mathrm{LiF}$ has the shortest interionic distance and hence the highest lattice enthalpy."
+    },
+    {
+      "ref": "CHEM-SBL-015",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkali metal carbonates is thermally least stable and decomposes on heating?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Li_2CO_3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Na_2CO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{K_2CO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Cs_2CO_3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Lithium carbonate ($\\mathrm{Li_2CO_3}$) is thermally unstable because of the small size of the $\\mathrm{Li^+}$ ion, which strongly polarizes the larger carbonate ion, leading to decomposition into lithium oxide and carbon dioxide:\n$\\mathrm{Li_2CO_3} \\xrightarrow{\\Delta} \\mathrm{Li_2O} + \\mathrm{CO_2}$.\nOther alkali metal carbonates are stable up to very high temperatures."
+    },
+    {
+      "ref": "CHEM-SBL-016",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following alkali metal halides has the highest lattice enthalpy?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{LiF}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NaCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{KBr}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CsI}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Lattice enthalpy is inversely proportional to the sum of the ionic radii of the cation and anion ($r_+ + r_-$). Since $\\mathrm{Li^+}$ and $\\mathrm{F^-}$ are the smallest ions among the given options, $\\mathrm{LiF}$ has the smallest inter-ionic distance and hence the highest lattice enthalpy."
+    },
+    {
+      "ref": "CHEM-SBL-017",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkali metal carbonates is thermally least stable and decomposes on heating?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Li_2CO_3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Na_2CO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{K_2CO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Cs_2CO_3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\mathrm{Li^+}$ is very small and polarizes the large $\\mathrm{CO_3^{2-}}$ ion to a high extent, making $\\mathrm{Li_2CO_3}$ thermally unstable. It decomposes easily to $\\mathrm{Li_2O}$ and $\\mathrm{CO_2}$ on heating."
+    }
+  ]
+}

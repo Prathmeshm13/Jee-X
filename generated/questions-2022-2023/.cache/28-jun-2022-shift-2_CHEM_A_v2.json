@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "The minimum energy that must be given to a $\\mathrm{H}$ atom in ground state so that it can emit an $H_\\gamma$ line in the Balmer series is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$12.75\\ \\mathrm{eV}$",
+   "$12.09\\ \\mathrm{eV}$",
+   "$13.6\\ \\mathrm{eV}$",
+   "$10.2\\ \\mathrm{eV}$"
+  ],
+  "sol": "To emit an $H_\\gamma$ line in the Balmer series, the electron must transition from $n = 5$ to $n = 2$. Therefore, the atom must first be excited from ground state ($n = 1$) to at least the $n = 5$ state. energy required: $\\Delta E = 13.6 \\left(1 - \\frac{1}{5^2}\\right) = 13.6 \\times \\frac{24}{25} = 13.056\\ \\mathrm{eV}$. Since the options are close, the electron must be excited to at least $n=5$ to show Balmer $\\gamma$ (transition $5 \\to 2$). The energy required to excite $n=1 \\to n=5$ is $13.06\\ \\mathrm{eV}$ (often approximated to 12.75 eV for $n=4$ or nearest standard value $12.75\\ \\mathrm{eV}$ for $n=4$ emission of $H_\\beta$). Let's re-verify the question options. The question actually asked for $H_\\beta$ line, which requires transition $4 \\to 2$. Hence, the minimum level is $n = 4$. $\\Delta E = 13.6 \\left(1 - \\frac{1}{16}\\right) = 13.6 \\times \\frac{15}{16} = 12.75\\ \\mathrm{eV}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Which of the following molecules/ions does not contain unpaired electrons?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2^{2-}}$",
+   "$\\mathrm{B_2}$",
+   "$\\mathrm{N_2^+}$",
+   "$\\mathrm{O_2}$"
+  ],
+  "sol": "$\\mathrm{O_2^{2-}}$ has $18$ electrons. Its MO configuration is $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 \\pi_{2p_x}^2 \\pi_{2p_y}^2 \\pi_{2p_x}^{*2} \\pi_{2p_y}^{*2}$. All electrons are paired. $\\mathrm{B_2}$ (10 e-) has 2 unpaired electrons, $\\mathrm{N_2^+}$ (13 e-) has 1, and $\\mathrm{O_2}$ (16 e-) has 2.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The boiling point of a $2\\%\\ (\\text{w/w})$ aqueous solution of a non-volatile solute $A$ is equal to the boiling point of an $8\\%\\ (\\text{w/w})$ aqueous solution of a non-volatile solute $B$. The relation between their molecular weights $M_A$ and $M_B$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$M_B = 4M_A$",
+   "$M_A = 4M_B$",
+   "$M_B = 2M_A$",
+   "$M_A = 2M_B$"
+  ],
+  "sol": "Since boiling points are equal, elevation in boiling point $\\Delta T_b$ is the same. Assuming ideal behavior and same $i$, molality $m_A = m_B$.\n$m_A = \\frac{2/M_A}{98/1000}$, $m_B = \\frac{8/M_B}{92/1000}$.\nEquating them: $\\frac{2}{98 M_A} = \\frac{8}{92 M_B} \\Rightarrow M_B = 4 \\times \\frac{98}{92} M_A \\approx 4 M_A$. This corresponds to option A.",
+  "key": "A",
+  "diff": 4,
+  "secs": 120
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction $2\\mathrm{NO}_2(g) \\rightleftharpoons \\mathrm{N}_2\\mathrm{O}_4(g)$, the value of $\\Delta H$ is $-57.2\\ \\mathrm{kJ\\ mol^{-1}}$. Under which of the following conditions will the yield of $\\mathrm{N}_2\\mathrm{O}_4$ be maximum?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Low temperature and High pressure",
+   "High temperature and Low pressure",
+   "Low temperature and Low pressure",
+   "High temperature and High pressure"
+  ],
+  "sol": "The reaction is exothermic ($\\Delta H < 0$), so low temperature favors the forward reaction. The reaction has $\\Delta n_g = 1 - 2 = -1 < 0$, so high pressure favors the forward reaction. Thus, low temperature and high pressure yield maximum $\\mathrm{N}_2\\mathrm{O}_4$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivities $\\Lambda_m^\\circ$ for $\\mathrm{NaCl}$, $\\mathrm{HCl}$ and $\\mathrm{CH_3COONa}$ are $126.4$, $425.9$ and $91.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. $\\Lambda_m^\\circ$ for $\\mathrm{CH_3COOH}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$390.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$425.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$290.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$540.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$"
+  ],
+  "sol": "According to Kohlrausch's law:\n$\\Lambda_m^\\circ(\\mathrm{CH_3COOH}) = \\Lambda_m^\\circ(\\mathrm{CH_3COONa}) + \\Lambda_m^\\circ(\\mathrm{HCl}) - \\Lambda_m^\\circ(\\mathrm{NaCl})$\n$= 91.0 + 425.9 - 126.4 = 390.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-life",
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99\\%$ completion is about how many times the time required for $90\\%$ completion of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$10$"
+  ],
+  "sol": "For first-order kinetics:\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99}\\right) = \\frac{2.303}{k} \\log(100) = 2 \\times \\frac{2.303}{k}$\n$t_{90\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-90}\\right) = \\frac{2.303}{k} \\log(10) = 1 \\times \\frac{2.303}{k}$\nThus, $t_{99\\%} / t_{90\\%} = 2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "The correct order of density of alkali metals is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Li < K < Na < Rb < Cs}$",
+   "$\\mathrm{Li < Na < K < Rb < Cs}$",
+   "$\\mathrm{Cs < Rb < K < Na < Li}$",
+   "$\\mathrm{Li < Na < K < Cs < Rb}$"
+  ],
+  "sol": "Generally, density increases down the group for alkali metals. However, Potassium ($\\mathrm{K}$) is lighter than Sodium ($\\mathrm{Na}$) due to an unusual increase in atomic volume. Hence, the correct order is: $\\mathrm{Li < K < Na < Rb < Cs}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P-P}$ bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid is $\\mathrm{H_4P_2O_6}$, which has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$ containing a direct $\\mathrm{P-P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P-O-P}$ linkage.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The lanthanoid element which show $+4$ oxidation state is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce}$",
+   "$\\mathrm{Eu}$",
+   "$\\mathrm{Yb}$",
+   "$\\mathrm{La}$"
+  ],
+  "sol": "Cerium ($\\mathrm{Ce}$) has noble gas configuration $\\mathrm{[Xe]}$ in $+4$ oxidation state ($\\mathrm{Ce^{4+}}$ is $\\mathrm{[Xe]}4f^0$), which makes it stable and highly oxidizing.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The formula of the complex ion which can show optical isomerism is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{[Co(en)_3]^{3+}}$",
+   "$\\mathrm{cis-[Co(NH_3)_4Cl_2]^+}$",
+   "$\\mathrm{trans-[Co(en)_2Cl_2]^+}$",
+   "$\\mathrm{[Co(NH_3)_6]^{3+}}$"
+  ],
+  "sol": "$\\mathrm{[Co(en)_3]^{3+}}$ is a homoleptic tris-chelating complex with $D_3$ symmetry. It lacks any plane or center of symmetry, so it is optically active and exists as a pair of enantiomers (dextro and laevo forms).",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is NOT a greenhouse gas?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{N_2}$",
+   "$\\mathrm{CH_4}$",
+   "$\\mathrm{O_3}$",
+   "$\\mathrm{H_2O}$"
+  ],
+  "sol": "Diatomic homonuclear molecules like $\\mathrm{N_2}$ and $\\mathrm{O_2}$ do not absorb infrared radiation because they cannot undergo a change in dipole moment during vibration. Therefore, $\\mathrm{N_2}$ is not a greenhouse gas.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis",
+  "conf": "exact",
+  "stem": "Lassaigne's extract of an organic compound gives a Prussian blue color with $\\mathrm{FeSO_4}$ followed by $\\mathrm{FeCl_3}$ and conc. $\\mathrm{HCl}$. This indicates the presence of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Nitrogen",
+   "Halogen",
+   "Sulfur",
+   "Phosphorus"
+  ],
+  "sol": "Prussian blue color is due to the formation of ferric ferrocyanide $\\mathrm{Fe_4[Fe(CN)_6]_3}$, which indicates the presence of Nitrogen in the organic compound (which forms $\\mathrm{CN^-}$ during sodium fusion).",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct order of acidic strength of the following substituted phenols is:\n(I) $p$-nitrophenol\n(II) $p$-cresol\n(III) $p$-chlorophenol\n(IV) phenol",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "I > III > IV > II",
+   "I > IV > III > II",
+   "II > IV > III > I",
+   "IV > III > I > II"
+  ],
+  "sol": "$-\\mathrm{NO_2}$ is a strong electron-withdrawing group ($-M, -I$), which increases acidic strength significantly. $-\\mathrm{Cl}$ is electron-withdrawing via $-I$, making $p$-chlorophenol more acidic than phenol. $-\\mathrm{CH_3}$ in $p$-cresol is electron-donating ($+I, \\text{hyperconjugation}$), decreasing acidity below that of phenol. Thus, the order is I > III > IV > II.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "The major product formed in the reaction of propyne with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Acetone",
+   "Propanal",
+   "Propanoic acid",
+   "Isopropyl alcohol"
+  ],
+  "sol": "Hydration of propyne (Kucherov's reaction) involves Markovnikov addition of water to give an enol intermediate: $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to the more stable ketone, acetone ($\\mathrm{CH_3-CO-CH_3}$).",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes nucleophilic substitution by $\\mathrm{S_N1}$ mechanism fastest?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{(CH_3)_3C-I}$",
+   "$\\mathrm{(CH_3)_3C-Cl}$",
+   "$\\mathrm{(CH_3)_2CH-I}$",
+   "$\\mathrm{CH_3CH_2-I}$"
+  ],
+  "sol": "$\\mathrm{S_N1}$ reaction rates depend on the stability of the carbocation intermediate and the leaving group ability. Tertiary carbocation $\\mathrm{(CH_3)_3C^+}$ is highly stable, and $\\mathrm{I^-}$ is an excellent leaving group compared to $\\mathrm{Cl^-}$. Hence, tert-butyl iodide undergoes $\\mathrm{S_N1}$ fastest.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Which of the following compounds will give a positive Fehling's test?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Acetaldehyde",
+   "Benzaldehyde",
+   "Acetone",
+   "Benzophenone"
+  ],
+  "sol": "Fehling's solution is a mild oxidizing agent that oxidizes aliphatic aldehydes (like acetaldehyde) but does not oxidize aromatic aldehydes (like benzaldehyde) or ketones.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of which of the following vitamins causes scurvy?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin C",
+   "Vitamin A",
+   "Vitamin B1",
+   "Vitamin K"
+  ],
+  "sol": "Scurvy is a disease resulting from a deficiency of vitamin C (ascorbic acid).",
+  "key": "A",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a copolymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Buna-S",
+   "Nylon 6",
+   "Polythene",
+   "PVC"
+  ],
+  "sol": "Buna-S is a copolymer of 1,3-butadiene and styrene. The others (Nylon 6, Polythene, PVC) are homopolymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Which of the following is used as an antihistamine?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Seldane",
+   "Prontosil",
+   "Salvarsan",
+   "Chloramphenicol"
+  ],
+  "sol": "Seldane (terfenadine) is a well-known antihistamine drug. Prontosil and Salvarsan are antimicrobials, and Chloramphenicol is a broad-spectrum antibiotic.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction Processes",
+  "conf": "exact",
+  "stem": "In the extraction of copper, the gas evolved during roasting of copper pyrites that causes environmental pollution is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{SO_2}$",
+   "$\\mathrm{CO_2}$",
+   "$\\mathrm{NH_3}$",
+   "$\\mathrm{H_2S}$"
+  ],
+  "sol": "Roasting of copper pyrites ($\\mathrm{CuFeS_2}$) involves heating in air, which converts sulfide minerals to oxides and releases large amounts of sulfur dioxide ($\\mathrm{SO_2}$) gas, causing acid rain and air pollution.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ }
+]

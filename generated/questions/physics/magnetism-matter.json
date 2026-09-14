@@ -90,6 +90,80 @@
         }
       ],
       "solution": "According to Curie's Law, susceptibility $\\chi \\propto \\frac{1}{T}$, where $T$ is in Kelvin.\n$T_1 = -73 + 273 = 200\\ \\mathrm{K}$, $T_2 = 127 + 273 = 400\\ \\mathrm{K}$.\n$\\frac{\\chi_2}{\\chi_1} = \\frac{T_1}{T_2} = \\frac{200}{400} = \\frac{1}{2}$.\n$\\chi_2 = \\frac{0.0075}{2} = 0.00375$."
+    },
+    {
+      "ref": "PHY-MGM-003",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The susceptibility of a magnetic material is $-0.085$. The type of magnetic material is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Diamagnetic",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Paramagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ferromagnetic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Non-magnetic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Diamagnetic substances have a small, negative magnetic susceptibility ($\\chi < 0$).\nHere, $\\chi = -0.085$, which is small and negative. Thus, it is a diamagnetic material."
+    },
+    {
+      "ref": "PHY-MGM-004",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi$ of a paramagnetic material is related to its absolute temperature $T$ as:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\chi \\propto T$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\chi \\propto \\frac{1}{T}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\chi \\propto T^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\chi$ is independent of $T$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's Law for paramagnetic materials, magnetic susceptibility is inversely proportional to absolute temperature: $\\chi = \\frac{C}{T}$.\nTherefore, $\\chi \\propto \\frac{1}{T}$."
     }
   ]
 }

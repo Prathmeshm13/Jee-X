@@ -1,0 +1,40 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Nuclei",
+    "slug": "nuclei",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 26
+  },
+  "subtopics": [
+    {
+      "slug": "radioactivity",
+      "name": "Radioactivity",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-NUC-001",
+      "subtopic": "radioactivity",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The half-life of a radioactive nucleus is $5 \\mathrm{years}$. The fraction of the original sample that will decay in $15 \\mathrm{years}$ is $\\frac{N}{8}$. The value of $N$ is:",
+      "image": null,
+      "answer": {
+        "min": 7.0,
+        "max": 7.0
+      },
+      "solution": "Number of half-lives $n = \\frac{t}{T_{1/2}} = \\frac{15}{5} = 3$.\nFraction of sample remaining $f_{\\text{remain}} = \\left(\\frac{1}{2} \\right)^3 = \\frac{1}{8}$.\nFraction of sample decayed $f_{\\text{decay}} = 1 - \\frac{1}{8} = \\frac{7}{8}$.\nComparing with $\\frac{N}{8}$, we get $N = 7$."
+    }
+  ]
+}

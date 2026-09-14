@@ -4,8 +4,9 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app import models  # noqa: F401 -- registers every table on Base.metadata
 from app.database import Base, engine
-from app.routers import users, test_attempts
+from app.routers import users, test_attempts, subjects, subject_tests, subject_test_attempts
 
 load_dotenv()
 
@@ -25,6 +26,9 @@ app.add_middleware(
 
 app.include_router(users.router)
 app.include_router(test_attempts.router)
+app.include_router(subjects.router)
+app.include_router(subject_tests.router)
+app.include_router(subject_test_attempts.router)
 
 
 @app.get("/health")

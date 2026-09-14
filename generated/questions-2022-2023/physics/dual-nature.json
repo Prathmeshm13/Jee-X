@@ -1,0 +1,674 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Dual Nature of Radiation and Matter",
+    "slug": "dual-nature",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 24
+  },
+  "subtopics": [
+    {
+      "slug": "photoelectric-effect",
+      "name": "Photoelectric effect",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-DUN-001",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The work function of a photosensitive metal is $2.1\\ \\mathrm{eV}$. When light of frequency $6 \\times 10^{14}\\ \\mathrm{Hz}$ is incident on the metal surface, the maximum kinetic energy of emitted photoelectrons is:\n(Take $h = 4.14 \\times 10^{-15}\\ \\mathrm{eV\\cdot s}$)",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$0.384\\ \\mathrm{eV}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2.48\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$0.48\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1.12\\ \\mathrm{eV}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Einstein's photoelectric equation:\n$K_{\\text{max}} = h\\nu - \\phi$\n$h\\nu = (4.14 \\times 10^{-15}\\ \\mathrm{eV\\cdot s}) \\times (6 \\times 10^{14}\\ \\mathrm{s}^{-1}) = 2.484\\ \\mathrm{eV}$.\n$K_{\\text{max}} = 2.484\\ \\mathrm{eV} - 2.1\\ \\mathrm{eV} = 0.384\\ \\mathrm{eV}$."
+    },
+    {
+      "ref": "PHY-DUN-002",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A radiation of energy $E$ falls normally on a perfectly reflecting surface. The momentum transferred to the surface is: (where $c$ is the velocity of light)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For a perfectly reflecting surface, the change in momentum of each photon of energy $E_i$ is $\\frac{2 E_i}{c}$.\nThus, the total momentum transferred to the surface is $\\frac{2E}{c}$.\nIf the question asks for the coefficient of $E/c$, it is 2."
+    },
+    {
+      "ref": "PHY-DUN-003",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is the threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1/v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 1.414$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "From Einstein's photoelectric equation, $K_{\\max} = \\frac{1}{2}m v^2 = h\\nu - h\\nu_0$.\nFor frequency $2\\nu_0$: $\\frac{1}{2}m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nFor frequency $5\\nu_0$: $\\frac{1}{2}m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations:\n$\\frac{v_1^2}{v_2^2} = \\frac{h\\nu_0}{4h\\nu_0} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-004",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is the threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1 / v_2$ is $1 : x$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "From Einstein's photoelectric equation: $K_{\\max} = h\\nu - h\\nu_0$.\nCase 1: $\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nCase 2: $\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations, we get $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$.\nThus, $x = 2$."
+    },
+    {
+      "ref": "PHY-DUN-005",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The work function of a metal is $2.5\\ \\mathrm{eV}$. If radiation of wavelength $4000\\ \\text{Å}$ is incident on the metal surface, the maximum kinetic energy of the emitted photoelectrons is:\n(Take $hc = 12400\\ \\mathrm{eV\\,\\text{Å}}$)",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$0.6\\ \\mathrm{eV}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1.2\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1.5\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "No photoelectrons are emitted",
+          "is_correct": false
+        }
+      ],
+      "solution": "Energy of incident photon $E = \\frac{hc}{\\lambda} = \\frac{12400}{4000} = 3.1\\ \\mathrm{eV}$.\nMaximum kinetic energy $K_{\\max} = E - \\phi = 3.1 - 2.5 = 0.6\\ \\mathrm{eV}$."
+    },
+    {
+      "ref": "PHY-DUN-006",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1 : v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : \\sqrt{2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "By Einstein's photoelectric equation:\n$\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$\n$\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$\nDividing these equations gives: $\\left(\\frac{v_1}{v_2}\\right)^2 = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-007",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The work function of a substance is $3.0 \\mathrm{eV}$. The longest wavelength of light that can cause photoelectric emission from this substance is $\\lambda_0 = x \\times 10^2 \\mathrm{nm}$. The value of $x$ is: (Take $hc = 1240 \\mathrm{eV\\cdot nm}$, round off the value of $x$ to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Threshold wavelength $\\lambda_0 = \\frac{hc}{\\phi}$.\n$\\lambda_0 = \\frac{1240 \\mathrm{eV\\cdot nm}}{3.0 \\mathrm{eV}} \\approx 413.33 \\mathrm{nm}$.\nComparing with $x \\times 10^2 \\mathrm{nm} = 4.1333 \\times 10^2 \\mathrm{nm}$.\nTo the nearest integer, $x = 4$."
+    },
+    {
+      "ref": "PHY-DUN-008",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When a light of frequency $v$ is incident on a metal surface of work function $\\phi$, the maximum kinetic energy of the emitted photoelectrons is $K$. When the frequency of the incident light is doubled, the maximum kinetic energy of the emitted photoelectrons becomes $3K$. If the ratio of the frequency of incident light to the threshold frequency of the metal is $\\frac{x}{1}$, then the value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "From Einstein's photoelectric equation:\n1) $K = h\\nu - \\phi$\n2) $3K = h(2\\nu) - \\phi = 2h\\nu - \\phi$\nMultiplying (1) by 3: $3K = 3h\\nu - 3\\phi$\nEquating the two expressions for $3K$:\n$2h\\nu - \\phi = 3h\\nu - 3\\phi \\Rightarrow h\\nu = 2\\phi$\nSince $\\phi = h\\nu_0$, we have $h\\nu = 2h\\nu_0 \\Rightarrow \\frac{\\nu}{\\nu_0} = 2$.\nThus, $x = 2$."
+    },
+    {
+      "ref": "PHY-DUN-009",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The stoping potential $V_0$ plotted against the frequency $\\nu$ of incident light for two metals A and B gives straight lines. If the slope of metal A's line is $s_A$ and metal B's line is $s_B$, then:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$s_A = s_B$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$s_A > s_B$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$s_A < s_B$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$s_A \\cdot s_B = 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Einstein's photoelectric equation: $eV_0 = h\\nu - \\phi \\implies V_0 = \\frac{h}{e}\\nu - \\frac{\\phi}{e}$.\nThe slope of the $V_0$ vs $\\nu$ graph is $\\frac{h}{e}$, which is a universal constant. Thus, $s_A = s_B$."
+    },
+    {
+      "ref": "PHY-DUN-010",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is the threshold frequency) is incident on a metal plate, the maximum velocity of emitted electrons is $v_1$. When the frequency of incident radiation is increased to $5\\nu_0$, the maximum velocity of emitted electrons becomes $v_2$. The ratio $v_1 / v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "From Einstein's photoelectric equation: $K_{max} = \\frac{1}{2}mv^2 = h\\nu - h\\nu_0$.\nFor frequency $2\\nu_0$: $\\frac{1}{2}mv_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nFor frequency $5\\nu_0$: $\\frac{1}{2}mv_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations gives: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-011",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of wavelength $300\n\\mathrm{nm}$ falls on a photoelectric emitter, photoelectrons are liberated. For another emitter, light of wavelength $600\n\\mathrm{nm}$ is just sufficient to liberate photoelectrons. The ratio of work functions of the two emitters is $x:1$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The threshold wavelength for the second emitter is $\\lambda_2 = 600\n\\mathrm{nm}$, so its work function is $\\phi_2 = hc/\\lambda_2$.\nIf the first emitter's work function also corresponds to threshold, then the ratio of work functions $\\phi_1/\\phi_2 = \\lambda_2/\\lambda_1 = 600/300 = 2$.\nThus, $x = 2$."
+    },
+    {
+      "ref": "PHY-DUN-012",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The work function of a metal is $2.3\\ \\mathrm{eV}$. When light of frequency $8 \\times 10^{14}\\ \\mathrm{Hz}$ is incident on the metal, the maximum kinetic energy of the emitted photoelectrons is $x \\times 10^{-1}\\ \\mathrm{eV}$. Find the value of $x$. (Take $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$)",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "Energy of incident photon: $E = h\\nu = 6.63 \\times 10^{-34} \\times 8 \\times 10^{14}\\ \\mathrm{J} = 53.04 \\times 10^{-20}\\ \\mathrm{J}$.\nIn eV: $E = \\frac{53.04 \\times 10^{-20}}{1.6 \\times 10^{-19}} = 3.315\\ \\mathrm{eV}$.\nMaximum kinetic energy $K_{\\max} = E - \\phi_0 = 3.315 - 2.3 = 1.015\\ \\mathrm{eV} \\approx 10 \\times 10^{-1}\\ \\mathrm{eV}$.\nThus, the integer answer is 10."
+    },
+    {
+      "ref": "PHY-DUN-013",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1 / v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Einstein's photoelectric equation:\n$\\frac{1}{2} m v^2 = h\\nu - h\\nu_0$.\nCase 1: $\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nCase 2: $\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2} = 1 : 2$."
+    },
+    {
+      "ref": "PHY-DUN-014",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When a metal surface is illuminated with radiation of wavelength $\\lambda$, the stopping potential is $V$. If the same surface is illuminated with radiation of wavelength $3\\lambda$, the stopping potential is $V/4$. The threshold wavelength for this metal surface is $x \\cdot \\lambda$. The value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 9.0,
+        "max": 9.0
+      },
+      "solution": "From Einstein's photoelectric equation:\n$eV = \\frac{hc}{\\lambda} - \\Phi$ ---(1)\n$e\\frac{V}{4} = \\frac{hc}{3\\lambda} - \\Phi$ ---(2)\nMultiply (2) by 4:\n$eV = \\frac{4hc}{3\\lambda} - 4\\Phi$\nEquating both expressions for $eV$:\n$\\frac{hc}{\\lambda} - \\Phi = \\frac{4hc}{3\\lambda} - 4\\Phi \\implies 3\\Phi = \\frac{hc}{3\\lambda} \\implies \\Phi = \\frac{hc}{9\\lambda}$.\nSince $\\Phi = \\frac{hc}{\\lambda_0}$, we get $\\lambda_0 = 9\\lambda$.\nTherefore, $x = 9$."
+    },
+    {
+      "ref": "PHY-DUN-015",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The stoping potential $V_0$ for photoelectric emission from a metal surface is plotted against the frequency $\\nu$ of the incident light. The slope of the resulting straight line is equal to (where $h$ is Planck's constant and $e$ is the electronic charge):",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "\\frac{h}{e}",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "\\frac{e}{h}",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "h e",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "h",
+          "is_correct": false
+        }
+      ],
+      "solution": "From Einstein's photoelectric equation: $eV_0 = h\\nu - \\phi_0 \\Rightarrow V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi_0}{e}$.\nComparing with $y = mx + c$, the slope $m$ of the $V_0$ vs $\\nu$ graph is $\\frac{h}{e}$."
+    },
+    {
+      "ref": "PHY-DUN-016",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When radiation of frequency $2\\nu_0$ (where $\\nu_0$ is the threshold frequency) is incident on a metal plate, the maximum velocity of the emitted electrons is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of the emitted electrons is $v_2$. The ratio $v_1 / v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "From Einstein's photoelectric equation:\n$\\frac{1}{2} m v^2 = h\\nu - h\\nu_0$\nFor first case: $\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$\nFor second case: $\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$\nDividing the two equations: $\\frac{v_1^2}{v_2^2} = \\frac{h\\nu_0}{4h\\nu_0} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-017",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When a light of wavelength $\\lambda$ is incident on a metal surface, the stopping potential is $V$. If the wavelength of the incident light is doubled to $2\\lambda$, the stopping potential becomes $V/3$. The threshold wavelength of the metal is $k\\lambda$. Find the value of $k$.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Einstein's photoelectric equation:\n$eV = \\frac{hc}{\\lambda} - \\phi$\n$e\\frac{V}{3} = \\frac{hc}{2\\lambda} - \\phi \\implies eV = \\frac{3hc}{2\\lambda} - 3\\phi$\nEquating the two expressions for $eV$:\n$\\frac{hc}{\\lambda} - \\phi = \\frac{3hc}{2\\lambda} - 3\\phi \\implies 2\\phi = \\frac{hc}{2\\lambda} \\implies \\phi = \\frac{hc}{4\\lambda}$\nSince $\\phi = \\frac{hc}{\\lambda_{th}}$, we have $\\lambda_{th} = 4\\lambda$.\nTherefore, $k = 4$."
+    },
+    {
+      "ref": "PHY-DUN-018",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The stopping potential for photoelectrons emitted from a surface when light of wavelength $\\lambda$ is incident on it is $V_0$. When light of wavelength $2\\lambda$ is incident on the same surface, the stopping potential is $V_0 / 3$. The threshold wavelength for the surface is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$4\\lambda$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$3\\lambda$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{4}{3}\\lambda$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2\\lambda$",
+          "is_correct": false
+        }
+      ],
+      "solution": "From Einstein's equation:\n$eV_0 = \\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_0}$ (1)\n$e\\frac{V_0}{3} = \\frac{hc}{2\\lambda} - \\frac{hc}{\\lambda_0}$ (2)\nMultiplying (2) by 3:\n$eV_0 = \\frac{3hc}{2\\lambda} - \\frac{3hc}{\\lambda_0}$ (3)\nEquating (1) and (3):\n$\\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_0} = \\frac{3hc}{2\\lambda} - \\frac{3hc}{\\lambda_0} \\implies \\frac{2hc}{\\lambda_0} = \\frac{hc}{2\\lambda} \\implies \\lambda_0 = 4\\lambda$."
+    },
+    {
+      "ref": "PHY-DUN-019",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The work function of a metal surface is $2.2\\ \\mathrm{eV}$. When light of wavelength $300\\ \\mathrm{nm}$ is incident on this metal, the maximum kinetic energy of the emitted photoelectrons is $E_K$. If the wavelength of incident light is changed to $400\\ \\mathrm{nm}$, the maximum kinetic energy of photoelectrons becomes $E_K'$. The value of $E_K - E_K'$ in $\\mathrm{eV}$ is _________ $\\times 10^{-1}\\ \\mathrm{eV}$ (rounded off to the nearest integer). (Take $hc = 1240\\ \\mathrm{eV\\cdot nm}$)",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "According to Einstein's photoelectric equation:\n$E_K = \\frac{hc}{\\lambda_1} - \\phi$ and $E_K' = \\frac{hc}{\\lambda_2} - \\phi$\n$E_K - E_K' = hc \\left( \\frac{1}{\\lambda_1} - \\frac{1}{\\lambda_2} \\right) = 1240 \\left( \\frac{1}{300} - \\frac{1}{400} \\right) = 1240 \\left( \\frac{100}{120000} \\right) = \\frac{1240}{1200} \\approx 1.03\\ \\mathrm{eV}$.\nIn terms of $10^{-1}\\ \\mathrm{eV}$, this is $10.3 \\times 10^{-1}\\ \\mathrm{eV}$.\nRounding off to the nearest integer, we get $10$."
+    },
+    {
+      "ref": "PHY-DUN-020",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When a light of frequency $v_1$ is incident on a metal surface, the stopping potential is $V_1$. When light of frequency $v_2$ is incident on the same metal surface, the stopping potential is $V_2$. If $v_1 - v_2 = 2 \\times 10^{14}\\text{ Hz}$ and $V_1 - V_2 = 0.8\\text{ V}$, then the value of Planck's constant $h$ is found to be $x \\times 10^{-34}\\text{ J s}$. The value of $x$ is ____________. (Take charge of electron $e = 1.6 \\times 10^{-19}\\text{ C}$)",
+      "image": null,
+      "answer": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "solution": "$e V_1 = h v_1 - \\phi$ and $e V_2 = h v_2 - \\phi$\nSubtracting: $e(V_1 - V_2) = h(v_1 - v_2)$\n$h = \\frac{e(V_1 - V_2)}{v_1 - v_2} = \\frac{1.6 \\times 10^{-19} \\times 0.8}{2 \\times 10^{14}} = 0.64 \\times 10^{-33} = 6.4 \\times 10^{-34}\\text{ J s}$.\nTo the nearest integer, $x = 6$ (or $6.4$ rounds to $6$)."
+    },
+    {
+      "ref": "PHY-DUN-021",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "When radiation of frequency $2v_0$ (where $v_0$ is the threshold frequency) is incident on a metal plate, the maximum velocity of emitted photoelectrons is $v_1$. When the frequency of the incident radiation is increased to $5v_0$, the maximum velocity of photoelectrons emitted is $v_2$. The ratio $v_1 / v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4 : 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Einstein's photoelectric equation: $K_{\\mathrm{max}} = \\frac{1}{2} m v^2 = h\\nu - h\\nu_0$. \nCase 1: $\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$. \nCase 2: $\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$. \nDividing the two equations: \n$\\left(\\frac{v_1}{v_2}\\right)^2 = \\frac{h\\nu_0}{4h\\nu_0} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-022",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1/v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Einstein's photoelectric equation: $K_{\\max} = \\frac{1}{2} m v^2 = h\\nu - h\\nu_0$.\nFor frequency $2\\nu_0$: $\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nFor frequency $5\\nu_0$: $\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nRatio of velocities squared: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-023",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "When a light of wavelength $\\lambda$ is incident on a metal surface, the stopping potential is $V_0$. When light of wavelength $3\\lambda$ is incident on the same surface, the stopping potential is $V_0/4$. The threshold wavelength for this metal surface is $x\\lambda$. The value of $x$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 9.0,
+        "max": 9.0
+      },
+      "solution": "$eV_0 = \\frac{hc}{\\lambda} - \\phi$ and $e\\frac{V_0}{4} = \\frac{hc}{3\\lambda} - \\phi \\implies 4\\left(\\frac{hc}{3\\lambda} - \\phi\\right) = \\frac{hc}{\\lambda} - \\phi \\implies \\frac{4hc}{3\\lambda} - 4\\phi = \\frac{hc}{\\lambda} - \\phi \\implies 3\\phi = \\frac{hc}{3\\lambda} \\implies \\phi = \\frac{hc}{9\\lambda}$. Since $\\phi = \\frac{hc}{\\lambda_{th}}$, we get $\\lambda_{th} = 9\\lambda$. Hence, $x = 9$."
+    }
+  ]
+}

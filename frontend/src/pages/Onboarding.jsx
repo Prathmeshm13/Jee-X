@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
 import { api } from '../lib/api.js'
 import { readPendingFreeTest, clearPendingFreeTest } from '../lib/pendingFreeTest.js'
-import { useCrackJeeStyles } from '../crackjee/screens.jsx'
-import { card, label, input, primaryBtn, hintOk, hintErr, hint, AMBER, INK, PAPER_LINE, SLATE, fontDisplay } from '../crackjee/ui.js'
+import { Logo } from '../components/Brand.jsx'
+
+const CLASSES = [['11', 'Class 11'], ['12', 'Class 12'], ['dropper', 'Dropper']]
 
 export default function Onboarding() {
-  useCrackJeeStyles()
   const { getAccessTokenSilently, user } = useAuth0()
   const navigate = useNavigate()
 
@@ -66,7 +66,7 @@ export default function Onboarding() {
     setError('')
 
     if (usernameStatus !== 'available') {
-      setError('Please choose an available username before continuing.')
+      setError('Choose an available username to continue.')
       return
     }
 
@@ -96,51 +96,55 @@ export default function Onboarding() {
   }
 
   return (
-    <div className="crackjee-root" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 16px' }}>
-      <div style={{ ...card, maxWidth: 460, width: '100%', padding: '32px 30px' }}>
-        <div style={{ marginBottom: 16 }}>
-          <span style={{ fontFamily: fontDisplay, fontWeight: 700, fontSize: 20, color: INK }}>Jee<span style={{ color: AMBER }}>X</span></span>
-        </div>
-        <h1 style={{ fontSize: 24, fontWeight: 700, margin: '0 0 6px', color: INK }}>Set up your profile</h1>
-        <p style={{ fontSize: 14.5, color: SLATE, lineHeight: 1.6, margin: '0 0 22px' }}>This takes under a minute — it's how we personalise your mocks and rank you against other aspirants.</p>
+    <div className="crackjee-root auth">
+      <div className="auth-inner">
+        <Logo />
+        <h1>Set up your profile</h1>
+        <p className="sub">It takes a minute, and it's how we rank you against other aspirants.</p>
 
         <form onSubmit={handleSubmit}>
-          <div style={{ marginBottom: 16 }}>
-            <label style={label} htmlFor="name">Full name</label>
-            <input id="name" type="text" style={input} value={form.name}
+          <div className="field">
+            <label className="field-label" htmlFor="name">Full name</label>
+            <input id="name" type="text" className="input" value={form.name} autoComplete="name"
               onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))} placeholder="Rahul Sharma" required />
           </div>
 
-          <div style={{ marginBottom: 16 }}>
-            <label style={label} htmlFor="username">Username</label>
-            <input id="username" type="text" style={input} value={form.username}
-              onChange={(e) => handleUsernameChange(e.target.value)} placeholder="rahul_23" required />
-            {usernameStatus === 'checking' && <p style={hint}>Checking availability…</p>}
-            {usernameStatus === 'available' && <p style={hintOk}>@{form.username} is available.</p>}
-            {usernameStatus === 'taken' && <p style={hintErr}>That username is already taken.</p>}
-            {usernameStatus === 'invalid' && <p style={hintErr}>3-20 characters: letters, numbers, underscore only.</p>}
+          <div className="field">
+            <label className="field-label" htmlFor="username">Username</label>
+            <div className="input-prefix">
+              <span aria-hidden="true">@</span>
+              <input id="username" type="text" className="input" value={form.username} autoComplete="username"
+                aria-describedby="username-hint" onChange={(e) => handleUsernameChange(e.target.value)} placeholder="rahul_23" required />
+            </div>
+            <p id="username-hint" className={`hint ${usernameStatus === 'available' ? 'hint-ok' : usernameStatus === 'taken' || usernameStatus === 'invalid' ? 'hint-err' : ''}`} aria-live="polite">
+              {usernameStatus === 'checking' && 'Checking availability…'}
+              {usernameStatus === 'available' && `@${form.username} is available.`}
+              {usernameStatus === 'taken' && 'That username is taken.'}
+              {usernameStatus === 'invalid' && '3 to 20 characters: letters, numbers and underscores.'}
+              {usernameStatus === null && 'Shown on leaderboards instead of your name.'}
+            </p>
           </div>
 
-          <div style={{ marginBottom: 16 }}>
-            <label style={label} htmlFor="dob">Date of birth</label>
-            <input id="dob" type="date" style={input} value={form.dob}
+          <div className="field">
+            <label className="field-label" htmlFor="dob">Date of birth</label>
+            <input id="dob" type="date" className="input" value={form.dob}
               onChange={(e) => setForm((f) => ({ ...f, dob: e.target.value }))} required />
           </div>
 
-          <div style={{ marginBottom: 20 }}>
-            <label style={label} htmlFor="class_level">Class</label>
-            <select id="class_level" style={input} value={form.class_level}
-              onChange={(e) => setForm((f) => ({ ...f, class_level: e.target.value }))}>
-              <option value="11">Class 11</option>
-              <option value="12">Class 12</option>
-              <option value="dropper">Dropper</option>
-            </select>
+          <div className="field">
+            <span className="field-label" id="class-label">Class</span>
+            <div className="seg" role="group" aria-labelledby="class-label">
+              {CLASSES.map(([value, text]) => (
+                <button key={value} type="button" aria-pressed={form.class_level === value}
+                  onClick={() => setForm((f) => ({ ...f, class_level: value }))}>{text}</button>
+              ))}
+            </div>
           </div>
 
-          {error && <p style={{ ...hintErr, marginBottom: 14 }}>{error}</p>}
+          {error && <p className="alert" role="alert">{error}</p>}
 
-          <button type="submit" style={{ ...primaryBtn, width: '100%', opacity: submitting ? 0.7 : 1 }} disabled={submitting}>
-            {submitting ? 'Saving…' : 'Continue to dashboard'}
+          <button type="submit" className="btn btn-primary btn-lg btn-block" disabled={submitting}>
+            {submitting ? <><span className="spin" aria-hidden="true" />Saving</> : 'Continue to dashboard'}
           </button>
         </form>
       </div>

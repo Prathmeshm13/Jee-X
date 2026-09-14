@@ -90,6 +90,80 @@
         }
       ],
       "solution": "Let $I = \\int e^{2x} \\left( \\frac{1 - 2\\sin x \\cos x}{2\\cos^2 x} \\right) dx = \\int e^{2x} \\left( \\frac{1}{2}\\sec^2 x - \\tan x \\right) dx$.\nLet $2x = t \\implies dx = dt/2$.\n$I = \\frac{1}{2} \\int e^t \\left( \\frac{1}{2}\\sec^2(t/2) - \\tan(t/2) \\right) dt = -\\frac{1}{2} \\int e^t \\left( \\tan(t/2) - \\frac{1}{2}\\sec^2(t/2) \\right) dt$.\nSince $\\frac{d}{dt}\\tan(t/2) = \\frac{1}{2}\\sec^2(t/2)$, this is of the form $-\\frac{1}{2} e^t \\tan(t/2) + C = -\\frac{1}{2} e^{2x} \\tan x + C$.\nHence $f(x) = -\\frac{1}{2}\\tan x$."
+    },
+    {
+      "ref": "MATH-IND-003",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The integral $\\int e^x \\frac{x^2 + 1}{(x + 1)^2} \\, dx$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$e^x \\left(\\frac{x-1}{x+1}\\right) + C$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$e^x \\left(\\frac{x+1}{x-1}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$e^x \\left(\\frac{1}{x+1}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$e^x \\left(\\frac{-1}{x+1}\\right) + C$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Write $\\frac{x^2+1}{(x+1)^2} = \\frac{x^2-1+2}{(x+1)^2} = \\frac{x-1}{x+1} + \\frac{2}{(x+1)^2}$.\nNotice that if $f(x) = \\frac{x-1}{x+1}$, then $f'(x) = \\frac{(x+1)(1) - (x-1)(1)}{(x+1)^2} = \\frac{2}{(x+1)^2}$.\nThus the integral is of the form $\\int e^x [f(x) + f'(x)] \\, dx = e^x f(x) + C = e^x \\left(\\frac{x-1}{x+1}\\right) + C$."
+    },
+    {
+      "ref": "MATH-IND-004",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "If $\\int \\frac{\\ln(\\sin x)}{\\cos^2 x} dx = f(x) \\ln(\\sin x) + g(x) + C$, then $f(x) + g(x)$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\tan x - x$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\tan x + x$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-\\tan x + x$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-\\tan x - x$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using integration by parts: $\\int \\sec^2 x \\ln(\\sin x) dx = \\tan x \\ln(\\sin x) - \\int \\tan x \\cdot \\frac{\\cos x}{\\sin x} dx$\n$= \\tan x \\ln(\\sin x) - \\int 1 dx = \\tan x \\ln(\\sin x) - x + C$.\nComparing, we get $f(x) = \\tan x$ and $g(x) = -x$.\nThus $f(x) + g(x) = \\tan x - x$."
     }
   ]
 }

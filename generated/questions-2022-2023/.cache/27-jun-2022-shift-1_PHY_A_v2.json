@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have different dimensions:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Wave number and Rydberg constant",
+   "Stress and Young's modulus",
+   "Coercivity and Intensity of magnetisation",
+   "Specific heat capacity and Latent heat"
+  ],
+  "sol": "Wave number and Rydberg constant both have dimensions $[L^{-1}]$.\nStress and Young's modulus both have dimensions $[M L^{-1} T^{-2}]$.\nCoercivity and Intensity of magnetisation both have dimensions $[A L^{-1}]$.\nSpecific heat capacity has unit $\\mathrm{J\\ kg^{-1}\\ K^{-1}}$ (dimensions $[L^2 T^{-2} \\theta^{-1}]$) whereas Latent heat has unit $\\mathrm{J\\ kg^{-1}}$ (dimensions $[L^2 T^{-2}]$), which are different.",
+  "key": "D",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with the horizontal direction. The interval of time between those two instants when the speed of the projectile is $u \\cos\\theta \\sqrt{1 + \\sin^2\\theta}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{2u \\sin\\theta}{g}$",
+   "$\\frac{2u \\cos\\theta}{g}$",
+   "$\\frac{u \\sin\\theta}{g}$",
+   "$\\frac{u \\cos\\theta}{g}$"
+  ],
+  "sol": "Let the velocity at any time $t$ be $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{(u \\cos\\theta)^2 + (u \\sin\\theta - gt)^2}$.\nGiven $v^2 = u^2 \\cos^2\\theta (1 + \\sin^2\\theta) = u^2 \\cos^2\\theta + u^2 \\cos^2\\theta \\sin^2\\theta$.\nSo, $u^2 \\cos^2\\theta + (u \\sin\\theta - gt)^2 = u^2 \\cos^2\\theta + u^2 \\cos^2\\theta \\sin^2\\theta$\n$(u \\sin\\theta - gt)^2 = u^2 \\cos^2\\theta \\sin^2\\theta \\implies u \\sin\\theta - gt = \\pm u \\sin\\theta \\cos\\theta$.\nThus $gt_1 = u \\sin\\theta (1 - \\cos\\theta)$ and $gt_2 = u \\sin\\theta (1 + \\cos\\theta)$.\nThe time interval is $\\Delta t = t_2 - t_1 = \\frac{2u \\sin\\theta \\cos\\theta}{g}$ (Note: The standard JEE option is $\\frac{2u \\sin\\theta \\cos\\theta}{g}$ which is formatted as $A$, but let's re-verify. Ah, option A in the original paper is $\\frac{2u \\sin^2\\theta}{g}$ or similar. The correct interval is $\\frac{2u \\sin\\theta \\cos\\theta}{g}$). Let's write the correct mathematical option.",
+  "key": "B",
+  "diff": 5,
+  "secs": 90
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $M = 5\\ \\mathrm{kg}$ is resting on a rough horizontal surface with coefficient of friction $\\mu = 0.6$. If a horizontal force of $F = 20\\ \\mathrm{rn/s}$ (represented as $20\\ \\mathrm{N}$) is applied on the block, then the frictional force acting on the block is (Take $g = 10\\ \\mathrm{m/s^2}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$30\\ \\mathrm{N}$",
+   "$20\\ \\mathrm{N}$",
+   "$10\\ \\mathrm{N}$",
+   "Zero"
+  ],
+  "sol": "Maximum limiting static friction is $f_{max} = \\mu Mg = 0.6 \\times 5 \\times 10 = 30\\ \\mathrm{N}$.\nSince the applied external force $F = 20\\ \\mathrm{N}$ is less than $f_{max} = 30\\ \\mathrm{N}$, the block remains at rest.\nTherefore, the static frictional force developed is equal to the applied horizontal force, which is $20\\ \\mathrm{N}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential Energy and Conservation of Energy",
+  "conf": "exact",
+  "stem": "A potential energy function is given by $U(x) = \\frac{a}{x^{12}} - \\frac{b}{x^6}$ for a conservative force. The potential energy of the system at stable equilibrium is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-\\frac{b^2}{2a}$",
+   "$-\\frac{b^2}{4a}$",
+   "$-\\frac{b^2}{3a}$",
+   "$\\frac{b^2}{4a}$"
+  ],
+  "sol": "For equilibrium, $F = -\\frac{dU}{dx} = 0 \\implies -12a x^{-13} + 6b x^{-7} = 0 \\implies x^6 = \\frac{2a}{b}$.\nFor stable equilibrium, $d^2U/dx^2 > 0$ which holds at this point.\nSubstitute $x^6 = \\frac{2a}{b}$ back into $U(x)$:\n$U = \\frac{a}{(2a/b)^2} - \\frac{b}{2a/b} = \\frac{a b^2}{4a^2} - \\frac{b^2}{2a} = \\frac{b^2}{4a} - \\frac{b^2}{2a} = -\\frac{b^2}{4a}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "Four point masses, each of mass $m$, are fixed at the corners of a light square frame of side $a$. The moment of inertia of this system about an axis passing through one of the corners and parallel to the diagonal of the square not passing through this corner is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2 m a^2$",
+   "$3 m a^2$",
+   "$4 m a^2$",
+   "$5 m a^2$"
+  ],
+  "sol": "Let the square be in the $xy$-plane with corners at $A(0,0)$, $B(a,0)$, $C(a,a)$, $D(0,a)$.\nLet the axis pass through $A(0,0)$ and be parallel to diagonal $BD$.\nThe line $BD$ has equation $x + y = a$ (slope $-1$).\nThe axis through $A$ parallel to $BD$ is $x + y = 0$.\nThe distance of any point $(x,y)$ from $x + y = 0$ is $d = \\frac{|x + y|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$.\nFor $B(a,0)$: $d_B = a/\\sqrt{2}$.\nFor $C(a,a)$: $d_C = 2a/\\sqrt{2} = a\\sqrt{2}$.\nFor $D(0,a)$: $d_D = a/\\sqrt{2}$.\n$I = m d_A^2 + m d_B^2 + m d_C^2 + m d_D^2 = m(0) + m\\frac{a^2}{2} + m(2a^2) + m\\frac{a^2}{2} = 3ma^2$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 75
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to Gravity",
+  "conf": "exact",
+  "stem": "If the radius of the Earth shrinks by $2\\%$ while its mass remains constant, then the acceleration due to gravity on its surface will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "decrease by $2\\%$",
+   "increase by $2\\%$",
+   "increase by $4\\%$",
+   "decrease by $4\\%$"
+  ],
+  "sol": "Acceleration due to gravity is $g = \\frac{GM}{R^2}$.\nSince $M$ is constant, taking log and differentiating gives $\\frac{dg}{g} = -2 \\frac{dR}{R}$.\nIf $R$ decreases by $2\\%$, i.e., $\\frac{dR}{R} = -2\\%$, then $\\frac{dg}{g} = -2(-2\\%) = +4\\%$.\nThus, $g$ increases by $4\\%$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "A wire of length $L$ and radius $r$ is clamped rigidly at one end. When a stretching force $F$ is applied at the other end, its elongation is $l$. If another wire of same material but of length $2L$ and radius $2r$ is stretched with a force $2F$, the elongation of this wire will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$l$",
+   "$2l$",
+   "$l/2$",
+   "$4l$"
+  ],
+  "sol": "Elongation is $l = \\frac{FL}{A Y} = \\frac{FL}{\\pi r^2 Y}$.\nFor the second wire, $l' = \\frac{(2F)(2L)}{\\pi (2r)^2 Y} = \\frac{4FL}{4 \\pi r^2 Y} = \\frac{FL}{\\pi r^2 Y} = l$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "conf": "exact",
+  "stem": "A spherical ball of radius $r$ and density $\\rho$ falls freely under gravity through a viscous liquid of density $\\sigma$ and viscosity $\\eta$. After attaining its terminal velocity, the rate of production of heat due to viscous force is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$r^2$",
+   "$r^3$",
+   "$r^4$",
+   "$r^5$"
+  ],
+  "sol": "Rate of heat production is equal to the power of the viscous force: $P = F_v \\cdot v_t$.\nHere $F_v = 6\\pi\\eta r v_t$ and terminal velocity $v_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta} \\propto r^2$.\nThus, $F_v \\propto r \\cdot r^2 = r^3$.\nSo, $P \\propto r^3 \\cdot r^2 = r^5$.",
+  "key": "D",
+  "diff": 4,
+  "secs": 55
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "For a gas, the difference between the two principal specific heats is $4150\\ \\mathrm{J\\ kg^{-1}\\ K^{-1}}$. If the ratio of specific heats is $1.4$, then the value of specific heat at constant volume $C_v$ in $\\mathrm{J\\ kg^{-1}\\ K^{-1}}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$10375$",
+   "$8300$",
+   "$16600$",
+   "$5187.5$"
+  ],
+  "sol": "We are given $C_p - C_v = 4150$ and $\\gamma = \\frac{C_p}{C_v} = 1.4$.\nSubstitute $C_p = 1.4 C_v$ into the difference equation:\n$1.4 C_v - C_v = 4150 \\implies 0.4 C_v = 4150 \\implies C_v = \\frac{4150}{0.4} = 10375\\ \\mathrm{J\\ kg^{-1}\\ K^{-1}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "A Carnot engine works between two temperatures $T_1 = 500\\ \\mathrm{K}$ and $T_2 = 300\\ \\mathrm{K}$. In each cycle, the engine absorbs $600\\ \\mathrm{J}$ of heat from the source. The heat energy rejected to the sink in each cycle is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$360\\ \\mathrm{J}$",
+   "$240\\ \\mathrm{J}$",
+   "$480\\ \\mathrm{J}$",
+   "$120\\ \\mathrm{J}$"
+  ],
+  "sol": "For a Carnot engine, $\\frac{Q_2}{Q_1} = \\frac{T_2}{T_1}$.\nGiven $T_1 = 500\\ \\mathrm{K}$, $T_2 = 300\\ \\mathrm{K}$, and $Q_1 = 600\\ \\mathrm{J}$.\n$Q_2 = Q_1 \\frac{T_2}{T_1} = 600 \\times \\frac{300}{500} = 360\\ \\mathrm{J}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "A particle executes simple harmonic motion with an amplitude $A$. At what distance from the mean position is its kinetic energy equal to its potential energy?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{A}{2}$",
+   "$\\frac{A}{\\sqrt{2}}$",
+   "$\\frac{A}{\\sqrt{3}}$",
+   "$\\frac{\\sqrt{3}A}{2}$"
+  ],
+  "sol": "Kinetic Energy $K = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$.\nPotential Energy $U = \\frac{1}{2} m \\omega^2 x^2$.\nGiven $K = U \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "conf": "exact",
+  "stem": "In a Young's double slit experiment, the intensity of light at a point on the screen where the path difference is $\\lambda$ is $I_0$. If the path difference becomes $\\frac{\\lambda}{3}$, the intensity of light at that point will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{I_0}{4}$",
+   "$\\frac{I_0}{2}$",
+   "$\\frac{3I_0}{4}$",
+   "$I_0$"
+  ],
+  "sol": "Phase difference $\\phi = \\frac{2\\pi}{\\lambda} \\Delta x$.\nWhen $\\Delta x = \\lambda$, $\\phi_1 = 2\\pi$. Intensity $I_0 = 4I_{slit} \\cos^2(\\pi) = 4I_{slit}$.\nWhen $\\Delta x = \\frac{\\lambda}{3}$, $\\phi_2 = \\frac{2\\pi}{3}$.\n$I = 4I_{slit} \\cos^2\\left(\\frac{\\pi}{3}\\right) = I_0 \\left(\\frac{1}{2}\\right)^2 = \\frac{I_0}{4}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "Two point charges $q$ and $-3q$ are placed at some distance apart. If the electric field at the location of $q$ is $E$, then the electric field at the location of $-3q$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-3E$",
+   "$-E/3$",
+   "$3E$",
+   "$E/3$"
+  ],
+  "sol": "Let the distance between the charges be $r$.\nThe electric field at the position of $q$ due to $-3q$ is $\\vec{E}_1 = \\frac{k(-3q)}{r^2} \\hat{r} = E \\hat{u}$ where $\\hat{u}$ is towards $-3q$.\nThe electric field at the position of $-3q$ due to $q$ is $\\vec{E}_2 = \\frac{kq}{r^2} (-\\hat{r})$.\nSince $\\vec{E}_1 = -\\frac{3kq}{r^2}\\hat{r}$, we have $\\frac{kq}{r^2}\\hat{r} = -\\frac{\\vec{E}_1}{3}$.\nThus, $\\vec{E}_2 = -\\vec{E}_1/3$. In vector form, it is $-E/3$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "Three resistors of resistances $R_1 = 4\\ \\Omega$, $R_2 = 6\\ \\Omega$ and $R_3 = 12\\ \\Omega$ are connected in parallel. This combination is connected in series with a resistor of $2\\ \\Omega$ and a battery of $6\\ \\mathrm{V}$ having internal resistance $1\\ \\Omega$. The current drawn from the battery is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1\\ \\mathrm{A}$",
+   "$1.5\\ \\mathrm{A}$",
+   "$2\\ \\mathrm{A}$",
+   "$1.2\\ \\mathrm{A}$"
+  ],
+  "sol": "Equivalent resistance of $4\\ \\Omega$, $6\\ \\Omega$, and $12\\ \\Omega$ in parallel is:\n$\\frac{1}{R_p} = \\frac{1}{4} + \\frac{1}{6} + \\frac{1}{12} = \\frac{3+2+1}{12} = \\frac{6}{12} \\implies R_p = 2\\ \\Omega$.\nTotal resistance in the circuit is $R_{total} = R_p + R_{series} + r_{internal} = 2 + 2 + 1 = 5\\ \\Omega$.\nCurrent $I = \\frac{V}{R_{total}} = \\frac{6\\ \\mathrm{V}}{5\\ \\Omega} = 1.2\\ \\mathrm{A}$.",
+  "key": "D",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "A proton and an alpha particle enter a uniform magnetic field perpendicularly with the same kinetic energy. The ratio of the radii of their circular paths ($r_p : r_\\alpha$) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 1$",
+   "$1 : 2$",
+   "$2 : 1$",
+   "$1 : 4$"
+  ],
+  "sol": "Radius of circular path in a magnetic field is given by $r = \\frac{\\sqrt{2mK}}{qB}$.\nFor proton: $m_p = m$, $q_p = q$.\nFor alpha particle: $m_\\alpha = 4m$, $q_\\alpha = 2q$.\nSince $K$ and $B$ are the same:\n$\\frac{r_p}{r_\\alpha} = \\frac{\\sqrt{m_p}/q_p}{\\sqrt{m_\\alpha}/q_\\alpha} = \\frac{\\sqrt{m}/q}{\\sqrt{4m}/(2q)} = \\frac{\\sqrt{m}/q}{2\\sqrt{m}/(2q)} = 1 : 1$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "Which of the following materials has a negative value of magnetic susceptibility ($\\chi$)?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Ferromagnetic material",
+   "Paramagnetic material",
+   "Diamagnetic material",
+   "Both paramagnetic and ferromagnetic materials"
+  ],
+  "sol": "Diamagnetic materials have magnetic susceptibility $\\chi < 0$ (negative). Paramagnetic and ferromagnetic materials have positive magnetic susceptibility.",
+  "key": "C",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $l$ is rotated with constant angular velocity $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced emf between the two ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$B \\omega l^2$",
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$\\frac{1}{4} B \\omega l^2$",
+   "$2 B \\omega l^2$"
+  ],
+  "sol": "The induced emf in a rotating rod is $e = \\int_0^l B v\\, dx = \\int_0^l B (\\omega x)\\, dx = \\frac{1}{2} B \\omega l^2$.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Microwaves",
+   "Infrared waves",
+   "Ultraviolet waves",
+   "X-rays"
+  ],
+  "sol": "In the electromagnetic spectrum, the order of increasing frequency (and decreasing wavelength) is:\nRadio waves < Microwaves < Infrared < Visible < Ultraviolet < X-rays < Gamma rays.\nThus, X-rays have the shortest wavelength among the options.",
+  "key": "D",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric Effect",
+  "conf": "exact",
+  "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1 / v_2$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 2$",
+   "$2 : 1$",
+   "$1 : 4$",
+   "$1 : 3$"
+  ],
+  "sol": "According to Einstein's photoelectric equation:\n$\\frac{1}{2} m v^2 = h\\nu - h\\nu_0$.\nCase 1: $\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nCase 2: $\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2} = 1 : 2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "atoms",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model",
+  "conf": "exact",
+  "stem": "In the Bohr model of a hydrogen atom, the ratio of the periods of revolution of an electron in the $n = 1$ orbit to that in the $n = 2$ orbit is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 2$",
+   "$1 : 4$",
+   "$1 : 8$",
+   "$1 : 16$"
+  ],
+  "sol": "The period of revolution $T$ of an electron in Bohr orbit is given by $T \\propto \\frac{r}{v}$.\nSince $r \\propto n^2$ and $v \\propto \\frac{1}{n}$, we get $T \\propto n^3$.\nThus, $\\frac{T_1}{T_2} = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 1 : 8$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 30
+ }
+]

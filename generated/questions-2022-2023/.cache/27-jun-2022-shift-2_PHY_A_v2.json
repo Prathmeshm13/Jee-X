@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "If momentum $[P]$, area $[A]$ and time $[T]$ are taken as fundamental quantities, then the dimensional formula for coefficient of viscosity is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[P A^{-1} T^0]$",
+   "$[P A^{-1/2} T^{-1}]$",
+   "$[P A^{-1} T^{-1}]$",
+   "$[P A^{-3/2} T^0]$"
+  ],
+  "sol": "Let $[\\eta] = [P]^a [A]^b [T]^c$\nDimensions of viscosity: $[\\eta] = [M L^{-1} T^{-1}]$\nDimensions of momentum: $[P] = [M L T^{-1}]$\nDimensions of area: $[A] = [L^2]$\nDimensions of time: $[T] = [T]$\nSo, $[M L^{-1} T^{-1}] = [M^a L^{a+2b} T^{-a+c}]$\nComparing powers: $a = 1$, $a+2b = -1 \\implies 1+2b = -1 \\implies b = -1$, and $-a+c = -1 \\implies -1+c = -1 \\implies c = 0$.\nHence, $[\\eta] = [P^1 A^{-1} T^0]$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with horizontal. What is the change in velocity when it is at the highest point of its trajectory?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$u \\cos \\theta \\hat{i}$",
+   "$-u \\sin \\theta \\hat{j}$",
+   "$u \\sin \\theta \\hat{j}$",
+   "$-u \\cos \\theta \\hat{i}$"
+  ],
+  "sol": "Initial velocity vector: $\\vec{v}_i = u \\cos \\theta \\hat{i} + u \\sin \\theta \\hat{j}$\nVelocity at highest point: $\\vec{v}_f = u \\cos \\theta \\hat{i}$\nChange in velocity: $\\Delta \\vec{v} = \\vec{v}_f - \\vec{v}_i = -u \\sin \\theta \\hat{j}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $5\\ \\mathrm{kg}$ is placed on a rough horizontal surface. The coefficient of static friction and kinetic friction between the block and the surface are $0.5$ and $0.4$ respectively. A horizontal force of $15\\ \\mathrm{N}$ is applied to the block. The acceleration of the block will be: (Take $g = 10\\ \\mathrm{m/s^2}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0\\ \\mathrm{m/s^2}$",
+   "$1\\ \\mathrm{m/s^2}$",
+   "$2\\ \\mathrm{m/s^2}$",
+   "$3\\ \\mathrm{m/s^2}$"
+  ],
+  "sol": "Maximum static friction: $f_{s,\\max} = \\mu_s N = \\mu_s mg = 0.5 \\times 5 \\times 10 = 25\\ \\mathrm{N}$.\nSince the applied force $F = 15\\ \\mathrm{N}$ is less than $f_{s,\\max}$, the block does not move.\nTherefore, the acceleration of the block is $0\\ \\mathrm{m/s^2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "A solid cylinder and a solid sphere, having same mass $M$ and radius $R$, roll down the same inclined plane from the top without slipping. The ratio of their acceleration down the plane $\\left(\\frac{a_{\\text{cyl}}}{a_{\\text{sph}}}\\right)$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$15 : 14$",
+   "$14 : 15$",
+   "$5 : 3$",
+   "$3 : 5$"
+  ],
+  "sol": "Acceleration of a rolling body: $a = \\frac{g \\sin \\theta}{1 + \\frac{I}{MR^2}}$\nFor solid cylinder, $I = \\frac{1}{2}MR^2 \\implies a_{\\text{cyl}} = \\frac{g \\sin \\theta}{1 + 1/2} = \\frac{2}{3} g \\sin \\theta$\nFor solid sphere, $I = \\frac{2}{5}MR^2 \\implies a_{\\text{sph}} = \\frac{g \\sin \\theta}{1 + 2/5} = \\frac{5}{7} g \\sin \\theta$\nRatio: $\\frac{a_{\\text{cyl}}}{a_{\\text{sph}}} = \\frac{2/3}{5/7} = \\frac{14}{15}$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 75
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to Gravity",
+  "conf": "exact",
+  "stem": "The value of acceleration due to gravity at a depth $d$ below the Earth's surface is equal to the value of acceleration due to gravity at an altitude $h$ above the surface of the Earth. If both $d$ and $h$ are much smaller than the radius of Earth $R$ ($d, h \\ll R$), then the relation between $d$ and $h$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$d = h$",
+   "$d = 2h$",
+   "$d = \\frac{h}{2}$",
+   "$d = 4h$"
+  ],
+  "sol": "Acceleration due to gravity at depth $d$: $g_d = g\\left(1 - \\frac{d}{R}\\right)$\nAcceleration due to gravity at height $h \\ll R$: $g_h \\approx g\\left(1 - \\frac{2h}{R}\\right)$\nEquating both: $1 - \\frac{d}{R} = 1 - \\frac{2h}{R} \\implies d = 2h$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "A uniform wire of length $L$ and radius $r$ is stretched by a length $l$ when a tension $T$ is applied. If another wire of the same material but of length $2L$ and radius $2r$ is stretched by a tension $2T$, then the extension produced in the second wire is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$l$",
+   "$2l$",
+   "$\\frac{l}{2}$",
+   "$4l$"
+  ],
+  "sol": "Extension $l = \\frac{FL}{AY} = \\frac{TL}{\\pi r^2 Y}$.\nFor the second wire:\n$l' = \\frac{(2T)(2L)}{\\pi (2r)^2 Y} = \\frac{4TL}{4\\pi r^2 Y} = \\frac{TL}{\\pi r^2 Y} = l$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "conf": "exact",
+  "stem": "A small spherical ball of radius $r$ falls with a terminal velocity $v$ in a viscous liquid of coefficient of viscosity $\\eta$. If the terminal velocity of another ball of same material and radius $2r$ in the same liquid is $v'$, then the ratio $v'/v$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1$",
+   "$2$",
+   "$4$",
+   "$8$"
+  ],
+  "sol": "Terminal velocity $v \\propto r^2$.\nThus, $\\frac{v'}{v} = \\left(\\frac{2r}{r}\\right)^2 = 4$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "An ideal gas is taken through a cyclic process $ABCA$ as shown in the $P-V$ diagram. The work done by the gas in this cycle is:\n\n*(Note: The process goes from $A(V_0, P_0)$ to $B(2V_0, P_0)$ horizontally, then to $C(V_0, 2P_0)$ along a straight line, then back to $A(V_0, P_0)$ vertically)*",
+  "img": true,
+  "img_desc": "P-V diagram showing three points: A at (V_0, P_0), B at (2V_0, P_0), and C at (V_0, 2P_0). The cycle is closed by a horizontal line from A to B, a diagonal straight line from B to C, and a vertical line from C to A, forming a right-angled triangle with arrows in a counter-clockwise direction: A -> B -> C -> A.",
+  "img_url": "",
+  "opts": [
+   "$P_0 V_0$",
+   "$-P_0 V_0$",
+   "$\\frac{1}{2} P_0 V_0$",
+   "$-\\frac{1}{2} P_0 V_0$"
+  ],
+  "sol": "Work done in a cyclic process is equal to the area enclosed by the loop on the $P-V$ diagram.\nArea of the right-angled triangle $ABC$ is $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times (2V_0 - V_0) \\times (2P_0 - P_0) = \\frac{1}{2} P_0 V_0$.\nSince the cycle is counter-clockwise, the work done is negative.\nTherefore, $W = -\\frac{1}{2} P_0 V_0$.",
+  "key": "D",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "The average kinetic energy of a molecule of a diatomic gas at a temperature $T$ is: (where $k_B$ is the Boltzmann constant)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{3}{2} k_B T$",
+   "$\\frac{5}{2} k_B T$",
+   "$3 k_B T$",
+   "$\\frac{7}{2} k_B T$"
+  ],
+  "sol": "A diatomic molecule has 5 degrees of freedom at moderate temperatures (3 translational and 2 rotational).\nAccording to the law of equipartition of energy, the average kinetic energy per molecule is $\\frac{f}{2} k_B T = \\frac{5}{2} k_B T$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "A particle executes simple harmonic motion with an amplitude $A$. At what displacement from the mean position is its kinetic energy equal to its potential energy?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\pm A$",
+   "$\\pm \\frac{A}{2}$",
+   "$\\pm \\frac{A}{\\sqrt{2}}$",
+   "$\\pm \\frac{\\sqrt{3}A}{2}$"
+  ],
+  "sol": "Kinetic Energy $K = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$\nPotential Energy $U = \\frac{1}{2} m \\omega^2 x^2$\nGiven $K = U \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\pm \\frac{A}{\\sqrt{2}}$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the separation between the slits is halved and the distance between the slits and screen is doubled, the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "halved",
+   "doubled",
+   "four times",
+   "unchanged"
+  ],
+  "sol": "Fringe width $\\beta = \\frac{\\lambda D}{d}$.\nNew fringe width $\\beta' = \\frac{\\lambda D'}{d'} = \\frac{\\lambda (2D)}{d/2} = 4 \\frac{\\lambda D}{d} = 4\\beta$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "A thin spherical shell of radius $R$ has a charge $Q$ uniformly distributed on its surface. The electric field $E$ as a function of the distance $r$ from the center of the shell is best represented by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$E = 0$ for $r < R$, and $E \\propto \\frac{1}{r^2}$ for $r > R$",
+   "$E \\propto r$ for $r < R$, and $E \\propto \\frac{1}{r^2}$ for $r > R$",
+   "$E \\propto \\frac{1}{r^2}$ for all values of $r$",
+   "$E = 0$ for $r < R$, and $E$ is constant for $r > R$"
+  ],
+  "sol": "Inside a charged conducting spherical shell ($r < R$), the electric field is zero ($E = 0$).\nOutside the shell ($r \\ge R$), the field behaves as if the entire charge were concentrated at the center: $E = \\frac{kQ}{r^2}$, so $E \\propto \\frac{1}{r^2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "Three resistors of resistances $R_1 = 4\\ \\Omega$, $R_2 = 6\\ \\Omega$ and $R_3 = 12\\ \\Omega$ are connected in parallel. This combination is connected in series with a resistor of resistance $R_4 = 3\\ \\Omega$ across a $10\\ \\mathrm{V}$ battery. The current flowing through the $12\\ \\Omega$ resistor is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$0.33\\ \\mathrm{A}$",
+   "$0.5\\ \\mathrm{A}$",
+   "$1.0\\ \\mathrm{A}$",
+   "$2.0\\ \\mathrm{A}$"
+  ],
+  "sol": "Equivalent of parallel combination: $\\frac{1}{R_p} = \\frac{1}{4} + \\frac{1}{6} + \\frac{1}{12} = \\frac{3+2+1}{12} = \\frac{6}{12} \\implies R_p = 2\\ \\Omega$.\nTotal resistance $R_{\\text{eq}} = R_p + R_4 = 2 + 3 = 5\\ \\Omega$.\nTotal current $I = \\frac{V}{R_{\\text{eq}}} = \\frac{10}{5} = 2\\ \\mathrm{A}$.\nPotential difference across the parallel combination $V_p = I \\times R_p = 2 \\times 2 = 4\\ \\mathrm{V}$.\nCurrent through $R_3 = 12\\ \\Omega$ is $I_3 = \\frac{V_p}{R_3} = \\frac{4}{12} = 0.33\\ \\mathrm{A}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "An electron and a proton having the same kinetic energy enter a region of uniform magnetic field perpendicular to their direction of motion. The ratio of the radii of their circular paths $\\left(\\frac{r_e}{r_p}\\right)$ is: (where $m_e$ and $m_p$ are their respective masses)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{m_e}{m_p}$",
+   "$\\sqrt{\\frac{m_e}{m_p}}$",
+   "$\\frac{m_p}{m_e}$",
+   "$\\sqrt{\\frac{m_p}{m_e}}$"
+  ],
+  "sol": "Radius of circular path $r = \\frac{p}{qB} = \\frac{\\sqrt{2mK}}{qB}$.\nBoth have the same charge magnitude ($q_e = q_p$) and same kinetic energy ($K$).\nTherefore, $r \\propto \\sqrt{m}$.\nThus, $\\frac{r_e}{r_p} = \\sqrt{\\frac{m_e}{m_p}}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "The susceptibility of a magnetic material is $-1 \\times 10^{-5}$. The material is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Diamagnetic",
+   "Paramagnetic",
+   "Ferromagnetic",
+   "Non-magnetic"
+  ],
+  "sol": "Diamagnetic substances have small, negative magnetic susceptibility ($\\chi < 0$). Since $\\chi = -1 \\times 10^{-5}$ is negative, the material is diamagnetic.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $l$ is rotated with a constant angular velocity $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced emf between the two ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$B \\omega l^2$",
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$2 B \\omega l^2$",
+   "$\\frac{1}{4} B \\omega l^2$"
+  ],
+  "sol": "The induced emf in a rotating rod is $e = \\int_0^l B v \\, dx = \\int_0^l B (\\omega x) \\, dx = \\frac{1}{2} B \\omega l^2$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR Series Circuit",
+  "conf": "exact",
+  "stem": "In a series LCR resonance circuit, the quality factor ($Q$-factor) is given by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{R} \\sqrt{\\frac{L}{C}}$",
+   "$\\frac{1}{R} \\sqrt{\\frac{C}{L}}$",
+   "$R \\sqrt{\\frac{L}{C}}$",
+   "$R \\sqrt{\\frac{C}{L}}$"
+  ],
+  "sol": "The quality factor of a series LCR circuit is $Q = \\frac{\\omega_0 L}{R} = \\frac{1}{\\omega_0 CR}$.\nSince $\\omega_0 = \\frac{1}{\\sqrt{LC}}$, we get $Q = \\frac{1}{R} \\sqrt{\\frac{L}{C}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the highest frequency?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Micro waves",
+   "Infrared waves",
+   "Ultraviolet rays",
+   "Gamma rays"
+  ],
+  "sol": "In the electromagnetic spectrum, the order of increasing frequency is: Radio waves < Microwaves < Infrared < Visible < Ultraviolet < X-rays < Gamma rays. Thus, Gamma rays have the highest frequency among the options.",
+  "key": "D",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "atoms",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the relationship between the quantum number $n$ and the radius of the orbit $r$ of a hydrogen atom is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$r \\propto n$",
+   "$r \\propto n^2$",
+   "$r \\propto \\frac{1}{n}$",
+   "$r \\propto \\frac{1}{n^2}$"
+  ],
+  "sol": "According to Bohr's model, the radius of the $n$-th orbit of a hydrogenic atom is $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$. Hence, $r \\propto n^2$.",
+  "key": "B",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "semiconductors",
+  "sub": "photodiode-and-solar-cell",
+  "sub_name": "Photodiode and Solar Cell",
+  "conf": "exact",
+  "stem": "A photodiode is operated in which of the following biasing conditions?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Forward bias only",
+   "Reverse bias only",
+   "Both forward and reverse bias depending on light intensity",
+   "Unbiased"
+  ],
+  "sol": "A photodiode is fabricated to operate specifically under reverse bias condition because the fractional change in reverse saturation current with change in light intensity is much more easily measurable than in forward bias.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ }
+]

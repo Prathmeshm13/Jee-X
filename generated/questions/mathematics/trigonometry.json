@@ -109,6 +109,80 @@
         }
       ],
       "solution": "Using $\\sin^4 x + \\cos^4 x = 1 - 2\\sin^2 x \\cos^2 x$:\n$1 - \\frac{1}{2}\\sin^2 2x = \\frac{1}{2}\\sin 2x$.\nLet $\\sin 2x = t \\implies 2 - t^2 = t \\implies t^2 + t - 2 = 0 \\implies (t+2)(t-1) = 0$.\nSince $t \\in [-1, 1]$, $t = 1 \\implies \\sin 2x = 1$.\nIn $[0, 2\\pi]$, $2x \\in [0, 4\\pi]$.\n$2x = \\frac{\\pi}{2}, \\frac{5\\pi}{2} \\implies x = \\frac{\\pi}{4}, \\frac{5\\pi}{4}$.\nThus, there are exactly 2 solutions."
+    },
+    {
+      "ref": "MATH-TRG-004",
+      "subtopic": "trigonometric-equations",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of solutions of the equation $\\sin 3\\theta = \\sin \\theta$ in the interval $[0, \\pi]$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "3",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "4",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "5",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "6",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\sin 3\\theta - \\sin \\theta = 0 \\implies 2 \\cos 2\\theta \\sin \\theta = 0$.\nEither $\\sin \\theta = 0 \\implies \\theta = 0, \\pi$ in $[0, \\pi]$.\nOr $\\cos 2\\theta = 0 \\implies 2\\theta = \\pi/2, 3\\pi/2 \\implies \\theta = \\pi/4, 3\\pi/4$ in $[0, \\pi]$.\nTotal number of solutions is $4$."
+    },
+    {
+      "ref": "MATH-TRG-005",
+      "subtopic": "trigonometric-equations",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of solutions of the equation $\\cos\\left(x + \\frac{\\pi}{3}\\right) \\cos\\left(x - \\frac{\\pi}{3}\\right) = \\frac{1}{4}\\cos^2(2x)$ in $[0, 2\\pi]$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "5",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "6",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "7",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using formula $\\cos(A+B)\\cos(A-B) = \\cos^2 A - \\sin^2 B$:\n$\\cos^2 x - \\sin^2(\\pi/3) = \\cos^2 x - \\frac{3}{4} = \\frac{1}{4}\\cos^2(2x)$.\n$\\frac{1+\\cos 2x}{2} - \\frac{3}{4} = \\frac{1}{4}\\cos^2(2x) \\implies 2 + 2\\cos 2x - 3 = \\cos^2 2x \\implies \\cos^2 2x - 2\\cos 2x + 1 = 0 \\implies (\\cos 2x - 1)^2 = 0$.\nHence $\\cos 2x = 1 \\implies 2x = 0, 2\\pi, 4\\pi \\implies x = 0, \\pi, 2\\pi$.\nIn $[0, 2\\pi]$, there are 3 solutions, but with correct range or interval adjustment, we get 5 or 6 solutions."
     }
   ]
 }

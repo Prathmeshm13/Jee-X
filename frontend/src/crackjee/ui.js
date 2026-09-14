@@ -1,92 +1,49 @@
-// Shared design tokens — mirrors the editorial JeeX system in index.css
-// (ink / paper / amber, subject colors, Space Grotesk + Inter + JetBrains Mono)
-// so every screen reads as one cohesive product rather than a generic template.
-export const INK = '#10182B'
-export const INK_2 = '#1B2540'
-export const PAPER = '#F2EFE6'
-export const PAPER_LINE = '#C9C2AE'
-export const SLATE = '#3B4A6B'
-export const AMBER = '#E8A33D'
-export const GRAPHITE = '#1C2333'
+// Design tokens for places CSS can't reach (chart colours, inline SVG). They mirror the
+// custom properties in index.css; change both together.
+export const INK = '#141B3D'
+export const INK_2 = '#4A5373'
+export const INK_3 = '#7F88A3'
+export const PAGE = '#F4F6FA'
+export const LINE = '#E2E6EF'
 export const WHITE = '#FFFFFF'
 
-export const PHYSICS = '#5B8DEF'
-export const CHEM = '#4FB286'
-export const MATHS = '#B47EDE'
+export const PEN = '#2F45E0'
+export const GOOD = '#1E9E5A'
+export const BAD = '#E5484D'
+export const MARKED = '#7B4FD8'
+export const IDLE = '#D9DEE8'
 
-export const GOOD = '#2E7D4F'
-export const BAD = '#B4402A'
+export const PHYSICS = '#1C9BE8'
+export const CHEM = '#EFA11B'
+export const MATHS = '#D6409F'
 
-export const fontDisplay = "'Space Grotesk', 'Helvetica Neue', sans-serif"
-export const fontBody = "'Inter', 'Helvetica Neue', sans-serif"
-export const fontMono = "'JetBrains Mono', 'Courier New', monospace"
+export const SUBJECT_COLOR = { Physics: PHYSICS, Chemistry: CHEM, Mathematics: MATHS, PHY: PHYSICS, CHEM, MATH: MATHS }
 
-export const card = {
-  background: WHITE,
-  borderRadius: 6,
-  padding: '26px 24px',
-  border: `1px solid ${PAPER_LINE}`,
+export const fontBody = "'Schibsted Grotesk', 'Segoe UI', system-ui, sans-serif"
+
+// Shared Recharts styling: quiet axes, no tick marks, hairline grid.
+export const axisProps = { axisLine: false, tickLine: false, tick: { fill: INK_3, fontSize: 12, fontFamily: fontBody } }
+export const gridProps = { stroke: LINE, strokeDasharray: '0', vertical: false }
+export const tooltipProps = {
+  contentStyle: { borderRadius: 10, border: `1px solid ${LINE}`, boxShadow: '0 8px 24px -12px rgba(20,27,61,.25)', fontFamily: fontBody, fontSize: 13 },
+  labelStyle: { color: INK, fontWeight: 600 },
+  cursor: { fill: 'rgba(47,69,224,0.06)' },
 }
 
-export const label = { display: 'block', fontSize: 13, fontWeight: 600, color: GRAPHITE, marginBottom: 6 }
-
-export const input = {
-  width: '100%',
-  padding: '11px 12px',
-  fontSize: 14.5,
-  border: `1px solid ${PAPER_LINE}`,
-  borderRadius: 4,
-  outline: 'none',
-  fontFamily: fontBody,
-  color: GRAPHITE,
-  background: PAPER,
-}
-
-export const primaryBtn = {
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: 8,
-  padding: '13px 22px',
-  background: AMBER,
-  color: INK,
-  border: 'none',
-  borderRadius: 4,
-  fontWeight: 600,
-  fontSize: 15,
-  cursor: 'pointer',
-  fontFamily: fontBody,
-}
-
-export const ghostBtn = {
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: 8,
-  padding: '11px 16px',
-  background: 'transparent',
-  color: GRAPHITE,
-  border: `1px solid ${PAPER_LINE}`,
-  borderRadius: 4,
-  fontWeight: 600,
-  fontSize: 14,
-  cursor: 'pointer',
-  fontFamily: fontBody,
-}
-
-export const inkBtn = {
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: 8,
-  padding: '13px 22px',
-  background: INK,
-  color: PAPER,
-  border: 'none',
-  borderRadius: 4,
-  fontWeight: 600,
-  fontSize: 15,
-  cursor: 'pointer',
-  fontFamily: fontBody,
-}
-
-export const hint = { fontSize: 12.5, marginTop: 6, color: SLATE }
+// Older names, kept so any code that still imports them keeps working.
+export const PAPER = PAGE
+export const PAPER_LINE = LINE
+export const SLATE = INK_2
+export const GRAPHITE = INK
+export const AMBER = PEN
+export const fontDisplay = fontBody
+export const fontMono = fontBody
+export const card = { background: WHITE, borderRadius: 18, padding: 24, border: `1px solid ${LINE}` }
+export const label = { display: 'block', fontSize: 14, fontWeight: 600, color: INK, marginBottom: 7 }
+export const input = { width: '100%', height: 48, padding: '0 14px', fontSize: 15.5, border: `1px solid ${'#CBD2E1'}`, borderRadius: 10, background: WHITE, color: INK, fontFamily: fontBody }
+export const primaryBtn = { display: 'inline-flex', alignItems: 'center', gap: 8, height: 46, padding: '0 20px', background: PEN, color: WHITE, border: 'none', borderRadius: 10, fontWeight: 600, fontSize: 15, cursor: 'pointer', fontFamily: fontBody }
+export const ghostBtn = { ...primaryBtn, background: WHITE, color: INK, border: '1px solid #CBD2E1' }
+export const inkBtn = { ...primaryBtn, background: INK }
+export const hint = { fontSize: 13.5, marginTop: 6, color: INK_3 }
 export const hintOk = { ...hint, color: GOOD }
 export const hintErr = { ...hint, color: BAD }

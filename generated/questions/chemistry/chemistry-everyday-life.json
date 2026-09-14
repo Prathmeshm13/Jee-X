@@ -90,6 +90,80 @@
         }
       ],
       "solution": "Chloramphenicol is a broad-spectrum antibiotic because it is effective against a wide range of Gram-positive and Gram-negative bacteria. Penicillin G is a narrow-spectrum antibiotic."
+    },
+    {
+      "ref": "CHEM-CEL-003",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Terfenadine is commonly used as a/an:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antihistamine",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Analgesic",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Antimicrobial",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Antacid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terfenadine (Seldane) is a synthetic drug commonly used as an antihistamine (to treat allergies)."
+    },
+    {
+      "ref": "CHEM-CEL-004",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Terfenadine is commonly used as a/an:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antidepressant",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Antihistamine",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Analgesic",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Antiseptic",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terfenadine (Seldane) is a synthetic drug commonly used as an antihistamine (anti-allergy drug) because it competes with histamine for binding at the receptor sites."
     }
   ]
 }

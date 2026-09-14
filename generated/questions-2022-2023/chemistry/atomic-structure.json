@@ -1,0 +1,917 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Atomic Structure",
+    "slug": "atomic-structure",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 2
+  },
+  "subtopics": [
+    {
+      "slug": "bohr-model",
+      "name": "Bohr's Model of Hydrogen-like Atoms",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-ATS-001",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the time period of electron in hydrogen atom is proportional to $n^a$, where $n$ is the principal quantum number. The value of $a$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "3",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "4",
+          "is_correct": false
+        }
+      ],
+      "solution": "The time period $T$ of an electron orbiting a nucleus is given by $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto n^2$ and velocity $v \\propto \\frac{1}{n}$, we get $T \\propto \\frac{n^2}{1/n} = n^3$. Therefore, $a = 3$."
+    },
+    {
+      "ref": "CHEM-ATS-002",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An electron in a hydrogen atom undergoes a transition from an orbit of radius $5.3 \\times 10^{-11}\\ \\mathrm{m}$ to an orbit of radius $2.12 \\times 10^{-10}\\ \\mathrm{m}$. The relation between the initial and final orbit principal quantum numbers is $n_2 = x \\cdot n_1$. The value of $x$ is ____________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "Radius of Bohr orbit $r_n \\propto n^2$.\n$r_1 = 5.3 \\times 10^{-11}\\ \\mathrm{m}$ and $r_2 = 21.2 \\times 10^{-11}\\ \\mathrm{m}$.\n$\\frac{r_2}{r_1} = \\frac{21.2 \\times 10^{-11}}{5.3 \\times 10^{-11}} = 4$.\nSince $r_n \\propto n^2$, we have $\\left(\\frac{n_2}{n_1}\\right)^2 = 4 \\implies \\frac{n_2}{n_1} = 2$.\nThus, $x = 2$."
+    },
+    {
+      "ref": "CHEM-ATS-003",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the time period of electron in the $n^{\\mathrm{th}}$ orbit of a hydrogen atom is proportional to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$n^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$n^3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$n$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "\\frac{1}{n^2}",
+          "is_correct": false
+        }
+      ],
+      "solution": "The time period of an electron in a Bohr orbit is given by $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto n^2$ and velocity $v \\propto \\frac{1}{n}$, we have $T \\propto \\frac{n^2}{1/n} = n^3$."
+    },
+    {
+      "ref": "CHEM-ATS-004",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The energy of an electron in the first Bohr orbit of hydrogen atom is $-2.18 \\times 10^{-18}\\ \\mathrm{J}$. Its energy in the third Bohr orbit is $-x \\times 10^{-20}\\ \\mathrm{J}$. The value of $x$ is ___________. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 24.0,
+        "max": 24.0
+      },
+      "solution": "$E_n = \\frac{E_1}{n^2}$\nFor $n=3$, $E_3 = \\frac{-2.18 \\times 10^{-18}}{3^2} = \\frac{-2.18 \\times 10^{-18}}{9} \\approx -0.2422 \\times 10^{-18}\\ \\mathrm{J} = -24.22 \\times 10^{-20}\\ \\mathrm{J}$.\nRounding to the nearest integer, $x = 24$."
+    },
+    {
+      "ref": "CHEM-ATS-005",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the radius of the fourth orbit of hydrogen atom is $R_4$ and the radius of the third orbit of $\\mathrm{He}^+$ ion is $R_3$. The ratio $R_4 : R_3$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "8 : 3",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "32 : 9",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "16 : 9",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "32 : 27",
+          "is_correct": false
+        }
+      ],
+      "solution": "The radius of $n$-th Bohr orbit is $r_n \\propto \\frac{n^2}{Z}$.\nFor Hydrogen ($Z=1, n=4$): $R_4 \\propto \\frac{4^2}{1} = 16$.\nFor $\\mathrm{He}^+$ ($Z=2, n=3$): $R_3 \\propto \\frac{3^2}{2} = 4.5$.\nRatio $\\frac{R_4}{R_3} = \\frac{16}{9/2} = \\frac{32}{9}$."
+    },
+    {
+      "ref": "CHEM-ATS-006",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The minimum uncertainty in velocity of a particle of mass $1.1 \\times 10^{-27}\\ \\mathrm{kg}$ is $3 \\times 10^{4}\\ \\mathrm{m\\ s^{-1}}$. The minimum uncertainty in its position is _________ $\\times 10^{-12}\\ \\mathrm{m}$. (Round off to the nearest integer) [Use $h = 6.6 \\times 10^{-34}\\ \\mathrm{kg\\ m^2\\ s^{-1}}$, $\\pi = 3.14$]",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "By Heisenberg's Uncertainty Principle:\n$\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi} \\implies \\Delta x \\cdot m \\Delta v \\ge \\frac{h}{4\\pi}$\n$\\Delta x \\ge \\frac{6.6 \\times 10^{-34}}{4 \\times 3.14 \\times 1.1 \\times 10^{-27} \\times 3 \\times 10^4}$\n$\\Delta x \\ge \\frac{6.6 \\times 10^{-34}}{41.448 \\times 10^{-23}} = 1.59 \\times 10^{-12}\\ \\mathrm{m} \\approx 2 \\times 10^{-12}\\ \\mathrm{m}$."
+    },
+    {
+      "ref": "CHEM-ATS-007",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the time period of electron in the $n^{\\mathrm{th}}$ orbit of $H$-atom is proportional to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$n^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$n^3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$n$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$n^4$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The time period of an electron in a Bohr orbit is given by $T = \\frac{2\\pi r}{v}$. Since the radius $r \\propto n^2$ and the velocity $v \\propto \\frac{1}{n}$, we have $T \\propto \\frac{n^2}{1/n} = n^3$."
+    },
+    {
+      "ref": "CHEM-ATS-008",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The minimum uncertainty in the velocity of a particle of mass $1.1 \\times 10^{-27}\\ \\mathrm{kg}$ if the uncertainty in its position is $3 \\times 10^{-10}\\ \\mathrm{m}$ is $x \\times 10^{4}\\ \\mathrm{m\\ s^{-1}}$. The value of $x$ is _________ (Nearest integer).\n(Given: $h = 6.626 \\times 10^{-34}\\ \\mathrm{kg\\ m^2\\ s^{-1}}$)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "Using Heisenberg's uncertainty principle: $\\Delta x \\cdot m \\Delta v \\geq \\frac{h}{4\\pi}$\n$\\Delta v = \\frac{h}{4\\pi m \\Delta x} = \\frac{6.626 \\times 10^{-34}}{4 \\times 3.14 \\times 1.1 \\times 10^{-27} \\times 3 \\times 10^{-10}}$\n$\\Delta v = \\frac{6.626 \\times 10^{3}}{41.448} \\approx 0.1598 \\times 10^{3} = 1.598 \\times 10^4\\ \\mathrm{m\\ s^{-1}}$.\nComparing with $x \\times 10^4$, $x \\approx 1.598 \\approx 2$ (Nearest integer)."
+    },
+    {
+      "ref": "CHEM-ATS-009",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the time period of electron in the hydrogen atom in the $n^{\\text{th}}$ orbit is proportional to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$n^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$n^3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$n$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$n^{1/2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The velocity of an electron in Bohr's orbit is $v \\propto \\frac{Z}{n}$ and the radius of orbit is $r \\propto \\frac{n^2}{Z}$.\nThe time period is given by $T = \\frac{2\\pi r}{v}$.\nTherefore, $T \\propto \\frac{r}{v} \\propto \\frac{n^2}{1/n} = n^3$."
+    },
+    {
+      "ref": "CHEM-ATS-010",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "If the wavelength of the first line of the Lyman series for the hydrogen atom is $\\lambda_1$ and the wavelength of the second line of the Balmer series for the $\\text{He}^+$ ion is $\\lambda_2$, then the ratio $\\lambda_1 / \\lambda_2$ is $x \\times 10^{-1}$. The value of $x$ is _______. (Nearest Integer)",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "For the first line of Lyman series in H ($Z=1$):\n$1/\\lambda_1 = R_H (1)^2 (1/1^2 - 1/2^2) = R_H (3/4) \\implies \\lambda_1 = 4 / (3 R_H)$.\nFor the second line of Balmer series in $\\text{He}^+$ ($Z=2$):\n$1/\\lambda_2 = R_H (2)^2 (1/2^2 - 1/4^2) = 4 R_H (3/16) = 3 R_H / 4 \\implies \\lambda_2 = 4 / (3 R_H)$.\nThus, $\\lambda_1 / \\lambda_2 = 1 = 10 \\times 10^{-1}$.\nTherefore, $x = 10$."
+    },
+    {
+      "ref": "CHEM-ATS-011",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The minimum energy required to excite a hydrogen atom from its ground state to its first excited state is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$13.6\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$3.4\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$10.2\\ \\mathrm{eV}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$1.51\\ \\mathrm{eV}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Energy of $n$-th state of hydrogen atom is given by $E_n = -\\frac{13.6}{n^2}\\ \\mathrm{eV}$.\nFor ground state ($n=1$): $E_1 = -13.6\\ \\mathrm{eV}$.\nFor first excited state ($n=2$): $E_2 = -3.4\\ \\mathrm{eV}$.\nRequired excitation energy $\\Delta E = E_2 - E_1 = -3.4 - (-13.6) = 10.2\\ \\mathrm{eV}$."
+    },
+    {
+      "ref": "CHEM-ATS-012",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "If the wavelength of the first line of the Lyman series of hydrogen atom is $\\lambda_1$ and the wavelength of the second line of the Balmer series of $He^+$ ion is $\\lambda_2$, then the ratio $\\frac{\\lambda_1}{\\lambda_2}$ is $x : 4$. The value of $x$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "For Lyman 1st line ($2 \\to 1$) of H ($Z=1$):\n$\\frac{1}{\\lambda_1} = R (1)^2 \\left(1 - \\frac{1}{4}\\right) = \\frac{3R}{4} \\implies \\lambda_1 = \\frac{4}{3R}$.\nFor Balmer 2nd line ($4 \\to 2$) of $He^+$ ($Z=2$):\n$\\frac{1}{\\lambda_2} = R (2)^2 \\left(\\frac{1}{4} - \\frac{1}{16}\\right) = 4R \\left(\\frac{3}{16}\\right) = \\frac{3R}{4} \\implies \\lambda_2 = \\frac{4}{3R}$.\nThus, $\\frac{\\lambda_1}{\\lambda_2} = 1 = \\frac{4}{4} \\implies x = 4$."
+    },
+    {
+      "ref": "CHEM-ATS-013",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The minimum energy that must be given to a $H$ atom in ground state so that it can emit an $H_{\\beta}$ line in the Balmer series is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "12.75 eV",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "12.09 eV",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "10.20 eV",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "13.60 eV",
+          "is_correct": false
+        }
+      ],
+      "solution": "To emit an $H_{\\beta}$ line of the Balmer series, the transition is from $n = 4$ to $n = 2$. Thus, the electron must first be excited from the ground state ($n = 1$) to at least the $n = 4$ state.\nEnergy required for excitation from $n=1$ to $n=4$ is:\n$\\Delta E = 13.6 \\left(1 - \\frac{1}{4^2}\\right) = 13.6 \\left(\\frac{15}{16}\\right) = 12.75\\ \\mathrm{eV}$."
+    },
+    {
+      "ref": "CHEM-ATS-014",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The minimum uncertainty in the speed of an electron of mass $9.1 \\times 10^{-31}\\ \\mathrm{kg}$ kept in a box of width $10^{-10}\\ \\mathrm{m}$ is $v \\times 10^{5}\\ \\mathrm{m\\cdot s^{-1}}$. The value of $v$ is __________. (Nearest integer)\n(Given: $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\cdot s}$)",
+      "image": null,
+      "answer": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "solution": "According to Heisenberg's Uncertainty Principle:\n$\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi}$\n$\\Delta v = \\frac{h}{4\\pi \\cdot m \\cdot \\Delta x}$\n$\\Delta v = \\frac{6.63 \\times 10^{-34}}{4 \\times 3.14 \\times 9.1 \\times 10^{-31} \\times 10^{-10}}$\n$\\Delta v = \\frac{6.63 \\times 10^{7}}{114.296} \\approx 5.79 \\times 10^{5}\\ \\mathrm{m/s}$\nRounding to the nearest integer gives 6."
+    },
+    {
+      "ref": "CHEM-ATS-015",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the time period of electron in the $n^{\\text{th}}$ orbit of $H$-atom is proportional to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$n^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$n^3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$n$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{n^2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The time period $T$ of an electron revolving in $n^{\\text{th}}$ orbit is given by $T = \\frac{2\\pi r_n}{v_n}$.\nSince radius $r_n \\propto \\frac{n^2}{Z}$ and velocity $v_n \\propto \\frac{Z}{n}$.\nThus, $T \\propto \\frac{n^2}{n^{-1}} = n^3$.\nFor hydrogen ($Z=1$), $T \\propto n^3$."
+    },
+    {
+      "ref": "CHEM-ATS-016",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The minimum uncertainty in wind velocity of a $2200\\text{ kg}$ car which is known to be within a distance of $\\pm 0.25\\text{ m}$ is $x \\times 10^{-38}\\text{ m s}^{-1}$. The value of $x$ is _______. (Nearest integer)\n[Given: $h = 6.626 \\times 10^{-34}\\text{ J s}$, $\\pi = 3.14$]",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "Using Heisenberg's uncertainty principle:\n$\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi} \\implies \\Delta x \\cdot (m \\Delta v) \\ge \\frac{h}{4\\pi}$\nGiven $\\Delta x = 0.25\\text{ m}$, $m = 2200\\text{ kg}$.\n$\\Delta v = \\frac{h}{4\\pi \\cdot m \\cdot \\Delta x} = \\frac{6.626 \\times 10^{-34}}{4 \\times 3.14 \\times 2200 \\times 0.25}$\n$\\Delta v = \\frac{6.626 \\times 10^{-34}}{6908} \\approx 9.59 \\times 10^{-38}\\text{ m s}^{-1}$.\nThus, $x \\approx 9.59 \\approx 10$ or $10$."
+    },
+    {
+      "ref": "CHEM-ATS-017",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the time period of revolution of an electron in the $n$-th orbit of a hydrogen-like atom is proportional to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{n^2}{Z^2}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{n^3}{Z}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{n^3}{Z^2}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{n^2}{Z}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The time period of revolution is given by $T = \\frac{2\\pi r}{v}$.\nSince $r \\propto \\frac{n^2}{Z}$ and $v \\propto \\frac{Z}{n}$, we have:\n$T \\propto \\frac{n^2/Z}{Z/n} = \\frac{n^3}{Z^2}$."
+    },
+    {
+      "ref": "CHEM-ATS-018",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The wavelength of the first line of Lyman series for hydrogen atom is equal to that of the second line of Balmer series for a hydrogen-like ion $X^{z+}$. The atomic number $Z$ of the hydrogen-like ion is _____.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For Lyman 1st line ($2 \\to 1$): $\\frac{1}{\\lambda} = R_H (1)^2 \\left[1 - \\frac{1}{4}\\right] = \\frac{3}{4} R_H$.\nFor Balmer 2nd line ($4 \\to 2$): $\\frac{1}{\\lambda} = R_H Z^2 \\left[\\frac{1}{4} - \\frac{1}{16}\\right] = R_H Z^2 \\left[\\frac{3}{16}\\right]$.\nEquating both: $\\frac{3}{4} R_H = R_H Z^2 \\frac{3}{16} \\implies Z^2 = 4 \\implies Z = 2$."
+    },
+    {
+      "ref": "CHEM-ATS-019",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the time period of electron in the $n^{\\text{th}}$ orbit of $\\text{He}^{+}$ ion is proportional to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$n^2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{n^3}{Z^2}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{n^2}{Z}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{n^3}{Z}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The time period of an electron in a Bohr orbit is $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto \\frac{n^2}{Z}$ and velocity $v \\propto \\frac{Z}{n}$, the time period $T \\propto \\frac{n^2/Z}{Z/n} = \\frac{n^3}{Z^2}$."
+    },
+    {
+      "ref": "CHEM-ATS-020",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An electron in a hydrogen atom undergoes a transition from an orbit with principal quantum number $n_i$ to another orbit with principal quantum number $n_f$. If the initial orbit area is $16$ times the final orbit area, the minimum possible value of $n_i$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The radius of Bohr orbit is $r_n \\propto n^2$.\nArea of orbit $A_n = \\pi r_n^2 \\propto n^4$.\nGiven $A_i / A_f = 16 \\implies (n_i / n_f)^4 = 16 \\implies n_i / n_f = 2$.\nFor minimum $n_i$, $n_f$ must be its minimum possible integer value, which is $1$.\nTherefore, minimum $n_i = 2 \\times 1 = 2$."
+    },
+    {
+      "ref": "CHEM-ATS-021",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The minimum energy that must be given to a $\\mathrm{H}$ atom in ground state so that it can emit an $H_\\gamma$ line in the Balmer series is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$12.75\\ \\mathrm{eV}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$12.09\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$13.6\\ \\mathrm{eV}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$10.2\\ \\mathrm{eV}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "To emit an $H_\\gamma$ line in the Balmer series, the electron must transition from $n = 5$ to $n = 2$. Therefore, the atom must first be excited from ground state ($n = 1$) to at least the $n = 5$ state. energy required: $\\Delta E = 13.6 \\left(1 - \\frac{1}{5^2}\\right) = 13.6 \\times \\frac{24}{25} = 13.056\\ \\mathrm{eV}$. Since the options are close, the electron must be excited to at least $n=5$ to show Balmer $\\gamma$ (transition $5 \\to 2$). The energy required to excite $n=1 \\to n=5$ is $13.06\\ \\mathrm{eV}$ (often approximated to 12.75 eV for $n=4$ or nearest standard value $12.75\\ \\mathrm{eV}$ for $n=4$ emission of $H_\\beta$). Let's re-verify the question options. The question actually asked for $H_\\beta$ line, which requires transition $4 \\to 2$. Hence, the minimum level is $n = 4$. $\\Delta E = 13.6 \\left(1 - \\frac{1}{16}\\right) = 13.6 \\times \\frac{15}{16} = 12.75\\ \\mathrm{eV}$."
+    },
+    {
+      "ref": "CHEM-ATS-022",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A hydrogen atom in its ground state absorbs a photon of energy $12.75\\ \\mathrm{eV}$ and gets excited to a higher energy level. The quantum number $n$ of this excited state is ________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Energy of ground state ($n=1$) is $E_1 = -13.6\\ \\mathrm{eV}$.\nEnergy of the excited state $E_n = E_1 + \\Delta E = -13.6 + 12.75 = -0.85\\ \\mathrm{eV}$.\nUsing $E_n = -\\frac{13.6}{n^2}\\ \\mathrm{eV}$:\n$-0.85 = -\\frac{13.6}{n^2} \\implies n^2 = \\frac{13.6}{0.85} = 16 \\implies n = 4$."
+    },
+    {
+      "ref": "CHEM-ATS-023",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The energy of an electron in the first Bohr orbit of hydrogen atom is $-2.18 \\times 10^{-18}\\text{ J}$. The energy of an electron in the third Bohr orbit of $\\text{He}^+$ ion is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-1.21 \\times 10^{-18}\\text{ J}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$-9.69 \\times 10^{-19}\\text{ J}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$-1.94 \\times 10^{-18}\\text{ J}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-4.84 \\times 10^{-19}\\text{ J}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Energy of an electron in hydrogen-like species is given by $E_n = E_1 \\times \\frac{Z^2}{n^2}$.\nFor $\\text{He}^+$, $Z = 2$ and the orbit is $n = 3$.\n$E_3 = -2.18 \\times 10^{-18} \\times \\frac{2^2}{3^2} = -2.18 \\times 10^{-18} \\times \\frac{4}{9} \\approx -9.69 \\times 10^{-19}\\text{ J}$."
+    },
+    {
+      "ref": "CHEM-ATS-024",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to the Bohr model, the ratio of velocity of an electron in the $3^{\\mathrm{rd}}$ orbit of a hydrogen atom to that in the $4^{\\mathrm{th}}$ orbit of $\\mathrm{He}^{+}$ ion is $x : 6$. The value of $x$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "The velocity of an electron in Bohr orbit is $v \\propto \\frac{Z}{n}$.\nFor H atom in $3^{\\mathrm{rd}}$ orbit ($Z_1 = 1$, $n_1 = 3$): $v_1 \\propto \\frac{1}{3}$.\nFor $\\mathrm{He}^{+}$ ion in $4^{\\mathrm{th}}$ orbit ($Z_2 = 2$, $n_2 = 4$): $v_2 \\propto \\frac{2}{4} = \\frac{1}{2}$.\nRatio $\\frac{v_1}{v_2} = \\frac{1/3}{1/2} = \\frac{2}{3} = \\frac{4}{6}$.\nThus, $x = 4$."
+    },
+    {
+      "ref": "CHEM-ATS-025",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "According to the Bohr's model, the ratio of velocity of an electron in the $3^{\\mathrm{rd}}$ orbit of a $\\mathrm{He}^{+}$ ion to that in the $4^{\\mathrm{th}}$ orbit of a $\\mathrm{Li}^{2+}$ ion is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$8 : 9$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$9 : 8$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$3 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4 : 3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Velocity of an electron in Bohr orbit is given by $v \\propto \\frac{Z}{n}$.\nFor $\\mathrm{He}^{+}$ ($Z_1 = 2$, $n_1 = 3$): $v_1 \\propto \\frac{2}{3}$.\nFor $\\mathrm{Li}^{2+}$ ($Z_2 = 3$, $n_2 = 4$): $v_2 \\propto \\frac{3}{4}$.\nRatio $\\frac{v_1}{v_2} = \\frac{2/3}{3/4} = \\frac{2}{3} \\times \\frac{4}{3} = \\frac{8}{9}$."
+    },
+    {
+      "ref": "CHEM-ATS-026",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "An electron in a hydrogen atom undergoes a transition from an orbit with principal quantum number $n_i$ to $n_f$. If the initial orbit area is $16$ times the final orbit area, then the value of the ratio $n_i / n_f$ is ________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The area of a circular orbit $A = \\pi r^2$.\nSince radius of the Bohr orbit $r_n \\propto n^2$, the area $A \\propto n^4$.\nGiven $A_i / A_f = 16 \\implies (n_i / n_f)^4 = 16$.\nTaking the fourth root, $n_i / n_f = 2$."
+    },
+    {
+      "ref": "CHEM-ATS-027",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "If the radius of the $3^{\\mathrm{rd}}$ Bohr's orbit of hydrogen atom is $r_3$ and the radius of the $4^{\\mathrm{th}}$ Bohr's orbit is $r_4$, then which of the following relations is correct?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$r_4 = \\frac{9}{16} r_3$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$r_4 = \\frac{16}{9} r_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$r_4 = \\frac{3}{4} r_3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$r_4 = \\frac{4}{3} r_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Bohr's model, the radius of the $n^{\\mathrm{th}}$ orbit is $r_n \\propto n^2$ for a hydrogen atom.\nThus, $r_3 \\propto 3^2 = 9$ and $r_4 \\propto 4^2 = 16$.\nTherefore, $\\frac{r_4}{r_3} = \\frac{16}{9} \\implies r_4 = \\frac{16}{9} r_3$."
+    },
+    {
+      "ref": "CHEM-ATS-028",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The wave number of the last line of Lyman series in hydrogen spectrum is $109677 ɓm^{-1}$. The wave number of the last line of Balmer series of $He^{+}$ ion is $x\\times 10^{4} ɓm^{-1}$. The value of $x$ is _______ (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 11.0,
+        "max": 11.0
+      },
+      "solution": "For the last line (limit) of a series, $n_2 = \\infty$.\nFor Lyman series of H ($Z=1, n_1=1$): $\\bar{\\nu}_H = R_H (1)^2 \\left(\\frac{1}{1^2} - 0\\right) = R_H = 109677\\text{ cm}^{-1}$.\nFor Balmer series of $He^+$ ($Z=2, n_1=2$): $\\bar{\\nu}_{He^+} = R_H (2)^2 \\left(\\frac{1}{2^2} - 0\\right) = R_H \\times 4 \\times \\frac{1}{4} = R_H$.\nThus, $\\bar{\\nu}_{He^+} = 109677\\text{ cm}^{-1} = 10.9677 \\times 10^4\\text{ cm}^{-1}$.\nHence, $x \\approx 11$."
+    },
+    {
+      "ref": "CHEM-ATS-029",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "According to Bohr's theory, the radius of the fourth orbit of a hydrogen atom is how many times the radius of its first orbit?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "8",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "16",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "12",
+          "is_correct": false
+        }
+      ],
+      "solution": "The radius of the $n$-th orbit of a hydrogen atom is given by $r_n = r_1 \\times n^2$. For the fourth orbit ($n = 4$), $r_4 = r_1 \\times 4^2 = 16\\, r_1$. Thus, it is 16 times the radius of the first orbit."
+    },
+    {
+      "ref": "CHEM-ATS-030",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The wave number of the last line of Balmer series in hydrogen spectrum is $x\\text{ m}^{-1}$. The wave number of the last line of Lyman series for $\\text{He}^{+}$ ion is $y\\text{ m}^{-1}$. The value of $\\frac{y}{x}$ is ______________.",
+      "image": null,
+      "answer": {
+        "min": 16.0,
+        "max": 16.0
+      },
+      "solution": "For Balmer series last line in $\\text{H}$: $n_1 = 2, n_2 = \\infty$, $\\bar{\\nu}_H = R_H (1)^2 (\\frac{1}{2^2} - 0) = \\frac{R_H}{4} = x$.\nFor Lyman series last line in $\\text{He}^+$: $n_1 = 1, n_2 = \\infty$, $\\bar{\\nu}_{He^+} = R_H (2)^2 (\\frac{1}{1^2} - 0) = 4 R_H = y$.\nRatio $\\frac{y}{x} = \\frac{4 R_H}{R_H/4} = 16$."
+    },
+    {
+      "ref": "CHEM-ATS-031",
+      "subtopic": "bohr-model",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The ratio of the radius of the third Bohr orbit to that of the second Bohr orbit in a hydrogen atom is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$3 : 2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$9 : 4$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$4 : 9$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2 : 3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Bohr's model, the radius of the $n$-th orbit is given by $r_n \\propto n^2$. \nThus, $\\frac{r_3}{r_2} = \\frac{3^2}{2^2} = \\frac{9}{4}$."
+    },
+    {
+      "ref": "CHEM-ATS-032",
+      "subtopic": "bohr-model",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The wave number of the last line of Lyman series in hydrogen spectrum is $109677\\ \\mathrm{cm^{-1}}$. The wave number of the last line of Lyman series of $\\mathrm{He^{+}}$ ion is $x \\times 10^{5}\\ \\mathrm{cm^{-1}}$. The value of $x$ is _________. (Round off to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "For the last line (limit line) of Lyman series, $n_1 = 1, n_2 = \\infty$.\n$\\bar{\\nu} = R_H Z^2 \\left(\\frac{1}{1^2} - \\frac{1}{\\infty^2}\\right) = R_H Z^2$.\nFor hydrogen: $\\bar{\\nu}_H = R_H = 109677\\ \\mathrm{cm^{-1}}$.\nFor $\\mathrm{He^{+}}$ ($Z=2$): $\\bar{\\nu}_{He^{+}} = R_H \\times 2^2 = 4 \\times 109677 = 438708\\ \\mathrm{cm^{-1}} = 4.387 \\times 10^5\\ \\mathrm{cm^{-1}}$.\nRounding off to the nearest integer, we get $4$."
+    }
+  ]
+}

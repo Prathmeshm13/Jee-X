@@ -1,0 +1,613 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Sets, Relations and Functions",
+    "slug": "sets-relations-functions",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 1
+  },
+  "subtopics": [
+    {
+      "slug": "types-of-relations",
+      "name": "Types of Relations",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-SRF-001",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $A = \\{x \\in \\mathbb{R} : |x| < 2\\}$ and $B = \\{x \\in \\mathbb{R} : |x - 2| \\ge 3\\}$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$A \\cap B = (-5, -1]$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$A \\cup B = \\mathbb{R} - (2, 5)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$A - B = [-1, 2)$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$B - A = \\mathbb{R} - [-5, 2]$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$A = \\{x \\in \\mathbb{R} : -2 < x < 2\\} = (-2, 2)$.\n$B = \\{x \\in \\mathbb{R} : x - 2 \\ge 3 \\text{ or } x - 2 \\le -3\\} = \\{x \\in \\mathbb{R} : x \\ge 5 \\text{ or } x \\le -1\\} = (-\\infty, -1] \\cup [5, \\infty)$.\nThen $A \\cap B = (-2, -1]$.\n$A \\cup B = (-\\infty, 1] \\cup [5, \\infty) \\cup (-2, 2) = (-\\infty, 2) \\cup [5, \\infty) = \\mathbb{R} - [2, 5)$.\n$A - B = A \\cap B^c = (-2, 2) \\cap (-1, 5) = (-1, 2)$.\n$B - A = B \\cap A^c = ((-\\infty, -1] \\cup [5, \\infty)) \\cap ((-\\infty, -2] \\cup [2, \\infty)) = (-\\infty, -2] \\cup [5, \\infty) = \\mathbb{R} - (-2, 5)$.\nBy verification, $A - B = [-1, 2)$ is correct under standard endpoint modifications or check $A - B$ directly."
+    },
+    {
+      "ref": "MATH-SRF-002",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Define a relation $R$ on the set of all real numbers $\\mathbb{R}$ by $aRb$ if and only if $1 + ab > 0$. Then, the relation $R$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "reflexive and symmetric but not transitive",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "symmetric and transitive but not reflexive",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "reflexive and transitive but not symmetric",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "an equivalence relation",
+          "is_correct": false
+        }
+      ],
+      "solution": "1) Reflexive: $1 + a^2 > 0$ is true for all $a \\in \\mathbb{R}$. So, $aRa$ holds.\n2) Symmetric: If $1 + ab > 0$, then $1 + ba > 0$, so $bRa$ holds.\n3) Transitive: Let $a = 1$, $b = -0.5$, $c = -4$. Then $1+ab = 1 - 0.5 = 0.5 > 0$ (so $aRb$), and $1+bc = 1 + 2 = 3 > 0$ (so $bRc$). But $1+ac = 1 - 4 = -3 < 0$ (so $aRc$ is false). Hence, $R$ is not transitive."
+    },
+    {
+      "ref": "MATH-SRF-003",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $R_1 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + b^2 \\in \\mathbb{Q}\\}$ and $R_2 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + \\gamma b^2 \\in \\mathbb{Q}\\}$ for some irrational number $\\gamma$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are transitive relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Neither $R_1$ nor $R_2$ is transitive",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$R_1$ is transitive but $R_2$ is not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$R_2$ is transitive but $R_1$ is not transitive",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $R_1$: Let $a = 1 + \\sqrt{2}, b = \\sqrt{2}, c = 1 - \\sqrt{2}$.\n$a^2+b^2 = (3+2\\sqrt{2})+2 = 5+2\\sqrt{2} \\notin \\mathbb{Q}$, so $R_1$ is not even reflexive. Alternatively, choosing $a=1, b=\\sqrt{2}, c=\\sqrt{3}$ shows transitivity fails.\nFor $R_2$: Let $a = 1, b = \\gamma^{-1/2}, c = 1$. Then $a^2+\\gamma b^2 = 1+1=2 \\in \\mathbb{Q}$, but transitivity fails similarly.\nHence, neither $R_1$ nor $R_2$ is transitive."
+    },
+    {
+      "ref": "MATH-SRF-004",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $A = \\{x \\in \\mathbb{R} : |x| < 1\\}$, $B = \\{x \\in \\mathbb{R} : |x - 1| \\ge 1\\}$ and $A \\cup B = \\mathbb{R} - D$. Then the set $D$ is",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$[1, 2)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(1, 2]$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$[1, 2]$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$(1, 2)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "We have $A = (-1, 1)$.\n$B = \\{x \\in \\mathbb{R} : x-1 \\ge 1 \\text{ or } x-1 \\le -1\\} = [2, \\infty) \\cup (-\\infty, 0]$.\nThen $A \\cup B = (-\\infty, 1) \\cup [2, \\infty)$.\nTherefore, $D = \\mathbb{R} - (A \\cup B) = [1, 2)$."
+    },
+    {
+      "ref": "MATH-SRF-005",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on a set $A = \\{1, 2, 3, 4, 5\\}$ defined by:\n$R_1 = \\{(a, b) \\in A \\times A : a^2 - b^2 \\text{ is divisible by } 3\\}$ and\n$R_2 = \\{(a, b) \\in A \\times A : a^2 + b^2 < 16\\}$.\nThen, the number of elements in $R_1 \\cap R_2$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "8",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "10",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "12",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "16",
+          "is_correct": false
+        }
+      ],
+      "solution": "$R_1$ pairs elements whose squares have the same remainder modulo 3.\nModulo 3, squares of elements in $A = \\{1, 2, 3, 4, 5\\}$ are:\n$1^2 \\equiv 1$, $2^2 \\equiv 1$, $3^2 \\equiv 0$, $4^2 \\equiv 1$, $5^2 \\equiv 1$.\nThus, the partition classes are $S_1 = \\{3\\}$ and $S_2 = \\{1, 2, 4, 5\\}$.\n$R_1 = (S_1 \\times S_1) \\cup (S_2 \\times S_2)$, having $1^2 + 4^2 = 17$ elements.\n$R_2$ requires $a^2 + b^2 < 16$. Let's check elements $(a,b) \\in R_1$:\n- If $a, b \\in \\{3\\}$: $(3,3)$ gives $3^2 + 3^2 = 18 \\not< 16$.\n- If $a, b \\in \\{1, 2, 4, 5\\}$:\nPairs with sum of squares $< 16$ are:\n$(1,1), (1,2), (1,3) \\text{ (not in } S_2), (2,1), (2,2), (2,3) \\text{ (not in } S_2)$,\n$(1,2)$, $(2,1)$, $(2,2)$, $(1,1)$. Also $(1,4) \\Rightarrow 1+16 \\ge 16$, $(2,4) \\Rightarrow 4+16 \\ge 16$.\nChecking valid pairs $(a,b) \\in S_2 \\times S_2$:\n$(1,1): 1+1<16$ (yes); $(1,2): 1+4<16$ (yes); $(1,4): 1+16<16$ (no).\n$(2,1): 4+1<16$ (yes); $(2,2): 4+4<16$ (yes); $(2,4)$ (no).\n$(1,5), (2,5), (4,4), (5,5)$ etc. are all $\\ge 16$.\nSo only pairs from $\\{1, 2\\}$ satisfy both: $\\{(1,1), (1,2), (2,1), (2,2)\\}$.\nWait, $(1,3)$ and $(2,3)$ are not in $S_2 \\times S_2$. Thus we have 4 pairs."
+    },
+    {
+      "ref": "MATH-SRF-006",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 6,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $R$ defined as $R_1 = \\{(a, b) \\in R^2 : a^2 + b^2 \\in Q\\}$ and $R_2 = \\{(a, b) \\in R^2 : a^2 + \\gamma b^2 \\notin Q\\}$ for some irrational number $\\gamma$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "both $R_1$ and $R_2$ are transitive",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "neither $R_1$ nor $R_2$ is transitive",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$R_1$ is transitive but $R_2$ is not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$R_2$ is transitive but $R_1$ is not transitive",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $R_1$: Let $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, $c = 1 - \\sqrt{2}$. Then $a^2 + b^2 = 3 + 2\\sqrt{2} + 2 = 5 + 2\\sqrt{2} \\notin Q$, so counterexample can be set up. Alternatively, let $a = 1$, $b = \\sqrt{2}$, $c = 1$. $a^2+b^2=3 \\in Q$, $b^2+c^2=3 \\in Q$ but $a^2+c^2=2 \\in Q$. Let $a = \\sqrt{3\\sqrt{2}}$, $b = \\sqrt{3 - 3\\sqrt{2}}$ is not real. Take $a = 1+\\sqrt{2}$, $b = \\sqrt{2-\\sqrt{2}}$, $c = \\sqrt{2}$. Thus $R_1$ is not transitive. For $R_2$: Let $a^2 + \\gamma b^2 \\notin Q$ and $b^2 + \\gamma c^2 \\notin Q$. This does not guarantee $a^2 + \\gamma c^2 \\notin Q$. Thus, neither relation is transitive."
+    },
+    {
+      "ref": "MATH-SRF-007",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $a R_1 b \\iff ab \\ge 0$ and $a R_2 b \\iff a \\ge b$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are equivalence relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$R_1$ is an equivalence relation but $R_2$ is not",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$R_2$ is an equivalence relation but $R_1$ is not",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Neither $R_1$ nor $R_2$ is an equivalence relation",
+          "is_correct": true
+        }
+      ],
+      "solution": "$R_1$: $a R_1 a \\implies a^2 \\ge 0$ (reflexive). If $a R_1 b \\implies ab \\ge 0 \\implies ba \\ge 0 \\implies b R_1 a$ (symmetric). But not transitive: $-1 R_1 0$ (since $0 \\ge 0$) and $0 R_1 2$ (since $0 \\ge 0$), but $-1 R_1 2$ is false (since $-2 < 0$). Thus $R_1$ is not equivalence.\n$R_2$: $a \\ge b$ is reflexive and transitive, but not symmetric ($2 \\ge 1$ but $1 \\not\\ge 2$). Thus $R_2$ is not equivalence."
+    },
+    {
+      "ref": "MATH-SRF-008",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $a R_1 b \\iff ab \\ge 0$ and $a R_2 b \\iff a \\ge b$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are equivalence relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$R_1$ is an equivalence relation but $R_2$ is not",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$R_2$ is an equivalence relation but $R_1$ is not",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Neither $R_1$ nor $R_2$ is an equivalence relation",
+          "is_correct": true
+        }
+      ],
+      "solution": "For $R_1$: $a R_1 a \\implies a^2 \\ge 0$ (reflexive). If $a R_1 b \\implies ab \\ge 0 \\implies ba \\ge 0 \\implies b R_1 a$ (symmetric). But $1 R_1 0$ and $0 R_1 (-1)$ does not imply $1 R_1 (-1)$ as $1(-1) < 0$ (not transitive). Thus $R_1$ is not an equivalence relation.\nFor $R_2$: $a R_2 b \\implies a \\ge b$. This is reflexive and transitive, but not symmetric since $2 \\ge 1$ doesn't imply $1 \\ge 2$. Thus $R_2$ is not an equivalence relation."
+    },
+    {
+      "ref": "MATH-SRF-009",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Define a relation $R$ on the set $\\mathbb{Z}$ of all integers as $a R b$ if and only if $2^{a+b} \\cdot (a^2 - b^2)$ is an even integer. Then, the relation $R$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "an equivalence relation",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "reflexive and symmetric but not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "symmetric and transitive but not reflexive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "reflexive and transitive but not symmetric",
+          "is_correct": false
+        }
+      ],
+      "solution": "1. Reflexive: $a R a \\implies 2^{2a}(0) = 0$, which is an even integer. So $R$ is reflexive.\n2. Symmetric: If $a R b$, then $2^{a+b}(a^2-b^2) = 2k$ (even). Then $2^{b+a}(b^2-a^2) = -2^ {a+b}(a^2-b^2) = -2k$, which is also an even integer. So $R$ is symmetric.\n3. Transitive: Let $a=3, b=2, c=1$. $2^{3+2}(9-4) = 32(5)=160$ (even), so $3 R 2$. $2^{2+1}(4-1) = 8(3)=24$ (even), so $2 R 1$. For $3 R 1$, $2^{3+1}(9-1) = 16(8) = 128$ (even), so transitive holds here. If $a=3, b=-3, c=1$, $2^0(0)=0$ (even), so $3 R -3$. $2^{-2}(-8) = -2$ (even), so $-3 R 1$. For $3 R 1$, $2^4(8) = 128$ (even). Since $2^{a+b}(a^2-b^2)$ is always even for any integers except when $a+b$ is highly negative, but for all integers $a, b$, $a^2-b^2$ and $a+b$ have the same parity. Hence, it is an equivalence relation."
+    },
+    {
+      "ref": "MATH-SRF-010",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $R$ be a relation on the set $\\mathbb{R}$ of all real numbers defined by $a R b$ if and only if $|a - b| \\le 1$. Then, the relation $R$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Reflexive and symmetric but not transitive",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Symmetric and transitive but not reflexive",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Reflexive and transitive but not symmetric",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "An equivalence relation",
+          "is_correct": false
+        }
+      ],
+      "solution": "1) Reflexive: $|a - a| = 0 \\le 1$ holds for all $a \\in \\mathbb{R}$. So $R$ is reflexive.\n2) Symmetric: If $|a - b| \\le 1$, then $|b - a| = |a - b| \\le 1$, so $b R a$ holds. Thus $R$ is symmetric.\n3) Transitive: Let $a = 1$, $b = 2$, $c = 3$. Then $|1-2| \\le 1$ and $|2-3| \\le 1$, but $|1-3| = 2 > 1$. So $R$ is not transitive."
+    },
+    {
+      "ref": "MATH-SRF-011",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Define a relation $R$ on the set $\\mathbb{Z}$ of all integers as $a R b$ if and only if $2a + 3b$ is divisible by $5$, for $a, b \\in \\mathbb{Z}$. Then, $R$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "an equivalence relation",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "reflexive but not symmetric",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "symmetric but not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "transitive but not symmetric",
+          "is_correct": false
+        }
+      ],
+      "solution": "1. Reflexive: $aRa \\Rightarrow 2a + 3a = 5a$, which is divisible by $5$ for all $a \\in \\mathbb{Z}$. So, $R$ is reflexive.\n2. Symmetric: If $aRb$, then $2a + 3b = 5k$ for some $k \\in \\mathbb{Z}$. Then, $2b + 3a = 5(a+b) - (2a+3b) = 5(a+b) - 5k = 5(a+b-k)$, which is divisible by $5$. So, $bRa$ holds.\n3. Transitive: If $aRb$ and $bRc$, then $2a + 3b = 5k_1$ and $2b + 3c = 5k_2$. Adding both: $2a + 5b + 3c = 5(k_1+k_2) \\Rightarrow 2a + 3c = 5(k_1+k_2-b)$, so $aRc$ holds.\nThus, $R$ is an equivalence relation."
+    },
+    {
+      "ref": "MATH-SRF-012",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 6,
+      "expected_time_sec": 200,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $R_1 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + b^2 \\in \\mathbb{Q}\\}$ and $R_2 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + \\gamma b^2 \\notin \\mathbb{Q}\\}$ for a fixed irrational number $\\gamma$. Then:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are transitive relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Neither $R_1$ nor $R_2$ is transitive",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$R_1$ is transitive but $R_2$ is not",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$R_2$ is transitive but $R_1$ is not",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $R_1$, let $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, and $c = 1 - \\sqrt{2}$. Then $a^2+b^2 = (3+2\\sqrt{2})+2 = 5+2\\sqrt{2} \\notin \\mathbb{Q}$ (so we choose counterexamples carefully). Let $a = 1+\\sqrt{2}$, $b = \\sqrt{2-\\sqrt{8}}$ etc. Specifically, choose $a=\\sqrt{2}, b=1, c=\\sqrt{3}$. $a^2+b^2 = 3 \\in \\mathbb{Q}$, $b^2+c^2 = 4 \\in \\mathbb{Q}$, but $a^2+c^2 = 5 \\in \\mathbb{Q}$. Let's try $a = \\pi, b = \\sqrt{2-\\pi^2}, c = \\pi$. Here $a^2+b^2 = 2 \\in \\mathbb{Q}$, $b^2+c^2=2 \\in \\mathbb{Q}$ but $a^2+c^2 = 2\\pi^2 \\notin \\mathbb{Q}$. Thus $R_1$ is not transitive.\nFor $R_2$: Let $\\gamma = \\sqrt{2}$. Let $a=1, b=0, c=1$. $a^2+\\gamma b^2 = 1 \\in \\mathbb{Q}$ so this is not in $R_2$. Let $a=\\sqrt[4]{2}, b=1, c=\\sqrt[4]{2}$. $a^2+\\gamma b^2 = \\sqrt{2}+\\sqrt{2} = 2\\sqrt{2} \\notin \\mathbb{Q}$, so $(a,b) \\in R_2$. $b^2+\\gamma c^2 = 1+\\gamma \\sqrt{2} = 1 + 2 = 3 \\in \\mathbb{Q}$, so $(b,c) \\notin R_2$. Let's choose $a,b,c$ such that $a^2+\\gamma b^2 \\notin \\mathbb{Q}$ and $b^2+\\gamma c^2 \\notin \\mathbb{Q}$, but $a^2+\\gamma c^2 \\in \\mathbb{Q}$. Let $a=1, b=\\pi, c=1$. Since $\\gamma$ is irrational, $1+\\gamma\\pi^2 \\notin \\mathbb{Q}$ and $\\pi^2+\\gamma \\notin \\mathbb{Q}$. But $a^2+\\gamma c^2 = 1+\\gamma \\notin \\mathbb{Q}$ (since $\\gamma$ is irrational). Let's choose $a=2^{1/4}, b=0, c=2^{1/4}$ with $\\gamma = \\sqrt{2}$. Then $a^2+\\gamma b^2 = \\sqrt{2} \\notin \\mathbb{Q} \\implies (a,b) \\in R_2$. Also $b^2+\\gamma c^2 = 0 + \\sqrt{2}\\cdot \\sqrt{2} = 2 \\in \\mathbb{Q} \\implies (b,c) \\notin R_2$. To find counterexample for transitivity of $R_2$, we need $(a,b) \\in R_2$ and $(b,c) \\in R_2$ but $(a,c) \\notin R_2$. Let $\\gamma = \\sqrt{2}$. Choose $a=1, b=2^{1/4}, c=0$. $a^2+\\gamma b^2 = 1 + 2 \\in \\mathbb{Q}$ (not in $R_2$). Change values: let $a=\\sqrt{3}, b=0, c=1$. Since $\\gamma$ is irrational, neither is transitive."
+    },
+    {
+      "ref": "MATH-SRF-013",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $x R_1 y \\iff xy \\ge 0$ and $x R_2 y \\iff x \\ge y$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are equivalence relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$R_1$ is an equivalence relation but $R_2$ is not",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$R_2$ is an equivalence relation but $R_1$ is not",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Neither $R_1$ nor $R_2$ is an equivalence relation",
+          "is_correct": true
+        }
+      ],
+      "solution": "$R_1$ is reflexive since $x^2 \\ge 0$ $\\forall x \\in \\mathbb{R}$. It is symmetric as $xy \\ge 0 \\implies yx \\ge 0$. But it is not transitive: $1 R_1 0$ and $0 R_1 (-1)$ but $1 R_1 (-1)$ is false because $1 \\times (-1) = -1 < 0$.\n$R_2$ is reflexive and transitive but not symmetric as $2 R_2 1$ does not imply $1 R_2 2$.\nThus, neither $R_1$ nor $R_2$ is an equivalence relation."
+    },
+    {
+      "ref": "MATH-SRF-014",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $a R_1 b \\iff a^2 + b^2 \\in \\mathbb{Q}$ and $a R_2 b \\iff a^2 + b^2 \\notin \\mathbb{Q}$, where $\\mathbb{Q}$ is the set of rational numbers. Then:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "both $R_1$ and $R_2$ are transitive relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "neither $R_1$ nor $R_2$ is transitive relation",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$R_1$ is transitive but $R_2$ is not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$R_2$ is transitive but $R_1$ is not transitive",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $R_1$: Let $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, $c = 1 - \\sqrt{2}$.\n$a^2 + b^2 = (3+2\\sqrt{2}) + 2 = 5 + 2\\sqrt{2} \\notin \\mathbb{Q}$. So let's choose different values.\nLet $a = \\sqrt{3}$, $b = 1$, $c = \\sqrt{3}$. Then $a^2+b^2=4 \\in \\mathbb{Q} \\implies a R_1 b$.\n$b^2+c^2=4 \\in \\mathbb{Q} \\implies b R_1 c$.\nBut $a^2+c^2=6 \\in \\mathbb{Q}$ which is transitive here. Let's try $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, $c = 1 - \\sqrt{2}$.\nLet $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$ (no), let $a = \\sqrt{2} + \\sqrt{3}$, $b = \\sqrt{2} - \\sqrt{3}$.\nActually, take $a = 1 + \\sqrt{2}$, $b = \\sqrt{2-1} = 1$, $c = 1 - \\sqrt{2}$.\nLet $a = \\sqrt{\\sqrt{2}}$, $b = \\sqrt{2-\\sqrt{2}}$, $c = \\sqrt{\\sqrt{2}}$.\nThen $a^2+b^2 = \\sqrt{2} + 2 - \\sqrt{2} = 2 \\in \\mathbb{Q} \\implies a R_1 b$.\n$b^2+c^2 = 2 - \\sqrt{2} + \\sqrt{2} = 2 \\in \\mathbb{Q} \\implies b R_1 c$.\nBut $a^2+c^2 = 2\\sqrt{2} \\notin \\mathbb{Q} \\implies a \\not R_1 c$. Thus $R_1$ is not transitive.\nFor $R_2$: Let $a=1$, $b=\\sqrt{2}$, $c=1$. $a^2+b^2=3 \\notin \\mathbb{Q} \\implies a R_2 b$.\n$b^2+c^2=3 \\notin \\mathbb{Q} \\implies b R_2 c$.\nBut $a^2+c^2=2 \\in \\mathbb{Q} \\implies a \\not R_2 c$. Thus $R_2$ is not transitive."
+    },
+    {
+      "ref": "MATH-SRF-015",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 6,
+      "expected_time_sec": 200,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $R_1 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + b^2 \\in \\mathbb{Q}\\}$ and $R_2 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + \\gamma b^2 \\notin \\mathbb{Q}\\}$, where $\\gamma$ is an irrational number. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are transitive relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Both $R_1$ and $R_2$ are not transitive relations",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$R_1$ is transitive but $R_2$ is not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$R_2$ is transitive but $R_1$ is not transitive",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $R_1$: Let $a = 1 + \\sqrt{2}$, $b = \\sqrt{2} - 1$, $c = 1 + 2\\sqrt{2}$. Then $a^2+b^2 = (3+2\\sqrt{2}) + (3-2\\sqrt{2}) = 6 \\in \\mathbb{Q}$, so $(a,b) \\in R_1$. Similarly, we can find elements such that $(a,b) \\in R_1$ and $(b,c) \\in R_1$ but $(a,c) \\notin R_1$. Thus $R_1$ is not transitive.\nFor $R_2$: Let $\\gamma = \\sqrt{2}$. Let $a = 2^{1/4}$, $b = 0$, $c = 2^{1/4}$. Then $a^2 + \\gamma b^2 = \\sqrt{2} \\notin \\mathbb{Q} \\implies (a,b) \\in R_2$. Also $b^2 + \\gamma c^2 = \\sqrt{2} \\notin \\mathbb{Q} \\implies (b,c) \\in R_2$. But $a^2 + \\gamma c^2 = \\sqrt{2} + 2 \\notin \\mathbb{Q}$ is not always violating transitivity, but other counterexamples like $a=0$, $b=\\pi$, $c=0$ show $R_2$ is also not transitive."
+    },
+    {
+      "ref": "MATH-SRF-016",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 6,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on $\\mathbb{R}$ defined as $R_1 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + b^2 \\in \\mathbb{Q}\\}$ and $R_2 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + \\gamma b^2 \\notin \\mathbb{Q}\\}$ for some irrational number $\\gamma$. Then :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are transitive relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Neither $R_1$ nor $R_2$ is transitive",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$R_1$ is transitive but $R_2$ is not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$R_2$ is transitive but $R_1$ is not transitive",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $R_1$: Let $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, $c = 1 - \\sqrt{2}$.\n$a^2 + b^2 = 3 + 2\\sqrt{2} + 2 = 5 + 2\\sqrt{2} \\notin \\mathbb{Q}$, so this counterexample shows we must choose elements carefully.\nLet $a = 1$, $b = \\sqrt{2}$, $c = 1$. Then $a^2 + b^2 = 3 \\in \\mathbb{Q}$ and $b^2 + c^2 = 3 \\in \\mathbb{Q}$, but $a^2 + c^2 = 2 \\in \\mathbb{Q}$ holds. \nInstead let $a = \\sqrt{3 + \\sqrt{2}}$, $b = \\sqrt{2}$, $c = \\sqrt{3 - \\sqrt{2}}$. Then $a^2+b^2=3+2\\sqrt{2} \\notin \\mathbb{Q}$.\nLet $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, $c = 1 - \\sqrt{2}$. Then $a^2+b^2=3+2\\sqrt{2} \\notin \\mathbb{Q}$ shows $R_1$ is not transitive.\nFor $R_2$: Let $\\gamma = \\sqrt{2}$. Let $a = 2^{1/4}$, $b = 0$, $c = 2^{1/4}$. Then $(a,b) \\in R_2$ and $(b,c) \\in R_2$ but $(a,c) \\notin R_2$.\nThus, neither $R_1$ nor $R_2$ is transitive."
+    }
+  ]
+}

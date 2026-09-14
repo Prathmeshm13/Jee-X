@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities which have different dimensions:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Wave number and Rydberg constant",
+   "Stress and Young's modulus",
+   "Coercivity and Intensity of magnetisation",
+   "Specific heat capacity and latent heat"
+  ],
+  "sol": "Wave number and Rydberg constant both have dimensions $[L^{-1}]$.\nStress and Young's modulus both have dimensions $[M L^{-1} T^{-2}]$.\nCoercivity and Intensity of magnetisation both have dimensions $[A L^{-1}]$.\nSpecific heat capacity has dimensions $[L^2 T^{-2} K^{-1}]$ while latent heat has dimensions $[L^2 T^{-2}]$. Thus they have different dimensions.",
+  "key": "D",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with horizontal. What is the magnitude of change in velocity when it is at the highest point of its trajectory?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$u\\cos\\theta$",
+   "$u\\sin\\theta$",
+   "$u\\sqrt{1 + \\cos^2\\theta}$",
+   "$u\\sqrt{2(1 - \\cos\\theta)}$"
+  ],
+  "sol": "Initial velocity vector: $\\vec{v}_i = u\\cos\\theta \\hat{i} + u\\sin\\theta \\hat{j}$.\nVelocity vector at the highest point: $\\vec{v}_f = u\\cos\\theta \\hat{i}$.\nChange in velocity: $\\Delta\\vec{v} = \\vec{v}_f - \\vec{v}_i = -u\\sin\\theta \\hat{j}$.\nMagnitude of change in velocity: $|\\Delta\\vec{v}| = u\\sin\\theta$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $10\\ \\mathrm{kg}$ is placed on a rough horizontal surface having coefficient of static friction $\\mu_s = 0.5$ and coefficient of kinetic friction $\\mu_k = 0.4$. If a horizontal force of $30\\ \\mathrm{N}$ is applied on the block, the frictional force acting on the block is (Take $g = 10\\ \\mathrm{m/s^2}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$30\\ \\mathrm{N}$",
+   "$40\\ \\mathrm{N}$",
+   "$50\\ \\mathrm{N}$",
+   "$0\\ \\mathrm{N}$"
+  ],
+  "sol": "Maximum static frictional force: $f_{s,\\max} = \\mu_s N = \\mu_s mg = 0.5 \\times 10 \\times 10 = 50\\ \\mathrm{N}$.\nSince the applied force $F = 30\\ \\mathrm{N} < f_{s,\\max}$, the block remains at rest.\nThe static friction force exactly balances the applied force: $f_s = F = 30\\ \\mathrm{N}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential Energy and Conservation of Energy",
+  "conf": "exact",
+  "stem": "The potential energy of a particle of mass $m$ is given by $U(x) = U_0(1 - \\cos ax)$, where $U_0$ and $a$ are constants. The time period of small oscillations of the particle about the mean position $x=0$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2\\pi \\sqrt{\\frac{m}{U_0 a^2}}$",
+   "$2\\pi \\sqrt{\\frac{m}{2U_0 a^2}}$",
+   "$2\\pi \\sqrt{\\frac{m}{U_0 a}}$",
+   "$2\\pi \\sqrt{\\frac{m a^2}{U_0}}$"
+  ],
+  "sol": "Force is given by $F = -\\frac{dU}{dx} = -U_0 a \\sin(ax)$.\nFor small oscillations ($ax \\ll 1$), $\\sin(ax) \\approx ax$.\nThus, $F \\approx -(U_0 a^2) x$.\nComparing with $F = -k x$, the effective spring constant is $k = U_0 a^2$.\nThe time period is $T = 2\\pi \\sqrt{\\frac{m}{k}} = 2\\pi \\sqrt{\\frac{m}{U_0 a^2}}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "Four identical solid spheres each of mass $M$ and radius $R$ are placed with their centers on the four corners of a square of side $d$ ($d > 2R$). The moment of inertia of this system about an axis passing through the center of one of the spheres and perpendicular to the plane of the square is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{8}{5}MR^2 + 2Md^2$",
+   "$\\frac{8}{5}MR^2 + 4Md^2$",
+   "$\\frac{8}{5}MR^2 + 3Md^2$",
+   "$\\frac{4}{5}MR^2 + 2Md^2$"
+  ],
+  "sol": "Let the axis be perpendicular to the plane, passing through the center of sphere 1.\nFor sphere 1 (on the axis): $I_1 = \\frac{2}{5}MR^2$.\nFor adjacent spheres (2 and 4), distance is $d$: $I_2 = I_4 = \\frac{2}{5}MR^2 + Md^2$.\nFor diagonally opposite sphere (3), distance is $\\sqrt{2}d$: $I_3 = \\frac{2}{5}MR^2 + M(\\sqrt{2}d)^2 = \\frac{2}{5}MR^2 + 2Md^2$.\nTotal $I = 4 \\times \\frac{2}{5}MR^2 + Md^2 + Md^2 + 2Md^2 = \\frac{8}{5}MR^2 + 4Md^2$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 100
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration Due to Gravity",
+  "conf": "exact",
+  "stem": "If the acceleration due to gravity at the surface of the Earth is $g$, then the acceleration due to gravity at a depth $d$ below the Earth's surface ($d < R$, where $R$ is the radius of Earth) is given by $g_d$. The ratio $g_d / g$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 - \\frac{d}{R}$",
+   "$1 - \\frac{2d}{R}$",
+   "$\\left(1 - \\frac{d}{R}\\right)^2$",
+   "$\\left(1 - \\frac{d}{R}\\right)^{-1}$"
+  ],
+  "sol": "The formula for acceleration due to gravity at depth $d$ is $g_d = g\\left(1 - \\frac{d}{R}\\right)$.\nTherefore, the ratio $\\frac{g_d}{g} = 1 - \\frac{d}{R}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "The bulk modulus of a perfectly rigid body is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Zero",
+   "Infinite",
+   "$1$",
+   "Finite and non-zero"
+  ],
+  "sol": "Bulk modulus $B = -\\frac{\\Delta P}{\\Delta V/V}$.\nFor a perfectly rigid body, the change in volume $\\Delta V = 0$ for any pressure change.\nTherefore, $B = \\infty$ (infinite).",
+  "key": "B",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "conf": "exact",
+  "stem": "Two spherical rain drops of equal size are falling vertically through air with a terminal velocity of $1\\ \\mathrm{m/s}$. If these two drops coalesce to form a single large drop, its terminal velocity will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2^{1/3}\\ \\mathrm{m/s}$",
+   "$2^{2/3}\\ \\mathrm{m/s}$",
+   "$2\\ \\mathrm{m/s}$",
+   "$4^{1/3}\\ \\mathrm{m/s}$"
+  ],
+  "sol": "Terminal velocity $v_t \\propto r^2$.\nWhen two drops of radius $r$ coalesce to form a single drop of radius $R$:\n$\\frac{4}{3}\\pi R^3 = 2 \\times \\frac{4}{3}\\pi r^3 \\implies R = 2^{1/3}r$.\nThus, $v_t' = v_t \\left(\\frac{R}{r}\\right)^2 = 1 \\times (2^{1/3})^2 = 2^{2/3}\\ \\mathrm{m/s}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 55
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "A mixture of $2\\ \\mathrm{moles}$ of helium (monatomic) and $1\\ \\mathrm{mole}$ of argon (monatomic) is kept in a vessel at temperature $T$. The total internal energy of the system is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{9}{2}RT$",
+   "$3RT$",
+   "$\\frac{5}{2}RT$",
+   "$\\frac{15}{2}RT$"
+  ],
+  "sol": "Both helium and argon are monatomic gases, having $f = 3$ degrees of freedom.\nTotal internal energy $U = U_{\\text{He}} + U_{\\text{Ar}} = n_1 \\frac{f_1}{2} R T + n_2 \\frac{f_2}{2} R T$.\n$U = 2 \\times \\frac{3}{2} R T + 1 \\times \\frac{3}{2} R T = 3RT + 1.5RT = 4.5RT = \\frac{9}{2}RT$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoes a thermodynamic process from state A to state B as shown in the $P-V$ diagram. The work done by the gas in this process is:",
+  "img": true,
+  "img_desc": "A P-V graph showing a straight line path from A(V_0, 3P_0) to B(3V_0, P_0). Both P and V axes are linear.",
+  "img_url": "",
+  "opts": [
+   "$4P_0V_0$",
+   "$2P_0V_0$",
+   "$3P_0V_0$",
+   "$P_0V_0$"
+  ],
+  "sol": "The path from $A(V_0, 3P_0)$ to $B(3V_0, P_0)$ is a straight line.\nWork done $W$ is the area under the $P-V$ curve (a trapezium).\n$W = \\frac{1}{2} (P_A + P_B)(V_B - V_A) = \\frac{1}{2} (3P_0 + P_0)(3V_0 - V_0) = \\frac{1}{2} (4P_0)(2V_0) = 4P_0V_0$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "A particle executing simple harmonic motion has amplitude $A$ and time period $T$. The minimum time taken by the particle to travel from $x = 0$ to $x = \\frac{\\sqrt{3}}{2}A$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{T}{6}$",
+   "$\\frac{T}{12}$",
+   "$\\frac{T}{8}$",
+   "$\\frac{T}{4}$"
+  ],
+  "sol": "For SHM starting from mean position: $x(t) = A \\sin(\\omega t)$.\nWe need $A \\sin(\\omega t) = \\frac{\\sqrt{3}}{2}A \\implies \\sin(\\omega t) = \\frac{\\sqrt{3}}{2}$.\nThus, $\\omega t = \\frac{\\pi}{3} \\implies \\frac{2\\pi}{T} t = \\frac{\\pi}{3} \\implies t = \\frac{T}{6}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "An electric dipole of dipole moment $\\vec{p} = p\\hat{i}$ is placed at the origin. The electric field at a point $(0, d, 0)$ is parallel to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\hat{i}$",
+   "$-\\hat{i}$",
+   "$\\hat{j}$",
+   "$-\\hat{j}$"
+  ],
+  "sol": "The dipole is along the x-axis ($\\vec{p} = p\\hat{i}$).\nThe point $(0, d, 0)$ lies on the equatorial line (y-axis) of the dipole.\nThe electric field on the equatorial line of a dipole is antiparallel to the dipole moment.\nTherefore, the electric field is in the direction of $-\\hat{i}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "In the given circuit, the equivalent resistance between terminals $A$ and $B$ is:",
+  "img": true,
+  "img_desc": "A bridge-like resistor network where five identical resistors of resistance R are arranged in a balanced Wheatstone bridge configuration between terminals A and B.",
+  "img_url": "",
+  "opts": [
+   "$R$",
+   "$2R$",
+   "$\\frac{R}{2}$",
+   "$\\frac{2R}{3}$"
+  ],
+  "sol": "The given circuit forms a balanced Wheatstone bridge.\nTherefore, the central resistor can be ignored.\nThe remaining resistors form two parallel branches, each consisting of two resistors of resistance $R$ in series ($2R$).\nThe equivalent resistance is $R_{eq} = \\frac{2R \\times 2R}{2R + 2R} = R$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "A proton and an alpha particle enter a uniform magnetic field perpendicularly with the same kinetic energy. The ratio of the radii of their circular paths ($r_p : r_\\alpha$) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 1$",
+   "$1 : 2$",
+   "$2 : 1$",
+   "$1 : 4$"
+  ],
+  "sol": "Radius of circular path in magnetic field: $r = \\frac{\\sqrt{2mK}}{qB}$.\nFor proton: $m_p = m$, $q_p = q$.\nFor alpha particle: $m_\\alpha = 4m$, $q_\\alpha = 2q$.\nRatio of radii: $\\frac{r_p}{r_\\alpha} = \\frac{\\sqrt{m_p}}{q_p} \\times \\frac{q_\\alpha}{\\sqrt{m_\\alpha}} = \\frac{\\sqrt{m}}{q} \\times \\frac{2q}{\\sqrt{4m}} = 1:1$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "If the magnetic susceptibility of a material is $\\chi = -0.5 \\times 10^{-5}$, the material is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Diamagnetic",
+   "Paramagnetic",
+   "Ferromagnetic",
+   "Non-magnetic"
+  ],
+  "sol": "Magnetic susceptibility $\\chi$ is negative and small for diamagnetic substances.\nSince $\\chi = -0.5 \\times 10^{-5} < 0$, the material is diamagnetic.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A metal rod of length $L$ is rotated with angular velocity $\\omega$ about an axis passing through one end and perpendicular to its length, in a uniform magnetic field $B$ parallel to the axis of rotation. The induced EMF between the ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2}BL^2\\omega$",
+   "$BL^2\\omega$",
+   "$\\frac{1}{4}BL^2\\omega$",
+   "$2BL^2\\omega$"
+  ],
+  "sol": "The induced EMF in a rotating rod is given by integrating $de = B v dr = B (r\\omega) dr$ from $0$ to $L$.\n$e = B\\omega \\int_0^L r dr = \\frac{1}{2} B L^2 \\omega$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR Series Circuit",
+  "conf": "exact",
+  "stem": "In a series LCR circuit, resonance occurs at frequency $f_0$. If the capacitance of the capacitor is made four times, the new resonant frequency will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{f_0}{2}$",
+   "$2f_0$",
+   "$\\frac{f_0}{4}$",
+   "$4f_0$"
+  ],
+  "sol": "Resonant frequency $f_0 = \\frac{1}{2\\pi \\sqrt{LC}}$.\nIf capacitance becomes $C' = 4C$, then:\n$f_0' = \\frac{1}{2\\pi \\sqrt{L(4C)}} = \\frac{1}{2} f_0$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the highest frequency?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Gamma rays",
+   "X-rays",
+   "Ultraviolet rays",
+   "Microwaves"
+  ],
+  "sol": "In the electromagnetic spectrum, gamma rays have the shortest wavelength and consequently the highest frequency.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the separation between the coherent sources is halved and the distance of the screen from the coherent sources is doubled, then the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Four times",
+   "Double",
+   "Half",
+   "One-fourth"
+  ],
+  "sol": "Fringe width $\\beta = \\frac{\\lambda D}{d}$.\nGiven $D' = 2D$ and $d' = d/2$.\nNew fringe width $\\beta' = \\frac{\\lambda D'}{d'} = \\frac{\\lambda (2D)}{d/2} = 4 \\left(\\frac{\\lambda D}{d}\\right) = 4\\beta$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "semiconductors",
+  "sub": "photodiode-and-solar-cell",
+  "sub_name": "Photodiode and Solar Cell",
+  "conf": "exact",
+  "stem": "A photodiode is operated under:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Reverse bias",
+   "Forward bias",
+   "Zero bias",
+   "Either forward or reverse bias depending on intensity"
+  ],
+  "sol": "A photodiode is always operated in reverse bias mode to detect light illumination efficiently, as fractional change in reverse saturation current is much easier to measure.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ }
+]

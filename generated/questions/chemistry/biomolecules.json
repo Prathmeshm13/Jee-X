@@ -109,6 +109,43 @@
         }
       ],
       "solution": "Deficiency of Vitamin C (ascorbic acid) causes scurvy, characterized by bleeding gums and slow wound healing."
+    },
+    {
+      "ref": "CHEM-BIO-004",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The deficiency of vitamin $B_1$ causes which of the following diseases?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Scurvy",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Cheilosis",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Beri-beri",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Rickets",
+          "is_correct": false
+        }
+      ],
+      "solution": "Deficiency of vitamin $\\mathrm{B}_1$ (thiamine) causes Beri-beri. Vitamin C deficiency causes scurvy, vitamin $\\mathrm{B}_2$ causes cheilosis, and vitamin D causes rickets."
     }
   ]
 }

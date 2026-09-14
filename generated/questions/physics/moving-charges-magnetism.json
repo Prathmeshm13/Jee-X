@@ -90,6 +90,99 @@
         }
       ],
       "solution": "The radius of circular motion in a magnetic field is given by $r = \\frac{\\sqrt{2mK}}{qB}$.\nTherefore, $r \\propto \\frac{\\sqrt{m}}{q}$.\nFor proton, $r_p \\propto \\frac{\\sqrt{m_p}}{q_p}$.\nFor alpha particle, $r_\\alpha \\propto \\frac{\\sqrt{4m_p}}{2q_p} = \\frac{2\\sqrt{m_p}}{2q_p} = \\frac{\\sqrt{m_p}}{q_p}$.\nThus, $r_p : r_\\alpha = 1 : 1$."
+    },
+    {
+      "ref": "PHY-MAG-003",
+      "subtopic": "motion-in-a-magnetic-field",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An electron and a proton having the same kinetic energy enter a uniform magnetic field perpendicular to its direction. The ratio of the radius of the circular path of the electron to that of the proton ($r_e / r_p$) is (given $m_e$ and $m_p$ are the masses of electron and proton respectively):",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\sqrt{\\frac{m_e}{m_p}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\sqrt{\\frac{m_p}{m_e}}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{m_e}{m_p}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{m_p}{m_e}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The radius of curvature in a magnetic field is $r = \\frac{p}{qB} = \\frac{\\sqrt{2mK}}{qB}$.\nSince both have the same kinetic energy $K$, charge magnitude $q = e$, and magnetic field $B$:\n$r \\propto \\sqrt{m}$.\nTherefore, $\\frac{r_e}{r_p} = \\sqrt{\\frac{m_e}{m_p}}$."
+    },
+    {
+      "ref": "PHY-MAG-004",
+      "subtopic": "motion-in-a-magnetic-field",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An electron is moving with a speed of $3 \times 10^7\text{ m/s}$ in a magnetic field of $6 \times 10^{-4}\text{ T}$ perpendicular to its path. The path of the electron is circular. The frequency of revolution of the electron (in $\text{MHz}$) is: (Take mass of electron $m_e = 9 \times 10^{-31}\text{ kg}$, charge $e = 1.6 \times 10^{-19}\text{ C}$ and round off to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 17.0,
+        "max": 17.0
+      },
+      "solution": "The frequency of revolution is $f = \frac{qB}{2\tau m}$.\n$f = \frac{1.6 \times 10^{-19} \times 6 \times 10^{-4}}{2 \times 3.14 \times 9 \times 10^{-31}} = \frac{9.6 \times 10^{-23}}{5.65 \times 10^{-30}} \times \frac{1}{10}$\n$f ≈ 1.7 \times 10^7\text{ Hz} = 17\text{ MHz}$."
+    },
+    {
+      "ref": "PHY-MAG-005",
+      "subtopic": "motion-in-a-magnetic-field",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A proton and an $\\alpha$-particle enter a region of uniform magnetic field perpendicular to their velocities with the same kinetic energy. The ratio of the radii of their circular paths $r_p : r_\\alpha$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 1$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 4$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Radius $r = \\frac{\\sqrt{2 m K}}{q B}$.\nSince $K$ and $B$ are constant: $r \\propto \\frac{\\sqrt{m}}{q}$.\nFor proton ($m, q$): $r_p \\propto \\frac{\\sqrt{m}}{q}$.\nFor $\\alpha$-particle ($4m, 2q$): $r_\\alpha \\propto \\frac{\\sqrt{4m}}{2q} = \\frac{2\\sqrt{m}}{2q} = \\frac{\\sqrt{m}}{q}$.\nThus, $r_p : r_\\alpha = 1 : 1$."
     }
   ]
 }

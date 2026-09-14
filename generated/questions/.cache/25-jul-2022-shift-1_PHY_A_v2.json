@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensions:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and Rydberg constant",
+   "Stress and coefficient of friction",
+   "Torque and Planck's constant"
+  ],
+  "sol": "Velocity gradient has dimension $[v/x] = [T^{-1}]$.\nDecay constant $\\lambda$ has dimension $[T^{-1}]$.\nBoth have the same dimensions $[M^0 L^0 T^{-1}]$.\nHence, Option A is correct.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with the horizontal direction. The interval of time between the two cells where the speed of the projectile is $v$ ($u \\cos\\theta < v < u$) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{2}{g}\\sqrt{v^2 - u^2 \\cos^2\\theta}$",
+   "$\\frac{2}{g}\\sqrt{v^2 - u^2 \\sin^2\\theta}$",
+   "$\\frac{2}{g}\\sqrt{u^2 - v^2 \\cos^2\\theta}$",
+   "$\\frac{2}{g}\\sqrt{u^2 \\sin^2\\theta - v^2}$"
+  ],
+  "sol": "Let $v_y$ be the vertical component of velocity when speed is $v$.\nSince horizontal speed remains constant: $v_x = u \\cos\\theta$.\n$v_y = \\pm \\sqrt{v^2 - v_x^2} = \\pm \\sqrt{v^2 - u^2 \\cos^2\\theta}$.\nThe time interval between these two states is $\\Delta t = \\frac{v_{y1} - v_{y2}}{g} = \\frac{2}{g}\\sqrt{v^2 - u^2 \\cos^2\\theta}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 120
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $m$ is sliding down a rough inclined plane of inclination $30^\\circ$ with a constant speed. The coefficient of kinetic friction between the block and the plane is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{\\sqrt{3}}$",
+   "$\\sqrt{3}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{\\sqrt{3}}{2}$"
+  ],
+  "sol": "When a block slides down with constant speed, the net force along the incline is zero.\n$m g \\sin\\theta = \\mu_k m g \\cos\\theta \\implies \\mu_k = \\tan\\theta$.\nHere, $\\theta = 30^\\circ$, so $\\mu_k = \\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential Energy and Conservation of Energy",
+  "conf": "exact",
+  "stem": "A particle of mass $m$ is moving in a circular path of constant radius $r$ such that its centripetal acceleration $a_c$ is varying with time $t$ as $a_c = k^2 r t^2$, where $k$ is a constant. The power delivered to the particle by the force acting on it is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$m k^2 r^2 t$",
+   "$m k^2 r^2 t^2$",
+   "$\\frac{1}{2} m k^2 r^2 t$",
+   "Zero"
+  ],
+  "sol": "Centripetal acceleration $a_c = \\frac{v^2}{r} = k^2 r t^2 \\implies v = k r t$.\nTangential acceleration $a_t = \\frac{dv}{dt} = k r$.\nTangential force $F_t = m a_t = m k r$.\nPower delivered $P = F_t v = (m k r)(k r t) = m k^2 r^2 t$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "Four particles each of mass $m$ are placed at the corners of a square of side $a$. The moment of inertia of this system about an axis passing through one corner and parallel to the diagonal not passing through this corner is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2 m a^2$",
+   "$3 m a^2$",
+   "$4 m a^2$",
+   "$\\frac{5}{2} m a^2$"
+  ],
+  "sol": "Let the square be in the $xy$-plane with corners at $A(0,0)$, $B(a,0)$, $C(a,a)$, and $D(0,a)$.\nLet the axis pass through $A(0,0)$ and be parallel to diagonal $BD$.\nThe line $BD$ is $x + y = a$, so its direction is along $(-1, 1)$.\nThe axis parallel to $BD$ passing through origin $(0,0)$ is $x + y = 0$.\nDistance of a point $(x_0, y_0)$ from the line $x + y = 0$ is $d = \\frac{|x_0 + y_0|}{\\sqrt{2}}$.\nFor $A(0,0)$: $d_A = 0$.\nFor $B(a,0)$: $d_B = a / \\sqrt{2}$.\nFor $C(a,a)$: $d_C = 2a / \\sqrt{2} = a\\sqrt{2}$.\nFor $D(0,a)$: $d_D = a / \\sqrt{2}$.\n$I = m (d_A^2 + d_B^2 + d_C^2 + d_D^2) = m [0 + \\frac{a^2}{2} + 2a^2 + \\frac{a^2}{2}] = 3 m a^2$.",
+  "key": "B",
+  "diff": 5,
+  "secs": 110
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration Due to Gravity",
+  "conf": "exact",
+  "stem": "If the radius of the Earth shrinks by $2\\%$ while its mass remains constant, the acceleration due to gravity on the surface of the Earth will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "increase by $4\\%$",
+   "decrease by $4\\%$",
+   "increase by $2\\%$",
+   "decrease by $2\\%$"
+  ],
+  "sol": "$g = \\frac{G M}{R^2} \\implies \\ln g = \\ln(GM) - 2\\ln R$.\nDifferentiating: $\\frac{dg}{g} = -2 \\frac{dR}{R}$.\nSince $R$ decreases by $2\\%$ ($\\frac{dR}{R} = -2\\%$):\n$\\frac{dg}{g} = -2(-2\\%) = +4\\%$.\nThus, $g$ increases by $4\\%$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "The bulk modulus of a liquid is $3 \\times 10^9\\ \\mathrm{N/m^2}$. To reduce the volume of the liquid by $1\\%$, the fractional pressure change needed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$3 \\times 10^7\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^5\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^9\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^6\\ \\mathrm{N/m^2}$"
+  ],
+  "sol": "Bulk modulus $B = -\\frac{\\Delta P}{\\Delta V/V}$.\nGiven $\\frac{\\Delta V}{V} = -1\\% = -0.01$.\n$\\Delta P = B \\left( -\\frac{\\Delta V}{V} \\right) = 3 \\times 10^9 \\times 0.01 = 3 \\times 10^7\\ \\mathrm{N/m^2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "conf": "exact",
+  "stem": "Two spherical rain drops of equal size falling through air have steady terminal velocity of $1\\ \\mathrm{cm/s}$. If the two drops coalesce to form a single larger drop, the terminal velocity of the new drop is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$4^{1/3}\\ \\mathrm{cm/s}$",
+   "$2^{1/3}\\ \\mathrm{cm/s}$",
+   "$2^{2/3}\\ \\mathrm{cm/s}$",
+   "$4^{2/3}\\ \\mathrm{cm/s}$"
+  ],
+  "sol": "Terminal velocity $v_t \\propto r^2$.\nWhen two drops coalesce, the volume is conserved:\n$\\frac{4}{3}\\pi R^3 = 2 \\times \\frac{4}{3}\\pi r^3 \\implies R = 2^{1/3} r$.\nTherefore, $v_t' \\propto R^2 \\implies v_t' = v_t \\left(\\frac{R}{r}\\right)^2 = 1 \\times (2^{1/3})^2 = 2^{2/3}\\ \\mathrm{cm/s}$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "The molar specific heat capacity of a mixture of two gases consisting of $2\\ \\mathrm{moles}$ of monoatomic gas ($C_V = \\frac{3}{2}R$) and $3\\ \\mathrm{moles}$ of diatomic gas ($C_V = \\frac{5}{2}R$) at constant volume is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2.1 R$",
+   "$1.9 R$",
+   "$1.7 R$",
+   "$2.3 R$"
+  ],
+  "sol": "Molar specific heat of a mixture at constant volume is given by:\n$(C_V)_{\\text{mix}} = \\frac{n_1 C_{V1} + n_2 C_{V2}}{n_1 + n_2} = \\frac{2 \\times \\frac{3}{2}R + 3 \\times \\frac{5}{2}R}{2 + 3}$\n$(C_V)_{\\text{mix}} = \\frac{3R + 7.5R}{5} = \\frac{10.5R}{5} = 2.1R$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 55
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoes a thermodynamic process such that its pressure $P$ and volume $V$ satisfy $PV^{1.5} = \\text{constant}$. The process is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Isothermal",
+   "Adiabatic",
+   "Isobaric",
+   "Polytropic"
+  ],
+  "sol": "A process of the form $P V^x = C$ is called a polytropic process.\nHere $x = 1.5$, which represents a polytropic process.",
+  "key": "D",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "A particle executing simple harmonic motion has amplitude $A$. At what distance from the mean position is its kinetic energy equal to its potential energy?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{A}{\\sqrt{2}}$",
+   "$\\frac{A}{2}$",
+   "$\\frac{A}{2\\sqrt{2}}$",
+   "$\\frac{\\sqrt{3}}{2}A$"
+  ],
+  "sol": "Kinetic energy $K = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$.\nPotential energy $U = \\frac{1}{2} m \\omega^2 x^2$.\nSet $K = U \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 35
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "A charge $q$ is placed at the center of the open end of a cylindrical vessel of radius $R$ and length $L$. The electric flux through the surface of the vessel is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{q}{\\varepsilon_0}$",
+   "$\\frac{q}{2\\varepsilon_0}$",
+   "$\\frac{q}{4\\varepsilon_0}$",
+   "Zero"
+  ],
+  "sol": "By symmetry, we can place an identical cylinder on the open side to enclose the charge fully.\nTotal flux from the enclosed system is $\\Phi_{\\text{total}} = \\frac{q}{\\varepsilon_0}$.\nTherefore, the flux through the original half-vessel is $\\frac{1}{2} \\Phi_{\\text{total}} = \\frac{q}{2\\varepsilon_0}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "Three identical resistors of resistance $R$ each are connected in parallel. This combination is connected in series with another identical resistor $R$. The equivalent resistance of the entire circuit is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{4}{3}R$",
+   "$\\frac{3}{4}R$",
+   "$4R$",
+   "$\\frac{2}{3}R$"
+  ],
+  "sol": "The three parallel resistors have equivalent resistance $R_p = \\frac{R}{3}$.\nConnecting this in series with $R$ gives $R_{\\text{eq}} = R_p + R = \\frac{R}{3} + R = \\frac{4}{3}R$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "A proton and an $\\alpha$-particle enter a region of uniform magnetic field perpendicular to their velocities with the same kinetic energy. The ratio of the radii of their circular paths $r_p : r_\\alpha$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 1$",
+   "$1 : 2$",
+   "$2 : 1$",
+   "$1 : 4$"
+  ],
+  "sol": "Radius $r = \\frac{\\sqrt{2 m K}}{q B}$.\nSince $K$ and $B$ are constant: $r \\propto \\frac{\\sqrt{m}}{q}$.\nFor proton ($m, q$): $r_p \\propto \\frac{\\sqrt{m}}{q}$.\nFor $\\alpha$-particle ($4m, 2q$): $r_\\alpha \\propto \\frac{\\sqrt{4m}}{2q} = \\frac{2\\sqrt{m}}{2q} = \\frac{\\sqrt{m}}{q}$.\nThus, $r_p : r_\\alpha = 1 : 1$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "The magnetic susceptibility $\\chi$ of a paramagnetic material is related to its absolute temperature $T$ as:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\chi \\propto T$",
+   "$\\chi \\propto \\frac{1}{T}$",
+   "$\\chi \\propto T^2$",
+   "$\\chi$ is independent of $T$"
+  ],
+  "sol": "According to Curie's Law for paramagnetic materials, magnetic susceptibility is inversely proportional to absolute temperature: $\\chi = \\frac{C}{T}$.\nTherefore, $\\chi \\propto \\frac{1}{T}$.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A metallic rod of length $l$ is rotated with a constant angular speed $\\omega$ about an axis passing through one end and perpendicular to its length, in a uniform magnetic field $B$ parallel to the axis of rotation. The induced emf between the ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2} B \\omega l^2$",
+   "$B \\omega l^2$",
+   "$\\frac{1}{2} B^2 \\omega l$",
+   "$\\frac{1}{4} B \\omega l^2$"
+  ],
+  "sol": "The induced emf is given by integrating $de = B v dr = B (\\omega r) dr$ from $0$ to $l$.\n$e = B \\omega \\int_{0}^{l} r dr = \\frac{1}{2} B \\omega l^2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR Series Circuit",
+  "conf": "exact",
+  "stem": "In a series LCR resonance circuit, if the value of inductance $L$ is doubled and capacitance $C$ is halved, the resonant frequency will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "remain unchanged",
+   "become doubled",
+   "become halved",
+   "become four times"
+  ],
+  "sol": "Resonant frequency $\\omega_0 = \\frac{1}{\\sqrt{LC}}$.\nNew frequency $\\omega_0' = \\frac{1}{\\sqrt{(2L)(C/2)}} = \\frac{1}{\\sqrt{LC}} = \\omega_0$.\nThus, the resonant frequency remains unchanged.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the highest frequency?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\r\n\\gamma$-rays",
+   "X-rays",
+   "Ultraviolet rays",
+   "Microwaves"
+  ],
+  "sol": "In the electromagnetic spectrum, the order of increasing frequency is:\nMicrowaves < Ultraviolet rays < X-rays < $\\gamma$-rays.\nThus, $\\gamma$-rays have the highest frequency.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the separation between the slits is halved and the distance between the slits and the screen is doubled, the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "four times",
+   "two times",
+   "half",
+   "one-fourth"
+  ],
+  "sol": "Fringe width $\\beta = \\frac{\\lambda D}{d}$.\nNew fringe width $\\beta' = \\frac{\\lambda (2D)}{d/2} = 4 \\frac{\\lambda D}{d} = 4\\beta$.\nHence, the fringe width becomes four times.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric Effect",
+  "conf": "exact",
+  "stem": "When light of frequency $2\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of incident radiation is increased to $5\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1 : v_2$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 2$",
+   "$1 : 4$",
+   "$1 : 1$",
+   "$1 : \\sqrt{2}$"
+  ],
+  "sol": "By Einstein's photoelectric equation:\n$\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$\n$\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$\nDividing these equations gives: $\\left(\\frac{v_1}{v_2}\\right)^2 = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ }
+]

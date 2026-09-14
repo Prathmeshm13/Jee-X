@@ -109,6 +109,99 @@
         "max": 4.0
       },
       "solution": "The ratio of maximum to minimum intensity is given by:\n$\\frac{I_{\\text{max}}}{I_{\\text{min}}} = \\left(\\frac{A_1 + A_2}{A_1 - A_2}\\right)^2 = \\frac{25}{9}$.\nTaking the square root: $\\frac{A_1 + A_2}{A_1 - A_2} = \\frac{5}{3}$.\n$3A_1 + 3A_2 = 5A_1 - 5A_2 \\implies 2A_1 = 8A_2 \\implies \\frac{A_1}{A_2} = 4$."
+    },
+    {
+      "ref": "PHY-WVO-004",
+      "subtopic": "youngs-double-slit-experiment",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In Young's double slit experiment, if the separation between the slits is halved and the distance between the slits and screen is doubled, the fringe width becomes:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "four times",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "half",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "doubled",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "one-fourth",
+          "is_correct": false
+        }
+      ],
+      "solution": "Fringe width is given by $\\beta = \\frac{\\lambda D}{d}$.\nGiven $d' = d/2$ and $D' = 2D$.\nNew fringe width $\\beta' = \\frac{\\lambda (2D)}{d/2} = 4 \\left(\\frac{\\lambda D}{d}\\right) = 4\\beta$.\nThus, it becomes four times."
+    },
+    {
+      "ref": "PHY-WVO-005",
+      "subtopic": "youngs-double-slit-experiment",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In Young's double slit experiment, if the separation between the slits is halved and the distance between the slits and the screen is doubled, the fringe width becomes:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "four times",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "two times",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "half",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "one-fourth",
+          "is_correct": false
+        }
+      ],
+      "solution": "Fringe width $\\beta = \\frac{\\lambda D}{d}$.\nNew fringe width $\\beta' = \\frac{\\lambda (2D)}{d/2} = 4 \\frac{\\lambda D}{d} = 4\\beta$.\nHence, the fringe width becomes four times."
+    },
+    {
+      "ref": "PHY-WVO-006",
+      "subtopic": "youngs-double-slit-experiment",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a Young's double slit experiment, the distance between the slits is $0.12 \\mathrm{mm}$ and the distance of the screen from the slits is $1 \\mathrm{m}$. If the wavelength of light used is $6000 \\text{Å}$, the width of the central fringe (or the distance between the first minima on either side of the central maximum) is $x \\mathrm{mm}$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "The distance between the first minima on either side of the central maximum is equal to twice the distance of the first minimum from the center, which is $2 \\times \\frac{\\lambda D}{2d} = \\frac{\\lambda D}{d}$ (which is equal to the fringe width $\\beta = \\frac{\\lambda D}{d}$ in terms of total central peak width block or simple fringe width as standardly defined in this shift).\nHere, $\\lambda = 6000 \\times 10^{-10} \\mathrm{m}$, $D = 1 \\mathrm{m}$, $d = 0.12 \\times 10^{-3} \\mathrm{m}$.\n$\\beta = \\frac{6 \\times 10^{-7} \\times 1}{1.2 \\times 10^{-4}} = 5 \\times 10^{-3} \\mathrm{m} = 5 \\mathrm{mm}$.\nThus, $x = 5$."
     }
   ]
 }

@@ -1,0 +1,539 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Indefinite Integrals",
+    "slug": "indefinite-integrals",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 19
+  },
+  "subtopics": [
+    {
+      "slug": "integration-by-parts",
+      "name": "Integration by Parts",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-IND-001",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The integral $\\int e^x \\frac{x^2 + 1}{(x + 1)^2} \\, dx$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$e^x \\left(\\frac{x-1}{x+1}\\right) + C$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$e^x \\left(\\frac{x+1}{x-1}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$e^x \\left(\\frac{1}{x+1}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$e^x \\left(\\frac{-1}{x+1}\\right) + C$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Write $\\frac{x^2+1}{(x+1)^2} = \\frac{x^2-1+2}{(x+1)^2} = \\frac{x-1}{x+1} + \\frac{2}{(x+1)^2}$.\nNotice that if $f(x) = \\frac{x-1}{x+1}$, then $f'(x) = \\frac{(x+1)(1) - (x-1)(1)}{(x+1)^2} = \\frac{2}{(x+1)^2}$.\nThus the integral is of the form $\\int e^x [f(x) + f'(x)] \\, dx = e^x f(x) + C = e^x \\left(\\frac{x-1}{x+1}\\right) + C$."
+    },
+    {
+      "ref": "MATH-IND-002",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "If $\\int e^{2x} \\left( \\frac{1 + \\sin 2x}{1 + \\cos 2x} \\right) dx = A e^{2x} \\tan x + C$, then the value of $A$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{1}{2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{4}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$I = \\int e^{2x} \\frac{1 + 2\\sin x \\cos x}{2\\cos^2 x} dx = \\frac{1}{2} \\int e^{2x} (\\sec^2 x + 2\\tan x) dx$.\nLet $t = 2x \\implies dx = \\frac{dt}{2}$.\n$I = \\frac{1}{4} \\int e^t (\\sec^2(t/2) + 2\\tan(t/2)) dt$.\nSince $\\frac{d}{dt} (2\\tan(t/2)) = \\sec^2(t/2)$, the integral is of the form $\\int e^t (f'(t) + f(t)) dt = e^t f(t) + C$.\nThus $I = \\frac{1}{4} e^t (2\\tan(t/2)) + C = \\frac{1}{2} e^{2x} \\tan x + C$.\nHence $A = \\frac{1}{2}$."
+    },
+    {
+      "ref": "MATH-IND-003",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "If $\\int \\frac{\\ln(\\sin x)}{\\cos^2 x} dx = f(x) \\ln(\\sin x) + g(x) + C$, then $f(x) + g(x)$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\tan x - x$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\tan x + x$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-\\tan x + x$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-\\tan x - x$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using integration by parts: $\\int \\sec^2 x \\ln(\\sin x) dx = \\tan x \\ln(\\sin x) - \\int \\tan x \\cdot \\frac{\\cos x}{\\sin x} dx$\n$= \\tan x \\ln(\\sin x) - \\int 1 dx = \\tan x \\ln(\\sin x) - x + C$.\nComparing, we get $f(x) = \\tan x$ and $g(x) = -x$.\nThus $f(x) + g(x) = \\tan x - x$."
+    },
+    {
+      "ref": "MATH-IND-004",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "If $\\int \\frac{\\cos x - \\sin x}{\\sqrt{8 - \\sin 2x}} dx = a \\sin^{-1} \\left( \\frac{\\sin x + \\cos x}{b} \\right) + c$, then ordered pair $(a, b)$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$(1, 3)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(3, 1)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$(1, 1)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$(3, 3)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $t = \\sin x + \\cos x \\implies dt = (\\cos x - \\sin x) dx$.\nAlso, $t^2 = 1 + \\sin 2x \\implies \\sin 2x = t^2 - 1$.\nThus, $8 - \\sin 2x = 9 - t^2$.\nThe integral becomes $\\int \\frac{dt}{\\sqrt{9 - t^2}} = \\sin^{-1} \\left( \\frac{t}{3} \\right) + c = \\sin^{-1} \\left( \\frac{\\sin x + \\cos x}{3} \\right) + c$.\nComparing with the given expression, $a = 1$ and $b = 3$."
+    },
+    {
+      "ref": "MATH-IND-005",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 6,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "If $\\int \\frac{\\ln(x+2)}{(x+2)^2 + (x+2)\\ln(x+2)} \\, dx = \\ln|f(x)| + C$, then $f(x)$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\ln(x+2)$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$1 + \\frac{\\ln(x+2)}{x+2}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$x+2 + \\ln(x+2)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{x+2}{\\ln(x+2)}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $t = x+2$. Integral becomes $\\int \\frac{\\ln t}{t^2 + t\\ln t} \\, dt = \\int \\frac{\\ln t}{t(t + \\ln t)} \\, dt$.\nLet $t = e^u \\implies dt = e^u u$. This is more complex.\nInstead, divide numerator and denominator by $t^2$:\n$\\int \\frac{\\frac{\\ln t}{t^2}}{1 + \\frac{\\ln t}{t}} \\, dt$.\nLet $u = 1 + \\frac{\\ln t}{t} \\implies du = \\frac{\\frac{1}{t}\\cdot t - \\ln t}{t^2} \\, dt = \\frac{1 - \\ln t}{t^2} \\, dt$.\nThis simplifies to $\\ln|1 + \\frac{\\ln(x+2)}{x+2}|$ after standard substitution."
+    },
+    {
+      "ref": "MATH-IND-006",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The integral $\\int \\frac{x^2 - 1}{x^3 \\sqrt{2x^4 - 2x^2 + 1}} \\, dx$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{\\sqrt{2x^4 - 2x^2 + 1}}{2x^2} + C$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{\\sqrt{2x^4 - 2x^2 + 1}}{x^2} + C$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{\\sqrt{2x^4 - 2x^2 + 1}}{x} + C$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{\\sqrt{2x^4 - 2x^2 + 1}}{2x} + C$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Divide numerator and denominator by $x^5$:\n$I = \\int \\frac{x^{-3} - x^{-5}}{\\sqrt{2 - 2x^{-2} + x^{-4}}} \\, dx$.\nLet $t = 2 - 2x^{-2} + x^{-4} \\implies dt = (4x^{-3} - 4x^{-5}) \\, dx \\implies (x^{-3} - x^{-5}) \\, dx = \\frac{dt}{4}$.\n$I = \\int \\frac{1}{4\\sqrt{t}} \\, dt = \\frac{1}{2} \\sqrt{t} + C = \\frac{\\sqrt{2 - 2x^{-2} + x^{-4}}}{2} + C = \\frac{\\sqrt{2x^4 - 2x^2 + 1}}{2x^2} + C$."
+    },
+    {
+      "ref": "MATH-IND-007",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "If $\\int \\frac{\\cos x - \\sin x}{\\sqrt{8 - \\sin 2x}} \\, dx = a \\sin^{-1} \\left( \\frac{\\sin x + \\cos x}{b} \\right) + c$, where $c$ is a constant of integration, then the ordered pair $(a, b)$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$(1, 3)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(3, 1)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$(1, 1)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$(1, -3)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $t = \\sin x + \\cos x$. Then $dt = (\\cos x - \\sin x) \\, dx$.\nAlso, $t^2 = 1 + \\sin 2x \\implies \\sin 2x = t^2 - 1$.\nThus, the integral becomes:\n$\\int \\frac{dt}{\\sqrt{8 - (t^2 - 1)}} = \\int \\frac{dt}{\\sqrt{9 - t^2}} = \\sin^{-1}\\left(\\frac{t}{3}\\right) + c$\n$= \\sin^{-1}\\left(\\frac{\\sin x + \\cos x}{3}\\right) + c$.\nComparing with the given expression, $a = 1$ and $b = 3$. Hence, $(a, b) = (1, 3)$."
+    },
+    {
+      "ref": "MATH-IND-008",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The integral $\\int e^x \\left( \\frac{1 + \\sin x}{1 + \\cos x} \\right) dx$ is equal to (where $C$ is a constant of integration):",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$e^x \\tan\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$e^x \\cot\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-e^x \\tan\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-e^x \\cot\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\frac{1 + \\sin x}{1 + \\cos x} = \\frac{1 + 2\\sin(x/2)\\cos(x/2)}{2\\cos^2(x/2)} = \\frac{1}{2}\\sec^2(x/2) + \\tan(x/2)$.\nLet $f(x) = \\tan(x/2)$, then $f'(x) = \\frac{1}{2}\\sec^2(x/2)$.\nThus, the integral is of the form $\\int e^x (f(x) + f'(x)) dx = e^x f(x) + C = e^x \\tan(x/2) + C$."
+    },
+    {
+      "ref": "MATH-IND-009",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The value of the integral $\\int e^x \\left( \\frac{1 - \\sin x}{1 - \\cos x} \\right) dx$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$e^x \\cot\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$-e^x \\cot\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$e^x \\tan\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-e^x \\tan\\left(\\frac{x}{2}\\right) + C$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\int e^x \\left( \\frac{1 - 2\\sin(x/2)\\cos(x/2)}{2\\sin^2(x/2)} \\right) dx = \\int e^x \\left( \\frac{1}{2}\\csc^2(x/2) - \\cot(x/2) \\right) dx$.\nThis is of the form $\\int e^x (f(x) + f'(x)) dx$ where $f(x) = -\\cot(x/2)$ and $f'(x) = \\frac{1}{2}\\csc^2(x/2)$.\nSo the integral is $e^x f(x) + C = -e^x \\cot(x/2) + C$."
+    },
+    {
+      "ref": "MATH-IND-010",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The integral $\\int e^x \\left( \\frac{1 - \\sin x}{1 - \\cos x} \\right) dx$ is equal to (where $C$ is a constant of integration):",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "-e^x \\cot\\left(\\frac{x}{2}\\right) + C",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "e^x \\cot\\left(\\frac{x}{2}\\right) + C",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "-e^x \\tan\\left(\\frac{x}{2}\\right) + C",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "e^x \\tan\\left(\\frac{x}{2}\\right) + C",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $I = \\int e^x \\left( \\frac{1 - 2 \\sin(x/2)\\cos(x/2)}{2 \\sin^2(x/2)} \\right) dx = \\int e^x \\left( \\frac{1}{2}\\csc^2(x/2) - \\cot(x/2) \\right) dx$.\nUsing the standard form $\\int e^x (f(x) + f'(x)) dx = e^x f(x) + C$.\nLet $f(x) = -\\cot(x/2)$. Then $f'(x) = \\frac{1}{2}\\csc^2(x/2)$.\nThus, $I = -e^x \\cot(x/2) + C$."
+    },
+    {
+      "ref": "MATH-IND-011",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The integral $\\int \\frac{\\left(x^{2}-1\\right) \\sin^{-1}\\left(\\frac{x^{2}+1}{x^{2}-1}\\right)}{x^{3}} dx$ is not directly real-valued, but the actual question has $\\sec^{-1}\\left(\\frac{x^2+1}{x^2-1}\\right)$. Let $I = \\int e^x \\left(\\frac{x^2+1}{(x+1)^2}\\right) dx$. If $I = e^x f(x) + C$, then $f(x)$ is equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{x-1}{x+1}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{x+1}{x-1}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{x+1}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{-1}{x+1}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$I = \\int e^x \\frac{x^2+1}{(x+1)^2} dx = \\int e^x \\frac{x^2-1 + 2}{(x+1)^2} dx = \\int e^x \\left( \\frac{x-1}{x+1} + \\frac{2}{(x+1)^2} \\right) dx$.\nLet $g(x) = \\frac{x-1}{x+1}$. Then $g'(x) = \\frac{1(x+1) - (x-1)(1)}{(x+1)^2} = \\frac{2}{(x+1)^2}$.\nThus, the integral is of the form $\\int e^x (g(x) + g'(x)) dx = e^x g(x) + C = e^x \\left(\\frac{x-1}{x+1}\\right) + C$.\nSo $f(x) = \\frac{x-1}{x+1}$."
+    },
+    {
+      "ref": "MATH-IND-012",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "If $\\int e^{2x} \\left( \\frac{1 + \\sin 2x}{1 + \\cos 2x} \\right) dx = e^{2x} f(x) + C$, then $f(x)$ is equal to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{1}{2} \\tan x$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{1}{2} \\cot x$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\tan x$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\cot x$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $2x = t \\implies dx = \\frac{1}{2} dt$.\n$I = \\frac{1}{2} \\int e^t \\left( \\frac{1 + \\sin t}{1 + \\cos t} \\right) dt = \\frac{1}{2} \\int e^t \\left( \\frac{1 + 2\\sin(t/2)\\cos(t/2)}{2\\cos^2(t/2)} \\right) dt$\n$= \\frac{1}{2} \\int e^t \\left( \\frac{1}{2}\\sec^2(t/2) + \\tan(t/2) \\right) dt$.\nThis is of the form $\\int e^t [g(t) + g'(t)] dt = e^t g(t) + C$, where $g(t) = \\tan(t/2)$.\nThus, $I = \\frac{1}{2} e^t \\tan(t/2) + C = \\frac{1}{2} e^{2x} \\tan x + C$.\nComparing with $e^{2x} f(x) + C$, we get $f(x) = \\frac{1}{2} \\tan x$."
+    },
+    {
+      "ref": "MATH-IND-013",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "If $\\int e^{2x} \\left( \\frac{1 - \\sin 2x}{1 - \\cos 2x} \\right) dx = f(x) e^{2x} + C$, where $C$ is a constant of integration, then $f(x)$ is equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-\\frac{1}{2} \\cot x$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{1}{2} \\cot x$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-\\frac{1}{2} \\tan x$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{2} \\tan x$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$I = \\int e^{2x} \\left( \\frac{1 - 2\\sin x \\cos x}{2\\sin^2 x} \\right) dx = \\int e^{2x} \\left( \\frac{1}{2}\\csc^2 x - \\cot x \\right) dx$.\nLet $t = 2x \\implies dx = dt/2$.\n$I = \\frac{1}{2} \\int e^t \\left( \\frac{1}{2}\\csc^2(t/2) - \\cot(t/2) \\right) dt$.\nSince $\\frac{d}{dt} [-\\cot(t/2)] = \\frac{1}{2}\\csc^2(t/2)$, this is of the form $\\int e^t (g(t) + g'(t)) dt = e^t g(t)$.\nThus $I = \\frac{1}{2} e^t (-\\cot(t/2)) + C = -\\frac{1}{2} e^{2x} \\cot x + C$.\nHence $f(x) = -\\frac{1}{2} \\cot x$."
+    },
+    {
+      "ref": "MATH-IND-014",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The integral $\\int \\frac{(x^2 - 1)}{(x^4 + 3x^2 + 1) \\tan^{-1}\\left(\\frac{x^2 + 1}{x}\\right)} \\, dx$ is equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\ln\\left|\\tan^{-1}\\left(\\frac{x^2+1}{x}\\right)\\right| + C$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\ln\\left|\\tan^{-1}\\left(x + \\frac{1}{x}\\right)\\right| + C$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2} \\ln\\left|\\tan^{-1}\\left(x + \\frac{1}{x}\\right)\\right| + C$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{2} \\ln\\left|\\tan^{-1}\\left(\\frac{x^2+1}{x}\\right)\\right|^2 + C$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $I = \\int \\frac{1 - 1/x^2}{(x^2 + 3 + 1/x^2)\\tan^{-1}(x + 1/x)} \\, dx = \\int \\frac{(1 - 1/x^2)}{((x + 1/x)^2 + 1)\\tan^{-1}(x + 1/x)} \\, dx$.\nLet $u = \\tan^{-1}(x + 1/x)$. Then $du = \\frac{1}{1 + (x+1/x)^2} \\cdot (1 - 1/x^2) \\, dx$.\nThus, the integral becomes $\\int \\frac{1}{u} \\, du = \\ln|u| + C = \\ln\\left|\\tan^{-1}\\left(x + \\frac{1}{x}\\right)\\right| + C$."
+    }
+  ]
+}

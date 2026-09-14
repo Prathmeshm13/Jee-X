@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's model of hydrogen atom",
+  "conf": "exact",
+  "stem": "If the radius of the $2^{\\mathrm{nd}}$ Bohr orbit of $\\mathrm{He}^+$ is $r_0$, then the radius of the $3^{\\mathrm{rd}}$ Bohr orbit of $\\mathrm{Li}^{2+}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{9}{4} r_0$",
+   "$\\frac{27}{8} r_0$",
+   "$\\frac{3}{2} r_0$",
+   "$\\frac{9}{8} r_0$"
+  ],
+  "sol": "The radius of the $n^{\\mathrm{th}}$ orbit is given by $r \\propto \\frac{n^2}{Z}$.\nFor $\\mathrm{He}^+$ ($Z=2, n=2$): $r_1 = k \\frac{2^2}{2} = 2k = r_0 \\implies k = \\frac{r_0}{2}$.\nFor $\\mathrm{Li}^{2+}$ ($Z=3, n=3$): $r_2 = k \\frac{3^2}{3} = 3k = 3 \\left(\\frac{r_0}{2}\\right) = \\frac{3}{2} r_0$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "According to molecular orbital theory, which of the following is correct?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O}_2^{2-}$ is paramagnetic and has bond order $1.0$",
+   "$\\mathrm{O}_2^-$ is paramagnetic and has bond order $1.5$",
+   "$\\mathrm{O}_2^+$ is diamagnetic and has bond order $2.5$",
+   "$\\mathrm{O}_2$ is diamagnetic and has bond order $2.0$"
+  ],
+  "sol": "$\\mathrm{O}_2$ has 16 electrons (paramagnetic, bond order 2).\n$\\mathrm{O}_2^+$ has 15 electrons (paramagnetic, bond order 2.5).\n$\\mathrm{O}_2^-$ has 17 electrons: Configuration is $KK \\sigma 2s^2 \\sigma^* 2s^2 \\sigma 2p_z^2 \\pi 2p_x^2 \\pi 2p_y^2 \\pi^* 2p_x^2 \\pi^* 2p_y^1$. It has one unpaired electron (paramagnetic) and bond order $\\frac{10-7}{2} = 1.5$. This option is correct.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "For a reaction, $\\mathrm{A}_{(\\mathrm{g})} \\rightarrow \\mathrm{B}_{(\\mathrm{g})}$, the value of equilibrium constant at $300\\ \\mathrm{K}$ is $100$. If $R = 8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$, the value of $\\Delta G^{\\circ}$ for the reaction at this temperature is $-x \\times 10^{-1}\\ \\mathrm{kJ\\ mol^{-1}}$. The value of $x$ is closest to:\n[Take $\\ln 10 = 2.3$]",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$115$",
+   "$11.5$",
+   "$1150$",
+   "$230$"
+  ],
+  "sol": "$\\Delta G^{\\circ} = -RT \\ln K = -8.314 \\times 300 \\times \\ln(100) = -8.314 \\times 300 \\times 2 \\times 2.3$\n$\\Delta G^{\\circ} = -8.314 \\times 300 \\times 4.6 = -11473.32\\ \\mathrm{J\\ mol^{-1}} \\approx -11.47\\ \\mathrm{kJ\\ mol^{-1}}$.\nThus, $\\Delta G^{\\circ} \\approx -115 \\times 10^{-1}\\ \\mathrm{kJ\\ mol^{-1}}$, giving $x \\approx 115$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 110
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le-Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction,\n$\\mathrm{PCl}_5(\\mathrm{g}) \\rightleftharpoons \\mathrm{PCl}_3(\\mathrm{g}) + \\mathrm{Cl}_2(\\mathrm{g}), \\quad \\Delta H = 124\\ \\mathrm{kJ\\ mol^{-1}}$\nWhich of the following moves the equilibrium to the right?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Addition of helium gas at constant volume",
+   "Addition of $\\mathrm{PCl}_5$ at constant volume",
+   "Decreasing the temperature",
+   "Increasing the pressure"
+  ],
+  "sol": "The reaction is endothermic ($\\Delta H > 0$). Increasing the concentration of reactant $\\mathrm{PCl}_5$ shifts the equilibrium to the right according to Le-Chatelier's principle. Addition of inert gas at constant volume has no effect.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The vapor pressure of pure liquid $A$ at $298\\ \\mathrm{K}$ is $100\\ \\mathrm{mm\\ Hg}$. A solution of $A$ and $B$ (where mole fraction of $B$ is $0.2$) has a vapor pressure of $90\\ \\mathrm{mm\\ Hg}$. The vapor pressure of pure liquid $B$ at this temperature is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$40\\ mm\\ Hg$",
+   "$50\\ mm\\ Hg$",
+   "$60\\ mm\\ Hg$",
+   "$80\\ mm\\ Hg$"
+  ],
+  "sol": "According to Raoult's law: $P_{\\text{total}} = P_A^{\\circ} X_A + P_B^{\\circ} X_B$.\nGiven $P_A^{\\circ} = 100\\ \\mathrm{mm\\ Hg}$, $X_B = 0.2 \\implies X_A = 0.8$, and $P_{\\text{total}} = 90\\ \\mathrm{mm\\ Hg}$.\n$90 = (100 \\times 0.8) + (P_B^{\\circ} \\times 0.2) \\implies 90 = 80 + 0.2 P_B^{\\circ} \\implies 10 = 0.2 P_B^{\\circ} \\implies P_B^{\\circ} = 50\\ \\mathrm{mm\\ Hg}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivities of $\\mathrm{KCl}$, $\\mathrm{KNO}_3$, and $\\mathrm{AgNO}_3$ are $149.9$, $145.0$, and $133.4\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively at $298\\ \\mathrm{K}$. The limiting molar conductivity of $\\mathrm{AgCl}$ at this temperature is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "138.3 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "128.5 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "142.2 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "154.8 $\\mathrm{S\\ cm^2\\ mol^{-1}}$"
+  ],
+  "sol": "By Kohlrausch's law:\n$\\Lambda_m^{\\circ}(\\mathrm{AgCl}) = \\Lambda_m^{\\circ}(\\mathrm{AgNO}_3) + \\Lambda_m^{\\circ}(\\mathrm{KCl}) - \\Lambda_m^{\\circ}(\\mathrm{KNO}_3)$\n$\\Lambda_m^{\\circ}(\\mathrm{AgCl}) = 133.4 + 149.9 - 145.0 = 138.3\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws",
+  "conf": "exact",
+  "stem": "For a first order reaction, the time required for $99.9\\%$ completion of the reaction is approximately how many times the half-life ($t_{1/2}$) of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "10",
+   "5",
+   "3",
+   "100"
+  ],
+  "sol": "For a first order reaction, $t = \\frac{2.303}{k} \\log \\frac{a}{a-x}$.\nFor $99.9\\%$ completion: $t_{99.9\\%} = \\frac{2.303}{k} \\log \\frac{100}{100-99.9} = \\frac{2.303}{k} \\log(1000) = 3 \\times \\frac{2.303}{k} \\log 10 = 10 \\times \\frac{0.693}{k} \\approx 10 \\times t_{1/2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction processes of major metals",
+  "conf": "exact",
+  "stem": "During the extraction of copper, the slag formed in the blast furnace is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{FeSiO}_3$",
+   "$\\mathrm{CaSiO}_3$",
+   "$\\mathrm{CuSiO}_3$",
+   "$\\mathrm{Al}_2\\mathrm{O}_3$"
+  ],
+  "sol": "During the smelting of copper ore, iron impurity ($\\mathrm{FeO}$) reacts with silica ($\\mathrm{SiO}_2$) flux to form iron silicate slag:\n$\\mathrm{FeO} + \\mathrm{SiO}_2 \\rightarrow \\mathrm{FeSiO}_3$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "The metal that does not give a blue colored solution on dissolving in liquid ammonia is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Be}$",
+   "$\\mathrm{Na}$",
+   "$\\mathrm{Li}$",
+   "$\\mathrm{K}$"
+  ],
+  "sol": "Beryllium ($\\mathrm{Be}$) and Magnesium ($\\mathrm{Mg}$) do not dissolve in liquid ammonia to give deep blue colored solutions because of their high ionization energies and small sizes.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P-P}$ bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_6$) contains a direct $\\mathrm{P-P}$ bond, where phosphorus has an oxidation state of $+4$. Pyrophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_7$) contains a $\\mathrm{P-O-P}$ bond.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The lanthanoid element which show $+4$ oxidation state most easily is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce}$",
+   "$\\mathrm{Lu}$",
+   "$\\mathrm{Eu}$",
+   "$\\mathrm{Gd}$"
+  ],
+  "sol": "Cerium ($\\mathrm{Ce}$) forms $\\mathrm{Ce}^{4+}$ readily because it achieves a stable noble gas configuration ($[\\mathrm{Xe}]\\,4f^0$).",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is responsible for 'classical smog'?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Smoke, fog and sulfur dioxide",
+   "Smoke, fog and nitrogen oxides",
+   "Hydrocarbons and ozone",
+   "Carbon dioxide and water vapor"
+  ],
+  "sol": "Classical smog occurs in cool, humid climates and is a mixture of smoke, fog, and sulfur dioxide. It is reducing in nature.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Characterisation of Organic Compounds",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for nitrogen, the blue colour is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Prussian blue, $\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$",
+   "Sodium ferrocyanide, $\\mathrm{Na}_4[\\mathrm{Fe}(\\mathrm{CN})_6]$",
+   "Ferriferrocyanide, $\\mathrm{Fe}[\\mathrm{Fe}(\\mathrm{CN})_6]$",
+   "Sodium ferricyanide, $\\mathrm{Na}_3[\\mathrm{Fe}(\\mathrm{CN})_6]$"
+  ],
+  "sol": "In Lassaigne's test, nitrogen and carbon from the organic compound form sodium cyanide, which on reaction with iron(II) sulfate followed by ferric chloride gives Prussian blue, $\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3 \\cdot x\\mathrm{H}_2\\mathrm{O}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "Which of the following compounds is the most acidic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$p$-nitrophenol",
+   "$p$-cresol",
+   "Phenol",
+   "$o$-cresol"
+  ],
+  "sol": "The electron-withdrawing nitro group ($-\\mathrm{NO}_2$) at the para-position stabilizes the phenoxide ion through strong $-\\mathrm{M}$ and $-\\mathrm{I}$ effects, making $p$-nitrophenol significantly more acidic than phenol or methyl-substituted phenols ($p$-cresol, $o$-cresol) which have electron-donating groups.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H}_2\\mathrm{SO}_4$ in the presence of $\\mathrm{HgSO}_4$, the major product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanone",
+   "Propanal",
+   "Propene",
+   "Propan-1-ol"
+  ],
+  "sol": "The hydration of propyne ($\\mathrm{CH}_3-\\mathrm{C}\\equiv\\mathrm{CH}$) with $\\mathrm{Hg}^{2+}/\\mathrm{H}^+$ follows Markovnikov's addition of water to give an enol intermediate $\\mathrm{CH}_3-\\mathrm{C}(\\mathrm{OH})=\\mathrm{CH}_2$, which tautomerizes to the more stable ketone, propanone (acetone).",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution",
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes nucleophilic substitution reaction by $\\mathrm{S_N1}$ mechanism most rapidly?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{(CH_3)_3C-I}$",
+   "$\\mathrm{(CH_3)_3C-Cl}$",
+   "$\\mathrm{(CH_3)_3C-Br}$",
+   "$\\mathrm{CH_3CH_2CH_2-I}$"
+  ],
+  "sol": "$\\mathrm{S_N1}$ reactions proceed via carbocation intermediates, so tertiary substrates are highly reactive. Among tertiary butyl halides, iodide is the best leaving group because of its weaker $\\mathrm{C-I}$ bond, making tert-butyl iodide the fastest.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical properties of aldehydes, ketones, and carboxylic acids",
+  "conf": "exact",
+  "stem": "An organic compound 'A' on treatment with $\\mathrm{NH}_3$ followed by heating gives 'B'. 'B' on treatment with $\\mathrm{Br}_2$ and $\\mathrm{KOH}$ gives ethylamine. Compound 'A' is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanoic acid",
+   "Ethanoic acid",
+   "Butanoic acid",
+   "Propanal"
+  ],
+  "sol": "The amine formed by Hofmann bromamide degradation has one less carbon atom than the parent amide 'B'. Since the amine is ethylamine ($\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{NH}_2$), the amide 'B' must be propanamide ($\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CONH}_2$). Amide 'B' is prepared from carboxylic acid 'A' on reaction with ammonia followed by heating, which means 'A' must be propanoic acid.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and properties of polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a condensation polymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Dacron",
+   "Teflon",
+   "Neoprene",
+   "Polyacrylonitrile"
+  ],
+  "sol": "Dacron (Terylene) is a condensation polymer of ethylene glycol and terephthalic acid. Teflon, Neoprene, and Polyacrylonitrile are addition polymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Which of the following is a water-soluble vitamin?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin B",
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin E"
+  ],
+  "sol": "Vitamins B and C are water-soluble, while vitamins A, D, E, and K are fat-soluble.",
+  "key": "A",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Which of the following is a broad-spectrum antibiotic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Chloramphenicol",
+   "Penicillin G",
+   "Prontosil",
+   "Salvarsan"
+  ],
+  "sol": "Chloramphenicol is a well-known broad-spectrum antibiotic effective against a wide range of Gram-positive and Gram-negative bacteria.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ }
+]

@@ -1,18 +1,26 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
-import { Pencil, Check, X } from 'lucide-react'
+import { Pencil } from 'lucide-react'
 import { api } from '../lib/api.js'
-import { useCrackJeeStyles } from '../crackjee/screens.jsx'
-import { card, label, input, primaryBtn, ghostBtn, hintOk, hintErr, hint, AMBER, INK, BAD } from '../crackjee/ui.js'
+import AppHeader from '../components/AppHeader.jsx'
+import { Loader } from '../components/Brand.jsx'
+
+const CLASSES = [['11', 'Class 11'], ['12', 'Class 12'], ['dropper', 'Dropper']]
 
 function initials(name = '') {
   return name.trim().split(/\s+/).slice(0, 2).map((p) => p[0]?.toUpperCase()).join('')
 }
 
+// "2008-05-14" -> "14 May 2008", read as a local date so no timezone shifts it.
+function formatDate(iso) {
+  if (!iso) return 'Not set'
+  const [y, m, d] = iso.split('-').map(Number)
+  return new Date(y, m - 1, d).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })
+}
+
 export default function Profile() {
-  useCrackJeeStyles()
-  const { getAccessTokenSilently, user, logout } = useAuth0()
+  const { getAccessTokenSilently, user } = useAuth0()
   const navigate = useNavigate()
 
   const [profile, setProfile] = useState(null)
@@ -87,7 +95,7 @@ export default function Profile() {
     e.preventDefault()
     setError('')
     if (usernameStatus === 'taken' || usernameStatus === 'invalid') {
-      setError('Please fix the username before saving.')
+      setError('Fix the username before saving.')
       return
     }
     setSaving(true)
@@ -104,99 +112,88 @@ export default function Profile() {
     }
   }
 
-  if (loading || !profile) return <div className="centered-screen">Loading your profile…</div>
+  if (loading || !profile) return <Loader fullScreen label="Loading your profile" />
 
-  const readField = (l, v) => (
-    <div>
-      <div style={{ fontSize: 11, color: '#888', fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5 }}>{l}</div>
-      <div style={{ fontSize: 15, fontWeight: 600, color: INK, marginTop: 4 }}>{v}</div>
-    </div>
-  )
+  const classText = (c) => (c === 'dropper' ? 'Dropper' : `Class ${c}`)
 
   return (
-    <div className="crackjee-root" style={{ maxWidth: 720, margin: '0 auto', padding: '24px 16px' }}>
-      {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24, flexWrap: 'wrap', gap: 8 }}>
-        <div>
-          <div style={{ fontSize: 12, color: '#9a6a1c', fontWeight: 600, letterSpacing: '0.14em', fontFamily: "'JetBrains Mono', monospace" }}>PROFILE</div>
-          <h2 style={{ margin: '6px 0 0', fontSize: 22, fontWeight: 700, color: INK }}>Your profile</h2>
+    <div className="crackjee-root">
+      <AppHeader />
+      <main className="wrap-narrow page">
+        <div className="page-head">
+          <h1 className="page-title">Profile</h1>
         </div>
-        <div style={{ display: 'flex', gap: 8 }}>
-          <button onClick={() => navigate('/dashboard')} style={{ ...ghostBtn, padding: '8px 16px', fontSize: 12.5 }}>Dashboard</button>
-          <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}
-            style={{ ...ghostBtn, padding: '8px 16px', fontSize: 12.5, color: BAD, border: `1px solid ${BAD}55` }}>Log out</button>
-        </div>
-      </div>
 
-      <div style={card}>
-        {/* Avatar row */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 24 }}>
-          <div style={{ width: 60, height: 60, borderRadius: 8, background: AMBER, display: 'flex', alignItems: 'center', justifyContent: 'center', color: INK, fontWeight: 700, fontSize: 22, fontFamily: "'JetBrains Mono', monospace" }}>
-            {initials(profile.name)}
+        <div className="panel">
+          <div className="profile-head">
+            <div className="avatar" aria-hidden="true">{initials(profile.name)}</div>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <h2>{profile.name}</h2>
+              <p className="muted">@{profile.username}</p>
+            </div>
+            {!editing && (
+              <button type="button" className="btn btn-secondary btn-sm" onClick={startEditing}>
+                <Pencil size={14} aria-hidden="true" />Edit
+              </button>
+            )}
           </div>
-          <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 20, fontWeight: 800, color: INK }}>{profile.name}</div>
-            <div style={{ fontSize: 13, color: '#888' }}>@{profile.username}</div>
-          </div>
-          {!editing && (
-            <button onClick={startEditing} style={{ ...ghostBtn, padding: '8px 16px', fontSize: 13, display: 'inline-flex', alignItems: 'center', gap: 6 }}>
-              <Pencil size={14} /> Edit
-            </button>
+
+          {!editing ? (
+            <dl className="dl">
+              <div><dt>Email</dt><dd>{user?.email || 'Not set'}</dd></div>
+              <div><dt>Date of birth</dt><dd>{formatDate(profile.dob)}</dd></div>
+              <div><dt>Class</dt><dd>{classText(profile.class_level)}</dd></div>
+            </dl>
+          ) : (
+            <form onSubmit={handleSubmit}>
+              <div className="field">
+                <label className="field-label" htmlFor="p-name">Full name</label>
+                <input id="p-name" type="text" className="input" value={form.name}
+                  onChange={(e) => { setForm((f) => ({ ...f, name: e.target.value })); setSaved(false) }} required />
+              </div>
+              <div className="field">
+                <label className="field-label" htmlFor="p-username">Username</label>
+                <div className="input-prefix">
+                  <span aria-hidden="true">@</span>
+                  <input id="p-username" type="text" className="input" value={form.username} aria-describedby="p-username-hint"
+                    onChange={(e) => handleUsernameChange(e.target.value)} required />
+                </div>
+                <p id="p-username-hint" className={`hint ${usernameStatus === 'available' ? 'hint-ok' : usernameStatus === 'taken' || usernameStatus === 'invalid' ? 'hint-err' : ''}`} aria-live="polite">
+                  {usernameStatus === 'checking' && 'Checking availability…'}
+                  {usernameStatus === 'available' && `@${form.username} is available.`}
+                  {usernameStatus === 'taken' && 'That username is taken.'}
+                  {usernameStatus === 'invalid' && '3 to 20 characters: letters, numbers and underscores.'}
+                </p>
+              </div>
+              <div className="field">
+                <label className="field-label" htmlFor="p-dob">Date of birth</label>
+                <input id="p-dob" type="date" className="input" value={form.dob}
+                  onChange={(e) => { setForm((f) => ({ ...f, dob: e.target.value })); setSaved(false) }} required />
+              </div>
+              <div className="field">
+                <span className="field-label" id="p-class-label">Class</span>
+                <div className="seg" role="group" aria-labelledby="p-class-label">
+                  {CLASSES.map(([value, text]) => (
+                    <button key={value} type="button" aria-pressed={form.class_level === value}
+                      onClick={() => { setForm((f) => ({ ...f, class_level: value })); setSaved(false) }}>{text}</button>
+                  ))}
+                </div>
+              </div>
+
+              {error && <p className="alert" role="alert">{error}</p>}
+
+              <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+                <button type="submit" className="btn btn-primary" disabled={saving}>
+                  {saving ? <><span className="spin" aria-hidden="true" />Saving</> : 'Save changes'}
+                </button>
+                <button type="button" className="btn btn-secondary" onClick={cancelEditing} disabled={saving}>Cancel</button>
+              </div>
+            </form>
           )}
+
+          {saved && !editing && <p className="hint hint-ok" style={{ marginTop: 18 }} role="status">Changes saved.</p>}
         </div>
-
-        {!editing ? (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: 18 }}>
-            {readField('Email', user?.email || '—')}
-            {readField('Date of birth', profile.dob)}
-            {readField('Class', profile.class_level === 'dropper' ? 'Dropper' : `Class ${profile.class_level}`)}
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit}>
-            <div style={{ marginBottom: 16 }}>
-              <label style={label} htmlFor="p-name">Full name</label>
-              <input id="p-name" type="text" style={input} value={form.name}
-                onChange={(e) => { setForm((f) => ({ ...f, name: e.target.value })); setSaved(false) }} required />
-            </div>
-            <div style={{ marginBottom: 16 }}>
-              <label style={label} htmlFor="p-username">Username</label>
-              <input id="p-username" type="text" style={input} value={form.username}
-                onChange={(e) => handleUsernameChange(e.target.value)} required />
-              {usernameStatus === 'checking' && <p style={hint}>Checking availability…</p>}
-              {usernameStatus === 'available' && <p style={hintOk}>@{form.username} is available.</p>}
-              {usernameStatus === 'taken' && <p style={hintErr}>That username is already taken.</p>}
-              {usernameStatus === 'invalid' && <p style={hintErr}>3-20 characters: letters, numbers, underscore only.</p>}
-            </div>
-            <div style={{ marginBottom: 16 }}>
-              <label style={label} htmlFor="p-dob">Date of birth</label>
-              <input id="p-dob" type="date" style={input} value={form.dob}
-                onChange={(e) => { setForm((f) => ({ ...f, dob: e.target.value })); setSaved(false) }} required />
-            </div>
-            <div style={{ marginBottom: 20 }}>
-              <label style={label} htmlFor="p-class">Class</label>
-              <select id="p-class" style={input} value={form.class_level}
-                onChange={(e) => { setForm((f) => ({ ...f, class_level: e.target.value })); setSaved(false) }}>
-                <option value="11">Class 11</option>
-                <option value="12">Class 12</option>
-                <option value="dropper">Dropper</option>
-              </select>
-            </div>
-
-            {error && <p style={{ ...hintErr, marginBottom: 14 }}>{error}</p>}
-
-            <div style={{ display: 'flex', gap: 10 }}>
-              <button type="submit" style={{ ...primaryBtn, display: 'inline-flex', alignItems: 'center', gap: 6, opacity: saving ? 0.7 : 1 }} disabled={saving}>
-                <Check size={15} /> {saving ? 'Saving…' : 'Save changes'}
-              </button>
-              <button type="button" style={{ ...ghostBtn, display: 'inline-flex', alignItems: 'center', gap: 6 }} onClick={cancelEditing} disabled={saving}>
-                <X size={15} /> Cancel
-              </button>
-            </div>
-          </form>
-        )}
-
-        {saved && !editing && <p style={{ ...hintOk, marginTop: 18 }}>Profile updated.</p>}
-      </div>
+      </main>
     </div>
   )
 }

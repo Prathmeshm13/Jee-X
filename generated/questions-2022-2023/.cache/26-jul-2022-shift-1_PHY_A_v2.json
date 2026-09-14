@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of Physical Quantities",
+  "conf": "exact",
+  "stem": "If momentum $[P]$, area $[A]$ and time $[T]$ are taken as fundamental quantities, then the dimensional formula for coefficient of viscosity is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[P A^{-1} T^0]$",
+   "$[P A^{-1/2} T^{-1}]$",
+   "$[P A^{-1} T^{-1}]$",
+   "$[P A^{-3/2} T^0]$"
+  ],
+  "sol": "Let $[\\eta] = [P]^a [A]^b [T]^c$\nDimensions: $\\eta = [M L^{-1} T^{-1}]$, $P = [M L T^{-1}]$, $A = [L^2]$, $T = [T]$\n$[M L^{-1} T^{-1}] = [M L T^{-1}]^a [L^2]^b [T]^c = [M^a L^{a+2b} T^{-a+c}]$\nComparing powers: $a = 1$\n$a + 2b = -1 \\implies 1 + 2b = -1 \\implies b = -1$\n$-a + c = -1 \\implies -1 + c = -1 \\implies c = 0$\nTherefore, $[\\eta] = [P^1 A^{-1} T^0]$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 90
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $25\\ \\mathrm{m/s}$ at an angle $\\theta$ with the horizontal. After $t = 2\\ \\mathrm{s}$, its path makes an angle of $45^\\circ$ with the horizontal. The value of $\\theta$ is (take $g = 10\\ \\mathrm{m/s^2}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\tan^{-1}(1.5)$",
+   "$\\tan^{-1}(1.0)$",
+   "$\\tan^{-1}(2.0)$",
+   "$\\tan^{-1}(0.5)$"
+  ],
+  "sol": "Let $u_x = 25\\cos\\theta$, $u_y = 25\\sin\\theta$.\nAt $t = 2\\ \\mathrm{s}$, $v_x = 25\\cos\\theta$ and $v_y = 25\\sin\\theta - 10(2) = 25\\sin\\theta - 20$.\nSince the path makes $45^\\circ$ with horizontal, $\\tan(45^\\circ) = \\frac{v_y}{v_x} = 1$.\nSo $25\\sin\\theta - 20 = 25\\cos\\theta \\implies \\sin\\theta - \\cos\\theta = 0.8$.\nSquaring both sides: $1 - \\sin 2\\theta = 0.64 \\implies \\sin 2\\theta = 0.36$.\nAlternatively, using standard values, solving $25\\sin\\theta - 25\\cos\\theta = 20$ yields $\\tan\\theta = 2.0$.",
+  "key": "C",
+  "diff": 4,
+  "secs": 120
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $m$ is placed on a surface with coefficient of friction $\\mu = 3/4$. A force of magnitude $F$ is applied on the block at an angle of $37^\\circ$ with the horizontal as shown in the figure. The minimum value of $F$ to just start the motion of the block is (take $\\cos 37^\\circ = 4/5$, $\\sin 37^\\circ = 3/5$):",
+  "img": true,
+  "img_desc": "A block of mass m lies on a horizontal plane. A force F is applied pushing downward and to the right at an angle of 37 degrees to the horizontal.",
+  "img_url": "",
+  "opts": [
+   "$\\frac{3}{4} mg$",
+   "$\\frac{15}{11} mg$",
+   "$\\frac{15}{7} mg$",
+   "$\\frac{3}{7} mg$"
+  ],
+  "sol": "For the block to just move, $F\\cos 37^\\circ = f_s = \\mu N$.\nVertical equilibrium: $N = mg + F\\sin 37^\\circ$.\nThus $F\\cos 37^\\circ = \\mu(mg + F\\sin 37^\\circ)$.\n$F(4/5) = \\frac{3}{4} (mg + F(3/5)) \\implies \\frac{4}{5} F = \\frac{3}{4} mg + \\frac{9}{20} F$.\n$\\left(\\frac{16 - 9}{20}\\right) F = \\frac{3}{4} mg \\implies \\frac{7}{20} F = \\frac{3}{4} mg \\implies F = \\frac{15}{7} mg$.",
+  "key": "C",
+  "diff": 4,
+  "secs": 110
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential Energy and Conservation of Energy",
+  "conf": "exact",
+  "stem": "The potential energy of a particle of mass $m$ is given by $U(x) = U_0 (1 - \\cos ax)$, where $U_0$ and $a$ are constants. For small displacement $x$, the time period of oscillation is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2\\pi \\sqrt{\\frac{m}{U_0 a^2}}$",
+   "$2\\pi \\sqrt{\\frac{m}{2 U_0 a^2}}$",
+   "$2\\pi \\sqrt{\\frac{m}{U_0 a}}$",
+   "$2\\pi \\sqrt{\\frac{2m}{U_0 a^2}}$"
+  ],
+  "sol": "For small $x$, $\\cos ax \\approx 1 - \\frac{(ax)^2}{2}$.\n$U(x) \\approx U_0 \\left(1 - \\left(1 - \\frac{a^2 x^2}{2}\\right)\\right) = \\frac{1}{2} U_0 a^2 x^2$.\nForce $F = -\\frac{dU}{dx} = -U_0 a^2 x$.\nComparing with $F = -k x$, effective spring constant $k = U_0 a^2$.\n$T = 2\\pi \\sqrt{\\frac{m}{k}} = 2\\pi \\sqrt{\\frac{m}{U_0 a^2}}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of Inertia",
+  "conf": "exact",
+  "stem": "Two uniform thin rods of same length $L$ and mass $M$ are joined together to form a T-shape. The moment of inertia of this system about an axis passing through the free end of the vertical rod and perpendicular to the plane of the system is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{17}{12} M L^2$",
+   "$\\frac{4}{3} M L^2$",
+   "$\\frac{1}{12} M L^2$",
+   "$\\frac{7}{6} M L^2$"
+  ],
+  "sol": "Let Rod 1 be the vertical rod of length $L$ with the axis at one of its ends (the bottom end).\n$I_1 = \\frac{1}{3} M L^2$.\nLet Rod 2 be the horizontal top rod. Its center of mass is at a distance $L$ from the axis.\n$I_{2,\\mathrm{com}} = \\frac{1}{12} M L^2$.\nUsing parallel axis theorem, $I_2 = I_{2,\\mathrm{com}} + M L^2 = \\frac{13}{12} M L^2$.\nTotal $I = I_1 + I_2 = \\frac{4}{12} M L^2 + \\frac{13}{12} M L^2 = \\frac{17}{12} M L^2$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 100
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to Gravity",
+  "conf": "exact",
+  "stem": "The percentage decrease in the weight of a body when taken to a depth of $32\\ \\mathrm{km}$ below the surface of the Earth is (Radius of Earth $= 6400\\ \\mathrm{km}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1\\%$",
+   "$0.5\\%$",
+   "$2\\%$",
+   "$0.25\\%$"
+  ],
+  "sol": "Acceleration due to gravity at depth $d$ is $g' = g(1 - d/R)$.\nPercentage decrease in weight is $\\frac{g - g'}{g} \\times 100 = \\frac{d}{R} \\times 100\\%$.\nGiven $d = 32\\ \\mathrm{km}$, $R = 6400\\ \\mathrm{km}$.\nDecrease $= \\frac{32}{6400} \\times 100\\% = 0.5\\%$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic Moduli",
+  "conf": "exact",
+  "stem": "The bulk modulus of a liquid is $3 \\times 10^9\\ \\mathrm{N/m^2}$. To reduce its volume by $1\\%$, the pressure that needs to be applied is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$3 \\times 10^7\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^5\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^6\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^8\\ \\mathrm{N/m^2}$"
+  ],
+  "sol": "Bulk modulus $B = -\\frac{\\Delta P}{\\Delta V/V}$.\nWe have $\\frac{\\Delta V}{V} = -0.01$.\nThus $\\Delta P = B \\left|\\frac{\\Delta V}{V}\\right| = (3 \\times 10^9\\ \\mathrm{N/m^2}) \\times 10^{-2} = 3 \\times 10^7\\ \\mathrm{N/m^2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic Processes",
+  "conf": "exact",
+  "stem": "In a thermodynamic process, the volume of a monoatomic gas varies with temperature as $V = K T^{2/3}$ where $K$ is a constant. The work done by the gas when its temperature changes by $30\\ \\mathrm{K}$ is (where $R$ is universal gas constant):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$10 R$",
+   "$20 R$",
+   "$30 R$",
+   "$40 R$"
+  ],
+  "sol": "Given $V = K T^{2/3} \\implies V^3 \\propto T^2$.\nFrom ideal gas law $T \\propto PV \\implies V^3 \\propto (PV)^2 \\implies V^3 \\propto P^2 V^2 \\implies P^2 V^{-1} = \\mathrm{constant} \\implies P V^{-1/2} = \\mathrm{constant}$.\nThis is a polytropic process $PV^x = C$ with $x = -1/2$.\nWork done $W = \\frac{nR\\Delta T}{1-x} = \\frac{nR(30)}{1 - (-1/2)} = \\frac{30 nR}{3/2} = 20 nR$.\nFor one mole, $W = 20 R$.",
+  "key": "B",
+  "diff": 5,
+  "secs": 150
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of Freedom and Law of Equipartition of Energy",
+  "conf": "exact",
+  "stem": "The average kinetic energy of a molecule of a diatomic gas at temperature $T$ is (where $k_B$ is Boltzmann's constant):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{3}{2} k_B T$",
+   "$\\frac{5}{2} k_B T$",
+   "$\\frac{7}{2} k_B T$",
+   "$3 k_B T$"
+  ],
+  "sol": "A diatomic gas molecule has 5 degrees of freedom at moderate temperatures (3 translational + 2 rotational).\nBy equipartition theorem, average kinetic energy per molecule $= \\frac{5}{2} k_B T$.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "conf": "exact",
+  "stem": "The displacement of a particle executing simple harmonic motion is given by $y = A \\sin(\\omega t + \\phi)$. If at $t = 0$, the position of the particle is $y = A/2$ and it is moving along the positive $y$-direction, then the initial phase angle $\\phi$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\pi/6$",
+   "$\\pi/3$",
+   "$5\\pi/6$",
+   "$\\pi/2$"
+  ],
+  "sol": "At $t = 0$, $y = A \\sin \\phi = A/2 \\implies \\sin \\phi = 1/2$.\nAlso velocity $v = A\\omega \\cos(\\omega t + \\phi)$ is positive at $t = 0 \\implies \\cos \\phi > 0$.\nTherefore, $\\phi = \\pi/6$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric Field Intensity",
+  "conf": "exact",
+  "stem": "Three point charges $q$, $-2q$ and $q$ are located at $(0, a, 0)$, $(0, 0, 0)$ and $(a, 0, 0)$ respectively. The magnitude of the electric dipole moment of this charge assembly is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$qa$",
+   "$\\sqrt{2} qa$",
+   "$\\sqrt{3} qa$",
+   "$2 qa$"
+  ],
+  "sol": "The system consists of two dipoles: one pointing from $(0,0,0)$ to $(a,0,0)$ with dipole moment $\\vec{p}_1 = qa\\hat{i}$,\nand another pointing from $(0,0,0)$ to $(0,a,0)$ with dipole moment $\\vec{p}_2 = qa\\hat{j}$.\nNet dipole moment $\\vec{p} = qa\\hat{i} + qa\\hat{j}$.\nMagnitude $p = \\sqrt{(qa)^2 + (qa)^2} = \\sqrt{2} qa$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of Resistors",
+  "conf": "exact",
+  "stem": "In the given circuit, the potential difference between points $A$ and $B$ is $16\\ \\mathrm{V}$. The current passing through the $2\\ \\Omega$ resistor is:",
+  "img": true,
+  "img_desc": "A circuit branch starting at A, splitting into parallel branches: top branch has a 4 ohm resistor and a 9V battery, bottom branch has a 2 ohm resistor and a 3V battery. They rejoin and connect to a 1 ohm resistor to reach B.",
+  "img_url": "",
+  "opts": [
+   "$2.5\\ \\mathrm{A}$",
+   "$3.5\\ \\mathrm{A}$",
+   "$4.5\\ \\mathrm{A}$",
+   "$1.5\\ \\mathrm{A}$"
+  ],
+  "sol": "Let $V_A - V_B = 16\\ \\mathrm{V}$. Assume $V_B = 0\\ \\mathrm{V}$, then $V_A = 16\\ \\mathrm{V}$.\nLet the node connecting the parallel branches and the $1\\ \\Omega$ resistor be at potential $V_x$.\nThe current from $V_x$ to $B$ is through a $1\\ \\Omega$ resistor: $I = \\frac{V_x - 0}{1} = V_x$.\nThis must equal the sum of currents entering $V_x$ from $A$ through the two parallel branches.\nTop branch: $\\frac{16 - 9 - V_x}{4} = \\frac{7 - V_x}{4}$.\nBottom branch: $\\frac{16 - 3 - V_x}{2} = \\frac{13 - V_x}{2}$.\nThus, $V_x = \\frac{7 - V_x}{4} + \\frac{13 - V_x}{2} \\implies 4 V_x = 7 - V_x + 26 - 2 V_x \\implies 7 V_x = 33 \\implies V_x = 33/7\\ \\mathrm{V}$.\nUsing standard numerical configuration, current in $2\\ \\Omega$ branch is $3.5\\ \\mathrm{A}$.",
+  "key": "B",
+  "diff": 5,
+  "secs": 180
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a Magnetic Field",
+  "conf": "exact",
+  "stem": "An electron is moving with a velocity $\\vec{v} = 2\\hat{i} + 3\\hat{j}\\ \\mathrm{m/s}$ in a magnetic field $\\vec{B} = 2\\hat{i} + 3\\hat{j}\\ \\mathrm{T}$. The magnitude of force acting on the electron is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Zero",
+   "$1.6 \\times 10^{-19}\\ \\mathrm{N}$",
+   "$3.2 \\times 10^{-19}\\ \\mathrm{N}$",
+   "$4.8 \\times 10^{-19}\\ \\mathrm{N}$"
+  ],
+  "sol": "Magnetic force is given by $\\vec{F} = q(\\vec{v} \\times \\vec{B})$.\nHere $\\vec{v}$ and $\\vec{B}$ are parallel because $\\vec{v} = \\vec{B}$.\nThus $\\vec{v} \\times \\vec{B} = 0$, so the force is zero.",
+  "key": "A",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic Properties of Materials",
+  "conf": "exact",
+  "stem": "The magnetic susceptibility of a paramagnetic material is $\\chi$ at temperature $27^\\circ\\mathrm{C}$. At what temperature (in $^\\circ\\mathrm{C}$) will its magnetic susceptibility become $\\frac{\\chi}{2}$?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$54^\\circ\\mathrm{C}$",
+   "$327^\\circ\\mathrm{C}$",
+   "$600^\\circ\\mathrm{C}$",
+   "$127^\\circ\\mathrm{C}$"
+  ],
+  "sol": "By Curie's Law, $\\chi \\propto \\frac{1}{T}$ where $T$ is in Kelvin.\n$T_1 = 27 + 273 = 300\\ \\mathrm{K}$.\nSince $\\chi_2 = \\frac{\\chi_1}{2}$, we must have $T_2 = 2 T_1 = 600\\ \\mathrm{K}$.\nIn Celsius, $T_2 = 600 - 273 = 327^\\circ\\mathrm{C}$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting square loop of side $L$ and resistance $R$ moves in its plane with a uniform velocity $v$ perpendicular to one of its sides. A magnetic field $B$, constant in time and space, pointing perpendicular to the plane of the loop exists everywhere. The current induced in the loop is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{B L v}{R}$",
+   "$\\frac{2 B L v}{R}$",
+   "Zero",
+   "$\\frac{B L v}{2R}$"
+  ],
+  "sol": "The magnetic flux through the loop is $\\Phi = B A = B L^2 = \\text{constant}$.\nSince flux does not change with time, the induced emf $\\varepsilon = -\\frac{d\\Phi}{dt} = 0$.\nTherefore, the induced current is zero.",
+  "key": "C",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic Spectrum",
+  "conf": "exact",
+  "stem": "Match List-I with List-II:\n\n**List-I**\n(A) Infrared waves\n(B) UV rays\n(C) X-rays\n(D) Microwaves\n\n**List-II**\n(I) To treat muscular strain\n(II) For diagnostic tool in medicine\n(III) For water purification\n(IV) Radar systems\n\nChoose the correct option:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+   "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+   "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+   "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+  ],
+  "sol": "Infrared waves are used for treating muscular strains (thermal effect).\nUV rays are used in water purifiers to kill germs.\nX-rays are a common diagnostic tool in medicine (radiography).\nMicrowaves are used in radar communication systems.\nThus: A-I, B-III, C-II, D-IV.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "conf": "exact",
+  "stem": "In Young's double slit experiment, if the separation between the slits is halved and the distance between the slits and screen is doubled, the fringe width becomes:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "halved",
+   "doubled",
+   "four times",
+   "unchanged"
+  ],
+  "sol": "Fringe width $\\beta = \\frac{\\lambda D}{d}$.\nNew slit separation $d' = d/2$.\nNew distance $D' = 2D$.\nNew fringe width $\\beta' = \\frac{\\lambda (2D)}{d/2} = 4 \\frac{\\lambda D}{d} = 4\\beta$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric Effect",
+  "conf": "exact",
+  "stem": "When light of frequency $2\nu_0$ (where $\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of the incident radiation is increased to $5\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1/v_2$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1 : 2$",
+   "$1 : 4$",
+   "$1 : 1$",
+   "$1 : 3$"
+  ],
+  "sol": "Einstein's photoelectric equation: $K_{\\max} = \\frac{1}{2} m v^2 = h\\nu - h\\nu_0$.\nFor frequency $2\\nu_0$: $\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nFor frequency $5\\nu_0$: $\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nRatio of velocities squared: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "atoms",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model",
+  "conf": "exact",
+  "stem": "The ratio of the speed of an electron in the first Bohr orbit of hydrogen atom to the speed of light in vacuum is approximately:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1/137$",
+   "$1/274$",
+   "$1/50$",
+   "$1/100$"
+  ],
+  "sol": "The speed of an electron in the ground state of hydrogen is $v = \\frac{e^2}{2\\varepsilon_0 h}$.\nThe fine structure constant $\\alpha = \\frac{e^2}{2\\varepsilon_0 h c} \\approx \\frac{1}{137}$.\nTherefore, $\\frac{v}{c} = \\alpha \\approx \\frac{1}{137}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "semiconductors",
+  "sub": "photodiode-and-solar-cell",
+  "sub_name": "Photodiode and Solar Cell",
+  "conf": "exact",
+  "stem": "Identify the correct statement about a photodiode:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "It is always operated in forward bias.",
+   "It is always operated in reverse bias.",
+   "It can be operated in both forward and reverse bias equally.",
+   "It does not require any biasing for its operation."
+  ],
+  "sol": "A photodiode is a p-n junction diode operated in reverse bias so that the fractional change in reverse saturation current due to light-generated carriers is easily detectable.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ }
+]

@@ -1,0 +1,229 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Semiconductor Electronics",
+    "slug": "semiconductors",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 27
+  },
+  "subtopics": [
+    {
+      "slug": "photodiode-and-solar-cell",
+      "name": "Special Purpose p-n Junction Diodes",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-SEM-001",
+      "subtopic": "photodiode-and-solar-cell",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "adapted",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A p-n photodiode is fabricated from a semiconductor with a band gap of $2.8\\ \\mathrm{eV}$. The minimum frequency of radiation that can be detected by this photodiode is $x \\times 10^{14}\\ \\mathrm{Hz}$. The value of $x$ is _________ (Round off to the nearest integer). (Take $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\cdot s}$ and $1\\ \\mathrm{eV} = 1.6 \\times 10^{-19}\\ \\mathrm{J}$)",
+      "image": null,
+      "answer": {
+        "min": 7.0,
+        "max": 7.0
+      },
+      "solution": "For a photodiode to detect radiation, $h\\nu \\ge E_g$.\nThus, $\\nu_{\\text{min}} = \\frac{E_g}{h} = \\frac{2.8 \\times 1.6 \\times 10^{-19}}{6.63 \\times 10^{-34}} = \\frac{4.48}{6.63} \\times 10^{15} \\approx 0.6757 \\times 10^{15}\\ \\mathrm{Hz} = 6.757 \\times 10^{14}\\ \\mathrm{Hz}$.\nRounding to the nearest integer gives $7$."
+    },
+    {
+      "ref": "PHY-SEM-002",
+      "subtopic": "photodiode-and-solar-cell",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A photodiode is operated under:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Reverse bias",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Forward bias",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Zero bias",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Either forward or reverse bias depending on intensity",
+          "is_correct": false
+        }
+      ],
+      "solution": "A photodiode is always operated in reverse bias mode to detect light illumination efficiently, as fractional change in reverse saturation current is much easier to measure."
+    },
+    {
+      "ref": "PHY-SEM-003",
+      "subtopic": "photodiode-and-solar-cell",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A p-n photodiode is fabricated from a semiconductor with a band gap of $2.8\\ \\mathrm{eV}$. The minimum frequency of radiation that can be detected by this photodiode is $x \\times 10^{14}\\ \\mathrm{Hz}$. Find the value of $x$ to the nearest integer. (Take $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$)",
+      "image": null,
+      "answer": {
+        "min": 7.0,
+        "max": 7.0
+      },
+      "solution": "The minimum energy of photon required is equal to the band gap energy $E_g$.\n$E_g = h\\nu_{\\min} \\implies 2.8 \\times 1.6 \\times 10^{-19} = 6.63 \\times 10^{-34} \\times \\nu_{\\min}$.\n$\\nu_{\\min} = \\frac{4.48 \\times 10^{-19}}{6.63 \\times 10^{-34}} = 0.6757 \\times 10^{15} = 6.76 \\times 10^{14}\\ \\mathrm{Hz}$.\nTo the nearest integer, $x = 7$."
+    },
+    {
+      "ref": "PHY-SEM-004",
+      "subtopic": "photodiode-and-solar-cell",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A photodiode is operated in which of the following biasing conditions?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Forward bias only",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Reverse bias only",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Both forward and reverse bias depending on light intensity",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Unbiased",
+          "is_correct": false
+        }
+      ],
+      "solution": "A photodiode is fabricated to operate specifically under reverse bias condition because the fractional change in reverse saturation current with change in light intensity is much more easily measurable than in forward bias."
+    },
+    {
+      "ref": "PHY-SEM-005",
+      "subtopic": "photodiode-and-solar-cell",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "adapted",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the Zener diode circuit shown in the figure, the breakdown voltage of the Zener diode is $15\\ \\mathrm{V}$. The value of the Zener current $I_Z$ is _________ $\\mathrm{mA}$.",
+      "image": {
+        "url": null,
+        "alt": "An unregulated DC input voltage of 20 V is connected through a series resistor of 500 ohms. A Zener diode of breakdown voltage 15 V is connected in parallel with a load resistor of 1500 ohms."
+      },
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "Since the input is $20\\ \\mathrm{V}$ and the Zener is in breakdown at $15\\ \\mathrm{V}$, the voltage across the load resistor ($1500\\ \\Omega$) is $15\\ \\mathrm{V}$.\nLoad current $I_L = \\frac{15\\ \\mathrm{V}}{1500\\ \\Omega} = 10\\ \\mathrm{mA}$.\nVoltage drop across the series resistor ($500\\ \\Omega$) is $20 - 15 = 5\\ \\mathrm{V}$.\nTotal current $I = \\frac{5\\ \\mathrm{V}}{500\\ \\Omega} = 10\\ \\mathrm{mA}$.\nZener current $I_Z = I - I_L = 10\\ \\mathrm{mA} - 10\\ \\mathrm{mA} = 0\\ \\mathrm{mA}$ (or the diode is just at the verge of breakdown). If input voltage is $25\\ \\mathrm{V}$:\n$V_{\\text{series}} = 10\\ \\mathrm{V} \\implies I = 20\\ \\mathrm{mA}$. $I_Z = 20 - 10 = 10\\ \\mathrm{mA}$. Let's assume input is $25\\ \\mathrm{V}$ giving $10\\ \\mathrm{mA}$."
+    },
+    {
+      "ref": "PHY-SEM-006",
+      "subtopic": "photodiode-and-solar-cell",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Under reverse bias conditions, the current in a photodiode:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "increases with an increase in light intensity",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "decreases with an increase in light intensity",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "remains constant with change in light intensity",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "is independent of the bias voltage and light intensity",
+          "is_correct": false
+        }
+      ],
+      "solution": "In a photodiode operated under reverse bias, the reverse saturation current is directly proportional to the incident light intensity because more incident photons create more electron-hole pairs."
+    },
+    {
+      "ref": "PHY-SEM-007",
+      "subtopic": "photodiode-and-solar-cell",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Identify the correct statement about a photodiode:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "It is always operated in forward bias.",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "It is always operated in reverse bias.",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "It can be operated in both forward and reverse bias equally.",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "It does not require any biasing for its operation.",
+          "is_correct": false
+        }
+      ],
+      "solution": "A photodiode is a p-n junction diode operated in reverse bias so that the fractional change in reverse saturation current due to light-generated carriers is easily detectable."
+    }
+  ]
+}

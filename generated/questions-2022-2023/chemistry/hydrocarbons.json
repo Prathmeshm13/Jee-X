@@ -1,0 +1,708 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Hydrocarbons",
+    "slug": "hydrocarbons",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 15
+  },
+  "subtopics": [
+    {
+      "slug": "alkynes",
+      "name": "Alkynes: Preparation and Properties",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-HYC-001",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The major product $P$ of the following reaction is:\n$$\\mathrm{CH_3-C\\equiv C-CH_3 \\xrightarrow{Na / liq. NH_3} P}$$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "trans-But-2-ene",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "cis-But-2-ene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Butane",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "But-1-ene",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reduction of an internal alkyne (like but-2-yne) with sodium in liquid ammonia (Birch reduction) selectively yields a trans-alkene. Thus, the major product is trans-but-2-ene."
+    },
+    {
+      "ref": "CHEM-HYC-002",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The major product formed in the following reaction is:\n$$\\mathrm{CH_3-C\\equiv C-CH_3} \\xrightarrow{\\mathrm{Na / \\text{liquid } NH_3}} \\text{Product}$$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "\\textit{cis}-But-2-ene",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "\\textit{trans}-But-2-ene",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Butane",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "But-1-yne",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reduction of an internal alkyne with sodium in liquid ammonia (Birch reduction) selectively yields the corresponding \\textit{trans}-alkene. Thus, but-2-yne is reduced to \\textit{trans}-but-2-ene."
+    },
+    {
+      "ref": "CHEM-HYC-003",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The major product of the following reaction is:\n$$\\mathrm{CH}_3-\\mathrm{C}\\equiv\\mathrm{CH} \\xrightarrow{\\mathrm{Hg}^{2+}/\\mathrm{H}^+} \\text{Product}$$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CHO}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CH}_3\\mathrm{COCH}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{OH}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH}_3\\mathrm{CH(OH)CH}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne ($\\mathrm{CH}_3-\\mathrm{C}\\equiv\\mathrm{CH}$) in the presence of dilute $\\mathrm{H}_2\\mathrm{SO}_4$ and $\\mathrm{HgSO}_4$ (Kucherov's reaction) follows Markovnikov's rule to give an unstable enol intermediate [$\\mathrm{CH}_3-\\mathrm{C(OH)}=\\mathrm{CH}_2$] which tautomerizes to acetone (propanone, $\\mathrm{CH}_3\\mathrm{COCH}_3$)."
+    },
+    {
+      "ref": "CHEM-HYC-004",
+      "subtopic": "alkynes",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When 1-butyne undergoes hydration in the presence of $\\mathrm{Hg^{2+}/H^+}$, the major product formed is a ketone. The number of $sp^3$ hybridized carbon atoms in the major product is _________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Hydration of 1-butyne ($\\mathrm{CH_3-CH_2-C\\equiv CH}$) with $\\mathrm{Hg^{2+}/H^+}$ gives butanone ($\\mathrm{CH_3-CH_2-CO-CH_3}$).\nIn butanone:\n- Carbon-1 ($\\mathrm{-CH_3}$): $sp^3$\n- Carbon-2 ($\\mathrm{-CO-}$): $sp^2$\n- Carbon-3 ($\\mathrm{-CH_2-}$): $sp^3$\n- Carbon-4 ($\\mathrm{-CH_3}$): $sp^3$\nThus, the number of $sp^3$ hybridized carbon atoms is 3."
+    },
+    {
+      "ref": "CHEM-HYC-005",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{Hg^{2+}}$ at $333\\ \\mathrm{K}$, the major product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propanol",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Propanone",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propene",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) using $\\mathrm{dil.\\ H_2SO_4 / Hg^{2+}}$ occurs via Markovnikov's addition of water to yield an unstable enol intermediate $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes rapidly to give acetone (propanone, $\\mathrm{CH_3-CO-CH_3}$)."
+    },
+    {
+      "ref": "CHEM-HYC-006",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following compounds reacts with $\\mathrm{NaNH_2}$ to give a sodium salt?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "But-1-yne",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "But-2-yne",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "But-2-ene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Butane",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terminal alkynes like but-1-yne have acidic acetylenic hydrogens ($\\mathrm{sp}$ hybridized carbon) which can react with a strong base like $\\mathrm{NaNH_2}$ to form sodium acetylide."
+    },
+    {
+      "ref": "CHEM-HYC-007",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following hydrocarbons will react with ammoniacal silver nitrate solution to give a white precipitate?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "But-1-yne",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "But-2-yne",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "But-1-ene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Butane",
+          "is_correct": false
+        }
+      ],
+      "solution": "Ammoniacal silver nitrate (Tollens' reagent) reacts only with terminal alkynes (which possess an acidic acetylenic hydrogen) to form silver acetylides (white precipitate). But-1-yne ($\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{C\\equiv CH}$) is a terminal alkyne, whereas But-2-yne is an internal alkyne."
+    },
+    {
+      "ref": "CHEM-HYC-008",
+      "subtopic": "alkynes",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of $sp^3$ hybridized carbons present in the major product obtained when 3-methylbut-1-yne undergoes hydration in the presence of $\\mathrm{Hg^{2+}/H^+}$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Hydration of 3-methylbut-1-yne ($\\mathrm{(CH_3)_2CH-C\\equiv CH}$) with $\\mathrm{Hg^{2+}/H^+}$ gives 3-methylbutan-2-one ($\\mathrm{(CH_3)_2CH-CO-CH_3}$).\nLet us count the hybridization of each carbon in $\\mathrm{\\overset{5}{C}H_3-\\overset{4}{C}H(CH_3)-\\overset{2}{C}(=O)-\\overset{1}{C}H_3}$:\n- $\\mathrm{C1}$: $sp^3$\n- $\\mathrm{C2}$: $sp^2$\n- $\\mathrm{C3}$ (methyl group on C4): $sp^3$\n- $\\mathrm{C4}$: $sp^3$\n- $\\mathrm{C5}$: $sp^3$\nThus, there are 4 $sp^3$ hybridized carbons."
+    },
+    {
+      "ref": "CHEM-HYC-009",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following alkynes on hydration with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$ gives a ketone as the only major product?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propyne",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Ethyne",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "But-1-ene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Hex-1-ene",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of ethyne ($\\mathrm{HC\\equiv CH}$) yields acetaldehyde (an aldehyde). Any other terminal alkyne, such as propyne ($\\mathrm{CH_3-C\\equiv CH}$), undergoes Markovnikov addition of water followed by tautomerisation to yield a ketone (acetone)."
+    },
+    {
+      "ref": "CHEM-HYC-010",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds will yield a red precipitate of copper acetylide when treated with ammoniacal cuprous chloride?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "But-1-yne",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "But-2-yne",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Butane",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "But-2-ene",
+          "is_correct": false
+        }
+      ],
+      "solution": "Ammoniacal cuprous chloride ($\\text{Cu}_2\\text{Cl}_2 + \\text{NH}_4\\text{OH}$) reacts specifically with terminal alkynes (which have acidic acetylenic hydrogens) to form a red precipitate of copper acetylide. But-1-yne is a terminal alkyne."
+    },
+    {
+      "ref": "CHEM-HYC-011",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Propanone",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Propan-1-ol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propan-2-ol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne via Kucherov's reaction:\n$\\mathrm{CH_3-C\\equiv CH + H_2O \\xrightarrow{Hg^{2+}/H^+} [CH_3-C(OH)=CH_2] \\xrightarrow{tautomerism} CH_3-CO-CH_3}$ (Propanone)."
+    },
+    {
+      "ref": "CHEM-HYC-012",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When propyne is treated with dilute $\\text{H}_2\\text{SO}_4$ in the presence of $\\text{HgSO}_4$, the major product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Propanone",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Propan-1-ol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propan-2-ol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne (Kucherov reaction) goes via Markovnikov's addition of water to form an enol intermediate:\n$\\text{CH}_3\\text{-C}\\equiv\\text{CH} \\xrightarrow{\\text{H}_2\\text{O}, \\text{H}^+, \\text{Hg}^{2+}} [\\text{CH}_3\\text{-C(OH)=CH}_2] \\xrightarrow{\\text{tautomerism}} \\text{CH}_3\\text{-CO-CH}_3$ (Propanone)."
+    },
+    {
+      "ref": "CHEM-HYC-013",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The major product formed in the reaction of propyne with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Acetone",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Propanoic acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Isopropyl alcohol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne (Kucherov's reaction) involves Markovnikov addition of water to give an enol intermediate: $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to the more stable ketone, acetone ($\\mathrm{CH_3-CO-CH_3}$)."
+    },
+    {
+      "ref": "CHEM-HYC-014",
+      "subtopic": "alkynes",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "An organic compound with molecular formula $\\mathrm{C}_5\\mathrm{H}_8$ on treating with sodium metal in liquid ammonia gives a sodium salt. The same compound on hydration with $\\mathrm{Hg}^{2+}/\\mathrm{H}^+$ gives a ketone. The total number of possible isomers (including stereoisomers) of this compound is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The compound has formula $\\mathrm{C}_5\\mathrm{H}_8$ (Degree of Unsaturation = 2).\nIt reacts with sodium metal in liquid ammonia, showing it is a terminal alkyne.\nHydration of terminal alkynes gives methyl ketones.\nLet's write all possible terminal alkynes of formula $\\mathrm{C}_5\\mathrm{H}_8$:\n1) Pent-1-yne: $\\mathrm{CH_3-CH_2-CH_2-C\\equiv CH}$\n2) 3-Methylbut-1-yne: $\\mathrm{(CH_3)_2CH-C\\equiv CH}$\nNeither has any chiral center. Thus, the total number of possible structures/isomers fitting the description is 2."
+    },
+    {
+      "ref": "CHEM-HYC-015",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Propyne on hydration in the presence of $1\\%\\ \\text{HgSO}_4$ and dilute $\\text{H}_2\\text{SO}_4$ gives:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propan-2-one",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Propanol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propanoic acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne ($\\text{CH}_3\\text{C}\\equiv\\text{CH}$) follows Markovnikov's rule to give an unstable enol intermediate: $\\text{CH}_3-\\text{C(OH)}=\\text{CH}_2$, which tautomerizes to the more stable keto form, propan-2-one (acetone)."
+    },
+    {
+      "ref": "CHEM-HYC-016",
+      "subtopic": "alkynes",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An alkyne $\\mathrm{C_5H_8}$ on treatment with hot acidic $\\mathrm{KMnO_4}$ gives $2$-methylpropanoic acid and $\\mathrm{CO_2}$. The number of $\\mathrm{sp^2}$ hybridized carbon atoms in the starting alkyne is _________.",
+      "image": null,
+      "answer": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "solution": "Oxidative cleavage of a terminal alkyne $R-\\mathrm{C\\equiv CH}$ with hot acidic $\\mathrm{KMnO_4}$ yields $R-\\mathrm{COOH}$ and $\\mathrm{CO_2}$.\nSince the products are $2$-methylpropanoic acid and $\\mathrm{CO_2}$, the starting alkyne is $3$-methylbut-1-yne, $(CH_3)_2CH-C\\equiv CH$.\nIn this alkyne, the carbon atoms are $sp^3$ hybridized (in the isopropyl group) and $sp$ hybridized (at the triple bond).\nTherefore, the number of $sp^2$ hybridized carbon atoms in the starting alkyne is $0$."
+    },
+    {
+      "ref": "CHEM-HYC-017",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "When propyne is treated with dilute $\\mathrm{H}_2\\mathrm{SO}_4$ in the presence of $\\mathrm{HgSO}_4$ at $333\\ \\mathrm{K}$, the main product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Propanone",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Propan-1-ol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propan-2-ol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne (Kucherov reaction) using $\\mathrm{Hg}^{2+}/\\mathrm{H}^{+}$ adds a water molecule across the triple bond according to Markovnikov's rule, forming an enol $[\\mathrm{CH}_3-\\mathrm{C}(\\mathrm{OH})=\\mathrm{CH}_2]$ which tautomerizes to the more stable ketone, propanone $(\\mathrm{CH}_3\\mathrm{COCH}_3)$."
+    },
+    {
+      "ref": "CHEM-HYC-018",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following hydrocarbons will give a red precipitate with ammoniacal cuprous chloride solution?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propyne",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "But-2-yne",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Propene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Ethane",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terminal alkynes contain acidic hydrogens and react with ammoniacal cuprous chloride to form a red precipitate of copper acetylides. Propyne ($\\mathrm{CH_3-C\\equiv CH}$) is a terminal alkyne and will give a positive test."
+    },
+    {
+      "ref": "CHEM-HYC-019",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Propanone",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Propan-1-ol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propan-2-ol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) with $\\mathrm{H_2SO_4/Hg^{2+}}$ occurs via Kucherov's reaction. It undergoes Markovnikov addition of water to form an unstable enol: $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to the stable ketone, propanone (acetone, $\\mathrm{CH_3-CO-CH_3}$)."
+    },
+    {
+      "ref": "CHEM-HYC-020",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major organic product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Propanone",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Propan-1-ol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propan-2-ol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) using Kucherov's reaction conditions ($\\mathrm{Hg^{2+}/H^+}$) gives an unstable enol intermediate $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to propanone (acetone, $\\mathrm{CH_3-CO-CH_3}$)."
+    },
+    {
+      "ref": "CHEM-HYC-021",
+      "subtopic": "alkynes",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "In the following reaction sequence, the total number of $\\mathrm{sp^2}$ hybridized carbon atoms in the final major product '$\\mathrm{B}$' is _________.\n$$\\mathrm{Propyne} \\xrightarrow[\\mathrm{H_2SO_4}]{\\mathrm{Hg^{2+}, H^+}} \\mathrm{A} \\xrightarrow[\\text{dil. } \\mathrm{NaOH}]{\\Delta} \\mathrm{B}$$",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Step 1: Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) yields propan-2-one (acetone, $\\mathrm{CH_3COCH_3}$) as 'A'.\nStep 2: Dilute $\\mathrm{NaOH}/\\Delta$ on acetone is Aldol condensation:\n$2\\mathrm{CH_3COCH_3} \\xrightarrow{\\mathrm{OH^-}/\\Delta} (\\mathrm{CH_3)_2C=CH-CO-CH_3}$ (Mesityl oxide) as 'B'.\nIn mesityl oxide:\n- The two methyl carbons on the double bond are $\\mathrm{sp^3}$ hybridized (2 carbons).\n- The carbonyl methyl carbon is $\\mathrm{sp^3}$ hybridized (1 carbon).\n- The two double-bonded carbons are $\\mathrm{sp^2}$ hybridized (2 carbons).\n- The carbonyl carbon is $\\mathrm{sp^2}$ hybridized (1 carbon).\nTotal $\\mathrm{sp^2}$ hybridized carbon atoms $= 2 + 1 = 3$."
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of physical quantities",
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensions:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and Rydberg constant",
+   "Stress and Coefficient of friction",
+   "Torque and Planck's constant"
+  ],
+  "sol": "Velocity gradient has dimension $[\\text{T}^{-1}]$. Decay constant $\\lambda$ also has dimension $[\\text{T}^{-1}]$ from $N = N_0 e^{-\\lambda t}$. Thus, they share the same dimensions.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "experimental-skills",
+  "sub": "screw-gauge",
+  "sub_name": "Screw gauge",
+  "conf": "exact",
+  "stem": "The pitch of a screw gauge is $1\\ \\mathrm{mm}$ and there are $100$ divisions on its circular scale. When nothing is put in between the studs, the zero of the circular scale lies $6$ divisions below the reference line. When a wire is placed between the studs, the main scale reads $2\\ \\mathrm{mm}$ and the $47^{\\text{th}}$ division of the circular scale coincides with the reference line. The correct diameter of the wire is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "2.53 mm",
+   "2.41 mm",
+   "2.47 mm",
+   "2.50 mm"
+  ],
+  "sol": "Least Count $(\\text{LC}) = 1\\ \\mathrm{mm} / 100 = 0.01\\ \\mathrm{mm}$.\nZero error is $+6 \\times 0.01 = +0.06\\ \\mathrm{mm}$ (since zero lies below reference line, reading is positive).\nMeasured reading $= MSR + (CSR \\times LC) = 2\\ \\mathrm{mm} + 47 \\times 0.01\\ \\mathrm{mm} = 2.47\\ \\mathrm{mm}$.\nCorrected reading $= 2.47 - 0.06 = 2.41\\ \\mathrm{mm}$.",
+  "key": "B",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile motion",
+  "conf": "exact",
+  "stem": "A projectile is thrown with an initial velocity of $(\\hat{i} + 2\\hat{j})\\ \\mathrm{m/s}$ from the ground. The equation of its trajectory is (Take $g = 10\\ \\mathrm{m/s^2}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$y = 2x - 5x^2$",
+   "$y = 2x - 15x^2$",
+   "$y = 2x - 2.5x^2$",
+   "$y = 2x - 10x^2$"
+  ],
+  "sol": "Initial horizontal velocity $u_x = 1$, initial vertical velocity $u_y = 2$.\nAt time $t$, $x = u_x t = t$, and $y = u_y t - \\frac{1}{2}gt^2 = 2t - 5t^2$.\nSubstituting $t = x$ gives $y = 2x - 5x^2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "conf": "exact",
+  "stem": "A block of mass $10\\ \\mathrm{kg}$ is resting on a rough inclined plane of inclination $30^\\circ$. The coefficient of friction between the block and the plane is $\\mu = 0.5$. The friction force acting on the block is (Take $g = 10\\ \\mathrm{m/s^2}$):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "49 N",
+   "50 N",
+   "43.3 N",
+   "25 N"
+  ],
+  "sol": "Maximum static friction $f_{\\text{max}} = \\mu m g \\cos 30^\\circ = 0.5 \\times 10 \\times 10 \\times \\frac{\\sqrt{3}}{2} = 43.3\\ \\mathrm{N}$.\nDownward pulling force along inclination $F = m g \\sin 30^\\circ = 10 \\times 10 \\times 0.5 = 50\\ \\mathrm{N}$.\nSince pulling force $F > f_{\\text{max}}$, the block slides, and kinetic friction (using $\\mu_k = \\mu_s = 0.5$) acts: $f_k = \\mu N = 43.3\\ \\mathrm{N}$.",
+  "key": "C",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of inertia",
+  "conf": "exact",
+  "stem": "The ratio of the radius of gyration of a uniform solid sphere of mass $M$ and radius $R$ about its tangent to that of a uniform thin spherical shell of the same mass and radius about its tangent is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\sqrt{\\frac{21}{25}}$",
+   "$\\sqrt{\\frac{3}{5}}$",
+   "$\\sqrt{\\frac{21}{15}}$",
+   "$\\sqrt{\\frac{14}{15}}$"
+  ],
+  "sol": "For a solid sphere, $I_1 = \\frac{2}{5}MR^2 + MR^2 = \\frac{7}{5}MR^2 \\implies k_1^2 = \\frac{7}{5}R^2$.\nFor a thin spherical shell, $I_2 = \\frac{2}{3}MR^2 + MR^2 = \\frac{5}{3}MR^2 \\implies k_2^2 = \\frac{5}{3}R^2$.\nRatio $\\frac{k_1}{k_2} = \\sqrt{\\frac{7/5}{5/3}} = \\sqrt{\\frac{21}{25}}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to gravity",
+  "conf": "exact",
+  "stem": "If the radius of the earth shrinks by $2\\%$, its mass remaining constant, then the acceleration due to gravity on its surface will:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "increase by 4%",
+   "decrease by 4%",
+   "increase by 2%",
+   "decrease by 2%"
+  ],
+  "sol": "We have $g = \\frac{GM}{R^2}$. Taking natural log and differentiating: $\\frac{dg}{g} = -2\\frac{dR}{R}$.\nIf $R$ decreases by $2\\%$ ($dR/R = -2\\%$) then $dg/g = -2(-2\\%) = +4\\%$.\nThus, the acceleration due to gravity increases by $4\\%$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic moduli",
+  "conf": "exact",
+  "stem": "The bulk modulus of a liquid is $3 \\times 10^9\\ \\mathrm{N/m^2}$. The pressure required to reduce the volume of the liquid by $1\\%$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$3 \\times 10^7\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^5\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^6\\ \\mathrm{N/m^2}$",
+   "$3 \\times 10^8\\ \\mathrm{N/m^2}$"
+  ],
+  "sol": "Bulk modulus $B = -\\frac{\\Delta P}{\\Delta V/V}$. Here $\\frac{\\Delta V}{V} = -0.01$.\nThus, $\\Delta P = B \\left|\\frac{\\Delta V}{V}\\right| = 3 \\times 10^9 \\times 0.01 = 3 \\times 10^7\\ \\mathrm{N/m^2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and terminal velocity",
+  "conf": "exact",
+  "stem": "Two spherical raindrops of equal size are falling vertically through air with a terminal velocity of $1\\ \\mathrm{m/s}$. What will be the terminal velocity of the single large drop formed by their coalescence?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2^{2/3}\\ \\mathrm{m/s}$",
+   "$2^{1/3}\\ \\mathrm{m/s}$",
+   "$2\\ \\mathrm{m/s}$",
+   "$4^{1/3}\\ \\mathrm{m/s}$"
+  ],
+  "sol": "Volume conserved: $\\frac{4}{3}\\pi R^3 = 2 \\times \\frac{4}{3}\\pi r^3 \\implies R = 2^{1/3}r$.\nTerminal velocity $v_t \\propto r^2$.\nThus, $v_{\\text{new}} = v_0 \\left(\\frac{R}{r}\\right)^2 = 1 \\times (2^{1/3})^2 = 2^{2/3}\\ \\mathrm{m/s}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic processes",
+  "conf": "exact",
+  "stem": "An ideal gas undergoes a polytropic process $PV^n = \\text{constant}$. If the ratio of the specific heats is $\\gamma$, the molar heat capacity of the gas for this process is given by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$C = \\frac{R}{\\gamma - 1} + \\frac{R}{1 - n}$",
+   "$C = \\frac{R}{\\gamma - 1} - \\frac{R}{1 - n}$",
+   "$C = \\frac{\\gamma R}{\\gamma - 1} + \\frac{R}{1 - n}$",
+   "$C = \\frac{R}{\\gamma - 1} + \\frac{nR}{1 - n}$"
+  ],
+  "sol": "For a polytropic process $PV^n = \\text{constant}$, the molar heat capacity is $C = C_v + \\frac{R}{1-n}$.\nSince $C_v = \\frac{R}{\\gamma - 1}$, we get $C = \\frac{R}{\\gamma - 1} + \\frac{R}{1-n}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of freedom and law of equipartition of energy",
+  "conf": "exact",
+  "stem": "A mixture of 2 moles of helium gas (monatomic) and 3 moles of oxygen gas (diatomic) is kept at temperature $T$. The total internal energy of the mixture is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{21}{2} RT$",
+   "$\\frac{15}{2} RT$",
+   "$\\frac{19}{2} RT$",
+   "$11 RT$"
+  ],
+  "sol": "For He (monatomic, $f=3$): $U_1 = n_1 \\frac{f_1}{2} RT = 2 \\times \\frac{3}{2} RT = 3RT$.\nFor $\\text{O}_2$ (diatomic, $f=5$): $U_2 = n_2 \\frac{f_2}{2} RT = 3 \\times \\frac{5}{2} RT = 7.5RT$.\nTotal internal energy $U = U_1 + U_2 = 10.5RT = \\frac{21}{2}RT$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple harmonic motion",
+  "conf": "exact",
+  "stem": "A particle performs simple harmonic motion with amplitude $A$ and time period $T$. The minimum time taken by the particle to travel from $x = A$ to $x = \\frac{A}{2}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{T}{6}$",
+   "$\\frac{T}{12}$",
+   "$\\frac{T}{4}$",
+   "$\\frac{T}{8}$"
+  ],
+  "sol": "Let $x(t) = A \\cos(\\omega t)$. At $t = 0$, $x = A$.\nFor $x = A/2$, $\\cos(\\omega t) = 1/2 \\implies \\omega t = \\pi/3$.\nSince $\\omega = 2\\pi/T$, we have $\\frac{2\\pi}{T} t = \\frac{\\pi}{3} \\implies t = \\frac{T}{6}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "waves",
+  "sub": "speed-of-wave",
+  "sub_name": "Speed of wave",
+  "conf": "exact",
+  "stem": "A steel wire of length $70\\ \\mathrm{cm}$ and mass $14\\ \\mathrm{g}$ is under tension of $80\\ \\mathrm{N}$. The speed of transverse waves on the wire is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$63.2\\ \\mathrm{m/s}$",
+   "$58.5\\ \\mathrm{m/s}$",
+   "$74.8\\ \\mathrm{m/s}$",
+   "$81.4\\ \\mathrm{m/s}$"
+  ],
+  "sol": "Linear mass density $\\mu = \\frac{14 \\times 10^{-3}\\ \\mathrm{kg}}{0.7\\ \\mathrm{m}} = 0.02\\ \\mathrm{kg/m}$.\nWave speed $v = \\sqrt{\\frac{T}{\\mu}} = \\sqrt{\\frac{80}{0.02}} = \\sqrt{4000} \\approx 63.2\\ \\mathrm{m/s}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric field intensity",
+  "conf": "exact",
+  "stem": "An electric dipole of dipole moment $\\vec{p} = (2\u0001\\hat{i} + 3\\hat{j}) \\times 10^{-3}\\ \\mathrm{C\\cdot m}$ is placed in a uniform electric field $\\vec{E} = 3\\hat{i} \\times 10^4\\ \\mathrm{N/C}$. The magnitude of torque experienced by the dipole is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$90\\ \\mathrm{N\\cdot m}$",
+   "$60\\ \\mathrm{N\\cdot m}$",
+   "$30\\ \\mathrm{N\\cdot m}$",
+   "$110\\ \\mathrm{N\\cdot m}$"
+  ],
+  "sol": "Torque $\\vec{\\tau} = \\vec{p} \\times \\vec{E} = [(2\\hat{i} + 3\\hat{j}) \\times 10^{-3}] \\times [3\\hat{i} \\times 10^4] = -90 \\hat{k}\\ \\mathrm{N\\cdot m}$.\nMagnitude of torque is $90\\ \\mathrm{N\\cdot m}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "capacitance",
+  "sub": "combination-of-capacitors",
+  "sub_name": "Combination of capacitors",
+  "conf": "exact",
+  "stem": "Three identical capacitors each of capacitance $C$ are connected in series. Their equivalent capacitance is $C_s$. When they are connected in parallel, their equivalent capacitance is $C_p$. The ratio $\\frac{C_p}{C_s}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "9",
+   "3",
+   "1/3",
+   "1/9"
+  ],
+  "sol": "In series: $C_s = \\frac{C}{3}$.\nIn parallel: $C_p = 3C$.\nRatio $\\frac{C_p}{C_s} = \\frac{3C}{C/3} = 9$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 30
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of resistors",
+  "conf": "exact",
+  "stem": "Ten identical resistors, each of resistance $R$, are first connected in series and then in parallel. The ratio of their equivalent resistance in series to that in parallel is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "100",
+   "10",
+   "1",
+   "0.01"
+  ],
+  "sol": "In series, $R_s = 10R$.\nIn parallel, $R_p = R/10$.\nRatio $\\frac{R_s}{R_p} = \\frac{10R}{R/10} = 100$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a magnetic field",
+  "conf": "exact",
+  "stem": "An electron moving with a velocity $\\vec{v} = (2\\hat{i} + 3\\hat{j})\\ \\mathrm{m/s}$ enters a magnetic field $\\vec{B} = 4\\hat{k}\\ \\mathrm{T}$. The force acting on the electron is (where $e$ is the magnitude of charge on an electron):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$e(-12\\hat{i} + 8\\hat{j})$",
+   "$e(12\\hat{i} - 8\\hat{j})$",
+   "$e(8\\hat{i} + 12\\hat{j})$",
+   "$e(-8\\hat{i} + 12\\hat{j})$"
+  ],
+  "sol": "Magnetic force is $\\vec{F} = q(\\vec{v} \\times \\vec{B}) = -e \\left( (2\\hat{i} + 3\\hat{j}) \\times 4\\hat{k} \\right) = -e (-8\\hat{j} + 12\\hat{i}) = e(-12\\hat{i} + 8\\hat{j})$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "conf": "exact",
+  "stem": "A conducting rod of length $l$ rotates with a uniform angular velocity $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced emf between the ends of the rod is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{1}{2} B\\omega l^2$",
+   "$B\\omega l^2$",
+   "$2 B\\omega l^2$",
+   "$\\frac{1}{4} B\\omega l^2$"
+  ],
+  "sol": "Induced emf across a rotating rod is $e = \\int_0^l (\\omega x) B dx = \\frac{1}{2} B \\omega l^2$.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR series circuit",
+  "conf": "exact",
+  "stem": "In a series LCR circuit, the voltage across resistance, inductance and capacitance are $40\\ \\mathrm{V}$, $80\\ \\mathrm{V}$ and $50\\ \\mathrm{V}$ respectively. The source voltage is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$50\\ \\mathrm{V}$",
+   "$70\\ \\mathrm{V}$",
+   "$90\\ \\mathrm{V}$",
+   "$170\\ \\mathrm{V}$"
+  ],
+  "sol": "Source voltage $V = \\sqrt{V_R^2 + (V_L - V_C)^2} = \\sqrt{40^2 + (80 - 50)^2} = \\sqrt{40^2 + 30^2} = 50\\ \\mathrm{V}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic spectrum",
+  "conf": "exact",
+  "stem": "Arrange the following electromagnetic waves in increasing order of their wavelengths:\n(i) Infrared waves\n(ii) Microwaves\n(iii) Ultraviolet rays\n(iv) X-rays",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "(iv) < (iii) < (i) < (ii)",
+   "(iv) < (iii) < (ii) < (i)",
+   "(iii) < (iv) < (i) < (ii)",
+   "(i) < (ii) < (iii) < (iv)"
+  ],
+  "sol": "In order of increasing wavelength (decreasing frequency/energy): X-rays < Ultraviolet < Infrared < Microwaves. Hence (iv) < (iii) < (i) < (ii).",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "ray-optics",
+  "sub": "refraction-at-spherical-surfaces-and-lenses",
+  "sub_name": "Refraction at spherical surfaces and lenses",
+  "conf": "exact",
+  "stem": "A biconvex lens of focal length $f$ is cut into two equal halves along its principal axis. The focal length of each half will be:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$f$",
+   "$2f$",
+   "$f/2$",
+   "$\\infty$"
+  ],
+  "sol": "Cutting a lens along its principal axis does not change the curvature of the surfaces nor the refractive index. Therefore, the focal length of each half remains $f$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ }
+]

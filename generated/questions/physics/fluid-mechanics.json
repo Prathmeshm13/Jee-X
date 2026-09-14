@@ -90,6 +90,99 @@
         }
       ],
       "solution": "Volume remains conserved: $8 \\times \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi R^3 \\implies R = 2r$.\nTerminal velocity $v_T \\propto r^2$. Therefore, $v' = v \\left(\\frac{R}{r}\\right)^2 = v(2)^2 = 4v$."
+    },
+    {
+      "ref": "PHY-FLU-003",
+      "subtopic": "viscosity-and-terminal-velocity",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A small spherical ball of radius $r$ falls from rest in a viscous liquid. Due to friction, heat is produced. The rate of production of heat when the ball attains terminal velocity is proportional to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$r^5$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$r^4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$r^3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$r^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Rate of heat production (power) is $P = F_v \\cdot v_t = (6\\pi\\eta r v_t) v_t = 6\\pi\\eta r v_t^2$.\nSince terminal velocity $v_t \\propto r^2$,\n$P \\propto r \\cdot (r^2)^2 = r^5$."
+    },
+    {
+      "ref": "PHY-FLU-004",
+      "subtopic": "viscosity-and-terminal-velocity",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A spherical ball of radius $1\text{ mm}$ and density $10.5\text{ g/cm}^3$ is dropped in a column of glycerine of density $1.5\text{ g/cm}^3$ and viscosity $\\eta = 9.8\text{ poise}$. The terminal velocity of the ball is $x \times 10^{-2}\text{ m/s}$. The value of $x$ is: (Take $g = 9.8\text{ m/s}^2$)",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "Terminal velocity $v_t = \frac{2}{9} \frac{r^2 (\rho - \rho_0) g}{\\eta}$.\n$r = 10^{-3}\text{ m}$, $\rho - \rho_0 = (10.5 - 1.5) \times 10^3 = 9 \times 10^3\text{ kg/m}^3$, $\\eta = 9.8\text{ poise} = 0.98\text{ Pa}\times\text{s}$.\n$v_t = \frac{2}{9} \frac{10^{-6} \times 9 \times 10^3 \times 9.8}{0.98} = 2 \times 10^{-3} \times 10 = 2 \times 10^{-2}\text{ m/s}$.\nThus, $x = 2$."
+    },
+    {
+      "ref": "PHY-FLU-005",
+      "subtopic": "viscosity-and-terminal-velocity",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two spherical rain drops of equal size falling through air have steady terminal velocity of $1\\ \\mathrm{cm/s}$. If the two drops coalesce to form a single larger drop, the terminal velocity of the new drop is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$4^{1/3}\\ \\mathrm{cm/s}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$2^{1/3}\\ \\mathrm{cm/s}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2^{2/3}\\ \\mathrm{cm/s}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$4^{2/3}\\ \\mathrm{cm/s}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terminal velocity $v_t \\propto r^2$.\nWhen two drops coalesce, the volume is conserved:\n$\\frac{4}{3}\\pi R^3 = 2 \\times \\frac{4}{3}\\pi r^3 \\implies R = 2^{1/3} r$.\nTherefore, $v_t' \\propto R^2 \\implies v_t' = v_t \\left(\\frac{R}{r}\\right)^2 = 1 \\times (2^{1/3})^2 = 2^{2/3}\\ \\mathrm{cm/s}$."
     }
   ]
 }

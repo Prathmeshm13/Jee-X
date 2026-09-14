@@ -109,6 +109,118 @@
         "max": 25.0
       },
       "solution": "Maximum static frictional force $f_{s,\\text{max}} = \\mu_s N = \\mu_s m g = 0.6 \\times 5 \\times 10 = 30\\ \\mathrm{N}$.\nSince the applied force $F = 25\\ \\mathrm{N}$ is less than $f_{s,\\text{max}} = 30\\ \\mathrm{N}$, the block remains at rest.\nTherefore, static friction adjusts to balance the applied force: $f = F = 25\\ \\mathrm{N}$."
+    },
+    {
+      "ref": "PHY-LOM-004",
+      "subtopic": "friction",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $M$ is pressed against a vertical wall by a horizontal force $F$ such that it does not slide. If the coefficient of static friction between the block and the wall is $\\mu_s$, then the minimum force $F$ required to keep the block stationary is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{Mg}{\\mu_s}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mu_s Mg$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{Mg}{1 + \\mu_s}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{\\mu_s Mg}{1 - \\mu_s}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For equilibrium vertically: $f_s = Mg$.\nAlso, normal force is $N = F$.\nFor no sliding, the static friction must satisfy $f_s \\le \\mu_s N \\Rightarrow Mg \\le \\mu_s F$.\nTherefore, $F \\ge \\frac{Mg}{\\mu_s}$.\nSo the minimum force is $F_{\\text{min}} = \\frac{Mg}{\\mu_s}$."
+    },
+    {
+      "ref": "PHY-LOM-005",
+      "subtopic": "friction",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $2\text{ kg}$ is resting on a rough inclined plane of inclination $30^◦$. If the coefficient of static friction between the block and the plane is $0.7$, the frictional force (in $\text{N}$) acting on the block is: (Take $g = 10\text{ m/s}^2$ and round off to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "Let's check if the block slips. Angle of repose $\theta_r = \tan^{-1}(\nu_s) = \tan^{-1}(0.7) ≈ 35^◦$.\nSince the inclination angle $\theta = 30^◦ < 35^◦$, the block remains at rest.\nTherefore, the static friction force balances the component of gravity down the incline:\n$f_s = mg ∲ = 2 × 10 × ℘(30^◦) = 20 × 0.5 = 10\text{ N}$."
+    },
+    {
+      "ref": "PHY-LOM-006",
+      "subtopic": "friction",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $m$ is sliding down a rough inclined plane of inclination $30^\\circ$ with a constant speed. The coefficient of kinetic friction between the block and the plane is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{1}{\\sqrt{3}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\sqrt{3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{\\sqrt{3}}{2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "When a block slides down with constant speed, the net force along the incline is zero.\n$m g \\sin\\theta = \\mu_k m g \\cos\\theta \\implies \\mu_k = \\tan\\theta$.\nHere, $\\theta = 30^\\circ$, so $\\mu_k = \\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$."
+    },
+    {
+      "ref": "PHY-LOM-007",
+      "subtopic": "friction",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $2 \\mathrm{kg}$ is placed on an inclined plane making an angle of $30^\\circ$ with the horizontal. If the coefficient of static friction between the block and the plane is $0.7$, the frictional force acting on the block is: (Take $g = 10 \\mathrm{m/s^2}$)",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "The component of gravitational force down the incline is $mg\\sin\\theta = 2 \\times 10 \\times \\sin 30^\\circ = 10 \\mathrm{N}$.\nThe maximum possible static friction is $f_{\\text{max}} = \\mu_s mg\\cos\\theta = 0.7 \\times 2 \\times 10 \\times \\cos 30^\\circ = 14 \\times \\frac{\\sqrt{3}}{2} \\approx 12.12 \\mathrm{N}$.\nSince $mg\\sin\\theta < f_{\\text{max}}$, the block remains at rest, and the actual static friction force equals the driving force: $f = mg\\sin\\theta = 10 \\mathrm{N}$."
     }
   ]
 }

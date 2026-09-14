@@ -1,0 +1,59 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Experimental Skills",
+    "slug": "experimental-skills",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 29
+  },
+  "subtopics": [
+    {
+      "slug": "screw-gauge",
+      "name": "Screw Gauge",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-EXP-001",
+      "subtopic": "screw-gauge",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The pitch of a screw gauge is $1 \\mathrm{mm}$ and there are $100$ divisions on the circular scale. When nothing is put in between the jaws, the zero of the circular scale lies $4$ divisions below the reference line. When a wire is placed between the jaws, the main scale reads $2 \\mathrm{mm}$ and circular scale reads $46$ divisions. The measured diameter of the wire in millimeters is $2.x$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 42.0,
+        "max": 42.0
+      },
+      "solution": "Least count $\\text{LC} = \\frac{\\text{Pitch}}{\\text{Number of divisions}} = \\frac{1 \\mathrm{mm}}{100} = 0.01 \\mathrm{mm}$.\nSince the zero of the circular scale lies $4$ divisions below the reference line, there is a positive zero error:\n$\\text{Zero error} = +4 \\times 0.01 = +0.04 \\mathrm{mm}$.\nObserved reading = $\\text{Main Scale Reading} + (\\text{Circular Scale Reading} \\times \\text{LC})$\n$= 2 \\mathrm{mm} + (46 \\times 0.01 \\mathrm{mm}) = 2.46 \\mathrm{mm}$.\nCorrected reading = Observed reading - Zero error = $2.46 - 0.04 = 2.42 \\mathrm{mm}$.\nComparing with $2.x$, we get $x = 42$."
+    },
+    {
+      "ref": "PHY-EXP-002",
+      "subtopic": "screw-gauge",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The pitch of a screw gauge is $1\n\\mathrm{mm}$ and there are $100$ divisions on the circular scale. When nothing is put in between the jaws, the zero of the circular scale lies $4$ divisions below the reference line. When a wire is placed between the jaws, the main scale reads $2\n\\mathrm{mm}$ and the circular scale reads $45$ divisions. The correct diameter of the wire is $x \\times 10^{-2}\n\\mathrm{mm}$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 241.0,
+        "max": 241.0
+      },
+      "solution": "Least count $\\text{LC} = \\text{pitch}/\\text{divisions} = 1\n\\mathrm{mm}/100 = 0.01\n\\mathrm{mm}$.\nZero error: since zero lies $4$ divisions below, the error is positive, $\\text{Zero Error} = +4 \\times 0.01\n\\mathrm{mm} = +0.04\n\\mathrm{mm}$.\nMeasured reading $= \\text{MSR} + \\text{CSR} \\times \\text{LC} = 2\n\\mathrm{mm} + 45 \\times 0.01\n\\mathrm{mm} = 2.45\n\\mathrm{mm}$.\nCorrect reading $= 2.45 - 0.04 = 2.41\n\\mathrm{mm} = 241 \\times 10^{-2}\n\\mathrm{mm}$.\nTherefore, $x = 241$."
+    }
+  ]
+}

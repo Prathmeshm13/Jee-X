@@ -1,0 +1,133 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Ray Optics",
+    "slug": "ray-optics",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 22
+  },
+  "subtopics": [
+    {
+      "slug": "refraction-at-spherical-surfaces-and-lenses",
+      "name": "Refraction at Spherical Surfaces and Lenses",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-RAY-001",
+      "subtopic": "refraction-at-spherical-surfaces-and-lenses",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "A biconvex lens of focal length $f = 20\\text{ cm}$ in air is made of glass of refractive index $1.5$. When it is completely immersed in a liquid of refractive index $1.25$, its focal length becomes ____________ $\\text{cm}$.",
+      "image": null,
+      "answer": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "solution": "By lens maker's formula:\n$\\frac{1}{f_a} = (\\mu_g - 1) \\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right) = (1.5 - 1) K = 0.5 K \\implies K = \\frac{2}{20} = 0.1$.\nIn liquid: $\\frac{1}{f_l} = \\left(\\frac{\\mu_g}{\\mu_l} - 1\\right) K = \\left(\\frac{1.5}{1.25} - 1\\right) 0.1 = (1.2 - 1) 0.1 = 0.02$.\n$f_l = \\frac{1}{0.02} = 50\\text{ cm}$."
+    },
+    {
+      "ref": "PHY-RAY-002",
+      "subtopic": "refraction-at-spherical-surfaces-and-lenses",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "A biconvex lens of refractive index $1.5$ has a focal length of $20\\ \\mathrm{cm}$ in air. When it is completely immersed in water of refractive index $4/3$, its focal length becomes:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$40\\ \\mathrm{cm}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$60\\ \\mathrm{cm}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$80\\ \\mathrm{cm}$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$100\\ \\mathrm{cm}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "From Lens Maker's formula: \n$\\frac{1}{f_{\\mathrm{air}}} = (\\mu_g - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right) = (1.5 - 1)K = 0.5 K \\implies \\frac{1}{20} = 0.5 K \\implies K = 0.1$. \nIn water: \n$\\frac{1}{f_{\\mathrm{water}}} = \\left(\\frac{\\mu_g}{\\mu_w} - 1\\right)K = \\left(\\frac{1.5}{4/3} - 1\\right)(0.1) = \\left(\\frac{9}{8} - 1\\right)(0.1) = \\frac{1}{8} \\times 0.1 = \\frac{1}{80}$. \nThus, $f_{\\mathrm{water}} = 80\\ \\mathrm{cm}$."
+    },
+    {
+      "ref": "PHY-RAY-003",
+      "subtopic": "refraction-at-spherical-surfaces-and-lenses",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A thin double convex lens of focal length $f = 15\\text{ cm}$ is made of glass of refractive index $1.5$. It is immersed in a liquid of refractive index $1.2$. The new focal length of the lens in the liquid is __________ $\\text{cm}$.",
+      "image": null,
+      "answer": {
+        "min": 30.0,
+        "max": 30.0
+      },
+      "solution": "By Lens Maker's Formula: $\\frac{1}{f_a} = (\\mu_g - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right) \\implies \\frac{1}{15} = (1.5 - 1) K = 0.5 K \\implies K = \\frac{2}{15}$.\nIn liquid: $\\frac{1}{f_l} = \\left(\\frac{\\mu_g}{\\mu_l} - 1\\right) K = \\left(\\frac{1.5}{1.2} - 1\\right) K = (1.25 - 1) K = 0.25 K$.\nThus, $\\frac{1}{f_l} = 0.25 \\times \\frac{2}{15} = \\frac{1}{30} \\implies f_l = 30\\text{ cm}$."
+    },
+    {
+      "ref": "PHY-RAY-004",
+      "subtopic": "refraction-at-spherical-surfaces-and-lenses",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "A biconvex lens of focal length $f$ is cut into two identical plano-convex lenses by a plane perpendicular to its principal axis. The focal length of each of the half lenses is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$f$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$2f$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$f/2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4f$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a biconvex lens with equal radii of curvature $R$:\n$\\frac{1}{f} = (\\mu - 1) \\left( \\frac{1}{R} - \\left(-\\frac{1}{R}\\right) \\right) = \\frac{2(\\mu - 1)}{R}$.\nFor each plano-convex lens of radius $R$ and infinity:\n$\\frac{1}{f'} = (\\mu - 1) \\left( \\frac{1}{R} - \\frac{1}{\\infty} \\right) = \\frac{\\mu - 1}{R}$.\nClearly, $\\frac{1}{f'} = \\frac{1}{2f} \\implies f' = 2f$."
+    }
+  ]
+}

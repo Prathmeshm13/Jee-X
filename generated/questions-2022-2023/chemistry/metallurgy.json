@@ -1,0 +1,613 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "General Principles and Processes of Isolation of Metals",
+    "slug": "metallurgy",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 22
+  },
+  "subtopics": [
+    {
+      "slug": "extraction-processes",
+      "name": "Extraction of Metals",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-MET-001",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the extraction of copper, the gas evolved in the bessemerization process which causes pollution and acid rain is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{SO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CO}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the auto-reduction and smelting of copper sulfide ores in the Bessemer converter, sulfur dioxide gas ($\\mathrm{SO_2}$) is released as a byproduct, which is a major contributor to acid rain."
+    },
+    {
+      "ref": "CHEM-MET-002",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following options represents the correct match for the extraction process of metals?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Cyanide process : Au",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Froth floatation process : Al",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Electrolytic reduction : Fe",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Zone refining : Cu",
+          "is_correct": false
+        }
+      ],
+      "solution": "Gold (Au) is extracted by the cyanide process (MacArthur-Forrest cyanide process) via leaching. Aluminium is extracted by electrolysis (Hall-Heroult process), iron by reduction in a blast furnace, and zone refining is used for high purity semiconductors like Si and Ge, while Cu is refined electrolytically."
+    },
+    {
+      "ref": "CHEM-MET-003",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the extraction of copper, the gas evolved during the roasting of sulphide ore which causes global warming and acid rain is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{SO}_2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{H}_2\\mathrm{S}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Roasting of copper pyrites ($2\\mathrm{CuFeS}_2 + 4\\mathrm{O}_2 \\rightarrow \\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{FeO} + 3\\mathrm{SO}_2$) releases large amounts of sulphur dioxide ($\\mathrm{SO}_2$) gas, which is a major contributor to acid rain."
+    },
+    {
+      "ref": "CHEM-MET-004",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the extraction of copper, the reaction taking place in the Bessemer converter (self-reduction) is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Cu_2S + 2Cu_2O \\rightarrow 6Cu + SO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{2FeS + 3O_2 \\rightarrow 2FeO + 2SO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{FeO + SiO_2 \\rightarrow FeSiO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{2CuFeS_2 + O_2 \\rightarrow Cu_2S + 2FeS + SO_2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "During the self-reduction step in the extraction of copper, copper(I) sulfide reacts with copper(I) oxide (formed by partial oxidation of sulfide) to yield blister copper and sulfur dioxide: $\\mathrm{Cu_2S + 2Cu_2O \\rightarrow 6Cu + SO_2}$."
+    },
+    {
+      "ref": "CHEM-MET-005",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "During the extraction of iron in the blast furnace, the flux used and the slag formed are respectively:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CaCO_3}$ and $\\mathrm{CaSiO_3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{SiO_2}$ and $\\mathrm{FeSiO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{CaO}$ and $\\mathrm{CaSiO_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CaCO_3}$ and $\\mathrm{FeSiO_3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Limestone ($\\mathrm{CaCO_3}$) is added as a flux, which decomposes to $\\mathrm{CaO}$. $\\mathrm{CaO}$ reacts with silica impurity ($\\mathrm{SiO_2}$) to form slag, calcium silicate ($\\mathrm{CaSiO_3}$):  \n$\\mathrm{CaO + SiO_2 \\rightarrow CaSiO_3}$."
+    },
+    {
+      "ref": "CHEM-MET-006",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the extraction of copper, the reaction taking place in the Bessemer converter (self-reduction) is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2\\mathrm{CuFeS}_2 + 4\\mathrm{O}_2 \\rightarrow \\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{FeO} + 3\\mathrm{SO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{Cu}_2\\mathrm{O} \\rightarrow 6\\mathrm{Cu} + \\mathrm{SO}_2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{FeS} + \\mathrm{O}_2 \\rightarrow \\mathrm{FeO} + \\mathrm{SO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2\\mathrm{Cu}_2\\mathrm{S} + 3\\mathrm{O}_2 \\rightarrow 2\\mathrm{Cu}_2\\mathrm{O} + 2\\mathrm{SO}_2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The final stage of copper extraction involves self-reduction in the Bessemer converter where unreacted copper sulfide reacts with formed copper oxide:\n$\\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{Cu}_2\\mathrm{O} \\rightarrow 6\\mathrm{Cu} + \\mathrm{SO}_2$."
+    },
+    {
+      "ref": "CHEM-MET-007",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The metal that can be purified by distillation is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Zinc",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Tin",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Lead",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Nickel",
+          "is_correct": false
+        }
+      ],
+      "solution": "Distillation is used for the purification of volatile metals with low boiling points like Zinc ($Zn$), Mercury ($Hg$), and Cadmium ($Cd$). Tin and Lead are purified by liquation."
+    },
+    {
+      "ref": "CHEM-MET-008",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following reactions represents the self-reduction process during the extraction of copper?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\text{FeO} + \\text{SiO}_2 \\rightarrow \\text{FeSiO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\text{Cu}^{2+} + \\text{Fe} \\rightarrow \\text{Fe}^{2+} + \\text{Cu}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2\\text{CuFeS}_2 + 4\\text{O}_2 \\rightarrow \\text{Cu}_2\\text{S} + 2\\text{FeO} + 3\\text{SO}_2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the self-reduction (or auto-reduction) process of copper extraction, the remaining copper sulphide reacts with the copper oxide formed by partial roasting to produce copper metal:\n$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2$."
+    },
+    {
+      "ref": "CHEM-MET-009",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The metal that cannot be obtained by self-reduction of its sulphide ore is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Cu}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Pb}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Hg}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Fe}$",
+          "is_correct": true
+        }
+      ],
+      "solution": "Metals like $\\mathrm{Cu}$, $\\mathrm{Pb}$, and $\\mathrm{Hg}$ can be extracted from their sulphide ores by self-reduction (auto-reduction).\nIron ($\\mathrm{Fe}$) is extracted from its oxide ore using carbon monoxide as a reducing agent in a blast furnace."
+    },
+    {
+      "ref": "CHEM-MET-010",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the metallurgy of copper, the slag formed during smelting process is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{FeSiO}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\text{CaSiO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\text{CuSiO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\text{MgSiO}_3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "During the smelting of copper pyrites, iron oxide ($\\text{FeO}$) acts as a basic impurity and is removed by adding silica (flux, $\\text{SiO}_2$) to form iron silicate slag:\n$\\text{FeO} + \\text{SiO}_2 \\rightarrow \\text{FeSiO}_3$ (slag)."
+    },
+    {
+      "ref": "CHEM-MET-011",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "In the extraction of copper, the gas evolved during roasting of copper pyrites that causes environmental pollution is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{SO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NH_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{H_2S}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Roasting of copper pyrites ($\\mathrm{CuFeS_2}$) involves heating in air, which converts sulfide minerals to oxides and releases large amounts of sulfur dioxide ($\\mathrm{SO_2}$) gas, causing acid rain and air pollution."
+    },
+    {
+      "ref": "CHEM-MET-012",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following reaction is used in the preparation of 'Bubble-free copper' or 'Blister copper'?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\text{CuO} + \\text{CO} \\rightarrow \\text{Cu} + \\text{CO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\text{Cu}^{2+} + \\text{Fe} \\rightarrow \\text{Cu} + \\text{Fe}^{2+}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2\\text{CuFeS}_2 + 4\\text{O}_2 \\rightarrow \\text{Cu}_2\\text{S} + 2\\text{FeO} + 3\\text{SO}_2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Blister copper is produced during the self-reduction of copper sulfide with copper oxide in the Bessemer converter: \n$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2\\uparrow$. \nThe escaping bubbles of $\\text{SO}_2$ gas leave blisters on the surface of the solidified copper."
+    },
+    {
+      "ref": "CHEM-MET-013",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following reactions represents the calcination process?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{ZnCO}_3 \\xrightarrow{\\Delta} \\mathrm{ZnO} + \\mathrm{CO}_2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2\\mathrm{ZnS} + 3\\mathrm{O}_2 \\xrightarrow{\\Delta} 2\\mathrm{ZnO} + 2\\mathrm{SO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{Cu}_2\\mathrm{O} \\xrightarrow{\\Delta} 6\\mathrm{Cu} + \\mathrm{SO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Fe}_2\\mathrm{O}_3 + 3\\mathrm{CO} \\xrightarrow{\\Delta} 2\\mathrm{Fe} + 3\\mathrm{CO}_2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Calcination is the thermal treatment of an ore in the absence or limited supply of air/oxygen to bring about thermal decomposition, typically applied to carbonate ores.\n$\\mathrm{ZnCO}_3 \\xrightarrow{\\Delta} \\mathrm{ZnO} + \\mathrm{CO}_2$ is a classic calcination reaction."
+    },
+    {
+      "ref": "CHEM-MET-014",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "In the extraction of copper, the gas emitted during roasting of copper pyrites that causes acid rain and environmental pollution is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{SO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NH_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{H_2S}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Roasting of copper pyrites ($\\mathrm{CuFeS_2}$) releases sulfur dioxide ($\\mathrm{SO_2}$) gas:\n$2\\mathrm{CuFeS_2} + 4\\mathrm{O_2} \\rightarrow \\mathrm{Cu_2S} + 2\\mathrm{FeO} + 3\\mathrm{SO_2}$.\n$\\mathrm{SO_2}$ is a major pollutant causing acid rain."
+    },
+    {
+      "ref": "CHEM-MET-015",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The electrolyte used in the Hall-Heroult process for the extraction of aluminium is a molten mixture of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Al_2O_3 + Na_3AlF_6 + CaF_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Al_2O_3 + KF + Cryolite}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Al_2O_3 + CaF_2 + NaCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Al_2O_3 + Na_3AlF_6 + NaCl}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the Hall-Heroult process, purified alumina ($\\mathrm{Al_2O_3}$) is dissolved in molten cryolite ($\\mathrm{Na_3AlF_6}$) and fluorspar ($\\mathrm{CaF_2}$) to lower its melting point and increase electrical conductivity."
+    },
+    {
+      "ref": "CHEM-MET-016",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The metal that is purified by Mond's process is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Zr}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Ni}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Ti}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Fe}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Mond's process is used for the refining of nickel ($\\mathrm{Ni}$) by forming volatile nickel tetracarbonyl, $\\mathrm{Ni(CO)_4}$."
+    }
+  ]
+}

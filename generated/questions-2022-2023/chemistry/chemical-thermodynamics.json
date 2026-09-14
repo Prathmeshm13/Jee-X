@@ -1,0 +1,452 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Chemical Thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 6
+  },
+  "subtopics": [
+    {
+      "slug": "thermochemistry",
+      "name": "Thermochemistry and Hess's Law",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-CTD-001",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "At $298\\ \\text{K}$, the standard enthalpy of formation of $\\text{H}_2\\text{O}(l)$ is $-286\\ \\text{kJ}\\ \\text{mol}^{-1}$. The standard enthalpy of combustion of carbon (graphite) is $-393.5\\ \\text{kJ}\\ \\text{mol}^{-1}$ and the standard enthalpy of combustion of liquid ethanol is $-1366.8\\ \\text{kJ}\\ \\text{mol}^{-1}$. The standard enthalpy of formation of liquid ethanol ($\\text{C}_2\\text{H}_5\\text{OH}$) is $-x\\ \\text{kJ}\\ \\text{mol}^{-1}$. The value of $x$ is _______. (Nearest Integer)",
+      "image": null,
+      "answer": {
+        "min": 278.0,
+        "max": 278.0
+      },
+      "solution": "Reaction of combustion of ethanol:\n$\\text{C}_2\\text{H}_5\\text{OH}(l) + 3\\text{O}_2(g) \\rightarrow 2\\text{CO}_2(g) + 3\\text{H}_2\\text{O}(l)$\n$\\Delta H_c^{\\circ} = [2\\Delta_f H^{\\circ}(\\text{CO}_2) + 3\\Delta_f H^{\\circ}(\\text{H}_2\\text{O})] - \\Delta_f H^{\\circ}(\\text{C}_2\\text{H}_5\\text{OH})$\n$-1366.8 = [2(-393.5) + 3(-286.0)] - \\Delta_f H^{\\circ}(\\text{C}_2\\text{H}_5\\text{OH})$\n$-1366.8 = [-787.0 - 858.0] - \\Delta_f H^{\\circ}(\\text{C}_2\\text{H}_5\\text{OH})$\n$-1366.8 = -1645.0 - \\Delta_f H^{\\circ}(\\text{C}_2\\text{H}_5\\text{OH})$\n$\\Delta_f H^{\\circ}(\\text{C}_2\\text{H}_5\\text{OH}) = -1645.0 + 1366.8 = -278.2\\ \\text{kJ}\\ \\text{mol}^{-1}$.\nThus, $x = 278$ (nearest integer)."
+    },
+    {
+      "ref": "CHEM-CTD-002",
+      "subtopic": "thermochemistry",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Given that:\n$$\\mathrm{C}(\\text{graphite}) + \\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}_2(g) \\quad \\Delta H^\\circ = -393.5\\ \\mathrm{kJ\\ mol^{-1}}$$\n$$\\mathrm{CO}(g) + \\frac{1}{2}\\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}_2(g) \\quad \\Delta H^\\circ = -283.0\\ \\mathrm{kJ\\ mol^{-1}}$$\nThe enthalpy of formation of $\\mathrm{CO}(g)$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-110.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$+110.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-676.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$+676.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "We want to find $\\Delta_f H^\\circ$ of $\\mathrm{CO}(g)$:\n$\\mathrm{C}(\\text{graphite}) + \\frac{1}{2}\\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}(g)$\nLet Equation (1): $\\mathrm{C} + \\mathrm{O}_2 \\rightarrow \\mathrm{CO}_2$, $\\Delta H_1 = -393.5\\ \\mathrm{kJ\\ mol^{-1}}$\nLet Equation (2): $\\mathrm{CO} + \\frac{1}{2}\\mathrm{O}_2 \\rightarrow \\mathrm{CO}_2$, $\\Delta H_2 = -283.0\\ \\mathrm{kJ\\ mol^{-1}}$\nSubtracting Eq (2) from Eq (1):\n$\\mathrm{C}(\\text{graphite}) + \\frac{1}{2}\\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}(g)$\n$\\Delta_f H^\\circ = \\Delta H_1 - \\Delta H_2 = -393.5 - (-283.0) = -110.5\\ \\mathrm{kJ\\ mol^{-1}}$."
+    },
+    {
+      "ref": "CHEM-CTD-003",
+      "subtopic": "thermochemistry",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Identify the reaction for which $\\Delta H = \\Delta U$ at constant temperature:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{C(s)} + \\mathrm{O}_2\\mathrm{(g)} \\rightarrow \\mathrm{CO}_2\\mathrm{(g)}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "\\mathrm{PCl}_5\\mathrm{(g)} \\rightarrow \\mathrm{PCl}_3\\mathrm{(g)} + \\mathrm{Cl}_2\\mathrm{(g)}",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "\\mathrm{N}_2\\mathrm{(g)} + 3\\mathrm{H}_2\\mathrm{(g)} \\rightarrow 2\\mathrm{NH}_3\\mathrm{(g)}",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "2\\mathrm{CO(g)} + \\mathrm{O}_2\\mathrm{(g)} \\rightarrow 2\\mathrm{CO}_2\\mathrm{(g)}",
+          "is_correct": false
+        }
+      ],
+      "solution": "We know $\\Delta H = \\Delta U + \\Delta n_g R T$. For $\\Delta H = \\Delta U$, we must have $\\Delta n_g = 0$.\nFor $\\mathrm{C(s)} + \\mathrm{O}_2\\mathrm{(g)} \\rightarrow \\mathrm{CO}_2\\mathrm{(g)}$, $\\Delta n_g = 1 - 1 = 0$. Since carbon is in solid form, only gaseous reactants and products are counted."
+    },
+    {
+      "ref": "CHEM-CTD-004",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction\n$2\\mathrm{H}_2(\\mathrm{g}) + \\mathrm{O}_2(\\mathrm{g}) \\rightarrow 2\\mathrm{H}_2\\mathrm{O}(\\mathrm{l})$\n$\\Delta H^{\\circ} = -572\\ \\mathrm{kJ}$.\nThe heat of decomposition of water per mole (in $\\mathrm{kJ}$) is __________.",
+      "image": null,
+      "answer": {
+        "min": 286.0,
+        "max": 286.0
+      },
+      "solution": "The given thermochemical equation is:\n$2\\mathrm{H}_2(\\mathrm{g}) + \\mathrm{O}_2(\\mathrm{g}) \\rightarrow 2\\mathrm{H}_2\\mathrm{O}(\\mathrm{l}) \\quad \\Delta H^{\\circ} = -572\\ \\mathrm{kJ}$\nFor the decomposition of 2 moles of water:\n$2\\mathrm{H}_2\\mathrm{O}(\\mathrm{l}) \\rightarrow 2\\mathrm{H}_2(\\mathrm{g}) + \\mathrm{O}_2(\\mathrm{g}) \\quad \\Delta H^{\\circ} = +572\\ \\mathrm{kJ}$\nTherefore, the heat of decomposition per mole of water is:\n$\\frac{572}{2} = 286\\ \\mathrm{kJ}$."
+    },
+    {
+      "ref": "CHEM-CTD-005",
+      "subtopic": "thermochemistry",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a chemical reaction $3A + 2B \\rightarrow 5C$, the relation between standard enthalpy change $\\Delta H^{\\circ}$ and standard internal energy change $\\Delta U^{\\circ}$ is given by :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\Delta H^{\\circ} = \\Delta U^{\\circ}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\Delta H^{\\circ} = \\Delta U^{\\circ} + RT$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\Delta H^{\\circ} = \\Delta U^{\\circ} - RT$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\Delta H^{\\circ} = \\Delta U^{\\circ} + 2RT$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Assuming all reactants and products are in the gaseous state:\n$\\Delta n_g = n_p - n_r = 5 - (3+2) = 0$.\nSince $\\Delta H^{\\circ} = \\Delta U^{\\circ} + \\Delta n_g RT$, with $\\Delta n_g = 0$, we get $\\Delta H^{\\circ} = \\Delta U^{\\circ}$."
+    },
+    {
+      "ref": "CHEM-CTD-006",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction $2 \\text{H}_{2}(\\text{g}) + \\text{O}_{2}(\\text{g}) \\rightarrow 2 \\text{H}_{2}\\text{O}(\\text{g})$, the standard enthalpy change, $\\Delta H^{\\circ} = -483.64\\text{ kJ}$. What is the standard internal energy change $\\Delta U^{\\circ}$ for the reaction at $298\\text{ K}$ in $\\text{ kJ}$? (Nearest integer)\n[Given: $R = 8.314\\text{ J K}^{-1}\\text{ mol}^{-1}$]",
+      "image": null,
+      "answer": {
+        "min": -481.0,
+        "max": -481.0
+      },
+      "solution": "$\\Delta n_g = n_p - n_r = 2 - (2+1) = -1$.\n$\\Delta H^{\\circ} = \\Delta U^{\\circ} + \\Delta n_g RT \\implies \\Delta U^{\\circ} = \\Delta H^{\\circ} - \\Delta n_g RT$\n$\\Delta U^{\\circ} = -483.64\\text{ kJ} - (-1) \\times (8.314 \\times 10^{-3}\\text{ kJ K}^{-1}\\text{ mol}^{-1}) \\times 298\\text{ K}$\n$\\Delta U^{\\circ} = -483.64 + 2.478 = -481.16\\text{ kJ}$.\nNearest integer value is $-481$."
+    },
+    {
+      "ref": "CHEM-CTD-007",
+      "subtopic": "thermochemistry",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The enthalpy of combustion of carbon, hydrogen, and sucrose at $298\\ \\mathrm{K}$ are $-393.5\\ \\mathrm{kJ\\ mol^{-1}}$, $-285.8\\ \\mathrm{kJ\\ mol^{-1}}$, and $-5644.0\\ \\mathrm{kJ\\ mol^{-1}}$ respectively. The enthalpy of formation of sucrose $(\\mathrm{C_{12}H_{22}O_{11}})$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-2221.8\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$+2221.8\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-1110.9\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-3122.4\\ \\mathrm{kJ\\ mol^{-1}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Reaction: $12\\mathrm{C(s)} + 11\\mathrm{H_2(g)} + 5.5\\mathrm{O_2(g)} \\rightarrow \\mathrm{C_{12}H_{22}O_{11}(s)}$.\n$\\Delta_f H^{\\circ} = 12\\Delta_c H^{\\circ}(\\mathrm{C}) + 11\\Delta_c H^{\\circ}(\\mathrm{H_2}) - \\Delta_c H^{\\circ}(\\text{sucrose})$\n$= 12(-393.5) + 11(-285.8) - (-5644.0)$\n$= -4722.0 - 3143.8 + 5644.0 = -2221.8\\ \\mathrm{kJ\\ mol^{-1}}$."
+    },
+    {
+      "ref": "CHEM-CTD-008",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction $A(g) \\to B(g)$, the value of the equilibrium constant at $298\\ \\mathrm{K}$ is $100$. The value of standard Gibbs free energy change, $\\Delta G^\\circ$ for the reaction at $298\\ \\mathrm{K}$ is $- X \\times 10^{-1}\\ \\mathrm{kJ\\ mol^{-1}}$. The value of $X$ is _____. (Nearest integer)\n[Use: $R = 8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$, $\\ln 10 = 2.3$]",
+      "image": null,
+      "answer": {
+        "min": 114.0,
+        "max": 114.0
+      },
+      "solution": "$\\Delta G^\\circ = -RT \\ln K = -8.314 \\times 298 \\times \\ln(100) \\ \n= -8.314 \\times 298 \\times 2 \\times 2.3 = -11396.8\\ \\mathrm{J\\ mol^{-1}} = -11.4\\ \\mathrm{kJ\\ mol^{-1}}$.\nComparing with $-X \\times 10^{-1}\\ \\mathrm{kJ\\ mol^{-1}}$:\n$-11.4\\ \\mathrm{kJ\\ mol^{-1}} = -114 \\times 10^{-1}\\ \\mathrm{kJ\\ mol^{-1}} \\implies X = 114$."
+    },
+    {
+      "ref": "CHEM-CTD-009",
+      "subtopic": "thermochemistry",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For a reaction, $\\text{A}(g) \\rightarrow \\text{B}(g)$, the value of equilibrium constant at $300\\ \\text{K}$ is $100$. The value of $\\Delta G^{\\circ}$ for the reaction at the same temperature is:\n(Given: $R = 8.314\\ \\text{J K}^{-1}\\ \\text{mol}^{-1}$)",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-11.5\\ \\text{kJ mol}^{-1}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$-1.15\\ \\text{kJ mol}^{-1}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-115\\ \\text{kJ mol}^{-1}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-2.303\\ \\text{kJ mol}^{-1}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using the relation:\n$\\Delta G^{\\circ} = -2.303 RT \\log_{10} K$\n$\\Delta G^{\\circ} = -2.303 \\times 8.314 \\times 300 \\times \\log_{10}(100)$\n$\\Delta G^{\\circ} = -2.303 \\times 8.314 \\times 300 \\times 2 = -11488.2\\ \\text{J mol}^{-1} \\approx -11.5\\ \\text{kJ mol}^{-1}$."
+    },
+    {
+      "ref": "CHEM-CTD-010",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction $C(s) + O_2(g) \\rightarrow CO_2(g)$, $\\Delta H^{\\circ} = -393\\ \\mathrm{kJ\\ mol^{-1}}$. The amount of heat released when $3.0\\ \\mathrm{g}$ of carbon is burnt in excess oxygen is _________ $\\mathrm{kJ}$. (Round off to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 98.0,
+        "max": 98.0
+      },
+      "solution": "Moles of carbon burnt = $\\frac{3.0}{12.0} = 0.25\\ \\mathrm{mol}$.\nHeat released = $0.25 \\times 393\\ \\mathrm{kJ} = 98.25\\ \\mathrm{kJ}$.\nRounding off to the nearest integer gives $98$."
+    },
+    {
+      "ref": "CHEM-CTD-011",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction\n$2\\mathrm{H}_2(g) + \\mathrm{O}_2(g) \\rightarrow 2\\mathrm{H}_2\\mathrm{O}(g)$;\n$\\Delta H^{\\circ} = -483.6\\ \\mathrm{kJ}$.\nIf the bond enthalpies of $\\mathrm{H}-\\mathrm{H}$ and $\\mathrm{O}=\\mathrm{O}$ bonds are $436\\ \\mathrm{kJ\\ mol^{-1}}$ and $496\\ \\mathrm{kJ\\ mol^{-1}}$ respectively, then the average bond enthalpy of $\\mathrm{O}-\\mathrm{H}$ bond in $\\mathrm{H}_2\\mathrm{O}$ is _________ $\\mathrm{kJ\\ mol^{-1}}$. (Round off to the nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 463.0,
+        "max": 463.0
+      },
+      "solution": "$\\Delta H = \\sum B.E.\\text{(reactants)} - \\sum B.E.\\text{(products)}$\n$-483.6 = [2 \\times B.E.(\\mathrm{H}-\\mathrm{H}) + B.E.(\\mathrm{O}=\\mathrm{O})] - 4 \\times B.E.(\\mathrm{O}-\\mathrm{H})$\n$-483.6 = [2(436) + 496] - 4 \\times B.E.(\\mathrm{O}-\\mathrm{H})$\n$-483.6 = 1368 - 4 \\times B.E.(\\mathrm{O}-\\mathrm{H})$\n$4 \\times B.E.(\\mathrm{O}-\\mathrm{H}) = 1368 + 483.6 = 1851.6$\n$B.E.(\\mathrm{O}-\\mathrm{H}) = 462.9\\ \\mathrm{kJ\\ mol^{-1}} \\approx 463$."
+    },
+    {
+      "ref": "CHEM-CTD-012",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The standard heat of formation of $\\mathrm{U_3O_8(s)}$ is $-3575\\ \\mathrm{kJ\\ mol^{-1}}$ and that of $\\mathrm{UO_2(s)}$ is $-1085\\ \\mathrm{kJ\\ mol^{-1}}$. For the reaction\n$3\\mathrm{UO_2(s)} + \\mathrm{O_2(g)} \\rightarrow \\mathrm{U_3O_8(s)}$\nthe enthalpy change is _________ $\\mathrm{kJ}$.",
+      "image": null,
+      "answer": {
+        "min": -320.0,
+        "max": -320.0
+      },
+      "solution": "$\\Delta H^{\\circ}_{rxn} = \\Delta H^{\\circ}_f(\\mathrm{U_3O_8}) - [3 \\times \\Delta H^{\\circ}_f(\\mathrm{UO_2}) + \\Delta H^{\\circ}_f(\\mathrm{O_2})]$\n$\\Delta H^{\\circ}_{rxn} = -3575 - [3(-1085) + 0]$\n$\\Delta H^{\\circ}_{rxn} = -3575 - (-3255) = -320\\ \\mathrm{kJ}$."
+    },
+    {
+      "ref": "CHEM-CTD-013",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The standard enthalpy of combustion of glucose, $\\mathrm{C_6H_{12}O_6(s)}$ at $298\\ \\mathrm{K}$ is $-2800\\ \\mathrm{kJ\\ mol^{-1}}$. If the standard enthalpies of formation of $\\mathrm{CO_2(g)}$ and $\\mathrm{H_2O(l)}$ are $-393\\ \\mathrm{kJ\\ mol^{-1}}$ and $-286\\ \\mathrm{kJ\\ mol^{-1}}$ respectively, the standard enthalpy of formation of glucose is $-x\\ \\mathrm{kJ\\ mol^{-1}}$. The value of $x$ is ________. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 1274.0,
+        "max": 1274.0
+      },
+      "solution": "Combustion of glucose: $\\mathrm{C_6H_{12}O_6(s)} + 6\\mathrm{O_2(g)} \\rightarrow 6\\mathrm{CO_2(g)} + 6\\mathrm{H_2O(l)}$\n$\\Delta_c H^\\circ = [6\\Delta_f H^\\circ(\\mathrm{CO_2}) + 6\\Delta_f H^\\circ(\\mathrm{H_2O})] - [\\Delta_f H^\\circ(\\mathrm{glucose}) + 0]$\n$-2800 = [6(-393) + 6(-286)] - \\Delta_f H^\\circ(\\mathrm{glucose})$\n$-2800 = [-2358 - 1716] - \\Delta_f H^\\circ(\\mathrm{glucose}) = -4074 - \\Delta_f H^\\circ(\\mathrm{glucose})$\n$\\Delta_f H^\\circ(\\mathrm{glucose}) = -4074 + 2800 = -1274\\ \\mathrm{kJ\\ mol^{-1}}$.\nThus, $x = 1274$."
+    },
+    {
+      "ref": "CHEM-CTD-014",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "Using the following data:\n$\\text{C}(s, \\text{graphite}) + \\text{O}_2(g) \\rightarrow \\text{CO}_2(g); \\Delta H^\\circ = -393.5\\text{ kJ mol}^{-1}$\n$\\text{H}_2(g) + \\frac{1}{2}\\text{O}_2(g) \\rightarrow \\text{H}_2\\text{O}(l); \\Delta H^\\circ = -285.8\\text{ kJ mol}^{-1}$\n$\\text{CO}_2(g) + 2\\text{H}_2\\text{O}(l) \\rightarrow \\text{CH}_4(g) + 2\\text{O}_2(g); \\Delta H^\\circ = +890.3\\text{ kJ mol}^{-1}$\nThe standard enthalpy of formation of $\\text{CH}_4(g)$ is _______ $\\text{kJ mol}^{-1}$. (Nearest integer with sign)",
+      "image": null,
+      "answer": {
+        "min": -75.0,
+        "max": -75.0
+      },
+      "solution": "The formation reaction of methane is: $\\text{C}(s, \\text{graphite}) + 2\\text{H}_2(g) \\rightarrow \\text{CH}_4(g)$.\nWe combine the reactions:\n$\\Delta H_f^\\circ = \\Delta H_1^\\circ + 2\\Delta H_2^\\circ + \\Delta H_3^\\circ$\n$\\Delta H_f^\\circ = -393.5 + 2(-285.8) + 890.3 = -393.5 - 571.6 + 890.3 = -74.8\\text{ kJ mol}^{-1}$.\nRounding to the nearest integer, we get -75."
+    },
+    {
+      "ref": "CHEM-CTD-015",
+      "subtopic": "thermochemistry",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the combustion of one mole of liquid ethanol ($\\mathrm{C_2H_5OH}$) at $298\\ \\mathrm{K}$ to form gaseous carbon dioxide and liquid water, the difference between the enthalpy of reaction ($\\Delta H$) and the change in internal energy ($\\Delta U$) (i.e., $\\Delta H - \\Delta U$) in $\\mathrm{kJ\\ mol^{-1}}$ is (Take $R = 8.314\\ \\mathrm{J\\ K^{-1}\\,mol^{-1}}$):",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-2.48$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$-7.43$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$+2.48$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-4.96$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The balanced chemical equation is:\n$\\mathrm{C_2H_5OH(l) + 3O_2(g) \\rightarrow 2CO_2(g) + 3H_2O(l)}$\n$\\Delta n_g = n_g(\\text{products}) - n_g(\\text{reactants}) = 2 - 3 = -1$.\nSince $\\Delta H - \\Delta U = \\Delta n_g RT$,\n$\\Delta H - \\Delta U = (-1) \\times 8.314 \\times 10^{-3}\\ \\mathrm{kJ\\ K^{-1}\\,mol^{-1}} \\times 298\\ \\mathrm{K} = -2.48\\ \\mathrm{kJ\\ mol^{-1}}$."
+    },
+    {
+      "ref": "CHEM-CTD-016",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction at $298\\text{ K}$,\n$\\text{A}(g) + \\text{B}(g) \\rightarrow \\text{C}(g) + \\text{D}(g)$\n$\\Delta H^\\circ = -29.8\\text{ kJ mol}^{-1}$ and $\\Delta S^\\circ = -0.100\\text{ kJ K}^{-1}\\text{ mol}^{-1}$. The value of $\\Delta G^\\circ$ for the reaction at $298\\text{ K}$ is _______________ $\\text{kJ mol}^{-1}$.",
+      "image": null,
+      "answer": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "solution": "Using $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$:\n$\\Delta G^\\circ = -29.8 - (298 \\times -0.100) = -29.8 + 29.8 = 0$."
+    },
+    {
+      "ref": "CHEM-CTD-017",
+      "subtopic": "thermochemistry",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the combustion of one mole of liquid ethanol ($\\mathrm{C_2H_5OH}$) at $298\\ \\mathrm{K}$ and $1\\ \\mathrm{atm}$ pressure, $\\Delta U = -1364\\ \\mathrm{kJ\\ mol^{-1}}$. The value of enthalpy of combustion, $\\Delta H$, for this reaction is $-x\\ \\mathrm{kJ\\ mol^{-1}}$. The value of $x$ is _________. (Round off to the nearest integer) [Given: $R = 8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$]",
+      "image": null,
+      "answer": {
+        "min": 1366.0,
+        "max": 1366.0
+      },
+      "solution": "Combustion equation: $\\mathrm{C_2H_5OH(l)} + 3\\mathrm{O_2(g)} \\rightarrow 2\\mathrm{CO_2(g)} + 3\\mathrm{H_2O(l)}$\n$\\Delta n_g = n_{p(g)} - n_{r(g)} = 2 - 3 = -1$\n$\\Delta H = \\Delta U + \\Delta n_g RT = -1364 + (-1) \\times 8.314 \\times 10^{-3} \\times 298$\n$\\Delta H = -1364 - 2.477 = -1366.477\\ \\mathrm{kJ\\ mol^{-1}}$\nThus, $x \\approx 1366$."
+    }
+  ]
+}

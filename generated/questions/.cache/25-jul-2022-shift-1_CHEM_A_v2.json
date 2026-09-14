@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is not a common component of photochemical smog?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Ozone",
+   "Acrolein",
+   "Formaldehyde",
+   "Chlorofluorocarbons"
+  ],
+  "sol": "Photochemical smog consists of oxidizing agents like ozone ($O_3$), peroxyacetyl nitrate (PAN), acrolein, and formaldehyde, formed by the action of sunlight on unsaturated hydrocarbons and nitrogen oxides. Chlorofluorocarbons (CFCs) are responsible for ozone depletion in the stratosphere and are not components of photochemical smog.",
+  "key": "D",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the radius of the fourth orbit of hydrogen atom is $R_4$ and the radius of the third orbit of $\\mathrm{He}^+$ ion is $R_3$. The ratio $R_4 : R_3$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "8 : 3",
+   "32 : 9",
+   "16 : 9",
+   "32 : 27"
+  ],
+  "sol": "The radius of $n$-th Bohr orbit is $r_n \\propto \\frac{n^2}{Z}$.\nFor Hydrogen ($Z=1, n=4$): $R_4 \\propto \\frac{4^2}{1} = 16$.\nFor $\\mathrm{He}^+$ ($Z=2, n=3$): $R_3 \\propto \\frac{3^2}{2} = 4.5$.\nRatio $\\frac{R_4}{R_3} = \\frac{16}{9/2} = \\frac{32}{9}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Among the following, the species that is paramagnetic and has a bond order of 1.5 is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O}_2^+$",
+   "$\\mathrm{O}_2^-$",
+   "$\\mathrm{N}_2^+$",
+   "$\\mathrm{O}_2^{2-}$"
+  ],
+  "sol": "$\\mathrm{O}_2^-$ has $17$ electrons.\nConfiguration: $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1})$.\nIt contains $1$ unpaired electron (hence paramagnetic).\nBond Order = $\\frac{N_b - N_a}{2} = \\frac{10 - 7}{2} = 1.5$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "A $2\\%$ (w/v) aqueous solution of a non-volatile non-electrolyte solute $A$ has the same osmotic pressure as an aqueous solution of urea (mol. mass $= 60\\ \\mathrm{g\\ mol}^{-1}$) containing $0.6\\ \\mathrm{g}$ of urea in $100\\ \\mathrm{mL}$ of solution at the same temperature. The molecular mass of solute $A$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$120\\ \\mathrm{g\\ mol}^{-1}$",
+   "$200\\ \\mathrm{g\\ mol}^{-1}$",
+   "$60\\ \\mathrm{g\\ mol}^{-1}$",
+   "$180\\ \\mathrm{g\\ mol}^{-1}$"
+  ],
+  "sol": "Since osmotic pressures are equal (isotonic) at the same temperature, molarities must be equal:\n$C_A = C_{\\text{urea}}$\n$C_A = \\frac{2\\ \\mathrm{g}}{M_A \\times 100\\ \\mathrm{mL}}$\n$C_{\\text{urea}} = \\frac{0.6\\ \\mathrm{g}}{60 \\times 100\\ \\mathrm{mL}}$\nTherefore, $\\frac{2}{M_A} = \\frac{0.6}{60} \\implies M_A = 200\\ \\mathrm{g\\ mol}^{-1}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivities of $\\mathrm{KCl}$, $\\mathrm{KNO}_3$, and $\\mathrm{AgNO}_3$ are $149.9$, $145.0$, and $133.4\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$ respectively at $298\\ \\mathrm{K}$. The limiting molar conductivity of $\\mathrm{AgCl}$ at this temperature is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$138.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$",
+   "$118.5\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$",
+   "$238.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$",
+   "$328.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$"
+  ],
+  "sol": "By Kohlrausch's law:\n$\\Lambda_m^\\circ(\\mathrm{AgCl}) = \\Lambda_m^\\circ(\\mathrm{AgNO}_3) + \\Lambda_m^\\circ(\\mathrm{KCl}) - \\Lambda_m^\\circ(\\mathrm{KNO}_3)$\n$\\Lambda_m^\\circ(\\mathrm{AgCl}) = 133.4 + 149.9 - 145.0 = 138.3\\ \\mathrm{S\\ cm}^2\\ \\mathrm{mol}^{-1}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-Lives",
+  "conf": "exact",
+  "stem": "For a first order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the time required for $90\\%$ completion of the reaction. The value of $x$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "sol": "For first order reaction:\n$t_{99\\%} = \\frac{2.303}{k} \\log \\frac{100}{100-99} = \\frac{2.303}{k} \\log 100 = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log \\frac{100}{100-90} = \\frac{2.303}{k} \\log 10 = \\frac{2.303}{k} \\times 1$\nThus, $t_{99\\%} = 2 \\times t_{90\\%}$, so $x = 2$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction Processes of Metals",
+  "conf": "exact",
+  "stem": "In the extraction of copper, the gas evolved during the roasting of sulphide ore which causes global warming and acid rain is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CO}_2$",
+   "$\\mathrm{SO}_2$",
+   "$\\mathrm{NO}_2$",
+   "$\\mathrm{H}_2\\mathrm{S}$"
+  ],
+  "sol": "Roasting of copper pyrites ($2\\mathrm{CuFeS}_2 + 4\\mathrm{O}_2 \\rightarrow \\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{FeO} + 3\\mathrm{SO}_2$) releases large amounts of sulphur dioxide ($\\mathrm{SO}_2$) gas, which is a major contributor to acid rain.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Compounds of Alkali Metals",
+  "conf": "exact",
+  "stem": "Which of the following alkali metal hydrogen carbonates is least soluble in water?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{LiHCO}_3$",
+   "$\\mathrm{NaHCO}_3$",
+   "$\\mathrm{KHCO}_3$",
+   "$\\mathrm{RbHCO}_3$"
+  ],
+  "sol": "$\\mathrm{NaHCO}_3$ is relatively less soluble in water than other alkali metal bicarbonates (except $\\mathrm{LiHCO}_3$ which exists only in solution state and does not form a solid easily; among the isolated solid hydrogen carbonates, $\\mathrm{NaHCO}_3$ has very low solubility, which is why it precipitates out in the Solvay process).",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "The correct order of reducing character of group 15 hydrides is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{NH}_3 > \\mathrm{PH}_3 > \\mathrm{AsH}_3 > \\mathrm{SbH}_3 > \\mathrm{BiH}_3$",
+   "$\\mathrm{NH}_3 < \\mathrm{PH}_3 < \\mathrm{AsH}_3 < \\mathrm{SbH}_3 < \\mathrm{BiH}_3$",
+   "$\\mathrm{PH}_3 > \\mathrm{NH}_3 > \\mathrm{AsH}_3 > \\mathrm{SbH}_3 > \\mathrm{BiH}_3$",
+   "$\\mathrm{BiH}_3 < \\mathrm{SbH}_3 < \\mathrm{AsH}_3 < \\mathrm{PH}_3 < \\mathrm{NH}_3$"
+  ],
+  "sol": "Down the group, thermal stability of the hydrides decreases due to an increase in $M-H$ bond length (decrease in bond dissociation enthalpy). Consequently, the reducing character increases down the group: $\\mathrm{NH}_3 < \\mathrm{PH}_3 < \\mathrm{AsH}_3 < \\mathrm{SbH}_3 < \\mathrm{BiH}_3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids and Actinoids",
+  "conf": "exact",
+  "stem": "Which of the following lanthanoid ions is/are diamagnetic?\n(Atomic numbers: $\\mathrm{Ce} = 58$, $\\mathrm{Nd} = 60$, $\\mathrm{Eu} = 63$, $\\mathrm{Yb} = 70$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce}^{4+}$ and $\\mathrm{Yb}^{2+}$",
+   "$\\mathrm{Ce}^{4+}$ only",
+   "$\\mathrm{Eu}^{2+}$ and $\\mathrm{Yb}^{2+}$",
+   "$\\mathrm{Nd}^{3+}$ and $\\mathrm{Ce}^{4+}$"
+  ],
+  "sol": "$\\mathrm{Ce}^{4+}$ has the stable electronic configuration $[\\mathrm{Xe}] 4f^0$, which contains zero unpaired electrons (diamagnetic).\n$\\mathrm{Yb}^{2+}$ has the electronic configuration $[\\mathrm{Xe}] 4f^{14}$, which has a fully-filled $f$-shell and zero unpaired electrons (diamagnetic).",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The number of geometrical isomers possible for the complex $\\left[\\mathrm{Pt}(\\mathrm{NH}_3)(\\mathrm{NH}_2\\mathrm{OH})(\\mathrm{py})(\\mathrm{NO}_2)\\right]^+$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "2",
+   "3",
+   "4",
+   "6"
+  ],
+  "sol": "The complex is of the square planar type $[\\mathrm{Mabcd}]$, where $a, b, c, d$ are four different monodentate ligands. A square planar complex of type $[\\mathrm{Mabcd}]$ has $3$ geometrical isomers (by fixing one ligand and varying the trans position of the other three).",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\mathrm{PCl}_5(g) \\rightleftharpoons \\mathrm{PCl}_3(g) + \\mathrm{Cl}_2(g)$$\nthe forward reaction is favoured by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "introducing an inert gas at constant volume",
+   "introducing chlorine gas at constant volume",
+   "introducing an inert gas at constant pressure",
+   "increasing the pressure of the system"
+  ],
+  "sol": "The reaction shows an increase in the number of moles of gas ($\\Delta n_g = 2 - 1 = 1 > 0$).\n- Adding inert gas at constant pressure increases the volume, shifting the equilibrium to the side with more moles of gas (forward direction).\n- Inert gas at constant volume has no effect.\n- Increasing pressure shifts it to the left (less moles).\n- Adding product $\\mathrm{Cl}_2$ shifts it to the left.",
+  "key": "C",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Characterisation of Organic Compounds",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for the detection of nitrogen in an organic compound, the Prussian blue colour is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe}_3[\\mathrm{Fe}(\\mathrm{CN})_6]_4$",
+   "$\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$",
+   "$\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_2$",
+   "$\\mathrm{Fe}_3[\\mathrm{Fe}(\\mathrm{CN})_6]_2$"
+  ],
+  "sol": "In Lassaigne's test, the sodium extract is treated with $\\mathrm{FeSO}_4$ and then acidified with $\\mathrm{HCl}$. Prussian blue colour is due to ferric ferrocyanide (Iron(III) hexacyanoferrate(II)), which is represented as $\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "Which of the following compounds has the highest acidic strength?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Phenol",
+   "p-Nitrophenol",
+   "m-Nitrophenol",
+   "p-Cresol"
+  ],
+  "sol": "The nitro group ($-NO_2$) is a strong electron-withdrawing group showing $-M$ and $-I$ effects. In $p$-nitrophenol, the $-M$ effect of the $-NO_2$ group strongly stabilizes the phenoxide ion formed after deprotonation. In $m$-nitrophenol, only the $-I$ effect is active. $p$-Cresol has an electron-donating methyl group ($+I$, hyperconjugation) which destabilizes the conjugate base. Thus, $p$-nitrophenol is the most acidic.",
+  "key": "B",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Chemical Properties of Alkynes",
+  "conf": "exact",
+  "stem": "The major product of the following reaction is:\n$$\\mathrm{CH}_3-\\mathrm{C}\\equiv\\mathrm{CH} \\xrightarrow{\\mathrm{Hg}^{2+}/\\mathrm{H}^+} \\text{Product}$$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CHO}$",
+   "$\\mathrm{CH}_3\\mathrm{COCH}_3$",
+   "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{OH}$",
+   "$\\mathrm{CH}_3\\mathrm{CH(OH)CH}_3$"
+  ],
+  "sol": "Hydration of propyne ($\\mathrm{CH}_3-\\mathrm{C}\\equiv\\mathrm{CH}$) in the presence of dilute $\\mathrm{H}_2\\mathrm{SO}_4$ and $\\mathrm{HgSO}_4$ (Kucherov's reaction) follows Markovnikov's rule to give an unstable enol intermediate [$\\mathrm{CH}_3-\\mathrm{C(OH)}=\\mathrm{CH}_2$] which tautomerizes to acetone (propanone, $\\mathrm{CH}_3\\mathrm{COCH}_3$).",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Among the following, the one which is most reactive towards nucleophilic substitution ($\\mathrm{S_N2}$) reaction is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$",
+   "$(\\mathrm{CH}_3)_3\\mathrm{C-Cl}$",
+   "$(\\mathrm{CH}_3)_2\\mathrm{CH-Cl}$",
+   "$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH(Cl)CH}_3$"
+  ],
+  "sol": "The reactivity of alkyl halides towards $\\mathrm{S_N2}$ mechanism decreases with increasing steric hindrance: Primary ($1^\\circ$) > Secondary ($2^\\circ$) > Tertiary ($3^\\circ$).\n$\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Cl}$ is a straight-chain $1^\\circ$ alkyl halide, hence it is the most reactive towards $\\mathrm{S_N2}$ substitution.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Carbonyl Compounds",
+  "conf": "exact",
+  "stem": "An organic compound 'A' on treatment with $\\mathrm{O}_3$ followed by $\\mathrm{Zn/H}_2\\mathrm{O}$ gives formaldehye and 2-methylpropanal. Compound 'A' is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "3-Methylbut-1-ene",
+   "2-Methylbut-2-ene",
+   "2-Methylbut-1-ene",
+   "Pent-2-ene"
+  ],
+  "sol": "The reductive ozonolysis products are formaldehyde ($\\mathrm{HCHO}$) and 2-methylpropanal (($\\mathrm{CH}_3)_2\\mathrm{CH-CHO}$).\nTo find compound 'A', join the carbonyl carbons with a double bond:\n$(\\mathrm{CH}_3)_2\\mathrm{CH-CH}=\\mathrm{CH}_2$\nThis is 3-methylbut-1-ene.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a copolymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Buna-S",
+   "Nylon 6",
+   "Polythene",
+   "Neoprene"
+  ],
+  "sol": "A copolymer is formed from more than one monomer species. Buna-S is prepared by the copolymerization of 1,3-butadiene and styrene. Polythene (ethene), Nylon-6 (caprolactam), and Neoprene (chloroprene) are homopolymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "The deficiency of vitamin $B_1$ causes which of the following diseases?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Scurvy",
+   "Cheilosis",
+   "Beri-beri",
+   "Rickets"
+  ],
+  "sol": "Deficiency of vitamin $\\mathrm{B}_1$ (thiamine) causes Beri-beri. Vitamin C deficiency causes scurvy, vitamin $\\mathrm{B}_2$ causes cheilosis, and vitamin D causes rickets.",
+  "key": "C",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Chemicals in Medicines",
+  "conf": "exact",
+  "stem": "Terfenadine is commonly used as a/an:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Antidepressant",
+   "Antihistamine",
+   "Analgesic",
+   "Antiseptic"
+  ],
+  "sol": "Terfenadine (Seldane) is a synthetic drug commonly used as an antihistamine (anti-allergy drug) because it competes with histamine for binding at the receptor sites.",
+  "key": "B",
+  "diff": 2,
+  "secs": 20
+ }
+]

@@ -91,7 +91,7 @@ class SubjectBreakdown(BaseModel):
 
 
 class TestAttemptIn(BaseModel):
-    test_type: str = "free_diagnostic"
+    test_type: Literal["free_diagnostic", "full_mock"] = "free_diagnostic"
     score: int
     total_questions: int
     accuracy: float
@@ -122,3 +122,93 @@ class TestAttemptOut(BaseModel):
     avg_time_seconds: float
     subject_breakdown: dict
     created_at: datetime
+
+
+# ---------------------------------------------------------------------------
+# Subject-wise tests: content catalog, test creation, submission/grading.
+# ---------------------------------------------------------------------------
+
+
+class SubjectOut(BaseModel):
+    code: str
+    name: str
+    chapter_count: int
+    published_question_count: int
+
+
+class ChapterOut(BaseModel):
+    id: int
+    name: str
+    slug: str
+    class_level: str
+    position: int
+    published_question_count: int
+
+
+class SubjectTestCreate(BaseModel):
+    subject_code: Literal["PHY", "CHEM", "MATH"]
+    chapter_id: int | None = None
+    count: int = 10
+
+    @field_validator("count")
+    @classmethod
+    def count_in_range(cls, v: int) -> int:
+        if not (1 <= v <= 30):
+            raise ValueError("count must be between 1 and 30.")
+        return v
+
+
+class TestOptionOut(BaseModel):
+    id: int
+    label: str
+    content: str
+
+
+class TestQuestionOut(BaseModel):
+    question_id: int
+    ref: str
+    type: str
+    stem: str
+    passage: str | None = None
+    options: list[TestOptionOut]
+    marks_correct: int
+    marks_wrong: int
+
+
+class SubjectTestOut(BaseModel):
+    attempt_id: int
+    test_id: int
+    title: str
+    subject_code: str
+    duration_sec: int
+    questions: list[TestQuestionOut]
+
+
+class SubjectTestAnswerIn(BaseModel):
+    question_id: int
+    option_ids: list[int] = []
+    numeric_answer: float | None = None
+    time_taken_sec: int = 0
+
+
+class SubjectTestSubmitIn(BaseModel):
+    answers: list[SubjectTestAnswerIn]
+
+
+class QuestionResultOut(BaseModel):
+    question_id: int
+    ref: str
+    outcome: str
+    marks_awarded: int
+    correct_option_ids: list[int]
+    solution: str
+
+
+class SubjectTestResultOut(BaseModel):
+    attempt_id: int
+    score: int
+    total_questions: int
+    accuracy: float
+    avg_time_seconds: float
+    subject_breakdown: dict
+    questions: list[QuestionResultOut]

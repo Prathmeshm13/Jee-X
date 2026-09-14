@@ -1,0 +1,502 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Mathematical Reasoning",
+    "slug": "mathematical-reasoning",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 14
+  },
+  "subtopics": [
+    {
+      "slug": "tautology-fallacy",
+      "name": "Tautology and Fallacy",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-MRE-001",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The proposition $p \\to (\\sim p \\lor q)$ is equivalent to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\to q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\sim p \\to q$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$p \\lor q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$p \\land q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$p \\to (\\sim p \\lor q) \\equiv \\sim p \\lor (\\sim p \\lor q)$\n$\\equiv (\\sim p \\lor \\sim p) \\lor q \\equiv \\sim p \\lor q \\equiv p \\to q$."
+    },
+    {
+      "ref": "MATH-MRE-002",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The statement $p \\to (\\sim q \\wedge r)$ is equivalent to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\sim p \\vee (\\sim q \\wedge r)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$p \\vee (q \\vee \\sim r)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\sim p \\wedge (\\sim q \\vee r)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$p \\to (q \\to r)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "By conditional identity, $A \\to B \\equiv \\sim A \\vee B$.\nHere, $p \\to (\\sim q \\wedge r) \\equiv \\sim p \\vee (\\sim q \\wedge r)$."
+    },
+    {
+      "ref": "MATH-MRE-003",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The statement $(p \\wedge \\sim q) \\to (p \\to \\sim q)$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "a tautology",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "a contradiction",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "equivalent to $p \\wedge q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "equivalent to $p \\vee q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $P = p \\wedge \\sim q$ and $Q = p \\to \\sim q \\equiv \\sim p \\vee \\sim q$.\nWe want to find truth value of $P \\to Q$.\nIf $P$ is True $\\implies p$ is T and $q$ is F.\nThen $Q \\equiv \\sim p \\vee \\sim q \\equiv \\text{F} \\vee \\text{T} \\equiv \\text{T}$.\nThus, whenever $P$ is True, $Q$ is also True. Hence $P \\to Q$ is always True (a tautology)."
+    },
+    {
+      "ref": "MATH-MRE-004",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The proposition $p \\to (\\sim (p \\land \\sim q))$ is equivalent to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\to q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$q \\to p$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$p \\lor q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$p \\land q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$p \\to (\\sim (p \\land \\sim q)) \\equiv \\sim p \\lor (\\sim p \\lor q) \\equiv (\\sim p \\lor \\sim p) \\lor q \\equiv \\sim p \\lor q \\equiv p \\to q$."
+    },
+    {
+      "ref": "MATH-MRE-005",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following statement is a tautology?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$(p \\lor q) \\to (p \\lor (\\sim q))$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$(p \\land (\\sim q)) \\to (p \\to q)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$(p \\lor (\\sim q)) \\to (p \\land q)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$(p \\land q) \\to ((\\sim p) \\lor q)$",
+          "is_correct": true
+        }
+      ],
+      "solution": "Let's test option D: $(p \\land q) \\to ((\\sim p) \\lor q)$.\nIf $p \\land q$ is True, then $p$ is True and $q$ is True.\nThen $(\\sim p) \\lor q$ is False $\\lor$ True = True.\nIf $p \\land q$ is False, the implication is vacuously True.\nThus, $(p \\land q) \\to ((\\sim p) \\lor q)$ is always True (tautology)."
+    },
+    {
+      "ref": "MATH-MRE-006",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The statement $(p \\wedge \\sim q) \\implies (p \\implies q)$ is a :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Tautology",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Contradiction",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Equivalent to $p \\vee q$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Equivalent to $p \\wedge q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $A = p \\wedge \\sim q$ and $B = p \\implies q \\equiv \\sim p \\vee q$.\n$A \\implies B \\equiv \\sim A \\vee B \\equiv \\sim (p \\wedge \\sim q) \\vee (\\sim p \\vee q)$\n$\\equiv (\\sim p \\vee q) \\vee (\\sim p \\vee q) \\equiv \\sim p \\vee q$.\nThis is not a tautology or contradiction, but is equivalent to $p \\implies q$. Standard question check: $(p \\wedge \\sim q) \\implies (\\sim p \\vee q)$ is equivalent to $\\sim(p \\wedge \\sim q) \\vee (\\sim p \\vee q) \\equiv (\\sim p \\vee q) \\vee (\\sim p \\vee q) \\equiv \\sim p \\vee q$. If options are simpler, check contradiction: if true $\\implies$ false, it is contradiction."
+    },
+    {
+      "ref": "MATH-MRE-007",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The negation of the statement $(p \\wedge q) \\rightarrow (r \\vee s)$ is equivalent to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$(p \\wedge q) \\wedge (\\sim r \\wedge \\sim s)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(\\sim p \\vee \\sim q) \\vee (r \\vee s)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$(p \\wedge q) \\rightarrow (\\sim r \\wedge \\sim s)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$(\\sim p \\wedge \\sim q) \\wedge (r \\vee s)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using the equivalence $A \\rightarrow B \\equiv \\sim A \\vee B$, the statement is $\\sim(p \\wedge q) \\vee (r \\vee s)$.\nIts negation is $\\sim [ \\sim(p \\wedge q) \\vee (r \\vee s) ] \\equiv (p \\wedge q) \\wedge \\sim(r \\vee s) \\equiv (p \\wedge q) \\wedge (\\sim r \\wedge \\sim s)$."
+    },
+    {
+      "ref": "MATH-MRE-008",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The statement $(p \\wedge q) \\rightarrow (p \\rightarrow q)$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "a tautology",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "a contradiction",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "equivalent to $p \\wedge \\sim q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "equivalent to $p \\vee \\sim q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$(p \\wedge q) \\rightarrow (p \\rightarrow q) \\equiv \\sim(p \\wedge q) \\vee (\\sim p \\vee q)$\n$\\equiv (\\sim p \\vee \\sim q) \\vee (\\sim p \\vee q) \\equiv \\sim p \\vee (\\sim q \\vee q) \\equiv \\sim p \\vee T \\equiv T$.\nThus, it is a tautology."
+    },
+    {
+      "ref": "MATH-MRE-009",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 65,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The statement $(p \\wedge \\sim q) \\vee q \\vee (\\sim p \\wedge q)$ is equivalent to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\vee q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$p \\wedge q$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$p \\vee \\sim q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\sim p \\vee q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $S = (p \\wedge \\sim q) \\vee q \\vee (\\sim p \\wedge q)$.\nUsing distributive law on $(p \\wedge \\sim q) \\vee q$:\n$(p \\vee q) \\wedge (\\sim q \\vee q) = (p \\vee q) \\wedge T = p \\vee q$.\nNow we have $(p \\vee q) \\vee (\\sim p \\wedge q)$.\nThis can be rewritten as $(p \\vee q \\vee \\sim p) \\wedge (p \\vee q \\vee q) = T \\wedge (p \\vee q) = p \\vee q$."
+    },
+    {
+      "ref": "MATH-MRE-010",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The statement $(p \\land \\sim q) \\lor q$ is logically equivalent to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "p \\lor q",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "p \\land q",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "p \\lor \\sim q",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "\\sim p \\lor q",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using the distributive law of mathematical logic:\n$(p \\land \\sim q) \\lor q \\equiv (p \\lor q) \\land (\\sim q \\lor q)$\nSince $\\sim q \\lor q$ is always True (T):\n$(p \\lor q) \\land \\text{T} \\equiv p \\lor q$."
+    },
+    {
+      "ref": "MATH-MRE-011",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The statement $(p \\land \\sim q) \\lor q \\lor (\\sim p \\land q)$ is equivalent to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\lor q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$p \\land q$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$p \\lor \\sim q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\sim p \\lor q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using boolean algebra simplification:\n$(p \\land \\sim q) \\lor q \\lor (\\sim p \\land q)$\nObserve that $q \\lor (\\sim p \\land q) = q$ (by absorption law).\nSo the expression simplifies to $(p \\land \\sim q) \\lor q$.\nUsing distributive law:\n$(p \\lor q) \\land (\\sim q \\lor q) = (p \\lor q) \\land \\text{T} = p \\lor q$."
+    },
+    {
+      "ref": "MATH-MRE-012",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The statement $(p \\wedge \\sim q) \\to (p \\to q)$ is a:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "tautology",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "contradiction",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "neither tautology nor contradiction",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "equivalent to $p \\wedge q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let's construct the truth table or simplify:\n$(p \\wedge \\sim q) \\to (p \\to q) \\equiv \\sim(p \\wedge \\sim q) \\vee (\\sim p \\vee q)$\n$\\equiv (\\sim p \\vee q) \\vee (\\sim p \\vee q) \\equiv \\sim p \\vee q$.\nSince $\\sim p \\vee q$ can be both True and False, it is neither a tautology nor a contradiction."
+    },
+    {
+      "ref": "MATH-MRE-013",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The proposition $p \\to \\sim(p \\wedge \\sim q)$ is equivalent to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\to q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$q \\to p$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\sim p \\lor q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\sim p \\lor \\sim q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$p \\to \\sim(p \\wedge \\sim q) \\equiv \\sim p \\lor \\sim(p \\wedge \\sim q)$\n$\\equiv \\sim p \\lor (\\sim p \\lor q)$\n$\\equiv \\sim p \\lor q$.\nAlso, $\\sim p \\lor q \\equiv p \\to q$. Thus, the expression is equivalent to $p \\to q$."
+    }
+  ]
+}

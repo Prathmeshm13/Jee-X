@@ -109,6 +109,118 @@
         }
       ],
       "solution": "The peak voltage is $V_0 = \\sqrt{2} V_{\\mathrm{rms}} = 220\\sqrt{2}\\ \\mathrm{V}$.\nThe average voltage over a half-cycle starting from zero is $V_{\\mathrm{avg}} = \\frac{2V_0}{\\pi} = \\frac{440\\sqrt{2}}{\\pi}\\ \\mathrm{V}$. Over the other half, it is $-\\frac{440\\sqrt{2}}{\\pi}\\ \\mathrm{V}$."
+    },
+    {
+      "ref": "PHY-ACC-004",
+      "subtopic": "lcr-series-circuit",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a series LCR resonance circuit, if the value of inductance $L$ is doubled and capacitance $C$ is halved, the resonant frequency will:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "remain unchanged",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "become double",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "become half",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "become four times",
+          "is_correct": false
+        }
+      ],
+      "solution": "The resonant frequency of a series LCR circuit is given by $\\omega_0 = \\frac{1}{\\sqrt{LC}}$.\nIf $L' = 2L$ and $C' = C/2$, then the new resonant frequency is:\n$\\omega_0' = \\frac{1}{\\sqrt{(2L)(C/2)}} = \\frac{1}{\\sqrt{LC}} = \\omega_0$.\nThus, the resonant frequency remains unchanged."
+    },
+    {
+      "ref": "PHY-ACC-005",
+      "subtopic": "lcr-series-circuit",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a series $LCR$ circuit, the resonant frequency is $800\text{ Hz}$. The half-power points are obtained at frequencies $740\text{ Hz}$ and $860\text{ Hz}$. The quality factor ($Q$-factor) of the circuit, rounded off to two decimal places, is:",
+      "image": null,
+      "answer": {
+        "min": 7.0,
+        "max": 7.0
+      },
+      "solution": "The bandwidth $\\Delta f = f_2 - f_1 = 860 - 740 = 120\text{ Hz}$.\nThe quality factor is $Q = \frac{f_r}{\\Delta f} = \frac{800}{120} = \frac{20}{3} ≈ 6.67$."
+    },
+    {
+      "ref": "PHY-ACC-006",
+      "subtopic": "lcr-series-circuit",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a series LCR resonance circuit, if the value of inductance $L$ is doubled and capacitance $C$ is halved, the resonant frequency will:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "remain unchanged",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "become doubled",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "become halved",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "become four times",
+          "is_correct": false
+        }
+      ],
+      "solution": "Resonant frequency $\\omega_0 = \\frac{1}{\\sqrt{LC}}$.\nNew frequency $\\omega_0' = \\frac{1}{\\sqrt{(2L)(C/2)}} = \\frac{1}{\\sqrt{LC}} = \\omega_0$.\nThus, the resonant frequency remains unchanged."
+    },
+    {
+      "ref": "PHY-ACC-007",
+      "subtopic": "lcr-series-circuit",
+      "type": "numerical",
+      "difficulty": 2,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "An AC source of variable frequency is connected across a series LCR circuit with $L = 10 \\mathrm{mH}$, $C = 1 \\mu\\mathrm{F}$, and $R = 100 \\Omega$. The source frequency (in $\\mathrm{rad/s}$) at which the current in the circuit is maximum is $\\omega_0 = 10^x \\mathrm{rad/s}$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Maximum current occurs at resonance frequency $\\omega_0 = \\frac{1}{\\sqrt{LC}}$.\nGiven $L = 10^{-2} \\mathrm{H}$ and $C = 10^{-6} \\mathrm{F}$.\n$\\omega_0 = \\frac{1}{\\sqrt{10^{-2} \\times 10^{-6}}} = \\frac{1}{\\sqrt{10^{-8}}} = 10^4 \\mathrm{rad/s}$.\nComparing with $10^x$, we find $x = 4$."
     }
   ]
 }

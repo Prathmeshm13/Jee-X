@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in the $n^{\\mathrm{th}}$ orbit of $H$-atom is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$n^2$",
+   "$n^3$",
+   "$n$",
+   "$n^{1/2}$"
+  ],
+  "sol": "The time period of an electron in orbit is $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto n^2$ and velocity $v \\propto \\frac{1}{n}$, we have $T \\propto \\frac{n^2}{1/n} = n^3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Amongst the following, the species that is paramagnetic and has a bond order of $1.5$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2^+}$",
+   "$\\mathrm{O_2^-}$",
+   "$\\mathrm{N_2^+}$",
+   "$\\mathrm{N_2^-}$"
+  ],
+  "sol": "For $\\mathrm{O_2^-}$, the total number of electrons is 17. The molecular orbital configuration is $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} \\pi_{2p_y}^{*1})$. It has one unpaired electron, so it is paramagnetic. Bond order = $\\frac{10 - 7}{2} = 1.5$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "At $298\\ \\mathrm{K}$, the standard enthalpies of formation of $\\mathrm{Al_2O_3(s)}$ and $\\mathrm{Fe_2O_3(s)}$ are $-1675\\ \\mathrm{kJ\\ mol^{-1}}$ and $-824\\ \\mathrm{kJ\\ mol^{-1}}$ respectively. For the reaction: $$2\\mathrm{Al(s)} + \\mathrm{Fe_2O_3(s)} \\rightarrow 2\\mathrm{Fe(s)} + \\mathrm{Al_2O_3(s)}$$ the standard reaction enthalpy $\\Delta_r H^\\circ$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-851\\ \\mathrm{kJ}$",
+   "$+851\\ \\mathrm{kJ}$",
+   "$-2499\\ \\mathrm{kJ}$",
+   "$+2499\\ \\mathrm{kJ}$"
+  ],
+  "sol": "$\\Delta_r H^\\circ = \\Delta_f H^\\circ[\\mathrm{Al_2O_3(s)}] - \\Delta_f H^\\circ[\\mathrm{Fe_2O_3(s)}] = -1675 - (-824) = -851\\ \\mathrm{kJ}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$, the forward reaction is favored by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "introducing an inert gas at constant volume",
+   "introducing chlorine gas at constant volume",
+   "introducing an inert gas at constant pressure",
+   "increasing the pressure at constant temperature"
+  ],
+  "sol": "At constant pressure, introducing an inert gas increases the volume, shifting the equilibrium towards the side with more moles of gas (forward direction for $\\Delta n_g > 0$).",
+  "key": "C",
+  "diff": 3,
+  "secs": 55
+ },
+ {
+  "ch": "ionic-equilibrium",
+  "sub": "solubility-product",
+  "sub_name": "Solubility Product and Common Ion Effect",
+  "conf": "exact",
+  "stem": "The solubility product of $\\mathrm{BaSO_4}$ in water is $1.0 \\times 10^{-10}$ at $298\\ \\mathrm{K}$. The solubility of $\\mathrm{BaSO_4}$ in $0.1\\ \\mathrm{M}$ $\\mathrm{N_a2SO_4}$ solution is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1.0 \\times 10^{-9}\\ \\mathrm{M}$",
+   "$1.0 \\times 10^{-5}\\ \\mathrm{M}$",
+   "$1.0 \\times 10^{-4}\\ \\mathrm{M}$",
+   "$1.0 \\times 10^{-8}\\ \\mathrm{M}$"
+  ],
+  "sol": "$\\mathrm{BaSO_4(s) \\rightleftharpoons Ba^{2+}(aq) + SO_4^{2-}(aq)}$. In $0.1\\ \\mathrm{M}$ $\\mathrm{Na_2SO_4}$, $[\\mathrm{SO_4^{2-}}] \\approx 0.1\\ \\mathrm{M}$. Thus, $K_{sp} = [\\mathrm{Ba^{2+}}][\\mathrm{SO_4^{2-}}] \\implies 1.0 \\times 10^{-10} = S \\times 0.1 \\implies S = 1.0 \\times 10^{-9}\\ \\mathrm{M}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "An aqueous solution containing $3\\ \\mathrm{g}$ of a non-volatile solute in $90\\ \\mathrm{g}$ of water boiled at $100.15^\\circ\\mathrm{C}$ at $1\\ \\mathrm{atm}$ pressure. (Take $K_b$ of water $= 0.5\\ \\mathrm{K\\ kg\\ mol^{-1}}$). The molecular mass of the solute is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$111\\ \\mathrm{g\\ mol^{-1}}$",
+   "$222\\ \\mathrm{g\\ mol^{-1}}$",
+   "$55.5\\ \\mathrm{g\\ mol^{-1}}$",
+   "$100\\ \\mathrm{g\\ mol^{-1}}$"
+  ],
+  "sol": "$\\Delta T_b = 100.15 - 100 = 0.15\\ ^\\circ\\mathrm{C}$. Using $\\Delta T_b = K_b \\times m = K_b \\times \\frac{w_B \\times 1000}{M_B \\times w_A}$, we get $0.15 = 0.5 \\times \\frac{3 \\times 1000}{M_B \\times 90} \\implies 0.15 = \\frac{50}{3 M_B} \\implies M_B = \\frac{50}{0.45} \\approx 111\\ \\mathrm{g\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivities of $\\mathrm{KCl}$, $\\mathrm{KNO_3}$ and $\\mathrm{AgNO_3}$ are $149.9$, $145.0$ and $133.4\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. The limiting molar conductivity of $\\mathrm{AgCl}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$138.3\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$128.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$142.4\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$258.3\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$"
+  ],
+  "sol": "By Kohlrausch's law, $\\Lambda_m^\\circ(\\mathrm{AgCl}) = \\Lambda_m^\\circ(\\mathrm{AgNO_3}) + \\Lambda_m^\\circ(\\mathrm{KCl}) - \\Lambda_m^\\circ(\\mathrm{KNO_3}) = 133.4 + 149.9 - 145.0 = 138.3\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-life",
+  "conf": "exact",
+  "stem": "For a first order reaction, the ratio of time required for $99.9\\%$ completion to that required for $50\\%$ completion of the reaction is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$10$",
+   "$5$",
+   "$2$",
+   "$4$"
+  ],
+  "sol": "$t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100 - 99.9}\\right) = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k}$. $t_{50\\%} = \\frac{2.303}{k} \\log(2) = 0.301 \\times \\frac{2.303}{k}$. Therefore, $\\frac{t_{99.9\\%}}{t_{50\\%}} = \\frac{3}{0.301} \\approx 10$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction of Metals",
+  "conf": "exact",
+  "stem": "Which of the following methods is used for the refining of Nickel?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Mond's process",
+   "Van Arkel process",
+   "Zone refining",
+   "Liquation"
+  ],
+  "sol": "Nickel is refined using the Mond's process, which involves forming volatile nickel tetracarbonyl $\\mathrm{Ni(CO)_4}$ and decomposing it.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "The metal that produces a bright crimson red colour in the flame test is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Lithium",
+   "Sodium",
+   "Potassium",
+   "Rubidium"
+  ],
+  "sol": "Lithium gives a crimson red colour, Sodium gives yellow, Potassium gives violet/lilac, and Rubidium gives reddish-violet.",
+  "key": "A",
+  "diff": 1,
+  "secs": 25
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Among the oxides of nitrogen, the one which is a blue solid at low temperatures and acidic in nature is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{N_2O_3}$",
+   "$\\mathrm{N_2O}$",
+   "$\\mathrm{NO_2}$",
+   "$\\mathrm{N_2O_5}$"
+  ],
+  "sol": "$\\mathrm{N_2O_3}$ is dinitrogen trioxide. It is an acidic oxide and exists as a blue solid at low temperatures.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The element with the electronic configuration $[\\mathrm{Xe}] 4f^7 5d^1 6s^2$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Gadolinium",
+   "Europium",
+   "Terbium",
+   "Dysprosium"
+  ],
+  "sol": "Gadolinium (atomic number $64$) has the electronic configuration $[\\mathrm{Xe}] 4f^7 5d^1 6s^2$ to maintain a stable half-filled $4f^7$ subshell.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The types of isomerism shown by the complex $[\\mathrm{Co(NH_3)_5(NO_2)}]\\mathrm{Cl_2}$ are:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Linkage and Ionization isomerism",
+   "Ionization and Coordination isomerism",
+   "Linkage and Geometrical isomerism",
+   "Geometrical and Optical isomerism"
+  ],
+  "sol": "The ligand $\\mathrm{NO_2^-}$ is ambidentate, so it shows linkage isomerism ($\\mathrm{-NO_2}$ vs $\\mathrm{-ONO}$). It can also interchange with chloride ions in the outer sphere to form $[\\mathrm{Co(NH_3)_5Cl}]\\mathrm{Cl(NO_2)}$, showing ionization isomerism.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The primary contributor to the greenhouse effect in the atmosphere among the following gases is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Water vapour",
+   "Carbon dioxide",
+   "Methane",
+   "Ozone"
+  ],
+  "sol": "While carbon dioxide is highly discussed, water vapour is the primary and most abundant natural contributor to the greenhouse effect.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Detection and Estimation of Elements",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for the detection of nitrogen, the blue colouration is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+   "$\\mathrm{Na_4[Fe(CN)_6]}$",
+   "$\\mathrm{Fe(CNS)_3}$"
+  ],
+  "sol": "Prussian blue color in Lassaigne's test is due to the formation of ferriferrocyanide, which is $\\mathrm{Fe_4[Fe(CN)_6]_3}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct order of acidic strength of the following substituted phenols is:\n(I) $p$-nitrophenol\n(II) $p$-cresol\n(III) $p$-chlorophenol\n(IV) phenol",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "I > III > IV > II",
+   "I > IV > III > II",
+   "II > IV > III > I",
+   "IV > III > I > II"
+  ],
+  "sol": "$-\\mathrm{NO_2}$ is strongly electron-withdrawing ($-M, -I$), which highly increases acidity. $-\\mathrm{Cl}$ is electron-withdrawing via $-I$, increasing acidity compared to phenol. $-\\mathrm{CH_3}$ in $p$-cresol is electron-donating ($+I$, hyperconjugation), which decreases acidity. Hence: I > III > IV > II.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$ at $333\\ \\mathrm{K}$, the major product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Acetone",
+   "Propanal",
+   "Propanol",
+   "Propene"
+  ],
+  "sol": "Hydration of propyne (Kucherov reaction) gives $\\mathrm{CH_3-C(OH)=CH_2}$ as the intermediate, which tautomerizes to acetone ($\\mathrm{CH_3-CO-CH_3}$).",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution",
+  "conf": "exact",
+  "stem": "Which of the following compounds will undergo nucleophilic substitution ($S_N1$) reaction fastest?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Allyl chloride",
+   "n-Propyl chloride",
+   "Isopropyl chloride",
+   "Chlorobenzene"
+  ],
+  "sol": "$S_N1$ reactivity depends on carbocation stability. Allyl chloride forms the allyl carbocation ($\\mathrm{CH_2=CH-CH_2^+}$), which is resonance stabilized and hence formed very rapidly.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "The reaction of benzaldehyde with concentrated $\\mathrm{NaOH}$ solution followed by acid hydrolysis gives:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Benzyl alcohol and Benzoic acid",
+   "Benzophenone and Sodium benzoate",
+   "Benzyl alcohol and Phenol",
+   "Benzene and Sodium benzoate"
+  ],
+  "sol": "This is Cannizzaro reaction. Benzaldehyde (having no $\\alpha$-hydrogen) undergoes self-redox to yield benzyl alcohol (reduced product) and sodium benzoate, which on acidification gives benzoic acid.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "The deficiency of which of the following vitamins causes Cheilosis?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin $\\mathrm{B_2}$",
+   "Vitamin $\\mathrm{B_1}$",
+   "Vitamin $\\mathrm{B_6}$",
+   "Vitamin $\\mathrm{B_{12}}$"
+  ],
+  "sol": "Deficiency of Vitamin $\\mathrm{B_2}$ (Riboflavin) causes Cheilosis (fissuring at the corners of the mouth and lips).",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ }
+]

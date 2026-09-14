@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The secondary pollutant among the following is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{SO}_2$",
+   "$\\mathrm{NO}_2$",
+   "$\\mathrm{O}_3$",
+   "$\\mathrm{CO}$"
+  ],
+  "sol": "Primary pollutants are emitted directly from sources (e.g., $\\mathrm{SO}_2$, $\\mathrm{NO}_2$, $\\mathrm{CO}$). Ozone ($\\mathrm{O}_3$) is a secondary pollutant formed in the atmosphere through photochemical reactions of primary pollutants like nitrogen oxides and volatile organic compounds.",
+  "key": "C",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "The minimum energy required to excite a hydrogen atom from its ground state to its first excited state is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$13.6\\ \\mathrm{eV}$",
+   "$3.4\\ \\mathrm{eV}$",
+   "$10.2\\ \\mathrm{eV}$",
+   "$1.51\\ \\mathrm{eV}$"
+  ],
+  "sol": "Energy of $n$-th state of hydrogen atom is given by $E_n = -\\frac{13.6}{n^2}\\ \\mathrm{eV}$.\nFor ground state ($n=1$): $E_1 = -13.6\\ \\mathrm{eV}$.\nFor first excited state ($n=2$): $E_2 = -3.4\\ \\mathrm{eV}$.\nRequired excitation energy $\\Delta E = E_2 - E_1 = -3.4 - (-13.6) = 10.2\\ \\mathrm{eV}$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Among the following, the species that is paramagnetic is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{N}_2$",
+   "$\\mathrm{O}_2^{2-}$",
+   "$\\mathrm{B}_2$",
+   "$\\mathrm{O}_2^{2+}$"
+  ],
+  "sol": "According to Molecular Orbital Theory:\n- $\\mathrm{B}_2$ has 10 electrons: $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} (\\pi_{2p_x}^1 = \\pi_{2p_y}^1)$. It has 2 unpaired electrons, so it is paramagnetic.\n- $\\mathrm{N}_2$ (14 $e^-$), $\\mathrm{O}_2^{2-}$ (18 $e^-$), and $\\mathrm{O}_2^{2+}$ (14 $e^-$) are diamagnetic because all of their electrons are paired.",
+  "key": "C",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals and Their Properties",
+  "conf": "exact",
+  "stem": "The metal that produces a bright crimson red colour in flame emission spectroscopy is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Lithium",
+   "Sodium",
+   "Potassium",
+   "Rubidium"
+  ],
+  "sol": "During the flame test, alkali metal salts impart characteristic colours to the flame:\n- Lithium ($\\mathrm{Li}$): Crimson red\n- Sodium ($\\mathrm{Na}$): Golden yellow\n- Potassium ($\\mathrm{K}$): Pale violet/Lilac\n- Rubidium ($\\mathrm{Rb}$): Red-violet",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The elevation in boiling point for $1\\ \\mathrm{m}$ aqueous solution of glucose is $0.52\\ \\mathrm{K}$. The depression in freezing point for $2\\ \\mathrm{m}$ aqueous solution of glucose will be: (Given $K_f = 1.86\\ \\mathrm{K\\ kg\\ mol^{-1}}$, $K_b = 0.52\\ \\mathrm{K\\ kg\\ mol^{-1}}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$1.86\\ \\mathrm{K}$",
+   "$3.72\\ \\mathrm{K}$",
+   "$0.93\\ \\mathrm{K}$",
+   "$5.58\\ \\mathrm{K}$"
+  ],
+  "sol": "Using the formulas for colligative properties:\n$\\Delta T_b = K_b \\times m \\implies 0.52 = 0.52 \\times 1$, which is consistent.\nFor the freezing point depression of a $2\\mathrm{m}$ solution:\n$\\Delta T_f = K_f \\times m = 1.86 \\times 2 = 3.72\\ \\mathrm{K}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half Life",
+  "conf": "exact",
+  "stem": "For a first order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the half-life ($t_{1/2}$) of the reaction. The value of $x$ is (nearest integer):",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2$",
+   "$5$",
+   "$7$",
+   "$10$"
+  ],
+  "sol": "For first order kinetics:\n$t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-y}\\right)$\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{4.606}{k}$\n$t_{1/2} = \\frac{0.693}{k}$\n$x = \\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.65 \\approx 7$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction and Refining Processes",
+  "conf": "exact",
+  "stem": "In the extraction of copper, the reaction taking place in the Bessemer converter (self-reduction) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$2\\mathrm{CuFeS}_2 + 4\\mathrm{O}_2 \\rightarrow \\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{FeO} + 3\\mathrm{SO}_2$",
+   "$\\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{Cu}_2\\mathrm{O} \\rightarrow 6\\mathrm{Cu} + \\mathrm{SO}_2$",
+   "$\\mathrm{FeS} + \\mathrm{O}_2 \\rightarrow \\mathrm{FeO} + \\mathrm{SO}_2$",
+   "$2\\mathrm{Cu}_2\\mathrm{S} + 3\\mathrm{O}_2 \\rightarrow 2\\mathrm{Cu}_2\\mathrm{O} + 2\\mathrm{SO}_2$"
+  ],
+  "sol": "The final stage of copper extraction involves self-reduction in the Bessemer converter where unreacted copper sulfide reacts with formed copper oxide:\n$\\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{Cu}_2\\mathrm{O} \\rightarrow 6\\mathrm{Cu} + \\mathrm{SO}_2$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains P-P single bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Pyrophosphoric acid",
+   "Hypophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_6$) contains a P-P bond, with the structural formula $(\\mathrm{HO})_2\\mathrm{OP}-\\mathrm{PO}(\\mathrm{OH})_2$. In contrast, pyrophosphoric acid ($\\mathrm{H}_4\\mathrm{P}_2\\mathrm{O}_7$) contains a P-O-P linkage.",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids and Actinoids",
+  "conf": "exact",
+  "stem": "The electronic configuration of Europium (Eu, $Z=63$) in ground state is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$[\\mathrm{Xe}]\\ 4f^7\\ 6s^2$",
+   "$[\\mathrm{Xe}]\\ 4f^6\\ 5d^1\\ 6s^2$",
+   "$[\\mathrm{Xe}]\\ 4f^8\\ 6s^1$",
+   "$[\\mathrm{Xe}]\\ 4f^7\\ 5d^1\\ 6s^1$"
+  ],
+  "sol": "Europium ($Z = 63$) achieves extra stability due to a half-filled $f$-subshell. Its ground-state electronic configuration is $[\\mathrm{Xe}]\\ 4f^7\\ 6s^2$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 30
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The complex $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]\\mathrm{Cl}$ can show:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "only geometrical isomerism",
+   "only optical isomerism",
+   "both geometrical and optical isomerism",
+   "neither geometrical nor optical isomerism"
+  ],
+  "sol": "The coordination complex $[\\mathrm{Co}(\\mathrm{en})_2\\mathrm{Cl}_2]^+$ exhibits geometrical isomerism having cis- and trans- forms. The cis- isomer is chiral (non-superimposable on its mirror image) and is optically active, while the trans- isomer is achiral (meso). Thus, it shows both geometrical and optical isomerism.",
+  "key": "C",
+  "diff": 4,
+  "secs": 60
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct order of acidic strength of the following substituted phenols is:\n(I) Phenol \n(II) p-Nitrophenol \n(III) m-Nitrophenol \n(IV) p-Methylphenol",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "II > III > I > IV",
+   "IV > I > III > II",
+   "II > I > III > IV",
+   "III > II > I > IV"
+  ],
+  "sol": "- Nitro group is electron-withdrawing. At para-position (II), it exerts both $-I$ and $-M$ effects. At meta-position (III), it exerts only $-I$ effect. Thus, II > III.\n- Methyl group (IV) is electron-donating via $+I$ and hyperconjugation, decreasing acidity relative to phenol (I).\n- Hence, the acidic strength order is: II > III > I > IV.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Detection and Estimation of Elements",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for nitrogen, the blue colouration is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$",
+   "$\\mathrm{Na}_4[\\mathrm{Fe}(\\mathrm{CN})_6]$",
+   "$\\mathrm{Fe}[\\mathrm{Fe}(\\mathrm{CN})_6]$",
+   "$\\mathrm{Fe}_3[\\mathrm{Fe}(\\mathrm{CN})_6]_2$"
+  ],
+  "sol": "During the Lassaigne's test for nitrogen, sodium fusion extract containing cyanide reacts with iron(II) sulfate followed by oxidation/acidification to form Prussian blue, which is ferriferrocyanide, $\\mathrm{Fe}_4[\\mathrm{Fe}(\\mathrm{CN})_6]_3$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "Which of the following hydrocarbons will react with ammoniacal silver nitrate solution to give a white precipitate?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "But-1-yne",
+   "But-2-yne",
+   "But-1-ene",
+   "Butane"
+  ],
+  "sol": "Ammoniacal silver nitrate (Tollens' reagent) reacts only with terminal alkynes (which possess an acidic acetylenic hydrogen) to form silver acetylides (white precipitate). But-1-yne ($\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{C\\equiv CH}$) is a terminal alkyne, whereas But-2-yne is an internal alkyne.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "The correct order of reactivity of the following alkyl halides towards $\\mathrm{S_N2}$ reaction is:\n(I) $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{Br}$\n(II) $(\\mathrm{CH}_3)_2\\mathrm{CHCH}_2\\mathrm{Br}$\n(III) $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}(\\mathrm{CH}_3)\\mathrm{Br}$\n(IV) $(\\mathrm{CH}_3)_3\\mathrm{CBr}$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "I > II > III > IV",
+   "IV > III > II > I",
+   "I > III > II > IV",
+   "II > I > III > IV"
+  ],
+  "sol": "$\\mathrm{S_N2}$ reactivity depends heavily on steric hindrance around the leaving group carbon:\n- (I) $1^\\circ$ unbranched: least hindered, fastest.\n- (II) $1^\\circ$ with branch at $\\beta$-carbon: more hindered than (I).\n- (III) $2^\\circ$ halide: highly hindered.\n- (IV) $3^\\circ$ halide: extremely hindered, negligible rate.\nThus, reactivity order: I > II > III > IV.",
+  "key": "A",
+  "diff": 3,
+  "secs": 55
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Benzaldehyde on reaction with concentrated $\\mathrm{NaOH}$ solution followed by acidification yields:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Benzyl alcohol and Sodium benzoate",
+   "Benzophenone and Sodium benzoate",
+   "Benzoic acid and Benzyl alcohol",
+   "Benzyl alcohol only"
+  ],
+  "sol": "Benzaldehyde does not contain any $\\alpha$-hydrogen. On heating with concentrated alkali, it undergoes Cannizzaro reaction (self-redox) to produce benzyl alcohol (reduction product) and sodium benzoate (oxidation product). After acidification, benzoic acid is formed from sodium benzoate.",
+  "key": "C",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of Vitamin $B_{12}$ causes which of the following diseases?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Pernicious anaemia",
+   "Scurvy",
+   "Rickets",
+   "Cheilosis"
+  ],
+  "sol": "- Vitamin $\\mathrm{B}_{12}$ deficiency causes Pernicious anaemia (RBC deficiency).\n- Vitamin C deficiency causes Scurvy.\n- Vitamin D deficiency causes Rickets.\n- Vitamin $\\mathrm{B}_2$ (Riboflavin) deficiency causes Cheilosis.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a copolymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Buna-S",
+   "Polythene",
+   "PVC",
+   "Teflon"
+  ],
+  "sol": "Copolymers are polymers derived from more than one species of monomer.\n- Buna-S is prepared from 1,3-butadiene and styrene monomers.\n- Polythene, PVC, and Teflon are homopolymers containing only one type of monomer.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Which among the following is a tranquilizer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Valium",
+   "Prontosil",
+   "Terfenadine",
+   "Salvarsan"
+  ],
+  "sol": "- Valium (Diazepam) is a widely used tranquilizer (neurologically active drug used for anxiety).\n- Prontosil and Salvarsan are antimicrobials.\n- Terfenadine is an antihistamine.",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\mathrm{N}_2(g) + 3\\mathrm{H}_2(g) \\rightleftharpoons 2\\mathrm{NH}_3(g) \\quad \\Delta H < 0$$\nWhich of the following conditions will shift the equilibrium to the right?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing temperature and decreasing pressure",
+   "Decreasing temperature and increasing pressure",
+   "Decreasing temperature and decreasing pressure",
+   "Increasing temperature and increasing pressure"
+  ],
+  "sol": "According to Le Chatelier's principle:\n1) Since the reaction is exothermic ($\\Delta H < 0$), decreasing temperature shifts the equilibrium in the forward direction (to the right).\n2) The forward reaction occurs with a decrease in the number of gaseous moles (from 4 to 2). Thus, increasing pressure shifts the equilibrium to the side with fewer moles (forward/right).",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "Given that:\n$$\\mathrm{C}(\\text{graphite}) + \\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}_2(g) \\quad \\Delta H^\\circ = -393.5\\ \\mathrm{kJ\\ mol^{-1}}$$\n$$\\mathrm{CO}(g) + \\frac{1}{2}\\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}_2(g) \\quad \\Delta H^\\circ = -283.0\\ \\mathrm{kJ\\ mol^{-1}}$$\nThe enthalpy of formation of $\\mathrm{CO}(g)$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-110.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$+110.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$-676.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$+676.5\\ \\mathrm{kJ\\ mol^{-1}}$"
+  ],
+  "sol": "We want to find $\\Delta_f H^\\circ$ of $\\mathrm{CO}(g)$:\n$\\mathrm{C}(\\text{graphite}) + \\frac{1}{2}\\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}(g)$\nLet Equation (1): $\\mathrm{C} + \\mathrm{O}_2 \\rightarrow \\mathrm{CO}_2$, $\\Delta H_1 = -393.5\\ \\mathrm{kJ\\ mol^{-1}}$\nLet Equation (2): $\\mathrm{CO} + \\frac{1}{2}\\mathrm{O}_2 \\rightarrow \\mathrm{CO}_2$, $\\Delta H_2 = -283.0\\ \\mathrm{kJ\\ mol^{-1}}$\nSubtracting Eq (2) from Eq (1):\n$\\mathrm{C}(\\text{graphite}) + \\frac{1}{2}\\mathrm{O}_2(g) \\rightarrow \\mathrm{CO}(g)$\n$\\Delta_f H^\\circ = \\Delta H_1 - \\Delta H_2 = -393.5 - (-283.0) = -110.5\\ \\mathrm{kJ\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ }
+]

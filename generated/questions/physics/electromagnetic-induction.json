@@ -109,6 +109,99 @@
         "max": 4.0
       },
       "solution": "The induced emf in a rotating rod is given by $e = \\frac{1}{2} B \\omega L^2$.\nGiven $B = 2\\ \\mathrm{T}$, $\\omega = 4\\ \\mathrm{rad/s}$, and $L = 1\\ \\mathrm{m}$.\n$e = \\frac{1}{2} \\times 2 \\times 4 \\times 1^2 = 4\\ \\mathrm{V}$."
+    },
+    {
+      "ref": "PHY-EMI-004",
+      "subtopic": "motional-emf",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A conducting rod of length $l$ is rotated with a constant angular velocity $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced electromotive force between the ends of the rod is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{1}{2} B \\omega l^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$B \\omega l^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2} B \\omega^2 l$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{3}{2} B \\omega l^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The induced emf in a rotating rod of length $l$ about one end is:\n$e = \\int_0^l v B \\, \\mathrm{d}r = \\int_0^l (\\omega r) B \\, \\mathrm{d}r = B \\omega \\left[ \\frac{r^2}{2} \\right]_0^l = \\frac{1}{2} B \\omega l^2$."
+    },
+    {
+      "ref": "PHY-EMI-005",
+      "subtopic": "motional-emf",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A metallic rod of length $l$ is rotated with a constant angular speed $\\omega$ about an axis passing through one end and perpendicular to its length, in a uniform magnetic field $B$ parallel to the axis of rotation. The induced emf between the ends of the rod is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{1}{2} B \\omega l^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$B \\omega l^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2} B^2 \\omega l$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{4} B \\omega l^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The induced emf is given by integrating $de = B v dr = B (\\omega r) dr$ from $0$ to $l$.\n$e = B \\omega \\int_{0}^{l} r dr = \\frac{1}{2} B \\omega l^2$."
+    },
+    {
+      "ref": "PHY-EMI-006",
+      "subtopic": "motional-emf",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A metallic rod of length $1 \\mathrm{m}$ is rotated with a frequency of $10 \\mathrm{Hz}$ about an axis passing through its one end and perpendicular to its length, in a uniform magnetic field of $0.1 \\mathrm{T}$ directed perpendicular to the plane of rotation. The induced emf between the ends of the rod is $\\frac{\\pi}{x} \\mathrm{V}$. The value of $x$ is:",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "The induced emf in a rotating rod is given by $\\varepsilon = \\frac{1}{2} B \\omega L^2$.\nHere, $L = 1 \\mathrm{m}$, $B = 0.1 \\mathrm{T}$, and $f = 10 \\mathrm{Hz} \\implies \\omega = 2\\pi f = 20\\pi \\mathrm{rad/s}$.\n$\\varepsilon = \\frac{1}{2} \\times 0.1 \\times 20\\pi \\times 1^2 = \\pi \\mathrm{V}$.\nComparing with $\\frac{\\pi}{x}$, we get $x = 1$."
     }
   ]
 }

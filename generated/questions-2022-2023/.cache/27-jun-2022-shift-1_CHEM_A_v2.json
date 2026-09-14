@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in the $n^{\\text{th}}$ orbit of $H$-atom is proportional to :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$n^2$",
+   "$n^3$",
+   "$n$",
+   "$\\frac{1}{n^2}$"
+  ],
+  "sol": "The time period $T$ of an electron revolving in $n^{\\text{th}}$ orbit is given by $T = \\frac{2\\pi r_n}{v_n}$.\nSince radius $r_n \\propto \\frac{n^2}{Z}$ and velocity $v_n \\propto \\frac{Z}{n}$.\nThus, $T \\propto \\frac{n^2}{n^{-1}} = n^3$.\nFor hydrogen ($Z=1$), $T \\propto n^3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Which of the following molecules/species is most stable?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{O}_2$",
+   "$\\text{O}_2^+$",
+   "$\\text{O}_2^-$",
+   "$\\text{O}_2^{2-}$"
+  ],
+  "sol": "Stability is directly proportional to the bond order.\nBond orders: $\\text{O}_2 = 2.0$, $\\text{O}_2^+ = 2.5$, $\\text{O}_2^- = 1.5$, $\\text{O}_2^{2-} = 1.0$.\nSince $\\text{O}_2^+$ has the highest bond order (2.5), it is the most stable species.",
+  "key": "B",
+  "diff": 2,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "For a chemical reaction $3A + 2B \\rightarrow 5C$, the relation between standard enthalpy change $\\Delta H^{\\circ}$ and standard internal energy change $\\Delta U^{\\circ}$ is given by :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\Delta H^{\\circ} = \\Delta U^{\\circ}$",
+   "$\\Delta H^{\\circ} = \\Delta U^{\\circ} + RT$",
+   "$\\Delta H^{\\circ} = \\Delta U^{\\circ} - RT$",
+   "$\\Delta H^{\\circ} = \\Delta U^{\\circ} + 2RT$"
+  ],
+  "sol": "Assuming all reactants and products are in the gaseous state:\n$\\Delta n_g = n_p - n_r = 5 - (3+2) = 0$.\nSince $\\Delta H^{\\circ} = \\Delta U^{\\circ} + \\Delta n_g RT$, with $\\Delta n_g = 0$, we get $\\Delta H^{\\circ} = \\Delta U^{\\circ}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le-Chatelier's Principle and Factors Affecting Equilibrium",
+  "conf": "exact",
+  "stem": "For the reaction $\\text{PCl}_5(g) \\rightleftharpoons \\text{PCl}_3(g) + \\text{Cl}_2(g)$, the forward reaction is favored by :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "increasing the pressure at constant volume",
+   "decreasing the volume at constant temperature",
+   "adding an inert gas at constant pressure",
+   "adding an inert gas at constant volume"
+  ],
+  "sol": "For the given reaction, $\\Delta n_g = 1 + 1 - 1 = 1 > 0$.\nAdding an inert gas at constant pressure increases the total volume, decreasing the partial pressures of the components. To counteract this, the equilibrium shifts in the direction of more moles (forward direction).",
+  "key": "C",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "At $298\\ \\mathrm{K}$, the vapor pressure of pure water is $23.8\\ \\mathrm{mmHg}$. If $18\\ \\mathrm{g}$ of glucose (molar mass $= 180\\ \\mathrm{g\\ mol^{-1}}$) is dissolved in $178.2\\ \\mathrm{g}$ of water, the vapor pressure of the solution is :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$23.56\\ \\mathrm{mmHg}$",
+   "$22.82\\ \\mathrm{mmHg}$",
+   "$23.80\\ \\mathrm{mmHg}$",
+   "$21.42\\ \\mathrm{mmHg}$"
+  ],
+  "sol": "Moles of glucose, $n_2 = 18/180 = 0.1\\ \\mathrm{mol}$.\nMoles of water, $n_1 = 178.2/18 = 9.9\\ \\mathrm{mol}$.\nAccording to Raoult's law:\n$P = P^{\\circ} \\cdot X_1 = 23.8 \\times \\frac{9.9}{9.9 + 0.1} = 23.8 \\times 0.99 = 23.562\\ \\mathrm{mmHg}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance in Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The molar conductivity of a $0.05\\ \\mathrm{M}$ solution of weak monobasic acid is $10.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$. If the limiting molar conductivity of this acid is $400.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$, the dissociation constant ($K_a$) of the acid is :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$3.125 \\times 10^{-5}$",
+   "$1.25 \\times 10^{-4}$",
+   "$3.125 \\times 10^{-4}$",
+   "$1.25 \\times 10^{-5}$"
+  ],
+  "sol": "$\n\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ} = \\frac{10}{400} = 0.025\n$\n$K_a = C\\alpha^2 = 0.05 \\times (0.025)^2 = 0.05 \\times 6.25 \\times 10^{-4} = 3.125 \\times 10^{-5}$.",
+  "key": "D",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-life",
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the half-life ($t_{1/2}$) of the reaction. The value of $x$ is approximately :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$6.6$",
+   "$3.3$",
+   "$10$",
+   "$4.6$"
+  ],
+  "sol": "$t_{99\\%} = \\frac{2.303}{k} \\log \\left(\\frac{100}{100-99}\\right) = \\frac{2.303}{k} \\log(100) = \\frac{4.606}{k}$.\n$t_{1/2} = \\frac{0.693}{k}$.\n$x = \\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.6$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Processes of Extraction of Metals",
+  "conf": "exact",
+  "stem": "Which of the following reactions represents the self-reduction process during the extraction of copper?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2$",
+   "$\\text{FeO} + \\text{SiO}_2 \\rightarrow \\text{FeSiO}_3$",
+   "$\\text{Cu}^{2+} + \\text{Fe} \\rightarrow \\text{Fe}^{2+} + \\text{Cu}$",
+   "$2\\text{CuFeS}_2 + 4\\text{O}_2 \\rightarrow \\text{Cu}_2\\text{S} + 2\\text{FeO} + 3\\text{SO}_2$"
+  ],
+  "sol": "In the self-reduction (or auto-reduction) process of copper extraction, the remaining copper sulphide reacts with the copper oxide formed by partial roasting to produce copper metal:\n$\\text{Cu}_2\\text{S} + 2\\text{Cu}_2\\text{O} \\rightarrow 6\\text{Cu} + \\text{SO}_2$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Group 1 Elements: Alkali Metals",
+  "conf": "exact",
+  "stem": "The correct order of density of alkali metals is :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$",
+   "$\\text{Li} < \\text{K} < \\text{Na} < \\text{Rb} < \\text{Cs}$",
+   "$\\text{Cs} < \\text{Rb} < \\text{K} < \\text{Na} < \\text{Li}$",
+   "$\\text{Li} < \\text{Na} < \\text{Rb} < \\text{K} < \\text{Cs}$"
+  ],
+  "sol": "Density increases down the group, but potassium is lighter than sodium due to an abnormal increase in volume (presence of empty $d$-orbitals in potassium).\nTherefore, the correct order is: $\\text{Li} < \\text{K} < \\text{Na} < \\text{Rb} < \\text{Cs}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxyacids of phosphorus contains a $P-P$ single bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid is $\\text{H}_4\\text{P}_2\\text{O}_6$. Its structure is $(\\text{HO})_2\\text{P}(=\\text{O})-\\text{P}(=\\text{O})(\\text{OH})_2$, which contains a direct $\\text{P}-\\text{P}$ single bond.\nPyrophosphoric acid ($\\text{H}_4\\text{P}_2\\text{O}_7$) contains a $\\text{P}-\\text{O}-\\text{P}$ linkage.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The lanthanoid element which exhibits $+4$ oxidation state most easily and acts as a strong oxidizing agent is :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{Eu}$",
+   "$\\text{Ce}$",
+   "$\\text{Gd}$",
+   "$\\text{Lu}$"
+  ],
+  "sol": "Cerium ($Z=58$, $[\\text{Xe}] 4f^1 5d^1 6s^2$) easily loses 4 electrons to acquire the stable noble-gas configuration of Xe. Therefore, $\\text{Ce}^{4+}$ is stable but acts as a strong oxidizing agent as it readily reduces back to the more stable lanthanoid oxidation state of $+3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The type of isomerism shown by the complex pair $[\\text{Co}(\\text{NH}_3)_5(\\text{SO}_4)]\\text{Br}$ and $[\\text{Co}(\\text{NH}_3)_5\\text{Br}]\\text{SO}_4$ is :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Linkage isomerism",
+   "Ionization isomerism",
+   "Coordination isomerism",
+   "Solvate isomerism"
+  ],
+  "sol": "These two compounds give different ions in aqueous solution (one gives $\\text{Br}^-$ and the other gives $\\text{SO}_4^{2-}$). Hence, they are ionization isomers.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The pollutant gas which primarily binds to hemoglobin and reduces its oxygen-carrying capacity is :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{CO}$",
+   "$\\text{CO}_2$",
+   "$\\text{SO}_2$",
+   "$\\text{NO}_2$"
+  ],
+  "sol": "Carbon monoxide ($\\text{CO}$) binds to hemoglobin about 300 times more strongly than oxygen, forming carboxyhemoglobin, which reduces the oxygen-carrying capacity of blood.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "In Lassaigne's test, the organic compound is fused with sodium metal. The development of a Prussian blue color on treatment with acidic $\\text{FeSO}_4$ indicates the presence of :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Nitrogen only",
+   "Sulfur only",
+   "Nitrogen and Sulfur together",
+   "Halogens only"
+  ],
+  "sol": "Sodium fusion converts organic nitrogen into $\\text{NaCN}$. Treatment with $\\text{FeSO}_4$ and mineral acid forms sodium hexacyanoferrate(II), which reacts with iron(III) formed by oxidation to give Prussian blue, $\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3$. This test is positive for nitrogen only.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "The correct order of increasing basic strength of the following compounds in aqueous medium is :\n(I) $\\text{CH}_3\\text{NH}_2$\n(II) $(\\text{CH}_3)_2\\text{NH}$\n(III) $(\\text{CH}_3)_3\\text{N}$\n(IV) $\\text{NH}_3$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{NH}_3 < (\\text{CH}_3)_3\\text{N} < \\text{CH}_3\\text{NH}_2 < (\\text{CH}_3)_2\\text{NH}$",
+   "$\\text{NH}_3 < \\text{CH}_3\\text{NH}_2 < (\\text{CH}_3)_3\\text{N} < (\\text{CH}_3)_2\\text{NH}$",
+   "$(\\text{CH}_3)_3\\text{N} < \\text{NH}_3 < \\text{CH}_3\\text{NH}_2 < (\\text{CH}_3)_2\\text{NH}$",
+   "$\\text{NH}_3 < (\\text{CH}_3)_3\\text{N} < (\\text{CH}_3)_2\\text{NH} < \\text{CH}_3\\text{NH}_2$"
+  ],
+  "sol": "In aqueous solution, the basic strength of methyl substituted amines depends on inductive effect, solvation effect, and steric hindrance. The correct experimental order is:\n$(\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_3\\text{N} > \\text{NH}_3$.\nThus, in increasing order: $\\text{NH}_3 < (\\text{CH}_3)_3\\text{N} < \\text{CH}_3\\text{NH}_2 < (\\text{CH}_3)_2\\text{NH}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 55
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "Which of the following compounds will yield a red precipitate of copper acetylide when treated with ammoniacal cuprous chloride?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "But-1-yne",
+   "But-2-yne",
+   "Butane",
+   "But-2-ene"
+  ],
+  "sol": "Ammoniacal cuprous chloride ($\\text{Cu}_2\\text{Cl}_2 + \\text{NH}_4\\text{OH}$) reacts specifically with terminal alkynes (which have acidic acetylenic hydrogens) to form a red precipitate of copper acetylide. But-1-yne is a terminal alkyne.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "The correct order of reactivity of the following alkyl halides towards $\\text{S}_{\\text{N}}2$ reaction is :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > (\\text{CH}_3)_3\\text{CCl}$",
+   "$(\\text{CH}_3)_3\\text{CCl} > (\\text{CH}_3)_2\\text{CHCl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > \\text{CH}_3\\text{Cl}$",
+   "$\\text{CH}_3\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > (\\text{CH}_3)_3\\text{CCl}$",
+   "$\\text{CH}_3\\text{CH}_2\\text{Cl} > \\text{CH}_3\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > (\\text{CH}_3)_3\\text{CCl}$"
+  ],
+  "sol": "$\\text{S}_{\\text{N}}2$ reaction rate is governed by steric hindrance at the reaction center. The less steric hindrance, the faster the reaction. The order is:\n$\\text{Methyl halide} > 1^{\\circ} \\text{ halide} > 2^{\\circ} \\text{ halide} > 3^{\\circ} \\text{ halide}$.\nHence: $\\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{CH}_2\\text{Cl} > (\\text{CH}_3)_2\\text{CHCl} > (\\text{CH}_3)_3\\text{CCl}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "When benzaldehyde is treated with concentrated $\\text{NaOH}$ solution, it undergoes Cannizzaro reaction. The products formed are :",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Sodium benzoate and Benzyl alcohol",
+   "Sodium benzoate and Phenol",
+   "Benzoyl chloride and Benzyl alcohol",
+   "Benzyl alcohol and Phenol"
+  ],
+  "sol": "Benzaldehyde contains no $\\alpha$-hydrogens and undergoes self-oxidation and reduction (disproportionation) in the presence of strong concentrated alkali (Cannizzaro reaction) to form sodium benzoate and benzyl alcohol.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Which of the following vitamins is fat-soluble and its deficiency causes Xerophthalmia?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin A",
+   "Vitamin B",
+   "Vitamin C",
+   "Vitamin K"
+  ],
+  "sol": "Vitamins A, D, E, and K are fat-soluble. Deficiency of Vitamin A (Retinol) causes Xerophthalmia (hardening of cornea in eyes) and night blindness.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Classification and Therapeutic Action of Drugs",
+  "conf": "exact",
+  "stem": "Which of the following is an artificial sweetener that is stable at cooking temperatures and does not provide calories?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Sucralose",
+   "Aspartame",
+   "Alitame",
+   "Saccharin"
+  ],
+  "sol": "Sucralose is a trichloro derivative of sucrose. Its appearance and taste are like sugar. It is stable at cooking temperature and does not provide calories.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ }
+]

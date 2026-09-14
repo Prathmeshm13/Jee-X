@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "If the radius of the $3^{\\mathrm{rd}}$ Bohr's orbit of hydrogen atom is $r_3$ and the radius of the $4^{\\mathrm{th}}$ Bohr's orbit is $r_4$, then which of the following relations is correct?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$r_4 = \\frac{9}{16} r_3$",
+   "$r_4 = \\frac{16}{9} r_3$",
+   "$r_4 = \\frac{3}{4} r_3$",
+   "$r_4 = \\frac{4}{3} r_3$"
+  ],
+  "sol": "According to Bohr's model, the radius of the $n^{\\mathrm{th}}$ orbit is $r_n \\propto n^2$ for a hydrogen atom.\nThus, $r_3 \\propto 3^2 = 9$ and $r_4 \\propto 4^2 = 16$.\nTherefore, $\\frac{r_4}{r_3} = \\frac{16}{9} \\implies r_4 = \\frac{16}{9} r_3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Among the following, the species that is paramagnetic and has a fractional bond order is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2^+}$",
+   "$\\mathrm{CO}$",
+   "$\\mathrm{O_2^{2-}}$",
+   "$\\mathrm{N_2}$"
+  ],
+  "sol": "Using Molecular Orbital Theory:\n- $\\mathrm{O_2^+}$ (15 electrons): $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 \\pi_{2p_x}^2 \\pi_{2p_y}^2 \\pi_{2p_x}^{*1}$. It has 1 unpaired electron (paramagnetic) and Bond Order = $\\frac{10-5}{2} = 2.5$ (fractional).\n- $\\mathrm{CO}$ (14 electrons): Diamagnetic, Bond Order = 3.\n- $\\mathrm{O_2^{2-}}$ (18 electrons): Diamagnetic, Bond Order = 1.\n- $\\mathrm{N_2}$ (14 electrons): Diamagnetic, Bond Order = 3.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The elevation in boiling point for $1$ molal double salt solution of Van 't Hoff factor '$i$' is $\\Delta T_b$. If the boiling point of the solvent is $T_b^0$ and $K_b$ is the molal elevation constant, then the boiling point of the solution $T_b$ is given by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$T_b^0 + i K_b$",
+   "$T_b^0 - i K_b$",
+   "$T_b^0 + K_b$",
+   "$T_b^0 - K_b$"
+  ],
+  "sol": "The elevation in boiling point is given by:\n$\\Delta T_b = i K_b m$\nGiven $m = 1\\ \\mathrm{m}$, we get $\\Delta T_b = i K_b$.\nSince $\\Delta T_b = T_b - T_b^0$,\n$T_b = T_b^0 + i K_b$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivities of $\\mathrm{NaCl}$, $\\mathrm{KBr}$ and $\\mathrm{KCl}$ are $126$, $152$ and $150\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. The limiting molar conductivity of $\\mathrm{NaBr}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$278\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$176\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$128\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$302\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$"
+  ],
+  "sol": "Using Kohlrausch's law:\n$\\Lambda_m^\\circ(\\mathrm{NaBr}) = \\Lambda_m^\\circ(\\mathrm{NaCl}) + \\Lambda_m^\\circ(\\mathrm{KBr}) - \\Lambda_m^\\circ(\\mathrm{KCl})$\n$\\Lambda_m^\\circ(\\mathrm{NaBr}) = 126 + 152 - 150 = 128\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-Lives",
+  "conf": "exact",
+  "stem": "For a first order reaction, the ratio of time required for $99.9\\%$ completion to the time required for $50\\%$ completion of the reaction is approximately:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "10",
+   "5",
+   "2",
+   "4"
+  ],
+  "sol": "For a first order reaction:\n$t_{99.9\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-99.9}\\right) = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k}$\n$t_{50\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{50}\\right) = \\frac{2.303}{k} \\log(2) \\approx 0.3 \\times \\frac{2.303}{k}$\n$\\frac{t_{99.9\\%}}{t_{50\\%}} = \\frac{3}{0.301} \\approx 10$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction Processes of Metals",
+  "conf": "exact",
+  "stem": "In the extraction of copper, the gas emitted during roasting of copper pyrites that causes acid rain and environmental pollution is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{SO_2}$",
+   "$\\mathrm{CO_2}$",
+   "$\\mathrm{NH_3}$",
+   "$\\mathrm{H_2S}$"
+  ],
+  "sol": "Roasting of copper pyrites ($\\mathrm{CuFeS_2}$) releases sulfur dioxide ($\\mathrm{SO_2}$) gas:\n$2\\mathrm{CuFeS_2} + 4\\mathrm{O_2} \\rightarrow \\mathrm{Cu_2S} + 2\\mathrm{FeO} + 3\\mathrm{SO_2}$.\n$\\mathrm{SO_2}$ is a major pollutant causing acid rain.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals and Their Compounds",
+  "conf": "exact",
+  "stem": "Which of the following alkali metal carbonates is thermally least stable and decomposes on heating?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Li_2CO_3}$",
+   "$\\mathrm{Na_2CO_3}$",
+   "$\\mathrm{K_2CO_3}$",
+   "$\\mathrm{Cs_2CO_3}$"
+  ],
+  "sol": "Lithium carbonate ($\\mathrm{Li_2CO_3}$) is thermally unstable because of the small size of the $\\mathrm{Li^+}$ ion, which strongly polarizes the larger carbonate ion, leading to decomposition into lithium oxide and carbon dioxide:\n$\\mathrm{Li_2CO_3} \\xrightarrow{\\Delta} \\mathrm{Li_2O} + \\mathrm{CO_2}$.\nOther alkali metal carbonates are stable up to very high temperatures.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements and Their Compounds",
+  "conf": "exact",
+  "stem": "The structural formula of hypophosphorous acid is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{H_3PO_2}$",
+   "$\\mathrm{H_3PO_3}$",
+   "$\\mathrm{H_3PO_4}$",
+   "$\\mathrm{H_4P_2O_7}$"
+  ],
+  "sol": "Hypophosphorous acid is $\\mathrm{H_3PO_2}$. It contains one $\\mathrm{P=O}$, two $\\mathrm{P-H}$, and one $\\mathrm{P-OH}$ bond, making it a monoprotic acid.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids and Actinoids",
+  "conf": "exact",
+  "stem": "Which of the following lanthanoid ions is/are diamagnetic?\n(Atomic numbers: $\\mathrm{Ce} = 58$, $\\mathrm{Sm} = 62$, $\\mathrm{Eu} = 63$, $\\mathrm{Yb} = 70$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce^{4+}}$ and $\\mathrm{Yb^{2+}}$",
+   "$\\mathrm{Ce^{3+}}$ and $\\mathrm{Sm}^{2+}$",
+   "$\\mathrm{Eu}^{3+}$ and $\\mathrm{Yb}^{2+}$",
+   "$\\mathrm{Ce}^{4+}$ and $\\mathrm{Eu}^{3+}$"
+  ],
+  "sol": "The electronic configurations are:\n- $\\mathrm{Ce}$ ($Z=58$): $[\\mathrm{Xe}] 4f^1 5d^1 6s^2 \\implies \\mathrm{Ce^{4+}}: [\\mathrm{Xe}] 4f^0$ (diamagnetic, zero unpaired electrons).\n- $\\mathrm{Yb}$ ($Z=70$): $[\\mathrm{Xe}] 4f^{14} 6s^2 \\implies \\mathrm{Yb^{2+}}: [\\mathrm{Xe}] 4f^{14}$ (diamagnetic, zero unpaired electrons).",
+  "key": "A",
+  "diff": 4,
+  "secs": 75
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "The primary pollutant that leads to photochemical smog is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Nitrogen oxides",
+   "Sulfur dioxide",
+   "Carbon dioxide",
+   "Particulate matter"
+  ],
+  "sol": "Photochemical smog is initiated by the action of sunlight on unsaturated hydrocarbons and nitrogen oxides ($\\mathrm{NO}_x$) produced by automobiles and factories.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "In Lassaigne's test for the detection of nitrogen in an organic compound, the appearance of Prussian blue color is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+   "$\\mathrm{Na_4[Fe(CN)_6]}$",
+   "$\\mathrm{Fe(CNS)_3}$"
+  ],
+  "sol": "In Lassaigne's test for nitrogen, sodium fusion extract is boiled with iron(II) sulfate and then acidified with concentrated sulphuric acid. The formation of Prussian blue (ferric ferrocyanide, $\\mathrm{Fe_4[Fe(CN)_6]_3}$) confirms the presence of nitrogen.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes - Preparation and Properties",
+  "conf": "exact",
+  "stem": "Which of the following hydrocarbons will give a red precipitate with ammoniacal cuprous chloride solution?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propyne",
+   "But-2-yne",
+   "Propene",
+   "Ethane"
+  ],
+  "sol": "Terminal alkynes contain acidic hydrogens and react with ammoniacal cuprous chloride to form a red precipitate of copper acetylides. Propyne ($\\mathrm{CH_3-C\\equiv CH}$) is a terminal alkyne and will give a positive test.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes nucleophilic substitution by $\\mathrm{S_N1}$ mechanism at the fastest rate?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Allyl chloride",
+   "Ethyl chloride",
+   "Isopropyl chloride",
+   "Chlorobenzene"
+  ],
+  "sol": "The rate of $\\mathrm{S_N1}$ depends on the stability of the carbocation formed. Allyl chloride forms the allyl carbocation ($\\mathrm{CH_2=CH-CH_2^+}$), which is resonance stabilized, making it undergo $\\mathrm{S_N1}$ much faster than ethyl or isopropyl chlorides.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "The reaction of benzaldehyde with concentrated $\\mathrm{NaOH}$ solution gives benzyl alcohol and sodium benzoate. This reaction is known as:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Cannizzaro reaction",
+   "Aldol condensation",
+   "Clemmensen reduction",
+   "Rosenmund reduction"
+  ],
+  "sol": "Benzaldehyde does not contain any $\\alpha$-hydrogen. In the presence of concentrated alkali, it undergoes self-oxidation and reduction (disproportionation) to yield benzyl alcohol and sodium benzoate. This is the Cannizzaro reaction.",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Which of the following is a water-soluble vitamin?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin B",
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin E"
+  ],
+  "sol": "Vitamins are classified into fat-soluble (A, D, E, K) and water-soluble (B-group vitamins and Vitamin C) categories.",
+  "key": "A",
+  "diff": 1,
+  "secs": 15
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "The monomer of Neoprene is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Chloroprene",
+   "Isoprene",
+   "Acrylonitrile",
+   "Caprolactam"
+  ],
+  "sol": "Neoprene is a synthetic rubber polymerised from the monomer chloroprene (2-chloro-1,3-butadiene).",
+  "key": "A",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Classification of Drugs and Therapeutic Action",
+  "conf": "exact",
+  "stem": "Which of the following compounds is used as an antiseptic?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Bithionol",
+   "Prontosil",
+   "Meprobamate",
+   "Valium"
+  ],
+  "sol": "Bithionol is added to soaps to impart antiseptic properties.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The type of isomerism shown by the complex pair $[\\mathrm{Co(NH_3)_5SO_4}]\\mathrm{Br}$ and $[\\mathrm{Co(NH_3)_5Br}]\\mathrm{SO_4}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Ionisation isomerism",
+   "Linkage isomerism",
+   "Coordination isomerism",
+   "Solvate isomerism"
+  ],
+  "sol": "These two complexes give different ions in solution (one gives $\\mathrm{Br^-}$ and the other gives $\\mathrm{SO_4^{2-}}$), which is a classic example of ionisation isomerism.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$, the forward reaction is favored by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Decreasing the pressure",
+   "Increasing the pressure",
+   "Decreasing the temperature",
+   "Adding an inert gas at constant volume"
+  ],
+  "sol": "The dissociation of $\\mathrm{PCl_5}$ involves an increase in the number of moles of gas ($\\Delta n_g = 1 > 0$). According to Le Chatelier's principle, decreasing the pressure shifts the equilibrium towards the side with more moles of gas (i.e., the forward direction).",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "Which of the following is the strongest base in aqueous solution?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Dimethylamine",
+   "Methylamine",
+   "Trimethylamine",
+   "Aniline"
+  ],
+  "sol": "In aqueous solution, the basic strength of methyl-substituted amines follows the order: $2^\\circ > 1^\\circ > 3^\\circ > \\mathrm{NH_3}$. Therefore, dimethylamine is the strongest base among the options.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ }
+]

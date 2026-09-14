@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen-like Atoms",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in hydrogen atom is proportional to $n^a$, where $n$ is the principal quantum number. The value of $a$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "sol": "The time period $T$ of an electron orbiting a nucleus is given by $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto n^2$ and velocity $v \\propto \\frac{1}{n}$, we get $T \\propto \\frac{n^2}{1/n} = n^3$. Therefore, $a = 3$.",
+  "key": "C",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals and Their Properties",
+  "conf": "exact",
+  "stem": "The metal that does not give a blue colored solution in liquid ammonia is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Sodium",
+   "Potassium",
+   "Lithium",
+   "Beryllium"
+  ],
+  "sol": "Alkali metals (Na, K, Li) dissolve in liquid ammonia to give deep blue conducting solutions due to solvated electrons. Beryllium (Be), an alkaline earth metal with small size and high ionization enthalpy, does not dissolve easily in liquid ammonia to form such a solution.",
+  "key": "D",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Among the following, the species that is paramagnetic in nature is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2^{2-}}$",
+   "$\\mathrm{N_2}$",
+   "$\\mathrm{B_2}$",
+   "$\\mathrm{C_2^{2-}}$"
+  ],
+  "sol": "According to Molecular Orbital Theory, $\\mathrm{B_2}$ has 10 electrons. Its configuration is $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} (\\pi_{2p_x}^1 = \\pi_{2p_y}^1)$. It contains 2 unpaired electrons and is therefore paramagnetic.",
+  "key": "C",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P}-\\mathrm{P}$ single bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Pyrophosphoric acid",
+   "Hypophosphoric acid",
+   "Metaphosphoric acid",
+   "Orthophosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$, which contains a direct $\\mathrm{P}-\\mathrm{P}$ single bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P}-\\mathrm{O}-\\mathrm{P}$ linkage.",
+  "key": "B",
+  "diff": 4,
+  "secs": 60
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids and Actinoids",
+  "conf": "exact",
+  "stem": "The lanthanoid element which exhibits $+4$ oxidation state most easily and acts as a strong oxidant is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce}$",
+   "$\\mathrm{Eu}$",
+   "$\\mathrm{Gd}$",
+   "$\\mathrm{Lu}$"
+  ],
+  "sol": "Cerium ($\\mathrm{Ce}$) forms a stable $+4$ oxidation state (configuration of $\\mathrm{Ce^{4+}}$ is $[\\mathrm{Xe}]$, noble gas configuration). It is a strong oxidizing agent (oxidant) in aqueous solution as it readily reduces to its more stable $+3$ state.",
+  "key": "A",
+  "diff": 2,
+  "secs": 35
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The number of geometrical isomers possible for the complex $[\\mathrm{Pt(NH_3)(NH_2OH)(Py)(NO_2)}]^{+}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "2",
+   "3",
+   "4",
+   "6"
+  ],
+  "sol": "The complex is of the type $[\\mathrm{Mabcd}]$, where $\\mathrm{M}$ is a square planar metal center. For a square planar complex of the type $[\\mathrm{Mabcd}]$, three geometrical isomers are possible by keeping one ligand fixed and varying the position of the other three.",
+  "key": "B",
+  "diff": 4,
+  "secs": 70
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is responsible for classical smog?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Smoke, fog and $\\mathrm{SO_2}$",
+   "Smoke, fog and $\\mathrm{O_3}$",
+   "Smoke, fog and $\\mathrm{NO_2}$",
+   "Hydrocarbons and $\\mathrm{O_3}$"
+  ],
+  "sol": "Classical smog occurs in cool, humid climates and is a mixture of smoke, fog, and sulfur dioxide ($\\mathrm{SO_2}$). It is reducing in nature.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis of Organic Compounds",
+  "conf": "exact",
+  "stem": "In the sodium fusion test for the detection of nitrogen in an organic compound, the blue color is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Na_4[Fe(CN)_6]}$",
+   "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+   "$\\mathrm{Na_3[Fe(CN)_5NOS]}$"
+  ],
+  "sol": "The Prussian blue color obtained in the Lassaigne's test for nitrogen is due to the formation of iron(III) hexacyanoferrate(II), which is represented as Prussian blue, $\\mathrm{Fe_4[Fe(CN)_6]_3}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "Arrange the following compounds in decreasing order of their basic strength:\n(I) Aniline  \n(II) $p$-Nitroaniline  \n(III) $p$-Methylaniline  \n(IV) $p$-Methoxyaniline  \n\nChoose the correct option:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "IV > III > I > II",
+   "III > IV > I > II",
+   "IV > I > III > II",
+   "II > I > III > IV"
+  ],
+  "sol": "Electron-donating groups increase the basic strength of aniline, while electron-withdrawing groups decrease it.  \n- $-\\mathrm{OCH_3}$ (in IV) is a strong $+M$ group (highest basic strength).  \n- $-\\mathrm{CH_3}$ (in III) is $+I$ and hyperconjugative (higher than aniline).  \n- Aniline (I) has no substituents.  \n- $-\\mathrm{NO_2}$ (in II) is a strong $-M$ group (lowest basic strength).  \nHence, order is IV > III > I > II.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes: Preparation and Properties",
+  "conf": "exact",
+  "stem": "The major product $P$ of the following reaction is:\n$$\\mathrm{CH_3-C\\equiv C-CH_3 \\xrightarrow{Na / liq. NH_3} P}$$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "trans-But-2-ene",
+   "cis-But-2-ene",
+   "Butane",
+   "But-1-ene"
+  ],
+  "sol": "The reduction of an internal alkyne (like but-2-yne) with sodium in liquid ammonia (Birch reduction) selectively yields a trans-alkene. Thus, the major product is trans-but-2-ene.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Which of the following compounds will undergo nucleophilic substitution ( $\\mathrm{S_N1}$ ) fastest?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Allyl chloride",
+   "Benzyl chloride",
+   "Isopropyl chloride",
+   "Chlorobenzene"
+  ],
+  "sol": "The rate of $\\mathrm{S_N1}$ depends on the stability of the carbocation intermediate. Benzyl carbocation ($\\mathrm{C_6H_5CH_2^+}$) is highly stabilized by resonance over the benzene ring, which is more effective than the allylic system and secondary alkyl systems, making benzyl chloride undergo $\\mathrm{S_N1}$ faster than the others listed. Chlorobenzene does not undergo nucleophilic substitution under standard conditions.",
+  "key": "B",
+  "diff": 4,
+  "secs": 55
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "Which of the following on treatment with $\\mathrm{H_2O_2}$ in presence of $\\mathrm{NaOH}$ followed by acid hydrolysis gives $o$-hydroxybenzaldehyde (salicylaldehyde) via Baeyer-Villiger type oxidation?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "o-Hydroxyacetophenone",
+   "Benzaldehyde",
+   "Acetophenone",
+   "Salicylic acid"
+  ],
+  "sol": "Treatment of $o$-hydroxyacetophenone with alkaline $\\mathrm{H_2O_2}$ (Dakin reaction, a variation of Baeyer-Villiger oxidation) yields catechol (or salicylaldehyde under controlled oxidation/hydrolysis conditions). Specifically, the migration of the aryl group with the $o$-OH substituent occurs, which upon hydrolysis yields the corresponding phenol/aldehyde derivative.",
+  "key": "A",
+  "diff": 5,
+  "secs": 90
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a condensation polymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Dacron",
+   "Neoprene",
+   "Teflon",
+   "Buna-S"
+  ],
+  "sol": "Dacron (Terylene) is a polyester formed by the condensation polymerization of ethylene glycol and terephthalic acid with the elimination of water molecules. Neoprene, Teflon, and Buna-S are addition polymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Which of the following vitamins is water-soluble?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin C",
+   "Vitamin E"
+  ],
+  "sol": "Vitamins B and C are water-soluble vitamins, while vitamins A, D, E, and K are fat-soluble vitamins.",
+  "key": "C",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Their Classification",
+  "conf": "exact",
+  "stem": "Terfenadine is commonly used as a/an:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Antihistamine",
+   "Analgesic",
+   "Antimicrobial",
+   "Antacid"
+  ],
+  "sol": "Terfenadine (Seldane) is a synthetic drug commonly used as an antihistamine (to treat allergies).",
+  "key": "A",
+  "diff": 2,
+  "secs": 25
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The vapor pressure of pure liquid A and pure liquid B are $400\u0000\\mathrm{mmHg}$ and $600\u0000\\mathrm{mmHg}$ respectively at $300\u0000\\mathrm{K}$. If a mixture of A and B behaves ideally, the mole fraction of A in the liquid phase when the total vapor pressure is $450\u0000\\mathrm{mmHg}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "0.25",
+   "0.50",
+   "0.75",
+   "0.40"
+  ],
+  "sol": "According to Raoult's Law: $P_t = P_A^0 x_A + P_B^0 x_B = P_A^0 x_A + P_B^0 (1 - x_A)$.\n$450 = 400 x_A + 600(1 - x_A)$\n$450 = 600 - 200 x_A \\implies 200 x_A = 150 \\implies x_A = 0.75$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-life",
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99.9\\%$ completion is how many times the half-life ($t_{1/2}$) of the reaction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "2",
+   "5",
+   "10",
+   "20"
+  ],
+  "sol": "For first order reaction:\n$t = \\frac{2.303}{k} \\log\\frac{100}{100 - x}$\n$t_{99.9} = \\frac{2.303}{k} \\log\\frac{100}{0.1} = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k}$.\nSince $t_{1/2} = \\frac{0.693}{k} \\approx \\frac{2.303 \\log 2}{k} \\approx 0.3 \\times \\frac{2.303}{k}$.\nTherefore, $\\frac{t_{99.9}}{t_{1/2}} = \\frac{3}{0.3} = 10$.",
+  "key": "C",
+  "diff": 3,
+  "secs": 55
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction of Metals",
+  "conf": "exact",
+  "stem": "In the extraction of copper, the gas evolved in the bessemerization process which causes pollution and acid rain is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{SO_2}$",
+   "$\\mathrm{CO_2}$",
+   "$\\mathrm{NO_2}$",
+   "$\\mathrm{CO}$"
+  ],
+  "sol": "In the auto-reduction and smelting of copper sulfide ores in the Bessemer converter, sulfur dioxide gas ($\\mathrm{SO_2}$) is released as a byproduct, which is a major contributor to acid rain.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the exothermic reaction:\n$$\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}$$\nWhich of the following conditions will shift the equilibrium in the forward direction?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing the temperature and increasing the pressure",
+   "Decreasing the temperature and increasing the pressure",
+   "Decreasing the temperature and decreasing the pressure",
+   "Increasing the temperature and decreasing the pressure"
+  ],
+  "sol": "For the forward reaction:\n1. It is exothermic ($\\Delta H < 0$), so decreasing the temperature shifts the equilibrium in the forward direction.\n2. $\\Delta n_g = 2 - 4 = -2 < 0$, so increasing the pressure (decreasing volume) shifts the equilibrium towards the side with fewer moles of gas (forward direction).",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance in Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "For which of the following electrolytes, the Kohlrausch's law of independent migration of ions is not directly applicable to find $\\Lambda_m^\\circ$ by simple extrapolation of $\\Lambda_m$ vs $\\sqrt{c}$ plot?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{KCl}$",
+   "$\\mathrm{NaCl}$",
+   "$\\mathrm{CH_3COOH}$",
+   "$\\mathrm{HCl}$"
+  ],
+  "sol": "For strong electrolytes like $\\mathrm{KCl}$, $\\mathrm{NaCl}$, and $\\mathrm{HCl}$, $\\Lambda_m$ increases linearly with $\\sqrt{c}$ at low concentrations and can be extrapolated to zero concentration to find $\\Lambda_m^\\circ$. For weak electrolytes like $\\mathrm{CH_3COOH}$, the plot is not linear and cannot be directly extrapolated, making the direct application of Kohlrausch's independent migration of ions necessary.",
+  "key": "C",
+  "diff": 3,
+  "secs": 50
+ }
+]

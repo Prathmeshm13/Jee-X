@@ -90,6 +90,80 @@
         }
       ],
       "solution": "In the extraction of copper, $\\mathrm{FeO}$ is present as an impurity. Silica ($\\mathrm{SiO_2}$) is added as a flux, reacting with iron oxide to form iron silicate slag: $\\mathrm{FeO} + \\mathrm{SiO_2} \\rightarrow \\mathrm{FeSiO_3}$ (slag)."
+    },
+    {
+      "ref": "CHEM-MET-003",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the extraction of copper, the gas evolved in the bessemerization process which causes pollution and acid rain is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{SO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CO}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the auto-reduction and smelting of copper sulfide ores in the Bessemer converter, sulfur dioxide gas ($\\mathrm{SO_2}$) is released as a byproduct, which is a major contributor to acid rain."
+    },
+    {
+      "ref": "CHEM-MET-004",
+      "subtopic": "extraction-processes",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the extraction of copper, the gas evolved during the roasting of sulphide ore which causes global warming and acid rain is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{SO}_2$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{H}_2\\mathrm{S}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Roasting of copper pyrites ($2\\mathrm{CuFeS}_2 + 4\\mathrm{O}_2 \\rightarrow \\mathrm{Cu}_2\\mathrm{S} + 2\\mathrm{FeO} + 3\\mathrm{SO}_2$) releases large amounts of sulphur dioxide ($\\mathrm{SO}_2$) gas, which is a major contributor to acid rain."
     }
   ]
 }

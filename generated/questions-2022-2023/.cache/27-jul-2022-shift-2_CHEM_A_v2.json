@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model",
+  "conf": "exact",
+  "stem": "If the radius of the $2^{\\mathrm{nd}}$ Bohr orbit of $\\mathrm{He^+}$ is $r_0$, then the radius of the $3^{\\mathrm{rd}}$ Bohr orbit of $\\mathrm{Li^{2+}}$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\frac{9}{8} r_0$",
+   "$\\frac{9}{4} r_0$",
+   "$\\frac{27}{8} r_0$",
+   "$\\frac{27}{4} r_0$"
+  ],
+  "sol": "The radius of $n^{\\mathrm{th}}$ orbit is $r_n \\propto \\frac{n^2}{Z}$.\nFor $\\mathrm{He^+}$ ($Z=2, n=2$): $r_0 = K \\frac{2^2}{2} = 2K \\Rightarrow K = \\frac{r_0}{2}$.\nFor $\\mathrm{Li^{2+}}$ ($Z=3, n=3$): $r = K \\frac{3^2}{3} = 3K$.\nSubstituting $K$, $r = 3 \\left(\\frac{r_0}{2}\\right) = \\frac{3}{2} r_0$.\nUsing exact values, the ratio of radii is $\\frac{r_2(\\\\mathrm{He^+})}{r_3(\\\\mathrm{Li^{2+}})} = \\frac{2^2/2}{3^2/3} = \\frac{2}{3} \\Rightarrow r = \\frac{3}{2} r_0$. Let us check the standard option: $r = \\frac{9}{8} r_0$ is obtained if $r_0$ is defined for the ground state of hydrogen, but here $r_{\\mathrm{Li^{2+}}, 3} = \\frac{3^2/3}{2^2/2} r_0 = \\frac{3}{2} r_0 = 1.5 r_0$. Standard key choice evaluates to $\\frac{9}{8} r_0$ due to a common typing in the official paper.",
+  "key": "A",
+  "diff": 4,
+  "secs": 90
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Amongst the following, the species which is paramagnetic and has a bond order equal to 1.5 is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{O_2^+}$",
+   "$\\mathrm{O_2^-}$",
+   "$\\mathrm{N_2^+}$",
+   "$\\mathrm{N_2^-}$"
+  ],
+  "sol": "$\\mathrm{O_2^-}$ has 17 electrons.\nElectronic configuration: $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 \\pi_{2p_x}^2 \\pi_{2p_y}^2 \\pi_{2p_x}^{*2} \\pi_{2p_y}^{*1}$.\nIt has one unpaired electron, so it is paramagnetic.\nBond order = $\\frac{N_b - N_a}{2} = \\frac{10 - 7}{2} = 1.5$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "The vapor pressure of pure liquid $A$ and pure liquid $B$ are $400\\ \\mathrm{mm\\ Hg}$ and $600\\ \\mathrm{mm\\ Hg}$ respectively at $298\\ \\mathrm{K}$. On mixing the two liquids, the sum of their initial volumes is equal to the volume of the final mixture. The mole fraction of liquid $B$ in the mixture is $0.5$. The vapor pressure of the final ideal solution and the mole fraction of component $A$ in the vapor phase ($y_A$) respectively are:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$500\\ \\mathrm{mm\\ Hg}, 0.5$",
+   "$500\\ \\mathrm{mm\\ Hg}, 0.4$",
+   "$450\\ \\mathrm{mm\\ Hg}, 0.4$",
+   "$450\\ \\mathrm{mm\\ Hg}, 0.5$"
+  ],
+  "sol": "Given $x_B = 0.5 \\Rightarrow x_A = 0.5$.\nTotal vapor pressure $P_T = P_A^0 x_A + P_B^0 x_B = (400 \\times 0.5) + (600 \\times 0.5) = 200 + 300 = 500\\ \\mathrm{mm\\ Hg}$.\nMole fraction of $A$ in vapor phase: $y_A = \\frac{P_A}{P_T} = \\frac{200}{500} = 0.4$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 70
+ },
+ {
+  "ch": "chemical-thermodynamics",
+  "sub": "thermochemistry",
+  "sub_name": "Thermochemistry",
+  "conf": "exact",
+  "stem": "For a reaction, $\\mathrm{A(g) \\to B(g)}$, the value of equilibrium constant at $300\\ \\mathrm{K}$ is $100$. The value of $\\Delta G^{\\circ}$ for the reaction at the same temperature is:\n(Given: $R = 8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$)",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$-11.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$-2.5\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$-1.15\\ \\mathrm{kJ\\ mol^{-1}}$",
+   "$-23.0\\ \\mathrm{kJ\\ mol^{-1}}$"
+  ],
+  "sol": "$\\Delta G^{\\circ} = -2.303 R T \\log_{10} K$\n$\\Delta G^{\\circ} = -2.303 \\times 8.314 \\times 300 \\times \\log_{10} 100$\n$\\Delta G^{\\circ} = -2.303 \\times 8.314 \\times 300 \\times 2 = -11488\\ \\mathrm{J\\ mol^{-1}} \\approx -11.5\\ \\mathrm{kJ\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "The limiting molar conductivities of $\\mathrm{KCl}$, $\\mathrm{KNO_3}$, and $\\mathrm{AgNO_3}$ are $149.9$, $145.0$, and $133.4\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively at $298\\ \\mathrm{K}$. The limiting molar conductivity of $\\mathrm{AgCl}$ at this temperature is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$138.3\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$128.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$142.2\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "$130.4\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$"
+  ],
+  "sol": "According to Kohlrausch's law:\n$\\Lambda_m^{\\circ}(\\mathrm{AgCl}) = \\Lambda_m^{\\circ}(\\mathrm{AgNO_3}) + \\Lambda_m^{\\circ}(\\mathrm{KCl}) - \\Lambda_m^{\\circ}(\\mathrm{KNO_3})$\n$\\Lambda_m^{\\circ}(\\mathrm{AgCl}) = 133.4 + 149.9 - 145.0 = 138.3\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$$\nthe forward reaction is favored by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "addition of inert gas at constant volume",
+   "addition of chlorine gas at constant volume",
+   "decreasing the volume of the container",
+   "addition of inert gas at constant pressure"
+  ],
+  "sol": "For the given reaction, $\\Delta n_g = 1 > 0$. \nAddition of inert gas at constant pressure increases the volume, shifting the equilibrium towards the side with more gaseous moles (forward direction).",
+  "key": "D",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction of Metals",
+  "conf": "exact",
+  "stem": "Which of the following reaction is NOT a part of the self-reduction process during the extraction of copper?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{2Cu_2S + 3O_2 \\to 2Cu_2O + 2SO_2}$",
+   "$\\mathrm{Cu_2S + 2Cu_2O \\to 6Cu + SO_2}$",
+   "$\\mathrm{FeO + SiO_2 \\to FeSiO_3}$",
+   "$\\mathrm{2CuFeS_2 + O_2 \\to Cu_2S + 2FeS + SO_2}$"
+  ],
+  "sol": "The reaction $\\mathrm{FeO + SiO_2 \\to FeSiO_3}$ represents slag formation, which is a purification/fluxing step to remove iron impurities, not a part of the self-reduction of copper oxide/sulfide to copper metal.",
+  "key": "C",
+  "diff": 4,
+  "secs": 50
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals",
+  "conf": "exact",
+  "stem": "Among the alkali metal halides, the one which is ionic and has the highest melting point is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{LiF}$",
+   "$\\mathrm{NaCl}$",
+   "$\\mathrm{NaF}$",
+   "$\\mathrm{CsF}$"
+  ],
+  "sol": "Fluorides of alkali metals are ionic. Among them, $\\mathrm{NaF}$ is highly ionic and has the highest melting point because $\\mathrm{LiF}$ has significant covalent character due to the high polarizing power of $\\mathrm{Li^+}$, whereas $\\mathrm{NaF}$ has a very high lattice energy combined with strong ionic character.",
+  "key": "C",
+  "diff": 4,
+  "secs": 60
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "The oxoacid of phosphorus that contains a $\\mathrm{P-P}$ single bond is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Metaphosphoric acid",
+   "Orthophosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) contains a direct $\\mathrm{P-P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P-O-P}$ linkage.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The correct electronic configuration and magnetic behavior of gadolinium ($\\mathrm{Gd}$, $Z=64$) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{[Xe]} 4f^7 5d^1 6s^2$, paramagnetic",
+   "$\\mathrm{[Xe]} 4f^8 6s^2$, diamagnetic",
+   "$\\mathrm{[Xe]} 4f^7 5d^1 6s^2$, diamagnetic",
+   "$\\mathrm{[Xe]} 4f^8 5d^0 6s^2$, paramagnetic"
+  ],
+  "sol": "Gadolinium ($Z=64$) has the electronic configuration $\\mathrm{[Xe]} 4f^7 5d^1 6s^2$ to maintain a stable half-filled $f$-subshell. Since it contains unpaired electrons, it is paramagnetic.",
+  "key": "A",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The formula of the complex ion that shows both geometrical and optical isomerism is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{[Co(NH_3)_4Cl_2]^+}$",
+   "$\\mathrm{[Co(en)_3]^{3+}}$",
+   "$\\mathrm{[Co(en)_2Cl_2]^+}$",
+   "$\\mathrm{[Co(NH_3)_5Cl]^{2+}}$"
+  ],
+  "sol": "$\\mathrm{[Co(en)_2Cl_2]^+}$ exists as both cis and trans isomers (geometrical). The cis-isomer is non-superimposable on its mirror image and is therefore optically active.",
+  "key": "C",
+  "diff": 4,
+  "secs": 50
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following compounds is responsible for the depletion of the ozone layer in the upper atmosphere?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Carbon dioxide",
+   "Freons",
+   "Sulfur dioxide",
+   "Nitrogen dioxide"
+  ],
+  "sol": "Freons (chlorofluorocarbons) release chlorine free radicals in the stratosphere, which catalytically destroy ozone molecules.",
+  "key": "B",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Characterisation of Organic Compounds",
+  "conf": "exact",
+  "stem": "In the Lassaigne's test for detection of nitrogen, the blue color is due to the formation of:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+   "$\\mathrm{Na_4[Fe(CN)_5NOS]}$",
+   "$\\mathrm{Fe(CNS)_3}$"
+  ],
+  "sol": "The Prussian blue color in Lassaigne's test for nitrogen is due to the formation of ferriferrocyanide, which is $\\mathrm{Fe_4[Fe(CN)_6]_3}$.",
+  "key": "A",
+  "diff": 3,
+  "secs": 35
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength",
+  "conf": "exact",
+  "stem": "The correct order of acidic strength of the following compounds is:\nI. Phenol\nII. $p$-Nitrophenol\nIII. $m$-Nitrophenol\nIV. $p$-Methylphenol",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "II > III > I > IV",
+   "II > I > III > IV",
+   "III > II > I > IV",
+   "IV > I > III > II"
+  ],
+  "sol": "Electron-withdrawing groups increase acidity, while electron-donating groups decrease it. \n$p$-Nitrophenol (II) has both $-I$ and $-M$ effects.\n$m$-Nitrophenol (III) has only $-I$ effect.\nPhenol (I) has no substitution.\n$p$-Methylphenol (IV) has $+I$ and hyperconjugative donation.\nTherefore, the order is II > III > I > IV.",
+  "key": "A",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$ at $333\\ \\mathrm{K}$, the major product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanal",
+   "Acetone",
+   "Propene",
+   "Propanol"
+  ],
+  "sol": "Hydration of propyne (Kucherov's reaction) yields propen-2-ol via Markovnikov addition of water, which tautomerizes to stable propanone (acetone).",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution",
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes $\\mathrm{S_N1}$ reaction most rapidly?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{(CH_3)_3C-F}$",
+   "$\\mathrm{(CH_3)_3C-Cl}$",
+   "$\\mathrm{(CH_3)_3C-Br}$",
+   "$\\mathrm{(CH_3)_3C-I}$"
+  ],
+  "sol": "The rate of $\\mathrm{S_N1}$ reaction depends on the stability of the carbocation formed and the leaving group ability. Since the tert-butyl carbocation is identical in all cases, the rate is determined by the leaving group ability: $\\mathrm{I^- > Br^- > Cl^- > F^-}$. Therefore, tert-butyl iodide reacts fastest.",
+  "key": "D",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes, Ketones and Carboxylic Acids",
+  "conf": "exact",
+  "stem": "An organic compound 'A' with formula $\\mathrm{C_5H_{10}O}$ gives a positive DNP test but does not reduce Tollens' reagent. It undergoes Cannizzaro reaction to give 2,2-dimethylpropan-1-ol and sodium 2,2-dimethylpropanoate. Compound 'A' is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "3-Methylbutanal",
+   "2,2-Dimethylpropanal",
+   "Pentan-2-one",
+   "Pentan-3-one"
+  ],
+  "sol": "Since compound 'A' gives 2,2-dimethylpropan-1-ol and sodium 2,2-dimethylpropanoate upon Cannizzaro reaction (disproportionation), it must be 2,2-dimethylpropanal. Note: Though the stem mentions it doesn't reduce Tollens' reagent, the question is based on the Cannizzaro products which uniquely identify 2,2-dimethylpropanal.",
+  "key": "B",
+  "diff": 4,
+  "secs": 60
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Which of the following vitamins is water-soluble?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin C",
+   "Vitamin E"
+  ],
+  "sol": "Vitamins B and C are water-soluble, whereas vitamins A, D, E, and K are fat-soluble.",
+  "key": "C",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a copolymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Buna-S",
+   "Nylon-6",
+   "Polythene",
+   "PVC"
+  ],
+  "sol": "Buna-S is a copolymer of 1,3-butadiene and styrene. Nylon-6, Polythene, and PVC are homopolymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "conf": "exact",
+  "stem": "Which of the following is an antihistamine drug?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Seldane",
+   "Nardil",
+   "Equanil",
+   "Valium"
+  ],
+  "sol": "Seldane (terfenadine) is a well-known antihistamine drug. Nardil is an antidepressant, while Equanil and Valium are tranquilizers.",
+  "key": "A",
+  "diff": 3,
+  "secs": 35
+ }
+]

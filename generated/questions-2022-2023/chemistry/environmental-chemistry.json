@@ -1,0 +1,613 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Environmental Chemistry",
+    "slug": "environmental-chemistry",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 16
+  },
+  "subtopics": [
+    {
+      "slug": "atmospheric-pollution",
+      "name": "Atmospheric Pollution",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-ENV-001",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is responsible for classical smog?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Smoke, fog and $\\mathrm{SO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Smoke, fog and $\\mathrm{O_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Smoke, fog and $\\mathrm{NO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Hydrocarbons and $\\mathrm{O_3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Classical smog occurs in cool, humid climates and is a mixture of smoke, fog, and sulfur dioxide ($\\mathrm{SO_2}$). It is reducing in nature."
+    },
+    {
+      "ref": "CHEM-ENV-002",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is a primary contributor to photochemically induced smog?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Sulfur dioxide",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Nitrogen oxides",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Carbon dioxide",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Carbon monoxide",
+          "is_correct": false
+        }
+      ],
+      "solution": "Photochemical smog is formed in warm, dry and sunny climates. The main components result from the action of sunlight on unsaturated hydrocarbons and nitrogen oxides produced by automobiles and factories."
+    },
+    {
+      "ref": "CHEM-ENV-003",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is not a common component of photochemical smog?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Ozone",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Acrolein",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Formaldehyde",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chlorofluorocarbons",
+          "is_correct": true
+        }
+      ],
+      "solution": "Photochemical smog consists of oxidizing agents like ozone ($O_3$), peroxyacetyl nitrate (PAN), acrolein, and formaldehyde, formed by the action of sunlight on unsaturated hydrocarbons and nitrogen oxides. Chlorofluorocarbons (CFCs) are responsible for ozone depletion in the stratosphere and are not components of photochemical smog."
+    },
+    {
+      "ref": "CHEM-ENV-004",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is responsible for the depletion of the ozone layer in the upper stratosphere?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Carbon monoxide",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Freons",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Carbon dioxide",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Sulfur dioxide",
+          "is_correct": false
+        }
+      ],
+      "solution": "Freons (chlorofluorocarbons or CFCs) decompose in the presence of UV radiation in the stratosphere to release chlorine free radicals, which catalyze the depletion of ozone."
+    },
+    {
+      "ref": "CHEM-ENV-005",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The pollutant that causes photochemical smog and is also a major constituent of industrial smog is/are:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Oxides of nitrogen",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Oxides of sulfur",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Chlorofluorocarbons",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Carbon monoxide",
+          "is_correct": false
+        }
+      ],
+      "solution": "Classic (industrial) smog is a reducing mixture containing high concentration of $\\mathrm{SO_2}$ (oxides of sulfur), whereas photochemical smog is oxidizing and is formed by action of sunlight on unsaturated hydrocarbons and nitrogen oxides. However, the question asks for the primary constituent of classical/industrial smog: oxides of sulfur."
+    },
+    {
+      "ref": "CHEM-ENV-006",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The secondary pollutant among the following is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{SO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{O}_3$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CO}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Primary pollutants are emitted directly from sources (e.g., $\\mathrm{SO}_2$, $\\mathrm{NO}_2$, $\\mathrm{CO}$). Ozone ($\\mathrm{O}_3$) is a secondary pollutant formed in the atmosphere through photochemical reactions of primary pollutants like nitrogen oxides and volatile organic compounds."
+    },
+    {
+      "ref": "CHEM-ENV-007",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The gas that causes the greenhouse effect and is also responsible for the damage to the ozone layer is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Nitrous oxide ($\\mathrm{N_2O}$)",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Sulfur dioxide ($\\mathrm{SO_2}$)",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Carbon dioxide ($\\mathrm{CO_2}$)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Nitrogen dioxide ($\\mathrm{NO_2}$)",
+          "is_correct": false
+        }
+      ],
+      "solution": "Nitrous oxide ($\\mathrm{N_2O}$) is a potent greenhouse gas that also plays a major role in ozone layer depletion in the stratosphere."
+    },
+    {
+      "ref": "CHEM-ENV-008",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The pollutant gas which primarily binds to hemoglobin and reduces its oxygen-carrying capacity is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{CO}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\text{CO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\text{SO}_2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\text{NO}_2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Carbon monoxide ($\\text{CO}$) binds to hemoglobin about 300 times more strongly than oxygen, forming carboxyhemoglobin, which reduces the oxygen-carrying capacity of blood."
+    },
+    {
+      "ref": "CHEM-ENV-009",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "The dark blue colour of the lake is due to the presence of phytoplanktons. Which of the following conditions is most likely to cause excessive growth of these phytoplanktons (eutrophication)?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Lack of nutrients and dissolved oxygen",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Presence of high amounts of phosphates and nitrates",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "High concentration of toxic heavy metals",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Low temperature and acidic pH of water",
+          "is_correct": false
+        }
+      ],
+      "solution": "Eutrophication is the process of nutrient enrichment of water bodies, primarily by nitrates and phosphates (from fertilizers and detergents). This excessive nutrient supply leads to rapid, dense growth of algae and phytoplanktons (algal blooms)."
+    },
+    {
+      "ref": "CHEM-ENV-010",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is not a common component of photochemical smog?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Ozone",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Acrolein",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Formaldehyde",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chlorofluorocarbons",
+          "is_correct": true
+        }
+      ],
+      "solution": "Photochemical smog is formed by the action of sunlight on unsaturated hydrocarbons and nitrogen oxides. Its primary components are ozone, nitric oxide, acrolein, formaldehyde, and peroxyacetyl nitrate (PAN). Chlorofluorocarbons (CFCs) are responsible for ozone depletion in the stratosphere, but are not components of photochemical smog."
+    },
+    {
+      "ref": "CHEM-ENV-011",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following is NOT a greenhouse gas?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{N_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{CH_4}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{O_3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{H_2O}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Diatomic homonuclear molecules like $\\mathrm{N_2}$ and $\\mathrm{O_2}$ do not absorb infrared radiation because they cannot undergo a change in dipole moment during vibration. Therefore, $\\mathrm{N_2}$ is not a greenhouse gas."
+    },
+    {
+      "ref": "CHEM-ENV-012",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following is not a common component of photochemical smog?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Ozone",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Acrolein",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Peroxyacetyl nitrate",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Chlorofluorocarbons",
+          "is_correct": true
+        }
+      ],
+      "solution": "Photochemical smog consists of oxidizing agents like ozone ($O_3$), acrolein ($CH_2=CHCHO$), formaldehyde, and peroxyacetyl nitrate (PAN). Chlorofluorocarbons (CFCs) are primary pollutants responsible for ozone depletion in the stratosphere, not components of photochemical smog in the troposphere."
+    },
+    {
+      "ref": "CHEM-ENV-013",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "Which of the following reactions is mainly responsible for the depletion of the ozone layer in the stratosphere?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CF}_2\\mathrm{Cl}_2 \\xrightarrow{h\\nu} \\mathrm{CF}_2\\mathrm{Cl}^{\\bullet} + \\mathrm{Cl}^{\\bullet}$ followed by $\\mathrm{Cl}^{\\bullet} + \\mathrm{O}_3 \\rightarrow \\mathrm{ClO}^{\\bullet} + \\mathrm{O}_2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{SO}_2 + \\frac{1}{2}\\mathrm{O}_2 \\rightarrow \\mathrm{SO}_3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{NO}_2 \\xrightarrow{h\\nu} \\mathrm{NO} + \\mathrm{O}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH}_4 + 2\\mathrm{O}_2 \\rightarrow \\mathrm{CO}_2 + 2\\mathrm{H}_2\\mathrm{O}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Chlorofluorocarbons (CFCs) like $\\mathrm{CF}_2\\mathrm{Cl}_2$ undergo photolysis in the stratosphere to produce chlorine free radicals ($\\mathrm{Cl}^{\\bullet}$), which continuously catalyze the breakdown of ozone ($\\mathrm{O}_3$) to $\\mathrm{O}_2$."
+    },
+    {
+      "ref": "CHEM-ENV-014",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The primary pollutant that leads to photochemical smog is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Nitrogen oxides",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Sulfur dioxide",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Carbon dioxide",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Particulate matter",
+          "is_correct": false
+        }
+      ],
+      "solution": "Photochemical smog is initiated by the action of sunlight on unsaturated hydrocarbons and nitrogen oxides ($\\mathrm{NO}_x$) produced by automobiles and factories."
+    },
+    {
+      "ref": "CHEM-ENV-015",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The atmospheric layer which is closest to the Earth's surface and contains water vapour and clouds is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Troposphere",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Stratosphere",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Mesosphere",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Thermosphere",
+          "is_correct": false
+        }
+      ],
+      "solution": "The troposphere is the lowest layer of Earth's atmosphere, extending from the surface up to about 10 km. It contains the majority of the atmosphere's water vapour, clouds, and weather systems."
+    },
+    {
+      "ref": "CHEM-ENV-016",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "The primary cause of ozone depletion in the stratosphere is the release of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Carbon dioxide",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Chlorofluorocarbon compounds",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Nitrogen dioxide",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Sulfur dioxide",
+          "is_correct": false
+        }
+      ],
+      "solution": "Chlorofluorocarbons (CFCs) release chlorine free radicals in the stratosphere upon UV photolysis, which catalytically destroy the ozone layer."
+    }
+  ]
+}

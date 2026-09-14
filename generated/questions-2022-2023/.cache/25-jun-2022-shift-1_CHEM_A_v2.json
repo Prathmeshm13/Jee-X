@@ -1,0 +1,402 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in the $n^{\\mathrm{th}}$ orbit of $H$-atom is proportional to:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$n^2$",
+   "$n^3$",
+   "$n$",
+   "$n^4$"
+  ],
+  "sol": "The time period of an electron in a Bohr orbit is given by $T = \\frac{2\\pi r}{v}$. Since the radius $r \\propto n^2$ and the velocity $v \\propto \\frac{1}{n}$, we have $T \\propto \\frac{n^2}{1/n} = n^3$.",
+  "key": "B",
+  "diff": 2,
+  "secs": 45
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "conf": "exact",
+  "stem": "Amongst the following, the species which is paramagnetic and has a bond order of $1.5$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$O_2^+$",
+   "$O_2^-$",
+   "$N_2^+$",
+   "$N_2^-$"
+  ],
+  "sol": "For $O_2^-$, total electrons = 17. Molecular orbital configuration is $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1})$. There is 1 unpaired electron, so it is paramagnetic. Bond order = $\\frac{10 - 7}{2} = 1.5$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "conf": "exact",
+  "stem": "A $1\\%$ (mass/vol) aqueous solution of a substance $A$ is isotonic with a $3\\%$ (mass/vol) aqueous solution of glucose ($M.W. = 180\\ \\mathrm{g\\ mol^{-1}}$) at the same temperature. The molecular mass of $A$ is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$60\\ \\mathrm{g\\ mol^{-1}}$",
+   "$120\\ \\mathrm{g\\ mol^{-1}}$",
+   "$180\\ \\mathrm{g\\ mol^{-1}}$",
+   "$360\\ \\mathrm{g\\ mol^{-1}}$"
+  ],
+  "sol": "Isotonic solutions have equal osmotic pressure, i.e., $C_1 = C_2$ (assuming non-electrolytes).\n$C_1 = \\frac{1\\ \\mathrm{g} / M_A}{100\\ \\mathrm{mL}}$ and $C_2 = \\frac{3\\ \\mathrm{g} / 180}{100\\ \\mathrm{mL}}$.\nEquating both, $\\frac{1}{M_A} = \\frac{3}{180} \\implies M_A = 60\\ \\mathrm{g\\ mol^{-1}}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 60
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "conf": "exact",
+  "stem": "For the reaction $2\\mathrm{NO_2(g)} \\rightleftharpoons \\mathrm{N_2O_4(g)}$, the value of $\\Delta H$ is negative (exothermic). The yield of $\\mathrm{N_2O_4}$ at equilibrium can be increased by:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Increasing both temperature and pressure",
+   "Decreasing both temperature and pressure",
+   "Increasing temperature and decreasing pressure",
+   "Decreasing temperature and increasing pressure"
+  ],
+  "sol": "For $2\\mathrm{NO_2(g)} \\rightleftharpoons \\mathrm{N_2O_4(g)}$, $\\Delta n_g = 1 - 2 = -1 < 0$. High pressure shifts equilibrium forward (towards fewer moles of gas). Since $\\Delta H < 0$, low temperature shifts equilibrium forward (Le Chatelier's Principle). Thus, decreasing temperature and increasing pressure increases the yield.",
+  "key": "D",
+  "diff": 3,
+  "secs": 60
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "conf": "exact",
+  "stem": "Which of the following statements is correct regarding the variation of molar conductivity ($\\Lambda_m$) with concentration ($c$) for strong and weak electrolytes?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\Lambda_m$ decreases linearly with $\\sqrt{c}$ for weak electrolytes.",
+   "$\\Lambda_m$ increases linearly with $\\sqrt{c}$ for strong electrolytes.",
+   "Value of limiting molar conductivity ($\\Lambda_m^\\circ$) for weak electrolytes cannot be obtained directly by extrapolation of $\\Lambda_m$ vs $\\sqrt{c}$ plot.",
+   "The degree of dissociation of weak electrolyte decreases with dilution."
+  ],
+  "sol": "For strong electrolytes, $\\Lambda_m$ varies linearly with $\\sqrt{c}$ following Kohlrausch's law. For weak electrolytes, the plot is non-linear and steep at high dilution, meaning $\\Lambda_m^\\circ$ cannot be obtained by direct extrapolation.",
+  "key": "C",
+  "diff": 3,
+  "secs": 50
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half Life",
+  "conf": "exact",
+  "stem": "For a first order reaction, the time required for $99\\%$ completion of the reaction is $x$ times the half-life ($t_{1/2}$) of the reaction. The value of $x$ is approximately:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$10$",
+   "$6.6$",
+   "$4.6$",
+   "$3.3$"
+  ],
+  "sol": "For first order reaction, $t = \\frac{2.303}{k} \\log\\left(\\frac{100}{100-y}\\right)$.\n$t_{99\\%} = \\frac{2.303}{k} \\log\\left(\\frac{100}{1}\\right) = \\frac{4.606}{k}$.\n$t_{1/2} = \\frac{0.693}{k}$.\n$\\frac{t_{99\\%}}{t_{1/2}} = \\frac{4.606}{0.693} \\approx 6.6$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 75
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "conf": "exact",
+  "stem": "Which of the following is responsible for the depletion of the ozone layer in the upper stratosphere?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Carbon monoxide",
+   "Freons",
+   "Carbon dioxide",
+   "Sulfur dioxide"
+  ],
+  "sol": "Freons (chlorofluorocarbons or CFCs) decompose in the presence of UV radiation in the stratosphere to release chlorine free radicals, which catalyze the depletion of ozone.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals and Their Compounds",
+  "conf": "exact",
+  "stem": "The correct order of density of the alkali metals is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Li < Na < K < Rb < Cs}$",
+   "$\\mathrm{Li < K < Na < Rb < Cs}$",
+   "$\\mathrm{Cs < Rb < K < Na < Li}$",
+   "$\\mathrm{Li < Na < K < Cs < Rb}$"
+  ],
+  "sol": "Generally, density increases down the group from Li to Cs due to a larger increase in atomic mass compared to atomic volume. However, Potassium (K) is lighter/less dense than Sodium (Na) due to the presence of vacant $3d$ orbitals leading to an unusual increase in volume. Therefore, the correct density order is $\\mathrm{Li < K < Na < Rb < Cs}$.",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus has a P-P bond?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$, which contains a direct $\\mathrm{P-P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P-O-P}$ bond.",
+  "key": "A",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids",
+  "conf": "exact",
+  "stem": "The standard electrode potential ($E^\\circ$) values of $\\mathrm{M^{3+}/M^{2+}}$ for some lanthanoids are given below:\n$$\\mathrm{Ce: -3.2\\ V,\\ \\ Pr: -2.7\\ V,\\ \\ Nd: -2.6\\ V,\\ \\ Sm: -1.6\\ V}$$\nWhich of the following is the strongest reducing agent in its $+2$ state?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Ce^{2+}}$",
+   "$\\mathrm{Pr^{2+}}$",
+   "$\\mathrm{Nd^{2+}}$",
+   "$\\mathrm{Sm^{2+}}$"
+  ],
+  "sol": "A stronger reducing agent has a more negative standard reduction potential ($E^\\circ$) for the oxidation couple $\\mathrm{M^{3+}/M^{2+}}$. Since the $E^\\circ(\\mathrm{M^{3+}/M^{2+}})$ value for $\\mathrm{Ce}$ is the most negative ($-3.2\\ \\mathrm{V}$), $\\mathrm{Ce^{2+}}$ has the highest tendency to get oxidized to $\\mathrm{Ce^{3+}}$ and is therefore the strongest reducing agent.",
+  "key": "A",
+  "diff": 4,
+  "secs": 50
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "conf": "exact",
+  "stem": "The formula of a coordination compound is $\\mathrm{[Co(NH_3)_5(NO_2)]Cl_2}$. It can exhibit which of the following types of isomerism?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Linkage, Ionization and Optical isomerism",
+   "Linkage, Geometrical and Ionization isomerism",
+   "Linkage and Ionization isomerism only",
+   "Geometrical and Coordination isomerism"
+  ],
+  "sol": "1. Linkage isomerism: $\\mathrm{NO_2^-}$ is an ambidentate ligand, coordinating via $\\mathrm{N}$ ($-\\mathrm{NO_2}$) or $\\mathrm{O}$ ($-\\mathrm{ONO}$).\n2. Ionization isomerism: Chloride ion in outer sphere can exchange with nitrite inside the coordination sphere to form $\\mathrm{[Co(NH_3)_5Cl]NO_2\\cdot Cl}$.\nIt does not show geometrical or optical isomerism because it is of the type $\\mathrm{[MA_5B]}$, which has only one spatial arrangement.",
+  "key": "C",
+  "diff": 4,
+  "secs": 60
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction of Metals (Pyrometallurgy, Hydrometallurgy)",
+  "conf": "exact",
+  "stem": "In the extraction of copper, the reaction taking place in the Bessemer converter (self-reduction) is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{Cu_2S + 2Cu_2O \\rightarrow 6Cu + SO_2}$",
+   "$\\mathrm{2FeS + 3O_2 \\rightarrow 2FeO + 2SO_2}$",
+   "$\\mathrm{FeO + SiO_2 \\rightarrow FeSiO_3}$",
+   "$\\mathrm{2CuFeS_2 + O_2 \\rightarrow Cu_2S + 2FeS + SO_2}$"
+  ],
+  "sol": "During the self-reduction step in the extraction of copper, copper(I) sulfide reacts with copper(I) oxide (formed by partial oxidation of sulfide) to yield blister copper and sulfur dioxide: $\\mathrm{Cu_2S + 2Cu_2O \\rightarrow 6Cu + SO_2}$.",
+  "key": "A",
+  "diff": 2,
+  "secs": 40
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis",
+  "conf": "exact",
+  "stem": "In Lassaigne's test, the organic compound is fused with sodium metal. If nitrogen and sulfur both are present in the organic compound, the sodium fusion extract contains:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{NaCN}$ and $\\mathrm{Na_2S}$",
+   "$\\mathrm{NaSCN}$",
+   "$\\mathrm{Na_2SO_3}$ and $\\mathrm{NaCN}$",
+   "$\\mathrm{NaN_3}$ and $\\mathrm{Na_2S}$"
+  ],
+  "sol": "If both nitrogen and sulfur are present in the organic compound, sodium fuses with them to form sodium thiocyanate ($\\mathrm{NaSCN}$), provided sodium is not in excess. (If sodium is in excess, $\\mathrm{NaSCN}$ decomposes into $\\mathrm{NaCN}$ and $\\mathrm{Na_2S}$). Usually, the primary product of fusion of N and S is sodium thiocyanate.",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "conf": "exact",
+  "stem": "The correct order of increasing basic strength of the following amines in aqueous solution is:\n$$\\mathrm{(CH_3)_2NH\\ (I),\\ \\ CH_3NH_2\\ (II),\\ \\ (CH_3)_3N\\ (III),\\ \\ NH_3\\ (IV)}$$",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "$\\mathrm{IV < III < II < I}$",
+   "$\\mathrm{IV < II < III < I}$",
+   "$\\mathrm{I < II < III < IV}$",
+   "$\\mathrm{III < II < I < IV}$"
+  ],
+  "sol": "In aqueous medium, the basic strength of methyl substituted amines is determined by inductive effect, solvation effect, and steric hindrance. The correct experimental order of basic strength is:\nSecondary > Primary > Tertiary > Ammonia\ni.e., $\\mathrm{(CH_3)_2NH > CH_3NH_2 > (CH_3)_3N > NH_3}$. Thus: $\\mathrm{IV < III < II < I}$.",
+  "key": "A",
+  "diff": 4,
+  "secs": 50
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes: Preparation and Properties",
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{Hg^{2+}}$ at $333\\ \\mathrm{K}$, the major product formed is:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Propanol",
+   "Propanone",
+   "Propanal",
+   "Propene"
+  ],
+  "sol": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) using $\\mathrm{dil.\\ H_2SO_4 / Hg^{2+}}$ occurs via Markovnikov's addition of water to yield an unstable enol intermediate $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes rapidly to give acetone (propanone, $\\mathrm{CH_3-CO-CH_3}$).",
+  "key": "B",
+  "diff": 3,
+  "secs": 40
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "conf": "exact",
+  "stem": "Which of the following compounds will undergo nucleophilic substitution ($S_{\\mathrm{N}}1$) fastest?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Allyl chloride",
+   "Benzyl chloride",
+   "Isopropyl chloride",
+   "Ethyl chloride"
+  ],
+  "sol": "$S_{\\mathrm{N}}1$ reactions proceed via a carbocation intermediate. The order of stability of carbocations formed is: Benzyl carbocation ($\\mathrm{C_6H_5CH_2^+}$) is highly stabilized by resonance over the benzene ring, more so than the allyl carbocation ($\\mathrm{CH_2=CH-CH_2^+}$) which has only one double bond for resonance. Hence, benzyl chloride reacts fastest.",
+  "key": "B",
+  "diff": 3,
+  "secs": 45
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "conf": "exact",
+  "stem": "The reaction of benzaldehyde with concentrated $\\mathrm{NaOH}$ solution gives benzyl alcohol and sodium benzoate. This reaction is known as:",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Aldol condensation",
+   "Cannizzaro reaction",
+   "Clemmensen reduction",
+   "Rosenmund reduction"
+  ],
+  "sol": "Aldehydes having no $\\alpha$-hydrogen atoms (like benzaldehyde) undergo self-oxidation and reduction (disproportionation) on treatment with concentrated alkali to produce alcohol and salt of carboxylic acid. This is the Cannizzaro reaction.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "conf": "exact",
+  "stem": "Which of the following is a condensation polymer?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Dacron",
+   "Neoprene",
+   "Teflon",
+   "Buna-S"
+  ],
+  "sol": "Dacron (Terylene) is a polyester formed by condensation polymerization of ethylene glycol and terephthalic acid with elimination of water molecules. Neoprene, Teflon, and Buna-S are addition polymers.",
+  "key": "A",
+  "diff": 2,
+  "secs": 30
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "conf": "exact",
+  "stem": "Deficiency of Vitamin $B_{12}$ causes which of the following diseases?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Scurvy",
+   "Pernicious anaemia",
+   "Rickets",
+   "Beri-beri"
+  ],
+  "sol": "Deficiency of Vitamin $\\mathrm{B_{12}}$ (cyanocobalamin) leads to pernicious anaemia. Deficiency of Vitamin C causes scurvy, Vitamin D causes rickets, and Vitamin $\\mathrm{B_1}$ causes beri-beri.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Therapeutic Class of Drugs",
+  "conf": "exact",
+  "stem": "Which of the following classes of drugs is used to reduce or abolish pain without causing impairment of consciousness?",
+  "img": false,
+  "img_desc": "",
+  "img_url": "",
+  "opts": [
+   "Antipyretics",
+   "Analgesics",
+   "Antihistamines",
+   "Tranquilizers"
+  ],
+  "sol": "Analgesics are neurological active drugs that reduce or abolish pain without causing impairment of consciousness, mental confusion, incoordination or paralysis.",
+  "key": "B",
+  "diff": 1,
+  "secs": 20
+ }
+]

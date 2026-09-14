@@ -25,11 +25,10 @@ export default function Sidebar() {
           Analysis
           <span className="soon">Soon</span>
         </button>
-        <button className="dash-link disabled" type="button" title="Coming soon">
+        <NavLink to="/subject-test" className={linkClass}>
           <BookOpen size={17} strokeWidth={2} />
-          Question bank
-          <span className="soon">Soon</span>
-        </button>
+          Subject tests
+        </NavLink>
         <NavLink to="/profile" className={linkClass}>
           <User size={17} strokeWidth={2} />
           Profile

@@ -1,0 +1,577 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Chemical Equilibrium",
+    "slug": "chemical-equilibrium",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 7
+  },
+  "subtopics": [
+    {
+      "slug": "le-chatelier-principle",
+      "name": "Le Chatelier's Principle",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-CEQ-001",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the exothermic reaction:\n$$\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}$$\nWhich of the following conditions will shift the equilibrium in the forward direction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing the temperature and increasing the pressure",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Decreasing the temperature and increasing the pressure",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Decreasing the temperature and decreasing the pressure",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Increasing the temperature and decreasing the pressure",
+          "is_correct": false
+        }
+      ],
+      "solution": "For the forward reaction:\n1. It is exothermic ($\\Delta H < 0$), so decreasing the temperature shifts the equilibrium in the forward direction.\n2. $\\Delta n_g = 2 - 4 = -2 < 0$, so increasing the pressure (decreasing volume) shifts the equilibrium towards the side with fewer moles of gas (forward direction)."
+    },
+    {
+      "ref": "CHEM-CEQ-002",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction:\n$$\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)},\\quad \\Delta H > 0$$\nWhich of the following conditions will shift the equilibrium in the forward direction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing the pressure",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Increasing the temperature",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Adding $\\mathrm{Cl_2}$ gas at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Decreasing the volume of the container",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reaction is endothermic ($\\Delta H > 0$). According to Le Chatelier's principle, increasing the temperature shifts the equilibrium of an endothermic reaction in the forward direction. Increasing pressure/decreasing volume shifts it towards fewer moles (backward), and adding $\\mathrm{Cl_2}$ shifts it backward."
+    },
+    {
+      "ref": "CHEM-CEQ-003",
+      "subtopic": "le-chatelier-principle",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction $\\mathrm{A(g)} \\rightleftharpoons \\mathrm{B(g)}$, the value of equilibrium constant is $100$ at $300\\ \\mathrm{K}$. If the initial concentration of $\\mathrm{A(g)}$ is $1\\ \\mathrm{M}$, the concentration of $\\mathrm{B(g)}$ at equilibrium is $x \\times 10^{-2}\\ \\mathrm{M}$. The value of $x$ is ___________. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 99.0,
+        "max": 99.0
+      },
+      "solution": "Let equilibrium concentration of $\\mathrm{B}$ be $y\\ \\mathrm{M}$.\nAt equilibrium, $[\\mathrm{A}] = 1 - y$ and $[\\mathrm{B}] = y$.\n$K_c = \\frac{[\\mathrm{B}]}{[\\mathrm{A}]} = \\frac{y}{1-y} = 100 \\implies y = 100 - 100y \\implies 101y = 100 \\implies y = \\frac{100}{101} \\approx 0.99\\ \\mathrm{M}$.\n$y = 99 \\times 10^{-2}\\ \\mathrm{M}$. Thus, $x = 99$."
+    },
+    {
+      "ref": "CHEM-CEQ-004",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction:\n$$\\mathrm{PCl}_5(g) \\rightleftharpoons \\mathrm{PCl}_3(g) + \\mathrm{Cl}_2(g)$$\nthe forward reaction is favoured by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "introducing an inert gas at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "introducing chlorine gas at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "introducing an inert gas at constant pressure",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "increasing the pressure of the system",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reaction shows an increase in the number of moles of gas ($\\Delta n_g = 2 - 1 = 1 > 0$).\n- Adding inert gas at constant pressure increases the volume, shifting the equilibrium to the side with more moles of gas (forward direction).\n- Inert gas at constant volume has no effect.\n- Increasing pressure shifts it to the left (less moles).\n- Adding product $\\mathrm{Cl}_2$ shifts it to the left."
+    },
+    {
+      "ref": "CHEM-CEQ-005",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction $2\\mathrm{NO_2(g)} \\rightleftharpoons \\mathrm{N_2O_4(g)}$, the value of $\\Delta H$ is negative (exothermic). The yield of $\\mathrm{N_2O_4}$ at equilibrium can be increased by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing both temperature and pressure",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Decreasing both temperature and pressure",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Increasing temperature and decreasing pressure",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Decreasing temperature and increasing pressure",
+          "is_correct": true
+        }
+      ],
+      "solution": "For $2\\mathrm{NO_2(g)} \\rightleftharpoons \\mathrm{N_2O_4(g)}$, $\\Delta n_g = 1 - 2 = -1 < 0$. High pressure shifts equilibrium forward (towards fewer moles of gas). Since $\\Delta H < 0$, low temperature shifts equilibrium forward (Le Chatelier's Principle). Thus, decreasing temperature and increasing pressure increases the yield."
+    },
+    {
+      "ref": "CHEM-CEQ-006",
+      "subtopic": "le-chatelier-principle",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction $A(g) \\rightleftharpoons B(g)$, the value of the equilibrium constant at $298\\ \\mathrm{K}$ is $100$. If the value of standard Gibbs free energy change of the reaction ($\\Delta G^{\\circ}$) at $298\\ \\mathrm{K}$ is $-x \\times 10^2\\ \\mathrm{J\\ mol^{-1}}$, the value of $x$ is _________ (Nearest integer).\n(Given: $R = 8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$, $\\ln 10 = 2.3$)",
+      "image": null,
+      "answer": {
+        "min": 114.0,
+        "max": 114.0
+      },
+      "solution": "$\\Delta G^{\\circ} = -RT \\ln K = -8.314 \\times 298 \\times \\ln(100) = -8.314 \\times 298 \\times 2 \\ln(10)$\n$\\Delta G^{\\circ} = -8.314 \\times 298 \\times 2 \\times 2.3 \\approx -11396.8\\ \\mathrm{J\\ mol^{-1}}$\n$\\Delta G^{\\circ} = -113.97 \\times 10^2\\ \\mathrm{J\\ mol^{-1}}$.\nThus, $x \\approx 114$."
+    },
+    {
+      "ref": "CHEM-CEQ-007",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction:\n$$\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$$\nthe forward reaction is favored by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "increasing the pressure",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "decreasing the volume of the container",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "introducing an inert gas at constant pressure",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "introducing an inert gas at constant volume",
+          "is_correct": false
+        }
+      ],
+      "solution": "Here, $\\Delta n_g = 1 + 1 - 1 = 1 > 0$.\nAccording to Le Chatelier's principle:\n- Adding inert gas at constant pressure increases the volume, favoring the side with more moles of gas (forward).\n- Adding inert gas at constant volume has no effect.\n- Increasing pressure or decreasing volume shifts the equilibrium backward."
+    },
+    {
+      "ref": "CHEM-CEQ-008",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction:\n$$\\mathrm{N}_2(g) + 3\\mathrm{H}_2(g) \\rightleftharpoons 2\\mathrm{NH}_3(g) \\quad \\Delta H < 0$$\nWhich of the following conditions will shift the equilibrium to the right?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing temperature and decreasing pressure",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Decreasing temperature and increasing pressure",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "Decreasing temperature and decreasing pressure",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Increasing temperature and increasing pressure",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Le Chatelier's principle:\n1) Since the reaction is exothermic ($\\Delta H < 0$), decreasing temperature shifts the equilibrium in the forward direction (to the right).\n2) The forward reaction occurs with a decrease in the number of gaseous moles (from 4 to 2). Thus, increasing pressure shifts the equilibrium to the side with fewer moles (forward/right)."
+    },
+    {
+      "ref": "CHEM-CEQ-009",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction $\\text{PCl}_5(g) \\rightleftharpoons \\text{PCl}_3(g) + \\text{Cl}_2(g)$, the forward reaction is favored by :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "increasing the pressure at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "decreasing the volume at constant temperature",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "adding an inert gas at constant pressure",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "adding an inert gas at constant volume",
+          "is_correct": false
+        }
+      ],
+      "solution": "For the given reaction, $\\Delta n_g = 1 + 1 - 1 = 1 > 0$.\nAdding an inert gas at constant pressure increases the total volume, decreasing the partial pressures of the components. To counteract this, the equilibrium shifts in the direction of more moles (forward direction)."
+    },
+    {
+      "ref": "CHEM-CEQ-010",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "27 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$, the forward reaction at constant temperature is favored by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Introducing an inert gas at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Introducing chlorine gas at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Introducing an inert gas at constant pressure",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Increasing the total pressure of the system",
+          "is_correct": false
+        }
+      ],
+      "solution": "The total number of gaseous moles increases in the forward direction ($\\Delta n_g = 1 > 0$).\nAdding an inert gas at constant pressure increases the volume, which shifts the equilibrium towards the side with more moles of gas (forward direction)."
+    },
+    {
+      "ref": "CHEM-CEQ-011",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "28 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction $2\\mathrm{NO}_2(g) \\rightleftharpoons \\mathrm{N}_2\\mathrm{O}_4(g)$, the value of $\\Delta H$ is $-57.2\\ \\mathrm{kJ\\ mol^{-1}}$. Under which of the following conditions will the yield of $\\mathrm{N}_2\\mathrm{O}_4$ be maximum?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Low temperature and High pressure",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "High temperature and Low pressure",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Low temperature and Low pressure",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "High temperature and High pressure",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reaction is exothermic ($\\Delta H < 0$), so low temperature favors the forward reaction. The reaction has $\\Delta n_g = 1 - 2 = -1 < 0$, so high pressure favors the forward reaction. Thus, low temperature and high pressure yield maximum $\\mathrm{N}_2\\mathrm{O}_4$."
+    },
+    {
+      "ref": "CHEM-CEQ-012",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 4,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction:\n$$\\text{PCl}_5(g) \\rightleftharpoons \\text{PCl}_3(g) + \\text{Cl}_2(g)$$\nthe forward reaction is favored by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing the pressure",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Adding inert gas at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Adding inert gas at constant pressure",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Decreasing the temperature (assuming endothermic)",
+          "is_correct": false
+        }
+      ],
+      "solution": "The dissociation of $\\text{PCl}_5$ is endothermic and involves an increase in the number of moles of gas ($\\Delta n_g = 1 > 0$). Under constant pressure conditions, adding an inert gas increases the total volume, shifting the equilibrium towards the side with more moles of gas (forward direction)."
+    },
+    {
+      "ref": "CHEM-CEQ-013",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "29 Jun 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction:\n$$\\mathrm{PCl}_5(\\mathrm{g}) \\rightleftharpoons \\mathrm{PCl}_3(\\mathrm{g}) + \\mathrm{Cl}_2(\\mathrm{g})$$\nwhich of the following conditions will favor the forward reaction according to Le Chatelier's principle?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing the pressure of the system",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Addition of inert gas at constant volume",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Addition of inert gas at constant pressure",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Decreasing the concentration of $\\mathrm{PCl}_5$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For the given reaction, $\\Delta n_g = 1 + 1 - 1 = +1 > 0$.\nAdding an inert gas at constant pressure increases the volume of the system, driving the equilibrium towards the side with more moles of gas (forward direction)."
+    },
+    {
+      "ref": "CHEM-CEQ-014",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the reaction $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$, the forward reaction is favored by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Decreasing the pressure",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Increasing the pressure",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Decreasing the temperature",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Adding an inert gas at constant volume",
+          "is_correct": false
+        }
+      ],
+      "solution": "The dissociation of $\\mathrm{PCl_5}$ involves an increase in the number of moles of gas ($\\Delta n_g = 1 > 0$). According to Le Chatelier's principle, decreasing the pressure shifts the equilibrium towards the side with more moles of gas (i.e., the forward direction)."
+    },
+    {
+      "ref": "CHEM-CEQ-015",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the following equilibrium reaction:\n$$\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)} \\quad \\Delta H < 0$$\nWhich of the following conditions will shift the equilibrium in the forward direction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing the temperature",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Decreasing the pressure",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Increasing the volume of the container",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Increasing the concentration of $\\mathrm{N_2}$",
+          "is_correct": true
+        }
+      ],
+      "solution": "According to Le Chatelier's principle:\n1. Since the forward reaction is exothermic ($\\Delta H < 0$), decreasing the temperature shifts it forward.\n2. Increasing the concentration of reactants ($\\mathrm{N_2}$ or $\\mathrm{H_2}$) shifts the equilibrium to the right (forward direction).\n3. Increasing pressure (or decreasing volume) shifts the equilibrium towards the side with fewer gaseous moles (forward)."
+    },
+    {
+      "ref": "CHEM-CEQ-016",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 30,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "26 Jul 2022, Shift 2",
+      "status": "draft",
+      "stem": "For the exothermic reaction:\n$$\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}$$\nwhich of the following conditions will shift the equilibrium to the right (towards product formation)?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Increasing temperature and increasing pressure",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Decreasing temperature and decreasing pressure",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Decreasing temperature and increasing pressure",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "Increasing temperature and decreasing pressure",
+          "is_correct": false
+        }
+      ],
+      "solution": "Since the forward reaction is exothermic, decreasing the temperature shifts equilibrium to the right. Also, since $\\Delta n_g = 2 - 4 = -2 < 0$, increasing the pressure shifts the equilibrium to the side with fewer moles of gas (the right)."
+    }
+  ]
+}

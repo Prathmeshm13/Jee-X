@@ -90,6 +90,80 @@
         }
       ],
       "solution": "Using $A \\implies B \\equiv \\sim A \\vee B$:\n$\\sim (\\sim p \\wedge q) \\vee (p \\vee \\sim q) \\equiv (p \\vee \\sim q) \\vee (p \\vee \\sim q) \\equiv p \\vee \\sim q$."
+    },
+    {
+      "ref": "MATH-MRE-003",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 40,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The proposition $p \\to (\\sim p \\lor q)$ is equivalent to :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\to q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\sim p \\to q$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$p \\lor q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$p \\land q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$p \\to (\\sim p \\lor q) \\equiv \\sim p \\lor (\\sim p \\lor q)$\n$\\equiv (\\sim p \\lor \\sim p) \\lor q \\equiv \\sim p \\lor q \\equiv p \\to q$."
+    },
+    {
+      "ref": "MATH-MRE-004",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The statement $(p \\wedge \\sim q) \\to (p \\to \\sim q)$ is :",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "a tautology",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "a contradiction",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "equivalent to $p \\wedge q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "equivalent to $p \\vee q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $P = p \\wedge \\sim q$ and $Q = p \\to \\sim q \\equiv \\sim p \\vee \\sim q$.\nWe want to find truth value of $P \\to Q$.\nIf $P$ is True $\\implies p$ is T and $q$ is F.\nThen $Q \\equiv \\sim p \\vee \\sim q \\equiv \\text{F} \\vee \\text{T} \\equiv \\text{T}$.\nThus, whenever $P$ is True, $Q$ is also True. Hence $P \\to Q$ is always True (a tautology)."
     }
   ]
 }

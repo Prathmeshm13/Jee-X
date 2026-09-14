@@ -128,6 +128,80 @@
         "max": 1.0
       },
       "solution": "The given SHM equation can be written as $y = A \\sin(\\omega t + \\phi)$,\nwhere $A = \\sqrt{3^2 + 4^2} = 5\\ \\mathrm{m}$.\nThe maximum speed is $v_{\\text{max}} = A\\omega = 10\\ \\mathrm{m/s}$.\nThus, $5\\omega = 10 \\implies \\omega = 2\\ \\mathrm{rad/s}$.\nThe time period is $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{2} = \\pi\\ \\mathrm{s}$.\nComparing with $T = \\frac{\\pi}{x}$, we get $x = 1$."
+    },
+    {
+      "ref": "PHY-OSC-005",
+      "subtopic": "simple-harmonic-motion",
+      "type": "single_correct",
+      "difficulty": 2,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A particle executes simple harmonic motion with an amplitude $A$. The ratio of its kinetic energy to its potential energy when it is at a distance of $\\frac{A}{2}$ from the mean position is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$3 : 1$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$4 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 4$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Kinetic energy: $K = \\frac{1}{2}m\\omega^2(A^2 - x^2)$.\nPotential energy: $U = \\frac{1}{2}m\\omega^2 x^2$.\nAt $x = \\frac{A}{2}$:\n$K = \\frac{1}{2}m\\omega^2\\left(A^2 - \\frac{A^2}{4}\\right) = \\frac{3}{4}\\left(\\frac{1}{2}m\\omega^2 A^2\\right)$.\n$U = \\frac{1}{2}m\\omega^2\\left(\\frac{A^2}{4}\\right) = \\frac{1}{4}\\left(\\frac{1}{2}m\\omega^2 A^2\\right)$.\nRatio $\\frac{K}{U} = \\frac{3/4}{1/4} = 3 : 1$."
+    },
+    {
+      "ref": "PHY-OSC-006",
+      "subtopic": "simple-harmonic-motion",
+      "type": "single_correct",
+      "difficulty": 1,
+      "expected_time_sec": 35,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A particle executing simple harmonic motion has amplitude $A$. At what distance from the mean position is its kinetic energy equal to its potential energy?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{A}{\\sqrt{2}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{A}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{A}{2\\sqrt{2}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{\\sqrt{3}}{2}A$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Kinetic energy $K = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$.\nPotential energy $U = \\frac{1}{2} m \\omega^2 x^2$.\nSet $K = U \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$."
     }
   ]
 }
