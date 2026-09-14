@@ -1,0 +1,95 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Magnetism and Matter",
+    "slug": "magnetism-matter",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 18
+  },
+  "subtopics": [
+    {
+      "slug": "magnetic-properties-of-materials",
+      "name": "Magnetic properties of materials",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-MGM-001",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The magnetic susceptibility $\\chi$ of a paramagnetic material varies with absolute temperature $T$ according to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\chi \\propto \\frac{1}{T}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\chi \\propto T$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\chi \\propto T^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\chi$ is independent of $T$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's Law, the magnetic susceptibility of a paramagnetic material is inversely proportional to its absolute temperature, i.e., $\\chi = \\frac{C}{T}$."
+    },
+    {
+      "ref": "PHY-MGM-002",
+      "subtopic": "magnetic-properties-of-materials",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The magnetic susceptibility of a paramagnetic material at $-73^\\circ\\mathrm{C}$ is $0.0075$. Its value at $127^\\circ\\mathrm{C}$ will be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$0.00375$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$0.0050$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$0.0150$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$0.0075$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Curie's Law, susceptibility $\\chi \\propto \\frac{1}{T}$, where $T$ is in Kelvin.\n$T_1 = -73 + 273 = 200\\ \\mathrm{K}$, $T_2 = 127 + 273 = 400\\ \\mathrm{K}$.\n$\\frac{\\chi_2}{\\chi_1} = \\frac{T_1}{T_2} = \\frac{200}{400} = \\frac{1}{2}$.\n$\\chi_2 = \\frac{0.0075}{2} = 0.00375$."
+    }
+  ]
+}

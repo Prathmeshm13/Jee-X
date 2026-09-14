@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Some Basic Principles of Organic Chemistry",
+    "slug": "goc",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 13
+  },
+  "subtopics": [
+    {
+      "slug": "acidic-basic-strength",
+      "name": "Acidic and Basic Strength of Organic Compounds",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-GOC-001",
+      "subtopic": "acidic-basic-strength",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The correct order of increasing basic strength of the following amines in aqueous solution is:\n(I) $\\mathrm{CH_3NH_2}$\n(II) $\\mathrm{(CH_3)_2NH}$\n(III) $\\mathrm{(CH_3)_3N}$\n(IV) $\\mathrm{NH_3}$",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "\\text{IV} < \\text{III} < \\text{I} < \\text{II}",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "\\text{III} < \\text{IV} < \\text{I} < \\text{II}",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "\\text{IV} < \\text{I} < \\text{III} < \\text{II}",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "\\text{II} < \\text{I} < \\text{III} < \\text{IV}",
+          "is_correct": false
+        }
+      ],
+      "solution": "For methyl-substituted amines in aqueous medium, the order of basic strength is governed by inductive effect, steric hindrance, and solvation. The experimentally determined order of basicity is: $\\mathrm{(CH_3)_2NH} > \\mathrm{CH_3NH_2} > \\mathrm{(CH_3)_3N} > \\mathrm{NH_3}$. Thus, $\\text{IV} < \\text{III} < \\text{I} < \\text{II}$."
+    },
+    {
+      "ref": "CHEM-GOC-002",
+      "subtopic": "acidic-basic-strength",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the following compounds, the total number of compounds which are more acidic than phenol is ________.\nPropan-1-ol, $o$-Nitrophenol, $m$-Nitrophenol, $p$-Nitrophenol, Ethanol, $o$-Cresol",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Acidic strength of nitro-substituted phenols is higher than phenol because of the electron-withdrawing $-\\text{I}$ and $-\\text{M}$ effects of the $-\\text{NO}_2$ group.\nThus, $o$-nitrophenol, $m$-nitrophenol, and $p$-nitrophenol are all more acidic than phenol.\nPropan-1-ol and ethanol are weaker acids than phenol because phenoxide ion is resonance stabilized.\n$o$-Cresol is less acidic due to the electron-donating methyl group ($+\\text{I}$ and hyperconjugation).\nTherefore, there are exactly 3 compounds more acidic than phenol."
+    },
+    {
+      "ref": "CHEM-GOC-003",
+      "subtopic": "acidic-basic-strength",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Arrange the following compounds in decreasing order of basic strength:\n(I) Aniline\n(II) $p$-Nitroaniline\n(III) $p$-Toluidine\n(IV) $p$-Anisidine",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "IV > III > I > II",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "IV > I > III > II",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "III > IV > I > II",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "I > IV > III > II",
+          "is_correct": false
+        }
+      ],
+      "solution": "Basic strength depends on electron density on the nitrogen. \n- $-\\mathrm{OCH_3}$ group (in $p$-anisidine) is highly electron donating via $+M$ effect (strongest base).\n- $-\\mathrm{CH_3}$ group (in $p$-toluidine) is electron donating via $+I$ and hyperconjugation.\n- Aniline is unsubstituted.\n- $-\\mathrm{NO_2}$ group (in $p$-nitroaniline) is strongly electron-withdrawing via $-M$ and $-I$ (weakest base).\nThus, the correct order is IV > III > I > II."
+    }
+  ]
+}

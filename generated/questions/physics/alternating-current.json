@@ -1,0 +1,114 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Alternating Current",
+    "slug": "alternating-current",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 20
+  },
+  "subtopics": [
+    {
+      "slug": "lcr-series-circuit",
+      "name": "LCR Series Circuit",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-ACC-001",
+      "subtopic": "lcr-series-circuit",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a series LCR circuit, resonance occurs at a frequency $f_0$. If the capacitance of the capacitor is made 4 times its initial value without changing the inductance, the new resonant frequency will be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{f_0}{2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2f_0$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{f_0}{4}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4f_0$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The resonant frequency is given by $f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$.\nWhen $C' = 4C$, the new frequency is:\n$f' = \\frac{1}{2\\pi\\sqrt{L(4C)}} = \\frac{1}{2} \\left(\\frac{1}{2\\pi\\sqrt{LC}}\\right) = \\frac{f_0}{2}$."
+    },
+    {
+      "ref": "PHY-ACC-002",
+      "subtopic": "lcr-series-circuit",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 160,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a series LCR circuit, the resonance frequency is $200\\ \\mathrm{rad/s}$. If the inductance of the inductor is $5\\ \\mathrm{H}$ and resistance is $10\\ \\Omega$, the quality factor $Q$ of the circuit is _________.",
+      "image": null,
+      "answer": {
+        "min": 100.0,
+        "max": 100.0
+      },
+      "solution": "The quality factor of a series LCR circuit is given by $Q = \\frac{\\omega_0 L}{R}$.\nGiven $\\omega_0 = 200\\ \\mathrm{rad/s}$, $L = 5\\ \\mathrm{H}$, and $R = 10\\ \\Omega$.\n$Q = \\frac{200 \\times 5}{10} = 100$."
+    },
+    {
+      "ref": "PHY-ACC-003",
+      "subtopic": "lcr-series-circuit",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "An AC source is rated $220\\ \\mathrm{V}, 50\\ \\mathrm{Hz}$. The average voltage of this source over any half cycle can be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{220\\sqrt{2}}{\\pi}\\ \\mathrm{V}$ or $-\\frac{220\\sqrt{2}}{\\pi}\\ \\mathrm{V}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{440\\sqrt{2}}{\\pi}\\ \\mathrm{V}$ or $-\\frac{440\\sqrt{2}}{\\pi}\\ \\mathrm{V}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{110\\sqrt{2}}{\\pi}\\ \\mathrm{V}$ or $-\\frac{110\\sqrt{2}}{\\pi}\\ \\mathrm{V}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Zero",
+          "is_correct": false
+        }
+      ],
+      "solution": "The peak voltage is $V_0 = \\sqrt{2} V_{\\mathrm{rms}} = 220\\sqrt{2}\\ \\mathrm{V}$.\nThe average voltage over a half-cycle starting from zero is $V_{\\mathrm{avg}} = \\frac{2V_0}{\\pi} = \\frac{440\\sqrt{2}}{\\pi}\\ \\mathrm{V}$. Over the other half, it is $-\\frac{440\\sqrt{2}}{\\pi}\\ \\mathrm{V}$."
+    }
+  ]
+}

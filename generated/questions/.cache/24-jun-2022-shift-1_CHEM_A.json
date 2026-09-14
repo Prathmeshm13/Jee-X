@@ -1,0 +1,342 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "diff": "easy",
+  "secs": 75,
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in hydrogen atom is proportional to:",
+  "opts": [
+   "$n^3$",
+   "$n^2$",
+   "$n$",
+   "$n^{1/2}$"
+  ],
+  "sol": "The time period $T$ of an electron in a Bohr orbit is given by $T = \\frac{2\\pi r}{v}$. Since radius $r \\propto n^2$ and velocity $v \\propto 1/n$, we have $T \\propto \\frac{n^2}{1/n} = n^3$.",
+  "key": "A"
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Detection of Nitrogen, Sulphur, Halogens",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Lassaigne's test for the detection of nitrogen fails for which of the following compounds?",
+  "opts": [
+   "$\\mathrm{C_6H_5NH_2}$",
+   "$\\mathrm{H_2N-NH_2}$",
+   "$\\mathrm{CH_3CONH_2}$",
+   "$\\mathrm{C_6H_5NO_2}$"
+  ],
+  "sol": "Lassaigne's test for nitrogen requires both nitrogen and carbon to be present in the organic compound to form $\\mathrm{CN^-}$ ions upon fusion with sodium metal. Hydrazine ($\\mathrm{H_2N-NH_2}$) does not contain carbon, so it cannot form $\\mathrm{NaCN}$ and thus fails Lassaigne's test.",
+  "key": "B"
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids and Actinoids",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Which of the following lanthanoid ions is/are common and stable in $+4$ oxidation state?",
+  "opts": [
+   "$\\mathrm{Ce^{4+}}$",
+   "$\\mathrm{Sm^{4+}}$",
+   "$\\mathrm{Eu^{4+}}$",
+   "$\\mathrm{Yb^{4+}}$"
+  ],
+  "sol": "Cerium ($\\mathrm{Ce}$, $Z=58$) has electronic configuration $\\mathrm{[Xe]} 4f^1 5d^1 6s^2$. Losing 4 electrons gives $\\mathrm{Ce^{4+}}$ with a stable noble-gas configuration $\\mathrm{[Xe]}$, making it a well-known stable $+4$ ion.",
+  "key": "A"
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Properties of Alkali Metals",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "The metal that produces a bright crimson red color in the flame test is:",
+  "opts": [
+   "Lithium",
+   "Sodium",
+   "Potassium",
+   "Rubidium"
+  ],
+  "sol": "Lithium ($\\mathrm{Li}$) imparts a crimson red color to the flame. Sodium gives golden yellow, Potassium gives pale violet/lilac, and Rubidium gives reddish violet.",
+  "key": "A"
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Amongst the following, the species that is paramagnetic and has a bond order of $1.5$ is:",
+  "opts": [
+   "$\\mathrm{O_2^-}$",
+   "$\\mathrm{O_2^+}$",
+   "$\\mathrm{O_2^{2-}}$",
+   "$\\mathrm{N_2^+}$"
+  ],
+  "sol": "For $\\mathrm{O_2^-}$ (17 electrons): configuration is $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1})$. It has one unpaired electron (paramagnetic) and bond order = $\\frac{10 - 7}{2} = 1.5$.",
+  "key": "A"
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties and van 't Hoff Factor",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "At $25^\\circ\\mathrm{C}$, the highest osmotic pressure is exhibited by $0.1\\ \\mathrm{M}$ solution of:",
+  "opts": [
+   "$\\mathrm{CaCl_2}$",
+   "$\\mathrm{KCl}$",
+   "$\\mathrm{Glucose}$",
+   "$\\mathrm{Al_2(SO_4)_3}$"
+  ],
+  "sol": "Osmotic pressure $\\pi = iCRT$. Assuming complete dissociation, the van 't Hoff factor $i$ for: $\\mathrm{CaCl_2}$ is 3, $\\mathrm{KCl}$ is 2, Glucose is 1, and $\\mathrm{Al_2(SO_4)_3}$ is 5. Since concentration $C$ is the same ($0.1\\ \\mathrm{M}$), $\\mathrm{Al_2(SO_4)_3}$ with the highest $i$ has the highest osmotic pressure.",
+  "key": "D"
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "diff": "medium",
+  "secs": 110,
+  "conf": "exact",
+  "stem": "The formula of the coordination compound which shows both coordination isomerism and linkage isomerism is:",
+  "opts": [
+   "$[\\mathrm{Co(NH_3)_6}][\\mathrm{Cr(CN)_6}]$",
+   "$[\\mathrm{Co(NH_3)_5(NO_2)}]\\mathrm{Cl_2}$",
+   "$[\\mathrm{Co(NH_3)_5(SCN)}][\\mathrm{Cr(NH_3)_2(C_2O_4)_2}]$",
+   "$[\\mathrm{Pt(NH_3)_4}][\\mathrm{PtCl_4}]$"
+  ],
+  "sol": "Coordination isomerism requires both cationic and anionic complex species (present in A, C, D). Linkage isomerism requires an ambidentate ligand. In option C, $\\mathrm{SCN^-}$ is an ambidentate ligand (can coordinate via S or N). Thus, C shows both types of isomerism.",
+  "key": "C"
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "The correct order of increasing basic strength of the following amines in aqueous solution is:\n(I) $\\mathrm{CH_3NH_2}$\n(II) $\\mathrm{(CH_3)_2NH}$\n(III) $\\mathrm{(CH_3)_3N}$\n(IV) $\\mathrm{NH_3}$",
+  "opts": [
+   "\\text{IV} < \\text{III} < \\text{I} < \\text{II}",
+   "\\text{III} < \\text{IV} < \\text{I} < \\text{II}",
+   "\\text{IV} < \\text{I} < \\text{III} < \\text{II}",
+   "\\text{II} < \\text{I} < \\text{III} < \\text{IV}"
+  ],
+  "sol": "For methyl-substituted amines in aqueous medium, the order of basic strength is governed by inductive effect, steric hindrance, and solvation. The experimentally determined order of basicity is: $\\mathrm{(CH_3)_2NH} > \\mathrm{CH_3NH_2} > \\mathrm{(CH_3)_3N} > \\mathrm{NH_3}$. Thus, $\\text{IV} < \\text{III} < \\text{I} < \\text{II}$.",
+  "key": "A"
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements and Compounds",
+  "diff": "easy",
+  "secs": 75,
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a phosphorus-phosphorus ($\\mathrm{P-P}$) single bond?",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) contains a direct $\\mathrm{P-P}$ single bond. Its structure is $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$.",
+  "key": "A"
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Tropospheric and Stratospheric Pollution",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "The primary photochemical smog does not contain which of the following?",
+  "opts": [
+   "$\\mathrm{SO_2}$",
+   "$\\mathrm{NO_2}$",
+   "PAN (Peroxyacetyl nitrate)",
+   "$\\mathrm{O_3}$"
+  ],
+  "sol": "Photochemical smog occurs in warm, dry and sunny climates and is initiated by solar radiation acting on unsaturated hydrocarbons and nitrogen oxides. It is oxidizing in nature and does not typically involve sulfur dioxide ($\\mathrm{SO_2}$), which is a characteristic component of classical (reducing) smog.",
+  "key": "A"
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "Which of the following vitamins is water soluble?",
+  "opts": [
+   "Vitamin B",
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin E"
+  ],
+  "sol": "Vitamins B and C are water-soluble, whereas vitamins A, D, E, and K are fat-soluble.",
+  "key": "A"
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Condensation and Addition Polymers",
+  "diff": "medium",
+  "secs": 80,
+  "conf": "exact",
+  "stem": "Which of the following polymers is prepared by condensation polymerization?",
+  "opts": [
+   "Nylon 6,6",
+   "Teflon",
+   "Buna-N",
+   "Neoprene"
+  ],
+  "sol": "Nylon 6,6 is a condensation copolymer prepared by the condensation of hexamethylenediamine and adipic acid with the elimination of water molecules. Teflon, Buna-N, and Neoprene are addition polymers.",
+  "key": "A"
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance and Kohlrausch's Law",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "At $298\\ \\mathrm{K}$, the limiting molar conductivity of electrolytes $\\mathrm{\\Lambda^\\circ}$ for $\\mathrm{NaCl}$, $\\mathrm{HCl}$ and $\\mathrm{CH_3COONa}$ are $126.4$, $425.9$ and $91.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. The limiting molar conductivity of $\\mathrm{CH_3COOH}$ (in $\\mathrm{S\\ cm^2\\ mol^{-1}}$) is:",
+  "opts": [
+   "$390.5$",
+   "$425.5$",
+   "$290.5$",
+   "$541.3$"
+  ],
+  "sol": "According to Kohlrausch's law:\n$\\mathrm{\\Lambda^\\circ(CH_3COOH) = \\Lambda^\\circ(CH_3COONa) + \\Lambda^\\circ(HCl) - \\Lambda^\\circ(NaCl)}$\n$= 91.0 + 425.9 - 126.4 = 390.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "A"
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "First Order Kinetics",
+  "diff": "medium",
+  "secs": 110,
+  "conf": "exact",
+  "stem": "For a first-order reaction, the time required for $99\\%$ completion is about how many times the time required for $90\\%$ completion of the reaction?",
+  "opts": [
+   "2",
+   "3",
+   "4",
+   "10"
+  ],
+  "sol": "For a first-order reaction, $t = \\frac{2.303}{k} \\log \\frac{100}{100-x}$.\n$t_{99\\%} = \\frac{2.303}{k} \\log \\frac{100}{1} = \\frac{2.303}{k} \\times 2$\n$t_{90\\%} = \\frac{2.303}{k} \\log \\frac{100}{10} = \\frac{2.303}{k} \\times 1$\nTherefore, $t_{99\\%} = 2 \\times t_{90\\%}$.",
+  "key": "A"
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Ellingham Diagram and Reduction Processes",
+  "diff": "easy",
+  "secs": 70,
+  "conf": "exact",
+  "stem": "In the extraction of copper from its sulphide ore, the metal is finally obtained by the reduction of cuprous oxide with:",
+  "opts": [
+   "Copper(I) sulphide",
+   "Iron(II) sulphide",
+   "Carbon monoxide",
+   "Sulfur dioxide"
+  ],
+  "sol": "Copper is obtained by auto-reduction (self-reduction) where cuprous oxide ($\\mathrm{Cu_2O}$) reacts with remaining cuprous sulphide ($\\mathrm{Cu_2S}$): \n$2\\mathrm{Cu_2O} + \\mathrm{Cu_2S} \\rightarrow 6\\mathrm{Cu} + \\mathrm{SO_2}$.",
+  "key": "A"
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "SN1 and SN2 Mechanism",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "Which of the following compounds will undergo nucleophilic substitution ($\\mathrm{S_N1}$) reaction most readily?",
+  "opts": [
+   "$\\mathrm{(CH_3)_3C-Br}$",
+   "$\\mathrm{(CH_3)_2CH-Br}$",
+   "$\\mathrm{CH_3CH_2-Br}$",
+   "$\\mathrm{CH_3-Br}$"
+  ],
+  "sol": "The rate of $\\mathrm{S_N1}$ reaction depends on the stability of the carbocation intermediate formed. The tertiary butyl carbocation $\\mathrm{(CH_3)_3C^+}$ is the most stable among the options, hence $\\mathrm{(CH_3)_3C-Br}$ reacts most readily.",
+  "key": "A"
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Aldol Condensation and Cannizzaro Reaction",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Which of the following compounds does not undergo Cannizzaro reaction?",
+  "opts": [
+   "Acetaldehyde",
+   "Formaldehyde",
+   "Benzaldehyde",
+   "Trimethylacetaldehyde"
+  ],
+  "sol": "Cannizzaro reaction is given by aldehydes which do not have an $\\alpha$-hydrogen. Acetaldehyde ($\\mathrm{CH_3CHO}$) has three $\\alpha$-hydrogens, so it undergoes aldol condensation instead of Cannizzaro reaction under basic conditions.",
+  "key": "A"
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Classification of Drugs",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "Which of the following class of drugs is used to reduce fever?",
+  "opts": [
+   "Antipyretics",
+   "Analgesics",
+   "Antiseptics",
+   "Tranquilizers"
+  ],
+  "sol": "Antipyretics are chemical substances used to lower body temperature in high fever (e.g., paracetamol).",
+  "key": "A"
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "For the reaction:\n$$\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$$\nthe forward reaction is favored by:",
+  "opts": [
+   "Decreasing the pressure of the system",
+   "Increasing the pressure of the system",
+   "Decreasing the temperature (reaction is endothermic)",
+   "Adding inert gas at constant volume"
+  ],
+  "sol": "The reaction $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$ has $\\Delta n_g = 1 - 2 = 1 > 0$. According to Le Chatelier's principle, decreasing the pressure shifts the equilibrium to the side with more moles of gas (forward direction).",
+  "key": "A"
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Acidic Character and Reactions of Alkynes",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major product formed is:",
+  "opts": [
+   "Propanone",
+   "Propanal",
+   "Propan-1-ol",
+   "Propan-2-ol"
+  ],
+  "sol": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) in the presence of $\\mathrm{Hg^{2+}/H^+}$ gives an enol intermediate via Markovnikov addition: $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to the more stable ketone, propanone (acetone, $\\mathrm{CH_3COCH_3}$).",
+  "key": "A"
+ }
+]

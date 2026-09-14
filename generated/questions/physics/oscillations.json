@@ -1,0 +1,133 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Oscillations",
+    "slug": "oscillations",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 12
+  },
+  "subtopics": [
+    {
+      "slug": "simple-harmonic-motion",
+      "name": "Simple Harmonic Motion",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-OSC-001",
+      "subtopic": "simple-harmonic-motion",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A particle executes simple harmonic motion with an amplitude $A$. At what distance from the mean position is its kinetic energy equal to its potential energy?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{A}{\\sqrt{2}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{A}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{\\sqrt{3}A}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{A}{2\\sqrt{2}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Kinetic energy $K = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$.\nPotential energy $U = \\frac{1}{2} m \\omega^2 x^2$.\nGiven $K = U \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$."
+    },
+    {
+      "ref": "PHY-OSC-002",
+      "subtopic": "simple-harmonic-motion",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The equation of motion of a particle executing simple harmonic motion is given by $x = 10 \\sin\\left(10\\pi t + \\frac{\\pi}{3}\\right)\\ \\mathrm{m}$. The time period of the motion is $T = \\frac{1}{x}\\ \\mathrm{s}$. The value of $x$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "Comparing the given equation with $x = A \\sin(\\omega t + \\phi)$, we get $\\omega = 10\\pi\\ \\mathrm{rad/s}$.\nSince $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{10\\pi} = \\frac{1}{5}\\ \\mathrm{s}$.\nComparing with $T = \\frac{1}{x}$, we find $x = 5$."
+    },
+    {
+      "ref": "PHY-OSC-003",
+      "subtopic": "simple-harmonic-motion",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The equation of a simple harmonic motion is given by $x = 5 \\sin\\left(2\\pi t + \\frac{\\pi}{4}\\right)\\ \\mathrm{m}$. The state of motion of the particle at $t = 1\\ \\mathrm{s}$ is given by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Position $= \\frac{5}{\\sqrt{2}}\\ \\mathrm{m}$, direction of motion is positive",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Position $= \\frac{5}{\\sqrt{2}}\\ \\mathrm{m}$, direction of motion is negative",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Position $= -\\frac{5}{\\sqrt{2}}\\ \\mathrm{m}$, direction of motion is positive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Position $= -\\frac{5}{\\sqrt{2}}\\ \\mathrm{m}$, direction of motion is negative",
+          "is_correct": false
+        }
+      ],
+      "solution": "At $t = 1\\ \\mathrm{s}$, $x = 5 \\sin(2\\pi + \\pi/4) = 5 \\sin(\\pi/4) = \\frac{5}{\\sqrt{2}}\\ \\mathrm{m}$.\nVelocity $v = \\frac{dx}{dt} = 10\\pi \\cos\\left(2\\pi t + \\frac{\\pi}{4}\\right)$.\nAt $t=1\\ \\mathrm{s}$, $v = 10\\pi \\cos(2\\pi + \\pi/4) = 10\\pi \\cos(\\pi/4) > 0$. So, direction is positive."
+    },
+    {
+      "ref": "PHY-OSC-004",
+      "subtopic": "simple-harmonic-motion",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "An expression for the displacement of a particle executing simple harmonic motion is given by $y = 3 \\sin \\omega t + 4 \\cos \\omega t\\ \\mathrm{m}$. The maximum speed of the particle is $10\\ \\mathrm{m/s}$. The time period of the motion is $\\frac{\\pi}{x}\\ \\mathrm{s}$. The value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "The given SHM equation can be written as $y = A \\sin(\\omega t + \\phi)$,\nwhere $A = \\sqrt{3^2 + 4^2} = 5\\ \\mathrm{m}$.\nThe maximum speed is $v_{\\text{max}} = A\\omega = 10\\ \\mathrm{m/s}$.\nThus, $5\\omega = 10 \\implies \\omega = 2\\ \\mathrm{rad/s}$.\nThe time period is $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{2} = \\pi\\ \\mathrm{s}$.\nComparing with $T = \\frac{\\pi}{x}$, we get $x = 1$."
+    }
+  ]
+}

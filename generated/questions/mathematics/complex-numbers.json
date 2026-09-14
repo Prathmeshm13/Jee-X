@@ -1,0 +1,95 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Complex Numbers",
+    "slug": "complex-numbers",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 3
+  },
+  "subtopics": [
+    {
+      "slug": "geometry-of-complex-numbers",
+      "name": "Geometry and loci of complex numbers",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-CPX-001",
+      "subtopic": "geometry-of-complex-numbers",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $S = \\{z \\in \\mathbb{C} : |z - 2| \\le 1, z(1 + i) + \\bar{z}(1 - i) \\le 2\\}$. Let the maximum value of $|z - 5/2|^2$ for $z \\in S$ be $I$. Then the value of $I$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{5 - 2\\sqrt{2}}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{5 + 2\\sqrt{2}}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{11 - 4\\sqrt{2}}{4}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{11 + 4\\sqrt{2}}{4}$",
+          "is_correct": true
+        }
+      ],
+      "solution": "$|z - 2| \\le 1$ represents a circle of radius 1 centered at $(2,0)$.\n$z(1+i) + \\bar{z}(1-i) \\le 2 \\implies 2x - 2y \\le 2 \\implies x - y \\le 1$.\nThe region $S$ is the segment of the disk to the right/below the line $y = x - 1$.\nWe want to maximize the squared distance from $(5/2, 0)$.\nThe boundary point maximizing this distance is the intersection of the circle with the line normal to the boundary, which yields the point $2 - \\frac{1}{\\sqrt{2}} - i\\frac{1}{\\sqrt{2}}$.\nCalculating $|z - 5/2|^2$ for this point gives $\\frac{11 + 4\\sqrt{2}}{4}$."
+    },
+    {
+      "ref": "MATH-CPX-002",
+      "subtopic": "geometry-of-complex-numbers",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $z_1 = 2 + 3i$ and $z_2 = 3 + 4i$. Let $z$ be a complex number such that $|z - z_1|^2 + |z - z_2|^2 = |z_1 - z_2|^2$. Then the locus of $z$ is a circle with:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "centre at $\\frac{5}{2} + \\frac{7}{2}i$ and radius $\\frac{1}{\\sqrt{2}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "centre at $\\frac{5}{2} + \\frac{7}{2}i$ and radius $\\frac{1}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "centre at $\\frac{5}{2} - \\frac{7}{2}i$ and radius $\\frac{1}{\\sqrt{2}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "centre at $\\frac{5}{2} - \\frac{7}{2}i$ and radius $\\frac{1}{2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The given equation represents a right-angled triangle with hypotenuse $z_1z_2$ by Pythagoras' theorem.\nThus, the locus of $z$ is a circle with $z_1$ and $z_2$ as the endpoints of its diameter.\nCentre $z_0 = \\frac{z_1 + z_2}{2} = \\frac{2+3 + (3+4)i}{2} = \\frac{5}{2} + \\frac{7}{2}i$.\nDiameter length $d = |z_1 - z_2| = |-1 - i| = \\sqrt{2}$.\nRadius $r = \\frac{d}{2} = \\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}$."
+    }
+  ]
+}

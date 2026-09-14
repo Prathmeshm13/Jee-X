@@ -1,0 +1,133 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "p-Block Elements (Groups 15-18)",
+    "slug": "p-block-15-18",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 23
+  },
+  "subtopics": [
+    {
+      "slug": "group-15",
+      "name": "Group 15 Elements and Compounds",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-PB2-001",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a phosphorus-phosphorus ($\\mathrm{P-P}$) single bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid ($\\mathrm{H_4P_2O_6}$) contains a direct $\\mathrm{P-P}$ single bond. Its structure is $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$."
+    },
+    {
+      "ref": "CHEM-PB2-002",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the reaction of phosphorus with concentrated $\\text{HNO}_3$, the oxidation state of phosphorus changes from 0 to +$x$. The value of $x$ is ________.",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "Concentrated nitric acid oxidizes phosphorus ($\\text{P}_4$) to orthophosphoric acid ($\\text{H}_3\\text{PO}_4$):\n$\\text{P}_4 + 20\\text{HNO}_3 \\rightarrow 4\\text{H}_3\\text{PO}_4 + 20\\text{NO}_2 + 4\\text{H}_2\\text{O}$\nIn $\\text{H}_3\\text{PO}_4$, the oxidation state of phosphorus is +5.\nThus, $x = 5$."
+    },
+    {
+      "ref": "CHEM-PB2-003",
+      "subtopic": "group-15",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P}-\\mathrm{P}$ single bond?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Hypophosphoric acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Pyrophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Orthophosphoric acid",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Metaphosphoric acid",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hypophosphoric acid is $\\mathrm{H_4P_2O_6}$, which has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$ containing a direct $\\mathrm{P}-\\mathrm{P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P}-\\mathrm{O}-\\mathrm{P}$ bond."
+    },
+    {
+      "ref": "CHEM-PB2-004",
+      "subtopic": "group-15",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of bridged oxygen atoms present in $\\text{P}_4\\text{O}_{10}$ is _______.",
+      "image": null,
+      "answer": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "solution": "The structure of $\\text{P}_4\\text{O}_{10}$ is based on a tetrahedron of phosphorus atoms.\nThere are 6 edge-bridging P-O-P oxygen atoms.\nAdditionally, there are 4 terminal P=O double bonds.\nThus, the number of bridged oxygen atoms is 6."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Mechanical Properties of Solids",
+    "slug": "mechanical-properties-solids",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 7
+  },
+  "subtopics": [
+    {
+      "slug": "elastic-moduli",
+      "name": "Elastic moduli",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-MPS-001",
+      "subtopic": "elastic-moduli",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The bulk modulus of a liquid is $2 \\times 10^9\\ \\mathrm{N/m^2}$. The fractional compression in volume ($\\Delta V/V$) required to increase the pressure of the liquid by $2 \\times 10^6\\ \\mathrm{N/m^2}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$10^{-3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$10^{-5}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$10^{-6}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$10^{-4}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Bulk Modulus $B = \\frac{\\Delta P}{\\Delta V/V}$.\nThus, $\\frac{\\Delta V}{V} = \\frac{\\Delta P}{B} = \\frac{2 \\times 10^6}{2 \\times 10^9} = 10^{-3}$."
+    },
+    {
+      "ref": "PHY-MPS-002",
+      "subtopic": "elastic-moduli",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A wire of length $L$ and area of cross-section $A$ is made of material of Young's modulus $Y$. It is stretched by an amount $x$. The work done in stretching the wire is $W = \\frac{Y A x^2}{k L}$. The value of $k$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The work done in stretching a wire is $W = \\frac{1}{2} F x = \\frac{1}{2} \\left(\\frac{Y A x}{L}\\right) x = \\frac{Y A x^2}{2 L}$.\nComparing with the given formula, $k = 2$."
+    },
+    {
+      "ref": "PHY-MPS-003",
+      "subtopic": "elastic-moduli",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A wire of length $L$ and radius $r$ is clamped rigidly at one end. When a pulling force $F$ is applied at the other end, its elongation is $l$. If another wire of the same material but of length $2L$ and radius $2r$ is stretched by the same force $F$, then its elongation will be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$l/2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$l$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2l$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$l/4$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Elongation is $l = \\frac{FL}{A Y} = \\frac{FL}{\\pi r^2 Y}$.\nFor the second wire, $l' = \\frac{F(2L)}{\\pi (2r)^2 Y} = \\frac{2 FL}{4 \\pi r^2 Y} = \\frac{l}{2}$."
+    }
+  ]
+}

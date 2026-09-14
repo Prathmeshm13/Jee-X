@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Electrochemistry",
+    "slug": "electrochemistry",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 19
+  },
+  "subtopics": [
+    {
+      "slug": "conductance-solutions",
+      "name": "Conductance and Kohlrausch's Law",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-ELC-001",
+      "subtopic": "conductance-solutions",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "At $298\\ \\mathrm{K}$, the limiting molar conductivity of electrolytes $\\mathrm{\\Lambda^\\circ}$ for $\\mathrm{NaCl}$, $\\mathrm{HCl}$ and $\\mathrm{CH_3COONa}$ are $126.4$, $425.9$ and $91.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. The limiting molar conductivity of $\\mathrm{CH_3COOH}$ (in $\\mathrm{S\\ cm^2\\ mol^{-1}}$) is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$390.5$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$425.5$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$290.5$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$541.3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "According to Kohlrausch's law:\n$\\mathrm{\\Lambda^\\circ(CH_3COOH) = \\Lambda^\\circ(CH_3COONa) + \\Lambda^\\circ(HCl) - \\Lambda^\\circ(NaCl)}$\n$= 91.0 + 425.9 - 126.4 = 390.5\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$."
+    },
+    {
+      "ref": "CHEM-ELC-002",
+      "subtopic": "conductance-solutions",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "At $298\\ \\mathrm{K}$, the limiting molar conductivity of $\\mathrm{HCl}$, $\\mathrm{NaCl}$ and $\\mathrm{CH_3COONa}$ are $426.2$, $126.5$ and $91.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. The limiting molar conductivity of $\\mathrm{CH_3COOH}$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "390.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "490.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "290.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "590.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using Kohlrausch's Law:\n$\\Lambda_m^\\circ(\\mathrm{CH_3COOH}) = \\Lambda_m^\\circ(\\mathrm{CH_3COONa}) + \\Lambda_m^\\circ(\\mathrm{HCl}) - \\Lambda_m^\\circ(\\mathrm{NaCl})$\n$= 91.0 + 426.2 - 126.5 = 390.7\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$."
+    },
+    {
+      "ref": "CHEM-ELC-003",
+      "subtopic": "conductance-solutions",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The molar conductivity of a $0.01\text{ M}$ weak monobasic acid is $19.0\text{ S cm}^2\text{ mol}^{-1}$ and its molar conductivity at infinite dilution is $380\text{ S cm}^2\text{ mol}^{-1}$. The dissociation constant ($K_a$) of the acid is $x \\times 10^{-6}\text{ mol L}^{-1}$. The value of $x$ is _______. (Nearest Integer)",
+      "image": null,
+      "answer": {
+        "min": 25.0,
+        "max": 25.0
+      },
+      "solution": "Degree of dissociation $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^0} = \\frac{19}{380} = 0.05$.\n$K_a = C\\alpha^2 = 0.01 \\times (0.05)^2 = 10^{-2} \\times 2.5 \\times 10^{-3} = 2.5 \\times 10^{-5} = 25 \\times 10^{-6}$.\nTherefore, $x = 25$."
+    }
+  ]
+}

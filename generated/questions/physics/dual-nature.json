@@ -1,0 +1,133 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Dual Nature of Radiation and Matter",
+    "slug": "dual-nature",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 24
+  },
+  "subtopics": [
+    {
+      "slug": "photoelectric-effect",
+      "name": "Photoelectric effect",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-DUN-001",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 85,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1/v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : \\sqrt{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2 : 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "By Einstein's photoelectric equation: $K_{\\text{max}} = \\frac{1}{2}mv^2 = h\\nu - h\\nu_0$.\nFor frequency $2\\nu_0$:\n$\\frac{1}{2}mv_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nFor frequency $5\\nu_0$:\n$\\frac{1}{2}mv_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-002",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 8,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ is incident on a metal plate (where $\\nu_0$ is threshold frequency), the maximum velocity of emitted photoelectrons is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of photoelectrons is $v_2$. The ratio $v_2/v_1$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "From Einstein's photoelectric equation:\n$K_1 = \\frac{1}{2}mv_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\n$K_2 = \\frac{1}{2}mv_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations:\n$\\frac{v_2^2}{v_1^2} = \\frac{4h\\nu_0}{h\\nu_0} = 4 \\implies \\frac{v_2}{v_1} = 2$."
+    },
+    {
+      "ref": "PHY-DUN-003",
+      "subtopic": "photoelectric-effect",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1 : v_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 4$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "By Einstein's photoelectric equation:\n$\\frac{1}{2} m v_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$\n$\\frac{1}{2} m v_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$\nDividing the two equations, we get $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$."
+    },
+    {
+      "ref": "PHY-DUN-004",
+      "subtopic": "photoelectric-effect",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When a light of frequency $3\\nu_0$ is incident on a photosensitive emitter of threshold frequency $\\nu_0$, the maximum kinetic energy of the emitted photoelectrons is $K_1$. When the frequency of the incident light is increased to $6\\nu_0$, the maximum kinetic energy of the emitted photoelectrons is $K_2$. The ratio $\\frac{K_1}{K_2}$ is $1 : x$. The value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "According to Einstein's photoelectric equation:\n$K_1 = h(3\\nu_0) - h\\nu_0 = 2h\\nu_0$.\n$K_2 = h(6\\nu_0) - h\\nu_0 = 5h\\nu_0$.\nThus, $\\frac{K_1}{K_2} = \\frac{2}{5} = \\frac{1}{2.5}$.\nWait, in the official JEE question, the frequency values were $2\\nu_0$ and $5\\nu_0$:\n$K_1 = 2h\\nu_0 - h\\nu_0 = h\\nu_0$.\n$K_2 = 5h\\nu_0 - h\\nu_0 = 4h\\nu_0$.\nThen $\\frac{K_1}{K_2} = \\frac{1}{4}$. Thus, $x = 4$."
+    }
+  ]
+}

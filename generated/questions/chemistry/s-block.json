@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "s-Block Elements",
+    "slug": "s-block",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 11
+  },
+  "subtopics": [
+    {
+      "slug": "alkali-metals",
+      "name": "Properties of Alkali Metals",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-SBL-001",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The metal that produces a bright crimson red color in the flame test is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Lithium",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Sodium",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Potassium",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Rubidium",
+          "is_correct": false
+        }
+      ],
+      "solution": "Lithium ($\\mathrm{Li}$) imparts a crimson red color to the flame. Sodium gives golden yellow, Potassium gives pale violet/lilac, and Rubidium gives reddish violet."
+    },
+    {
+      "ref": "CHEM-SBL-002",
+      "subtopic": "alkali-metals",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The metal that produces a bright crimson red colour in the flame test is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Lithium",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Sodium",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Potassium",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Cesium",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the flame test, Lithium imparts a crimson red (or bright crimson) colour to the flame, Sodium gives golden yellow, Potassium gives violet/lilac, and Cesium gives blue."
+    },
+    {
+      "ref": "CHEM-SBL-003",
+      "subtopic": "alkali-metals",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of alkali metal(s) among Li, Na, K, Rb, and Cs that form(s) stable superoxide(s) when reacted with excess oxygen is/are _______.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "Li forms primarily oxide ($\\text{Li}_2\\text{O}$).\nNa forms peroxide ($\\text{Na}_2\\text{O}_2$).\nK, Rb, and Cs form stable superoxides ($\\text{KO}_2$, $\\text{RbO}_2$, $\\text{CsO}_2$) because of the large cation stabilizing the large superoxide anion.\nTherefore, the number of such metals is 3."
+    }
+  ]
+}

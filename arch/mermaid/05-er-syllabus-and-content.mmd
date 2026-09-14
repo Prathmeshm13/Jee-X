@@ -1,0 +1,14 @@
+---
+title: "ER diagram: syllabus and content"
+---
+erDiagram
+    subjects ||--o{ chapters : "contains"
+    chapters ||--o{ subtopics : "contains"
+    subtopics ||--o{ questions : "primary topic of"
+    passages |o--o{ questions : "shared by"
+    questions ||--o{ question_options : "has"
+    questions ||--o{ question_subtopics : "tagged with"
+    subtopics ||--o{ question_subtopics : "tags"
+    questions |o--o{ assets : "illustrated by"
+    passages |o--o{ assets : "illustrated by"
+    users |o--o{ questions : "created"

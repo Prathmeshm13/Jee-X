@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Chemical Equilibrium",
+    "slug": "chemical-equilibrium",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 7
+  },
+  "subtopics": [
+    {
+      "slug": "le-chatelier-principle",
+      "name": "Le Chatelier's Principle",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-CEQ-001",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction:\n$$\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$$\nthe forward reaction is favored by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Decreasing the pressure of the system",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Increasing the pressure of the system",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Decreasing the temperature (reaction is endothermic)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Adding inert gas at constant volume",
+          "is_correct": false
+        }
+      ],
+      "solution": "The reaction $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$ has $\\Delta n_g = 1 - 2 = 1 > 0$. According to Le Chatelier's principle, decreasing the pressure shifts the equilibrium to the side with more moles of gas (forward direction)."
+    },
+    {
+      "ref": "CHEM-CEQ-002",
+      "subtopic": "le-chatelier-principle",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the exothermic reaction $\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}$, which of the following conditions will shift the equilibrium towards the product side?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Decreasing temperature and increasing pressure",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Increasing temperature and decreasing pressure",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Increasing temperature and increasing pressure",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Decreasing temperature and decreasing pressure",
+          "is_correct": false
+        }
+      ],
+      "solution": "By Le Chatelier's principle, since the forward reaction is exothermic, a decrease in temperature shifts the equilibrium to the product (forward) side. Furthermore, since $\\Delta n_g = 2 - 4 = -2 < 0$, increasing pressure shifts the equilibrium towards fewer gas moles (forward side)."
+    },
+    {
+      "ref": "CHEM-CEQ-003",
+      "subtopic": "le-chatelier-principle",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "For the reaction $A(g) \\rightleftharpoons B(g)$, the value of equilibrium constant $K_p$ at $300\text{ K}$ is $10.0$. The standard Gibbs free energy change ($\\Delta G^\\circ$) for the reaction is $-x \\times 10^{-1}\text{ kJ mol}^{-1}$. The value of $x$ is _______. (Nearest Integer)\n[Given: $R = 8.314\text{ J K}^{-1}\text{ mol}^{-1}$, $\\ln 10 = 2.3$]",
+      "image": null,
+      "answer": {
+        "min": 57.0,
+        "max": 57.0
+      },
+      "solution": "$\\Delta G^\\circ = -RT \\ln K_p$\n$\\Delta G^\\circ = -8.314 \\times 300 \\times 2.3\\text{ J mol}^{-1}$\n$\\Delta G^\\circ = -5736.66\\text{ J mol}^{-1} = -5.73666\\text{ kJ mol}^{-1}$\n$\\Delta G^\\circ = -57.4 \\times 10^{-1}\\text{ kJ mol}^{-1}$\nThus, $x \\approx 57$."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Work, Energy and Power",
+    "slug": "work-energy-power",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 4
+  },
+  "subtopics": [
+    {
+      "slug": "potential-energy-and-conservation-of-energy",
+      "name": "Potential energy and conservation of energy",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-WEP-001",
+      "subtopic": "potential-energy-and-conservation-of-energy",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A force $F = -kx^2$ ($k$ is a positive constant) acts on a particle. The potential energy $U(x)$ of the particle, taking $U(0) = 0$, is given by:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{k x^3}{3}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$-\\frac{k x^3}{3}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{k x^2}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-\\frac{k x^2}{2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "We know $F = -\\frac{dU}{dx}$, so $dU = -F dx = -(-kx^2) dx = kx^2 dx$.\nIntegrating from $0$ to $x$ with $U(0) = 0$:\n$U(x) - U(0) = \\int_{0}^{x} kx^2 dx = \\frac{kx^3}{3}$."
+    },
+    {
+      "ref": "PHY-WEP-002",
+      "subtopic": "potential-energy-and-conservation-of-energy",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $m$ is released from rest from a point $A$ on a frictionless track as shown in the figure. It moves down and then up a circular loop of radius $R$. What is the minimum height $h$ from which it should be released so that it successfully completes the circular path of radius $R$?",
+      "image": {
+        "url": null,
+        "alt": "Figure referred to in the question; not described."
+      },
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{5}{2} R$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{3}{2} R$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2 R$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{5}{4} R$",
+          "is_correct": false
+        }
+      ],
+      "solution": "To complete the vertical circle of radius $R$, the minimum velocity required at the lowest point of the loop is $v = \\sqrt{5gR}$.\nBy conservation of energy from point $A$ to the lowest point: $mgh = \\frac{1}{2}mv^2 \\implies mgh = \\frac{1}{2}m(5gR) \\implies h = \\frac{5}{2}R$."
+    }
+  ]
+}

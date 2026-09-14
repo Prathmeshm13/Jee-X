@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Chemical Bonding and Molecular Structure",
+    "slug": "chemical-bonding",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 4
+  },
+  "subtopics": [
+    {
+      "slug": "molecular-orbital-theory",
+      "name": "Molecular Orbital Theory",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-BND-001",
+      "subtopic": "molecular-orbital-theory",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Amongst the following, the species that is paramagnetic and has a bond order of $1.5$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{O_2^-}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{O_2^+}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{O_2^{2-}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{N_2^+}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $\\mathrm{O_2^-}$ (17 electrons): configuration is $\\sigma_{1s}^2 \\sigma_{1s}^{*2} \\sigma_{2s}^2 \\sigma_{2s}^{*2} \\sigma_{2p_z}^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1})$. It has one unpaired electron (paramagnetic) and bond order = $\\frac{10 - 7}{2} = 1.5$."
+    },
+    {
+      "ref": "CHEM-BND-002",
+      "subtopic": "molecular-orbital-theory",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Among the species $\\text{O}_2, \\text{O}_2^-, \\text{O}_2^{2-}$ and $\\text{O}_2^+$, the total number of diamagnetic species is ________.",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "Electronic configuration in Molecular Orbital theory:\n$\\text{O}_2^{2-}$: 18 electrons. MO configuration has all electrons paired (last shell is $\\pi^*_{2p_x}{}^2 = \\pi^*_{2p_y}{}^2$), so it is diamagnetic.\n$\\text{O}_2$: 16 electrons (paramagnetic with 2 unpaired electrons).\n$\\text{O}_2^-$: 17 electrons (paramagnetic with 1 unpaired electron).\n$\\text{O}_2^+$: 15 electrons (paramagnetic with 1 unpaired electron).\nThus, only 1 species is diamagnetic."
+    },
+    {
+      "ref": "CHEM-BND-003",
+      "subtopic": "molecular-orbital-theory",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 85,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Amongst the following species, which one has the highest bond order?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{O_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{O_2^+}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{O_2^-}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{O_2^{2-}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using Molecular Orbital Theory, the bond orders are:\n$\\mathrm{O_2}$ (16 $e^-$): 2.0\n$\\mathrm{O_2^+}$ (15 $e^-$): 2.5\n$\\mathrm{O_2^-}$ (17 $e^-$): 1.5\n$\\mathrm{O_2^{2-}}$ (18 $e^-$): 1.0\nThus, $\\mathrm{O_2^+}$ has the highest bond order of 2.5."
+    }
+  ]
+}

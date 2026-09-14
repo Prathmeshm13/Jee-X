@@ -1,0 +1,9 @@
+---
+title: "ER diagram: publishing"
+---
+erDiagram
+    tests |o--o{ leaderboards : "per-test board"
+    subjects |o--o{ leaderboards : "per-subject board"
+    leaderboards ||--o{ leaderboard_entries : "lists"
+    users ||--o{ leaderboard_entries : "appears as"
+    test_attempts ||--o{ share_cards : "shared via"

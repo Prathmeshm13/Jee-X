@@ -1,0 +1,18 @@
+---
+title: "ER diagram: admin"
+---
+erDiagram
+    questions ||--|{ question_revisions : "versions"
+    import_runs |o--o{ question_revisions : "created"
+    users |o--o{ question_revisions : "edited"
+    question_revisions ||--o{ question_reviews : "reviewed in"
+    users |o--o{ question_reviews : "reviewer"
+    questions ||--o{ question_reports : "reported in"
+    users |o--o{ question_reports : "reported by"
+    question_revisions ||--o{ regrade_runs : "from and to version"
+    question_reports |o--o{ regrade_runs : "triggered"
+    users |o--o{ regrade_runs : "triggered by"
+    users ||--o{ integrity_flags : "flagged"
+    test_attempts |o--o{ integrity_flags : "about"
+    users |o--o{ audit_log : "actor"
+    users |o--o{ import_runs : "run by"

@@ -1,0 +1,28 @@
+---
+title: "How the database domains connect"
+---
+flowchart TB
+    identity["<b>Identity and profiles</b><br/>users, student_profiles, guardian_consents"]
+    content["<b>Syllabus and content</b><br/>subjects, chapters, subtopics, passages,<br/>questions, question_options, question_subtopics, assets"]
+    tests["<b>Tests and responses</b><br/>tests, test_questions, test_attempts,<br/>question_responses, response_options"]
+    learning["<b>Learning profile</b><br/>student_subtopic_stats, student_chapter_coverage"]
+    ratings["<b>Ratings</b><br/>student_ratings, student_subject_ratings,<br/>question_ratings, rating_events"]
+    publishing["<b>Publishing</b><br/>leaderboards, leaderboard_entries, share_cards"]
+    admin["<b>Admin</b><br/>audit_log, question_revisions, question_reviews,<br/>question_reports, regrade_runs, integrity_flags, import_runs"]
+
+    content -- "created_by" --> identity
+    tests -- "user_id" --> identity
+    tests -- "question_id, option_id" --> content
+    tests -- "question_id + question_version" --> admin
+    learning -- "user_id" --> identity
+    learning -- "subtopic_id, chapter_id" --> content
+    ratings -- "user_id" --> identity
+    ratings -- "question_id, subject_id" --> content
+    ratings -- "attempt_id" --> tests
+    ratings -- "regrade_run_id" --> admin
+    publishing -- "user_id" --> identity
+    publishing -- "test_id, attempt_id" --> tests
+    publishing -- "subject_id" --> content
+    admin -- "actor, reviewer, reporter" --> identity
+    admin -- "question_id" --> content
+    admin -- "attempt_id" --> tests

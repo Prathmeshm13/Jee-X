@@ -1,0 +1,342 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "diff": "easy",
+  "secs": 75,
+  "conf": "exact",
+  "stem": "According to Bohr's theory, the time period of electron in hydrogen atom in the $n^{\\text{th}}$ orbit is proportional to:",
+  "opts": [
+   "$n^2$",
+   "$n^3$",
+   "$n$",
+   "$n^{1/2}$"
+  ],
+  "sol": "The time period of an electron in a Bohr orbit is given by $T = \\frac{2\\pi r}{v}$. Since $r \\propto n^2$ and $v \\propto \\frac{1}{n}$, we have $T \\propto \\frac{n^2}{1/n} = n^3$.",
+  "key": "B"
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Qualitative and Quantitative Analysis of Organic Compounds",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "In Lassaigne's test for the detection of nitrogen, the blue colour is due to the formation of:",
+  "opts": [
+   "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+   "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+   "$\\mathrm{Na_3[Fe(CN)_6]}$",
+   "$\\mathrm{Fe_4[Fe(CN)_6]_2}$"
+  ],
+  "sol": "During Lassaigne's test, sodium fusion extract containing $\\mathrm{NaCN}$ is reacted with $\\mathrm{FeSO_4}$ and acidified with $\\mathrm{HCl}$ in the presence of $\\mathrm{Fe^{3+}}$ ions, forming Prussian blue, which is ferriferrocyanide, $\\mathrm{Fe_4[Fe(CN)_6]_3}$.",
+  "key": "B"
+ },
+ {
+  "ch": "d-f-block",
+  "sub": "lanthanoids",
+  "sub_name": "Lanthanoids and Actinoids",
+  "diff": "medium",
+  "secs": 80,
+  "conf": "exact",
+  "stem": "The common oxidation state of lanthanoids is $+3$. Which of the following lanthanoids also shows $+4$ oxidation state?",
+  "opts": [
+   "$\\mathrm{Ce}$",
+   "$\\mathrm{Sm}$",
+   "$\\mathrm{Eu}$",
+   "$\\mathrm{Yb}$"
+  ],
+  "sol": "Cerium ($\\mathrm{Ce}$, $Z=58$) has electronic configuration $[\\mathrm{Xe}] 4f^1 5d^1 6s^2$. By losing 4 electrons, it acquires a stable noble gas configuration $[\\mathrm{Xe}]$, hence easily showing $+4$ oxidation state.",
+  "key": "A"
+ },
+ {
+  "ch": "s-block",
+  "sub": "alkali-metals",
+  "sub_name": "Alkali Metals and Their Compounds",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "The metal that produces a bright crimson red colour in the flame test is:",
+  "opts": [
+   "Lithium",
+   "Sodium",
+   "Potassium",
+   "Cesium"
+  ],
+  "sol": "In the flame test, Lithium imparts a crimson red (or bright crimson) colour to the flame, Sodium gives golden yellow, Potassium gives violet/lilac, and Cesium gives blue.",
+  "key": "A"
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "diff": "medium",
+  "secs": 85,
+  "conf": "exact",
+  "stem": "Amongst the following species, which one has the highest bond order?",
+  "opts": [
+   "$\\mathrm{O_2}$",
+   "$\\mathrm{O_2^+}$",
+   "$\\mathrm{O_2^-}$",
+   "$\\mathrm{O_2^{2-}}$"
+  ],
+  "sol": "Using Molecular Orbital Theory, the bond orders are:\n$\\mathrm{O_2}$ (16 $e^-$): 2.0\n$\\mathrm{O_2^+}$ (15 $e^-$): 2.5\n$\\mathrm{O_2^-}$ (17 $e^-$): 1.5\n$\\mathrm{O_2^{2-}}$ (18 $e^-$): 1.0\nThus, $\\mathrm{O_2^+}$ has the highest bond order of 2.5.",
+  "key": "B"
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties",
+  "diff": "medium",
+  "secs": 110,
+  "conf": "exact",
+  "stem": "At $300\\ \\mathrm{K}$, the osmotic pressure of a solution containing $36\\ \\mathrm{g}$ of glucose per litre is $4.98\\ \\mathrm{bar}$. If the osmotic pressure of another glucose solution is $1.52\\ \\mathrm{bar}$ at the same temperature, its concentration would be:",
+  "opts": [
+   "$0.061\\ \\mathrm{mol\\ L^{-1}}$",
+   "$0.120\\ \\mathrm{mol\\ L^{-1}}$",
+   "$0.200\\ \\mathrm{mol\\ L^{-1}}$",
+   "$0.030\\ \\mathrm{mol\\ L^{-1}}$"
+  ],
+  "sol": "Using $\\pi = CRT$:\nFirst solution: $\\pi_1 = 4.98\\ \\mathrm{bar}$, $C_1 = 36\\ \\mathrm{g/L} / 180\\ \\mathrm{g/mol} = 0.2\\ \\mathrm{mol\\ L^{-1}}$.\nSecond solution: $\\pi_2 = 1.52\\ \\mathrm{bar}$.\nSince $T$ is constant, $\\frac{\\pi_1}{\\pi_2} = \\frac{C_1}{C_2} \\implies \\frac{4.98}{1.52} = \\frac{0.2}{C_2} \\implies C_2 = 0.2 \\times \\frac{1.52}{4.98} \\approx 0.061\\ \\mathrm{mol\\ L^{-1}}$.",
+  "key": "A"
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "The complex showing optical activity is:",
+  "opts": [
+   "$\\text{cis-}[\\mathrm{Co(en)_2Cl_2}]^+$",
+   "$\\text{trans-}[\\mathrm{Co(en)_2Cl_2}]^+$",
+   "$\\text{trans-}[\\mathrm{Co(NH_3)_4Cl_2}]^+$",
+   "$[\\mathrm{Co(NH_3)_5Cl}]^{2+}$"
+  ],
+  "sol": "$\\text{cis-}[\\mathrm{Co(en)_2Cl_2}]^+$ lacks a plane of symmetry (and centre of symmetry) and is therefore chiral and optically active. Its trans isomer has a plane of symmetry and is optically inactive.",
+  "key": "A"
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Arrange the following compounds in decreasing order of basic strength:\n(I) Aniline\n(II) $p$-Nitroaniline\n(III) $p$-Toluidine\n(IV) $p$-Anisidine",
+  "opts": [
+   "IV > III > I > II",
+   "IV > I > III > II",
+   "III > IV > I > II",
+   "I > IV > III > II"
+  ],
+  "sol": "Basic strength depends on electron density on the nitrogen. \n- $-\\mathrm{OCH_3}$ group (in $p$-anisidine) is highly electron donating via $+M$ effect (strongest base).\n- $-\\mathrm{CH_3}$ group (in $p$-toluidine) is electron donating via $+I$ and hyperconjugation.\n- Aniline is unsubstituted.\n- $-\\mathrm{NO_2}$ group (in $p$-nitroaniline) is strongly electron-withdrawing via $-M$ and $-I$ (weakest base).\nThus, the correct order is IV > III > I > II.",
+  "key": "A"
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "Which of the following oxoacids of phosphorus contains a $\\mathrm{P}-\\mathrm{P}$ single bond?",
+  "opts": [
+   "Hypophosphoric acid",
+   "Pyrophosphoric acid",
+   "Orthophosphoric acid",
+   "Metaphosphoric acid"
+  ],
+  "sol": "Hypophosphoric acid is $\\mathrm{H_4P_2O_6}$, which has the structure $(\\mathrm{HO})_2\\mathrm{P}(=\\mathrm{O})-\\mathrm{P}(=\\mathrm{O})(\\mathrm{OH})_2$ containing a direct $\\mathrm{P}-\\mathrm{P}$ bond. Pyrophosphoric acid ($\\mathrm{H_4P_2O_7}$) contains a $\\mathrm{P}-\\mathrm{O}-\\mathrm{P}$ bond.",
+  "key": "A"
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "diff": "easy",
+  "secs": 50,
+  "conf": "exact",
+  "stem": "The secondary pollutant among the following is:",
+  "opts": [
+   "$\\mathrm{PAN}$ (Peroxyacetyl nitrate)",
+   "$\\mathrm{SO_2}$",
+   "$\\mathrm{CO}$",
+   "$\\mathrm{NO}$"
+  ],
+  "sol": "Secondary pollutants are not emitted directly from sources, but form in the atmosphere through chemical reactions between primary pollutants. $\\mathrm{PAN}$ is a well-known secondary pollutant formed in photochemical smog, whereas $\\mathrm{SO_2}$, $\\mathrm{CO}$, and $\\mathrm{NO}$ are primary pollutants.",
+  "key": "A"
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "diff": "easy",
+  "secs": 45,
+  "conf": "exact",
+  "stem": "The deficiency of which of the following vitamins causes scurvy?",
+  "opts": [
+   "Vitamin C",
+   "Vitamin A",
+   "Vitamin D",
+   "Vitamin K"
+  ],
+  "sol": "Deficiency of Vitamin C (ascorbic acid) causes scurvy, characterized by bleeding gums and slow wound healing.",
+  "key": "A"
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "Which of the following is a copolymer?",
+  "opts": [
+   "Buna-S",
+   "Polythene",
+   "PVC",
+   "Neoprene"
+  ],
+  "sol": "Buna-S is formed by the copolymerization of 1,3-butadiene and styrene (two different monomers). Polythene, PVC, and Neoprene are homopolymers formed from a single type of monomer.",
+  "key": "A"
+ },
+ {
+  "ch": "electrochemistry",
+  "sub": "conductance-solutions",
+  "sub_name": "Conductance of Electrolytic Solutions",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "At $298\\ \\mathrm{K}$, the limiting molar conductivity of $\\mathrm{HCl}$, $\\mathrm{NaCl}$ and $\\mathrm{CH_3COONa}$ are $426.2$, $126.5$ and $91.0\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$ respectively. The limiting molar conductivity of $\\mathrm{CH_3COOH}$ is:",
+  "opts": [
+   "390.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "490.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "290.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$",
+   "590.7 $\\mathrm{S\\ cm^2\\ mol^{-1}}$"
+  ],
+  "sol": "Using Kohlrausch's Law:\n$\\Lambda_m^\\circ(\\mathrm{CH_3COOH}) = \\Lambda_m^\\circ(\\mathrm{CH_3COONa}) + \\Lambda_m^\\circ(\\mathrm{HCl}) - \\Lambda_m^\\circ(\\mathrm{NaCl})$\n$= 91.0 + 426.2 - 126.5 = 390.7\\ \\mathrm{S\\ cm^2\\ mol^{-1}}$.",
+  "key": "A"
+ },
+ {
+  "ch": "chemical-kinetics",
+  "sub": "integrated-rate-laws",
+  "sub_name": "Integrated Rate Laws and Half-life",
+  "diff": "medium",
+  "secs": 95,
+  "conf": "exact",
+  "stem": "A first-order reaction has a rate constant of $1.15 \\times 10^{-3}\\ \\mathrm{s^{-1}}$. How long will $5\\ \\mathrm{g}$ of this reactant take to reduce to $3\\ \\mathrm{g}$? (Given: $\\log 5 = 0.6990$, $\\log 3 = 0.4771$)",
+  "opts": [
+   "$444\\ \\mathrm{s}$",
+   "$44.4\\ \\mathrm{s}$",
+   "$4.44\\ \\mathrm{s}$",
+   "$4440\\ \\mathrm{s}$"
+  ],
+  "sol": "For a first-order reaction: $t = \\frac{2.303}{k} \\log\\left(\\frac{[A]_0}{[A]}\\right)$\n$t = \\frac{2.303}{1.15 \\times 10^{-3}} \\log\\left(\\frac{5}{3}\\right)$\n$t = 2002.6 \\times (0.6990 - 0.4771) = 2002.6 \\times 0.2219 \\approx 444\\ \\mathrm{s}$.",
+  "key": "A"
+ },
+ {
+  "ch": "metallurgy",
+  "sub": "extraction-processes",
+  "sub_name": "Extraction and Refining Processes",
+  "diff": "easy",
+  "secs": 70,
+  "conf": "exact",
+  "stem": "In the metallurgy of copper, the slag formed during smelting in the blast furnace is:",
+  "opts": [
+   "$\\mathrm{FeSiO_3}$",
+   "$\\mathrm{CaSiO_3}$",
+   "$\\mathrm{CuSiO_3}$",
+   "$\\mathrm{MgSiO_3}$"
+  ],
+  "sol": "In the extraction of copper, $\\mathrm{FeO}$ is present as an impurity. Silica ($\\mathrm{SiO_2}$) is added as a flux, reacting with iron oxide to form iron silicate slag: $\\mathrm{FeO} + \\mathrm{SiO_2} \\rightarrow \\mathrm{FeSiO_3}$ (slag).",
+  "key": "A"
+ },
+ {
+  "ch": "haloalkanes-haloarenes",
+  "sub": "nucleophilic-substitution",
+  "sub_name": "Nucleophilic Substitution Reactions",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Which of the following alkyl halides undergoes nucleophilic substitution reaction by $S_{\\text{N}}1$ mechanism most readily?",
+  "opts": [
+   "$(CH_3)_3C-Cl$",
+   "$(CH_3)_2CH-Cl$",
+   "$CH_3CH_2-Cl$",
+   "$CH_3-Cl$"
+  ],
+  "sol": "$S_{\\text{N}}1$ reactions proceed via carbocation intermediates. The tertiary carbocation $(CH_3)_3C^+$ is highly stable due to $+I$ and hyperconjugation effects. Hence, tertiary butyl chloride $(CH_3)_3C-Cl$ undergoes $S_{\\text{N}}1$ substitution most readily.",
+  "key": "A"
+ },
+ {
+  "ch": "aldehydes-ketones-acids",
+  "sub": "chemical-properties",
+  "sub_name": "Chemical Properties of Aldehydes and Ketones",
+  "diff": "medium",
+  "secs": 95,
+  "conf": "exact",
+  "stem": "The reaction of benzaldehyde with concentrated $\\mathrm{NaOH}$ solution followed by acidification yields:",
+  "opts": [
+   "Benzyl alcohol and benzoic acid",
+   "Benzophenone and sodium benzoate",
+   "Benzyl alcohol and phenol",
+   "Benzoic acid and sodium benzoate"
+  ],
+  "sol": "Benzaldehyde does not contain any $\\alpha$-hydrogen. Thus, on treatment with concentrated alkali, it undergoes Cannizzaro reaction (disproportionation) to yield benzyl alcohol (reduced product) and sodium benzoate. Acidification converts the sodium salt to benzoic acid.",
+  "key": "A"
+ },
+ {
+  "ch": "chemistry-everyday-life",
+  "sub": "drugs-medicines",
+  "sub_name": "Drugs and Medicines",
+  "diff": "easy",
+  "secs": 55,
+  "conf": "exact",
+  "stem": "Which of the following acts as a broad spectrum antibiotic?",
+  "opts": [
+   "Chloramphenicol",
+   "Penicillin G",
+   "Prontosil",
+   "Salvarsan"
+  ],
+  "sol": "Chloramphenicol is a broad-spectrum antibiotic because it is effective against a wide range of Gram-positive and Gram-negative bacteria. Penicillin G is a narrow-spectrum antibiotic.",
+  "key": "A"
+ },
+ {
+  "ch": "chemical-equilibrium",
+  "sub": "le-chatelier-principle",
+  "sub_name": "Le Chatelier's Principle",
+  "diff": "medium",
+  "secs": 80,
+  "conf": "exact",
+  "stem": "For the exothermic reaction $\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}$, which of the following conditions will shift the equilibrium towards the product side?",
+  "opts": [
+   "Decreasing temperature and increasing pressure",
+   "Increasing temperature and decreasing pressure",
+   "Increasing temperature and increasing pressure",
+   "Decreasing temperature and decreasing pressure"
+  ],
+  "sol": "By Le Chatelier's principle, since the forward reaction is exothermic, a decrease in temperature shifts the equilibrium to the product (forward) side. Furthermore, since $\\Delta n_g = 2 - 4 = -2 < 0$, increasing pressure shifts the equilibrium towards fewer gas moles (forward side).",
+  "key": "A"
+ },
+ {
+  "ch": "hydrocarbons",
+  "sub": "alkynes",
+  "sub_name": "Alkynes",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "When propyne is passed through red hot iron tube at $873\\ \\mathrm{K}$, the product formed is:",
+  "opts": [
+   "Mesitylene",
+   "Benzene",
+   "Toluene",
+   "Ethylbenzene"
+  ],
+  "sol": "When propyne ($CH_3-C\\equiv CH$) undergoes cyclic trimerisation by passing through a red-hot tube, three molecules polymerize to form 1,3,5-trimethylbenzene, which is commonly known as mesitylene.",
+  "key": "A"
+ }
+]

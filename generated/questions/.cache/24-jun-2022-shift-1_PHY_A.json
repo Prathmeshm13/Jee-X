@@ -1,0 +1,342 @@
+[
+ {
+  "ch": "units-dimensions",
+  "sub": "dimensions-of-physical-quantities",
+  "sub_name": "Dimensions of physical quantities",
+  "diff": "easy",
+  "secs": 45,
+  "conf": "exact",
+  "stem": "Identify the pair of physical quantities that have the same dimensions:",
+  "opts": [
+   "Velocity gradient and decay constant",
+   "Wavelength and Rydberg constant",
+   "Stress and Coefficient of friction",
+   "Torque and force"
+  ],
+  "sol": "Velocity gradient has dimension $\\frac{[v]}{[L]} = [T^{-1}]$.\nDecay constant $\\lambda$ has dimension $[T^{-1}]$.\nThus, velocity gradient and decay constant have the same dimensions.",
+  "key": "A"
+ },
+ {
+  "ch": "kinematics",
+  "sub": "projectile-motion",
+  "sub_name": "Projectile Motion",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with horizontal. What is the angle of elevation of the projectile at its highest point as seen from the point of projection?",
+  "opts": [
+   "$\\tan^{-1}\\left(\\frac{1}{2}\\tan\\theta\\right)$",
+   "$\\tan^{-1}(\\tan\\theta)$",
+   "$\\tan^{-1}\\left(\\frac{\\sqrt{3}}{2}\\tan\\theta\\right)$",
+   "$\\tan^{-1}(2\\tan\\theta)$"
+  ],
+  "sol": "At the highest point, the coordinates are $(R/2, H)$.\nThe angle of elevation $\\phi$ is given by $\\tan\\phi = \\frac{H}{R/2} = \\frac{2H}{R}$.\nSince $H = \\frac{u^2\\sin^2\\theta}{2g}$ and $R = \\frac{u^2\\sin 2\\theta}{g} = \\frac{2u^2\\sin\\theta\\cos\\theta}{g}$,\nwe get $\\frac{H}{R} = \\frac{\\tan\\theta}{4}$. Therefore, $\\tan\\phi = 2 \\times \\frac{\\tan\\theta}{4} = \\frac{1}{2}\\tan\\theta$.",
+  "key": "A"
+ },
+ {
+  "ch": "laws-of-motion",
+  "sub": "friction",
+  "sub_name": "Friction",
+  "diff": "medium",
+  "secs": 110,
+  "conf": "exact",
+  "stem": "A block of mass $m = 10\\ \\mathrm{kg}$ is resting on a rough inclined plane of inclination $30^\\circ$. The coefficient of friction is $\\mu = 0.5$. What is the minimum force $F$ applied parallel to the inclined plane to keep the block from sliding down? (Take $g = 10\\ \\mathrm{m/s^2}$)",
+  "opts": [
+   "$6.7\\ \\mathrm{N}$",
+   "$15\\ \\mathrm{N}$",
+   "$25\\ \\mathrm{N}$",
+   "$50\\ \\mathrm{N}$"
+  ],
+  "sol": "The component of gravity down the incline is $mg\\sin\\theta = 10 \\times 10 \\times \\sin 30^\\circ = 50\\ \\mathrm{N}$.\nThe limiting friction force is $f_{\\text{max}} = \\mu mg\\cos\\theta = 0.5 \\times 10 \\times 10 \\times \\cos 30^\\circ = 25\\sqrt{3} \\approx 43.3\\ \\mathrm{N}$.\nTo prevent sliding down, the force $F$ must satisfy $F + f_{\\text{max}} \\ge mg\\sin\\theta$.\n$F_{\\text{min}} = mg\\sin\\theta - f_{\\text{max}} = 50 - 43.3 = 6.7\\ \\mathrm{N}$.",
+  "key": "A"
+ },
+ {
+  "ch": "work-energy-power",
+  "sub": "potential-energy-and-conservation-of-energy",
+  "sub_name": "Potential energy and conservation of energy",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "A force $F = -kx^2$ ($k$ is a positive constant) acts on a particle. The potential energy $U(x)$ of the particle, taking $U(0) = 0$, is given by:",
+  "opts": [
+   "$\\frac{k x^3}{3}$",
+   "$-\\frac{k x^3}{3}$",
+   "$\\frac{k x^2}{2}$",
+   "$-\\frac{k x^2}{2}$"
+  ],
+  "sol": "We know $F = -\\frac{dU}{dx}$, so $dU = -F dx = -(-kx^2) dx = kx^2 dx$.\nIntegrating from $0$ to $x$ with $U(0) = 0$:\n$U(x) - U(0) = \\int_{0}^{x} kx^2 dx = \\frac{kx^3}{3}$.",
+  "key": "A"
+ },
+ {
+  "ch": "rotational-motion",
+  "sub": "moment-of-inertia",
+  "sub_name": "Moment of inertia",
+  "diff": "easy",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Three uniform thin rods, each of mass $M$ and length $L$, are joined together to form an equilateral triangle. The moment of inertia of this system about an axis passing through the center of mass of the system and perpendicular to its plane is:",
+  "opts": [
+   "$\\frac{1}{2} M L^2$",
+   "$\\frac{2}{3} M L^2$",
+   "$\\frac{1}{3} M L^2$",
+   "$\\frac{1}{6} M L^2$"
+  ],
+  "sol": "The distance $d$ from the COM of the triangle to the COM of any rod is $d = \\frac{L}{2\\sqrt{3}}$.\nThe MOI of one rod about its own COM is $I_{\\text{cm}} = \\frac{ML^2}{12}$.\nBy parallel axis theorem, the MOI of one rod about the system's COM axis is:\n$I_1 = \\frac{ML^2}{12} + Md^2 = \\frac{ML^2}{12} + M\\left(\\frac{L}{2\\sqrt{3}}\\right)^2 = \\frac{ML^2}{12} + \\frac{ML^2}{12} = \\frac{ML^2}{6}$.\nFor three rods, total $I = 3 I_1 = 3 \\times \\frac{ML^2}{6} = \\frac{1}{2} ML^2$.",
+  "key": "A"
+ },
+ {
+  "ch": "gravitation",
+  "sub": "acceleration-due-to-gravity",
+  "sub_name": "Acceleration due to gravity",
+  "diff": "easy",
+  "secs": 70,
+  "conf": "exact",
+  "stem": "Let $g_h$ and $g_d$ be the acceleration due to gravity at a height $h$ above the Earth's surface and at a depth $d$ below the Earth's surface, respectively. If $g_h = g_d$ for $h \\ll R$ (where $R$ is the radius of the Earth), then:",
+  "opts": [
+   "$d = 2h$",
+   "$d = h$",
+   "$d = \\frac{h}{2}$",
+   "$d = 4h$"
+  ],
+  "sol": "For $h \\ll R$, $g_h \\approx g\\left(1 - \\frac{2h}{R}\\right)$.\nAt depth $d$, $g_d = g\\left(1 - \\frac{d}{R}\\right)$.\nEquating $g_h$ and $g_d$ gives $\\frac{2h}{R} = \\frac{d}{R} \\implies d = 2h$.",
+  "key": "A"
+ },
+ {
+  "ch": "mechanical-properties-solids",
+  "sub": "elastic-moduli",
+  "sub_name": "Elastic moduli",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "The bulk modulus of a liquid is $2 \\times 10^9\\ \\mathrm{N/m^2}$. The fractional compression in volume ($\\Delta V/V$) required to increase the pressure of the liquid by $2 \\times 10^6\\ \\mathrm{N/m^2}$ is:",
+  "opts": [
+   "$10^{-3}$",
+   "$10^{-5}$",
+   "$10^{-6}$",
+   "$10^{-4}$"
+  ],
+  "sol": "Bulk Modulus $B = \\frac{\\Delta P}{\\Delta V/V}$.\nThus, $\\frac{\\Delta V}{V} = \\frac{\\Delta P}{B} = \\frac{2 \\times 10^6}{2 \\times 10^9} = 10^{-3}$.",
+  "key": "A"
+ },
+ {
+  "ch": "fluid-mechanics",
+  "sub": "viscosity-and-terminal-velocity",
+  "sub_name": "Viscosity and Terminal Velocity",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "Two spherical raindrops of equal size fall through air with terminal velocity of $10\\ \\mathrm{cm/s}$. If they coalesce to form a single drop, its terminal velocity will be:",
+  "opts": [
+   "$10 \\times 2^{2/3}\\ \\mathrm{cm/s}$",
+   "$10 \\times 2^{1/3}\\ \\mathrm{cm/s}$",
+   "$20\\ \\mathrm{cm/s}$",
+   "$5\\ \\mathrm{cm/s}$"
+  ],
+  "sol": "Terminal velocity $v_t \\propto r^2$.\nWhen two drops of radius $r$ coalesce, the volume is doubled:\n$\\frac{4}{3}\\pi R^3 = 2 \\left(\\frac{4}{3}\\pi r^3\\right) \\implies R = 2^{1/3} r$.\nSince $v_t \\propto r^2$, the new terminal velocity is $v_t' = v_t \\left(\\frac{R}{r}\\right)^2 = 10 \\times (2^{1/3})^2 = 10 \\times 2^{2/3}\\ \\mathrm{cm/s}$.",
+  "key": "A"
+ },
+ {
+  "ch": "thermodynamics",
+  "sub": "thermodynamic-processes",
+  "sub_name": "Thermodynamic processes",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "During an adiabatic process, the pressure of a gas is found to be proportional to the cube of its absolute temperature. The ratio of specific heats $\\gamma = C_p/C_v$ for this gas is:",
+  "opts": [
+   "$\\frac{3}{2}$",
+   "$\\frac{4}{3}$",
+   "$\\frac{5}{3}$",
+   "$\\frac{7}{5}$"
+  ],
+  "sol": "In an adiabatic process, $P^{1-\\gamma} T^{\\gamma} = \\text{constant} \\implies P \\propto T^{\\frac{\\gamma}{\\gamma-1}}$.\nGiven $P \\propto T^3$, we have $\\frac{\\gamma}{\\gamma-1} = 3 \\implies \\gamma = 3\\gamma - 3 \\implies 2\\gamma = 3 \\implies \\gamma = \\frac{3}{2}$.",
+  "key": "A"
+ },
+ {
+  "ch": "kinetic-theory",
+  "sub": "degrees-of-freedom-and-law-of-equipartition-of-energy",
+  "sub_name": "Degrees of freedom and law of equipartition of energy",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "One mole of a monoatomic gas is mixed with three moles of a diatomic gas. What is the molecular specific heat of the mixture at constant volume ($C_v$)? (Take $R$ as the universal gas constant)",
+  "opts": [
+   "$\\frac{9}{4} R$",
+   "$\\frac{3}{2} R$",
+   "$\\frac{5}{2} R$",
+   "$\\frac{13}{4} R$"
+  ],
+  "sol": "For monoatomic gas: $n_1 = 1$, $C_{v1} = \\frac{3}{2}R$.\nFor diatomic gas: $n_2 = 3$, $C_{v2} = \\frac{5}{2}R$.\nFor the mixture:\n$C_{v\\text{, mix}} = \\frac{n_1 C_{v1} + n_2 C_{v2}}{n_1 + n_2} = \\frac{1 \\cdot \\frac{3}{2}R + 3 \\cdot \\frac{5}{2}R}{1 + 3} = \\frac{\\frac{3}{2}R + \\frac{15}{2}R}{4} = \\frac{9R}{4}$.",
+  "key": "A"
+ },
+ {
+  "ch": "oscillations",
+  "sub": "simple-harmonic-motion",
+  "sub_name": "Simple Harmonic Motion",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "A particle executes simple harmonic motion with an amplitude $A$. At what distance from the mean position is its kinetic energy equal to its potential energy?",
+  "opts": [
+   "$\\frac{A}{\\sqrt{2}}$",
+   "$\\frac{A}{2}$",
+   "$\\frac{\\sqrt{3}A}{2}$",
+   "$\\frac{A}{2\\sqrt{2}}$"
+  ],
+  "sol": "Kinetic energy $K = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$.\nPotential energy $U = \\frac{1}{2} m \\omega^2 x^2$.\nGiven $K = U \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$.",
+  "key": "A"
+ },
+ {
+  "ch": "electrostatics",
+  "sub": "electric-field-intensity",
+  "sub_name": "Electric field intensity",
+  "diff": "easy",
+  "secs": 75,
+  "conf": "exact",
+  "stem": "An electric dipole consists of two charges $+q$ and $-q$ separated by a distance $2a$. The electric field intensity at a distance $r$ ($r \\gg a$) on the axial line is $E_1$, and on the equatorial line is $E_2$. The ratio of $E_1$ to $E_2$ is:",
+  "opts": [
+   "$2 : 1$",
+   "$1 : 2$",
+   "$1 : 1$",
+   "$4 : 1$"
+  ],
+  "sol": "For a short dipole ($r \\gg a$):\nAxial field $E_1 = \\frac{2kp}{r^3}$.\nEquatorial field $E_2 = \\frac{kp}{r^3}$.\nThus, $\\frac{E_1}{E_2} = 2$.",
+  "key": "A"
+ },
+ {
+  "ch": "current-electricity",
+  "sub": "combination-of-resistors",
+  "sub_name": "Combination of resistors",
+  "diff": "easy",
+  "secs": 80,
+  "conf": "exact",
+  "stem": "Three identical resistors each of resistance $R$ are connected in parallel to a constant voltage source. The total power dissipated in this combination is $P$. If they are connected in series to the same source, the total power dissipated will be:",
+  "opts": [
+   "$\\frac{P}{9}$",
+   "$\\frac{P}{3}$",
+   "$3P$",
+   "$9P$"
+  ],
+  "sol": "In parallel, equivalent resistance $R_p = R/3$. Power $P = \\frac{V^2}{R/3} = \\frac{3V^2}{R}$.\nIn series, equivalent resistance $R_s = 3R$. Power $P' = \\frac{V^2}{3R}$.\nThus, $P' = \\frac{P}{9}$.",
+  "key": "A"
+ },
+ {
+  "ch": "moving-charges-magnetism",
+  "sub": "motion-in-a-magnetic-field",
+  "sub_name": "Motion in a magnetic field",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "A proton and an alpha particle are accelerated through the same potential difference $V$ and enter a uniform perpendicular magnetic field $B$. The ratio of the radii of their circular paths $r_p : r_\\alpha$ is:",
+  "opts": [
+   "$1 : \\sqrt{2}$",
+   "$1 : 2$",
+   "$\\sqrt{2} : 1$",
+   "$1 : 1$"
+  ],
+  "sol": "Radius of circular path is $r = \\frac{mv}{qB} = \\frac{\\sqrt{2mqV}}{qB} = \\frac{1}{B}\\sqrt{\\frac{2mV}{q}}$.\nThus, $r \\propto \\sqrt{\\frac{m}{q}}$.\nFor proton, $\\frac{m_p}{q_p} = \\frac{1}{1} = 1$.\nFor alpha particle, $\\frac{m_\\alpha}{q_\\alpha} = \\frac{4}{2} = 2$.\nTherefore, $\\frac{r_p}{r_\\alpha} = \\sqrt{\\frac{1}{2}} = \\frac{1}{\\sqrt{2}}$.",
+  "key": "A"
+ },
+ {
+  "ch": "magnetism-matter",
+  "sub": "magnetic-properties-of-materials",
+  "sub_name": "Magnetic properties of materials",
+  "diff": "easy",
+  "secs": 45,
+  "conf": "exact",
+  "stem": "The magnetic susceptibility $\\chi$ of a paramagnetic material varies with absolute temperature $T$ according to:",
+  "opts": [
+   "$\\chi \\propto \\frac{1}{T}$",
+   "$\\chi \\propto T$",
+   "$\\chi \\propto T^2$",
+   "$\\chi$ is independent of $T$"
+  ],
+  "sol": "According to Curie's Law, the magnetic susceptibility of a paramagnetic material is inversely proportional to its absolute temperature, i.e., $\\chi = \\frac{C}{T}$.",
+  "key": "A"
+ },
+ {
+  "ch": "electromagnetic-induction",
+  "sub": "motional-emf",
+  "sub_name": "Motional EMF",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "A metallic rod of length $l$ is rotated with a frequency $f$ about one of its ends perpendicular to a uniform magnetic field $B$. The induced emf between the ends of the rod is:",
+  "opts": [
+   "$\\pi f B l^2$",
+   "$2\\pi f B l^2$",
+   "$\\frac{1}{2}\\pi f B l^2$",
+   "$\\pi f^2 B l$"
+  ],
+  "sol": "The induced emf is given by $e = \\frac{1}{2} B \\omega l^2$.\nSince $\\omega = 2\\pi f$, we have:\n$e = \\frac{1}{2} B (2\\pi f) l^2 = \\pi f B l^2$.",
+  "key": "A"
+ },
+ {
+  "ch": "alternating-current",
+  "sub": "lcr-series-circuit",
+  "sub_name": "LCR Series Circuit",
+  "diff": "medium",
+  "secs": 100,
+  "conf": "exact",
+  "stem": "In a series LCR circuit, resonance occurs at a frequency $f_0$. If the capacitance of the capacitor is made 4 times its initial value without changing the inductance, the new resonant frequency will be:",
+  "opts": [
+   "$\\frac{f_0}{2}$",
+   "$2f_0$",
+   "$\\frac{f_0}{4}$",
+   "$4f_0$"
+  ],
+  "sol": "The resonant frequency is given by $f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$.\nWhen $C' = 4C$, the new frequency is:\n$f' = \\frac{1}{2\\pi\\sqrt{L(4C)}} = \\frac{1}{2} \\left(\\frac{1}{2\\pi\\sqrt{LC}}\\right) = \\frac{f_0}{2}$.",
+  "key": "A"
+ },
+ {
+  "ch": "electromagnetic-waves",
+  "sub": "electromagnetic-spectrum",
+  "sub_name": "Electromagnetic spectrum",
+  "diff": "easy",
+  "secs": 50,
+  "conf": "exact",
+  "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+  "opts": [
+   "Gamma rays",
+   "X-rays",
+   "Ultraviolet rays",
+   "Microwaves"
+  ],
+  "sol": "In the electromagnetic spectrum, Gamma rays have the highest frequency and therefore the shortest wavelength.",
+  "key": "A"
+ },
+ {
+  "ch": "wave-optics",
+  "sub": "youngs-double-slit-experiment",
+  "sub_name": "Young's Double Slit Experiment",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "In a Young's double slit experiment, the fringe width is found to be $\\beta$. If the entire apparatus is immersed in a liquid of refractive index $\\mu$, the new fringe width will be:",
+  "opts": [
+   "$\\frac{\\beta}{\\mu}$",
+   "$\\mu \\beta$",
+   "$\\frac{\\beta}{\\mu^2}$",
+   "$\\beta$"
+  ],
+  "sol": "Fringe width is given by $\\beta = \\frac{\\lambda D}{d}$.\nWhen immersed in a liquid, the wavelength of light becomes $\\lambda' = \\frac{\\lambda}{\\mu}$.\nThus, the new fringe width is $\\beta' = \\frac{\\lambda' D}{d} = \\frac{\\beta}{\\mu}$.",
+  "key": "A"
+ },
+ {
+  "ch": "dual-nature",
+  "sub": "photoelectric-effect",
+  "sub_name": "Photoelectric effect",
+  "diff": "medium",
+  "secs": 85,
+  "conf": "exact",
+  "stem": "When light of frequency $2\\nu_0$ (where $\\nu_0$ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is $v_1$. When the frequency of the incident radiation is increased to $5\\nu_0$, the maximum velocity of electrons emitted is $v_2$. The ratio $v_1/v_2$ is:",
+  "opts": [
+   "$1 : 2$",
+   "$1 : 4$",
+   "$1 : \\sqrt{2}$",
+   "$2 : 1$"
+  ],
+  "sol": "By Einstein's photoelectric equation: $K_{\\text{max}} = \\frac{1}{2}mv^2 = h\\nu - h\\nu_0$.\nFor frequency $2\\nu_0$:\n$\\frac{1}{2}mv_1^2 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$.\nFor frequency $5\\nu_0$:\n$\\frac{1}{2}mv_2^2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$.\nDividing the two equations: $\\frac{v_1^2}{v_2^2} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$.",
+  "key": "A"
+ }
+]

@@ -1,0 +1,114 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Kinematics",
+    "slug": "kinematics",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 2
+  },
+  "subtopics": [
+    {
+      "slug": "projectile-motion",
+      "name": "Projectile Motion",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-KIN-001",
+      "subtopic": "projectile-motion",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with horizontal. What is the angle of elevation of the projectile at its highest point as seen from the point of projection?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\tan^{-1}\\left(\\frac{1}{2}\\tan\\theta\\right)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\tan^{-1}(\\tan\\theta)$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\tan^{-1}\\left(\\frac{\\sqrt{3}}{2}\\tan\\theta\\right)$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\tan^{-1}(2\\tan\\theta)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "At the highest point, the coordinates are $(R/2, H)$.\nThe angle of elevation $\\phi$ is given by $\\tan\\phi = \\frac{H}{R/2} = \\frac{2H}{R}$.\nSince $H = \\frac{u^2\\sin^2\\theta}{2g}$ and $R = \\frac{u^2\\sin 2\\theta}{g} = \\frac{2u^2\\sin\\theta\\cos\\theta}{g}$,\nwe get $\\frac{H}{R} = \\frac{\\tan\\theta}{4}$. Therefore, $\\tan\\phi = 2 \\times \\frac{\\tan\\theta}{4} = \\frac{1}{2}\\tan\\theta$."
+    },
+    {
+      "ref": "PHY-KIN-002",
+      "subtopic": "projectile-motion",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A ball is projected from the ground at an angle of $45^\\circ$ with the horizontal. After $1\\ \\mathrm{s}$ it is at its maximum height. The maximum height reached by the ball is $H$ metres. Taking $g = 10\\ \\mathrm{m/s^2}$, the value of $H$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "Time to reach maximum height is $t = \\frac{u \\sin \\theta}{g} = 1\\ \\mathrm{s}$.\nGiven $\\theta = 45^\\circ$, so $u \\sin 45^\\circ = g(1) = 10\\ \\mathrm{m/s}$.\nThus $u_y = u \\sin \\theta = 10\\ \\mathrm{m/s}$.\nMaximum height $H = \\frac{u_y^2}{2g} = \\frac{10^2}{2(10)} = 5\\ \\mathrm{m}$."
+    },
+    {
+      "ref": "PHY-KIN-003",
+      "subtopic": "projectile-motion",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A projectile is projected with velocity $u$ making an angle $\\theta$ with the horizontal. If the velocity of the projectile when it is at its maximum height is $\\sqrt{\\frac{2}{5}}$ times its velocity when it is at half of its maximum height, then the angle of projection $\\theta$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$60^\\circ$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$45^\\circ$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$30^\\circ$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$15^\\circ$",
+          "is_correct": false
+        }
+      ],
+      "solution": "At maximum height $H$, $v_1 = u \\cos\\theta$.\nAt height $h = H/2$, the vertical component of velocity is $v_y = \\sqrt{u^2 \\sin^2\\theta - 2g(H/2)} = \\sqrt{u^2 \\sin^2\\theta - g\\frac{u^2 \\sin^2\\theta}{2g}} = \\frac{u \\sin\\theta}{\\sqrt{2}}$.\nSo, the speed $v_2$ at half the maximum height is $v_2 = \\sqrt{v_x^2 + v_y^2} = \\sqrt{u^2 \\cos^2\\theta + \\frac{u^2 \\sin^2\\theta}{2}}$.\nGiven $v_1 = \\sqrt{\\frac{2}{5}} v_2 \\implies u^2 \\cos^2\\theta = \\frac{2}{5} u^2 \\left( \\cos^2\\theta + \\frac{\\sin^2\\theta}{2} \\right)$\n$5\\cos^2\\theta = 2\\cos^2\\theta + \\sin^2\\theta \\implies 3\\cos^2\\theta = \\sin^2\\theta \\implies \\tan^2\\theta = 3 \\implies \\theta = 60^\\circ$."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Moving Charges and Magnetism",
+    "slug": "moving-charges-magnetism",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 17
+  },
+  "subtopics": [
+    {
+      "slug": "motion-in-a-magnetic-field",
+      "name": "Motion in a magnetic field",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-MAG-001",
+      "subtopic": "motion-in-a-magnetic-field",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A proton and an alpha particle are accelerated through the same potential difference $V$ and enter a uniform perpendicular magnetic field $B$. The ratio of the radii of their circular paths $r_p : r_\\alpha$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : \\sqrt{2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\sqrt{2} : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Radius of circular path is $r = \\frac{mv}{qB} = \\frac{\\sqrt{2mqV}}{qB} = \\frac{1}{B}\\sqrt{\\frac{2mV}{q}}$.\nThus, $r \\propto \\sqrt{\\frac{m}{q}}$.\nFor proton, $\\frac{m_p}{q_p} = \\frac{1}{1} = 1$.\nFor alpha particle, $\\frac{m_\\alpha}{q_\\alpha} = \\frac{4}{2} = 2$.\nTherefore, $\\frac{r_p}{r_\\alpha} = \\sqrt{\\frac{1}{2}} = \\frac{1}{\\sqrt{2}}$."
+    },
+    {
+      "ref": "PHY-MAG-002",
+      "subtopic": "motion-in-a-magnetic-field",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A proton and an alpha particle enter a region of uniform magnetic field perpendicularly with the same kinetic energy. The ratio of the radii of their circular paths ($r_p : r_\\alpha$) is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$1 : 1$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$1 : 4$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The radius of circular motion in a magnetic field is given by $r = \\frac{\\sqrt{2mK}}{qB}$.\nTherefore, $r \\propto \\frac{\\sqrt{m}}{q}$.\nFor proton, $r_p \\propto \\frac{\\sqrt{m_p}}{q_p}$.\nFor alpha particle, $r_\\alpha \\propto \\frac{\\sqrt{4m_p}}{2q_p} = \\frac{2\\sqrt{m_p}}{2q_p} = \\frac{\\sqrt{m_p}}{q_p}$.\nThus, $r_p : r_\\alpha = 1 : 1$."
+    }
+  ]
+}

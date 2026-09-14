@@ -1,0 +1,95 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Definite Integrals",
+    "slug": "definite-integrals",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 20
+  },
+  "subtopics": [
+    {
+      "slug": "properties-of-definite-integrals",
+      "name": "Properties of Definite Integrals",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-DEF-001",
+      "subtopic": "properties-of-definite-integrals",
+      "type": "single_correct",
+      "difficulty": 8,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The value of the integral $\\int_{-1/2}^{1/2} \\left( [x] + \\ln\\left(\\frac{1+x}{1-x}\\right) \\right) dx$ (where $[.]$ denotes the greatest integer function) is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-1/2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "0",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1/2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2\\ln(1/2)$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $I = \\int_{-1/2}^{1/2} [x] dx + \\int_{-1/2}^{1/2} \\ln\\left(\\frac{1+x}{1-x}\\right) dx$.\nSince $f(x) = \\ln\\left(\\frac{1+x}{1-x}\\right)$ is an odd function, its integral from $-1/2$ to $1/2$ is $0$.\nNow, $\\int_{-1/2}^{1/2} [x] dx = \\int_{-1/2}^{0} (-1) dx + \\int_{0}^{1/2} 0 dx = -1/2$."
+    },
+    {
+      "ref": "MATH-DEF-002",
+      "subtopic": "properties-of-definite-integrals",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The value of the integral $\\int_{-\\pi/2}^{\\pi/2} \\frac{x^2 \\cos x}{1 + e^x} dx$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{\\pi^2}{4} - 2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{\\pi^2}{4} + 2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{\\pi^2}{2} - 4$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{\\pi^2}{2} + 4$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using King's property: $I = \\int_{-\\pi/2}^{\\pi/2} \\frac{x^2 \\cos x}{1 + e^{-x}} dx = \\int_{-\\pi/2}^{\\pi/2} \\frac{e^x x^2 \\cos x}{1 + e^x} dx$.\n$2I = \\int_{-\\pi/2}^{\\pi/2} x^2 \\cos x dx = 2 \\int_0^{\\pi/2} x^2 \\cos x dx$.\n$I = [x^2 \\sin x]_0^{\\pi/2} - \\int_0^{\\pi/2} 2x \\sin x dx = \\frac{\\pi^2}{4} - 2[-x\\cos x + \\sin x]_0^{\\pi/2} = \\frac{\\pi^2}{4} - 2(1) = \\frac{\\pi^2}{4} - 2$."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Electromagnetic Waves",
+    "slug": "electromagnetic-waves",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 21
+  },
+  "subtopics": [
+    {
+      "slug": "electromagnetic-spectrum",
+      "name": "Electromagnetic spectrum",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-EMW-001",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Gamma rays",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Microwaves",
+          "is_correct": false
+        }
+      ],
+      "solution": "In the electromagnetic spectrum, Gamma rays have the highest frequency and therefore the shortest wavelength."
+    },
+    {
+      "ref": "PHY-EMW-002",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following electromagnetic waves has the highest frequency?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Gamma rays",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "X-rays",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Ultraviolet rays",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Microwaves",
+          "is_correct": false
+        }
+      ],
+      "solution": "Among the given electromagnetic waves, gamma rays have the shortest wavelength and thus the highest frequency."
+    },
+    {
+      "ref": "PHY-EMW-003",
+      "subtopic": "electromagnetic-spectrum",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "An electromagnetic wave is represented by the electric field $\\vec{E} = E_0 \\cos(kz - \\omega t)\\hat{i}$. If the wave is propagating in a medium of refractive index $n = 1.5$ and the speed of light in vacuum is $c = 3 \\times 10^8\\ \\mathrm{m/s}$, the velocity of the wave in the medium is $v = x \\times 10^8\\ \\mathrm{m/s}$. The value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "The speed of the wave in the medium is $v = \\frac{c}{n}$.\nGiven $c = 3 \\times 10^8\\ \\mathrm{m/s}$ and $n = 1.5$.\n$v = \\frac{3 \\times 10^8}{1.5} = 2 \\times 10^8\\ \\mathrm{m/s}$.\nTherefore, $x = 2$."
+    }
+  ]
+}

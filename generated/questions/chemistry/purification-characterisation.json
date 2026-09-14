@@ -1,0 +1,133 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Purification and Characterisation of Organic Compounds",
+    "slug": "purification-characterisation",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 14
+  },
+  "subtopics": [
+    {
+      "slug": "organic-characterisation",
+      "name": "Detection of Nitrogen, Sulphur, Halogens",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-POC-001",
+      "subtopic": "organic-characterisation",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Lassaigne's test for the detection of nitrogen fails for which of the following compounds?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{C_6H_5NH_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{H_2N-NH_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{CH_3CONH_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{C_6H_5NO_2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Lassaigne's test for nitrogen requires both nitrogen and carbon to be present in the organic compound to form $\\mathrm{CN^-}$ ions upon fusion with sodium metal. Hydrazine ($\\mathrm{H_2N-NH_2}$) does not contain carbon, so it cannot form $\\mathrm{NaCN}$ and thus fails Lassaigne's test."
+    },
+    {
+      "ref": "CHEM-POC-002",
+      "subtopic": "organic-characterisation",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In Dumas method for estimation of nitrogen, $0.3\text{ g}$ of an organic compound gave $50\text{ mL}$ of nitrogen collected at $300\text{ K}$ and $715\text{ mm}$ pressure. If the aqueous tension at $300\text{ K}$ is $15\text{ mm}$, the percentage of nitrogen in the compound is ________. (Nearest integer)",
+      "image": null,
+      "answer": {
+        "min": 17.0,
+        "max": 17.0
+      },
+      "solution": "Pressure of dry $N_2$ gas: $P = 715 - 15 = 700\\text{ mm Hg}$\nUsing $PV = nRT \\Rightarrow n = \\frac{PV}{RT} = \\frac{(700/760) \\times 0.050}{0.0821 \\times 300} \\approx 0.001869\\text{ mol}$\nMass of $N_2 = 0.001869 \\times 28 = 0.05233\\text{ g}$\n\\% of nitrogen = $\\frac{0.05233}{0.3} \\times 100 \\approx 17.44\\% \\approx 17\\%$."
+    },
+    {
+      "ref": "CHEM-POC-003",
+      "subtopic": "organic-characterisation",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In Lassaigne's test for the detection of nitrogen, the blue colour is due to the formation of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Fe_3[Fe(CN)_6]_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Fe_4[Fe(CN)_6]_3}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Na_3[Fe(CN)_6]}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Fe_4[Fe(CN)_6]_2}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "During Lassaigne's test, sodium fusion extract containing $\\mathrm{NaCN}$ is reacted with $\\mathrm{FeSO_4}$ and acidified with $\\mathrm{HCl}$ in the presence of $\\mathrm{Fe^{3+}}$ ions, forming Prussian blue, which is ferriferrocyanide, $\\mathrm{Fe_4[Fe(CN)_6]_3}$."
+    },
+    {
+      "ref": "CHEM-POC-004",
+      "subtopic": "organic-characterisation",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the Kjeldahl's method for estimation of nitrogen in an organic compound, $0.28\text{ g}$ of the compound was digested and the ammonia evolved was absorbed in $20\text{ mL}$ of $0.1\text{ M}$ sulphuric acid. The excess acid required $20\text{ mL}$ of $0.1\text{ M}$ sodium hydroxide for complete neutralization. The percentage of nitrogen in the compound is ______ %.",
+      "image": null,
+      "answer": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "solution": "Initial milliequivalents of $\\text{H}_2\\text{SO}_4 = 20 \\times 0.1 \\times 2 = 4\\text{ meq}$.\nMilliequivalents of $\\text{NaOH} = 20 \\times 0.1 \\times 1 = 2\\text{ meq}$.\nMilliequivalents of acid reacted with $\\text{NH}_3 = 4 - 2 = 2\\text{ meq} = 2\\text{ mmol}$ of nitrogen.\nMass of nitrogen $= 2 \\times 10^{-3} \\times 14 = 0.028\\text{ g}$.\nPercentage of nitrogen $= \\frac{0.028}{0.28} \\times 100 = 10\\%$."
+    }
+  ]
+}

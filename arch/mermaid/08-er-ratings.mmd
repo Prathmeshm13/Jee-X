@@ -1,0 +1,12 @@
+---
+title: "ER diagram: ratings"
+---
+erDiagram
+    users ||--o| student_ratings : "has"
+    users ||--o{ student_subject_ratings : "has"
+    subjects ||--o{ student_subject_ratings : "rated in"
+    questions ||--o| question_ratings : "has"
+    users ||--o{ rating_events : "history"
+    subjects |o--o{ rating_events : "subject, NULL means overall"
+    test_attempts ||--o{ rating_events : "caused"
+    regrade_runs |o--o{ rating_events : "corrected by"

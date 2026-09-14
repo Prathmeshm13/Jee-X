@@ -1,0 +1,19 @@
+---
+title: "Sequence: a question from file to regrade"
+---
+sequenceDiagram
+    participant F as Question file
+    participant I as Import script
+    participant R as Reviewer
+    participant DB as Database
+    participant J as Jobs
+
+    F->>I: kinematics.json
+    I->>DB: upsert questions by ref, insert question_revisions v1, import_runs
+    R->>DB: insert question_reviews (approved), set questions.status = published
+    Note over R,DB: later, a student files a question_report
+    R->>DB: fix answer key, questions.version + 1, new question_revisions row
+    R->>J: create regrade_runs (from_version, to_version)
+    J->>DB: re-grade question_responses, update attempts and ratings
+    J->>DB: publish new leaderboards, set superseded_at on old ones
+    J->>DB: write audit_log rows

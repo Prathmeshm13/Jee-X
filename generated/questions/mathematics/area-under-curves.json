@@ -1,0 +1,95 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Area Under Curves",
+    "slug": "area-under-curves",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 21
+  },
+  "subtopics": [
+    {
+      "slug": "area-of-bounded-regions",
+      "name": "Area of Bounded Regions",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-AUC-001",
+      "subtopic": "area-of-bounded-regions",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The area of the region bounded by the curves $y = x^2 - 1$ and $y = 1 - x^2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$8/3$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$4/3$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$2/3$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$16/3$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The intersection points are given by $x^2 - 1 = 1 - x^2 \\implies 2x^2 = 2 \\implies x = \\pm 1$.\nThe area is $\\int_{-1}^{1} ((1 - x^2) - (x^2 - 1)) dx = \\int_{-1}^{1} (2 - 2x^2) dx = 2 \\left[ 2x - \\frac{2x^3}{3} \\right]_0^1 = 2(2 - 2/3) = 8/3$."
+    },
+    {
+      "ref": "MATH-AUC-002",
+      "subtopic": "area-of-bounded-regions",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The area of the region bounded by $y^2 = 8x$ and $y^2 = 16(x-1)$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{8}{3}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{16}{3}$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{32}{3}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{64}{3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "To find points of intersection: $8x = 16(x-1) \\implies x = 2x-2 \\implies x = 2$.\nThen $y^2 = 16 \\implies y = \\pm 4$.\nIntegrating with respect to $y$ from $-4$ to $4$:\nArea $= \\int_{-4}^{4} \\left( \\left(1 + \\frac{y^2}{16}\\right) - \\frac{y^2}{8} \\right) dy = 2 \\int_0^4 \\left( 1 - \\frac{y^2}{16} \\right) dy$\n$= 2 \\left[ y - \\frac{y^3}{48} \\right]_0^4 = 2 \\left( 4 - \\frac{64}{48} \\right) = 2 \\left( 4 - \\frac{4}{3} \\right) = \\frac{16}{3}$."
+    }
+  ]
+}

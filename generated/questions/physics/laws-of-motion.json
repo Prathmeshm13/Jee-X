@@ -1,0 +1,114 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Laws of Motion",
+    "slug": "laws-of-motion",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 3
+  },
+  "subtopics": [
+    {
+      "slug": "friction",
+      "name": "Friction",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-LOM-001",
+      "subtopic": "friction",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $m = 10\\ \\mathrm{kg}$ is resting on a rough inclined plane of inclination $30^\\circ$. The coefficient of friction is $\\mu = 0.5$. What is the minimum force $F$ applied parallel to the inclined plane to keep the block from sliding down? (Take $g = 10\\ \\mathrm{m/s^2}$)",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$6.7\\ \\mathrm{N}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$15\\ \\mathrm{N}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$25\\ \\mathrm{N}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$50\\ \\mathrm{N}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The component of gravity down the incline is $mg\\sin\\theta = 10 \\times 10 \\times \\sin 30^\\circ = 50\\ \\mathrm{N}$.\nThe limiting friction force is $f_{\\text{max}} = \\mu mg\\cos\\theta = 0.5 \\times 10 \\times 10 \\times \\cos 30^\\circ = 25\\sqrt{3} \\approx 43.3\\ \\mathrm{N}$.\nTo prevent sliding down, the force $F$ must satisfy $F + f_{\\text{max}} \\ge mg\\sin\\theta$.\n$F_{\\text{min}} = mg\\sin\\theta - f_{\\text{max}} = 50 - 43.3 = 6.7\\ \\mathrm{N}$."
+    },
+    {
+      "ref": "PHY-LOM-002",
+      "subtopic": "friction",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $M$ slides down on a rough inclined plane of inclination $\\theta$ with constant velocity. If this block is projected up the same inclined plane with an initial velocity $v_0$, the distance up to which the block will rise on the incline before coming to rest is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{v_0^2}{4g \\sin\\theta}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{v_0^2}{2g \\sin\\theta}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{v_0^2}{g \\sin\\theta}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{2v_0^2}{g \\sin\\theta}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Since the block slides down with constant velocity, the downward force of gravity equals friction: $Mg \\sin\\theta = f_k = \\mu_k Mg \\cos\\theta \\implies \\mu_k = \\tan\\theta$.\nWhen projected up, the retardation is $a = g \\sin\\theta + \\mu_k g \\cos\\theta = g \\sin\\theta + (\\tan\\theta) g \\cos\\theta = 2g \\sin\\theta$.\nUsing $v^2 - u^2 = 2as \\implies 0 - v_0^2 = -2(2g \\sin\\theta)s \\implies s = \\frac{v_0^2}{4g \\sin\\theta}$."
+    },
+    {
+      "ref": "PHY-LOM-003",
+      "subtopic": "friction",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A block of mass $5\\ \\mathrm{kg}$ is placed on a rough horizontal surface. The coefficient of static friction between the block and the surface is $0.6$ and the coefficient of kinetic friction is $0.4$. A horizontal force of $25\\ \\mathrm{N}$ is applied to the block. The frictional force acting on the block is ______ $\\mathrm{N}$. (Take $g = 10\\ \\mathrm{m/s^2}$)",
+      "image": null,
+      "answer": {
+        "min": 25.0,
+        "max": 25.0
+      },
+      "solution": "Maximum static frictional force $f_{s,\\text{max}} = \\mu_s N = \\mu_s m g = 0.6 \\times 5 \\times 10 = 30\\ \\mathrm{N}$.\nSince the applied force $F = 25\\ \\mathrm{N}$ is less than $f_{s,\\text{max}} = 30\\ \\mathrm{N}$, the block remains at rest.\nTherefore, static friction adjusts to balance the applied force: $f = F = 25\\ \\mathrm{N}$."
+    }
+  ]
+}

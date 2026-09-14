@@ -1,0 +1,40 @@
+---
+title: "JeeX system architecture"
+---
+flowchart LR
+    subgraph people["Users"]
+        visitor["Public visitor<br/>no login"]
+        student["Student<br/>React app"]
+        staff["Admin or reviewer<br/>React admin pages"]
+    end
+
+    subgraph api["FastAPI backend"]
+        pub["/public/*<br/>no token"]
+        stu["/api/*<br/>student token"]
+        adm["/admin/*<br/>staff token + role"]
+        importer["Import script"]
+        grader["Grader"]
+        jobs["Background jobs<br/>stats, ratings, ranks,<br/>leaderboards, regrades"]
+    end
+
+    files["Question files<br/>backend/data/questions/*.json"]
+    auth0["Auth0<br/>login, MFA for staff"]
+    db[("Database<br/>SQLite now, Postgres later<br/><br/>identity and profiles<br/>syllabus and content<br/>tests and responses<br/>learning profile, ratings<br/>published leaderboards<br/>admin")]
+
+    student -. "login" .-> auth0
+    staff -. "login + MFA" .-> auth0
+    visitor --> pub
+    student -- "Bearer token" --> stu
+    staff -- "Bearer token" --> adm
+    files --> importer
+
+    stu -- "submitted choices" --> grader
+    grader -- "attempt submitted" --> jobs
+    adm -- "start regrade" --> jobs
+
+    pub -- "published boards, syllabus" --> db
+    stu -- "own rows" --> db
+    adm -- "all rows + audit_log" --> db
+    importer -- "questions, revisions" --> db
+    grader -- "responses" --> db
+    jobs -- "stats, ratings, boards" --> db

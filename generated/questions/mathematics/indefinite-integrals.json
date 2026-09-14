@@ -1,0 +1,95 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Indefinite Integrals",
+    "slug": "indefinite-integrals",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 19
+  },
+  "subtopics": [
+    {
+      "slug": "integration-by-parts",
+      "name": "Integration by Parts and Special Integrals",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-IND-001",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The integral $\\int \\frac{\\left(x^2 - 1\\right) dx}{\\left(x^4 + 3x^2 + 1\\right) \\tan^{-1}\\left(\\frac{x^2 + 1}{x}\\right)}$ is equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\ln\\left| \\tan^{-1}\\left(\\frac{x^2+1}{x}\\right) \\right| + C$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\ln\\left| \\tan^{-1}\\left(x + \\frac{1}{x}\\right) \\right| + C$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2} \\ln\\left| \\tan^{-1}\\left(x + \\frac{1}{x}\\right) \\right| + C$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$-\\ln\\left| \\tan^{-1}\\left(x + \\frac{1}{x}\\right) \\right| + C$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Divide numerator and denominator by $x^2$:\n$I = \\int \\frac{(1 - 1/x^2) dx}{(x^2 + 3 + 1/x^2) \\tan^{-1}(x + 1/x)} = \\int \\frac{(1 - 1/x^2) dx}{((x + 1/x)^2 + 1) \\tan^{-1}(x + 1/x)}$.\nLet $t = \\tan^{-1}(x + 1/x)$. Then $dt = \\frac{1}{1 + (x+1/x)^2} \\cdot (1 - 1/x^2) dx$.\nThe integral becomes $\\int \\frac{dt}{t} = \\ln|t| + C = \\ln\\left| \\tan^{-1}\\left(x + \\frac{1}{x}\\right) \\right| + C$."
+    },
+    {
+      "ref": "MATH-IND-002",
+      "subtopic": "integration-by-parts",
+      "type": "single_correct",
+      "difficulty": 8,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "If $\\int e^{2x} \\left( \\frac{1 - \\sin 2x}{1 + \\cos 2x} \\right) dx = e^{2x} f(x) + C$, then $f(x)$ is equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$-\\frac{1}{2} \\tan x$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\frac{1}{2} \\cot x$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$-\\frac{1}{2} \\cot x$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\frac{1}{2} \\tan x$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $I = \\int e^{2x} \\left( \\frac{1 - 2\\sin x \\cos x}{2\\cos^2 x} \\right) dx = \\int e^{2x} \\left( \\frac{1}{2}\\sec^2 x - \\tan x \\right) dx$.\nLet $2x = t \\implies dx = dt/2$.\n$I = \\frac{1}{2} \\int e^t \\left( \\frac{1}{2}\\sec^2(t/2) - \\tan(t/2) \\right) dt = -\\frac{1}{2} \\int e^t \\left( \\tan(t/2) - \\frac{1}{2}\\sec^2(t/2) \\right) dt$.\nSince $\\frac{d}{dt}\\tan(t/2) = \\frac{1}{2}\\sec^2(t/2)$, this is of the form $-\\frac{1}{2} e^t \\tan(t/2) + C = -\\frac{1}{2} e^{2x} \\tan x + C$.\nHence $f(x) = -\\frac{1}{2}\\tan x$."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Mathematical Reasoning",
+    "slug": "mathematical-reasoning",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 14
+  },
+  "subtopics": [
+    {
+      "slug": "tautology-fallacy",
+      "name": "Tautology and Contradiction",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-MRE-001",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The statement $\\sim(p \\leftrightarrow \\sim q)$ is equivalent to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\leftrightarrow q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$p \\leftrightarrow \\sim q$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\sim p \\leftrightarrow q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\sim p \\leftrightarrow \\sim q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$p \\leftrightarrow \\sim q$ is true if $p$ and $\\sim q$ have same truth values (i.e., opposite truth values of $p$ and $q$).\nThus, $\\sim(p \\leftrightarrow \\sim q)$ is true when $p$ and $q$ have the same truth values.\nThis is the definition of $p \\leftrightarrow q$."
+    },
+    {
+      "ref": "MATH-MRE-002",
+      "subtopic": "tautology-fallacy",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The statement $(\\sim p \\wedge q) \\implies (p \\vee \\sim q)$ is equivalent to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$p \\vee \\sim q$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\sim p \\vee q$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$p \\wedge \\sim q$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\sim p \\wedge q$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using $A \\implies B \\equiv \\sim A \\vee B$:\n$\\sim (\\sim p \\wedge q) \\vee (p \\vee \\sim q) \\equiv (p \\vee \\sim q) \\vee (p \\vee \\sim q) \\equiv p \\vee \\sim q$."
+    }
+  ]
+}

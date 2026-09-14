@@ -1,0 +1,95 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Mechanical Properties of Fluids",
+    "slug": "fluid-mechanics",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 8
+  },
+  "subtopics": [
+    {
+      "slug": "viscosity-and-terminal-velocity",
+      "name": "Viscosity and Terminal Velocity",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-FLU-001",
+      "subtopic": "viscosity-and-terminal-velocity",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two spherical raindrops of equal size fall through air with terminal velocity of $10\\ \\mathrm{cm/s}$. If they coalesce to form a single drop, its terminal velocity will be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$10 \\times 2^{2/3}\\ \\mathrm{cm/s}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$10 \\times 2^{1/3}\\ \\mathrm{cm/s}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$20\\ \\mathrm{cm/s}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$5\\ \\mathrm{cm/s}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Terminal velocity $v_t \\propto r^2$.\nWhen two drops of radius $r$ coalesce, the volume is doubled:\n$\\frac{4}{3}\\pi R^3 = 2 \\left(\\frac{4}{3}\\pi r^3\\right) \\implies R = 2^{1/3} r$.\nSince $v_t \\propto r^2$, the new terminal velocity is $v_t' = v_t \\left(\\frac{R}{r}\\right)^2 = 10 \\times (2^{1/3})^2 = 10 \\times 2^{2/3}\\ \\mathrm{cm/s}$."
+    },
+    {
+      "ref": "PHY-FLU-002",
+      "subtopic": "viscosity-and-terminal-velocity",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Eight identical spherical raindrops falling down with terminal velocity $v$ merge to form a single large drop. The terminal velocity of the new large drop is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$4v$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2v$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$8v$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$v/2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Volume remains conserved: $8 \\times \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi R^3 \\implies R = 2r$.\nTerminal velocity $v_T \\propto r^2$. Therefore, $v' = v \\left(\\frac{R}{r}\\right)^2 = v(2)^2 = 4v$."
+    }
+  ]
+}

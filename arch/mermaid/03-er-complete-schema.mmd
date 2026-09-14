@@ -1,0 +1,371 @@
+---
+title: "Complete database schema: 32 tables"
+---
+erDiagram
+    users {
+        integer id PK
+        text auth0_sub UK
+        text email
+        text username UK
+        text name
+        text role
+        text status
+        timestamp created_at
+        timestamp last_active_at
+    }
+    student_profiles {
+        integer user_id PK, FK
+        date dob
+        integer class_12_year
+        integer target_year
+        text target_exam
+        text state
+        text category
+        boolean pwd
+        text leaderboard_visibility
+        timestamp updated_at
+    }
+    guardian_consents {
+        integer id PK
+        integer user_id FK
+        text guardian_name
+        text guardian_email
+        text method
+        timestamp granted_at
+        timestamp withdrawn_at
+    }
+    subjects {
+        integer id PK
+        text code UK
+        text name
+    }
+    chapters {
+        integer id PK
+        integer subject_id FK
+        text name
+        text slug
+        text class_level
+        boolean in_main
+        boolean in_advanced
+        integer position
+    }
+    subtopics {
+        integer id PK
+        integer chapter_id FK
+        text name
+        text slug
+        integer position
+    }
+    passages {
+        integer id PK
+        text ref UK
+        text content
+    }
+    questions {
+        integer id PK
+        text ref UK
+        integer subtopic_id FK
+        integer passage_id FK
+        text type
+        text stem
+        real answer_min
+        real answer_max
+        text solution
+        integer difficulty
+        integer expected_time_sec
+        text source_type
+        text exam
+        integer year
+        text shift
+        text status
+        integer version
+        text content_hash UK
+        integer created_by FK
+        timestamp created_at
+        timestamp updated_at
+    }
+    question_options {
+        integer id PK
+        integer question_id FK
+        text label
+        text content
+        boolean is_correct
+        integer position
+    }
+    question_subtopics {
+        integer question_id PK, FK
+        integer subtopic_id PK, FK
+    }
+    assets {
+        integer id PK
+        integer question_id FK
+        integer passage_id FK
+        text url
+        text alt_text
+    }
+    tests {
+        integer id PK
+        text title
+        text kind
+        text pattern
+        integer duration_sec
+        boolean ranked
+        integer generated_for_user_id FK
+        timestamp opens_at
+        timestamp closes_at
+        timestamp results_at
+        integer created_by FK
+        timestamp created_at
+    }
+    test_questions {
+        integer test_id PK, FK
+        integer question_id PK, FK
+        text section
+        integer position
+        integer marks_correct
+        integer marks_wrong
+        boolean partial_marking
+    }
+    test_attempts {
+        integer id PK
+        integer user_id FK
+        integer test_id FK
+        integer attempt_number
+        boolean counts_for_rank
+        timestamp started_at
+        timestamp submitted_at
+        integer score
+        integer total_questions
+        real accuracy
+        real avg_time_seconds
+        json subject_breakdown
+        integer rank
+        real percentile
+        timestamp created_at
+    }
+    question_responses {
+        integer id PK
+        integer attempt_id FK
+        integer user_id FK
+        integer question_id FK
+        integer question_version FK
+        real numeric_answer
+        text outcome
+        integer marks_awarded
+        integer time_taken_sec
+        timestamp answered_at
+    }
+    response_options {
+        integer response_id PK, FK
+        integer option_id PK, FK
+    }
+    student_subtopic_stats {
+        integer user_id PK, FK
+        integer subtopic_id PK, FK
+        integer attempted
+        integer correct
+        real avg_time_sec
+        real mastery
+        timestamp last_attempted_at
+    }
+    student_chapter_coverage {
+        integer user_id PK, FK
+        integer chapter_id PK, FK
+        text status
+        timestamp updated_at
+    }
+    student_ratings {
+        integer user_id PK, FK
+        real rating
+        real deviation
+        real volatility
+        integer attempts_counted
+        timestamp updated_at
+    }
+    student_subject_ratings {
+        integer user_id PK, FK
+        integer subject_id PK, FK
+        real rating
+        real deviation
+        real volatility
+        integer attempts_counted
+        timestamp updated_at
+    }
+    question_ratings {
+        integer question_id PK, FK
+        real rating
+        real deviation
+        integer responses_counted
+        timestamp updated_at
+    }
+    rating_events {
+        integer id PK
+        integer user_id FK
+        integer subject_id FK
+        integer attempt_id FK
+        integer regrade_run_id FK
+        real rating_before
+        real rating_after
+        real deviation_after
+        timestamp created_at
+    }
+    leaderboards {
+        integer id PK
+        text kind
+        integer test_id FK
+        integer subject_id FK
+        text segment
+        integer participants
+        timestamp computed_at
+        timestamp published_at
+        timestamp superseded_at
+    }
+    leaderboard_entries {
+        integer leaderboard_id PK, FK
+        integer user_id PK, FK
+        integer rank
+        text display_name
+        integer score
+        real percentile
+        real rating
+    }
+    share_cards {
+        text token PK
+        integer attempt_id FK
+        timestamp created_at
+        timestamp revoked_at
+    }
+    import_runs {
+        integer id PK
+        text file_path
+        text file_hash
+        integer run_by FK
+        integer added
+        integer updated
+        json errors
+        timestamp created_at
+    }
+    question_revisions {
+        integer id PK
+        integer question_id FK
+        integer version
+        json content
+        integer edited_by FK
+        integer import_run_id FK
+        text change_note
+        timestamp created_at
+    }
+    question_reviews {
+        integer id PK
+        integer question_id FK
+        integer version FK
+        integer reviewer_id FK
+        text decision
+        text comments
+        timestamp created_at
+    }
+    question_reports {
+        integer id PK
+        integer question_id FK
+        integer user_id FK
+        text reason
+        text status
+        integer assigned_to FK
+        text resolution
+        integer resolved_by FK
+        timestamp resolved_at
+        timestamp created_at
+    }
+    regrade_runs {
+        integer id PK
+        integer question_id FK
+        integer from_version FK
+        integer to_version FK
+        integer report_id FK
+        integer triggered_by FK
+        integer responses_changed
+        text status
+        timestamp created_at
+        timestamp finished_at
+    }
+    integrity_flags {
+        integer id PK
+        integer user_id FK
+        integer attempt_id FK
+        text kind
+        json details
+        text status
+        integer reviewed_by FK
+        timestamp created_at
+    }
+    audit_log {
+        integer id PK
+        integer actor_id FK
+        text action
+        text entity
+        integer entity_id
+        json before
+        json after
+        text reason
+        timestamp created_at
+    }
+
+    users ||--o| student_profiles : "user_id"
+    users ||--o{ guardian_consents : "user_id"
+    subjects ||--o{ chapters : "subject_id"
+    chapters ||--o{ subtopics : "chapter_id"
+    users |o--o{ questions : "created_by"
+    passages |o--o{ questions : "passage_id"
+    subtopics ||--o{ questions : "subtopic_id"
+    questions ||--o{ question_options : "question_id"
+    subtopics ||--o{ question_subtopics : "subtopic_id"
+    questions ||--o{ question_subtopics : "question_id"
+    passages |o--o{ assets : "passage_id"
+    questions |o--o{ assets : "question_id"
+    users |o--o{ tests : "created_by"
+    users |o--o{ tests : "generated_for_user_id"
+    questions ||--o{ test_questions : "question_id"
+    tests ||--o{ test_questions : "test_id"
+    tests ||--o{ test_attempts : "test_id"
+    users ||--o{ test_attempts : "user_id"
+    question_revisions ||--o{ question_responses : "question_id, question_version"
+    questions ||--o{ question_responses : "question_id"
+    users ||--o{ question_responses : "user_id"
+    test_attempts ||--o{ question_responses : "attempt_id"
+    question_options ||--o{ response_options : "option_id"
+    question_responses ||--o{ response_options : "response_id"
+    subtopics ||--o{ student_subtopic_stats : "subtopic_id"
+    users ||--o{ student_subtopic_stats : "user_id"
+    chapters ||--o{ student_chapter_coverage : "chapter_id"
+    users ||--o{ student_chapter_coverage : "user_id"
+    users ||--o| student_ratings : "user_id"
+    subjects ||--o{ student_subject_ratings : "subject_id"
+    users ||--o{ student_subject_ratings : "user_id"
+    questions ||--o| question_ratings : "question_id"
+    regrade_runs |o--o{ rating_events : "regrade_run_id"
+    test_attempts ||--o{ rating_events : "attempt_id"
+    subjects |o--o{ rating_events : "subject_id"
+    users ||--o{ rating_events : "user_id"
+    subjects |o--o{ leaderboards : "subject_id"
+    tests |o--o{ leaderboards : "test_id"
+    users ||--o{ leaderboard_entries : "user_id"
+    leaderboards ||--o{ leaderboard_entries : "leaderboard_id"
+    test_attempts ||--o{ share_cards : "attempt_id"
+    users |o--o{ import_runs : "run_by"
+    import_runs |o--o{ question_revisions : "import_run_id"
+    users |o--o{ question_revisions : "edited_by"
+    questions ||--o{ question_revisions : "question_id"
+    question_revisions ||--o{ question_reviews : "question_id, version"
+    users |o--o{ question_reviews : "reviewer_id"
+    users |o--o{ question_reports : "resolved_by"
+    users |o--o{ question_reports : "assigned_to"
+    users |o--o{ question_reports : "user_id"
+    questions ||--o{ question_reports : "question_id"
+    question_revisions ||--o{ regrade_runs : "question_id, to_version"
+    question_revisions ||--o{ regrade_runs : "question_id, from_version"
+    users |o--o{ regrade_runs : "triggered_by"
+    question_reports |o--o{ regrade_runs : "report_id"
+    users |o--o{ integrity_flags : "reviewed_by"
+    test_attempts |o--o{ integrity_flags : "attempt_id"
+    users ||--o{ integrity_flags : "user_id"
+    users |o--o{ audit_log : "actor_id"

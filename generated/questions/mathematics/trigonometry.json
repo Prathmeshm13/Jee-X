@@ -1,0 +1,114 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Trigonometric Functions and Equations",
+    "slug": "trigonometry",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 2
+  },
+  "subtopics": [
+    {
+      "slug": "trigonometric-equations",
+      "name": "Trigonometric Equations",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-TRG-001",
+      "subtopic": "trigonometric-equations",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of solutions of the equation $2\\sin^2 x + 3\\sin x - 2 = 0$ in the interval $[0, 2\\pi]$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "3",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "4",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $t = \\sin x$. Then $2t^2 + 3t - 2 = 0 \\implies (2t - 1)(t + 2) = 0$.\nSince $t \\in [-1, 1]$, we have $\\sin x = 1/2$.\nIn $[0, 2\\pi]$, the solutions are $x = \\pi/6$ and $x = 5\\pi/6$.\nThus, there are 2 solutions."
+    },
+    {
+      "ref": "MATH-TRG-002",
+      "subtopic": "trigonometric-equations",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of solutions of the equation $2 \\sin^2 \\theta + 3 \\sin \\theta - 2 = 0$ in the interval $[0, 2\\pi]$ is :",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "Let $t = \\sin \\theta$. The equation becomes $2t^2 + 3t - 2 = 0 \\implies (2t - 1)(t + 2) = 0$.\nSince $t \\in [-1, 1]$, we must have $t = \\sin \\theta = 1/2$.\nIn the interval $[0, 2\\pi]$, $\\sin \\theta = 1/2$ has exactly 2 solutions: $\\theta = \\pi/6$ and $\\theta = 5\\pi/6$."
+    },
+    {
+      "ref": "MATH-TRG-003",
+      "subtopic": "trigonometric-equations",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of solutions of the equation $\\sin^4 x + \\cos^4 x = \\sin x \\cos x$ in the interval $[0, 2\\pi]$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "8",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using $\\sin^4 x + \\cos^4 x = 1 - 2\\sin^2 x \\cos^2 x$:\n$1 - \\frac{1}{2}\\sin^2 2x = \\frac{1}{2}\\sin 2x$.\nLet $\\sin 2x = t \\implies 2 - t^2 = t \\implies t^2 + t - 2 = 0 \\implies (t+2)(t-1) = 0$.\nSince $t \\in [-1, 1]$, $t = 1 \\implies \\sin 2x = 1$.\nIn $[0, 2\\pi]$, $2x \\in [0, 4\\pi]$.\n$2x = \\frac{\\pi}{2}, \\frac{5\\pi}{2} \\implies x = \\frac{\\pi}{4}, \\frac{5\\pi}{4}$.\nThus, there are exactly 2 solutions."
+    }
+  ]
+}

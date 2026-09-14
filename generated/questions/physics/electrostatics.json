@@ -1,0 +1,133 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Electric Charges, Fields and Potential",
+    "slug": "electrostatics",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 14
+  },
+  "subtopics": [
+    {
+      "slug": "electric-field-intensity",
+      "name": "Electric field intensity",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-ELS-001",
+      "subtopic": "electric-field-intensity",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 75,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An electric dipole consists of two charges $+q$ and $-q$ separated by a distance $2a$. The electric field intensity at a distance $r$ ($r \\gg a$) on the axial line is $E_1$, and on the equatorial line is $E_2$. The ratio of $E_1$ to $E_2$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$2 : 1$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1 : 2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1 : 1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$4 : 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For a short dipole ($r \\gg a$):\nAxial field $E_1 = \\frac{2kp}{r^3}$.\nEquatorial field $E_2 = \\frac{kp}{r^3}$.\nThus, $\\frac{E_1}{E_2} = 2$."
+    },
+    {
+      "ref": "PHY-ELS-002",
+      "subtopic": "electric-field-intensity",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "An electric dipole of dipole moment $p = 4 \\times 10^{-9}\\ \\mathrm{C\\cdot m}$ is placed in a uniform electric field of intensity $E = 5 \\times 10^4\\ \\mathrm{N/C}$ making an angle of $30^\\circ$ with the field direction. The magnitude of torque acting on the dipole is $x \\times 10^{-4}\\ \\mathrm{N\\cdot m}$. The value of $x$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "The torque on a dipole in a uniform electric field is $\\tau = p E \\sin\\theta$.\nSubstitute the given values:\n$\\tau = (4 \\times 10^{-9}) \\times (5 \\times 10^4) \\times \\sin 30^\\circ = 20 \\times 10^{-5} \\times 0.5 = 10^{-4}\\ \\mathrm{N\\cdot m}$.\nTherefore, $\\tau = 1 \\times 10^{-4}\\ \\mathrm{N\\cdot m} \\implies x = 1$."
+    },
+    {
+      "ref": "PHY-ELS-003",
+      "subtopic": "electric-field-intensity",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Three point charges $q$, $-2q$ and $q$ are located at $(0, a, 0)$, $(0, 0, 0)$ and $(a, 0, 0)$ respectively. The magnitude of the net electric dipole moment of this system is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\sqrt{2} qa$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$qa$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\sqrt{3} qa$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2 qa$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The system of charges can be split into two dipoles: one with charges $-q$ at $(0,0,0)$ and $+q$ at $(0,a,0)$ pointing along positive $y$-axis (dipole moment $\\vec{p}_1 = qa \\hat{j}$), and another with charges $-q$ at $(0,0,0)$ and $+q$ at $(a,0,0)$ pointing along positive $x$-axis (dipole moment $\\vec{p}_2 = qa \\hat{i}$).\nThe net dipole moment is $\\vec{p} = qa \\hat{i} + qa \\hat{j}$. Its magnitude is $p = \\sqrt{(qa)^2 + (qa)^2} = \\sqrt{2} qa$."
+    },
+    {
+      "ref": "PHY-ELS-004",
+      "subtopic": "electric-field-intensity",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 160,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Two point charges $q_1 = 4\\ \\mu\\mathrm{C}$ and $q_2 = -2\\ \\mu\\mathrm{C}$ are placed at a distance of $1\\ \\mathrm{m}$ apart in air. The distance of the point from $q_2$ (on the line joining them, on the side of $q_2$) where the net electric field is zero is $d = \\frac{1}{\\sqrt{x} - 1}\\ \\mathrm{m}$. The value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "Let the point of zero electric field be at a distance $d$ from $q_2$ on the outer side.\nThe electric fields must cancel out:\n$\\frac{k|q_1|}{(1 + d)^2} = \\frac{k|q_2|}{d^2} \\implies \\frac{4}{(1 + d)^2} = \\frac{2}{d^2}$.\nTaking square root on both sides:\n$\\frac{2}{1 + d} = \\frac{\\sqrt{2}}{d} \\implies 2d = \\sqrt{2} + \\sqrt{2}d \\implies d(2 - \\sqrt{2}) = \\sqrt{2}$.\n$d = \\frac{\\sqrt{2}}{2 - \\sqrt{2}} = \\frac{1}{\\sqrt{2} - 1}$.\nComparing with $d = \\frac{1}{\\sqrt{x} - 1}$, we get $x = 2$."
+    }
+  ]
+}

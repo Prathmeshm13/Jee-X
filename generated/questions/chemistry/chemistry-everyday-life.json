@@ -1,0 +1,95 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Chemistry in Everyday Life",
+    "slug": "chemistry-everyday-life",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 32
+  },
+  "subtopics": [
+    {
+      "slug": "drugs-medicines",
+      "name": "Classification of Drugs",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-CEL-001",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following class of drugs is used to reduce fever?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Antipyretics",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Analgesics",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Antiseptics",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Tranquilizers",
+          "is_correct": false
+        }
+      ],
+      "solution": "Antipyretics are chemical substances used to lower body temperature in high fever (e.g., paracetamol)."
+    },
+    {
+      "ref": "CHEM-CEL-002",
+      "subtopic": "drugs-medicines",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following acts as a broad spectrum antibiotic?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Chloramphenicol",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Penicillin G",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Prontosil",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Salvarsan",
+          "is_correct": false
+        }
+      ],
+      "solution": "Chloramphenicol is a broad-spectrum antibiotic because it is effective against a wide range of Gram-positive and Gram-negative bacteria. Penicillin G is a narrow-spectrum antibiotic."
+    }
+  ]
+}

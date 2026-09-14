@@ -1,0 +1,8 @@
+---
+title: "ER diagram: learning profile"
+---
+erDiagram
+    users ||--o{ student_subtopic_stats : "has"
+    subtopics ||--o{ student_subtopic_stats : "measured in"
+    users ||--o{ student_chapter_coverage : "has"
+    chapters ||--o{ student_chapter_coverage : "covered in"

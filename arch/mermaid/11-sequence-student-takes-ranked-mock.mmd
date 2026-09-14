@@ -1,0 +1,23 @@
+---
+title: "Sequence: a student takes a ranked mock"
+---
+sequenceDiagram
+    participant S as Student (React)
+    participant API as /api
+    participant G as Grader
+    participant DB as Database
+    participant J as Jobs
+    participant P as /public
+
+    S->>API: start attempt
+    API->>DB: insert test_attempts (attempt_number, started_at)
+    S->>API: submit choices (option ids, numeric values)
+    API->>G: grade
+    G->>DB: read question_options and test_questions marks
+    G->>DB: insert question_responses and response_options, fill attempt summary
+    G->>J: attempt submitted
+    J->>DB: update student_subtopic_stats, ratings, rating_events
+    Note over J,DB: at tests.results_at
+    J->>DB: set rank and percentile on test_attempts
+    J->>DB: insert leaderboards and leaderboard_entries, set published_at
+    P->>DB: read current published leaderboard

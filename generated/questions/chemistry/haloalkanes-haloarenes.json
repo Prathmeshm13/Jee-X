@@ -1,0 +1,95 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Haloalkanes and Haloarenes",
+    "slug": "haloalkanes-haloarenes",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 26
+  },
+  "subtopics": [
+    {
+      "slug": "nucleophilic-substitution",
+      "name": "SN1 and SN2 Mechanism",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-HAL-001",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds will undergo nucleophilic substitution ($\\mathrm{S_N1}$) reaction most readily?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{(CH_3)_3C-Br}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{(CH_3)_2CH-Br}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{CH_3CH_2-Br}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{CH_3-Br}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The rate of $\\mathrm{S_N1}$ reaction depends on the stability of the carbocation intermediate formed. The tertiary butyl carbocation $\\mathrm{(CH_3)_3C^+}$ is the most stable among the options, hence $\\mathrm{(CH_3)_3C-Br}$ reacts most readily."
+    },
+    {
+      "ref": "CHEM-HAL-002",
+      "subtopic": "nucleophilic-substitution",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following alkyl halides undergoes nucleophilic substitution reaction by $S_{\\text{N}}1$ mechanism most readily?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$(CH_3)_3C-Cl$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(CH_3)_2CH-Cl$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$CH_3CH_2-Cl$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$CH_3-Cl$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$S_{\\text{N}}1$ reactions proceed via carbocation intermediates. The tertiary carbocation $(CH_3)_3C^+$ is highly stable due to $+I$ and hyperconjugation effects. Hence, tertiary butyl chloride $(CH_3)_3C-Cl$ undergoes $S_{\\text{N}}1$ substitution most readily."
+    }
+  ]
+}

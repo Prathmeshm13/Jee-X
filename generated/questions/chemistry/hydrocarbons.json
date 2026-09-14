@@ -1,0 +1,95 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Hydrocarbons",
+    "slug": "hydrocarbons",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 15
+  },
+  "subtopics": [
+    {
+      "slug": "alkynes",
+      "name": "Acidic Character and Reactions of Alkynes",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-HYC-001",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "When propyne is treated with dilute $\\mathrm{H_2SO_4}$ in the presence of $\\mathrm{HgSO_4}$, the major product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Propanone",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Propanal",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Propan-1-ol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Propan-2-ol",
+          "is_correct": false
+        }
+      ],
+      "solution": "Hydration of propyne ($\\mathrm{CH_3-C\\equiv CH}$) in the presence of $\\mathrm{Hg^{2+}/H^+}$ gives an enol intermediate via Markovnikov addition: $\\mathrm{CH_3-C(OH)=CH_2}$, which tautomerizes to the more stable ketone, propanone (acetone, $\\mathrm{CH_3COCH_3}$)."
+    },
+    {
+      "ref": "CHEM-HYC-002",
+      "subtopic": "alkynes",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "When propyne is passed through red hot iron tube at $873\\ \\mathrm{K}$, the product formed is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Mesitylene",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Benzene",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Toluene",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Ethylbenzene",
+          "is_correct": false
+        }
+      ],
+      "solution": "When propyne ($CH_3-C\\equiv CH$) undergoes cyclic trimerisation by passing through a red-hot tube, three molecules polymerize to form 1,3,5-trimethylbenzene, which is commonly known as mesitylene."
+    }
+  ]
+}

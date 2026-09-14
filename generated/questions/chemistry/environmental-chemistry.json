@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Environmental Chemistry",
+    "slug": "environmental-chemistry",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": false,
+    "position": 16
+  },
+  "subtopics": [
+    {
+      "slug": "atmospheric-pollution",
+      "name": "Tropospheric and Stratospheric Pollution",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-ENV-001",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The primary photochemical smog does not contain which of the following?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{SO_2}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{NO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "PAN (Peroxyacetyl nitrate)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{O_3}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Photochemical smog occurs in warm, dry and sunny climates and is initiated by solar radiation acting on unsaturated hydrocarbons and nitrogen oxides. It is oxidizing in nature and does not typically involve sulfur dioxide ($\\mathrm{SO_2}$), which is a characteristic component of classical (reducing) smog."
+    },
+    {
+      "ref": "CHEM-ENV-002",
+      "subtopic": "atmospheric-pollution",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In the upper stratosphere, the ozone layer protects us from harmful ultraviolet radiations. The wavelength (in nm) of the ultraviolet radiation which is majorly absorbed by ozone is in the range of ________.",
+      "image": null,
+      "answer": {
+        "min": 220.0,
+        "max": 220.0
+      },
+      "solution": "Ozone layer absorbs UV-B radiation which has wavelengths in the range of 220 to 320 nm.\nAccording to standard NCERT data, ozone absorbs UV radiation in the range of 220–320 nm."
+    },
+    {
+      "ref": "CHEM-ENV-003",
+      "subtopic": "atmospheric-pollution",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 50,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The secondary pollutant among the following is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{PAN}$ (Peroxyacetyl nitrate)",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{SO_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{CO}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{NO}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Secondary pollutants are not emitted directly from sources, but form in the atmosphere through chemical reactions between primary pollutants. $\\mathrm{PAN}$ is a well-known secondary pollutant formed in photochemical smog, whereas $\\mathrm{SO_2}$, $\\mathrm{CO}$, and $\\mathrm{NO}$ are primary pollutants."
+    }
+  ]
+}

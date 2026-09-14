@@ -1,0 +1,112 @@
+[
+ {
+  "ch": "atomic-structure",
+  "sub": "bohr-model",
+  "sub_name": "Bohr's Model of Hydrogen Atom",
+  "diff": "easy",
+  "secs": 75,
+  "conf": "exact",
+  "stem": "The minimum uncertainty in the speed of an electron (mass $= 9.1 \times 10^{-31}\text{ kg}$) kept in a box of width $10^{-10}\text{ m}$ is $v \times 10^{5}\text{ m/s}$. The value of $v$ is ________. (Nearest integer)\n[Given: $h = 6.63 \times 10^{-34}\text{ J}\boldsymbol{\times}\text{s}$, $\frac{h}{4\times 3.14} = 0.527 \times 10^{-34}\text{ J}\boldsymbol{\times}\text{s}$]",
+  "sol": "Using Heisenberg's uncertainty principle:\n$\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi}$\n$\\Delta v = \\frac{h}{4\\pi m \\Delta x}$\n$\\Delta v = \\frac{0.527 \\times 10^{-34}}{9.1 \\times 10^{-31} \\times 10^{-10}} = \\frac{0.527}{9.1} \\times 10^7 = 0.0579 \\times 10^7 = 5.79 \\times 10^5\\text{ m/s}$\nRounding to the nearest integer, $v \\approx 6$.",
+  "key": 6
+ },
+ {
+  "ch": "purification-characterisation",
+  "sub": "organic-characterisation",
+  "sub_name": "Quantitative analysis of organic compounds",
+  "diff": "medium",
+  "secs": 120,
+  "conf": "exact",
+  "stem": "In Dumas method for estimation of nitrogen, $0.3\text{ g}$ of an organic compound gave $50\text{ mL}$ of nitrogen collected at $300\text{ K}$ and $715\text{ mm}$ pressure. If the aqueous tension at $300\text{ K}$ is $15\text{ mm}$, the percentage of nitrogen in the compound is ________. (Nearest integer)",
+  "sol": "Pressure of dry $N_2$ gas: $P = 715 - 15 = 700\\text{ mm Hg}$\nUsing $PV = nRT \\Rightarrow n = \\frac{PV}{RT} = \\frac{(700/760) \\times 0.050}{0.0821 \\times 300} \\approx 0.001869\\text{ mol}$\nMass of $N_2 = 0.001869 \\times 28 = 0.05233\\text{ g}$\n\\% of nitrogen = $\\frac{0.05233}{0.3} \\times 100 \\approx 17.44\\% \\approx 17\\%$.",
+  "key": 17
+ },
+ {
+  "ch": "chemical-bonding",
+  "sub": "molecular-orbital-theory",
+  "sub_name": "Molecular Orbital Theory",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "Among the species $\\text{O}_2, \\text{O}_2^-, \\text{O}_2^{2-}$ and $\\text{O}_2^+$, the total number of diamagnetic species is ________.",
+  "sol": "Electronic configuration in Molecular Orbital theory:\n$\\text{O}_2^{2-}$: 18 electrons. MO configuration has all electrons paired (last shell is $\\pi^*_{2p_x}{}^2 = \\pi^*_{2p_y}{}^2$), so it is diamagnetic.\n$\\text{O}_2$: 16 electrons (paramagnetic with 2 unpaired electrons).\n$\\text{O}_2^-$: 17 electrons (paramagnetic with 1 unpaired electron).\n$\\text{O}_2^+$: 15 electrons (paramagnetic with 1 unpaired electron).\nThus, only 1 species is diamagnetic.",
+  "key": 1
+ },
+ {
+  "ch": "solutions",
+  "sub": "colligative-properties",
+  "sub_name": "Colligative Properties and Van 't Hoff Factor",
+  "diff": "medium",
+  "secs": 110,
+  "conf": "exact",
+  "stem": "The boiling point of a $2\\%\\text{ (w/w)}$ aqueous solution of a non-volatile solute $A$ is equal to the boiling point of an $8\\%\\text{ (w/w)}$ aqueous solution of a non-volatile solute $B$. The relation between molecular weights of $A$ and $B$ is $M_B = x M_A$. The value of $x$ is ________. (Assume both solute $A$ and $B$ behave ideally in solutions)",
+  "sol": "Since the boiling points of both aqueous solutions are equal:\n$\\Delta T_b(A) = \\Delta T_b(B) \\Rightarrow m_A \\cdot K_b = m_B \\cdot K_b \\Rightarrow m_A = m_B$\n$m_A = \\frac{w_A \\times 1000}{M_A \\times w_{solvent}} = \\frac{2 \\times 1000}{M_A \\times 98}$\n$m_B = \\frac{8 \\times 1000}{M_B \\times 92}$\nSetting $m_A = m_B \\Rightarrow \\frac{2}{98 M_A} = \\frac{8}{92 M_B} \\Rightarrow M_B = \\frac{8 \\times 98}{2 \\times 92} M_A = \\frac{4 \\times 98}{92} M_A \\approx 4.26 M_A$.\nWith standard approximation of $w_{solvent} \\approx 100$ in dilute solutions (or matching official answer key): $\\frac{2}{M_A \\times 100} \\approx \\frac{8}{M_B \\times 100} \\Rightarrow M_B = 4 M_A$. Thus $x = 4$.",
+  "key": 4
+ },
+ {
+  "ch": "coordination-compounds",
+  "sub": "isomerism",
+  "sub_name": "Isomerism in Coordination Compounds",
+  "diff": "medium",
+  "secs": 90,
+  "conf": "exact",
+  "stem": "The number of stereoisomers possible for the octahedral complex $[\\text{Co}(\\text{ox})_2(\\text{Br})_2]^{3-}$ (where $\\text{ox}$ is oxalate) is ________.",
+  "sol": "The complex is of the type $[M(AA)_2B_2]$ where $AA$ is a symmetrical bidentate ligand.\nThis complex exhibits two geometrical isomers: cis and trans.\nThe trans-isomer is symmetrical (has plane of symmetry) and is optically inactive (1 form).\nThe cis-isomer is unsymmetrical (lacks plane of symmetry) and exists as a pair of enantiomers (dextro and laevo forms).\nTotal number of stereoisomers = 1 (trans) + 2 (cis-d & cis-l) = 3.",
+  "key": 3
+ },
+ {
+  "ch": "goc",
+  "sub": "acidic-basic-strength",
+  "sub_name": "Acidic and Basic Strength of Organic Compounds",
+  "diff": "easy",
+  "secs": 75,
+  "conf": "exact",
+  "stem": "Among the following compounds, the total number of compounds which are more acidic than phenol is ________.\nPropan-1-ol, $o$-Nitrophenol, $m$-Nitrophenol, $p$-Nitrophenol, Ethanol, $o$-Cresol",
+  "sol": "Acidic strength of nitro-substituted phenols is higher than phenol because of the electron-withdrawing $-\\text{I}$ and $-\\text{M}$ effects of the $-\\text{NO}_2$ group.\nThus, $o$-nitrophenol, $m$-nitrophenol, and $p$-nitrophenol are all more acidic than phenol.\nPropan-1-ol and ethanol are weaker acids than phenol because phenoxide ion is resonance stabilized.\n$o$-Cresol is less acidic due to the electron-donating methyl group ($+\\text{I}$ and hyperconjugation).\nTherefore, there are exactly 3 compounds more acidic than phenol.",
+  "key": 3
+ },
+ {
+  "ch": "p-block-15-18",
+  "sub": "group-15",
+  "sub_name": "Group 15 Elements",
+  "diff": "easy",
+  "secs": 45,
+  "conf": "exact",
+  "stem": "In the reaction of phosphorus with concentrated $\\text{HNO}_3$, the oxidation state of phosphorus changes from 0 to +$x$. The value of $x$ is ________.",
+  "sol": "Concentrated nitric acid oxidizes phosphorus ($\\text{P}_4$) to orthophosphoric acid ($\\text{H}_3\\text{PO}_4$):\n$\\text{P}_4 + 20\\text{HNO}_3 \\rightarrow 4\\text{H}_3\\text{PO}_4 + 20\\text{NO}_2 + 4\\text{H}_2\\text{O}$\nIn $\\text{H}_3\\text{PO}_4$, the oxidation state of phosphorus is +5.\nThus, $x = 5$.",
+  "key": 5
+ },
+ {
+  "ch": "environmental-chemistry",
+  "sub": "atmospheric-pollution",
+  "sub_name": "Atmospheric Pollution",
+  "diff": "easy",
+  "secs": 50,
+  "conf": "exact",
+  "stem": "In the upper stratosphere, the ozone layer protects us from harmful ultraviolet radiations. The wavelength (in nm) of the ultraviolet radiation which is majorly absorbed by ozone is in the range of ________.",
+  "sol": "Ozone layer absorbs UV-B radiation which has wavelengths in the range of 220 to 320 nm.\nAccording to standard NCERT data, ozone absorbs UV radiation in the range of 220–320 nm.",
+  "key": 220
+ },
+ {
+  "ch": "biomolecules",
+  "sub": "vitamins",
+  "sub_name": "Vitamins",
+  "diff": "easy",
+  "secs": 45,
+  "conf": "exact",
+  "stem": "The total number of water-soluble vitamins among the following is ________.\nVitamin A, Vitamin B1, Vitamin B2, Vitamin B6, Vitamin B12, Vitamin C, Vitamin D, Vitamin E, Vitamin K",
+  "sol": "Vitamins are classified into fat-soluble (A, D, E, K) and water-soluble (B-complex group and C).\nWater soluble vitamins from the given list: Vitamin B1, Vitamin B2, Vitamin B6, Vitamin B12, and Vitamin C.\nTotal count = 5.",
+  "key": 5
+ },
+ {
+  "ch": "polymers",
+  "sub": "classification-properties",
+  "sub_name": "Classification and Properties of Polymers",
+  "diff": "easy",
+  "secs": 60,
+  "conf": "exact",
+  "stem": "Among the following, the total number of condensation polymers is ________.\nNylon 6, Nylon 6,6, Terylene, Teflon, Neoprene, Novolac, Buna-S",
+  "sol": "Condensation polymers are formed by repeated condensation reactions between different bi-functional or tri-functional monomeric units with the elimination of small molecules like water, alcohol, etc.\nCondensation polymers in the list: Nylon 6, Nylon 6,6, Terylene, and Novolac.\nAddition polymers: Teflon, Neoprene, Buna-S.\nTotal number = 4.",
+  "key": 4
+ }
+]

@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "d- and f-Block Elements",
+    "slug": "d-f-block",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 24
+  },
+  "subtopics": [
+    {
+      "slug": "lanthanoids",
+      "name": "Lanthanoids and Actinoids",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-DFB-001",
+      "subtopic": "lanthanoids",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following lanthanoid ions is/are common and stable in $+4$ oxidation state?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Ce^{4+}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Sm^{4+}}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Eu^{4+}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Yb^{4+}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Cerium ($\\mathrm{Ce}$, $Z=58$) has electronic configuration $\\mathrm{[Xe]} 4f^1 5d^1 6s^2$. Losing 4 electrons gives $\\mathrm{Ce^{4+}}$ with a stable noble-gas configuration $\\mathrm{[Xe]}$, making it a well-known stable $+4$ ion."
+    },
+    {
+      "ref": "CHEM-DFB-002",
+      "subtopic": "lanthanoids",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The common oxidation state of lanthanoids is $+3$. Which of the following lanthanoids also shows $+4$ oxidation state?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{Ce}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{Sm}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Eu}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Yb}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Cerium ($\\mathrm{Ce}$, $Z=58$) has electronic configuration $[\\mathrm{Xe}] 4f^1 5d^1 6s^2$. By losing 4 electrons, it acquires a stable noble gas configuration $[\\mathrm{Xe}]$, hence easily showing $+4$ oxidation state."
+    },
+    {
+      "ref": "CHEM-DFB-003",
+      "subtopic": "lanthanoids",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The spin-only magnetic moment value of $\\text{Gd}^{3+}$ ion is _______ $\\text{B.M.}$ (Nearest Integer) [Atomic number of Gd is 64]",
+      "image": null,
+      "answer": {
+        "min": 8.0,
+        "max": 8.0
+      },
+      "solution": "Gd ($Z=64$) electronic configuration is $[\\text{Xe}] 4f^7 5d^1 6s^2$.\n$\\text{Gd}^{3+}$ electronic configuration is $[\\text{Xe}] 4f^7$.\nNumber of unpaired electrons ($n$) $= 7$.\nSpin-only magnetic moment $\\mu = \\sqrt{n(n+2)} = \\sqrt{7(9)} = \\sqrt{63} \\approx 7.94\\text{ B.M.}$\nRounding to the nearest integer gives 8."
+    }
+  ]
+}

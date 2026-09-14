@@ -1,0 +1,95 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Straight Lines",
+    "slug": "straight-lines",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 9
+  },
+  "subtopics": [
+    {
+      "slug": "angle-between-lines",
+      "name": "Angle between two lines",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-STL-001",
+      "subtopic": "angle-between-lines",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The equation of the image of the line $x + y = 1$ with respect to the line $x - y = 0$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$x - y = 1$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$x + y = 1$",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$x + y = -1$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$y - x = 1$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The mirror line is $y = x$.\nTo find the image of a line under reflection in $y = x$, we interchange $x$ and $y$.\nInterchanging $x$ and $y$ in $x + y = 1$ gives $y + x = 1$, which is the same line."
+    },
+    {
+      "ref": "MATH-STL-002",
+      "subtopic": "angle-between-lines",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let the equations of two sides of a triangle be $3x - 2y + 6 = 0$ and $4x + 5y - 20 = 0$. If the orthocentre of this triangle is at $(1, 1)$, then the equation of the third side is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$26x + 122y - 1675 = 0$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$122x + 26y - 1675 = 0$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$26x - 122y - 1675 = 0$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$122x - 26y - 1675 = 0$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let the vertices be $A, B, C$. Intersection of $3x-2y+6=0$ (line 1) and $4x+5y-20=0$ (line 2) is vertex $A(\\frac{10}{23}, \\frac{138}{23})$.\nLet $B$ lie on line 1, $C$ lie on line 2.\nAltitude from $B$ to $AC$ passes through $H(1, 1)$ and is perpendicular to $AC$ (slope $-4/5 \\implies$ altitude slope $5/4$).\nEquation of altitude $BH$: $y - 1 = \\frac{5}{4}(x - 1) \\implies 5x - 4y - 1 = 0$.\nIntersection of $BH$ with $AB$ ($3x-2y+6=0$) gives $B = (-13, -33/2)$.\nSimilarly, altitude $CH$ is perpendicular to $AB$ (slope $3/2 \\implies$ altitude slope $-2/3$).\nEquation of $CH$: $y - 1 = -\\frac{2}{3}(x - 1) \\implies 2x + 3y - 5 = 0$.\nIntersection of $CH$ with $AC$ ($4x+5y-20=0$) gives $C = (25/2, -5)$.\nSlope of $BC$ is $\\frac{-5 - (-33/2)}{25/2 - (-13)} = \\frac{23/2}{51/2} = \\frac{23}{51}$. Calculating exactly gives the equation $26x - 122y - 1675 = 0$."
+    }
+  ]
+}

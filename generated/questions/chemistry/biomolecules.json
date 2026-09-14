@@ -1,0 +1,114 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Biomolecules",
+    "slug": "biomolecules",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 31
+  },
+  "subtopics": [
+    {
+      "slug": "vitamins",
+      "name": "Vitamins",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-BIO-001",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following vitamins is water soluble?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin B",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin E",
+          "is_correct": false
+        }
+      ],
+      "solution": "Vitamins B and C are water-soluble, whereas vitamins A, D, E, and K are fat-soluble."
+    },
+    {
+      "ref": "CHEM-BIO-002",
+      "subtopic": "vitamins",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The total number of water-soluble vitamins among the following is ________.\nVitamin A, Vitamin B1, Vitamin B2, Vitamin B6, Vitamin B12, Vitamin C, Vitamin D, Vitamin E, Vitamin K",
+      "image": null,
+      "answer": {
+        "min": 5.0,
+        "max": 5.0
+      },
+      "solution": "Vitamins are classified into fat-soluble (A, D, E, K) and water-soluble (B-complex group and C).\nWater soluble vitamins from the given list: Vitamin B1, Vitamin B2, Vitamin B6, Vitamin B12, and Vitamin C.\nTotal count = 5."
+    },
+    {
+      "ref": "CHEM-BIO-003",
+      "subtopic": "vitamins",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 45,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The deficiency of which of the following vitamins causes scurvy?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Vitamin C",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Vitamin A",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Vitamin D",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Vitamin K",
+          "is_correct": false
+        }
+      ],
+      "solution": "Deficiency of Vitamin C (ascorbic acid) causes scurvy, characterized by bleeding gums and slow wound healing."
+    }
+  ]
+}

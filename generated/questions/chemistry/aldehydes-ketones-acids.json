@@ -1,0 +1,95 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Aldehydes, Ketones and Carboxylic Acids",
+    "slug": "aldehydes-ketones-acids",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 28
+  },
+  "subtopics": [
+    {
+      "slug": "chemical-properties",
+      "name": "Aldol Condensation and Cannizzaro Reaction",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-ALD-001",
+      "subtopic": "chemical-properties",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Which of the following compounds does not undergo Cannizzaro reaction?",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Acetaldehyde",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Formaldehyde",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Benzaldehyde",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Trimethylacetaldehyde",
+          "is_correct": false
+        }
+      ],
+      "solution": "Cannizzaro reaction is given by aldehydes which do not have an $\\alpha$-hydrogen. Acetaldehyde ($\\mathrm{CH_3CHO}$) has three $\\alpha$-hydrogens, so it undergoes aldol condensation instead of Cannizzaro reaction under basic conditions."
+    },
+    {
+      "ref": "CHEM-ALD-002",
+      "subtopic": "chemical-properties",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 95,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The reaction of benzaldehyde with concentrated $\\mathrm{NaOH}$ solution followed by acidification yields:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Benzyl alcohol and benzoic acid",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "Benzophenone and sodium benzoate",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "Benzyl alcohol and phenol",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "Benzoic acid and sodium benzoate",
+          "is_correct": false
+        }
+      ],
+      "solution": "Benzaldehyde does not contain any $\\alpha$-hydrogen. Thus, on treatment with concentrated alkali, it undergoes Cannizzaro reaction (disproportionation) to yield benzyl alcohol (reduced product) and sodium benzoate. Acidification converts the sodium salt to benzoic acid."
+    }
+  ]
+}

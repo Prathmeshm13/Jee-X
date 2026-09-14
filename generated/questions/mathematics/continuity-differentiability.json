@@ -1,0 +1,95 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Continuity and Differentiability",
+    "slug": "continuity-differentiability",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 17
+  },
+  "subtopics": [
+    {
+      "slug": "differentiability",
+      "name": "Differentiability and its applications",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-CND-001",
+      "subtopic": "differentiability",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 130,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that $f(x+y) = f(x) + f(y) - 1$ for all $x, y \\in \\mathbb{R}$. If $f'(0) = 2$, then $|f(-2)|$ is equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "3",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "4",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $g(x) = f(x) - 1$. Then $g(x+y) = g(x) + g(y)$.\nThus $g(x) = cx$ where $c = g'(0) = f'(0) = 2$.\nSo $f(x) - 1 = 2x \\implies f(x) = 2x + 1$.\n$f(-2) = 2(-2) + 1 = -3 \\implies |f(-2)| = 3$."
+    },
+    {
+      "ref": "MATH-CND-002",
+      "subtopic": "differentiability",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $f(x) = \\min\\{|x| - 1, |x-1| - 1, |x-2| - 1\\}$. If $M$ is the set of points where $f(x)$ is not differentiable, then $M$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "an empty set",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "containing exactly 3 elements",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "containing exactly 5 elements",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "containing exactly 7 elements",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $g_1(x) = |x|-1$, $g_2(x) = |x-1|-1$, $g_3(x) = |x-2|-1$.\nPlotting these functions, they are v-shaped curves. Their intersection points and individual vertices determine the points of non-differentiability of their minimum.\nBy graphing $f(x)$, we see non-differentiability occurs at the vertices ($x = 0, 1, 2$) and at the points of intersection of the consecutive graphs ($x = 0.5, 1.5$).\nThis gives a total of 5 points: $\\{0, 0.5, 1, 1.5, 2\\}$."
+    }
+  ]
+}

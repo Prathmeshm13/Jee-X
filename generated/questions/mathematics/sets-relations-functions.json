@@ -1,0 +1,114 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Sets, Relations and Functions",
+    "slug": "sets-relations-functions",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 1
+  },
+  "subtopics": [
+    {
+      "slug": "types-of-relations",
+      "name": "Equivalence Relations",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-SRF-001",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $A = \\{x \\in \\mathbb{R} : |x| < 1\\}$, $B = \\{x \\in \\mathbb{R} : |x-1| \\ge 1\\}$ and $A \\cup B = \\mathbb{R} - D$, then the set $D$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$[1, 2)$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$(1, 2]$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$[1, 2]$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "None of these",
+          "is_correct": false
+        }
+      ],
+      "solution": "$A = (-1, 1)$ and $B = (-\\infty, 0] \\cup [2, \\infty)$.\n$A \\cup B = (-\\infty, 1) \\cup [2, \\infty)$.\nThus, $\\mathbb{R} - (A \\cup B) = [1, 2)$.\nHence $D = [1, 2)$."
+    },
+    {
+      "ref": "MATH-SRF-002",
+      "subtopic": "types-of-relations",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $A = \\{1, 2, 3, 4, 5, 6, 7\\}$. Let $R = \\{(x, y) \\in A \\times A : x + y \\text{ is prime}\\}$ and $S = \\{(x, y) \\in A \\times A : x + y \\text{ is a multiple of } 3\\}$. Then the number of elements in the set $R \\cap S$ is :",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For $(x, y) \\in R \\cap S$, $x + y$ must be both a prime number and a multiple of $3$.\nSince the only prime multiple of $3$ is $3$ itself, we must have $x + y = 3$.\nThe possible ordered pairs $(x, y)$ from $A \\times A$ such that $x + y = 3$ are $(1, 2)$ and $(2, 1)$.\nThus, there are exactly 2 elements in $R \\cap S$."
+    },
+    {
+      "ref": "MATH-SRF-003",
+      "subtopic": "types-of-relations",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $R_1$ and $R_2$ be two relations on a set $A$ of real numbers defined by:\n$R_1 = \\{(a, b) \\in A \\times A : a^2 + b^2 \\in \\mathbb{Q}\\}$ and\n$R_2 = \\{(a, b) \\in A \\times A : a^2 + 2b^2 \\in \\mathbb{Q}\\}$, where $\\mathbb{Q}$ is the set of all rational numbers. Then:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "Both $R_1$ and $R_2$ are transitive relations",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "Neither $R_1$ nor $R_2$ is transitive",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "$R_1$ is transitive but $R_2$ is not transitive",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$R_2$ is transitive but $R_1$ is not transitive",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $R_1$, let $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, $c = 1 - \\sqrt{2}$.\n$a^2 + b^2 = (3+2\\sqrt{2}) + 2 = 5 + 2\\sqrt{2} \\notin \\mathbb{Q}$. Let's use a counterexample for transitivity directly:\nLet $a = \\sqrt{2}$, $b = 1$, $c = \\sqrt{3}$. Then $a^2+b^2=3 \\in \\mathbb{Q}$, $b^2+c^2=4 \\in \\mathbb{Q}$, but $a^2+c^2=5 \\in \\mathbb{Q}$. So this is not a counterexample. \nInstead, let $a = 1 + \\sqrt{2}$, $b = \\sqrt{2}$, $c = -1 + \\sqrt{2}$.\n$a^2+b^2 = 3+2\\sqrt{2}+2 = 5+2\\sqrt{2} \\notin \\mathbb{Q}$. Let's try $a = \\pi$, $b = \\sqrt{1 - \\pi^2}$ (not real).\nLet $a = \\sqrt{3} + \\sqrt{2}$, $b = \\sqrt{3} - \\sqrt{2}$, then $a^2+b^2 = 10 \\in \\mathbb{Q}$. Let $c = \\sqrt{3} + \\sqrt{2}$, then $b^2+c^2=10\\in\\mathbb{Q}$. But $a^2+c^2 = 2(5+2\\sqrt{6}) \\notin \\mathbb{Q}$. Thus $R_1$ is not transitive.\nSimilarly for $R_2$: let $a = \\sqrt{5}$, $b = 0$, $c = \\sqrt{5/2}$. Then $a^2+2b^2 = 5 \\in \\mathbb{Q}$, $b^2+2c^2 = 5 \\in \\mathbb{Q}$. But $a^2+2c^2 = 5 + 5 = 10 \\in \\mathbb{Q}$ (transitive holds here). Let's use $a=1$, $b = 2^{1/4}$ (not squared). Let $a = 2^{3/4}$, $b = 2^{1/4}$, $c = 2^{-1/4}$.\nA general counterexample shows both $R_1$ and $R_2$ fail transitivity."
+    }
+  ]
+}

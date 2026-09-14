@@ -1,0 +1,114 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Wave Optics",
+    "slug": "wave-optics",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 23
+  },
+  "subtopics": [
+    {
+      "slug": "youngs-double-slit-experiment",
+      "name": "Young's Double Slit Experiment",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-WVO-001",
+      "subtopic": "youngs-double-slit-experiment",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a Young's double slit experiment, the fringe width is found to be $\\beta$. If the entire apparatus is immersed in a liquid of refractive index $\\mu$, the new fringe width will be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{\\beta}{\\mu}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\mu \\beta$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{\\beta}{\\mu^2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\beta$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Fringe width is given by $\\beta = \\frac{\\lambda D}{d}$.\nWhen immersed in a liquid, the wavelength of light becomes $\\lambda' = \\frac{\\lambda}{\\mu}$.\nThus, the new fringe width is $\\beta' = \\frac{\\lambda' D}{d} = \\frac{\\beta}{\\mu}$."
+    },
+    {
+      "ref": "PHY-WVO-002",
+      "subtopic": "youngs-double-slit-experiment",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 60,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a Young's double slit experiment, the fringe width is $1.2\\ \\mathrm{mm}$ when light of wavelength $6000\\ \\text{Å}$ is used. If the entire apparatus is immersed in a liquid of refractive index $4/3$, the new fringe width will be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$0.9\\ \\mathrm{mm}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$1.6\\ \\mathrm{mm}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$1.2\\ \\mathrm{mm}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$0.6\\ \\mathrm{mm}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Fringe width in medium $\\beta' = \\frac{\\beta}{\\mu} = \\frac{1.2\\ \\mathrm{mm}}{4/3} = 0.9\\ \\mathrm{mm}$."
+    },
+    {
+      "ref": "PHY-WVO-003",
+      "subtopic": "youngs-double-slit-experiment",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 140,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "In a Young's double-slit experiment, the ratio of intensity of maxima to minima in the interference pattern is $25 : 9$. The ratio of the amplitudes of the two interfering coherent sources, $\\frac{A_1}{A_2}$, is ______.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "The ratio of maximum to minimum intensity is given by:\n$\\frac{I_{\\text{max}}}{I_{\\text{min}}} = \\left(\\frac{A_1 + A_2}{A_1 - A_2}\\right)^2 = \\frac{25}{9}$.\nTaking the square root: $\\frac{A_1 + A_2}{A_1 - A_2} = \\frac{5}{3}$.\n$3A_1 + 3A_2 = 5A_1 - 5A_2 \\implies 2A_1 = 8A_2 \\implies \\frac{A_1}{A_2} = 4$."
+    }
+  ]
+}

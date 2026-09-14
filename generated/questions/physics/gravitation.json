@@ -1,0 +1,133 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Gravitation",
+    "slug": "gravitation",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 6
+  },
+  "subtopics": [
+    {
+      "slug": "acceleration-due-to-gravity",
+      "name": "Acceleration due to gravity",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-GRV-001",
+      "subtopic": "acceleration-due-to-gravity",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 70,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $g_h$ and $g_d$ be the acceleration due to gravity at a height $h$ above the Earth's surface and at a depth $d$ below the Earth's surface, respectively. If $g_h = g_d$ for $h \\ll R$ (where $R$ is the radius of the Earth), then:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$d = 2h$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$d = h$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$d = \\frac{h}{2}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$d = 4h$",
+          "is_correct": false
+        }
+      ],
+      "solution": "For $h \\ll R$, $g_h \\approx g\\left(1 - \\frac{2h}{R}\\right)$.\nAt depth $d$, $g_d = g\\left(1 - \\frac{d}{R}\\right)$.\nEquating $g_h$ and $g_d$ gives $\\frac{2h}{R} = \\frac{d}{R} \\implies d = 2h$."
+    },
+    {
+      "ref": "PHY-GRV-002",
+      "subtopic": "acceleration-due-to-gravity",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "If the acceleration due to gravity at a height $h$ above the surface of the Earth is same as that at a depth $d$ below the Earth's surface (where $h \\ll R$ and $d \\ll R$), then the ratio $d/h$ is _________.",
+      "image": null,
+      "answer": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "solution": "For $h \\ll R$, $g_h = g \\left(1 - \\frac{2h}{R}\\right)$.\nFor depth $d$, $g_d = g \\left(1 - \\frac{d}{R}\\right)$.\nEquating $g_h = g_d \\implies \\frac{2h}{R} = \\frac{d}{R} \\implies \\frac{d}{h} = 2$."
+    },
+    {
+      "ref": "PHY-GRV-003",
+      "subtopic": "acceleration-due-to-gravity",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 80,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The acceleration due to gravity at a height $h$ above the earth's surface is $9.8\\ \\mathrm{m/s^2}$. If the acceleration due to gravity on the surface of earth is $g_0 = 10\\ \\mathrm{m/s^2}$, and the radius of earth is $R = 6400\\ \\mathrm{km}$, then the height $h$ is approximately: (Take $\\sqrt{0.98} \\approx 0.99$)",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$64\\ \\mathrm{km}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$128\\ \\mathrm{km}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$32\\ \\mathrm{km}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$256\\ \\mathrm{km}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$g_h = g_0 \\frac{R^2}{(R+h)^2} \\implies 9.8 = 10 \\left(\\frac{R}{R+h}\\right)^2 \\implies \\frac{R}{R+h} = \\sqrt{0.98} \\approx 0.99$\n$R = 0.99R + 0.99h \\implies 0.01R = 0.99h \\implies h \\approx \\frac{R}{99} \\approx \\frac{6400}{100} = 64\\ \\mathrm{km}$."
+    },
+    {
+      "ref": "PHY-GRV-004",
+      "subtopic": "acceleration-due-to-gravity",
+      "type": "numerical",
+      "difficulty": 3,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The acceleration due to gravity at a height $h$ above the Earth's surface is $9\\%$ of its value at the surface of the Earth. If $R$ is the radius of the Earth, then the value of $h$ in terms of $R$ is $h = \\frac{x}{3}R$. The value of $x$ is ______.",
+      "image": null,
+      "answer": {
+        "min": 7.0,
+        "max": 7.0
+      },
+      "solution": "The acceleration due to gravity at height $h$ is $g' = g \\left(\\frac{R}{R+h}\\right)^2$.\nGiven $g' = 0.09 g \\implies \\left(\\frac{R}{R+h}\\right)^2 = \\frac{9}{100}$.\nTaking square root: $\\frac{R}{R+h} = \\frac{3}{10} \\implies 10R = 3R + 3h \\implies 3h = 7R$.\n$h = \\frac{7}{3}R$. Comparing with $h = \\frac{x}{3}R$, we get $x = 7$."
+    }
+  ]
+}

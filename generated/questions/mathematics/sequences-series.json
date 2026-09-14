@@ -1,0 +1,114 @@
+{
+  "subject": "MATH",
+  "chapter": {
+    "name": "Sequences and Series",
+    "slug": "sequences-series",
+    "class_level": "11",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 8
+  },
+  "subtopics": [
+    {
+      "slug": "arithmetico-geometric-progression",
+      "name": "Arithmetico-Geometric Progression and Special Series",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "MATH-SEQ-001",
+      "subtopic": "arithmetico-geometric-progression",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The sum of the infinite series $1 + \\frac{2}{3} + \\frac{6}{3^2} + \\frac{10}{3^3} + \\frac{14}{3^4} + \\dots$ is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "3",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "6",
+          "is_correct": false
+        }
+      ],
+      "solution": "Let $S = 1 + \\frac{2}{3} + \\frac{6}{3^2} + \\frac{10}{3^3} + \\dots$\nThen $S - 1 = \\frac{2}{3} + \\frac{6}{3^2} + \\frac{10}{3^3} + \\dots$\nLet $S' = \\frac{2}{3} + \\frac{6}{3^2} + \\frac{10}{3^3} + \\dots$\n$\\frac{1}{3}S' = \\frac{2}{3^2} + \\frac{6}{3^3} + \\dots$\nSubtracting: $\\frac{2}{3}S' = \\frac{2}{3} + \\frac{4}{3^2} + \\frac{4}{3^3} + \\dots = \\frac{2}{3} + \\frac{4/9}{1 - 1/3} = \\frac{2}{3} + \\frac{2}{3} = \\frac{4}{3}$.\nSo $S' = 2$, which gives $S = 1 + S' = 3$."
+    },
+    {
+      "ref": "MATH-SEQ-002",
+      "subtopic": "arithmetico-geometric-progression",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $S_n = 1 \\cdot (n-1) + 2 \\cdot (n-2) + 3 \\cdot (n-3) + \\dots + (n-1) \\cdot 1$. If $\\lim_{n \\to \\infty} \\frac{6 S_n}{n^3} = L$, then the value of $L$ is :",
+      "image": null,
+      "answer": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "solution": "The general term is $T_r = r(n-r) = nr - r^2$ for $r=1$ to $n-1$.\n$S_n = \\sum_{r=1}^{n-1} (nr - r^2) = n \\sum_{r=1}^{n-1} r - \\sum_{r=1}^{n-1} r^2 = n \\frac{(n-1)n}{2} - \\frac{(n-1)n(2n-1)}{6}$.\n$S_n = n^3 \\left( \\frac{1}{2} - \\frac{2}{6} \\right) + O(n^2) = n^3 \\left( \\frac{1}{6} \\right) + O(n^2)$.\nThus, $\\lim_{n \\to \\infty} \\frac{6 S_n}{n^3} = 6 \\times \\frac{1}{6} = 1$."
+    },
+    {
+      "ref": "MATH-SEQ-003",
+      "subtopic": "arithmetico-geometric-progression",
+      "type": "single_correct",
+      "difficulty": 8,
+      "expected_time_sec": 180,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "Let $S_n = 1 \\cdot (n-1) + 2 \\cdot (n-2) + 3 \\cdot (n-3) + \\dots + (n-1) \\cdot 1$. Then $\\lim_{n \\to \\infty} \\frac{6 S_n}{n^3}$ is equal to:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "1",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "3",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "4",
+          "is_correct": false
+        }
+      ],
+      "solution": "$S_n = \\sum_{r=1}^{n-1} r(n-r) = n \\sum_{r=1}^{n-1} r - \\sum_{r=1}^{n-1} r^2$\n$= n \\frac{(n-1)n}{2} - \\frac{(n-1)n(2n-1)}{6} = \\frac{n(n-1)}{6} [3n - (2n-1)] = \\frac{n(n-1)(n+1)}{6} = \\frac{n^3 - n}{6}$.\nThus, $\\lim_{n \\to \\infty} \\frac{6 S_n}{n^3} = \\lim_{n \\to \\infty} \\frac{n^3 - n}{n^3} = 1$."
+    }
+  ]
+}

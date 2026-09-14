@@ -1,0 +1,114 @@
+{
+  "subject": "PHY",
+  "chapter": {
+    "name": "Electromagnetic Induction",
+    "slug": "electromagnetic-induction",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 19
+  },
+  "subtopics": [
+    {
+      "slug": "motional-emf",
+      "name": "Motional EMF",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "PHY-EMI-001",
+      "subtopic": "motional-emf",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "A metallic rod of length $l$ is rotated with a frequency $f$ about one of its ends perpendicular to a uniform magnetic field $B$. The induced emf between the ends of the rod is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\pi f B l^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$2\\pi f B l^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2}\\pi f B l^2$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\pi f^2 B l$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The induced emf is given by $e = \\frac{1}{2} B \\omega l^2$.\nSince $\\omega = 2\\pi f$, we have:\n$e = \\frac{1}{2} B (2\\pi f) l^2 = \\pi f B l^2$."
+    },
+    {
+      "ref": "PHY-EMI-002",
+      "subtopic": "motional-emf",
+      "type": "single_correct",
+      "difficulty": 3,
+      "expected_time_sec": 55,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A conducting rod of length $l$ is rotated with a constant angular speed $\\omega$ about one of its ends in a plane perpendicular to a uniform magnetic field $B$. The induced EMF between the two ends of the rod is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\frac{1}{2} B \\omega l^2$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$B \\omega l^2$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\frac{1}{2} B^2 \\omega l$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$2 B \\omega l^2$",
+          "is_correct": false
+        }
+      ],
+      "solution": "The induced EMF is given by $e = \\int_0^l v B dr = \\int_0^l (\\omega r) B dr = B \\omega \\left[\\frac{r^2}{2}\\right]_0^l = \\frac{1}{2} B \\omega l^2$."
+    },
+    {
+      "ref": "PHY-EMI-003",
+      "subtopic": "motional-emf",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "A conducting rod of length $1\\ \\mathrm{m}$ is rotated with a constant angular speed of $4\\ \\mathrm{rad/s}$ about an axis passing through one of its ends and perpendicular to its length. A uniform magnetic field of $2\\ \\mathrm{T}$ exists parallel to the axis of rotation. The induced emf between the two ends of the rod is ______ $\\mathrm{V}$.",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "The induced emf in a rotating rod is given by $e = \\frac{1}{2} B \\omega L^2$.\nGiven $B = 2\\ \\mathrm{T}$, $\\omega = 4\\ \\mathrm{rad/s}$, and $L = 1\\ \\mathrm{m}$.\n$e = \\frac{1}{2} \\times 2 \\times 4 \\times 1^2 = 4\\ \\mathrm{V}$."
+    }
+  ]
+}

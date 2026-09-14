@@ -1,0 +1,15 @@
+---
+title: "ER diagram: tests and responses"
+---
+erDiagram
+    tests ||--o{ test_questions : "contains"
+    questions ||--o{ test_questions : "used in"
+    users |o--o{ tests : "retest generated for"
+    users ||--o{ test_attempts : "takes"
+    tests ||--o{ test_attempts : "attempted as"
+    test_attempts ||--o{ question_responses : "records"
+    users ||--o{ question_responses : "answers"
+    questions ||--o{ question_responses : "answered in"
+    question_revisions ||--o{ question_responses : "version seen"
+    question_responses ||--o{ response_options : "chose"
+    question_options ||--o{ response_options : "chosen as"

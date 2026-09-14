@@ -1,0 +1,133 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Coordination Compounds",
+    "slug": "coordination-compounds",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 25
+  },
+  "subtopics": [
+    {
+      "slug": "isomerism",
+      "name": "Isomerism in Coordination Compounds",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-COR-001",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The formula of the coordination compound which shows both coordination isomerism and linkage isomerism is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$[\\mathrm{Co(NH_3)_6}][\\mathrm{Cr(CN)_6}]$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$[\\mathrm{Co(NH_3)_5(NO_2)}]\\mathrm{Cl_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$[\\mathrm{Co(NH_3)_5(SCN)}][\\mathrm{Cr(NH_3)_2(C_2O_4)_2}]$",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "content": "$[\\mathrm{Pt(NH_3)_4}][\\mathrm{PtCl_4}]$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Coordination isomerism requires both cationic and anionic complex species (present in A, C, D). Linkage isomerism requires an ambidentate ligand. In option C, $\\mathrm{SCN^-}$ is an ambidentate ligand (can coordinate via S or N). Thus, C shows both types of isomerism."
+    },
+    {
+      "ref": "CHEM-COR-002",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 90,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The number of stereoisomers possible for the octahedral complex $[\\text{Co}(\\text{ox})_2(\\text{Br})_2]^{3-}$ (where $\\text{ox}$ is oxalate) is ________.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "The complex is of the type $[M(AA)_2B_2]$ where $AA$ is a symmetrical bidentate ligand.\nThis complex exhibits two geometrical isomers: cis and trans.\nThe trans-isomer is symmetrical (has plane of symmetry) and is optically inactive (1 form).\nThe cis-isomer is unsymmetrical (lacks plane of symmetry) and exists as a pair of enantiomers (dextro and laevo forms).\nTotal number of stereoisomers = 1 (trans) + 2 (cis-d & cis-l) = 3."
+    },
+    {
+      "ref": "CHEM-COR-003",
+      "subtopic": "isomerism",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The complex showing optical activity is:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\text{cis-}[\\mathrm{Co(en)_2Cl_2}]^+$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$\\text{trans-}[\\mathrm{Co(en)_2Cl_2}]^+$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\text{trans-}[\\mathrm{Co(NH_3)_4Cl_2}]^+$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$[\\mathrm{Co(NH_3)_5Cl}]^{2+}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "$\\text{cis-}[\\mathrm{Co(en)_2Cl_2}]^+$ lacks a plane of symmetry (and centre of symmetry) and is therefore chiral and optically active. Its trans isomer has a plane of symmetry and is optically inactive."
+    },
+    {
+      "ref": "CHEM-COR-004",
+      "subtopic": "isomerism",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 120,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "The total number of possible stereoisomers for the complex $[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$ is _______.",
+      "image": null,
+      "answer": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "solution": "$[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$ exists as cis and trans isomers.\nTrans-isomer is optically inactive (meso-like/symmetrical).\nCis-isomer exists as a pair of enantiomers ($d$ and $l$ form).\nTotal number of stereoisomers $= 1 \\text{ (trans)} + 2 \\text{ (cis- }d/l\\text{)} = 3$."
+    }
+  ]
+}

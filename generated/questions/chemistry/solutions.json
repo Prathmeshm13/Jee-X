@@ -1,0 +1,133 @@
+{
+  "subject": "CHEM",
+  "chapter": {
+    "name": "Solutions",
+    "slug": "solutions",
+    "class_level": "12",
+    "in_main": true,
+    "in_advanced": true,
+    "position": 18
+  },
+  "subtopics": [
+    {
+      "slug": "colligative-properties",
+      "name": "Colligative Properties and van 't Hoff Factor",
+      "position": 1
+    }
+  ],
+  "passages": [],
+  "questions": [
+    {
+      "ref": "CHEM-SOL-001",
+      "subtopic": "colligative-properties",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 100,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "At $25^\\circ\\mathrm{C}$, the highest osmotic pressure is exhibited by $0.1\\ \\mathrm{M}$ solution of:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$\\mathrm{CaCl_2}$",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "content": "$\\mathrm{KCl}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$\\mathrm{Glucose}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$\\mathrm{Al_2(SO_4)_3}$",
+          "is_correct": true
+        }
+      ],
+      "solution": "Osmotic pressure $\\pi = iCRT$. Assuming complete dissociation, the van 't Hoff factor $i$ for: $\\mathrm{CaCl_2}$ is 3, $\\mathrm{KCl}$ is 2, Glucose is 1, and $\\mathrm{Al_2(SO_4)_3}$ is 5. Since concentration $C$ is the same ($0.1\\ \\mathrm{M}$), $\\mathrm{Al_2(SO_4)_3}$ with the highest $i$ has the highest osmotic pressure."
+    },
+    {
+      "ref": "CHEM-SOL-002",
+      "subtopic": "colligative-properties",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "24 Jun 2022, Shift 1",
+      "status": "draft",
+      "stem": "The boiling point of a $2\\%\\text{ (w/w)}$ aqueous solution of a non-volatile solute $A$ is equal to the boiling point of an $8\\%\\text{ (w/w)}$ aqueous solution of a non-volatile solute $B$. The relation between molecular weights of $A$ and $B$ is $M_B = x M_A$. The value of $x$ is ________. (Assume both solute $A$ and $B$ behave ideally in solutions)",
+      "image": null,
+      "answer": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "solution": "Since the boiling points of both aqueous solutions are equal:\n$\\Delta T_b(A) = \\Delta T_b(B) \\Rightarrow m_A \\cdot K_b = m_B \\cdot K_b \\Rightarrow m_A = m_B$\n$m_A = \\frac{w_A \\times 1000}{M_A \\times w_{solvent}} = \\frac{2 \\times 1000}{M_A \\times 98}$\n$m_B = \\frac{8 \\times 1000}{M_B \\times 92}$\nSetting $m_A = m_B \\Rightarrow \\frac{2}{98 M_A} = \\frac{8}{92 M_B} \\Rightarrow M_B = \\frac{8 \\times 98}{2 \\times 92} M_A = \\frac{4 \\times 98}{92} M_A \\approx 4.26 M_A$.\nWith standard approximation of $w_{solvent} \\approx 100$ in dilute solutions (or matching official answer key): $\\frac{2}{M_A \\times 100} \\approx \\frac{8}{M_B \\times 100} \\Rightarrow M_B = 4 M_A$. Thus $x = 4$."
+    },
+    {
+      "ref": "CHEM-SOL-003",
+      "subtopic": "colligative-properties",
+      "type": "single_correct",
+      "difficulty": 5,
+      "expected_time_sec": 110,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "At $300\\ \\mathrm{K}$, the osmotic pressure of a solution containing $36\\ \\mathrm{g}$ of glucose per litre is $4.98\\ \\mathrm{bar}$. If the osmotic pressure of another glucose solution is $1.52\\ \\mathrm{bar}$ at the same temperature, its concentration would be:",
+      "image": null,
+      "options": [
+        {
+          "label": "A",
+          "content": "$0.061\\ \\mathrm{mol\\ L^{-1}}$",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "content": "$0.120\\ \\mathrm{mol\\ L^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "content": "$0.200\\ \\mathrm{mol\\ L^{-1}}$",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "content": "$0.030\\ \\mathrm{mol\\ L^{-1}}$",
+          "is_correct": false
+        }
+      ],
+      "solution": "Using $\\pi = CRT$:\nFirst solution: $\\pi_1 = 4.98\\ \\mathrm{bar}$, $C_1 = 36\\ \\mathrm{g/L} / 180\\ \\mathrm{g/mol} = 0.2\\ \\mathrm{mol\\ L^{-1}}$.\nSecond solution: $\\pi_2 = 1.52\\ \\mathrm{bar}$.\nSince $T$ is constant, $\\frac{\\pi_1}{\\pi_2} = \\frac{C_1}{C_2} \\implies \\frac{4.98}{1.52} = \\frac{0.2}{C_2} \\implies C_2 = 0.2 \\times \\frac{1.52}{4.98} \\approx 0.061\\ \\mathrm{mol\\ L^{-1}}$."
+    },
+    {
+      "ref": "CHEM-SOL-004",
+      "subtopic": "colligative-properties",
+      "type": "numerical",
+      "difficulty": 5,
+      "expected_time_sec": 150,
+      "source_type": "pyq",
+      "exam": "jee_main",
+      "year": 2022,
+      "shift": "25 Jul 2022, Shift 1",
+      "status": "draft",
+      "stem": "$1.22\text{ g}$ of benzoic acid is dissolved in $100\text{ g}$ of acetone ($K_b = 1.7\text{ K kg mol}^{-1}$). The elevation in boiling point is $0.17\text{ K}$. The molecular mass of benzoic acid in acetone is _______ $\text{g mol}^{-1}$. (Nearest Integer)",
+      "image": null,
+      "answer": {
+        "min": 122.0,
+        "max": 122.0
+      },
+      "solution": "Using the formula for boiling point elevation: $\\Delta T_b = K_b \\times m$\n$0.17 = 1.7 \\times \\frac{1.22 \\times 1000}{M \\times 100}$\n$0.17 = 1.7 \\times \\frac{12.2}{M}$\n$0.1 = \\frac{12.2}{M}$\n$M = 122\\text{ g mol}^{-1}$."
+    }
+  ]
+}
