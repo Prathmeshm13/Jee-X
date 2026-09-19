@@ -1,17 +1,22 @@
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
 import { ArrowLeft } from 'lucide-react'
 import { catalogService, subjectTestBuilderService, subjectTestGraderService } from '../lib/subjectTests.js'
 import MathText from '../components/MathText.jsx'
 import AppHeader from '../components/AppHeader.jsx'
 import Palette from '../components/Palette.jsx'
+import RankPredictor from '../components/RankPredictor.jsx'
+import FullscreenGuard from '../components/FullscreenGuard.jsx'
+import { requestFullscreen, useFullscreenLock } from '../lib/fullscreen.js'
 import { GOOD, BAD, PEN, SUBJECT_COLOR } from '../crackjee/ui.js'
 
 const OUTCOME = { correct: 'correct', wrong: 'wrong' }
 
 export default function SubjectTest() {
   const navigate = useNavigate()
+  const [searchParams] = useSearchParams()
+  const requestedSubject = searchParams.get('subject')
   const { getAccessTokenSilently } = useAuth0()
 
   const [subjects, setSubjects] = useState(null) // null = loading
@@ -28,12 +33,19 @@ export default function SubjectTest() {
   const [answers, setAnswers] = useState({}) // question_id -> { option_ids, numeric_answer }
   const [submitting, setSubmitting] = useState(false)
   const [result, setResult] = useState(null)
+  const { exited: fsExited, resume: fsResume } = useFullscreenLock(Boolean(test) && !result)
 
   useEffect(() => {
     catalogService.listSubjects()
       .then(setSubjects)
       .catch((e) => { setError(e.message); setSubjects([]) })
   }, [])
+
+  useEffect(() => {
+    if (!subjects || !requestedSubject) return
+    const match = subjects.find(s => s.name?.toLowerCase() === requestedSubject.toLowerCase())
+    if (match) setSubjectCode(match.code)
+  }, [subjects, requestedSubject])
 
   useEffect(() => {
     if (!subjectCode) { setChapters([]); return }
@@ -51,6 +63,7 @@ export default function SubjectTest() {
     : selectedSubject?.published_question_count ?? 0
 
   const startTest = async () => {
+    requestFullscreen() // must be called synchronously from this click, before any await
     setError('')
     setStarting(true)
     try {
@@ -125,6 +138,10 @@ export default function SubjectTest() {
             <p className="result-line"><strong>{result.accuracy}%</strong> accuracy across {result.total_questions} questions</p>
           </div>
 
+          <div style={{ marginBottom: 20 }}>
+            <RankPredictor attemptId={result.attempt_id} />
+          </div>
+
           <div className="panel">
             <h2 className="panel-title">Solutions</h2>
             {result.questions.map((r, i) => (
@@ -159,6 +176,7 @@ export default function SubjectTest() {
     return (
       <div className="crackjee-root">
         <AppHeader />
+        <FullscreenGuard exited={fsExited} onResume={fsResume} />
         <main className="test-shell">
           <button type="button" className="btn btn-quiet btn-sm back" onClick={exitTest}>
             <ArrowLeft size={16} aria-hidden="true" />Exit test

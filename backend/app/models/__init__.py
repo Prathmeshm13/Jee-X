@@ -1,4 +1,4 @@
-"""SQLAlchemy models for the full JeeX schema (docs/database-schema.md).
+"""SQLAlchemy models for the full Jee Edge schema (docs/database-schema.md).
 
 Split by domain, all sharing app.database.Base, mirroring the layout suggested
 in section 14 ("Suggested model layout") of the schema doc. Every class is
@@ -18,8 +18,27 @@ from app.models.admin import (
 from app.models.content import Asset, Chapter, Passage, Question, QuestionOption, QuestionSubtopic, Subject, Subtopic
 from app.models.identity import GuardianConsent, StudentProfile, User
 from app.models.learning import StudentChapterCoverage, StudentSubtopicStats
+from app.models.predictor import (
+    PredictorAdvancedMarksRankAnchor,
+    PredictorAdvancedQualifyingCutoff,
+    PredictorAttemptPrediction,
+    PredictorImportRun,
+    PredictorInstitute,
+    PredictorJosaaCutoff,
+    PredictorMainCohortMetric,
+    PredictorMainMarksEstimate,
+    PredictorMainPercentileAnchor,
+    PredictorNirfRanking,
+    PredictorProgram,
+)
 from app.models.publishing import Leaderboard, LeaderboardEntry, ShareCard
 from app.models.ratings import QuestionRating, RatingEvent, StudentRating, StudentSubjectRating
+from app.models.rewards import (
+    DailyQuestionAssignment,
+    EdgeCoinTransaction,
+    RewardCatalogItem,
+    RewardRedemption,
+)
 from app.models.tests import QuestionResponse, ResponseOption, Test, TestAttempt, TestQuestion
 
 __all__ = [
@@ -55,4 +74,19 @@ __all__ = [
     "RegradeRun",
     "IntegrityFlag",
     "AuditLog",
+    "PredictorInstitute",
+    "PredictorProgram",
+    "PredictorJosaaCutoff",
+    "PredictorMainPercentileAnchor",
+    "PredictorMainMarksEstimate",
+    "PredictorMainCohortMetric",
+    "PredictorAdvancedMarksRankAnchor",
+    "PredictorAdvancedQualifyingCutoff",
+    "PredictorNirfRanking",
+    "PredictorImportRun",
+    "PredictorAttemptPrediction",
+    "EdgeCoinTransaction",
+    "RewardCatalogItem",
+    "RewardRedemption",
+    "DailyQuestionAssignment",
 ]

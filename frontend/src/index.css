@@ -1,39 +1,36 @@
-/* JeeX design system.
-   The motif is the NTA question palette every JEE aspirant knows: grey not visited, red not
-   answered, green answered, violet marked for review. Those squares are the logo, progress,
-   loaders and result summaries. Everything else is quiet: white paper, ballpoint-blue ink. */
+/* Shared Jee Edge tokens. Charcoal and burnt-orange brand; blue correct-answer states. */
 
 :root {
-  --page: #F4F6FA;
+  --page: #F5F5F7;
   --surface: #FFFFFF;
-  --ink: #141B3D;
-  --ink-2: #4A5373;
-  --ink-3: #7F88A3;
-  --line: #E2E6EF;
-  --line-strong: #CBD2E1;
+  --ink: #202126;
+  --ink-2: #5F6069;
+  --ink-3: #71727C;
+  --line: #DFDFE5;
+  --line-strong: #CBCBD3;
   --grid: rgba(47, 69, 224, 0.07);
 
-  --pen: #2F45E0;
-  --pen-dark: #2235BD;
-  --pen-soft: #E9ECFE;
+  --pen: #BA431F;
+  --pen-dark: #963318;
+  --pen-soft: #FBECE5;
 
-  --good: #1E9E5A;
-  --good-soft: #E7F6EE;
+  --good: #4264BC;
+  --good-soft: #EDF1FB;
   --bad: #E5484D;
   --bad-soft: #FDEDED;
   --marked: #7B4FD8;
   --marked-soft: #F1ECFC;
   --idle: #D9DEE8;
 
-  --phy: #1C9BE8;
-  --chem: #EFA11B;
-  --math: #D6409F;
+  --phy: #536BC3;
+  --chem: #AD622D;
+  --math: #786BB1;
 
   --r-sq: 4px;
   --r: 10px;
   --r-lg: 18px;
 
-  --font: 'Schibsted Grotesk', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font: 'DM Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
   --max: 1120px;
 }
 
@@ -116,7 +113,7 @@ button { cursor: pointer; }
 .btn-invert:hover:not(:disabled) { background: var(--pen-soft); }
 .btn-danger { color: var(--bad); }
 .btn-save { background: var(--good); color: #fff; }
-.btn-save:hover:not(:disabled) { background: #178049; }
+.btn-save:hover:not(:disabled) { background: #344F98; }
 .btn-mark { background: var(--marked); color: #fff; }
 .btn-mark:hover:not(:disabled) { background: #6841BD; }
 .btn-sm { height: 36px; padding: 0 14px; font-size: 14px; border-radius: 8px; }
@@ -268,6 +265,8 @@ button { cursor: pointer; }
   border-radius: 999px; background: var(--page);
   font-size: 12.5px; font-weight: 500; color: var(--ink-2); white-space: nowrap;
 }
+.tag.is-good { background: var(--good-soft); color: var(--good); }
+.tag.is-warn { background: var(--pen-soft); color: var(--pen-dark); }
 .dot { width: 8px; height: 8px; border-radius: 2px; flex: none; }
 .qtext { font-size: 18px; line-height: 1.55; font-weight: 500; margin: 16px 0 20px; }
 .qtext-lg { font-size: 20px; }
@@ -465,6 +464,21 @@ select.input {
 .row:last-child { border-bottom: 0; }
 .row-main { flex: 1; min-width: 0; }
 .row-value { font-weight: 700; font-variant-numeric: tabular-nums; }
+.row.is-top-aligned { align-items: flex-start; }
+.row.is-top-aligned .row-value { padding-top: 2px; }
+
+/* ---------- Streak calendar (GitHub/LeetCode-style contribution heatmap) ---------- */
+.streak-grid-scroll { overflow-x: auto; padding-bottom: 4px; }
+.streak-grid { display: flex; gap: 3px; width: max-content; }
+.streak-col { display: grid; grid-template-rows: repeat(7, 1fr); gap: 3px; }
+.streak-cell {
+  width: 12px; height: 12px; border-radius: var(--r-sq);
+  background: var(--idle); display: inline-block;
+}
+.streak-cell[data-active="true"] { background: var(--good); }
+.streak-cell[data-future="true"] { visibility: hidden; }
+.streak-legend { display: flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 12.5px; }
+.streak-legend .streak-cell { width: 10px; height: 10px; }
 
 .bar { display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--idle); }
 .bar > span { display: block; height: 100%; }

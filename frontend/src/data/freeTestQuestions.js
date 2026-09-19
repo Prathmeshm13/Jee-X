@@ -1,6 +1,6 @@
 /**
  * Free-test question bank.
- * This shape is the reusable contract for all mock-test questions in JeeX —
+ * This shape is the reusable contract for all mock-test questions in Jee Edge —
  * the personalisation engine will eventually generate/select arrays of this
  * same shape instead of this hardcoded list.
  *

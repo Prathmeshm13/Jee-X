@@ -1,8 +1,9 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
 import { AnalysisDashboard } from '../crackjee/screens.jsx'
 import AppHeader from '../components/AppHeader.jsx'
+import RankPredictor from '../components/RankPredictor.jsx'
 import { api } from '../lib/api.js'
 import { savePendingFreeTest } from '../lib/pendingFreeTest.js'
 
@@ -35,6 +36,7 @@ export default function Analysis() {
   const { isAuthenticated, getAccessTokenSilently } = useAuth0()
   const result = state?.result
   const submittedRef = useRef(false)
+  const [attemptId, setAttemptId] = useState(null)
 
   // Save the attempt exactly once, when we have a fresh result in hand.
   useEffect(() => {
@@ -45,7 +47,8 @@ export default function Analysis() {
       try {
         if (!isAuthenticated) throw new Error('not-authenticated')
         const token = await getAccessTokenSilently()
-        await api.submitTestAttempt(token, payload)
+        const saved = await api.submitTestAttempt(token, payload)
+        setAttemptId(saved.id)
       } catch {
         // Not signed in / not onboarded yet — bridge it through localStorage
         // so the Dashboard picks it up once the profile exists.
@@ -62,6 +65,11 @@ export default function Analysis() {
         onHome={() => navigate('/dashboard')}
         onBuddy={() => navigate('/buddy', { state: { result } })}
       />
+      {attemptId && (
+        <main className="wrap page" style={{ paddingTop: 0 }}>
+          <RankPredictor attemptId={attemptId} />
+        </main>
+      )}
     </div>
   )
 }

@@ -1,20 +1,17 @@
 import { Link } from 'react-router-dom'
 
-// The JeeX mark: four squares from the exam's question palette
-// (answered, marked for review, not visited, not answered).
+// The Jee Edge mark.
 export function LogoMark() {
   return (
-    <span className="logo-mark" aria-hidden="true">
-      <i /><i /><i /><i />
-    </span>
+    <span className="logo-monogram" aria-hidden="true">JE</span>
   )
 }
 
 export function Logo({ to = '/' }) {
   return (
-    <Link to={to} className="logo" aria-label="JeeX home">
+    <Link to={to} className="logo" aria-label="Jee Edge home">
       <LogoMark />
-      <span>JeeX</span>
+      <span>Jee Edge</span>
     </Link>
   )
 }

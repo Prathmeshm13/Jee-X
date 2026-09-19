@@ -5,6 +5,7 @@ import { Pencil } from 'lucide-react'
 import { api } from '../lib/api.js'
 import AppHeader from '../components/AppHeader.jsx'
 import { Loader } from '../components/Brand.jsx'
+import StreakCalendar from '../components/StreakCalendar.jsx'
 
 const CLASSES = [['11', 'Class 11'], ['12', 'Class 12'], ['dropper', 'Dropper']]
 
@@ -192,6 +193,10 @@ export default function Profile() {
           )}
 
           {saved && !editing && <p className="hint hint-ok" style={{ marginTop: 18 }} role="status">Changes saved.</p>}
+        </div>
+
+        <div style={{ marginTop: 20 }}>
+          <StreakCalendar />
         </div>
       </main>
     </div>

@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "retrieved_on": "2026-09-19",
+    "exam": "JEE_MAIN_PAPER1",
+    "source_type": "secondary_estimate",
+    "source_url": "https://engineering.careers360.com/articles/jee-main-marks-vs-percentile",
+    "coverage": "9 April shifts; four percentile targets each",
+    "production_status": "disabled_pending_independent_validation",
+    "notes": "Ranges are publisher estimates, not calibrated confidence intervals or official NTA conversion data. Do not invert them as exact score-to-percentile mappings.",
+    "record_count": 36
+  },
+  "records": [
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S1",
+      "percentile_target": 99,
+      "marks_low": 176,
+      "marks_high": 180,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S1",
+      "percentile_target": 98,
+      "marks_low": 156,
+      "marks_high": 160,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S1",
+      "percentile_target": 95,
+      "marks_low": 121,
+      "marks_high": 125,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S1",
+      "percentile_target": 90,
+      "marks_low": 86,
+      "marks_high": 90,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S2",
+      "percentile_target": 99,
+      "marks_low": 181,
+      "marks_high": 185,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S2",
+      "percentile_target": 98,
+      "marks_low": 161,
+      "marks_high": 165,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S2",
+      "percentile_target": 95,
+      "marks_low": 126,
+      "marks_high": 130,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "2 Apr S2",
+      "percentile_target": 90,
+      "marks_low": 91,
+      "marks_high": 95,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S1",
+      "percentile_target": 99,
+      "marks_low": 186,
+      "marks_high": 190,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S1",
+      "percentile_target": 98,
+      "marks_low": 166,
+      "marks_high": 170,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S1",
+      "percentile_target": 95,
+      "marks_low": 131,
+      "marks_high": 135,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S1",
+      "percentile_target": 90,
+      "marks_low": 96,
+      "marks_high": 100,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S2",
+      "percentile_target": 99,
+      "marks_low": 191,
+      "marks_high": 195,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S2",
+      "percentile_target": 98,
+      "marks_low": 171,
+      "marks_high": 175,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S2",
+      "percentile_target": 95,
+      "marks_low": 136,
+      "marks_high": 140,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "4 Apr S2",
+      "percentile_target": 90,
+      "marks_low": 101,
+      "marks_high": 105,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S1",
+      "percentile_target": 99,
+      "marks_low": 171,
+      "marks_high": 175,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S1",
+      "percentile_target": 98,
+      "marks_low": 151,
+      "marks_high": 155,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S1",
+      "percentile_target": 95,
+      "marks_low": 116,
+      "marks_high": 120,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S1",
+      "percentile_target": 90,
+      "marks_low": 81,
+      "marks_high": 85,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S2",
+      "percentile_target": 99,
+      "marks_low": 166,
+      "marks_high": 170,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S2",
+      "percentile_target": 98,
+      "marks_low": 146,
+      "marks_high": 150,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S2",
+      "percentile_target": 95,
+      "marks_low": 111,
+      "marks_high": 115,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "5 Apr S2",
+      "percentile_target": 90,
+      "marks_low": 76,
+      "marks_high": 80,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S1",
+      "percentile_target": 99,
+      "marks_low": 151,
+      "marks_high": 155,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S1",
+      "percentile_target": 98,
+      "marks_low": 131,
+      "marks_high": 135,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S1",
+      "percentile_target": 95,
+      "marks_low": 96,
+      "marks_high": 100,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S1",
+      "percentile_target": 90,
+      "marks_low": 61,
+      "marks_high": 65,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S2",
+      "percentile_target": 99,
+      "marks_low": 161,
+      "marks_high": 165,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S2",
+      "percentile_target": 98,
+      "marks_low": 141,
+      "marks_high": 145,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S2",
+      "percentile_target": 95,
+      "marks_low": 106,
+      "marks_high": 110,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "6 Apr S2",
+      "percentile_target": 90,
+      "marks_low": 71,
+      "marks_high": 75,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "8 Apr S2",
+      "percentile_target": 99,
+      "marks_low": 156,
+      "marks_high": 160,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "8 Apr S2",
+      "percentile_target": 98,
+      "marks_low": 136,
+      "marks_high": 140,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "8 Apr S2",
+      "percentile_target": 95,
+      "marks_low": 101,
+      "marks_high": 105,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "session": 2,
+      "shift_label": "8 Apr S2",
+      "percentile_target": 90,
+      "marks_low": 66,
+      "marks_high": 70,
+      "total_marks": 300
+    }
+  ]
+}

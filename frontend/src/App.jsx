@@ -1,18 +1,22 @@
+import { lazy, Suspense } from 'react'
+import { Loader } from './components/Brand.jsx'
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home.jsx'
-import MockTest from './pages/MockTest.jsx'
-import Analysis from './pages/Analysis.jsx'
-import Buddy from './pages/Buddy.jsx'
-import FreeTest from './pages/FreeTest.jsx'
-import Onboarding from './pages/Onboarding.jsx'
-import Dashboard from './pages/Dashboard.jsx'
-import Profile from './pages/Profile.jsx'
-import SubjectTest from './pages/SubjectTest.jsx'
+const Home = lazy(() => import('./pages/Home.jsx'))
+const MockTest = lazy(() => import('./pages/MockTest.jsx'))
+const Analysis = lazy(() => import('./pages/Analysis.jsx'))
+const Buddy = lazy(() => import('./pages/Buddy.jsx'))
+const FreeTest = lazy(() => import('./pages/FreeTest.jsx'))
+const Onboarding = lazy(() => import('./pages/Onboarding.jsx'))
+const Dashboard = lazy(() => import('./pages/Dashboard.jsx'))
+const Profile = lazy(() => import('./pages/Profile.jsx'))
+const SubjectTest = lazy(() => import('./pages/SubjectTest.jsx'))
+const DailyQuestion = lazy(() => import('./pages/DailyQuestion.jsx'))
+const Rewards = lazy(() => import('./pages/Rewards.jsx'))
 import ProtectedRoute from './components/ProtectedRoute.jsx'
 
 export default function App() {
   return (
-    <Routes>
+    <Suspense fallback={<Loader fullScreen label="Opening your study space" />}><Routes>
       <Route path="/" element={<Home />} />
       <Route path="/free-test" element={<FreeTest />} />
       <Route
@@ -71,6 +75,22 @@ export default function App() {
           </ProtectedRoute>
         }
       />
-    </Routes>
+      <Route
+        path="/daily"
+        element={
+          <ProtectedRoute>
+            <DailyQuestion />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/rewards"
+        element={
+          <ProtectedRoute>
+            <Rewards />
+          </ProtectedRoute>
+        }
+      />
+    </Routes></Suspense>
   )
 }

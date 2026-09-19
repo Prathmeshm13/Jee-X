@@ -1,8 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, LineChart, Line, CartesianGrid } from "recharts";
-import { Check, X as XIcon } from "lucide-react";
+import { ArrowUpRight, Clock3, BookOpen, Target, Check, X as XIcon } from "lucide-react";
 import { Logo, LogoMark } from "../components/Brand.jsx";
 import Palette from "../components/Palette.jsx";
+import FullscreenGuard from "../components/FullscreenGuard.jsx";
+import { requestFullscreen, exitFullscreen, useFullscreenLock } from "../lib/fullscreen.js";
 import { INK_2, LINE, PEN, GOOD, BAD, IDLE, CHEM, SUBJECT_COLOR, axisProps, gridProps, tooltipProps, fontBody } from "./ui.js";
 
 /* ================================================================
@@ -167,7 +169,7 @@ export function HomePage({ onStart, onDashboard, onFreeTest, onLogin, onLogout, 
             ) : (
               onLogin && <button type="button" className="btn btn-quiet btn-sm" onClick={onLogin}>Log in</button>
             )}
-            <button type="button" className="btn btn-primary btn-sm" onClick={onStart}>Start a mock</button>
+            <button type="button" className="btn btn-primary btn-sm" onClick={onStart}>Start a mock <ArrowUpRight size={16}/></button>
           </nav>
         </div>
       </header>
@@ -359,9 +361,11 @@ export function TestInterface({ onFinish, onBack }) {
   const [started, setStarted] = useState(false);
   const [showInst, setShowInst] = useState(true);
   const [showConfirm, setShowConfirm] = useState(false);
+  const [paletteOpen, setPaletteOpen] = useState(false);
   const [sel, setSel] = useState(null);
   const [timePerQ, setTimePerQ] = useState({});
   const qTimer = useRef(Date.now());
+  const { exited: fsExited, resume: fsResume } = useFullscreenLock(started);
 
   useEffect(() => { if (!started) return; const t = setInterval(() => setTimeLeft(p => { if (p<=0){clearInterval(t);doSubmit();return 0;} return p-1; }),1000); return ()=>clearInterval(t); }, [started]);
 
@@ -375,6 +379,7 @@ export function TestInterface({ onFinish, onBack }) {
   const clearResp = () => { setSel(null); setAnswers(p=>{const n={...p};delete n[qk];return n;}); setStatuses(p=>({...p,[qk]:"notAnswered"})); };
 
   const doSubmit = () => {
+    exitFullscreen(); // explicit, since onFinish below navigates away and unmounts this component
     recTime(); let score=0,correct=0,incorrect=0,unattempted=0; const subScores={}; const chapScores={}; const qDets=[];
     SUBJECTS.forEach(sub => { subScores[sub]={correct:0,incorrect:0,unattempted:0,score:0,total:allQ[sub].length,time:0};
       allQ[sub].forEach((q,idx)=>{ const k=`${sub}-${q.id}`; const a=answers[k]; const iN=idx>=20; const tt=timePerQ[k]||0; subScores[sub].time+=tt; let st="unattempted",ic=false;
@@ -407,7 +412,7 @@ export function TestInterface({ onFinish, onBack }) {
       </div>
       <p className="hint" style={{ marginTop: 18 }}>Save and next records your answer. Answers marked for review still count when you submit.</p>
       <div className="hero-actions">
-        <button type="button" className="btn btn-primary btn-lg" onClick={()=>{setShowInst(false);setStarted(true);}}>Start the test</button>
+        <button type="button" className="btn btn-primary btn-lg" onClick={()=>{requestFullscreen();setShowInst(false);setStarted(true);}}>Start the test</button>
         <button type="button" className="btn btn-secondary btn-lg" onClick={onBack}>Go back</button>
       </div>
     </main>
@@ -415,6 +420,7 @@ export function TestInterface({ onFinish, onBack }) {
 
   return (
     <div className="exam">
+      <FullscreenGuard exited={fsExited} onResume={fsResume} />
       <header className="exam-top">
         <div className="exam-title"><LogoMark /><span>JEE Main mock <small>{curSub}</small></span></div>
         <div className={`timer ${timeLeft < 600 ? "is-low" : ""}`} role="timer" aria-label="Time left">{fmt(timeLeft)}</div>
@@ -460,7 +466,8 @@ export function TestInterface({ onFinish, onBack }) {
             <button type="button" className="btn btn-primary push" onClick={()=>setShowConfirm(true)}>Submit test</button>
           </div>
         </main>
-        <aside className="exam-side" aria-label="Question palette">
+        <button type="button" className="palette-toggle" aria-expanded={paletteOpen} aria-controls="question-palette" onClick={() => setPaletteOpen(!paletteOpen)}>{paletteOpen ? 'Hide' : 'Show'} question palette <span>{answeredCount} / {totalQ} answered</span></button>
+        <aside id="question-palette" className="exam-side" data-open={paletteOpen} aria-label="Question palette">
           <div className="exam-count">
             <span><i className="sq" data-s="answered" />Answered <b>{cnt("answered")}</b></span>
             <span><i className="sq" data-s="unanswered" />Not answered <b>{cnt("notAnswered")}</b></span>
@@ -520,8 +527,6 @@ export function AnalysisDashboard({ result, onHome, onBuddy }) {
   );
   const {score,correct,incorrect,unattempted,total,maxScore,subjectScores,chapterScores,qDetails,totalTime}=result;
   const acc=correct>0?((correct/(correct+incorrect))*100).toFixed(1):0;
-  const rank=s=>s>=280?"< 100":s>=250?"100–500":s>=220?"500–2K":s>=190?"2K–5K":s>=160?"5K–15K":s>=130?"15K–35K":s>=100?"35K–75K":s>=70?"75K–1.5L":"1.5L+";
-  const pctile=s=>s>=280?"99.99+":s>=250?"99.95+":s>=220?"99.8+":s>=190?"99.5+":s>=160?"99+":s>=130?"98+":s>=100?"96+":s>=70?"92+":"<90";
   const subData=SUBJECTS.map(s=>({name:s,correct:subjectScores[s].correct,incorrect:subjectScores[s].incorrect,unattempted:subjectScores[s].unattempted}));
   const pieD=[{name:"Correct",value:correct,color:GOOD},{name:"Wrong",value:incorrect,color:BAD},{name:"Skipped",value:unattempted,color:IDLE}];
   const radarD=Object.entries(chapterScores).slice(0,8).map(([c,d])=>({ch:c.length>14?c.slice(0,13)+"…":c,v:d.total>0?Math.round(d.correct/d.total*100):0}));
@@ -558,11 +563,11 @@ export function AnalysisDashboard({ result, onHome, onBuddy }) {
       </section>
 
       <div className="stats" style={{ marginTop: 16 }}>
-        <div className="stat"><div className="stat-value">{rank(score)}</div><div className="stat-label">Rank estimate</div></div>
-        <div className="stat"><div className="stat-value">{pctile(score)}</div><div className="stat-label">Percentile estimate</div></div>
         <div className="stat"><div className="stat-value">{acc}%</div><div className="stat-label">Accuracy on attempted</div></div>
         <div className="stat"><div className="stat-value">{Math.round(totalTime/60)} min</div><div className="stat-label">Time used of 180</div></div>
       </div>
+      {/* Real rank/percentile estimate (scaled to JEE Main, historical JoSAA colleges) renders
+          below via RankPredictor in pages/Analysis.jsx, once the attempt is saved server-side. */}
 
       <div className="seg tabs" role="group" aria-label="Result view">
         {TABS.map(([t, text]) => <button key={t} type="button" aria-pressed={tab===t} onClick={()=>setTab(t)}>{text}</button>)}
@@ -698,28 +703,34 @@ export function DashboardOverview({ onStart, onFreeTest, onSubjectTest, profile,
     <main className="wrap page">
       <div className="page-head">
         <div>
-          <h1 className="page-title">{first ? `Hi, ${first}` : "Your dashboard"}</h1>
+          <span className="eyebrow dashboard-eyebrow">OVERVIEW</span>
+          <h1 className="page-title">{first ? `Welcome back, ${first}.` : "Your dashboard"}</h1>
+          <p className="dashboard-context">Your tests, results and next practice session.</p>
           {profile?.username && <p className="page-sub">@{profile.username}{classText ? `, ${classText}` : ""}</p>}
         </div>
       </div>
 
+      <span className="section-label">START A SESSION</span>
       <section className="start" aria-label="Start a test">
         <div className="start-tile start-main">
           <Palette states={START_SQUARES} size="sm" decorative />
+          <span className="start-label"><Clock3 size={14}/> 180 MIN · 75 QUESTIONS</span>
           <h2>Full mock test</h2>
           <p>75 questions in 3 hours, on the same screen and pattern as JEE Main.</p>
-          <button type="button" className="btn btn-invert" onClick={onStart}>Start a mock</button>
+          <button type="button" className="btn btn-invert" onClick={onStart}>Start a mock <ArrowUpRight size={16}/></button>
         </div>
         {onSubjectTest && (
           <div className="start-tile">
-            <h2>Subject test</h2>
+            <span className="start-label"><Target size={14}/> CHAPTER & SUBJECT TESTS</span>
+            <h2>Subject practice</h2>
             <p>Practise one subject, or a single chapter, from the question bank.</p>
             <button type="button" className="btn btn-secondary" onClick={onSubjectTest}>Choose a subject</button>
           </div>
         )}
         {onFreeTest && (
           <div className="start-tile">
-            <h2>Quick warm-up</h2>
+            <span className="start-label"><BookOpen size={14}/> 5 MIN · 10 QUESTIONS</span>
+            <h2>Quick diagnostic</h2>
             <p>Ten timed questions across Physics, Chemistry and Maths.</p>
             <button type="button" className="btn btn-secondary" onClick={onFreeTest}>Take the free test</button>
           </div>
@@ -742,7 +753,7 @@ export function DashboardOverview({ onStart, onFreeTest, onSubjectTest, profile,
                   <XAxis dataKey="t" {...axisProps} />
                   <YAxis {...axisProps} width={32} />
                   <Tooltip {...tooltipProps} cursor={{ stroke: LINE }} />
-                  <Line type="monotone" dataKey="s" name="Score" stroke={PEN} strokeWidth={2.5} dot={{ r: 3.5, fill: PEN, strokeWidth: 0 }} activeDot={{ r: 5 }} />
+                  <Line isAnimationActive={false} type="monotone" dataKey="s" name="Score" stroke={PEN} strokeWidth={2.5} dot={{ r: 3.5, fill: PEN, strokeWidth: 0 }} activeDot={{ r: 5 }} />
                 </LineChart>
               </ResponsiveContainer>
             </div>
@@ -752,11 +763,11 @@ export function DashboardOverview({ onStart, onFreeTest, onSubjectTest, profile,
                 <LineChart data={subjectTrends}>
                   <CartesianGrid {...gridProps} />
                   <XAxis dataKey="t" {...axisProps} />
-                  <YAxis {...axisProps} width={32} domain={[0,100]} unit="%" />
+                  <YAxis {...axisProps} width={45} domain={[0,100]} unit="%" />
                   <Tooltip {...tooltipProps} cursor={{ stroke: LINE }} />
-                  <Line type="monotone" dataKey="P" name="Physics" stroke={SUBJECT_COLOR.Physics} strokeWidth={2.5} dot={false} />
-                  <Line type="monotone" dataKey="C" name="Chemistry" stroke={SUBJECT_COLOR.Chemistry} strokeWidth={2.5} dot={false} />
-                  <Line type="monotone" dataKey="M" name="Maths" stroke={SUBJECT_COLOR.Mathematics} strokeWidth={2.5} dot={false} />
+                  <Line isAnimationActive={false} type="monotone" dataKey="P" name="Physics" stroke={SUBJECT_COLOR.Physics} strokeWidth={2.5} dot={false} />
+                  <Line isAnimationActive={false} type="monotone" dataKey="C" name="Chemistry" stroke={SUBJECT_COLOR.Chemistry} strokeWidth={2.5} dot={false} />
+                  <Line isAnimationActive={false} type="monotone" dataKey="M" name="Maths" stroke={SUBJECT_COLOR.Mathematics} strokeWidth={2.5} dot={false} />
                 </LineChart>
               </ResponsiveContainer>
               <div className="chart-legend">
@@ -768,8 +779,8 @@ export function DashboardOverview({ onStart, onFreeTest, onSubjectTest, profile,
       ) : (
         <div className="empty">
           <Palette states={["idle", "idle", "idle", "idle", "idle"]} decorative />
-          <h3>No results yet</h3>
-          <p>Your score trend and subject accuracy appear here after your first test.</p>
+          <h3>Your first result goes here.</h3>
+          <p>Take a warm-up to set your starting point. Your results and subject accuracy will have a home right here.</p>
           <button type="button" className="btn btn-primary" onClick={onFreeTest || onStart}>Take your first test</button>
         </div>
       )}

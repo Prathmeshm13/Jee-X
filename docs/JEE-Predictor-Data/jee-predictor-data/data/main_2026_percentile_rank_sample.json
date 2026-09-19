@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "retrieved_on": "2026-09-19",
+    "year": 2026,
+    "exam": "JEE_MAIN_PAPER1",
+    "rank_list": "CRL",
+    "source_type": "secondary_reported_observations",
+    "source_url": "https://www.collegepravesh.com/insights/jee-main-2026-rank-vs-percentile/",
+    "coverage": "Selected published points, not full rank list. No category-rank conversion. Percentiles are truncated by publisher.",
+    "production_status": "reference_only_until_validation",
+    "record_count": 32
+  },
+  "records": [
+    {
+      "rank": 1,
+      "percentile_display": 100
+    },
+    {
+      "rank": 14,
+      "percentile_display": 100
+    },
+    {
+      "rank": 29,
+      "percentile_display": 99.999
+    },
+    {
+      "rank": 99,
+      "percentile_display": 99.996
+    },
+    {
+      "rank": 263,
+      "percentile_display": 99.98
+    },
+    {
+      "rank": 774,
+      "percentile_display": 99.95
+    },
+    {
+      "rank": 1581,
+      "percentile_display": 99.9
+    },
+    {
+      "rank": 3176,
+      "percentile_display": 99.8
+    },
+    {
+      "rank": 4809,
+      "percentile_display": 99.7
+    },
+    {
+      "rank": 6516,
+      "percentile_display": 99.59
+    },
+    {
+      "rank": 7997,
+      "percentile_display": 99.5
+    },
+    {
+      "rank": 9590,
+      "percentile_display": 99.4
+    },
+    {
+      "rank": 11249,
+      "percentile_display": 99.3
+    },
+    {
+      "rank": 12757,
+      "percentile_display": 99.2
+    },
+    {
+      "rank": 15788,
+      "percentile_display": 99.01
+    },
+    {
+      "rank": 16015,
+      "percentile_display": 99.0
+    },
+    {
+      "rank": 19874,
+      "percentile_display": 98.75
+    },
+    {
+      "rank": 27761,
+      "percentile_display": 98.25
+    },
+    {
+      "rank": 31045,
+      "percentile_display": 98.04
+    },
+    {
+      "rank": 38711,
+      "percentile_display": 97.55
+    },
+    {
+      "rank": 46472,
+      "percentile_display": 97.06
+    },
+    {
+      "rank": 55918,
+      "percentile_display": 96.44
+    },
+    {
+      "rank": 62057,
+      "percentile_display": 96.04
+    },
+    {
+      "rank": 77520,
+      "percentile_display": 95.06
+    },
+    {
+      "rank": 101370,
+      "percentile_display": 93.49
+    },
+    {
+      "rank": 147272,
+      "percentile_display": 90.52
+    },
+    {
+      "rank": 225431,
+      "percentile_display": 85.51
+    },
+    {
+      "rank": 306564,
+      "percentile_display": 80.5
+    },
+    {
+      "rank": 389118,
+      "percentile_display": 75.48
+    },
+    {
+      "rank": 474001,
+      "percentile_display": 70.56
+    },
+    {
+      "rank": 640925,
+      "percentile_display": 60.6
+    },
+    {
+      "rank": 806430,
+      "percentile_display": 50.59
+    }
+  ]
+}

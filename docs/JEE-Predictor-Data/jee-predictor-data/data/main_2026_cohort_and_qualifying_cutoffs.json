@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "retrieved_on": "2026-09-19",
+    "year": 2026,
+    "exam": "JEE_MAIN_PAPER1",
+    "source_type": "official",
+    "source_url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260420809492136.pdf",
+    "pdf_page": 3,
+    "notes": "Advanced eligibility percentile thresholds, NOT college admission cutoffs.",
+    "record_count": 8
+  },
+  "records": [
+    {
+      "metric": "unique_candidates_appeared",
+      "value": 1538468
+    },
+    {
+      "metric": "unique_candidates_registered",
+      "value": 1604854
+    },
+    {
+      "metric": "advanced_eligibility_percentile",
+      "category": "UR-ALL",
+      "value": 93.4123549
+    },
+    {
+      "metric": "advanced_eligibility_percentile",
+      "category": "UR-PwBD",
+      "value": 0.0023186
+    },
+    {
+      "metric": "advanced_eligibility_percentile",
+      "category": "EWS-ALL",
+      "value": 82.4164528
+    },
+    {
+      "metric": "advanced_eligibility_percentile",
+      "category": "OBC-ALL",
+      "value": 80.9232583
+    },
+    {
+      "metric": "advanced_eligibility_percentile",
+      "category": "SC-ALL",
+      "value": 63.9172792
+    },
+    {
+      "metric": "advanced_eligibility_percentile",
+      "category": "ST-ALL",
+      "value": 52.0174712
+    }
+  ]
+}

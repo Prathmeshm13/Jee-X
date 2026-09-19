@@ -9,7 +9,7 @@ export default function Sidebar() {
 
   return (
     <aside className="dash-sidebar">
-      <span className="brand">Jee<span className="brand-x">X</span></span>
+      <span className="brand">Jee <span className="brand-x">Edge</span></span>
       <nav className="dash-nav">
         <NavLink to="/dashboard" end className={linkClass}>
           <LayoutGrid size={17} strokeWidth={2} />

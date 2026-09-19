@@ -1,6 +1,6 @@
-# JeeX Database Schema
+# Jee Edge Database Schema
 
-The complete target schema for JeeX: question bank, student profiles, tests, learning analytics,
+The complete target schema for Jee Edge: question bank, student profiles, tests, learning analytics,
 ratings, public leaderboards and admin tooling — one connected database.
 
 **Status:** design. Today only `users` and `test_attempts` exist (`backend/app/models.py`).
@@ -877,7 +877,7 @@ API must check them.
 
 ## 14. Migrating from the current code
 
-`jeex.db` holds only local test data today, so deleting and recreating it is the simplest path. Set
+`jee-edge.db` holds only local test data today, so deleting and recreating it is the simplest path. Set
 up Alembic first — `create_all` cannot change existing tables.
 
 | Today | Target |

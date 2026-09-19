@@ -1,0 +1,3942 @@
+{
+  "metadata": {
+    "retrieved_on": "2026-09-19",
+    "year": 2024,
+    "exam": "JEE_ADVANCED",
+    "source_type": "official",
+    "source_url": "https://jeeadv.ac.in/reports/2024.pdf",
+    "coverage": "published rank anchors; not every rank, no percentile",
+    "notes": "Preserved irregular anchor ranks and omissions from source. Same marks can span multiple ranks. Subject cutoffs also apply.",
+    "record_count": 491
+  },
+  "records": [
+    {
+      "rank_list": "CRL",
+      "rank": 1,
+      "marks": 355,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 101,
+      "marks": 300,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 201,
+      "marks": 281,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 301,
+      "marks": 272,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 401,
+      "marks": 265,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 501,
+      "marks": 258,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 601,
+      "marks": 251,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 701,
+      "marks": 246,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 801,
+      "marks": 242,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 901,
+      "marks": 237,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1001,
+      "marks": 233,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1101,
+      "marks": 230,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1201,
+      "marks": 227,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1301,
+      "marks": 224,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1401,
+      "marks": 221,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1501,
+      "marks": 219,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1601,
+      "marks": 216,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1701,
+      "marks": 214,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1801,
+      "marks": 212,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 1901,
+      "marks": 210,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2001,
+      "marks": 207,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2101,
+      "marks": 205,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2201,
+      "marks": 203,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2301,
+      "marks": 202,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2401,
+      "marks": 200,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2501,
+      "marks": 199,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2601,
+      "marks": 197,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2701,
+      "marks": 196,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2801,
+      "marks": 194,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 2901,
+      "marks": 193,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3001,
+      "marks": 192,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3101,
+      "marks": 191,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3201,
+      "marks": 189,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3301,
+      "marks": 188,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3401,
+      "marks": 187,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3501,
+      "marks": 186,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3601,
+      "marks": 185,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3701,
+      "marks": 184,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3801,
+      "marks": 183,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 3901,
+      "marks": 182,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4001,
+      "marks": 181,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4101,
+      "marks": 180,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4201,
+      "marks": 179,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4301,
+      "marks": 178,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4401,
+      "marks": 177,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4501,
+      "marks": 176,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4601,
+      "marks": 176,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4701,
+      "marks": 175,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4801,
+      "marks": 174,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 4901,
+      "marks": 173,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5001,
+      "marks": 172,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5101,
+      "marks": 172,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5201,
+      "marks": 171,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5301,
+      "marks": 170,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5401,
+      "marks": 169,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5501,
+      "marks": 168,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5601,
+      "marks": 168,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5701,
+      "marks": 167,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5801,
+      "marks": 166,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 5901,
+      "marks": 166,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6001,
+      "marks": 165,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6101,
+      "marks": 164,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6201,
+      "marks": 164,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6301,
+      "marks": 163,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6401,
+      "marks": 163,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6501,
+      "marks": 162,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6601,
+      "marks": 161,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6701,
+      "marks": 161,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6801,
+      "marks": 160,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 6901,
+      "marks": 160,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7001,
+      "marks": 159,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7101,
+      "marks": 159,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7201,
+      "marks": 158,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7301,
+      "marks": 157,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7401,
+      "marks": 157,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7501,
+      "marks": 156,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7601,
+      "marks": 156,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7701,
+      "marks": 155,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7801,
+      "marks": 155,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 7901,
+      "marks": 154,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8001,
+      "marks": 154,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8101,
+      "marks": 153,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8201,
+      "marks": 153,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8301,
+      "marks": 152,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8401,
+      "marks": 152,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8501,
+      "marks": 152,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8601,
+      "marks": 151,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8701,
+      "marks": 151,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8801,
+      "marks": 150,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 8901,
+      "marks": 150,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9001,
+      "marks": 149,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9101,
+      "marks": 149,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9201,
+      "marks": 149,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9301,
+      "marks": 148,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9401,
+      "marks": 148,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9501,
+      "marks": 147,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9601,
+      "marks": 147,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9701,
+      "marks": 147,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9801,
+      "marks": 146,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 9901,
+      "marks": 146,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10001,
+      "marks": 146,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10101,
+      "marks": 145,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10201,
+      "marks": 145,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10301,
+      "marks": 144,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10401,
+      "marks": 144,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10501,
+      "marks": 144,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10601,
+      "marks": 143,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10701,
+      "marks": 143,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10801,
+      "marks": 142,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 10901,
+      "marks": 142,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11001,
+      "marks": 142,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11101,
+      "marks": 141,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11201,
+      "marks": 141,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11301,
+      "marks": 141,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11401,
+      "marks": 140,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11501,
+      "marks": 140,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11601,
+      "marks": 140,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11701,
+      "marks": 139,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11801,
+      "marks": 139,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 11901,
+      "marks": 139,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12001,
+      "marks": 138,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12101,
+      "marks": 138,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12201,
+      "marks": 138,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12301,
+      "marks": 137,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12401,
+      "marks": 137,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12501,
+      "marks": 137,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12601,
+      "marks": 136,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12701,
+      "marks": 136,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12801,
+      "marks": 136,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 12901,
+      "marks": 136,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13001,
+      "marks": 135,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13101,
+      "marks": 135,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13201,
+      "marks": 135,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13301,
+      "marks": 134,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13401,
+      "marks": 134,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13501,
+      "marks": 134,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13601,
+      "marks": 134,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13701,
+      "marks": 133,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13801,
+      "marks": 133,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 13901,
+      "marks": 133,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14001,
+      "marks": 132,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14101,
+      "marks": 132,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14201,
+      "marks": 132,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14301,
+      "marks": 132,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14401,
+      "marks": 131,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14501,
+      "marks": 131,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14601,
+      "marks": 131,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14701,
+      "marks": 131,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14801,
+      "marks": 130,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 14901,
+      "marks": 130,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15001,
+      "marks": 130,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15101,
+      "marks": 130,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15201,
+      "marks": 129,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15301,
+      "marks": 129,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15401,
+      "marks": 129,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15501,
+      "marks": 129,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15601,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15701,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15801,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 15901,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16001,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16101,
+      "marks": 127,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16201,
+      "marks": 127,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16301,
+      "marks": 127,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16401,
+      "marks": 127,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16501,
+      "marks": 126,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16601,
+      "marks": 126,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16701,
+      "marks": 126,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16801,
+      "marks": 126,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 16901,
+      "marks": 125,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17001,
+      "marks": 125,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17101,
+      "marks": 125,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17201,
+      "marks": 125,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17301,
+      "marks": 125,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17401,
+      "marks": 124,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17501,
+      "marks": 124,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17601,
+      "marks": 124,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17701,
+      "marks": 124,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17801,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 17901,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18001,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18101,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18201,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18301,
+      "marks": 122,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18401,
+      "marks": 122,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18501,
+      "marks": 122,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18601,
+      "marks": 122,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18701,
+      "marks": 122,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18801,
+      "marks": 121,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 18901,
+      "marks": 121,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19001,
+      "marks": 121,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19101,
+      "marks": 121,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19201,
+      "marks": 121,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19301,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19401,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19501,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19601,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19701,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19801,
+      "marks": 119,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 19901,
+      "marks": 119,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20001,
+      "marks": 119,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20101,
+      "marks": 119,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20201,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20301,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20401,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20501,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20601,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20701,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20801,
+      "marks": 117,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 20901,
+      "marks": 117,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21001,
+      "marks": 117,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21101,
+      "marks": 117,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21201,
+      "marks": 117,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21301,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21401,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21501,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21601,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21701,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21801,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 21901,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22001,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22101,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22201,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22301,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22401,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22501,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22601,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22701,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22801,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 22901,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23001,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23101,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23201,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23301,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23401,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23501,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23601,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23701,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23801,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 23901,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24001,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24101,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24201,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24301,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24401,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24501,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24601,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24701,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24801,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 24901,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25001,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25101,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25201,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25301,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25401,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25501,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25601,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25701,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25801,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25901,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL",
+      "rank": 25946,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 19,
+      "section": "6.6"
+    },
+    {
+      "rank_list": "CRL-PwD",
+      "rank": 1,
+      "marks": 270,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.11"
+    },
+    {
+      "rank_list": "CRL-PwD",
+      "rank": 101,
+      "marks": 73,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.11"
+    },
+    {
+      "rank_list": "CRL-PwD",
+      "rank": 199,
+      "marks": 54,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.11"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1,
+      "marks": 326,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 101,
+      "marks": 227,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 201,
+      "marks": 205,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 301,
+      "marks": 192,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 401,
+      "marks": 183,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 501,
+      "marks": 176,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 601,
+      "marks": 170,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 701,
+      "marks": 165,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 801,
+      "marks": 160,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 901,
+      "marks": 157,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1001,
+      "marks": 153,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1101,
+      "marks": 150,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1201,
+      "marks": 148,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1301,
+      "marks": 145,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1401,
+      "marks": 143,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1501,
+      "marks": 140,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1601,
+      "marks": 138,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1701,
+      "marks": 136,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1801,
+      "marks": 134,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 1901,
+      "marks": 132,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2001,
+      "marks": 131,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2101,
+      "marks": 129,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2201,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2301,
+      "marks": 127,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2401,
+      "marks": 125,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2501,
+      "marks": 124,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2601,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2701,
+      "marks": 121,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2801,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 2901,
+      "marks": 119,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3001,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3101,
+      "marks": 117,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3201,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3301,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3401,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3501,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3601,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3701,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3801,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 3901,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4001,
+      "marks": 108,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4101,
+      "marks": 108,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4201,
+      "marks": 107,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4301,
+      "marks": 106,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4401,
+      "marks": 105,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4501,
+      "marks": 104,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4601,
+      "marks": 104,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4701,
+      "marks": 103,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4801,
+      "marks": 102,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 4901,
+      "marks": 101,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 5001,
+      "marks": 100,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 5101,
+      "marks": 100,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 5201,
+      "marks": 99,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 5301,
+      "marks": 98,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "rank": 5433,
+      "marks": 98,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.7"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1,
+      "marks": 328,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 101,
+      "marks": 245,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 201,
+      "marks": 224,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 301,
+      "marks": 211,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 401,
+      "marks": 200,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 501,
+      "marks": 194,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 601,
+      "marks": 188,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 701,
+      "marks": 183,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 801,
+      "marks": 178,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 901,
+      "marks": 174,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1001,
+      "marks": 171,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1101,
+      "marks": 168,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1201,
+      "marks": 165,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1301,
+      "marks": 163,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1401,
+      "marks": 160,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1501,
+      "marks": 158,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1601,
+      "marks": 156,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1701,
+      "marks": 154,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1801,
+      "marks": 152,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 1901,
+      "marks": 150,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2001,
+      "marks": 149,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2101,
+      "marks": 147,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2201,
+      "marks": 146,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2301,
+      "marks": 144,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2401,
+      "marks": 143,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2501,
+      "marks": 141,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2601,
+      "marks": 140,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2701,
+      "marks": 139,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2801,
+      "marks": 138,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 2901,
+      "marks": 137,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3001,
+      "marks": 136,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3101,
+      "marks": 135,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3201,
+      "marks": 134,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3301,
+      "marks": 133,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3401,
+      "marks": 132,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3501,
+      "marks": 131,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3601,
+      "marks": 130,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3701,
+      "marks": 129,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3801,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 3901,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4001,
+      "marks": 127,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4101,
+      "marks": 126,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4201,
+      "marks": 125,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4301,
+      "marks": 124,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4401,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4501,
+      "marks": 123,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4601,
+      "marks": 122,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4701,
+      "marks": 121,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4801,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 4901,
+      "marks": 120,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5001,
+      "marks": 119,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5101,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5201,
+      "marks": 118,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5301,
+      "marks": 117,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5401,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5501,
+      "marks": 116,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5601,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5701,
+      "marks": 115,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5801,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 5901,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6001,
+      "marks": 113,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6101,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6201,
+      "marks": 112,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6301,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6401,
+      "marks": 111,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6501,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6601,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6701,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6801,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 6901,
+      "marks": 108,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7001,
+      "marks": 108,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7101,
+      "marks": 107,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7200,
+      "marks": 107,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7301,
+      "marks": 106,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7401,
+      "marks": 106,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7501,
+      "marks": 105,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7601,
+      "marks": 105,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7701,
+      "marks": 104,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7801,
+      "marks": 104,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 7901,
+      "marks": 103,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8001,
+      "marks": 103,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8101,
+      "marks": 103,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8201,
+      "marks": 102,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8301,
+      "marks": 102,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8401,
+      "marks": 101,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8501,
+      "marks": 101,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8601,
+      "marks": 100,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8701,
+      "marks": 100,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8801,
+      "marks": 100,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 8901,
+      "marks": 99,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 9001,
+      "marks": 99,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 9101,
+      "marks": 98,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 9201,
+      "marks": 98,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "rank": 9294,
+      "marks": 98,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.8"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1,
+      "marks": 303,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 101,
+      "marks": 178,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 201,
+      "marks": 153,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 301,
+      "marks": 139,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 401,
+      "marks": 130,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 501,
+      "marks": 124,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 601,
+      "marks": 119,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 701,
+      "marks": 114,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 801,
+      "marks": 110,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 901,
+      "marks": 107,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1001,
+      "marks": 104,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1101,
+      "marks": 102,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1201,
+      "marks": 99,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1301,
+      "marks": 97,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1401,
+      "marks": 95,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1501,
+      "marks": 92,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1601,
+      "marks": 90,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1701,
+      "marks": 89,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1801,
+      "marks": 87,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 1901,
+      "marks": 86,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2001,
+      "marks": 84,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2101,
+      "marks": 82,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2201,
+      "marks": 81,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2301,
+      "marks": 80,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2401,
+      "marks": 78,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2501,
+      "marks": 77,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2601,
+      "marks": 76,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2701,
+      "marks": 75,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2801,
+      "marks": 74,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 2901,
+      "marks": 73,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3001,
+      "marks": 72,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3101,
+      "marks": 71,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3201,
+      "marks": 70,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3301,
+      "marks": 69,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3401,
+      "marks": 68,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3501,
+      "marks": 68,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3601,
+      "marks": 67,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3701,
+      "marks": 66,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3801,
+      "marks": 65,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 3901,
+      "marks": 64,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4001,
+      "marks": 64,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4101,
+      "marks": 63,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4201,
+      "marks": 62,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4301,
+      "marks": 62,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4401,
+      "marks": 61,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4501,
+      "marks": 60,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4601,
+      "marks": 60,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4701,
+      "marks": 59,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4801,
+      "marks": 58,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 4901,
+      "marks": 58,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5001,
+      "marks": 57,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5101,
+      "marks": 57,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5201,
+      "marks": 56,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5301,
+      "marks": 56,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5401,
+      "marks": 55,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5501,
+      "marks": 55,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5601,
+      "marks": 54,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "SC",
+      "rank": 5682,
+      "marks": 54,
+      "total_marks": 360,
+      "pdf_page": 20,
+      "section": "6.9"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1,
+      "marks": 299,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 101,
+      "marks": 128,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 201,
+      "marks": 109,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 301,
+      "marks": 98,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 401,
+      "marks": 91,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 501,
+      "marks": 85,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 601,
+      "marks": 81,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 701,
+      "marks": 77,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 801,
+      "marks": 74,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 901,
+      "marks": 71,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1001,
+      "marks": 68,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1101,
+      "marks": 66,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1201,
+      "marks": 64,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1301,
+      "marks": 62,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1401,
+      "marks": 60,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1501,
+      "marks": 58,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1601,
+      "marks": 57,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1701,
+      "marks": 55,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1801,
+      "marks": 54,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    },
+    {
+      "rank_list": "ST",
+      "rank": 1803,
+      "marks": 54,
+      "total_marks": 360,
+      "pdf_page": 21,
+      "section": "6.10"
+    }
+  ]
+}

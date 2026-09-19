@@ -212,3 +212,131 @@ class SubjectTestResultOut(BaseModel):
     avg_time_seconds: float
     subject_breakdown: dict
     questions: list[QuestionResultOut]
+    coins_earned: int = 0
+    current_streak: int | None = None
+
+
+# ---------------------------------------------------------------------------
+# Rank/percentile/college predictor: reads docs/JEE-Predictor-Data via
+# app/services/predictor.py. General/CRL category, JEE Main only — see that
+# module's docstring for scope notes.
+# ---------------------------------------------------------------------------
+
+
+class PercentileBand(BaseModel):
+    low: float | None = None
+    high: float | None = None
+    basis: str
+
+
+class RankBand(BaseModel):
+    low: int | None = None
+    high: int | None = None
+    basis: str
+
+
+class CollegeMatchOut(BaseModel):
+    institute: str
+    program: str
+    quota: str
+    seat_type: str
+    gender_pool: str
+    opening_rank: int | None = None
+    closing_rank: int | None = None
+    reference_year: int
+    reference_round: int
+    nirf_rank: int | None = None
+    result_label: str
+    meets_conservative_estimate: bool
+
+
+class PredictionOut(BaseModel):
+    attempt_id: int
+    raw_score: float
+    raw_max_score: float
+    scaled_marks_300: float
+    reference_year: int | None = None
+    percentile: PercentileBand
+    rank: RankBand
+    confidence: Literal["full_length_mock", "partial_practice", "insufficient_data"]
+    disclaimer: str
+    colleges: list[CollegeMatchOut]
+
+
+# ---------------------------------------------------------------------------
+# Daily question & streaks: app/routers/daily_question.py. Grading reuses
+# SubjectTestSubmitIn/SubjectTestResultOut above — no separate submit schema.
+# ---------------------------------------------------------------------------
+
+
+class DailyQuestionOut(BaseModel):
+    attempt_id: int
+    already_answered: bool
+    question: TestQuestionOut
+    current_streak: int
+    longest_streak: int
+
+
+class StreakCalendarOut(BaseModel):
+    activity_dates: list[str]
+    current_streak: int
+    longest_streak: int
+
+
+# ---------------------------------------------------------------------------
+# Rewards (Edge Coins): app/routers/rewards.py.
+# ---------------------------------------------------------------------------
+
+
+class EdgeCoinTransactionOut(BaseModel):
+    id: int
+    amount: int
+    reason: str
+    note: str | None = None
+    created_at: datetime
+
+
+class RewardCatalogItemOut(BaseModel):
+    id: int
+    name: str
+    description: str | None = None
+    cost_coins: int
+
+
+class ShippingIn(BaseModel):
+    name: str
+    line1: str
+    line2: str | None = None
+    city: str
+    state: str
+    pincode: str
+    phone: str
+
+    @field_validator("name", "line1", "city", "state", "pincode", "phone")
+    @classmethod
+    def not_blank(cls, v: str) -> str:
+        v = v.strip()
+        if len(v) < 2:
+            raise ValueError("Please fill in every required shipping field.")
+        return v
+
+
+class RedeemIn(BaseModel):
+    catalog_item_id: int
+    shipping: ShippingIn
+
+
+class RewardRedemptionOut(BaseModel):
+    id: int
+    catalog_item_id: int
+    catalog_item_name: str
+    coins_spent: int
+    status: str
+    requested_at: datetime
+
+
+class WalletOut(BaseModel):
+    balance: int
+    transactions: list[EdgeCoinTransactionOut]
+    catalog: list[RewardCatalogItemOut]
+    redemptions: list[RewardRedemptionOut]

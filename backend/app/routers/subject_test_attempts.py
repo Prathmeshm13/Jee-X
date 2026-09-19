@@ -12,6 +12,7 @@ from sqlalchemy.orm import Session, joinedload
 from app import models, schemas
 from app.database import get_db
 from app.deps import get_current_db_user
+from app.services import rewards
 
 router = APIRouter(prefix="/api/subject-tests", tags=["subject-tests"])
 
@@ -58,6 +59,7 @@ def submit_subject_test(
         raise HTTPException(status_code=400, detail="This test has no questions.")
 
     answers_by_question = {a.question_id: a for a in body.answers}
+    previously_correct_count = rewards.total_correct_answers(db, user.id)
 
     results: list[schemas.QuestionResultOut] = []
     total_marks = 0
@@ -156,6 +158,14 @@ def submit_subject_test(
     attempt.avg_time_seconds = round(total_time / total_questions, 2) if total_questions else 0.0
     attempt.subject_breakdown = subject_breakdown
 
+    coins_earned = rewards.check_and_award_milestones(
+        db, user, previously_correct_count, previously_correct_count + correct_count
+    )
+    current_streak = None
+    if attempt.test.kind == "daily":
+        coins_earned += rewards.update_streak_and_award(db, user)
+        current_streak = user.student_profile.current_streak
+
     db.commit()
 
     return schemas.SubjectTestResultOut(
@@ -166,4 +176,6 @@ def submit_subject_test(
         avg_time_seconds=attempt.avg_time_seconds,
         subject_breakdown=attempt.subject_breakdown,
         questions=results,
+        coins_earned=coins_earned,
+        current_streak=current_streak,
     )

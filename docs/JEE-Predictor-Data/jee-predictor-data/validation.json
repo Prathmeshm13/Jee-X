@@ -1,0 +1,25 @@
+{
+  "record_counts": {
+    "advanced_2024_marks_rank.json": 491,
+    "josaa_2026_round_5.json": 12936,
+    "nirf_2025_engineering_top10.json": 10,
+    "main_2026_cohort_and_qualifying_cutoffs.json": 8,
+    "main_2024_2026_generic_marks_estimates.json": 21,
+    "main_2026_percentile_rank_sample.json": 32,
+    "main_2026_april_shift_estimates.json": 36,
+    "josaa_2025_round_6.json": 11945,
+    "advanced_2025_marks_rank.json": 613,
+    "advanced_2025_qualifying_cutoffs.json": 11,
+    "main_2025_percentile_rank_sample.json": 31
+  },
+  "checks": [
+    "record counts",
+    "unique cutoff keys",
+    "comparable opening/closing order",
+    "monotonic Advanced anchors",
+    "explicit quota filtering",
+    "rank-list isolation",
+    "ranks better than opening are retained"
+  ],
+  "passed": true
+}

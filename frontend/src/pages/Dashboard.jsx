@@ -60,6 +60,7 @@ export default function Dashboard() {
   const [profile, setProfile] = useState(null)
   const [attempts, setAttempts] = useState([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState('')
 
   useEffect(() => {
     (async () => {
@@ -79,17 +80,16 @@ export default function Dashboard() {
           const { savedAt, ...payload } = pending
           try {
             await api.submitTestAttempt(token, payload)
+            clearPendingFreeTest()
           } catch {
             // Non-fatal — leave it in place to retry on the next visit.
-          } finally {
-            clearPendingFreeTest()
           }
         }
 
         const list = await api.listTestAttempts(token)
         setAttempts(list)
       } catch {
-        navigate('/onboarding', { replace: true })
+        setError('Your study desk couldn’t load. Please check your connection and try again.')
       } finally {
         setLoading(false)
       }
@@ -106,7 +106,8 @@ export default function Dashboard() {
   return (
     <div className="crackjee-root">
       <AppHeader />
-      <DashboardOverview
+      {error && <div className="wrap" role="alert" style={{ paddingTop: 24 }}><div className="panel"><p>{error}</p><button className="btn btn-secondary btn-sm" style={{ marginTop: 12 }} onClick={() => window.location.reload()}>Try again</button></div></div>}
+      {!error && <DashboardOverview
         profile={profile}
         statCards={statCards}
         history={history}
@@ -118,7 +119,7 @@ export default function Dashboard() {
         onProfile={() => navigate('/profile')}
         onLogout={() => logout({ logoutParams: { returnTo: window.location.origin } })}
         onHome={() => navigate('/')}
-      />
+      />}
     </div>
   )
 }

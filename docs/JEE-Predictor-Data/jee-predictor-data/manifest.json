@@ -1,0 +1,65 @@
+{
+  "retrieved_on": "2026-09-19",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "792338ba8763d9416b229afa4dbf0a866a89acbb470f9097e9632f606e42fab6"
+    },
+    {
+      "path": "data/advanced_2024_marks_rank.json",
+      "sha256": "b4a9f9321eeefcf10488a6535f5258b76de1dfed49258cd86b12dffc1eccaffe"
+    },
+    {
+      "path": "data/advanced_2025_marks_rank.json",
+      "sha256": "28a91ac2a9af4f3ee3445a63f93e121ebb603c171d64a5e951cf666a7f61de26"
+    },
+    {
+      "path": "data/advanced_2025_qualifying_cutoffs.json",
+      "sha256": "4cd63bd9d9e1c9a32a152bd8912252cb0c55957eca1722c3c17dadcff7b66b72"
+    },
+    {
+      "path": "data/josaa_2025_round_6.json",
+      "sha256": "c6a583534fa96dd72783300d0c6e141220d71d198f0e87bc303f07520760a4a3"
+    },
+    {
+      "path": "data/josaa_2026_round_5.json",
+      "sha256": "c1ee0c0db9128c878f2629c8457a9d63f4aefa506cdc90e60fd0fa83e8da9633"
+    },
+    {
+      "path": "data/main_2024_2026_generic_marks_estimates.json",
+      "sha256": "25e997fe83878c7212fa280a8534bb09c83b751eaa9a266da01fcb4260943a0e"
+    },
+    {
+      "path": "data/main_2025_percentile_rank_sample.json",
+      "sha256": "ba47710f6f7b7123cdde1d656e5dca28ecb906e498c63435f05a6eb16ac4c6dd"
+    },
+    {
+      "path": "data/main_2026_april_shift_estimates.json",
+      "sha256": "0db0f2ae0726cd14644b21b253fd5006ba75dab99e4b3bc36b7a309e5c663822"
+    },
+    {
+      "path": "data/main_2026_cohort_and_qualifying_cutoffs.json",
+      "sha256": "cb3032c61afae015a39718657e6909c9b4a91e90cfe2686501887b5016bf340d"
+    },
+    {
+      "path": "data/main_2026_percentile_rank_sample.json",
+      "sha256": "00474393c2f3980f31ffcaac4c63372edc748cdc80ccf63ce60f44ddd6b750c4"
+    },
+    {
+      "path": "data/nirf_2025_engineering_top10.json",
+      "sha256": "63cc7f77416aaec2db16105e3b7855cf099bc5fd5c53727a4b616933fec11eee"
+    },
+    {
+      "path": "data_quality_notes.json",
+      "sha256": "bedfc2a8411b374a92f2ad4d51995257b033a3e3fdce90f8d502ee64e3f7d422"
+    },
+    {
+      "path": "match_colleges.py",
+      "sha256": "598278d0006b5ea603cc5ae6f19b7ccc9abb453bd7847412b08907a763b44654"
+    },
+    {
+      "path": "validation.json",
+      "sha256": "14a9519c630408f43cec218ee7f83016936aba3bfe0c8b8d0844bcfbe13752d8"
+    }
+  ]
+}

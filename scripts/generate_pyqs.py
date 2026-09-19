@@ -1,4 +1,4 @@
-"""Generate JEE Main 2022 and 2023 questions with Gemini and dump them as JeeX question files.
+"""Generate JEE Main 2022 and 2023 questions with Gemini and dump them as Jee Edge question files.
 
 Output follows docs/database-schema.md section 15: one file per chapter at
 <out>/<subject>/<chapter-slug>.json. Files already there are merged into, never replaced.
@@ -309,7 +309,7 @@ def verified_image_url(url):
     if not re.match(r"https?://", url, re.I):
         print(f"    dropped image URL {url!r}: not http(s)")
         return None
-    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (JeeX question generator)"})
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Jee Edge question generator)"})
     try:
         with urllib.request.urlopen(request, timeout=IMAGE_CHECK_TIMEOUT) as response:
             content_type = response.headers.get_content_type()

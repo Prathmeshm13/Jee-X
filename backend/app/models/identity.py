@@ -43,6 +43,10 @@ class StudentProfile(Base):
     category = Column(String(10), nullable=True)
     pwd = Column(Boolean, nullable=True)
     leaderboard_visibility = Column(String(20), nullable=False, server_default="username")
+    edge_coins = Column(Integer, nullable=False, server_default="0")
+    current_streak = Column(Integer, nullable=False, server_default="0")
+    longest_streak = Column(Integer, nullable=False, server_default="0")
+    last_streak_date = Column(Date, nullable=True)
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
 
     __table_args__ = (

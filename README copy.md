@@ -1,4 +1,4 @@
-# JeeX
+# Jee Edge
 
 A mock-test platform for JEE aspirants: competitive mocks, topic-by-topic analysis,
 and personalised retests, built on a 5,000-question classified starter pack.
@@ -12,7 +12,7 @@ This first slice ships:
 ## Structure
 
 ```
-jeex/
+jee-edge/
 ├── frontend/   React + Vite app (landing page, auth, onboarding, dashboard)
 └── backend/    FastAPI app (Auth0 token verification, user profile storage)
 ```
@@ -20,15 +20,15 @@ jeex/
 ## 1. Set up Auth0 (one-time)
 
 1. Create a free account at https://auth0.com and a new tenant.
-2. Applications → Create Application → "Single Page Application" → name it `JeeX Web`.
+2. Applications → Create Application → "Single Page Application" → name it `Jee Edge Web`.
    - Under Settings, set:
      - Allowed Callback URLs: `http://localhost:5173`
      - Allowed Logout URLs: `http://localhost:5173`
      - Allowed Web Origins: `http://localhost:5173`
    - Copy the **Domain** and **Client ID** — you'll need them below.
 3. Applications → APIs → Create API.
-   - Name: `JeeX API`, Identifier (audience): `https://jeex-api` (any URL-shaped string works, it doesn't have to resolve).
-4. Optional: Authentication → Database → your default connection → Applications tab → make sure `JeeX Web` is enabled, and turn on "Sign Ups" if you want self-serve signup.
+   - Name: `Jee Edge API`, Identifier (audience): `https://jee-edge-api` (any URL-shaped string works, it doesn't have to resolve).
+4. Optional: Authentication → Database → your default connection → Applications tab → make sure `Jee Edge Web` is enabled, and turn on "Sign Ups" if you want self-serve signup.
 
 ## 2. Run the backend
 
@@ -42,16 +42,16 @@ cp .env.example .env
 Edit `.env`:
 ```
 AUTH0_DOMAIN=your-tenant.us.auth0.com
-AUTH0_AUDIENCE=https://jeex-api
+AUTH0_AUDIENCE=https://jee-edge-api
 CORS_ORIGINS=http://localhost:5173
-DATABASE_URL=sqlite:///./jeex.db
+DATABASE_URL=sqlite:///./jee-edge.db
 ```
 
 ```bash
 uvicorn app.main:app --reload --port 8000
 ```
 
-The API is now at `http://localhost:8000`. SQLite (`jeex.db`) is created automatically
+The API is now at `http://localhost:8000`. SQLite (`jee-edge.db`) is created automatically
 on first run — swap `DATABASE_URL` for Postgres later without touching any other code.
 
 ## 3. Run the frontend
@@ -66,7 +66,7 @@ Edit `.env`:
 ```
 VITE_AUTH0_DOMAIN=your-tenant.us.auth0.com
 VITE_AUTH0_CLIENT_ID=your-client-id-from-step-1
-VITE_AUTH0_AUDIENCE=https://jeex-api
+VITE_AUTH0_AUDIENCE=https://jee-edge-api
 VITE_API_URL=http://localhost:8000
 ```
 

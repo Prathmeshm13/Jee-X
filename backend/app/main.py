@@ -6,13 +6,22 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app import models  # noqa: F401 -- registers every table on Base.metadata
 from app.database import Base, engine
-from app.routers import users, test_attempts, subjects, subject_tests, subject_test_attempts
+from app.routers import (
+    users,
+    test_attempts,
+    subjects,
+    subject_tests,
+    subject_test_attempts,
+    predictions,
+    daily_question,
+    rewards,
+)
 
 load_dotenv()
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="JeeX API", version="0.1.0")
+app = FastAPI(title="Jee Edge API", version="0.1.0")
 
 origins = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",")]
 
@@ -29,6 +38,9 @@ app.include_router(test_attempts.router)
 app.include_router(subjects.router)
 app.include_router(subject_tests.router)
 app.include_router(subject_test_attempts.router)
+app.include_router(predictions.router)
+app.include_router(daily_question.router)
+app.include_router(rewards.router)
 
 
 @app.get("/health")

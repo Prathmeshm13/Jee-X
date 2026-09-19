@@ -1,6 +1,6 @@
-# JeeX architecture diagrams
+# Jee Edge architecture diagrams
 
-Every diagram for the JeeX platform, as editable Mermaid source and rendered images. The full
+Every diagram for the Jee Edge platform, as editable Mermaid source and rendered images. The full
 schema reference — `CREATE TABLE` statements, rules and the reasoning behind each design choice —
 is [`docs/database-schema.md`](../docs/database-schema.md).
 

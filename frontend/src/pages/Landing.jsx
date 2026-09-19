@@ -202,7 +202,7 @@ export default function Landing() {
       <section className="section" id="how-it-works" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="section-head">
-            <h2>How JeeX finds your weak topics</h2>
+            <h2>How Jee Edge finds your weak topics</h2>
             <p>Three steps, repeated after every test, until your weak chapters run out.</p>
           </div>
           <div className="steps">
@@ -249,7 +249,7 @@ export default function Landing() {
 
       <footer className="footer">
         <div className="wrap footer-row">
-          <span>JeeX</span>
+          <span>Jee Edge</span>
           <span>Built for JEE Main &amp; Advanced aspirants</span>
         </div>
       </footer>

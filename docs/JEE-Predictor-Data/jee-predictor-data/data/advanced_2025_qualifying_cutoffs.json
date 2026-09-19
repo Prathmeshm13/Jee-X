@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "retrieved_on": "2026-09-19",
+    "year": 2025,
+    "source_type": "official",
+    "source_url": "https://jeeadv.ac.in/reports/2025.pdf",
+    "section": "5.2",
+    "pdf_page": 17,
+    "notes": "Both per-subject and aggregate thresholds must be met; no college admission guarantee.",
+    "record_count": 11
+  },
+  "records": [
+    {
+      "rank_list": "CRL",
+      "minimum_each_subject": 7,
+      "minimum_aggregate": 74
+    },
+    {
+      "rank_list": "OBC-NCL",
+      "minimum_each_subject": 6,
+      "minimum_aggregate": 66
+    },
+    {
+      "rank_list": "GEN-EWS",
+      "minimum_each_subject": 6,
+      "minimum_aggregate": 66
+    },
+    {
+      "rank_list": "SC",
+      "minimum_each_subject": 3,
+      "minimum_aggregate": 37
+    },
+    {
+      "rank_list": "ST",
+      "minimum_each_subject": 3,
+      "minimum_aggregate": 37
+    },
+    {
+      "rank_list": "CRL-PwD",
+      "minimum_each_subject": 3,
+      "minimum_aggregate": 37
+    },
+    {
+      "rank_list": "OBC-NCL-PwD",
+      "minimum_each_subject": 3,
+      "minimum_aggregate": 37
+    },
+    {
+      "rank_list": "GEN-EWS-PwD",
+      "minimum_each_subject": 3,
+      "minimum_aggregate": 37
+    },
+    {
+      "rank_list": "SC-PwD",
+      "minimum_each_subject": 3,
+      "minimum_aggregate": 37
+    },
+    {
+      "rank_list": "ST-PwD",
+      "minimum_each_subject": 3,
+      "minimum_aggregate": 37
+    },
+    {
+      "rank_list": "Preparatory",
+      "minimum_each_subject": 1,
+      "minimum_aggregate": 18
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "retrieved_on": "2026-09-19",
+    "exam": "JEE_MAIN_PAPER1",
+    "source_type": "secondary_estimate",
+    "source_url": "https://engineering.careers360.com/articles/jee-main-marks-vs-percentile",
+    "production_status": "disabled_pending_independent_validation",
+    "notes": "Generic non-shift-specific targets; + notation preserved; no upper bounds invented.",
+    "record_count": 21
+  },
+  "records": [
+    {
+      "year": 2026,
+      "percentile_target": 99.9,
+      "marks_threshold_reported": 230,
+      "source_value": "230+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "percentile_target": 99.5,
+      "marks_threshold_reported": 188,
+      "source_value": "188+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "percentile_target": 99,
+      "marks_threshold_reported": 167,
+      "source_value": "167+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "percentile_target": 98,
+      "marks_threshold_reported": 144,
+      "source_value": "144+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "percentile_target": 97,
+      "marks_threshold_reported": 130,
+      "source_value": "130+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "percentile_target": 95,
+      "marks_threshold_reported": 110,
+      "source_value": "110+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2026,
+      "percentile_target": 90,
+      "marks_threshold_reported": 79,
+      "source_value": "79+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2025,
+      "percentile_target": 99.9,
+      "marks_threshold_reported": 222,
+      "source_value": "222+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2025,
+      "percentile_target": 99.5,
+      "marks_threshold_reported": 190,
+      "source_value": "190+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2025,
+      "percentile_target": 99,
+      "marks_threshold_reported": 180,
+      "source_value": "180+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2025,
+      "percentile_target": 98,
+      "marks_threshold_reported": 160,
+      "source_value": "160+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2025,
+      "percentile_target": 97,
+      "marks_threshold_reported": 141,
+      "source_value": "141+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2025,
+      "percentile_target": 95,
+      "marks_threshold_reported": 119,
+      "source_value": "119+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2025,
+      "percentile_target": 90,
+      "marks_threshold_reported": 81,
+      "source_value": "81+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2024,
+      "percentile_target": 99.9,
+      "marks_threshold_reported": 219,
+      "source_value": "219+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2024,
+      "percentile_target": 99.5,
+      "marks_threshold_reported": 189,
+      "source_value": "189+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2024,
+      "percentile_target": 99,
+      "marks_threshold_reported": 170,
+      "source_value": "170+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2024,
+      "percentile_target": 98,
+      "marks_threshold_reported": 148,
+      "source_value": "148+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2024,
+      "percentile_target": 97,
+      "marks_threshold_reported": 128,
+      "source_value": "128+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2024,
+      "percentile_target": 95,
+      "marks_threshold_reported": 104,
+      "source_value": "104+",
+      "shift": null,
+      "total_marks": 300
+    },
+    {
+      "year": 2024,
+      "percentile_target": 90,
+      "marks_threshold_reported": 77,
+      "source_value": "77+",
+      "shift": null,
+      "total_marks": 300
+    }
+  ]
+}

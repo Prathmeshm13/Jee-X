@@ -11,7 +11,7 @@
  * here (unlike inside Claude.ai's Artifacts sandbox, where it's unsupported).
  */
 
-const KEY = 'jeex.pendingFreeTestResult'
+const KEY = 'jee-edge.pendingFreeTestResult'
 const MAX_AGE_MS = 30 * 60 * 1000 // stale after 30 minutes — don't resurrect an old test
 
 export function savePendingFreeTest(result) {

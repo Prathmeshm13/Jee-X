@@ -36,7 +36,7 @@ class Test(Base):
 
     __table_args__ = (
         CheckConstraint(
-            "kind IN ('free_diagnostic','mock','chapter','retest')", name="ck_tests_kind"
+            "kind IN ('free_diagnostic','mock','chapter','retest','daily')", name="ck_tests_kind"
         ),
         CheckConstraint("pattern IN ('jee_main','jee_advanced')", name="ck_tests_pattern"),
         CheckConstraint(

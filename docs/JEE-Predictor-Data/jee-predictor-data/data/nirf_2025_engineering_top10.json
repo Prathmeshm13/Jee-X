@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "retrieved_on": "2026-09-19",
+    "year": 2025,
+    "source_type": "official",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "coverage": "Top 10 only; independent ranking reference, not an admissions mapping",
+    "record_count": 10
+  },
+  "records": [
+    {
+      "nirf_id": "IR-E-U-0456",
+      "institute": "Indian Institute of Technology Madras",
+      "rank": 1,
+      "score": 88.72
+    },
+    {
+      "nirf_id": "IR-E-I-1074",
+      "institute": "Indian Institute of Technology Delhi",
+      "rank": 2,
+      "score": 85.74
+    },
+    {
+      "nirf_id": "IR-E-U-0306",
+      "institute": "Indian Institute of Technology Bombay",
+      "rank": 3,
+      "score": 83.65
+    },
+    {
+      "nirf_id": "IR-E-I-1075",
+      "institute": "Indian Institute of Technology Kanpur",
+      "rank": 4,
+      "score": 81.82
+    },
+    {
+      "nirf_id": "IR-E-U-0573",
+      "institute": "Indian Institute of Technology Kharagpur",
+      "rank": 5,
+      "score": 78.69
+    },
+    {
+      "nirf_id": "IR-E-U-0560",
+      "institute": "Indian Institute of Technology Roorkee",
+      "rank": 6,
+      "score": 75.44
+    },
+    {
+      "nirf_id": "IR-E-U-0013",
+      "institute": "Indian Institute of Technology Hyderabad",
+      "rank": 7,
+      "score": 72.31
+    },
+    {
+      "nirf_id": "IR-E-U-0053",
+      "institute": "Indian Institute of Technology Guwahati",
+      "rank": 8,
+      "score": 72.24
+    },
+    {
+      "nirf_id": "IR-E-U-0467",
+      "institute": "National Institute of Technology Tiruchirappalli",
+      "rank": 9,
+      "score": 68.14
+    },
+    {
+      "nirf_id": "IR-E-U-0701",
+      "institute": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+      "rank": 10,
+      "score": 67.24
+    }
+  ]
+}
