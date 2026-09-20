@@ -90,3 +90,5 @@ __all__ = [
     "RewardRedemption",
     "DailyQuestionAssignment",
 ]
+
+from app.models.ranking import JeeXRating, RatedContest, ContestEntry

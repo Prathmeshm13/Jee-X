@@ -1,6 +1,8 @@
 import { lazy, Suspense } from 'react'
 import { Loader } from './components/Brand.jsx'
 import { Routes, Route } from 'react-router-dom'
+const Ranking = lazy(() => import('./pages/Ranking.jsx'))
+const RankedTest = lazy(() => import('./pages/RankedTest.jsx'))
 const Home = lazy(() => import('./pages/Home.jsx'))
 const MockTest = lazy(() => import('./pages/MockTest.jsx'))
 const Analysis = lazy(() => import('./pages/Analysis.jsx'))
@@ -17,6 +19,8 @@ import ProtectedRoute from './components/ProtectedRoute.jsx'
 export default function App() {
   return (
     <Suspense fallback={<Loader fullScreen label="Opening your study space" />}><Routes>
+      <Route path="/ranking" element={<ProtectedRoute><Ranking /></ProtectedRoute>} />
+      <Route path="/ranked-test/:id" element={<ProtectedRoute><RankedTest /></ProtectedRoute>} />
       <Route path="/" element={<Home />} />
       <Route path="/free-test" element={<FreeTest />} />
       <Route

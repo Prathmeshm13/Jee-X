@@ -1,3 +1,4 @@
+import RatingSummary from '../components/RatingSummary.jsx'
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
@@ -107,6 +108,7 @@ export default function Dashboard() {
     <div className="crackjee-root">
       <AppHeader />
       {error && <div className="wrap" role="alert" style={{ paddingTop: 24 }}><div className="panel"><p>{error}</p><button className="btn btn-secondary btn-sm" style={{ marginTop: 12 }} onClick={() => window.location.reload()}>Try again</button></div></div>}
+      {!error && <div className="wrap"><RatingSummary /></div>}
       {!error && <DashboardOverview
         profile={profile}
         statCards={statCards}

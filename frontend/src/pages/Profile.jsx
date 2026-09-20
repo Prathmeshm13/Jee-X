@@ -1,3 +1,4 @@
+import RatingSummary from '../components/RatingSummary.jsx'
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
@@ -195,6 +196,7 @@ export default function Profile() {
           {saved && !editing && <p className="hint hint-ok" style={{ marginTop: 18 }} role="status">Changes saved.</p>}
         </div>
 
+        <RatingSummary />
         <div style={{ marginTop: 20 }}>
           <StreakCalendar />
         </div>

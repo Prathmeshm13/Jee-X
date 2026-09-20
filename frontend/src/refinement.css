@@ -286,3 +286,6 @@ button svg,a svg{flex-shrink:0}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
 }
 
+
+/* Keep the first navigation item reachable as workspace sections grow. */
+.appnav{justify-content:flex-start}
